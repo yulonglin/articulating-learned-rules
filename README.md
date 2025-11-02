@@ -194,10 +194,10 @@ All experiments use temperature=0.0 for deterministic outputs (except data gener
 ## Citation
 
 ```bibtex
-@article{lin2025articulating,
+@misc{lin2025articulating,
   title={Can Language Models Learn Rules They Cannot Articulate? Evaluating the Learnability-Articulation Gap in LLMs},
   author={Lin, Yulong},
-  journal={arXiv preprint},
+  howpublished={\url{https://github.com/yulonglin/articulating-learned-rules}},
   year={2025}
 }
 ```
