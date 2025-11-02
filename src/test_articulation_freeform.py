@@ -829,7 +829,7 @@ def create_argument_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--functional-test-size",
         type=int,
-        default=20,
+        default=50,
         help="Number of samples for functional testing",
     )
     parser.add_argument(
