@@ -72,7 +72,7 @@ def plot_overall_learning_curves(df: pd.DataFrame, output_path: Path):
 
     models = df["model"].unique()
     colors = {"gpt-4.1-nano-2025-04-14": "#3498db", "claude-haiku-4-5-20251001": "#e74c3c"}
-    labels = {"gpt-4.1-nano-2025-04-14": "GPT-4.1-nano", "claude-haiku-4-5-20251001": "Claude Haiku"}
+    labels = {"gpt-4.1-nano-2025-04-14": "GPT-4.1-nano", "claude-haiku-4-5-20251001": "Claude Haiku 4.5"}
 
     shot_counts = sorted(df["shot_count"].unique())
 
@@ -123,7 +123,7 @@ def plot_category_learning_curves(df: pd.DataFrame, output_path: Path):
 
     models = sorted(df["model"].unique())
     model_labels = {"gpt-4.1-nano-2025-04-14": "GPT-4.1-nano",
-                    "claude-haiku-4-5-20251001": "Claude Haiku"}
+                    "claude-haiku-4-5-20251001": "Claude Haiku 4.5"}
 
     categories = sorted(df["category"].unique())
     category_colors = {
@@ -199,7 +199,7 @@ def plot_model_comparison_by_category(df: pd.DataFrame, output_path: Path):
     width = 0.35
 
     model_labels = {"gpt-4.1-nano-2025-04-14": "GPT-4.1-nano",
-                    "claude-haiku-4-5-20251001": "Claude Haiku"}
+                    "claude-haiku-4-5-20251001": "Claude Haiku 4.5"}
     colors = {"gpt-4.1-nano-2025-04-14": "#3498db", "claude-haiku-4-5-20251001": "#e74c3c"}
 
     for i, model in enumerate(models):
@@ -253,7 +253,7 @@ def plot_rule_level_heatmap(df: pd.DataFrame, output_path: Path):
     pivot = pivot.drop("mean_accuracy", axis=1)
 
     # Rename columns for clarity
-    pivot.columns = ["GPT-4.1-nano", "Claude Haiku"]
+    pivot.columns = ["GPT-4.1-nano", "Claude Haiku 4.5"]
 
     # Create figure
     fig, ax = plt.subplots(figsize=(8, 16))
@@ -382,7 +382,7 @@ def plot_model_agreement_analysis(df: pd.DataFrame, output_path: Path) -> dict[s
             bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
 
     ax.set_xlabel("GPT-4.1-nano Accuracy", fontsize=12, fontweight="bold")
-    ax.set_ylabel("Claude Haiku Accuracy", fontsize=12, fontweight="bold")
+    ax.set_ylabel("Claude Haiku 4.5 Accuracy", fontsize=12, fontweight="bold")
     ax.set_title("Model Agreement on Rule Difficulty (100-shot)",
                  fontsize=13, fontweight="bold")
     ax.legend(fontsize=10, loc="lower right")
@@ -460,7 +460,7 @@ def generate_analysis_summary(df: pd.DataFrame, output_path: Path, correlations:
     df_100 = df[df["shot_count"] == 100]
     for model in sorted(df_100["model"].unique()):
         model_mean = df_100[df_100["model"] == model]["accuracy"].mean()
-        model_label = "GPT-4.1-nano" if "gpt" in model.lower() else "Claude Haiku"
+        model_label = "GPT-4.1-nano" if "gpt" in model.lower() else "Claude Haiku 4.5"
         lines.append(f"- **{model_label}:** {model_mean:.1%}")
 
     lines.append("\n## Category Breakdown (100-shot)\n")

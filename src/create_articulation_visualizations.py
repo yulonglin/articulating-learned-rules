@@ -427,7 +427,7 @@ def plot_model_agreement_on_articulation(df: pd.DataFrame, output_path: Path):
             bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
 
     ax.set_xlabel("GPT-4.1-nano MC Accuracy", fontsize=14, fontweight="bold")
-    ax.set_ylabel("Claude Haiku MC Accuracy", fontsize=14, fontweight="bold")
+    ax.set_ylabel("Claude Haiku 4.5 MC Accuracy", fontsize=14, fontweight="bold")
     ax.set_title("Model Agreement on Articulation Difficulty",
                  fontsize=16, fontweight="bold", pad=20)
     ax.legend(fontsize=11, loc="lower right")

@@ -101,7 +101,7 @@ def plot_learn_vs_articulation_curves(
     models = sorted(learn_df["model"].unique())
     model_labels = {
         "gpt-4.1-nano-2025-04-14": "GPT-4.1-nano",
-        "claude-haiku-4-5-20251001": "Claude Haiku",
+        "claude-haiku-4-5-20251001": "Claude Haiku 4.5",
     }
 
     shot_counts = sorted(learn_df["shot_count"].unique())
@@ -302,20 +302,47 @@ def plot_gap_across_shots(
         learn_cat = learn_df[learn_df["category"] == category]
         artic_cat = artic_df[artic_df["category"] == category]
 
-        gaps = []
+        # Compute per-rule gaps to get standard deviations
+        gap_means = []
+        gap_stds = []
         for shot in shot_counts:
-            learn_mean = learn_cat[learn_cat["shot_count"] == shot]["accuracy"].mean()
-            artic_mean = artic_cat[artic_cat["shot_count"] == shot]["accuracy"].mean()
-            gaps.append(learn_mean - artic_mean)
+            # Merge learn and artic data for this shot count to compute per-rule gaps
+            learn_shot = learn_cat[learn_cat["shot_count"] == shot]
+            artic_shot = artic_cat[artic_cat["shot_count"] == shot]
+
+            # Merge on rule_id and model to get paired observations
+            merged = learn_shot.merge(
+                artic_shot,
+                on=["rule_id", "model"],
+                suffixes=("_learn", "_artic")
+            )
+
+            # Compute per-observation gaps
+            per_rule_gaps = merged["accuracy_learn"] - merged["accuracy_artic"]
+
+            gap_means.append(per_rule_gaps.mean())
+            gap_stds.append(per_rule_gaps.std())
+
+        gap_means = np.array(gap_means)
+        gap_stds = np.array(gap_stds)
 
         color = category_colors.get(category, "#95a5a6")
         ax.plot(
             shot_counts,
-            gaps,
+            gap_means,
             marker="o",
             linewidth=2.5,
             color=color,
             label=category.capitalize(),
+        )
+
+        # Add error bars (±1 SD)
+        ax.fill_between(
+            shot_counts,
+            gap_means - gap_stds,
+            gap_means + gap_stds,
+            alpha=0.15,
+            color=color,
         )
 
     # Add zero line
@@ -355,12 +382,27 @@ def plot_degrading_articulation_rules(artic_df: pd.DataFrame, output_path: Path)
         print("⚠ No rules show significant articulation degradation (>10%)")
         return
 
-    # Get top 10 most degrading rules
-    top_degrading = degradation.nlargest(10)
+    # Get all degrading rules (or top 10 if more than 10)
+    top_degrading = degradation.nlargest(min(10, len(degradation)))
+    n_plots = len(top_degrading)
+
+    # Dynamically determine subplot layout
+    if n_plots <= 3:
+        n_rows, n_cols = 1, n_plots
+    elif n_plots <= 6:
+        n_rows, n_cols = 2, 3
+    elif n_plots <= 8:
+        n_rows, n_cols = 2, 4
+    else:
+        n_rows, n_cols = 2, 5
 
     # Plot articulation curves for these rules
-    fig, axes = plt.subplots(2, 5, figsize=(20, 8))
-    axes = axes.flatten()
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(n_cols * 4, n_rows * 4))
+    # Handle case where axes is not an array (single subplot)
+    if n_plots == 1:
+        axes = [axes]
+    else:
+        axes = axes.flatten()
 
     shot_counts = sorted(artic_df["shot_count"].unique())
 
@@ -397,8 +439,17 @@ def plot_degrading_articulation_rules(artic_df: pd.DataFrame, output_path: Path)
         ax.set_ylim([0, 1.05])
         ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: f"{y:.0%}"))
 
+    # Hide unused subplots
+    for idx in range(n_plots, len(axes)):
+        axes[idx].axis('off')
+
+    # Update title to reflect actual number
+    title = f"Rules Where Articulation DEGRADES with More Examples ({n_plots} total)"
+    if n_plots == 10:
+        title = "Top 10 Rules Where Articulation DEGRADES with More Examples"
+
     fig.suptitle(
-        "Top 10 Rules Where Articulation DEGRADES with More Examples",
+        title,
         fontsize=15,
         fontweight="bold",
     )
@@ -421,9 +472,12 @@ def plot_model_agreement_articulation(artic_df: pd.DataFrame, output_path: Path)
     gpt_col = "gpt-4.1-nano-2025-04-14"
     claude_col = "claude-haiku-4-5-20251001"
 
-    gpt_acc = pivot[gpt_col].values
-    claude_acc = pivot[claude_col].values
-    categories = pivot["category"].values
+    # Filter to only rules with data from both models (remove NaN)
+    pivot_filtered = pivot.dropna(subset=[gpt_col, claude_col])
+
+    gpt_acc = pivot_filtered[gpt_col].values
+    claude_acc = pivot_filtered[claude_col].values
+    categories = pivot_filtered["category"].values
 
     # Calculate correlation
     correlation = np.corrcoef(gpt_acc, claude_acc)[0, 1]
@@ -474,7 +528,7 @@ def plot_model_agreement_articulation(artic_df: pd.DataFrame, output_path: Path)
     )
 
     ax.set_xlabel("GPT-4.1-nano Articulation (100-shot)", fontsize=13, fontweight="bold")
-    ax.set_ylabel("Claude Haiku Articulation (100-shot)", fontsize=13, fontweight="bold")
+    ax.set_ylabel("Claude Haiku 4.5 Articulation (100-shot)", fontsize=13, fontweight="bold")
     ax.set_title(
         "Model Agreement on Articulation Difficulty",
         fontsize=15,
@@ -672,11 +726,15 @@ def generate_comprehensive_analysis(
     pivot = df_100.pivot_table(
         index="rule_id", columns="model", values="accuracy"
     )
-    gpt_acc = pivot["gpt-4.1-nano-2025-04-14"].values
-    claude_acc = pivot["claude-haiku-4-5-20251001"].values
+
+    # Filter to only rules with data from both models
+    pivot_filtered = pivot.dropna(subset=["gpt-4.1-nano-2025-04-14", "claude-haiku-4-5-20251001"])
+
+    gpt_acc = pivot_filtered["gpt-4.1-nano-2025-04-14"].values
+    claude_acc = pivot_filtered["claude-haiku-4-5-20251001"].values
     correlation = np.corrcoef(gpt_acc, claude_acc)[0, 1]
 
-    lines.append(f"- **Pearson correlation:** r = {correlation:.3f}")
+    lines.append(f"- **Pearson correlation (n={len(pivot_filtered)} rules with both models):** r = {correlation:.3f}")
     if correlation > 0.7:
         lines.append("- **Interpretation:** Strong agreement - models find similar rules hard to articulate")
     elif correlation > 0.4:
