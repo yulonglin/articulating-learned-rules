@@ -220,3 +220,4 @@ archive/
 *.aux
 *.out
 *.pdf
+.git
