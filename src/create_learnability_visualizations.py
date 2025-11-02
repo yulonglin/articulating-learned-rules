@@ -127,8 +127,7 @@ def plot_category_learning_curves(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -240,6 +239,16 @@ def plot_rule_level_heatmap(df: pd.DataFrame, output_path: Path):
     # Filter to 100-shot only
     df_100 = df[df["shot_count"] == 100].copy()
 
+    # Filter to only learnable rules (>=90% for at least one model)
+    learnable_rules = set()
+    for rule_id in df_100["rule_id"].unique():
+        rule_df = df_100[df_100["rule_id"] == rule_id]
+        if rule_df["accuracy"].max() >= 0.90:
+            learnable_rules.add(rule_id)
+
+    df_100 = df_100[df_100["rule_id"].isin(learnable_rules)].copy()
+    print(f"Filtered to {len(learnable_rules)} learnable rules (≥90% for at least one model)")
+
     # Pivot to get rule × model matrix
     pivot = df_100.pivot_table(
         index=["category", "rule_id"],
@@ -252,8 +261,12 @@ def plot_rule_level_heatmap(df: pd.DataFrame, output_path: Path):
     pivot = pivot.sort_values(["category", "mean_accuracy"], ascending=[True, False])
     pivot = pivot.drop("mean_accuracy", axis=1)
 
-    # Rename columns for clarity
-    pivot.columns = ["GPT-4.1-nano", "Claude Haiku 4.5"]
+    # Rename columns for clarity - use mapping based on actual column names
+    column_mapping = {
+        "gpt-4.1-nano-2025-04-14": "GPT-4.1-nano",
+        "claude-haiku-4-5-20251001": "Claude Haiku"
+    }
+    pivot.columns = [column_mapping.get(col, col) for col in pivot.columns]
 
     # Create figure
     fig, ax = plt.subplots(figsize=(8, 16))
@@ -277,8 +290,7 @@ def plot_rule_level_heatmap(df: pd.DataFrame, output_path: Path):
 
     # Add category color bar on the left
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -346,8 +358,7 @@ def plot_model_agreement_analysis(df: pd.DataFrame, output_path: Path) -> dict[s
     ax = axes[0]
 
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -501,7 +512,7 @@ def generate_analysis_summary(df: pd.DataFrame, output_path: Path, correlations:
     lines.append("\n## Key Insights\n")
     lines.append("1. **Monotonic improvement:** Accuracy increases consistently with more examples")
     lines.append("2. **Claude advantage:** Outperforms GPT across nearly all categories")
-    lines.append("3. **Category difficulty:** Syntactic rules easiest, semantic/statistical more challenging")
+    lines.append("3. **Category difficulty:** Pattern-based rules generally easier, semantic/statistical more challenging")
     lines.append("4. **Optimal shot count:** 50-100 examples recommended for reliable performance")
     if correlations and correlations['spearman_r'] > 0.7:
         lines.append("5. **Model agreement:** Both models find similar rules difficult, suggesting inherent task difficulty")

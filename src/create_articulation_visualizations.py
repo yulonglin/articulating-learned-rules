@@ -100,8 +100,7 @@ def plot_performance_gap_scatter(df: pd.DataFrame, output_path: Path):
     df_complete = df.dropna(subset=["learn_100_accuracy", "mc_accuracy"])
 
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -276,8 +275,7 @@ def plot_rule_level_heatmap_with_gap(
 
     # Color y-tick labels by category
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -316,8 +314,7 @@ def plot_shot_count_vs_articulation(df: pd.DataFrame, output_path: Path):
     fig, ax = plt.subplots(figsize=(12, 8))
 
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -395,8 +392,7 @@ def plot_model_agreement_on_articulation(df: pd.DataFrame, output_path: Path):
     fig, ax = plt.subplots(figsize=(11, 10))
 
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }

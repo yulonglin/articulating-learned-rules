@@ -373,8 +373,7 @@ def plot_category_comparison(df: pd.DataFrame, output_path: Path):
     """Figure 3: Faithfulness by category (grouped bar chart)."""
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -463,8 +462,7 @@ def plot_functional_vs_faithfulness(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -542,8 +540,7 @@ def plot_cross_context_improvement(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -714,8 +711,7 @@ def plot_category_boxplots(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }

@@ -163,8 +163,7 @@ def plot_judge_vs_functional_scatter(
 
     # Define category colors
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -533,11 +532,10 @@ def plot_prompt_variation_comparison(
 
 
 def plot_category_performance(freeform_df: pd.DataFrame, output_path: Path):
-    """Figure 4: Category-specific performance (syntactic, pattern, semantic, statistical)."""
+    """Figure 4: Category-specific performance (pattern-based, semantic, statistical)."""
     categories = sorted(freeform_df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -735,8 +733,7 @@ def plot_mc_vs_freeform_comparison(
     ax = axes[2]
     categories = sorted(freeform_df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -826,8 +823,7 @@ def plot_gap_analysis_by_category(freeform_df: pd.DataFrame, output_path: Path):
 
     categories = sorted(freeform_df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }

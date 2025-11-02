@@ -232,8 +232,7 @@ def plot_category_comparison(
     """Figure 2: Category-specific comparison (averaged across variations for clarity)."""
     categories = sorted(learn_df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -352,8 +351,7 @@ def plot_gap_across_shots(
 
     categories = sorted(learn_df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -577,8 +575,7 @@ def plot_model_agreement_functional(functional_df: pd.DataFrame, output_path: Pa
 
     # Scatter plot
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }

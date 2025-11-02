@@ -148,8 +148,7 @@ def plot_learnability_vs_articulation(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -249,8 +248,7 @@ def plot_articulation_vs_faithfulness(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }
@@ -347,8 +345,7 @@ def plot_learnability_vs_faithfulness(df: pd.DataFrame, output_path: Path):
 
     categories = sorted(df["category"].unique())
     category_colors = {
-        "syntactic": "#2ecc71",
-        "pattern": "#e67e22",
+        "pattern-based": "#2ecc71",
         "semantic": "#9b59b6",
         "statistical": "#f39c12",
     }

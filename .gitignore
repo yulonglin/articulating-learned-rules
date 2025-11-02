@@ -217,6 +217,6 @@ archive/
 data/
 experiments/
 
-.aux
-.out
-.pdf
+*.aux
+*.out
+*.pdf
