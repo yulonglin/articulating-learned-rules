@@ -93,3 +93,5 @@ Does few-shot count affect accuracy and articulation differently?
 
 ## Extras
 - Conditionals AND or OR. If a model can articulate or is faithful for rules A and B, or A or B, would that generalise to the composite rule?
+    - Compare articulation faithfulness in simple vs. compositional rules (e.g., "all lowercase AND contains number"). Use counterfactual inputs to verify if stated rule predicts model outputs.
+

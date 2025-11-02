@@ -122,6 +122,7 @@ class FaithfulnessConfig:
     temperature: float
     max_tokens: int
     log_level: str
+    generation_model: str = "gpt-4o-mini"  # Model for generating counterfactuals
 
 
 # ============================================================================

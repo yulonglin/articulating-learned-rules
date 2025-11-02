@@ -689,3 +689,218 @@ Dataset generation should be revisited in future iterations to:
 - Add adversarial examples that break surface patterns
 
 ---
+
+## [Timestamp: 2025-11-02 00:40 UTC]
+
+**Activity:** Faithfulness Experiment (Step 3) - Testing Whether Articulations Explain Behavior
+
+**Description & Status:**
+Completed faithfulness testing to determine whether articulated rules from Step 2 actually explain model classification behavior from Step 1. Following Turpin et al.'s framework, tested if articulations are faithful explanations or post-hoc rationalizations. Status: **Complete**.
+
+**Commands Run:**
+```bash
+# Initial attempt - sequential execution (killed after recognizing inefficiency)
+uv run python -m src.test_faithfulness \
+  --rules-file data/processed/rules/curated_rules_learnable.jsonl \
+  --datasets-dir data/processed/datasets \
+  --articulation-results-dir experiments/articulation_freeform_multishot \
+  --output-dir experiments/faithfulness_multishot \
+  --models gpt-4.1-nano-2025-04-14 claude-haiku-4-5-20251001 \
+  --test-types counterfactual consistency cross_context \
+  --num-counterfactuals 20 \
+  --cache-mode persistent \
+  --max-concurrent 100 \
+  --log-level INFO
+# Killed after ~7/62 completed - processing sequentially
+
+# Modified code for parallel execution (asyncio.gather across all rule-model pairs)
+# Re-ran with higher concurrency
+uv run python -m src.test_faithfulness \
+  --rules-file data/processed/rules/curated_rules_learnable.jsonl \
+  --datasets-dir data/processed/datasets \
+  --articulation-results-dir experiments/articulation_freeform_multishot \
+  --output-dir experiments/faithfulness_multishot \
+  --models gpt-4.1-nano-2025-04-14 claude-haiku-4-5-20251001 \
+  --test-types counterfactual consistency cross_context \
+  --num-counterfactuals 20 \
+  --cache-mode persistent \
+  --max-concurrent 200 \
+  --log-level INFO
+# Runtime: ~5 minutes (vs estimated 30-40 min sequential)
+
+# Generate visualizations
+uv run python -m src.create_faithfulness_visualizations \
+  --faithfulness-summary experiments/faithfulness_multishot/summary_faithfulness.yaml \
+  --articulation-summary experiments/articulation_freeform_multishot/summary.yaml \
+  --rules-file data/processed/rules/curated_rules_learnable.jsonl \
+  --output-dir experiments/faithfulness_multishot/figures
+```
+
+**Files and Outputs Examined/Generated:**
+- **Input:**
+  - `data/processed/rules/curated_rules_learnable.jsonl` - 31 learnable rules
+  - `experiments/articulation_freeform_multishot/summary.yaml` - Best articulations per rule-model
+  - `experiments/articulation_freeform_multishot/*_freeform.jsonl` - Individual articulation results
+  - `data/processed/datasets/*.jsonl` - Classification datasets
+
+- **Code Modifications:**
+  - `src/test_faithfulness.py:725-810` - Modified `get_articulation()` to select best articulation based on highest functional_accuracy, tie-break by llm_judge_score
+  - `src/test_faithfulness.py:914-956` - Parallelized execution using `asyncio.gather()` across all 62 rule-model pairs (was sequential loop)
+
+- **Scripts Created:**
+  - `src/create_faithfulness_visualizations.py` - Comprehensive visualization script with 10 publication-quality figures
+
+- **Outputs Generated:**
+  - `experiments/faithfulness_multishot/summary_faithfulness.yaml` - Aggregate metrics for all 62 tests
+  - `experiments/faithfulness_multishot/*_faithfulness.jsonl` - 62 detailed result files (one per rule-model pair)
+  - `experiments/faithfulness_multishot/faithfulness.log` - Execution log
+  - `experiments/faithfulness_multishot/figures/*.png` - 10 visualization files (3.3 MB total)
+
+**Experiment Parameters:**
+- **Rules tested:** 31 learnable rules
+- **Models:** GPT-4.1-nano, Claude Haiku 4.5
+- **Total evaluations:** 62 (31 rules × 2 models)
+- **Test types:** Counterfactual, Consistency, Cross-Context
+- **Counterfactuals per rule:** 20 test cases
+- **Consistency test samples:** 10 (5 positive, 5 negative)
+- **Cross-context samples:** 10 (5 positive, 5 negative)
+- **Total API calls:** ~3,100 (62 articulations + counterfactuals + consistency + cross-context)
+- **Concurrency:** 200 parallel requests
+- **Runtime:** ~5 minutes (after parallelization fix)
+
+**Key Results:**
+
+### Overall Faithfulness Metrics (62 rule-model pairs)
+
+| Metric | Mean | Median | Std Dev | Range |
+|--------|------|--------|---------|-------|
+| **Counterfactual Faithfulness** | 51.21% | 51.31% | 17.83% | 0-85% |
+| **Consistency Score** | 67.01% | 65.71% | 14.76% | 34-94% |
+| **Cross-Context Match** | 50.15% | 46.76% | 15.93% | 20-92% |
+
+### What "51% Counterfactual Faithfulness" Means
+
+**The Test:**
+1. Model articulates a rule (e.g., "True if text contains exclamation marks")
+2. Generate 20 counterfactual test cases based on that articulation
+3. Ask model to classify each test case
+4. Compare: Does model's prediction match what its articulation implies?
+
+**Example of Unfaithfulness:**
+- **Articulation:** "True if palindrome (reads same forwards/backwards)"
+- **Counterfactual:** "A man a plan a canal Panama" (should be True per articulation)
+- **Model prediction:** False ❌
+- **Result:** Unfaithful! Model doesn't follow its own rule
+
+**51% means:** Only about **half the time** does the model's actual behavior match what its articulation predicts. This suggests many articulations are **post-hoc rationalizations** rather than faithful explanations of the rule the model is actually using.
+
+### Faithfulness Test Methodology
+
+**Test 1: Counterfactual Prediction**
+- Uses articulated rule to generate 20 counterfactual test cases
+- Model classifies each case without being shown the articulation
+- Metric: % of predictions matching articulation's implications
+- Example: If articulation says "True if exclamation mark", test "Hello world" (no !) should predict False
+
+**Test 2: Consistency Check**
+- Show model 10 classification examples
+- Ask: "Why did you classify this as True/False?"
+- Extract concepts from explanation
+- Compare with concepts in original articulation
+- Metric: Keyword overlap between explanations and articulation
+
+**Test 3: Cross-Context Articulation**
+- Show 5 positive + 5 negative examples
+- Generic prompt: "What pattern determines True vs False?" (no mention of classification)
+- Compare with original "describe YOUR rule" articulation
+- Metric: Keyword overlap with original articulation
+- Tests: Can model articulate better when framed as external observer vs self-reflection?
+
+### Parallelization Implementation (Critical Optimization)
+
+**Initial approach (killed):**
+- Sequential loop: for each rule, for each model → 62 sequential evaluations
+- Estimated runtime: 30-40 minutes
+- Only ~7/62 completed when killed
+
+**Optimized approach:**
+```python
+# Create all tasks upfront
+tasks = []
+for rule in rules:
+    for model in models:
+        tasks.append(evaluate_faithfulness(rule, model, config, logger))
+
+# Run all 62 evaluations in parallel
+results = await asyncio.gather(*tasks, return_exceptions=True)
+```
+
+**Impact:**
+- Runtime: 30-40 min → ~5 min (6-8x speedup)
+- Concurrency: 200 parallel API calls
+- Follows latteries pattern for aggressive parallelization
+
+### Visualizations Generated (10 figures)
+
+**Distribution Analysis (3 variants to compare styles):**
+1. `fig1a_distributions_overlaid_kde.png` - All 3 metrics overlaid (see relationships)
+2. `fig1b_distributions_separate_kde.png` - Separate KDE per metric with mean lines
+3. `fig1c_distributions_violin_kde.png` - Violin + KDE combined (shows density + quartiles)
+
+**Model & Category Analysis:**
+4. `fig2_model_distributions.png` - GPT vs Claude comparison (overlaid KDE)
+5. `fig3_category_comparison.png` - Faithfulness by category (semantic, syntactic, statistical, pattern)
+6. `fig8_category_boxplots.png` - Distribution of faithfulness within each category
+
+**Hypothesis Testing:**
+7. `fig4_functional_vs_faithfulness.png` - **KEY PLOT**: X=functional accuracy, Y=counterfactual faithfulness
+   - Points below diagonal = high accuracy but unfaithful articulation
+   - Identifies "learned but can't articulate" cases
+8. `fig5_cross_context_improvement.png` - Does external framing improve articulation?
+   - Points above diagonal = cross-context helps
+9. `fig6_metric_correlation.png` - Correlation heatmap between all metrics
+
+**Rule-Level Analysis:**
+10. `fig7_rule_level_heatmap.png` - Heatmap showing faithfulness per rule-model
+    - Rows: Rules (sorted by mean faithfulness)
+    - Identifies which specific rules are problematic
+
+**Outcome:**
+
+✅ **Faithfulness experiment complete** (62 evaluations, 10 visualizations)
+- Mean counterfactual faithfulness: **51.21%** - Only half of predictions match articulation!
+- Strong evidence for **post-hoc rationalization** hypothesis
+- Models achieve high functional accuracy (85-90% from Step 2) but articulations don't predict behavior
+- Aggressive parallelization (200 concurrent calls) reduced runtime from 30-40 min to ~5 min
+- Comprehensive visualizations ready for analysis and paper figures
+
+**Blockers:** None
+
+**Reflection:**
+
+The **51% counterfactual faithfulness** is the central finding of Step 3 and provides critical context for interpreting Step 2 results:
+
+**Three key insights:**
+
+1. **Articulations are often post-hoc rationalizations**: With only ~51% of counterfactual predictions matching articulations, it's clear that models frequently articulate rules that don't actually explain their behavior. This validates Turpin et al.'s concerns about faithfulness in model explanations.
+
+2. **High functional accuracy ≠ faithful articulation**: Step 2 showed 85-90% functional accuracy (articulations work operationally), but Step 3 reveals these articulations often don't predict model behavior on new cases. This dissociation suggests models have internalized rules but articulate different (or incomplete) versions.
+
+3. **Consistency and cross-context scores higher than counterfactual**: The fact that consistency (67%) and cross-context match (50%) are similar or higher than counterfactual faithfulness (51%) suggests models can maintain internal coherence in explanations even when those explanations don't faithfully predict behavior.
+
+**Implications for research hypothesis:**
+
+The original hypothesis was: "Can LLMs learn rules but fail to articulate them?"
+
+Step 3 reveals a more nuanced picture:
+- Models **do** articulate rules that work functionally (85-90% accuracy in Step 2)
+- But these articulations are **not faithful** to the actual decision process (51% counterfactual match)
+- This suggests models learn rules **implicitly** but articulate **approximate or alternative** rules
+
+**Next steps:**
+1. Analyze visualizations to identify which rule categories show lowest faithfulness
+2. Examine specific cases of high functional accuracy + low faithfulness (Figure 4)
+3. Investigate whether cross-context framing improves faithfulness (Figure 5)
+4. Focus paper narrative on faithfulness as the key limitation of articulation testing
+
+---
