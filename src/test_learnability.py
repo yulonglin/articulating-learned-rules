@@ -279,10 +279,14 @@ async def evaluate_rule(
         f"Evaluating {rule.rule_id} with {model} and {few_shot_count} few-shot examples"
     )
 
-    # Load dataset
+    # Load dataset - try _v3 suffix first, then fallback to no suffix
+    dataset_path_v3 = config.datasets_dir / f"{rule.rule_id}_v3.jsonl"
     dataset_path = config.datasets_dir / f"{rule.rule_id}.jsonl"
-    if not dataset_path.exists():
-        logger.warning(f"Dataset not found: {dataset_path}")
+
+    if dataset_path_v3.exists():
+        dataset_path = dataset_path_v3
+    elif not dataset_path.exists():
+        logger.warning(f"Dataset not found: {dataset_path} or {dataset_path_v3}")
         return []
 
     dataset_dicts = load_jsonl(dataset_path)
