@@ -216,3 +216,7 @@ secrets/
 archive/
 data/
 experiments/
+
+.aux
+.out
+.pdf
