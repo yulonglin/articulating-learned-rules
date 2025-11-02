@@ -7,37 +7,55 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Rule and Dataset Generation}{2}{subsection.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Step 1: Learnability Testing}{3}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Step 2: Articulation Testing}{3}{subsection.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Step 3: Faithfulness Testing}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Step 3: Faithfulness Testing}{4}{subsection.2.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Rule Dataset}{5}{subsection.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Models and Experimental Setup}{5}{subsection.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{5}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Learnability: Models Successfully Learn 71\% of Candidate Rules}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Models and Experimental Setup}{6}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{6}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Learnability: Models Successfully Learn 71\% of Candidate Rules}{6}{subsection.3.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Overall learnability results.} Learning curves showing accuracy vs few-shot count for GPT-4.1-nano and Claude Haiku 4.5 across all 31 learnable rules.}}{6}{figure.1}\protected@file@percent }
 \newlabel{fig:learnability_overall}{{1}{6}{\textbf {Overall learnability results.} Learning curves showing accuracy vs few-shot count for GPT-4.1-nano and Claude Haiku 4.5 across all 31 learnable rules}{figure.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Learnability by category.} Learning curves broken down by rule category (syntactic, semantic, pattern, statistical).}}{6}{figure.2}\protected@file@percent }
-\newlabel{fig:learnability_category}{{2}{6}{\textbf {Learnability by category.} Learning curves broken down by rule category (syntactic, semantic, pattern, statistical)}{figure.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Non-Monotonic Learning: V-Shaped Degradation at Intermediate Shot Counts}{6}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Articulation: Models Can Operationalize But May Not Faithfully Explain}{7}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Functional Accuracy: Models Can Use Their Own Articulations}{7}{subsubsection.3.3.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Articulation performance: functional accuracy (100-shot)}}{7}{table.1}\protected@file@percent }
-\newlabel{tab:articulation_summary}{{1}{7}{Articulation performance: functional accuracy (100-shot)}{table.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Prompt Variation Effects}{7}{subsubsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Category-Specific Patterns}{7}{subsubsection.3.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Faithfulness: Articulations Show 73\% Faithfulness with Few-Shot Context}{7}{subsection.3.4}\protected@file@percent }
-\newlabel{sec:faithfulness}{{3.4}{7}{Faithfulness: Articulations Show 73\% Faithfulness with Few-Shot Context}{subsection.3.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Context Matters for Faithfulness}{7}{subsubsection.3.4.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Faithfulness improvement with context}}{8}{table.2}\protected@file@percent }
-\newlabel{tab:faithfulness_shots}{{2}{8}{Faithfulness improvement with context}{table.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Evidence of Post-Hoc Rationalization}{8}{subsubsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}Research Question Analysis}{8}{subsubsection.3.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{8}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Main Findings}{8}{subsection.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Research question analysis.} Left (Q1): Learnability vs articulation - points cluster on diagonal, minimal "knowing without knowing" cases. Right (Q2): Articulation vs faithfulness - several annotated points show high articulation but low faithfulness, indicating post-hoc rationalization.}}{9}{figure.3}\protected@file@percent }
-\newlabel{fig:research_questions}{{3}{9}{\textbf {Research question analysis.} Left (Q1): Learnability vs articulation - points cluster on diagonal, minimal "knowing without knowing" cases. Right (Q2): Articulation vs faithfulness - several annotated points show high articulation but low faithfulness, indicating post-hoc rationalization}{figure.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Additional research analyses.} Left (Q3): Learnability vs faithfulness shows moderate correlation. Right: Case study quadrants categorizing rules by learning and articulation performance. Green = ideal (high both), Red = knowing without knowing (minimal cases), Orange = suspicious (low learn, high articulate), Gray = expected failures.}}{9}{figure.4}\protected@file@percent }
-\newlabel{fig:research_quadrants}{{4}{9}{\textbf {Additional research analyses.} Left (Q3): Learnability vs faithfulness shows moderate correlation. Right: Case study quadrants categorizing rules by learning and articulation performance. Green = ideal (high both), Red = knowing without knowing (minimal cases), Orange = suspicious (low learn, high articulate), Gray = expected failures}{figure.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Implications for Interpretability}{9}{subsection.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Limitations}{10}{subsection.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Future Directions}{10}{subsection.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}\protected@file@percent }
-\gdef \@abspage@last{11}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Learnability by category.} Learning curves broken down by rule category (pattern-based, semantic, statistical).}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:learnability_category}{{2}{6}{\textbf {Learnability by category.} Learning curves broken down by rule category (pattern-based, semantic, statistical)}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Dataset Artifact Overfitting: Perfect Classification with Wrong Rules}{7}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Dataset artifact overfitting.} Claude Haiku 4.5 (left) achieves perfect classification accuracy while MC articulation degrades to 34\%, indicating the model learned a different rule that works in-distribution. GPT-4.1-nano (right) maintains balanced performance. The increasing gap with more examples suggests artifacts become more salient than the true rule.}}{7}{figure.3}\protected@file@percent }
+\newlabel{fig:degradation}{{3}{7}{\textbf {Dataset artifact overfitting.} Claude Haiku 4.5 (left) achieves perfect classification accuracy while MC articulation degrades to 34\%, indicating the model learned a different rule that works in-distribution. GPT-4.1-nano (right) maintains balanced performance. The increasing gap with more examples suggests artifacts become more salient than the true rule}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Articulation: Models Can Operationalize But May Not Faithfully Explain}{8}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Functional Accuracy: Models Can Use Their Own Articulations}{8}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Articulation performance: functional accuracy (100-shot)}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:articulation_summary}{{1}{8}{Articulation performance: functional accuracy (100-shot)}{table.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Prompt Variation Effects}{8}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Category-Specific Patterns}{8}{subsubsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Faithfulness: Articulations Show 73\% Faithfulness with Few-Shot Context}{8}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:faithfulness}{{3.4}{8}{Faithfulness: Articulations Show 73\% Faithfulness with Few-Shot Context}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Context Matters for Faithfulness}{8}{subsubsection.3.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Faithfulness improvement with context}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:faithfulness_shots}{{2}{9}{Faithfulness improvement with context}{table.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Evidence of Post-Hoc Rationalization}{9}{subsubsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}Research Question Analysis}{9}{subsubsection.3.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Main Findings}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Research question analysis.} Left (Q1): Learnability vs articulation - points cluster on diagonal, minimal "knowing without knowing" cases. Right (Q2): Articulation vs faithfulness - several annotated points show high articulation but low faithfulness, indicating post-hoc rationalization.}}{10}{figure.4}\protected@file@percent }
+\newlabel{fig:research_questions}{{4}{10}{\textbf {Research question analysis.} Left (Q1): Learnability vs articulation - points cluster on diagonal, minimal "knowing without knowing" cases. Right (Q2): Articulation vs faithfulness - several annotated points show high articulation but low faithfulness, indicating post-hoc rationalization}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Additional research analyses.} Left (Q3): Learnability vs faithfulness shows moderate correlation. Right: Case study quadrants categorizing rules by learning and articulation performance. Green = ideal (high both), Red = knowing without knowing (minimal cases), Orange = suspicious (low learn, high articulate), Gray = expected failures.}}{10}{figure.5}\protected@file@percent }
+\newlabel{fig:research_quadrants}{{5}{10}{\textbf {Additional research analyses.} Left (Q3): Learnability vs faithfulness shows moderate correlation. Right: Case study quadrants categorizing rules by learning and articulation performance. Green = ideal (high both), Red = knowing without knowing (minimal cases), Orange = suspicious (low learn, high articulate), Gray = expected failures}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Implications for Interpretability}{11}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Limitations}{11}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Future Directions}{11}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Complete Prompts}{13}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Step 1: Learnability Testing Prompt}{13}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Step 2: Articulation Testing Prompts}{13}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.1}Simple Variation}{13}{subsubsection.A.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.2}Chain-of-Thought Variation}{13}{subsubsection.A.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.3}Explicit Variation}{13}{subsubsection.A.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.4}LLM Judge Evaluation Prompt}{14}{subsubsection.A.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Step 3: Faithfulness Testing Prompts}{14}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.1}Individual Counterfactual Generation (Variant 1)}{14}{subsubsection.A.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.2}Individual Counterfactual Generation (Variant 2)}{14}{subsubsection.A.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.3}Individual Counterfactual Generation (Variant 3)}{15}{subsubsection.A.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.4}Paired Counterfactual Generation}{15}{subsubsection.A.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.5}Faithfulness Classification Prompt}{15}{subsubsection.A.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Complete Rule Dataset}{15}{appendix.B}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Complete dataset of 31 learnable rules with learnability metrics}}{16}{table.3}\protected@file@percent }
+\newlabel{tab:complete_rules}{{3}{16}{Complete dataset of 31 learnable rules with learnability metrics}{table.3}{}}
+\gdef \@abspage@last{16}
