@@ -33,30 +33,13 @@ from tqdm.asyncio import tqdm as async_tqdm
 
 from src.api_caller import CacheMode, Message, create_caller
 from src.model_registry import DEFAULT_MULTI_MODEL_LIST
+from src.data_models import DatasetSample, Rule
 from src.utils import load_jsonl, set_random_seed
 
 
 # ============================================================================
 # Data Models
 # ============================================================================
-
-
-class DatasetSample(BaseModel):
-    """Single sample from a dataset."""
-    input: str
-    label: bool
-    rule_id: str
-    metadata: dict[str, Any] = {}
-
-
-class Rule(BaseModel):
-    """Classification rule definition."""
-    rule_id: str
-    rule_name: str
-    articulation: str
-    category: str
-    examples: list[dict[str, Any]]
-    expected_difficulty: str
 
 
 class MCArticulationResult(BaseModel):
@@ -346,6 +329,28 @@ async def evaluate_rule_mc(
         f"Evaluating MC articulation for {rule.rule_id} with {model}"
     )
 
+    # Check learnability - skip if model not learnable for this rule
+    if rule.learnability is not None:
+        if model not in rule.learnability:
+            logger.info(
+                f"Skipping {rule.rule_id} | {model}: Not in learnability data"
+            )
+            return []
+
+        # Use the minimum few-shot count required for this model
+        min_few_shot = rule.learnability[model]["min_few_shot_required"]
+        few_shot_count = max(min_few_shot, config.few_shot_count)
+
+        if few_shot_count != config.few_shot_count:
+            logger.info(
+                f"Using {few_shot_count} few-shot examples "
+                f"(min required: {min_few_shot}, config: {config.few_shot_count})"
+            )
+    else:
+        # No learnability data, use config default
+        few_shot_count = config.few_shot_count
+        logger.debug(f"No learnability data, using config few_shot_count: {few_shot_count}")
+
     # Load dataset
     dataset_path = config.datasets_dir / f"{rule.rule_id}.jsonl"
     if not dataset_path.exists():
@@ -378,7 +383,7 @@ async def evaluate_rule_mc(
         try:
             few_shot_samples = stratified_split(
                 samples=dataset_samples,
-                few_shot_count=config.few_shot_count,
+                few_shot_count=few_shot_count,
                 random_seed=test_seed,
             )
         except ValueError as e:
@@ -425,7 +430,7 @@ async def evaluate_rule_mc(
         result = MCArticulationResult(
             rule_id=rule.rule_id,
             model=model,
-            few_shot_count=config.few_shot_count,
+            few_shot_count=few_shot_count,
             test_index=test_idx,
             correct_articulation=rule.articulation,
             distractors=distractors,
