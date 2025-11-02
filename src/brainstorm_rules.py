@@ -1,7 +1,7 @@
 """
 LLM-based rule brainstorming for classification tasks.
 
-Generates diverse, articulable classification rules using GPT-4o-mini and Claude 3.5 Haiku.
+Generates diverse, articulable classification rules using GPT-4.1-nano and Claude Haiku 4.5.
 Each rule includes natural language articulation, category, examples, and difficulty rating.
 
 Prompt Strategies:
@@ -18,11 +18,14 @@ import argparse
 import asyncio
 import json
 import logging
+import sys
+# Removed unused imports - now using pure Pydantic
 from datetime import datetime
 from pathlib import Path
-from typing import Literal, Optional
+from typing import Literal
 
 from pydantic import BaseModel, Field
+from tqdm import tqdm
 
 from src.api_caller import APICallerBase, CacheMode, Message, create_caller
 from src.model_registry import DEFAULT_MULTI_MODEL_LIST, GPTModels, ClaudeModels
@@ -49,18 +52,18 @@ class ClassificationRule(BaseModel):
     rule_name: str
     articulation: str
     category: Literal["syntactic", "pattern", "semantic", "statistical"]
-    examples: list[RuleExample] = Field(min_length=3, max_length=5)
     expected_difficulty: Literal["easy", "moderate", "hard"]
     source_model: str
     timestamp: str
     prompt_strategy: str  # Which prompt strategy generated this rule
+    examples: list[RuleExample] = Field(default_factory=list, max_length=5)
 
 
 class BrainstormConfig(BaseModel):
     """Configuration for rule brainstorming."""
+    output_path: Path
     num_rules_target: int = 100
     models: list[str] = DEFAULT_MULTI_MODEL_LIST
-    output_path: Path
     cache_mode: CacheMode = CacheMode.SHORT
     temperature: float = 0.7  # Higher for creativity
     max_tokens: int = 4096
@@ -372,32 +375,38 @@ class RuleBrainstormer:
 
         batch_idx = 0
 
-        while len(self.generated_rules) < self.config.num_rules_target and batch_idx < max_batches:
-            # Create a batch of tasks (up to 10 at a time)
-            tasks = []
-            for _ in range(min(10, max_batches - batch_idx)):
-                if len(self.generated_rules) >= self.config.num_rules_target:
-                    break
+        with tqdm(total=self.config.num_rules_target, desc="Generating rules", disable=not sys.stdout.isatty()) as pbar:
+            while len(self.generated_rules) < self.config.num_rules_target and batch_idx < max_batches:
+                # Create a batch of tasks (up to 10 at a time)
+                tasks = []
+                for _ in range(min(10, max_batches - batch_idx)):
+                    if len(self.generated_rules) >= self.config.num_rules_target:
+                        break
 
-                model = self.config.models[batch_idx % len(self.config.models)]
-                strategy = strategies[batch_idx % len(strategies)]
+                    model = self.config.models[batch_idx % len(self.config.models)]
+                    strategy = strategies[batch_idx % len(strategies)]
 
-                # Create fresh coroutine for each task
-                task = self.generate_rules_batch(
-                    model=model,
-                    strategy=strategy,
-                    batch_size=self.config.batch_size,
-                )
-                tasks.append(task)
-                batch_idx += 1
+                    # Create fresh coroutine for each task
+                    task = self.generate_rules_batch(
+                        model=model,
+                        strategy=strategy,
+                        batch_size=self.config.batch_size,
+                    )
+                    tasks.append(task)
+                    batch_idx += 1
 
-            # Run this batch of tasks
-            if tasks:
-                batch_results = await asyncio.gather(*tasks)
-                for rules in batch_results:
-                    self.generated_rules.extend(rules)
+                # Run this batch of tasks
+                if tasks:
+                    prev_count = len(self.generated_rules)
+                    batch_results = await asyncio.gather(*tasks)
+                    for rules in batch_results:
+                        self.generated_rules.extend(rules)
 
-                logger.info(f"Progress: {len(self.generated_rules)}/{self.config.num_rules_target} rules generated")
+                    # Update progress bar by the number of new rules
+                    new_count = len(self.generated_rules)
+                    pbar.update(new_count - prev_count)
+
+                    logger.info(f"Progress: {len(self.generated_rules)}/{self.config.num_rules_target} rules generated")
 
         logger.info(f"Completed: {len(self.generated_rules)} total rules generated")
 
@@ -430,7 +439,7 @@ async def main(args: argparse.Namespace) -> None:
     # Create output path with timestamp if not specified
     if args.output is None:
         timestamp = create_experiment_timestamp()
-        output_path = Path("tmp") / f"brainstormed_rules_{timestamp}.jsonl"
+        output_path = Path("out") / f"brainstormed_rules_{timestamp}.jsonl"
     else:
         output_path = Path(args.output)
 

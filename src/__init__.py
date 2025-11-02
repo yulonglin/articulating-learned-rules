@@ -27,14 +27,27 @@ from src.model_registry import (
     is_gpt_model,
     requires_new_api,
 )
-from src.runner import (
-    ExperimentConfig,
-    ExperimentMetadata,
-    ExperimentResult,
-    ExperimentRunner,
-    create_argument_parser,
-    create_experiment_config_from_args,
-)
+_runner_exports: list[str] = []
+try:  # pragma: no cover - optional dependency setup
+    from src.runner import (
+        ExperimentConfig,
+        ExperimentMetadata,
+        ExperimentResult,
+        ExperimentRunner,
+        create_argument_parser,
+        create_experiment_config_from_args,
+    )
+
+    _runner_exports = [
+        "ExperimentConfig",
+        "ExperimentMetadata",
+        "ExperimentResult",
+        "ExperimentRunner",
+        "create_argument_parser",
+        "create_experiment_config_from_args",
+    ]
+except ImportError:
+    _runner_exports = []
 
 __all__ = [
     # API Caller
@@ -59,10 +72,5 @@ __all__ = [
     "is_gpt_model",
     "requires_new_api",
     # Runner
-    "ExperimentConfig",
-    "ExperimentMetadata",
-    "ExperimentResult",
-    "ExperimentRunner",
-    "create_argument_parser",
-    "create_experiment_config_from_args",
+    *_runner_exports,
 ]

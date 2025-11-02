@@ -15,14 +15,16 @@ import json
 import os
 import time
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, field
 from datetime import datetime, timedelta
 from enum import Enum
 from pathlib import Path
 from typing import Any, Literal, Optional
 
 import anthropic
+from anthropic import RateLimitError as AnthropicRateLimitError
 import openai
+from openai import RateLimitError as OpenAIRateLimitError
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from tenacity import (
@@ -31,7 +33,7 @@ from tenacity import (
     stop_after_attempt,
     wait_exponential,
 )
-from tqdm.asyncio import tqdm_asyncio
+from tqdm.asyncio import tqdm as async_tqdm
 
 # Load environment variables
 load_dotenv()
@@ -47,6 +49,8 @@ class CacheMode(str, Enum):
     """Cache duration modes."""
     NONE = "none"
     SHORT = "short"  # 15 minutes
+    ONE_WEEK = "one_week"  # 1 week
+    TWO_WEEKS = "two_weeks"  # 2 weeks
     PERSISTENT = "persistent"  # Forever
 
 
@@ -147,9 +151,16 @@ class APICallerBase(ABC):
         """Check if cache entry is still valid."""
         if entry.cache_mode == CacheMode.PERSISTENT:
             return True
+
+        age = time.time() - entry.timestamp
+
         if entry.cache_mode == CacheMode.SHORT:
-            age = time.time() - entry.timestamp
             return age < 15 * 60  # 15 minutes
+        if entry.cache_mode == CacheMode.ONE_WEEK:
+            return age < 7 * 24 * 60 * 60  # 1 week
+        if entry.cache_mode == CacheMode.TWO_WEEKS:
+            return age < 14 * 24 * 60 * 60  # 2 weeks
+
         return False
 
     def _load_from_cache(self, cache_key: CacheKey) -> Optional[APIResponse]:
@@ -258,7 +269,7 @@ class APICallerBase(ABC):
 
         if show_progress:
             responses = []
-            for coro in tqdm_asyncio.as_completed(
+            for coro in async_tqdm.as_completed(
                 tasks, total=len(tasks), desc=f"Calling {self.config.model}"
             ):
                 responses.append(await coro)
@@ -280,7 +291,7 @@ class OpenAICaller(APICallerBase):
     @retry(
         stop=stop_after_attempt(5),
         wait=wait_exponential(multiplier=1, min=4, max=60),
-        retry=retry_if_exception_type(openai.RateLimitError),
+        retry=retry_if_exception_type(OpenAIRateLimitError),
     )
     async def _call_api(
         self, messages: list[Message], temperature: float, max_tokens: int
@@ -330,7 +341,7 @@ class AnthropicCaller(APICallerBase):
     @retry(
         stop=stop_after_attempt(5),
         wait=wait_exponential(multiplier=1, min=4, max=60),
-        retry=retry_if_exception_type(anthropic.RateLimitError),
+        retry=retry_if_exception_type(AnthropicRateLimitError),
     )
     async def _call_api(
         self, messages: list[Message], temperature: float, max_tokens: int

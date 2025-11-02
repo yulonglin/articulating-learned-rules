@@ -23,6 +23,7 @@ import asyncio
 import json
 import logging
 import random
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional
@@ -111,6 +112,7 @@ def build_few_shot_prompt(
     """
     prompt_parts = [
         "You will classify text inputs as True or False based on the examples below.",
+        "Respond with ONLY 'True' or 'False' - no explanations, reasoning, or other text.",
         "",
         "Examples:",
     ]
@@ -122,7 +124,7 @@ def build_few_shot_prompt(
         prompt_parts.append("")
 
     # Add test input
-    prompt_parts.append("Now classify this input:")
+    prompt_parts.append("Now classify this input. Return ONLY 'True' or 'False', and nothing else:")
     prompt_parts.append(f'Input: "{test_input}"')
     prompt_parts.append("Output:")
 
@@ -272,6 +274,7 @@ async def evaluate_rule(
     Returns:
         List of LearnabilityResult objects
     """
+    start_time = time.time()
     logger.info(
         f"Evaluating {rule.rule_id} with {model} and {few_shot_count} few-shot examples"
     )
@@ -361,10 +364,13 @@ async def evaluate_rule(
     accuracy = n_correct / len(results) if results else 0.0
     parse_rate = n_parseable / len(results) if results else 0.0
 
+    elapsed_time = time.time() - start_time
+
     logger.info(
         f"{rule.rule_id} | {model} | {few_shot_count}-shot: "
         f"accuracy={accuracy:.2%} ({n_correct}/{len(results)}), "
-        f"parse_rate={parse_rate:.2%}"
+        f"parse_rate={parse_rate:.2%}, "
+        f"time={elapsed_time:.1f}s"
     )
 
     return results
@@ -580,7 +586,7 @@ def create_argument_parser() -> argparse.ArgumentParser:
         "--few-shot-counts",
         type=int,
         nargs="+",
-        default=[5, 10, 20],
+        default=[5, 10, 20, 50, 100, 150],
         help="List of few-shot counts to test",
     )
     parser.add_argument(
@@ -610,8 +616,8 @@ def create_argument_parser() -> argparse.ArgumentParser:
         "--cache-mode",
         type=str,
         default="short",
-        choices=["none", "short", "persistent"],
-        help="Cache mode: none, short (15min), persistent",
+        choices=["none", "short", "one_week", "two_weeks", "persistent"],
+        help="Cache mode: none, short (15min), one_week (1 week), two_weeks (2 weeks), persistent",
     )
     parser.add_argument(
         "--cache-dir",

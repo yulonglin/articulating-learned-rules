@@ -11,22 +11,34 @@ Output: Curated JSONL with metadata fields added
 """
 
 import argparse
+import asyncio
 import json
 import logging
+import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
+from tqdm import tqdm
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
+from src.api_caller import CacheMode, Message, create_caller
+from src.model_registry import DEFAULT_JUDGE_MODEL
+
 logger = logging.getLogger(__name__)
+
+
+def configure_logging(verbose: bool) -> None:
+    """Configure root logging once per CLI invocation."""
+    level = logging.DEBUG if verbose else logging.INFO
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        force=True,
+    )
+    logger.setLevel(level)
 
 
 class RuleExample(BaseModel):
@@ -43,11 +55,19 @@ class ClassificationRule(BaseModel):
     rule_name: str
     articulation: str
     category: Literal["syntactic", "pattern", "semantic", "statistical"]
-    examples: list[RuleExample]
     expected_difficulty: Literal["easy", "moderate", "hard"]
     source_model: str
     timestamp: str
     prompt_strategy: str
+    examples: list[RuleExample] = Field(default_factory=list)
+
+
+class SemanticValidationResult(BaseModel):
+    """Semantic validation metadata for a rule."""
+
+    status: Literal["pass", "fail", "warn", "skip"]
+    feedback: str
+    confidence: float = Field(ge=0.0, le=1.0)
 
 
 class CuratedRule(BaseModel):
@@ -69,6 +89,7 @@ class CuratedRule(BaseModel):
     similarity_cluster: Optional[str]
     selection_reason: str
     quality_score: float = Field(ge=0.0, le=1.0)
+    semantic_validation: Optional[SemanticValidationResult] = None
 
 
 @dataclass
@@ -85,15 +106,257 @@ class CurationStats:
     final_selected: int
     category_distribution: dict[str, int]
     difficulty_distribution: dict[str, int]
+    semantic_checked: int = 0
+    semantic_failed: int = 0
+    semantic_warnings: int = 0
+
+
+class SemanticValidator:
+    """
+    Semantic sanity checker that blends heuristic checks with optional LLM review.
+
+    The heuristics encode requirements from specs/RESEARCH_SPEC.md and specs/THOUGHTS.md:
+    - Rules must be short and articulable for humans.
+    - Decisions should be deterministic and easy to evaluate.
+    - Examples, when provided, should support the articulation.
+    """
+
+    _AMBIGUOUS_PHRASES = {
+        "roughly",
+        "around",
+        "about",
+        "mostly",
+        "usually",
+        "often",
+        "typically",
+        "generally",
+        "somewhat",
+        "likely",
+        "maybe",
+        "probably",
+        "approximately",
+        "kind of",
+        "sort of",
+        "tends to",
+    }
+
+    def __init__(
+        self,
+        model: str,
+        cache_mode: CacheMode = CacheMode.SHORT,
+        temperature: float = 0.0,
+        max_tokens: int = 512,
+    ) -> None:
+        self.model = model
+        self.mode = "llm"
+        self.caller: Optional[Any] = None
+        if model.lower() in {"heuristic", "none"}:
+            self.mode = "heuristic"
+        else:
+            self.caller = create_caller(
+                model=model,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                cache_mode=cache_mode,
+                max_concurrent=4,
+            )
+
+    def _heuristic_validate(self, rule: ClassificationRule) -> SemanticValidationResult:
+        """Apply spec-driven heuristics that require no external calls."""
+        articulation = rule.articulation.strip()
+        lower_articulation = articulation.lower()
+        issues: list[str] = []
+        status: Literal["pass", "warn", "fail"] = "pass"
+
+        def downgrade(level: Literal["warn", "fail"], reason: str) -> None:
+            nonlocal status
+            if level == "fail":
+                status = "fail"
+            elif status != "fail":
+                status = "warn"
+            issues.append(reason)
+
+        if not articulation:
+            downgrade("fail", "Articulation is empty.")
+        else:
+            words = articulation.split()
+            char_len = len(articulation)
+            if len(words) < 5:
+                downgrade("fail", "Articulation is too short for a precise rule (<5 words).")
+            elif len(words) < 9:
+                downgrade("warn", "Articulation is terse; double-check it remains unambiguous.")
+
+            if char_len > 320:
+                downgrade("fail", "Articulation exceeds 320 characters; tighten wording per research spec.")
+            elif char_len > 240:
+                downgrade("warn", "Articulation longer than 240 characters; consider shortening for clarity.")
+
+            ambiguous_hits = [phrase for phrase in self._AMBIGUOUS_PHRASES if phrase in lower_articulation]
+            if ambiguous_hits:
+                downgrade(
+                    "fail",
+                    f"Contains ambiguous qualifier(s) {ambiguous_hits}; rules must give deterministic decisions.",
+                )
+
+            if lower_articulation.endswith("?"):
+                downgrade("fail", "Articulation ends with a question mark; rules must be declarative.")
+
+            if (
+                "true" not in lower_articulation
+                and "false" not in lower_articulation
+                and "label" not in lower_articulation
+            ):
+                downgrade(
+                    "warn",
+                    "Articulation does not explicitly describe the True/False condition; ensure it still maps cleanly.",
+                )
+
+        if rule.examples and len(rule.examples) < 3:
+            downgrade("warn", "Fewer than 3 examples provided; spec guidance prefers 3-5.")
+
+        if rule.examples:
+            labels = {example.label for example in rule.examples}
+            if len(labels) == 1:
+                downgrade("warn", "Examples lack both positive and negative cases.")
+
+        if rule.expected_difficulty == "hard":
+            downgrade(
+                "warn",
+                "Difficulty marked hard; verify it still qualifies as easy to evaluate for humans.",
+            )
+
+        if rule.articulation and any(token in lower_articulation for token in {"maybe", "perhaps", "might"}):
+            downgrade("fail", "Articulation includes uncertainty markers; rules must be deterministic.")
+
+        if not issues:
+            issues.append("Heuristic checks satisfied.")
+
+        confidence = 0.9 if status == "pass" else 0.55 if status == "warn" else 0.25
+        return SemanticValidationResult(
+            status=status,
+            feedback=" | ".join(issues),
+            confidence=confidence,
+        )
+
+    async def _llm_validate(self, rule: ClassificationRule) -> SemanticValidationResult:
+        """Call an LLM judge to cross-check heuristics when available."""
+        if self.caller is None:
+            return self._heuristic_validate(rule)
+
+        examples_payload = [example.model_dump() for example in rule.examples]
+        user_prompt = (
+            "Validate the following classification rule using the repository research specs.\n"
+            "- Rule must be concise and articulable (see specs/RESEARCH_SPEC.md).\n"
+            "- Decision must be deterministic and easy to evaluate (see specs/THOUGHTS.md).\n"
+            "- Examples, when present, should align with the articulation.\n"
+            "Respond in strict JSON with fields status, feedback, confidence.\n\n"
+            f"Rule ID: {rule.rule_id}\n"
+            f"Rule Name: {rule.rule_name}\n"
+            f"Category: {rule.category}\n"
+            f"Difficulty: {rule.expected_difficulty}\n"
+            f"Articulation: {rule.articulation}\n"
+            f"Examples JSON: {json.dumps(examples_payload, ensure_ascii=False)}"
+        )
+
+        messages = [
+            Message(
+                role="system",
+                content=(
+                    "You are a meticulous reviewer ensuring classification rules are semantically sound "
+                    "and compliant with internal research specs."
+                ),
+            ),
+            Message(role="user", content=user_prompt),
+        ]
+
+        response = await self.caller.call(messages)
+        content = response.content.strip()
+
+        if "```json" in content:
+            start = content.find("```json") + len("```json")
+            end = content.find("```", start)
+            content = content[start:end].strip()
+        elif content.startswith("```"):
+            start = content.find("```") + 3
+            end = content.find("```", start)
+            content = content[start:end].strip()
+
+        try:
+            data = json.loads(content)
+            status = data.get("status", "warn").lower()
+            if status not in {"pass", "warn", "fail"}:
+                status = "warn"
+            feedback = data.get("feedback", "").strip() or "No feedback provided."
+            confidence = float(data.get("confidence", 0.5))
+        except (json.JSONDecodeError, TypeError, ValueError) as exc:
+            logger.debug("Semantic validation parse error for %s: %s", rule.rule_id, exc)
+            status = "warn"
+            feedback = f"Unable to parse validator response: {content[:200]}"
+            confidence = 0.35
+
+        confidence = max(0.0, min(1.0, confidence))
+        return SemanticValidationResult(status=status, feedback=feedback, confidence=confidence)
+
+    async def _validate_async(self, rule: ClassificationRule) -> SemanticValidationResult:
+        """Heuristic-first validation with optional LLM reinforcement."""
+        heuristic_result = self._heuristic_validate(rule)
+        if self.mode != "llm" or heuristic_result.status == "fail":
+            return heuristic_result
+
+        llm_result = await self._llm_validate(rule)
+        status_priority = {"fail": 2, "warn": 1, "pass": 0}
+        final_status = (
+            heuristic_result.status
+            if status_priority[heuristic_result.status] >= status_priority[llm_result.status]
+            else llm_result.status
+        )
+        feedback = f"Heuristic: {heuristic_result.feedback} || LLM: {llm_result.feedback}"
+        confidence = min(heuristic_result.confidence, llm_result.confidence)
+        return SemanticValidationResult(status=final_status, feedback=feedback, confidence=confidence)
+
+    def validate(self, rule: ClassificationRule) -> SemanticValidationResult:
+        """Validate rule semantics synchronously, handling event-loop reuse."""
+        try:
+            return asyncio.run(self._validate_async(rule))
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            try:
+                asyncio.set_event_loop(loop)
+                return loop.run_until_complete(self._validate_async(rule))
+            finally:
+                loop.close()
+                asyncio.set_event_loop(None)
 
 
 def load_rules(input_path: Path) -> list[ClassificationRule]:
     """Load rules from JSONL file."""
     rules = []
-    with open(input_path) as f:
-        for line in f:
-            data = json.loads(line)
-            rules.append(ClassificationRule(**data))
+    with input_path.open(encoding="utf-8") as f:
+        for line_number, raw_line in enumerate(f, start=1):
+            line = raw_line.strip()
+            if not line:
+                continue
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError as exc:  # pragma: no cover - defensive diagnostics
+                raise ValueError(
+                    f"Failed to parse JSON on line {line_number} of {input_path}: {exc.msg}"
+                ) from exc
+            try:
+                rule = ClassificationRule(**data)
+                if isinstance(rule.examples, list):
+                    converted_examples: list[RuleExample] = []
+                    for example in rule.examples:
+                        if isinstance(example, RuleExample):
+                            converted_examples.append(example)
+                        else:
+                            converted_examples.append(RuleExample(**example))
+                    rule.examples = converted_examples
+                rules.append(rule)
+            except (ValidationError, TypeError) as exc:  # pragma: no cover - defensive diagnostics
+                raise ValueError(
+                    f"Invalid rule schema on line {line_number} of {input_path}: {exc}"
+                ) from exc
     logger.info(f"Loaded {len(rules)} rules from {input_path}")
     return rules
 
@@ -438,12 +701,46 @@ def select_diverse_rules(
         for i in range(remainder):
             target_per_category[category_counts[i][0]] += 1
     else:
-        # Proportional to available rules
-        total_available = len(cluster_representatives)
-        target_per_category = {
-            cat: max(1, int(target_count * len(by_category.get(cat, [])) / total_available))
-            for cat in categories
-        }
+        # Proportional to available rules (largest remainder allocation)
+        available_counts = {cat: len(by_category.get(cat, [])) for cat in categories}
+        total_available = sum(available_counts.values())
+
+        if total_available == 0:
+            target_per_category = {cat: 0 for cat in categories}
+        else:
+            raw_targets = {
+                cat: (target_count * available_counts[cat]) / total_available
+                for cat in categories
+            }
+
+            target_per_category = {
+                cat: min(available_counts[cat], int(raw_targets[cat]))
+                for cat in categories
+            }
+
+            assigned = sum(target_per_category.values())
+            remainder = target_count - assigned
+
+            if remainder > 0:
+                # Prioritise categories with the largest fractional remainder and spare capacity
+                ordered_categories = sorted(
+                    categories,
+                    key=lambda cat: (raw_targets[cat] - target_per_category[cat], available_counts[cat]),
+                    reverse=True,
+                )
+
+                while remainder > 0:
+                    progress = False
+                    for cat in ordered_categories:
+                        if remainder == 0:
+                            break
+                        if target_per_category[cat] >= available_counts[cat]:
+                            continue
+                        target_per_category[cat] += 1
+                        remainder -= 1
+                        progress = True
+                    if not progress:
+                        break
 
     logger.info(f"Target per category: {target_per_category}")
 
@@ -514,6 +811,7 @@ def curate_rules(
     target_count: int = 35,
     similarity_threshold: float = 0.75,
     category_balance: str = "balanced",
+    semantic_validator: Optional[SemanticValidator] = None,
 ) -> CurationStats:
     """
     Main curation pipeline.
@@ -524,6 +822,7 @@ def curate_rules(
         target_count: Target number of rules to select
         similarity_threshold: Threshold for similarity clustering (0.0-1.0)
         category_balance: "balanced" or "proportional"
+        semantic_validator: Optional validator for semantic coherence
 
     Returns:
         CurationStats object with statistics
@@ -534,6 +833,29 @@ def curate_rules(
 
     # Remove exact duplicates
     rules, exact_dupes = remove_exact_duplicates(rules)
+
+    # Optional semantic validation
+    semantic_results: dict[str, SemanticValidationResult] = {}
+    semantic_checked = 0
+    semantic_failed = 0
+    semantic_warnings = 0
+
+    if semantic_validator is not None:
+        validated_rules: list[ClassificationRule] = []
+        for rule in tqdm(rules, desc="Validating rules semantically", disable=not sys.stdout.isatty()):
+            result = semantic_validator.validate(rule)
+            semantic_results[rule.rule_id] = result
+            semantic_checked += 1
+            if result.status == "fail":
+                semantic_failed += 1
+                logger.debug("Semantic validation failed for %s: %s", rule.rule_id, result.feedback)
+                continue
+            if result.status == "warn":
+                semantic_warnings += 1
+            validated_rules.append(rule)
+        if semantic_failed:
+            logger.info("Semantic validation removed %d rules", semantic_failed)
+        rules = validated_rules
 
     # Cluster similar rules
     clusters = cluster_similar_rules(rules, similarity_threshold)
@@ -551,6 +873,12 @@ def curate_rules(
         implementability_counts[implementability] += 1
 
         quality_score = compute_quality_score(rule)
+        validation = semantic_results.get(rule.rule_id)
+        if validation is not None:
+            if validation.status == "warn":
+                quality_score *= 0.85
+            elif validation.status == "pass":
+                quality_score = min(1.0, quality_score + 0.05)
 
         curated_rule = CuratedRule(
             **rule.model_dump(),
@@ -558,6 +886,7 @@ def curate_rules(
             similarity_cluster=cluster_id,
             selection_reason=selection_reason,
             quality_score=quality_score,
+            semantic_validation=validation,
         )
         curated_rules.append(curated_rule)
 
@@ -566,7 +895,7 @@ def curate_rules(
 
     # Save to output file
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w") as f:
+    with output_path.open("w", encoding="utf-8") as f:
         for rule in curated_rules:
             f.write(rule.model_dump_json() + "\n")
 
@@ -587,6 +916,9 @@ def curate_rules(
         final_selected=len(curated_rules),
         category_distribution=dict(category_dist),
         difficulty_distribution=dict(difficulty_dist),
+        semantic_checked=semantic_checked,
+        semantic_failed=semantic_failed,
+        semantic_warnings=semantic_warnings,
     )
 
     return stats
@@ -597,26 +929,32 @@ def print_summary(stats: CurationStats, output_path: Path) -> None:
     print("\n" + "=" * 80)
     print("RULE CURATION SUMMARY")
     print("=" * 80)
-    print(f"\nInput Statistics:")
+    print("\nInput Statistics:")
     print(f"  Total rules loaded:          {stats.total_rules}")
     print(f"  Exact duplicates removed:    {stats.exact_duplicates_removed}")
     print(f"  Similar rules clustered:     {stats.similar_rules_clustered}")
     print(f"  Total clusters formed:       {stats.total_clusters}")
 
-    print(f"\nImplementability Assessment:")
+    print("\nImplementability Assessment:")
     print(f"  Programmatic:                {stats.implementable_rules}")
     print(f"  LLM needed:                  {stats.llm_needed_rules}")
     print(f"  Complex:                     {stats.complex_rules}")
 
-    print(f"\nFinal Selection:")
+    if stats.semantic_checked:
+        print("\nSemantic Validation:")
+        print(f"  Rules checked:               {stats.semantic_checked}")
+        print(f"  Warnings issued:             {stats.semantic_warnings}")
+        print(f"  Failures removed:            {stats.semantic_failed}")
+
+    print("\nFinal Selection:")
     print(f"  Total rules selected:        {stats.final_selected}")
 
-    print(f"\n  Category distribution:")
+    print("\n  Category distribution:")
     for category, count in sorted(stats.category_distribution.items()):
         pct = 100 * count / stats.final_selected
         print(f"    {category:20s}: {count:3d} ({pct:5.1f}%)")
 
-    print(f"\n  Difficulty distribution:")
+    print("\n  Difficulty distribution:")
     for difficulty, count in sorted(stats.difficulty_distribution.items()):
         pct = 100 * count / stats.final_selected
         print(f"    {difficulty:20s}: {count:3d} ({pct:5.1f}%)")
@@ -665,6 +1003,23 @@ def main() -> None:
         default="balanced",
         help="How to balance categories: balanced (equal) or proportional (by availability)",
     )
+    parser.add_argument(
+        "--semantic-check-model",
+        type=str,
+        default=DEFAULT_JUDGE_MODEL,
+        help="Model to use for semantic validation (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--semantic-cache-mode",
+        choices=[mode.value for mode in CacheMode],
+        default=CacheMode.SHORT.value,
+        help="Cache mode for semantic validation",
+    )
+    parser.add_argument(
+        "--skip-semantic-check",
+        action="store_true",
+        help="Skip the semantic validation pass (not recommended)",
+    )
 
     parser.add_argument(
         "--verbose",
@@ -674,13 +1029,27 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    if args.verbose:
-        logging.getLogger().setLevel(logging.DEBUG)
+    configure_logging(args.verbose)
 
     # Default output path if not specified
     if args.output is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         args.output = Path(f"tmp/curated_rules_{timestamp}.jsonl")
+
+    semantic_validator: Optional[SemanticValidator] = None
+    if args.skip_semantic_check or args.semantic_check_model.lower() == "none":
+        logger.info("Semantic validation skipped per CLI flag.")
+    else:
+        cache_mode = CacheMode(args.semantic_cache_mode)
+        semantic_validator = SemanticValidator(
+            model=args.semantic_check_model,
+            cache_mode=cache_mode,
+        )
+        logger.info(
+            "Semantic validation enabled using model '%s' with cache mode '%s'",
+            args.semantic_check_model,
+            cache_mode.value,
+        )
 
     # Run curation
     stats = curate_rules(
@@ -689,6 +1058,7 @@ def main() -> None:
         target_count=args.target_count,
         similarity_threshold=args.similarity_threshold,
         category_balance=args.category_balance,
+        semantic_validator=semantic_validator,
     )
 
     # Print summary
