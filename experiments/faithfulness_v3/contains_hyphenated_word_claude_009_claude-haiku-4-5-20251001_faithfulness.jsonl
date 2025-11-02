@@ -1,0 +1,415 @@
+{
+  "rule_id": "contains_hyphenated_word_claude_009",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains at least one word with a hyphen connecting two parts (e.g., 'well-known').",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the sentence contains a hyphenated compound adjective or modifier (e.g., \"well-known,\" \"state-of-the-art,\" \"high-quality,\" \"part-time\"), and **False** when it does not.",
+  "counterfactual_tests": [
+    {
+      "test_input": "The well-known author received an award.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She adopted a part-time job to support her studies.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We live in a state-of-the-art building downtown.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "His high-quality products are popular among customers.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The well-known chef is hosting a new cooking show.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The student received high marks on the exam.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She is known for her well planned approach.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The new policy will be implemented next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He enjoys playing the guitar in his free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team worked on a state of the art project.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The well-known author gave a lecture.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She works in a state-of-the-art laboratory.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They adopted a high-quality product from the store.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He is a part-time employee at the company.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The well-known singer performed tonight.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The well known artist performed tonight.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She has a high quality of life.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He is part of the team.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They discussed state of the art technology.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project is under review.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The ancient temple was built with well-preserved stones.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She is a part-time employee who works evenings.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He enjoys state-of-the-art gadgets that are popular nowadays.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project required high-quality materials to ensure durability.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Her well-known expertise made a big difference in the team's success.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She is a well-known author.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She is a well known author.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They are part-time workers.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are part time workers.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The known author gave a lecture.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She lives in a high-quality hotel.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She lives in a high quality hotel.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The author gave a lecture that was well known.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She bought a high-quality product.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She bought a product that is of high quality.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The well-known researcher gave a lecture.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The researcher gave a lecture that was well known.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is a high-quality product evaluator.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She evaluates high quality products.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5384615384615384,
+  "consistency_tests": [
+    {
+      "input": "The well-known author gave a lecture yesterday.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe sentence contains the hyphenated compound adjective **\"well-known\"** in the phrase \"The well-known author.\"\n\n**Reasoning:**\n- \"Well-known\" is a hyphenated compound adjective that modifies the noun \"author\"\n- It fits the rule's definition perfectly, as it is an example explicitly listed in the rule (\"well-known\")\n- The hyphenated structure connects two words that together function as a single modifier describing a quality of the author\n- Therefore, the condition for **True** is met",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": true
+    },
+    {
+      "input": "The musician's new multi-octave keyboard impressed everyone.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe sentence contains the hyphenated compound adjective **\"multi-octave\"** in the phrase \"multi-octave keyboard.\"\n\n**Reasoning:**\n- \"Multi-octave\" is a hyphenated modifier that functions as a compound adjective\n- It describes the noun \"keyboard\" by specifying its range capability\n- It follows the pattern of hyphenated compound adjectives outlined in the rule (similar to examples like \"state-of-the-art\" or \"high-quality\")\n- The hyphen connects two word elements (\"multi\" + \"octave\") to create a single descriptive unit\n\nTherefore, this sentence meets the classification criteria and should be marked as **True**.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": true
+    },
+    {
+      "input": "The team is always goal-oriented and committed.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe sentence contains the hyphenated compound adjective **\"goal-oriented\"** in the phrase \"The team is always goal-oriented and committed.\"\n\nAccording to the rule, the output should be **True** when the sentence contains a hyphenated compound adjective or modifier. \"Goal-oriented\" fits this criterion perfectly:\n- It is hyphenated (goal-oriented)\n- It functions as a compound adjective modifying \"team\"\n- It describes a quality or characteristic in the manner specified by the rule\n\nTherefore, this sentence meets the classification criteria for **True**.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": true
+    },
+    {
+      "input": "The report highlighted the need for a self-aware approach to feedback.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe sentence contains the hyphenated compound adjective **\"self-aware\"** in the phrase \"a self-aware approach to feedback.\"\n\n\"Self-aware\" is a hyphenated compound modifier that functions as an adjective describing the noun \"approach.\" It meets the criteria specified in the rule, as it is a hyphenated compound adjective (similar to the examples provided: \"well-known,\" \"state-of-the-art,\" etc.).\n\nTherefore, the classification is **True**.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": true
+    },
+    {
+      "input": "The newly-built eco-friendly house impressed everyone.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe sentence contains **two hyphenated compound adjectives**:\n\n1. **\"newly-built\"** - a hyphenated compound adjective modifying \"house\"\n2. **\"eco-friendly\"** - a hyphenated compound adjective also modifying \"house\"\n\nBoth of these follow the pattern specified in the rule: they are adjectives/modifiers connected by hyphens that function together to describe a single noun. Since the sentence contains at least one (in fact, two) hyphenated compound adjectives, the classification is **True**.",
+      "word_overlap": 0.3684210526315789,
+      "classification_correct": true
+    },
+    {
+      "input": "The data was well received by the team.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe sentence \"The data was well received by the team\" does **not** contain a hyphenated compound adjective or modifier.\n\n**Analysis:**\n- \"well received\" appears in the sentence, but it is **not hyphenated**\n- It is written as two separate words: \"well\" (adverb) + \"received\" (past participle)\n- According to the rule, a hyphenated compound adjective/modifier must use a hyphen (e.g., \"well-**known**\")\n- Since there is no hyphen connecting these words, this does not meet the criteria\n\n**Note:** If the sentence had been written as \"The data was **well-received** by the team\" (with a hyphen), the classification would be **True**. However, as written, it is **False**.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": null
+    },
+    {
+      "input": "He often listens to jazz music while working.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nBased on the rule provided, I need to identify whether the sentence contains a hyphenated compound adjective or modifier.\n\nAnalyzing the sentence: \"He often listens to jazz music while working.\"\n\n- \"often\" - adverb, not hyphenated\n- \"jazz\" - noun used as a modifier, not hyphenated\n- \"music\" - noun, not hyphenated\n- \"working\" - present participle/gerund, not hyphenated\n\n**There are no hyphenated compound adjectives or modifiers in this sentence.** While \"jazz music\" is a noun phrase where \"jazz\" modifies \"music,\" it is not hyphenated. Similarly, \"working\" is a participle but not hyphenated.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.42105263157894735,
+      "classification_correct": true
+    },
+    {
+      "input": "She baked a delicious chocolate cake for the party.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the sentence contains a hyphenated compound adjective or modifier.\n\nIn the sentence \"She baked a delicious chocolate cake for the party,\" there are no hyphenated compound adjectives or modifiers present. \n\n- \"delicious\" is a single adjective (not hyphenated)\n- \"chocolate\" is a single adjective (not hyphenated)\n- \"cake\" is a noun\n- No words are connected by hyphens to form compound modifiers\n\nSince the sentence lacks any hyphenated compound adjectives or modifiers, the classification is **False**.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": null
+    },
+    {
+      "input": "They decided to explore the ancient ruins at dawn.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I need to identify whether the sentence contains a hyphenated compound adjective or modifier.\n\nExamining the sentence: \"They decided to explore the ancient ruins at dawn.\"\n\n- \"ancient\" - a single adjective, not hyphenated\n- \"ruins\" - a noun, not hyphenated\n- \"dawn\" - a noun, not hyphenated\n\nThere are **no hyphenated compound adjectives or modifiers** in this sentence. All adjectives and modifiers are either single words or unhyphenated phrases.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.42105263157894735,
+      "classification_correct": true
+    },
+    {
+      "input": "She has a well known artist friend who travels often.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the sentence contains a **hyphenated** compound adjective or modifier.\n\nIn this sentence, \"well known\" appears as two separate words without a hyphen. While \"well-known\" (with a hyphen) would be a classic hyphenated compound adjective, the version in this sentence is not hyphenated.\n\nTherefore, this sentence does **not** meet the criteria specified in the rule, making the classification **False**.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5421052631578946,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 19,
+    "n_correct": 19,
+    "n_skipped": 1,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

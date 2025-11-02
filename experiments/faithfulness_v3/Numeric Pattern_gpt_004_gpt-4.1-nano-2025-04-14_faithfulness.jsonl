@@ -1,0 +1,367 @@
+{
+  "rule_id": "Numeric Pattern_gpt_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as positive if the input contains a date in the format 'DD/MM/YYYY' or 'Month Day, Year'; otherwise negative.",
+  "generated_articulation": "The classification rule is:  \n**\"A text is classified as True if it contains a valid or potentially valid date (including future, past, or ambiguous dates) expressed in common date formats (e.g., DD/MM/YYYY, Month Day, Year), regardless of context or correctness; otherwise, it is classified as False.\"**",
+  "counterfactual_tests": [
+    {
+      "test_input": "The event will be held on 23/07/2024 at the downtown convention center.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our appointment is scheduled for March 15, 2023, and should be confirmed by then.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline is set for 01/01/2025, so please submit all documents by that date.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product was released on July 4, 1776, marking a historic event.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our project starts on 31/12/2023, and we need to prepare accordingly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather is nice today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the attached document by next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline has been extended.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He is feeling better now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project is scheduled to start soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No date here, just some random text.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event happened in the year two thousand and twenty.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Let's meet tomorrow at noon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline is 32/13/2020.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yesterday was a good day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled on 32/13/2022.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our meeting was set for February 30, 2021.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline is 15/08/20XX.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He mentioned the project start in mid-September.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "123/45/6789 is not a valid date, but it follows a numeric pattern.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 12/05/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 12/05/23.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on July 4, 2021.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on July 4, 21.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 12/09/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 12/09/23.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on March 5, 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on March 5, 22.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a note about the event scheduled for 12/05.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on March 10, 1995.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is in March 10, 1995.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 15/09/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for 15/09/23.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6363636363636364,
+  "consistency_tests": [
+    {
+      "input": "Remember to check the emergency kit by December 10, 2023.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains the date \"December 10, 2023,\" which is a valid and clearly expressed date in a common format (Month Day, Year). According to the classification rule, any text that includes a valid or potentially valid date in a recognizable format should be classified as True, regardless of context or correctness. Since the date is explicitly present in the text and matches a common date format, the text is classified as True.",
+      "word_overlap": 0.64,
+      "classification_correct": true
+    },
+    {
+      "input": "Her birthday is celebrated every year on March 3, 2024, with family and friends.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats, regardless of context or correctness. In the input, the phrase \"March 3, 2024\" clearly presents a date in the \"Month Day, Year\" format, which is a common date format. Since this date is explicitly mentioned in the text, it meets the criterion for classification as True. The context (a birthday celebration) does not affect the presence of the date; the rule specifies that the context or correctness does not influence the classification.",
+      "word_overlap": 0.68,
+      "classification_correct": true
+    },
+    {
+      "input": "Please submit your report by 01/13/2022, even though January only has 12 months.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the classification rule, any text containing a valid or potentially valid date format should be classified as True, regardless of the context or correctness of the date itself. In the input, \"01/13/2022\" is presented in a common date format (MM/DD/YYYY). Although the statement notes that January has only 12 months, this does not affect the classification because the rule does not consider the correctness or plausibility of the date—only whether a date pattern is present. Since \"01/13/2022\" is a recognizable date format, the text is classified as True.",
+      "word_overlap": 0.52,
+      "classification_correct": true
+    },
+    {
+      "input": "Let's meet next week, possibly around 21/11/2024.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the classification rule, any text containing a valid or potentially valid date expressed in common date formats should be classified as True. In the input, \"21/11/2024\" is presented in the DD/MM/YYYY format, which is a common date format. Although the context (\"Let's meet next week, possibly around\") is not considered in the rule, the presence of a valid date format triggers a True classification. Therefore, despite the surrounding context, the mention of \"21/11/2024\" qualifies the text as containing a date, leading to a classification of True.",
+      "word_overlap": 0.52,
+      "classification_correct": true
+    },
+    {
+      "input": "Please call 911 if you encounter a situation after June 5, 2021.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the classification rule, any text containing a valid or potentially valid date format should be classified as True. In the input, the phrase \"after June 5, 2021\" includes the date \"June 5, 2021,\" which is a valid date expressed in a common format (Month Day, Year). Since the rule states that the presence of such a date, regardless of context or correctness, warrants a True classification, this input qualifies. The phrase indicates a date reference, fulfilling the criterion for classification as True.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "The meeting will be held next week to discuss the new project.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats. The input sentence, \"The meeting will be held next week to discuss the new project,\" does not contain any explicit date expressions, such as DD/MM/YYYY, Month Day, Year, or similar formats. It only references \"next week,\" which is an ambiguous time frame rather than a specific date. Since \"next week\" is not a concrete date format and does not specify an actual date, it does not meet the criteria for containing a valid or potentially valid date. Therefore, based on the rule, this input is classified as False.",
+      "word_overlap": 0.68,
+      "classification_correct": null
+    },
+    {
+      "input": "She felt a profound sense of lack in her life after moving away.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats. The input sentence, \"She felt a profound sense of lack in her life after moving away,\" does not contain any explicit or implicit date expressions, such as DD/MM/YYYY, Month Day, Year, or similar formats. Therefore, it does not meet the criteria for classification as True. Since no date information is present, the text is classified as False.",
+      "word_overlap": 0.64,
+      "classification_correct": null
+    },
+    {
+      "input": "I received my paycheck yesterday after working extra hours.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats, regardless of context or correctness. In the input sentence, \"I received my paycheck yesterday after working extra hours,\" there is no explicit mention of a date or any date format (e.g., DD/MM/YYYY, Month Day, Year). The word \"yesterday\" is a relative time indicator, not a specific date or date format. Since the rule requires the presence of a valid or potentially valid date expressed explicitly or in a recognizable format, and \"yesterday\" alone does not constitute a date format, the input does not meet the criteria. Therefore, it is classified as False.",
+      "word_overlap": 0.76,
+      "classification_correct": null
+    },
+    {
+      "input": "The room was empty, filled with a noticeable lack of furniture.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats, regardless of context or correctness. The input sentence, \"The room was empty, filled with a noticeable lack of furniture,\" does not contain any date expressions—no numbers, month names, or date formats are present. Therefore, it does not meet the criterion for containing a date, and the classification is False.",
+      "word_overlap": 0.68,
+      "classification_correct": null
+    },
+    {
+      "input": "The instructions were clear and easy to follow, ensuring a smooth process.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a valid or potentially valid date expressed in common date formats. The input sentence, \"The instructions were clear and easy to follow, ensuring a smooth process,\" does not contain any date expressions—no day, month, year, or date format is present. Therefore, it does not meet the criterion for containing a date, and the classification is False.",
+      "word_overlap": 0.6,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6319999999999999,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

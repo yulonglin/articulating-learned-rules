@@ -1,0 +1,463 @@
+{
+  "rule_id": "reference_first_person_perspective",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Written from first-person perspective (uses I, me, my, we, us).",
+  "generated_articulation": "The output is True when the sentence describes a personal achievement, learning, or an activity involving personal progress or enjoyment, and False when it describes an external event, routine activity, or an objective observation.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I finally finished writing my novel after months of hard work.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Today, I learned how to play the piano for the first time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I went hiking in the mountains and enjoyed the beautiful view.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Participated in my company's annual team-building event.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Achieved a new personal best in my marathon training.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The train arrived at 9 AM this morning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She watered the plants in the garden.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report was submitted yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They watched a movie together last weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The clock shows 3:30 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finally completed my first marathon after months of training.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Learning to play the piano has been a rewarding journey for me.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I volunteered at the local shelter last weekend.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I improved my public speaking skills through practice and feedback.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Every morning, I dedicate an hour to meditation to start my day positively.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The train arrived five minutes late this morning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She went grocery shopping at the local store.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company announced its quarterly earnings yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He watched a documentary about ancient civilizations.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather was sunny and warm today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finally finished reading the book I started months ago.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team won their championship game last weekend.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm learning to play the guitar and have been practicing daily.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "During my hike, I enjoyed the beautiful sunset from the cliff.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new software update caused several bugs in the system.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team completed the project ahead of schedule.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She observed the beautiful sunset from the balcony.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He went to the store to buy groceries this afternoon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The computer crashed during the presentation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They discussed the latest market trends in the meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finally finished reading the book I started last month and feel accomplished.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The newspaper reported on the new city council policy today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I went for a hike in the mountains and enjoyed the breathtaking views.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finally finished reading my favorite novel today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The train arrived at the station this morning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I learned a new recipe and enjoyed making dinner last night.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather has been cloudy all week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finished reading my favorite novel today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She learned to play the piano after months of practice.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She practiced the piano after months of learning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I learned to play the piano this weekend.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The city council announced new regulations today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I went for a hike and enjoyed the view.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company's quarterly earnings were released yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5111111111111111,
+  "consistency_tests": [
+    {
+      "input": "I always enjoy visiting the local farmers' market.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I always enjoy visiting the local farmers' market\" describes a personal activity that involves personal enjoyment. According to the rule, when the sentence involves personal progress, achievement, or enjoyment, it should be classified as True. Since the statement expresses the speaker's enjoyment of a personal activity, it aligns with the criteria for True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "I can’t believe how much I’ve learned since starting this job.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I can’t believe how much I’ve learned since starting this job\" describes a personal achievement and personal progress. The focus is on the speaker's learning, which relates to their own development and enjoyment. According to the rule, such statements about personal achievements or progress are classified as True.",
+      "word_overlap": 0.4444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "I found a new recipe I want to try tonight.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"I found a new recipe I want to try tonight\" describes an internal decision or intention related to a personal activity, but it does not explicitly mention a personal achievement, learning, or a sense of personal progress or enjoyment. Instead, it reflects a plan or an external activity (trying a new recipe), which aligns more with routine or external events rather than personal achievement or enjoyment. According to the classification rule, since it does not clearly involve personal progress or enjoyment, it is classified as False.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": false
+    },
+    {
+      "input": "I panicked when I heard the alarm go off.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"I panicked when I heard the alarm go off\" describes an internal emotional response to an external event. It does not mention a personal achievement, learning, or an activity involving personal progress or enjoyment. Instead, it reflects a reaction to a situation, which aligns with an external event or an objective observation rather than a personal accomplishment or activity. Therefore, based on the rule, this sentence should be classified as False.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": false
+    },
+    {
+      "input": "I didn't realize the meeting was scheduled for today.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"I didn't realize the meeting was scheduled for today\" describes an internal realization or awareness about an external event (the meeting). It does not mention a personal achievement, learning, or an activity involving personal progress or enjoyment. Instead, it reflects a subjective realization or oversight, which aligns with an external observation or routine event rather than a personal accomplishment or activity. Therefore, it does not meet the criteria for a True classification based on the given rule.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": null
+    },
+    {
+      "input": "The report was submitted yesterday.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The report was submitted yesterday.\" describes an external event—specifically, the act of submitting a report—without mentioning personal achievement, learning, or an activity involving personal progress or enjoyment. According to the rule, such objective observations or routine activities are classified as False.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": true
+    },
+    {
+      "input": "Looking forward to the conference next month.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Looking forward to the conference next month\" expresses anticipation or excitement about an upcoming event. It does not describe a personal achievement, learning, or an activity involving personal progress or enjoyment. Instead, it reflects an external event that the person is anticipating, which aligns with the rule's indication of a routine activity or objective observation. Therefore, it should be classified as False.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": true
+    },
+    {
+      "input": "The students gathered in the cafeteria before the exam.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The students gathered in the cafeteria before the exam\" describes an external event involving a group of students. It does not mention a personal achievement, learning, or an activity related to personal progress or enjoyment. Instead, it reports an observed situation or routine activity, which aligns with the rule's criteria for a False classification.",
+      "word_overlap": 0.7222222222222222,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for fresh basil, garlic, and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The recipe calls for fresh basil, garlic, and a pinch of salt.\" describes an external event—specifically, a cooking instruction or ingredient list. It does not mention a personal achievement, learning, or an activity involving personal progress or enjoyment. According to the classification rule, since it is an objective observation about a recipe's ingredients rather than a personal activity or accomplishment, it should be classified as False.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": true
+    },
+    {
+      "input": "Our neighbors are organizing a neighborhood event.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Our neighbors are organizing a neighborhood event\" describes an external event organized by others, not a personal achievement, learning, or activity involving personal progress or enjoyment. According to the rule, such external events or routine activities are classified as False because they do not directly reflect an individual's personal achievement or internal experience.",
+      "word_overlap": 0.7222222222222222,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.7,
+  "functional_accuracy": 0.4,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 8,
+    "n_skipped": 0,
+    "accuracy": 0.4
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

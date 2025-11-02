@@ -1,0 +1,431 @@
+{
+  "rule_id": "formal_request_gpt_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text is a polite, formal request or application.",
+  "generated_articulation": "The output is True when the input is a polite, formal request or inquiry related to applying, enrolling, or requesting permission, and False when the input is a descriptive statement or casual question not involving a formal request.",
+  "counterfactual_tests": [
+    {
+      "test_input": "Could you please provide me with the application form for the upcoming semester?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I inquire about the requirements for your scholarship program?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Would you be so kind as to grant me permission to access the facilities after hours?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am writing to request information about how to enroll in the advanced training course.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please advise on the steps to register for the conference?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is blue today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you tell me what time it is?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the movie last night.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please send me the report by tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting was scheduled for 3 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could I please submit my application for the scholarship tomorrow?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I inquire about the requirements for enrollment in the graduate program?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Would you be so kind as to grant me permission to access the restricted files?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am writing to request information regarding the application procedure.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could I get your approval to reschedule my interview?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the conference last weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "What is the weather like today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our team meeting is scheduled for 3 PM tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you tell me the time?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the attached document.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please provide me with the application form for the upcoming seminar?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I inquire about the registration deadline for the workshop?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Would it be possible to enroll in the advanced course next semester?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I wonder if you could help me with the enrollment procedures?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Is the library open today?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was wondering if you could tell me more about the course schedule.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The training session is scheduled for next Monday, and I will attend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please let me know when the application deadline is.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you available to discuss the project details later?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Thank you for your assistance earlier.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please advise me on the application process?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I need information about the application process.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I ask about the enrollment deadlines?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "What are the enrollment deadlines?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please let me know how to apply for the scholarship?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I want to know how to apply for the scholarship.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I enroll in the course starting next semester?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can I enroll in the course starting next semester?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please assist me with the application process?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "You should help me with the application process.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "May I inquire about the enrollment deadlines?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.4878048780487805,
+  "consistency_tests": [
+    {
+      "input": "Could you please ensure that the report is always submitted by the deadline?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input is a polite, formal request directed at someone else, asking them to ensure that a report is submitted by a deadline. It uses polite language (\"Could you please\") and involves a request related to an action (submitting a report), fitting the criteria of a formal request or inquiry as specified in the rule.",
+      "word_overlap": 0.3684210526315789,
+      "classification_correct": true
+    },
+    {
+      "input": "Dear Sir or Madam, I kindly request your consideration for the upcoming conference invitation.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input is a polite, formal request directed to an authority (\"Dear Sir or Madam\") and explicitly includes the phrase \"I kindly request,\" which indicates a formal request or inquiry related to an application or permission. According to the classification rule, such language and context qualify it as a formal request, so the input is classified as True.",
+      "word_overlap": 0.42105263157894735,
+      "classification_correct": true
+    },
+    {
+      "input": "Would it be possible to schedule a meeting at your earliest convenience?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Would it be possible to schedule a meeting at your earliest convenience?\" is a polite, formal request. It uses polite language (\"Would it be possible,\" \"at your earliest convenience\") and seeks permission or action in a respectful manner. According to the rule, such inquiries related to requesting permission or scheduling are classified as True.",
+      "word_overlap": 0.42105263157894735,
+      "classification_correct": true
+    },
+    {
+      "input": "Please accept my formal application for the position, and I appreciate your time.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input is a polite, formal request related to applying for a position. It explicitly includes the phrase \"Please accept my formal application,\" which indicates a formal request or inquiry about applying. Additionally, the tone is respectful and courteous, aligning with the criteria for a formal request. Therefore, it fits the classification rule for a True output.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "I am writing to formally inquire about the possibility of extending my deadline.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input is a formal, polite inquiry (\"I am writing to formally inquire about...\") related to requesting permission or information—in this case, about extending a deadline. It aligns with the rule's criteria for a True classification because it involves a formal request or inquiry, rather than a casual question or descriptive statement.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": true
+    },
+    {
+      "input": "I recently discovered a new hiking trail near the river.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input is a descriptive statement about discovering a new hiking trail; it does not contain a polite, formal request or inquiry related to applying, enrolling, or requesting permission. According to the rule, such statements are classified as False because they are not formal requests or inquiries.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": true
+    },
+    {
+      "input": "My favorite hobby is collecting vintage stamps.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"My favorite hobby is collecting vintage stamps.\" is a descriptive statement about a personal hobby. It does not involve a polite, formal request or inquiry related to applying, enrolling, or requesting permission. Since it is simply sharing information about a hobby and not making a request or asking for permission in a formal manner, it does not meet the criteria outlined in the classification rule.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": true
+    },
+    {
+      "input": "The concert was amazing and I enjoyed every moment.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"The concert was amazing and I enjoyed every moment.\" is a descriptive statement expressing personal enjoyment and opinion about a concert. It does not involve a polite, formal request, inquiry, or request for permission related to applying, enrolling, or similar actions. Therefore, it does not meet the criteria for a True classification based on the rule.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": null
+    },
+    {
+      "input": "The sky turns orange during sunset over the mountains.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input is a descriptive statement about a natural phenomenon (\"The sky turns orange during sunset over the mountains\"). It does not constitute a polite, formal request or inquiry related to applying, enrolling, or requesting permission. Therefore, it does not meet the criteria for a True classification based on the rule.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": null
+    },
+    {
+      "input": "The cake tastes better with a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"The cake tastes better with a pinch of salt.\" is a descriptive statement about the taste of the cake. It does not involve a polite, formal request, inquiry, or permission-seeking language. According to the classification rule, since it is a descriptive statement and not a casual question or a formal request related to applying, enrolling, or requesting permission, it should be classified as False.",
+      "word_overlap": 0.7894736842105263,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5947368421052631,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

@@ -1,0 +1,415 @@
+contains_multiple_exclamation_marks_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**A text is classified\
+      \ as True if and only if it contains at least one sequence of two or more consecutive\
+      \ exclamation marks (\"!!\" or more). Otherwise, it is classified as False.**"
+    counterfactual_faithfulness: 0.4706
+    consistency_score: 0.8667
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '**
+
+
+      The text should be classified as True if and only if it contains a double exclamation
+      mark ("!!") somewhere in the input. The presence of "!!" is the distinguishing
+      feature, regardless of content or emotional context.'
+    counterfactual_faithfulness: 0.7059
+    consistency_score: 0.8667
+    functional_accuracy: 1.0
+    cross_context_match: null
+contains_digit_pattern_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: 'The True examples tend to contain specific numerical
+      sequences, codes, or references (such as "123," "789," "007," "456," "987")
+      that are embedded within the text, whereas the False examples do not include
+      such notable or meaningful numbers or sequences. Therefore, the rule is: **A
+      sentence is labeled True if it contains a notable or meaningful number, sequence,
+      or code; otherwise, it is False.**'
+    counterfactual_faithfulness: 0.561
+    consistency_score: 0.6069
+    functional_accuracy: 0.9
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the input contains a sequence of 2-3 digits (like
+      007, 123, 456, 789, 911, etc.) that appears to serve a functional or referential
+      purpose (such as codes, passwords, phone numbers, addresses, scores, quantities,
+      or identifiers). The output is **False** when the input either lacks such digit
+      sequences or contains only longer sequences (4+ digits), generic time references,
+      or purely descriptive/narrative content without meaningful numeric identifiers.'
+    counterfactual_faithfulness: 0.3415
+    consistency_score: 0.6341
+    functional_accuracy: 0.9167
+    cross_context_match: null
+all_uppercase_words_gpt_006:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence contains an imperative
+      or command phrase (e.g., "REMEMBER TO," "ASKED ME TO," "FORECAST PREDICTS")
+      or references specific instructions or reminders; it is False when the sentence
+      is purely informational, descriptive, or about general events without direct
+      commands or requests.
+    counterfactual_faithfulness: 0.5476
+    consistency_score: 0.5741
+    functional_accuracy: 0.6
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: The output is **True** when the input text is written
+      entirely in uppercase letters, and **False** when it contains lowercase letters
+      or mixed case.
+    counterfactual_faithfulness: 0.52
+    consistency_score: 0.8857
+    functional_accuracy: 1.0
+    cross_context_match: null
+contains_hyphenated_word_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence contains a word or
+      phrase related to planning, strategy, or long-term goals, and False otherwise.
+    counterfactual_faithfulness: 0.5476
+    consistency_score: 0.8267
+    functional_accuracy: 0.45
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule
+
+
+      The output is **True** when the sentence contains a hyphenated compound adjective
+      or modifier (e.g., "well-known," "state-of-the-art," "high-quality," "part-time"),
+      and **False** when it does not.'
+    counterfactual_faithfulness: 0.5385
+    consistency_score: 0.5421
+    functional_accuracy: 1.0
+    cross_context_match: null
+contains_multiple_punctuation_marks_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence contains an exclamation
+      mark or a question mark, indicating strong emotion or inquiry; otherwise, it
+      is False.
+    counterfactual_faithfulness: 0.5366
+    consistency_score: 0.6571
+    functional_accuracy: 0.8
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the text contains multiple independent clauses,
+      dialogue, exclamations, or emotional expressions connected by punctuation (semicolons,
+      commas, exclamation marks) that create a sense of emphasis, surprise, or conversational
+      complexity. The output is **False** when the text is a simple, straightforward
+      statement without such connective complexity or emotional intensity.'
+    counterfactual_faithfulness: 0.6977
+    consistency_score: 0.6853
+    functional_accuracy: 0.8333
+    cross_context_match: null
+symmetric_word_pattern_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**Label texts as True\
+      \ if they contain at least one word that is a palindrome (a word that reads\
+      \ the same backward and forward), such as \"kayak,\" \"madam,\" \"level,\" \"\
+      radar,\" or \"racecar\"; otherwise, label them as False.**"
+    counterfactual_faithfulness: 0.675
+    consistency_score: 0.525
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** if the input contains at least one palindromic word (a
+      word that reads the same forwards and backwards, such as "level," "kayak," "radar,"
+      "noon," "madam," "civic," or "racecar"). The output is **False** if the input
+      contains no palindromic words.'
+    counterfactual_faithfulness: 0.7273
+    consistency_score: 0.5391
+    functional_accuracy: 1.0
+    cross_context_match: null
+positive_product_review_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence expresses a positive
+      opinion, satisfaction, or endorsement about a product, service, or experience;
+      it is False when the sentence is neutral, negative, or describes memories or
+      situations without expressing approval or enthusiasm.
+    counterfactual_faithfulness: 0.5
+    consistency_score: 0.5348
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the input expresses genuine satisfaction, enthusiasm,
+      or positive personal experience with a product or service (using words like
+      "love," "thrilled," "exceeded expectations," "highly recommend"). The output
+      is **False** when the input describes neutral observations, lacks personal endorsement,
+      expresses dissatisfaction, or discusses topics unrelated to product/service
+      satisfaction.'
+    counterfactual_faithfulness: 0.9512
+    consistency_score: 0.6471
+    functional_accuracy: 0.9412
+    cross_context_match: null
+urgent_intent_gpt_001:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:\n\n**\"Texts are labeled\
+      \ True if they contain an urgent, immediate, or critical call to action\u2014\
+      such as requests for prompt response, evacuation, or assistance\u2014that emphasizes\
+      \ immediacy or requires action without delay. Otherwise, the text is labeled\
+      \ False.\"**"
+    counterfactual_faithfulness: 0.5
+    consistency_score: 0.6296
+    functional_accuracy: 0.95
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '**The input should be classified as True if it expresses
+      an urgent, time-critical need or emergency requiring immediate action (using
+      language like "now," "immediately," "urgent," "critical," or describing a crisis),
+      and False if it is a casual, non-urgent request or informational statement with
+      flexible or no time constraints.**'
+    counterfactual_faithfulness: 0.8043
+    consistency_score: 0.6778
+    functional_accuracy: 1.0
+    cross_context_match: null
+formal_request_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input is a polite, formal
+      request or inquiry related to applying, enrolling, or requesting permission,
+      and False when the input is a descriptive statement or casual question not involving
+      a formal request.
+    counterfactual_faithfulness: 0.4878
+    consistency_score: 0.5947
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the input is a formal request, application, or inquiry
+      directed at someone to take action or make a decision (e.g., requesting permission,
+      asking for consideration, seeking approval). The output is **False** when the
+      input is a descriptive statement, casual question, or informational query that
+      doesn''t involve a formal request for someone''s deliberate action or judgment.'
+    counterfactual_faithfulness: 0.5778
+    consistency_score: 0.6697
+    functional_accuracy: 1.0
+    cross_context_match: null
+complaint_statement_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input describes a negative
+      or problematic experience, issue, or dissatisfaction, indicating a complaint
+      or failure; it is False when the input is neutral, positive, or describes a
+      pleasant or uneventful situation.
+    counterfactual_faithfulness: 0.4783
+    consistency_score: 0.5947
+    functional_accuracy: 0.95
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the input expresses a **negative experience, complaint,
+      or dissatisfaction** with a product, service, or experience. The output is **False**
+      when the input is neutral, positive, factual/descriptive, or expresses mild/ambivalent
+      sentiments that don''t constitute a clear complaint.'
+    counterfactual_faithfulness: 0.587
+    consistency_score: 0.6792
+    functional_accuracy: 1.0
+    cross_context_match: null
+financial_or_money_related_gpt_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The True examples all relate to financial activities,\
+      \ concepts, or terminology such as investment, banking, market fluctuations,\
+      \ saving, or tax regulations. The False examples involve unrelated topics like\
+      \ nature, art, or general activities without a financial context. Therefore,\
+      \ the rule is:  \n**A sentence is labeled True if it discusses or references\
+      \ financial concepts, activities, or institutions; otherwise, it is False.**"
+    counterfactual_faithfulness: 0.5217
+    consistency_score: 0.4129
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Classification Rule
+
+
+      **True**: Texts that discuss financial, banking, investment, or economic topics
+      (e.g., interest rates, loans, stocks, bonds, savings accounts, credit, portfolios,
+      market fluctuations, tax regulations, cryptocurrencies, financial planning).
+
+
+      **False**: Texts that do not relate to finance or economics (e.g., nature, art,
+      hobbies, daily activities, weather, literature, personal experiences).'
+    counterfactual_faithfulness: 0.5122
+    consistency_score: 0.5324
+    functional_accuracy: 1.0
+    cross_context_match: null
+emotional_expression_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**A text is labeled True\
+      \ if it explicitly or implicitly conveys an emotional response, internal state,\
+      \ or subjective experience (such as excitement, frustration, happiness, dread,\
+      \ or surprise). It is labeled False if it describes neutral, objective observations\
+      \ or external facts without indicating any emotional or internal reaction.**"
+    counterfactual_faithfulness: 0.4667
+    consistency_score: 0.5467
+    functional_accuracy: 0.95
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      The output is **True** when the input describes a person experiencing or expressing
+      a strong emotion (such as joy, sadness, frustration, excitement, or emotional
+      pain), either explicitly stated or clearly implied through their physical or
+      verbal reactions. The output is **False** when the input describes neutral observations,
+      factual events, or situations where emotions are absent, suppressed, or unreadable.'
+    counterfactual_faithfulness: 0.7826
+    consistency_score: 0.5579
+    functional_accuracy: 1.0
+    cross_context_match: null
+all_caps_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence is written entirely
+      in uppercase letters, regardless of punctuation or content; otherwise, it is
+      False.
+    counterfactual_faithfulness: 0.3043
+    consistency_score: 0.6154
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Classification Rule
+
+
+      **True if:** The text is written entirely in UPPERCASE letters.
+
+
+      **False if:** The text contains any lowercase letters.'
+    counterfactual_faithfulness: 0.4615
+    consistency_score: 0.9091
+    functional_accuracy: 1.0
+    cross_context_match: null
+Repeated Punctuation_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**Texts are labeled as\
+      \ True if they contain at least one sequence of three or more consecutive punctuation\
+      \ marks (e.g., \"!!!\", \"...\", \"???\"). Otherwise, they are labeled as False.**"
+    counterfactual_faithfulness: 0.525
+    consistency_score: 0.8313
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: The output is True when the text contains multiple or
+      repeated punctuation marks (such as "...", "!!!", "???"), which typically indicate
+      emotional emphasis, hesitation, or dramatic effect. The output is False when
+      the text uses standard, conventional punctuation and conveys information in
+      a straightforward manner.
+    counterfactual_faithfulness: 0.6429
+    consistency_score: 0.6769
+    functional_accuracy: 1.0
+    cross_context_match: null
+unique_character_threshold_claude_082:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence is a short, simple
+      command, affirmation, or statement with minimal detail, often consisting of
+      a single clause or phrase, whereas it is False when the sentence is longer,
+      more descriptive, or contains multiple clauses or detailed information.
+    counterfactual_faithfulness: 0.575
+    consistency_score: 0.5185
+    functional_accuracy: 0.85
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule:
+
+
+      Classify as **True** if the text is a simple sentence with:
+
+      - Few words (typically 2-4 words)
+
+      - Basic/common vocabulary
+
+      - Simple structure (usually imperative or simple present tense)
+
+      - No adjectives, adverbs, or complex descriptors
+
+
+      Classify as **False** if the text contains:
+
+      - More words or complex sentence structure
+
+      - Descriptive adjectives (ancient, local, great, entire, etc.)
+
+      - Adverbs (finally, long, etc.)
+
+      - Complex tenses or subordinate clauses
+
+      - More elaborate or sophisticated phrasing'
+    counterfactual_faithfulness: 0.4872
+    consistency_score: 0.5649
+    functional_accuracy: 0.9412
+    cross_context_match: null
+Numeric Pattern_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**\"A text is classified\
+      \ as True if it contains a valid or potentially valid date (including future,\
+      \ past, or ambiguous dates) expressed in common date formats (e.g., DD/MM/YYYY,\
+      \ Month Day, Year), regardless of context or correctness; otherwise, it is classified\
+      \ as False.\"**"
+    counterfactual_faithfulness: 0.6364
+    consistency_score: 0.632
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '**A sentence is classified as True if it contains a specific,
+      concrete date (in any format: DD/MM/YYYY, Month Day, Year, etc.), and False
+      if it lacks such a specific date reference.**'
+    counterfactual_faithfulness: 0.7609
+    consistency_score: 0.84
+    functional_accuracy: 1.0
+    cross_context_match: null
+reference_negation_presence:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence contains a negation
+      word (like "never" or "not") that directly modifies a verb or phrase indicating
+      a negative attitude or refusal; otherwise, it is False.
+    counterfactual_faithfulness: 0.5
+    consistency_score: 0.835
+    functional_accuracy: 1.0
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Classification Rule
+
+
+      **True**: Texts containing negation or absence (words like "not," "never," "no,"
+      "won''t," "wouldn''t," "haven''t," "hasn''t," "don''t," "doesn''t," "didn''t,"
+      "no longer," "couldn''t," etc.) that express denial, refusal, negation, or impossibility.
+
+
+      **False**: Texts that are affirmative statements, descriptions, or positive
+      assertions without negation or absence markers.'
+    counterfactual_faithfulness: 0.2857
+    consistency_score: 0.6033
+    functional_accuracy: 1.0
+    cross_context_match: null
+reference_first_person_perspective:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence describes a personal
+      achievement, learning, or an activity involving personal progress or enjoyment,
+      and False when it describes an external event, routine activity, or an objective
+      observation.
+    counterfactual_faithfulness: 0.5111
+    consistency_score: 0.7
+    functional_accuracy: 0.4
+    cross_context_match: null
+  claude-haiku-4-5-20251001:
+    generated_articulation: '# Rule
+
+
+      The output is **True** when the sentence contains a first-person perspective
+      (I, we, my) reflecting on personal experiences, decisions, feelings, or realizations,
+      often involving introspection or agency. The output is **False** when the sentence
+      describes external events, third-party actions, or observations without personal
+      reflection or involvement.'
+    counterfactual_faithfulness: 0.6522
+    consistency_score: 0.6067
+    functional_accuracy: 1.0
+    cross_context_match: null

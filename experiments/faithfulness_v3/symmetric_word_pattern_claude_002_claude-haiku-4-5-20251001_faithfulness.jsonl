@@ -1,0 +1,455 @@
+{
+  "rule_id": "symmetric_word_pattern_claude_002",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains at least one word that reads the same forwards and backwards (palindrome).",
+  "generated_articulation": "# Rule:\n\nThe output is **True** if the input contains at least one palindromic word (a word that reads the same forwards and backwards, such as \"level,\" \"kayak,\" \"radar,\" \"noon,\" \"madam,\" \"civic,\" or \"racecar\"). The output is **False** if the input contains no palindromic words.",
+  "counterfactual_tests": [
+    {
+      "test_input": "The kayak glided silently across the lake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Madam, could you pass the civic center?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThe pattern is that the input contains palindromic words (words that read the same forwards and backwards): \"Madam,\" \"civic,\" and \"level\" (implied in \"center\" - actually \"civic\" is the palindrome here). The sentence contains multiple palindromic words, making the statement True."
+    },
+    {
+      "test_input": "He saw a radar in the sky during the night.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They named their son Noon after the time of day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The level of the water was perfect for sailing.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She sells seashells by the seashore.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Yesterday I went to the market and bought some apples.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The code was written in Java, not Python.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My favorite colors are red, blue, and green.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The racecar was fast.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a kayak by the noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThe sentence contains multiple palindromes (words that read the same forwards and backwards): \"She\" (she/ehs - not quite), \"kayak\" (kayak), and \"noon\" (noon). Most notably, \"kayak\" and \"noon\" are perfect palindromes, which appears to be the pattern being tested."
+    },
+    {
+      "test_input": "Madam, did you see the level?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThis is a palindrome (reads the same forwards and backwards when spaces and punctuation are ignored: \"madamidyouseethel evel\" → \"madadidyouseethele vel\" - actually, let me reconsider: \"madamidyouseethelevel\" reversed is \"levelehteesuo ydidamam\"... \n\nActually, the pattern is that individual words in the sentence are palindromes:\n- Ma"
+    },
+    {
+      "test_input": "His civic duty was noted.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A noon meeting with a radar check.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the race is on",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "she bought a kayak and a boat",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "this is a test of the system",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "hello world from the coding dojo",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "my favorite animal is a dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a kayak by the lake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThe sentence contains the word \"kayak,\" which is a palindrome (reads the same forwards and backwards)."
+    },
+    {
+      "test_input": "The racecar zoomed past the spectators.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No essays were submitted today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Level-headed individuals often reflect deeply.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The noon break was refreshing.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She has a cat and a dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The race is at noon today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "His level of patience was evident.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The philosopher discussed complex ideas.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow, such a tall tree.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The kayak was resting on the shore.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The boat was resting on the shore.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a radar in the sky.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a cloud in the sky.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The racecar zoomed past the finish line.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The racecar was parked near the finish line.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a level of calmness in him.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a level of excitement in him.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The racecar zoomed past the noon traffic.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A kayak is on the water.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow, did you see the kayak by the noon?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThe input contains multiple palindromes (words that read the same forwards and backwards): \"Wow,\" \"kayak,\" and \"noon.\""
+    },
+    {
+      "test_input": "Wow, did you see the boat by the noon?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Madam, in Eden, I’m Adam.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True\n\nThis is a palindrome - it reads the same forwards and backwards when spaces and punctuation are ignored (madaminedenimadam)."
+    },
+    {
+      "test_input": "Hello, in Eden, I’m Adam.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7272727272727273,
+  "consistency_tests": [
+    {
+      "input": "The racecar driver finished early today and was happy.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nLet me check each word in the input: \"The racecar driver finished early today and was happy.\"\n\n- \"The\" - not a palindrome\n- \"racecar\" - **IS a palindrome** (reads the same forwards and backwards: r-a-c-e-c-a-r)\n- \"driver\" - not a palindrome\n- \"finished\" - not a palindrome\n- \"early\" - not a palindrome\n- \"today\" - not a palindrome\n- \"and\" - not a palindrome\n- \"was\" - not a palindrome\n- \"happy\" - not a palindrome\n\nThe word **\"racecar\"** is a palindromic word, which means the input contains at least one palindromic word. Therefore, the classification is **True**.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "They found a radar detector in the old car's glove compartment.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nIn the input \"They found a radar detector in the old car's glove compartment,\" the word **\"radar\"** is present.\n\n**\"Radar\"** is a palindromic word because it reads the same forwards and backwards:\n- Forwards: r-a-d-a-r\n- Backwards: r-a-d-a-r\n\nSince the input contains at least one palindromic word (\"radar\"), the classification is **True**.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "They arrived early for the noon appointment and waited quietly.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nExamining the input: \"They arrived early for the noon appointment and waited quietly.\"\n\nThe word **\"noon\"** is a palindromic word because it reads the same forwards and backwards:\n- Forwards: n-o-o-n\n- Backwards: n-o-o-n\n\nSince the input contains at least one palindromic word (\"noon\"), the classification is **True**.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "During the trip, they stopped at noon for lunch and then continued onward.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nExamining the input: \"During the trip, they stopped at noon for lunch and then continued onward.\"\n\nThe word **\"noon\"** is a palindromic word because it reads the same forwards and backwards:\n- Forwards: n-o-o-n\n- Backwards: n-o-o-n\n\nSince the input contains at least one palindromic word (\"noon\"), the classification is **True**.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "During the meeting, he mentioned that noon is the best time to call.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nIn the input \"During the meeting, he mentioned that noon is the best time to call,\" the word **\"noon\"** is present.\n\n**\"Noon\"** is a palindromic word because it reads the same forwards and backwards:\n- Forwards: n-o-o-n\n- Backwards: n-o-o-n\n\nSince the input contains at least one palindromic word (\"noon\"), the classification is **True**.",
+      "word_overlap": 0.6086956521739131,
+      "classification_correct": true
+    },
+    {
+      "input": "He finally completed his painting after months of effort and patience.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nI examined each word in the input for palindromic properties (words that read the same forwards and backwards):\n\n- \"He\" - not a palindrome\n- \"finally\" - not a palindrome\n- \"completed\" - not a palindrome\n- \"his\" - not a palindrome\n- \"painting\" - not a palindrome\n- \"after\" - not a palindrome\n- \"months\" - not a palindrome\n- \"of\" - not a palindrome\n- \"effort\" - not a palindrome\n- \"and\" - not a palindrome\n- \"patience\" - not a palindrome\n\nNone of the words in this sentence read the same forwards and backwards. Therefore, according to the rule, the output is **False** because the input contains no palindromic words.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": true
+    },
+    {
+      "input": "She hurried to catch the bus before it left the station.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nI examined each word in the input for palindromic properties (words that read the same forwards and backwards):\n\n- She, hurried, to, catch, the, bus, before, it, left, the, station\n\nBreaking down the key candidates:\n- **\"it\"** - reads as \"ti\" backwards ✗ (not a palindrome)\n- **\"the\"** - reads as \"eht\" backwards ✗ (not a palindrome)\n- **\"bus\"** - reads as \"sub\" backwards ✗ (not a palindrome)\n\nNone of the words in this sentence are palindromic. Therefore, according to the rule, the output is **False** because the input contains no palindromic words.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "They decided to explore the nearby hiking trails yesterday.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nI examined each word in the input \"They decided to explore the nearby hiking trails yesterday\" to identify any palindromic words (words that read the same forwards and backwards).\n\nHere are the words checked:\n- They, decided, to, explore, the, nearby, hiking, trails, yesterday\n\nBreaking down a few key candidates:\n- \"decided\" - d-e-c-i-d-e-d (backwards: d-e-d-i-c-e-d) ✗ Not a palindrome\n- \"explore\" - e-x-p-l-o-r-e (backwards: e-r-o-l-p-x-e) ✗ Not a palindrome\n- \"nearby\" - n-e-a-r-b-y (backwards: y-b-r-a-e-n) ✗ Not a palindrome\n- \"hiking\" - h-i-k-i-n-g (backwards: g-n-i-k-i-h) ✗ Not a palindrome\n- \"trails\" - t-r-a-i-l-s (backwards: s-l-i-a-r-t) ✗ Not a palindrome\n\nNone of the words in this sentence are palindromic words",
+      "word_overlap": 0.391304347826087,
+      "classification_correct": true
+    },
+    {
+      "input": "She decided to take a walk along the river at sunset.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, I need to find at least one palindromic word (a word that reads the same forwards and backwards).\n\nLet me examine the words in the input:\n- \"She\" → \"ehS\" ✗\n- \"decided\" → \"dediced\" ✗\n- \"to\" → \"ot\" ✗\n- \"take\" → \"ekat\" ✗\n- \"a\" → \"a\" ✓ **PALINDROME**\n- \"walk\" → \"klaw\" ✗\n- \"along\" → \"gnola\" ✗\n- \"the\" → \"eht\" ✗\n- \"river\" → \"revir\" ✗\n- \"at\" → \"ta\" ✗\n- \"sunset\" → \"tesnus\" ✗\n\nThe word **\"a\"** is a palindromic word because it reads the same forwards and backwards (it's a single letter, so it trivially satisfies this condition).\n\nSince the input contains at least one palindromic word, the classification is **True**.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": false
+    },
+    {
+      "input": "The children played happily in the park until sunset, enjoying the warm breeze.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nI examined each word in the input for palindromic properties (words that read the same forwards and backwards):\n\n- \"The\" → ehT (not a palindrome)\n- \"children\" → nerdlihc (not a palindrome)\n- \"played\" → deyalp (not a palindrome)\n- \"happily\" → ylippah (not a palindrome)\n- \"in\" → ni (not a palindrome)\n- \"the\" → eht (not a palindrome)\n- \"park\" → krap (not a palindrome)\n- \"until\" → litnu (not a palindrome)\n- \"sunset\" → tesnus (not a palindrome)\n- \"enjoying\" → gnijoyne (not a palindrome)\n- \"warm\" → mraw (not a palindrome)\n- \"breeze\" → eezeerb (not a palindrome)\n\n**Result:** The input contains **no palindromic words**, so according to the rule, the classification is **False**.",
+      "word_overlap": 0.4782608695652174,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5391304347826087,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 9,
+    "n_correct": 9,
+    "n_skipped": 11,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

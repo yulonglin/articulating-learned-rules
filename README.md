@@ -36,7 +36,6 @@ This question has significant implications for AI interpretability and safety. I
     - LLM judge (semantic equivalence)
     - Cosine similarity
     - Functional accuracy (can the articulation classify new examples?)
-    - Human evaluation
 
 ### Step 3: Faithfulness Testing
 - Assess whether articulated rules actually explain model behavior

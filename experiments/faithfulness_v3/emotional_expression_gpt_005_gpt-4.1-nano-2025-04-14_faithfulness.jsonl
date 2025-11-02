@@ -1,0 +1,463 @@
+{
+  "rule_id": "emotional_expression_gpt_005",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text conveys a clear emotional state such as happiness, sadness, anger, or excitement.",
+  "generated_articulation": "The classification rule is:  \n**A text is labeled True if it explicitly or implicitly conveys an emotional response, internal state, or subjective experience (such as excitement, frustration, happiness, dread, or surprise). It is labeled False if it describes neutral, objective observations or external facts without indicating any emotional or internal reaction.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "She was overjoyed when she received the news about her promotion.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He felt a surge of frustration after failing the exam.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sunset painted the sky in hues of orange and pink.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was surprised to see her friends waiting for her at the door.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He expressed happiness upon hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The experiment was conducted over a period of three months with consistent procedures.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The building stands 50 stories tall and is located downtown.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The water boils at 100 degrees Celsius under standard pressure.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She checked the weather forecast before planning her day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The traffic light turned red, and the cars stopped accordingly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She frowned as she read the news, feeling a wave of disappointment wash over her.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team was overwhelmed with excitement after winning the championship.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He couldn't help but smile when he saw the surprise party waiting for him.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The scent of freshly baked bread brought her a sense of comfort and nostalgia.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt a surge of anxiety as the deadline approached.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The window was broken yesterday during the storm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report was submitted before the deadline.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The plant is located in the corner of the room.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He measured 150 centimeters in height.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The traffic light turned red at 3:45 pm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After finishing the project, she felt a surge of relief and pride.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The garden buzzed with activity as bees hovered over blooming flowers all morning.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The morning light streamed through the window, illuminating the room with a warm glow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She couldn’t help but smile when recalling the recent holiday trip.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team celebrated their victory with cheers and high-fives, sharing in their success.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report indicates a decline in quarterly profits compared to the previous year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain for the upcoming weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Several students arrived late to class due to traffic congestion.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new software update was released today, and users began downloading it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The book was published in 1995 and has been on the shelf since then.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was thrilled to see the sunset today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sunset was beautiful.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt anxious before the exam.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The exam was scheduled for Monday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sun set at 6 pm today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt overwhelmed by the news of her promotion.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company announced the promotion yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt a surge of excitement when I saw the results.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The results were announced today at 3 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was overwhelmed with happiness after hearing the news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The news was announced at noon yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt thrilled when I saw the results of my hard work.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report was completed and submitted on time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was overwhelmed with joy after hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for 3 PM tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.4666666666666667,
+  "consistency_tests": [
+    {
+      "input": "The crowd erupted in cheers when the team scored the winning goal.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The crowd erupted in cheers when the team scored the winning goal\" describes an emotional response—specifically, the crowd's cheers—which indicates a subjective experience and internal reaction. According to the classification rule, such expressions of excitement or joy are considered emotional responses. Therefore, this text conveys an internal or emotional state, leading to a label of True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "He felt a surge of anger fueling his determination.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"He felt a surge of anger fueling his determination\" explicitly describes an internal emotional state—anger—and indicates a subjective experience. According to the classification rule, any text that conveys an emotional response or internal state should be labeled True. Since the sentence directly references a feeling (\"anger\") that influences behavior (\"fueling his determination\"), it clearly conveys an internal emotional response, leading to a True classification.",
+      "word_overlap": 0.4666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "I was so happy to see my friends after such a long time.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I was so happy to see my friends after such a long time.\" explicitly conveys an internal emotional state—happiness. The phrase \"I was so happy\" directly expresses an emotional response, which aligns with the rule that texts conveying emotional responses or internal states are labeled True.",
+      "word_overlap": 0.4,
+      "classification_correct": true
+    },
+    {
+      "input": "The child giggled uncontrollably upon seeing the funny clown.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The child giggled uncontrollably upon seeing the funny clown\" conveys an emotional response—specifically, amusement and joy. The word \"giggled uncontrollably\" indicates an internal emotional reaction to the situation. According to the classification rule, texts that explicitly or implicitly express an emotional response or internal state are labeled True. Therefore, this input is classified as True.",
+      "word_overlap": 0.4,
+      "classification_correct": true
+    },
+    {
+      "input": "He was furious when he saw the destroyed equipment.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"He was furious when he saw the destroyed equipment\" explicitly conveys an emotional response—furious—which indicates a subjective internal state. According to the classification rule, any text that explicitly or implicitly expresses an emotional response or internal experience should be labeled True. Since \"furious\" directly describes an emotional reaction, this sentence fits the criteria for a True label.",
+      "word_overlap": 0.5333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "He completed the project exactly as instructed, no deviations.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"He completed the project exactly as instructed, no deviations.\" describes an objective, factual observation about the completion of a task. It does not convey any emotional response, internal state, or subjective experience such as excitement, frustration, happiness, or surprise. According to the classification rule, since it is a neutral, objective statement without any indication of emotional or internal reactions, it should be labeled False.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "His backpack was filled with textbooks and notebooks for the semester.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"His backpack was filled with textbooks and notebooks for the semester\" describes an objective, neutral observation about the contents of a backpack. It does not convey any emotional response, internal state, or subjective experience such as excitement, frustration, happiness, dread, or surprise. According to the classification rule, since it lacks any indication of emotional or internal reactions, it should be labeled False.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "They discussed various theories about the origins of the universe.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"They discussed various theories about the origins of the universe\" describes an objective, external observation—namely, a discussion about theories—without expressing or implying any emotional response, internal state, or subjective experience. According to the classification rule, since there is no explicit or implicit emotional or internal reaction conveyed, this text should be labeled False.",
+      "word_overlap": 0.5333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "They sat silently across from each other at dinner.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"They sat silently across from each other at dinner\" describes a neutral, objective observation of a situation. It mentions their silence and seating arrangement but does not convey any emotional response, internal state, or subjective experience such as happiness, frustration, or surprise. According to the classification rule, since there is no explicit or implicit emotional or internal reaction expressed, this text should be labeled False.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "The sky was gray, and the wind was gentle tonight.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The sky was gray, and the wind was gentle tonight.\" describes neutral, objective observations about the weather conditions. It does not explicitly or implicitly convey any emotional response, internal state, or subjective experience. There are no words indicating feelings such as happiness, sadness, excitement, or any other emotional or internal reaction. Therefore, based on the classification rule, this text should be labeled False.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5466666666666666,
+  "functional_accuracy": 0.95,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 19,
+    "n_skipped": 0,
+    "accuracy": 0.95
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

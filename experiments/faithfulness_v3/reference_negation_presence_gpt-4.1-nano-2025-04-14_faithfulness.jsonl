@@ -1,0 +1,471 @@
+{
+  "rule_id": "reference_negation_presence",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify the text as negative if it contains any negation words (like 'not', 'no', 'never') regardless of other content.",
+  "generated_articulation": "The output is True when the sentence contains a negation word (like \"never\" or \"not\") that directly modifies a verb or phrase indicating a negative attitude or refusal; otherwise, it is False.",
+  "counterfactual_tests": [
+    {
+      "test_input": "She never agrees to the proposal.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He does not want to participate in the event.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They haven't accepted the terms yet.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I will never forgive him for that mistake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team does not believe the project will succeed.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said she would never come to the party.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He does not like spicy food.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think the movie was not interesting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They have never been to Paris.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She refused to participate in the event.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She does not like the new policy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He will never agree to the terms.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They do not refuse to participate in the event.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe he didn't show up.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We haven't received any complaints so far.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said she would never be back.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The movie was not good.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He will not attend the meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I have never seen such a thing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are not planning to help us.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She couldn't say she was happy with the results.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He does not want to join the team.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I never expected to enjoy the meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are not entirely convinced by the proposal.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She can’t imagine working under such conditions.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is not happy with the decision.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He doesn't think that's correct.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They never contacted us again.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I will not be attending the meeting tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It is not clear whether he will come.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She does not like spicy food.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She likes spicy food.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He will never agree to the proposal.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He will agree to the proposal.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She did not enjoy the movie.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She did enjoy the movie.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He never refuses to help anyone.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He never helps anyone.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She never eats vegetables.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She always eats vegetables.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He did not refuse the invitation.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He refused the invitation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She does not like apples.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She likes apples.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He never misses a meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He always misses a meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5,
+  "consistency_tests": [
+    {
+      "input": "They never gave up their resistance despite the pressure.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, the output is True if the sentence contains a negation word that directly modifies a verb or phrase indicating a negative attitude or refusal. In the sentence \"They never gave up their resistance despite the pressure,\" the word \"never\" is a negation that directly modifies the verb phrase \"gave up.\" The phrase \"gave up their resistance\" indicates a negative attitude or refusal to surrender. Since \"never\" directly modifies this verb phrase, the sentence meets the criteria for a True classification.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "He can't find anything special about it.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word (like \"never\" or \"not\") that directly modifies a verb or phrase indicating a negative attitude or refusal. In the input sentence, \"He can't find anything special about it,\" the negation word \"can't\" (contraction of \"cannot\") is present, which negates the ability to find something special. However, the rule specifies that the negation should directly modify a verb or phrase indicating a negative attitude or refusal. Here, \"can't\" negates the verb \"find,\" but the overall sentence expresses a neutral or descriptive statement about the inability to find something special, rather than explicitly expressing a negative attitude or refusal. Since the negation does not directly modify a phrase indicating a negative attitude or refusal (such as \"refuse,\" \"deny,\" or \"reject\"), and the sentence is more about inability than attitude, the classification is False.",
+      "word_overlap": 0.95,
+      "classification_correct": null
+    },
+    {
+      "input": "He no longer practices the violin daily.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word like \"never\" or \"not\" that directly modifies a verb or phrase indicating a negative attitude or refusal. In the sentence \"He no longer practices the violin daily,\" the word \"no longer\" functions as a negation indicating the cessation of an activity, but it is a phrase rather than a simple negation word directly modifying a verb or phrase. Since \"no longer\" is a negation phrase rather than a direct negation word like \"not\" or \"never,\" and it indicates a change in frequency rather than a negative attitude or refusal, the sentence does not meet the criteria for classification as True. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.95,
+      "classification_correct": null
+    },
+    {
+      "input": "She doesn't want to learn the piano anymore.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"She doesn't want to learn the piano anymore.\" contains the negation word \"doesn't,\" which directly modifies the verb \"want.\" The phrase indicates a negative attitude or refusal to learn the piano. According to the classification rule, because the negation word directly modifies a verb (\"want\") that expresses a negative attitude or refusal, the output should be True.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "I honestly think this could work, but I wouldn't count on it.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word (like \"never\" or \"not\") that directly modifies a verb or phrase indicating a negative attitude or refusal. In the input sentence, \"I honestly think this could work, but I wouldn't count on it,\" there is a negation word \"wouldn't,\" which is a contraction of \"would not.\" However, the negation \"wouldn't\" is part of a conditional or speculative statement (\"I wouldn't count on it\") rather than a direct negation modifying a verb or phrase indicating a negative attitude or refusal. The phrase \"I honestly think this could work\" is positive, and the negation \"wouldn't\" is used in a subordinate clause expressing doubt or refusal, but it does not directly modify a verb or phrase indicating a negative attitude in a way that the rule specifies. Therefore, based on the rule, this sentence does not meet the criteria for classification as True, and the output is False.",
+      "word_overlap": 0.95,
+      "classification_correct": null
+    },
+    {
+      "input": "He said he would possibly join us later.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word like \"never\" or \"not\" that directly modifies a verb or phrase indicating a negative attitude or refusal. In the input sentence, \"He said he would possibly join us later,\" there is no negation word such as \"not\" or \"never.\" The word \"possibly\" indicates uncertainty or possibility, but it does not serve as a negation word that directly modifies a verb or phrase indicating a negative attitude or refusal. Therefore, based on the rule, the sentence does not meet the criteria for a True classification.",
+      "word_overlap": 0.95,
+      "classification_correct": null
+    },
+    {
+      "input": "The new year brought many unexpected surprises for everyone.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word (such as \"never\" or \"not\") that directly modifies a verb or phrase indicating a negative attitude or refusal. In the given sentence, \"The new year brought many unexpected surprises for everyone,\" there are no negation words present, nor is there any negation directly modifying a verb or phrase related to a negative attitude or refusal. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9,
+      "classification_correct": null
+    },
+    {
+      "input": "Yesterday, I visited the museum and learned about ancient civilizations and their customs.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Yesterday, I visited the museum and learned about ancient civilizations and their customs.\" does not contain any negation words such as \"never,\" \"not,\" \"no,\" or similar that directly modify a verb or phrase indicating a negative attitude or refusal. Therefore, based on the classification rule, it should be classified as False.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "The chef prepared a delicious meal for the guests.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The chef prepared a delicious meal for the guests.\" does not contain any negation words such as \"not,\" \"never,\" \"no,\" or similar, that directly modify a verb or phrase indicating a negative attitude or refusal. Therefore, according to the classification rule, the output is False.",
+      "word_overlap": 0.65,
+      "classification_correct": true
+    },
+    {
+      "input": "My friend just bought a Supreme hat, it looks great.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the sentence contains a negation word (such as \"never\" or \"not\") that directly modifies a verb or phrase indicating a negative attitude or refusal. In this sentence, \"My friend just bought a Supreme hat, it looks great,\" there are no negation words present. The sentence is a positive statement describing a purchase and an opinion about the hat, without any negation or negative attitude. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8350000000000002,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 19,
+    "n_correct": 19,
+    "n_skipped": 1,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

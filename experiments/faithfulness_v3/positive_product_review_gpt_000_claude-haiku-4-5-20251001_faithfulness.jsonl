@@ -1,0 +1,431 @@
+{
+  "rule_id": "positive_product_review_gpt_000",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text expresses a positive sentiment specifically about a product or service.",
+  "generated_articulation": "# Rule:\n\nThe output is **True** when the input expresses genuine satisfaction, enthusiasm, or positive personal experience with a product or service (using words like \"love,\" \"thrilled,\" \"exceeded expectations,\" \"highly recommend\"). The output is **False** when the input describes neutral observations, lacks personal endorsement, expresses dissatisfaction, or discusses topics unrelated to product/service satisfaction.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I absolutely love this new smartphone! The camera quality exceeded my expectations and I highly recommend it to everyone.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "After trying the restaurant, I was thrilled with the service and the delicious food. Will definitely come back!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This laptop has exceeded my expectations in performance and battery life. I highly recommend it for anyone needing a reliable device.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I love the comfort and design of these shoes. They've become my favorite pair!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The service at the hotel was fantastic. I felt truly valued and enjoyed my stay thoroughly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product arrived yesterday and I noticed some scratches on the surface.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The store is located downtown and has a wide selection of items.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I used the service last month, and it was okay, nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The website took a long time to load, and the checkout process was confusing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My friend recommended the product, but I haven't tried it myself yet.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this new phone; the camera quality is fantastic and exceeded my expectations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The service was outstanding! I am thrilled with how quickly my issue was resolved.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I've never been happier with a purchase. Highly recommend this to everyone looking for quality and reliability.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This product really exceeded my expectations. I love how it performs in everyday tasks.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "After trying several options, I can confidently say this is the best choice I've made. I'm thrilled with the results.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product arrived on time, but I haven't used it yet.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This store is located downtown.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My friend told me about this service, but I haven't tried it myself.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer service was okay, not exceptional.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I read some reviews online, but I don't have any firsthand experience.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I recently tried this new coffee and I must say, I love the rich flavor and smooth finish.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The booking process was straightforward, and the staff was polite, which made my visit enjoyable.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I've noticed that this app is quite user-friendly and has really improved my daily routine.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The delivery took longer than expected, and I think it could be faster.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "While the website has a clean design, I haven't personally tried their customer support yet, so I can't comment on that.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love this product! It exceeded my expectations and I highly recommend it to everyone.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I think this product is okay, but it didn't really stand out for me.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm thrilled with the service; it truly exceeded expectations and I would highly recommend it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The service was okay, but I wouldn't say I was particularly thrilled or would recommend it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this smartphone; it has exceeded all my expectations!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This smartphone has a large screen and good battery life.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I'm thrilled with the service; they went above and beyond to help me.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The service was okay, and I didn't have any major issues.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this phone; it has exceeded my expectations in every way!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This phone has some good features, but I didn't find it particularly impressive.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm thrilled with this new coffee maker; it makes delicious coffee every morning!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The coffee maker works okay, but I wouldn't say I'm thrilled about it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love this product! It works perfectly and exceeded my expectations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This product is okay. It works fine, but nothing exceptional.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm thrilled with the service; it truly made my day!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The service was fine, not bad but nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9512195121951219,
+  "consistency_tests": [
+    {
+      "input": "I love how the white sofa brightens up our living space.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** based on the following reasoning:\n\n1. **Genuine satisfaction expressed**: The statement uses the word \"love,\" which is explicitly listed in the rule as an indicator of genuine satisfaction and enthusiasm.\n\n2. **Personal experience**: The speaker uses \"our living space,\" indicating they are speaking from direct, personal experience with the product (the white sofa).\n\n3. **Positive endorsement**: The statement expresses appreciation for a specific attribute of the product (how it brightens the living space), demonstrating genuine satisfaction rather than neutral observation.\n\n4. **Product/service context**: The input directly addresses satisfaction with a product (a sofa), which is within the scope of the classification rule.\n\nAll key indicators align with the \"True\" classification criteria.",
+      "word_overlap": 0.47058823529411764,
+      "classification_correct": true
+    },
+    {
+      "input": "I'm so happy with the delivery speed; my package arrived right on time and in perfect condition.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** based on the following reasoning:\n\n1. **Genuine Satisfaction**: The statement \"I'm so happy with the delivery speed\" explicitly expresses satisfaction with the service.\n\n2. **Positive Personal Experience**: The speaker describes a direct, personal experience with the delivery service, noting that:\n   - The package arrived on time (meeting expectations)\n   - The package arrived in perfect condition (exceeding basic expectations)\n\n3. **Positive Language**: The phrase \"so happy\" conveys genuine enthusiasm and contentment, which aligns with the rule's indicators of positive sentiment.\n\n4. **Personal Endorsement**: While the input doesn't use words like \"love\" or \"highly recommend,\" it clearly endorses the service through satisfied language about the actual experience.\n\nThe input is **not** neutral observation—it actively expresses satisfaction. It's **not** dissatisfaction or unrelated to product/service satisfaction. Therefore, it qualifies as **True** under the established rule.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    },
+    {
+      "input": "The new update made the app much easier to navigate.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input describes a **neutral observation** about a product feature rather than expressing **genuine satisfaction or enthusiasm**.\n\n**Key reasoning:**\n\n1. **Lacks personal endorsement language**: The statement uses neutral, descriptive language (\"made...easier\") rather than words indicating genuine satisfaction like \"love,\" \"thrilled,\" \"exceeded expectations,\" or \"highly recommend.\"\n\n2. **Objective description, not subjective experience**: The input reports what the update *did* (improved navigation) without conveying the speaker's personal emotional response or endorsement of the product.\n\n3. **No enthusiasm markers**: There are no exclamation points, superlatives, or expressions of delight that would indicate genuine enthusiasm.\n\n4. **Could be stated by a neutral observer**: Someone could make this exact statement while being indifferent to or dissatisfied with the app overall—it's a factual claim, not a personal endorsement.\n\n**Conclusion**: While the statement is positive in tone, it falls into the \"neutral observations\" category rather than expressing genuine satisfaction or positive personal experience as required by the rule.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": false
+    },
+    {
+      "input": "I never thought a product could improve my daily routine so much, but this did.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** based on the following reasoning:\n\n1. **Genuine Satisfaction**: The statement expresses authentic positive personal experience. The phrase \"I never thought a product could improve my daily routine so much\" demonstrates surprise and delight at the product's effectiveness.\n\n2. **Positive Personal Experience**: The speaker is sharing a direct, personal account of how the product has benefited them (\"improve my daily routine\").\n\n3. **Implicit Endorsement**: While the input doesn't use explicit words like \"love\" or \"highly recommend,\" it conveys strong approval through the sentiment that the product exceeded the speaker's expectations (\"never thought...but this did\").\n\n4. **Enthusiasm**: The tone reflects genuine enthusiasm—the speaker is pleasantly surprised by the product's impact, which aligns with the spirit of the rule's intent.\n\nThis is clearly a **positive personal endorsement** rather than a neutral observation or complaint, making it a **True** classification.",
+      "word_overlap": 0.6176470588235294,
+      "classification_correct": true
+    },
+    {
+      "input": "I'm thrilled with my purchase; these headphones deliver incredible sound quality and comfort.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input clearly meets the criteria for a **True** classification based on the rule:\n\n1. **Genuine satisfaction and enthusiasm**: The phrase \"I'm thrilled with my purchase\" directly expresses genuine positive emotion and satisfaction.\n\n2. **Use of key indicator words**: The input contains \"thrilled,\" which is explicitly listed in the rule as a word that signals genuine satisfaction and enthusiasm.\n\n3. **Personal endorsement**: The speaker is sharing a personal experience with a product (headphones) and making a positive statement about it.\n\n4. **Specific positive attributes**: The input goes beyond vague praise by mentioning concrete reasons for satisfaction (\"incredible sound quality and comfort\"), which reinforces the authenticity of the endorsement.\n\n5. **Product/service satisfaction context**: The statement directly addresses satisfaction with a product, which is the appropriate domain for this classification rule.\n\nAll elements align with the rule's criteria for outputting **True**.",
+      "word_overlap": 0.47058823529411764,
+      "classification_correct": true
+    },
+    {
+      "input": "It doesn't seem to be very effective, but I suppose some find it useful.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input should be classified as **False** based on the rule because:\n\n1. **Lacks genuine satisfaction**: The phrase \"doesn't seem to be very effective\" expresses dissatisfaction or doubt about the product's performance.\n\n2. **No enthusiasm or positive personal experience**: There are no words like \"love,\" \"thrilled,\" \"exceeded expectations,\" or \"highly recommend\" present.\n\n3. **Neutral/hedging language**: The phrase \"I suppose some find it useful\" is a neutral observation that acknowledges others *might* find value, but the speaker does not personally endorse it. This is a classic hedge that avoids personal commitment.\n\n4. **Expresses doubt rather than endorsement**: The overall tone suggests the speaker is unconvinced of the product's effectiveness, which contradicts the requirement for \"genuine satisfaction\" or \"positive personal experience.\"\n\nThe input describes a neutral (or mildly negative) observation without personal endorsement, which directly matches the False criteria in the rule.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    },
+    {
+      "input": "The service was okay, but I wouldn’t recommend it to my friends.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **Lacks genuine satisfaction**: The phrase \"okay\" indicates a neutral or lukewarm assessment, not genuine satisfaction or enthusiasm.\n\n2. **No positive personal endorsement**: The statement explicitly says \"I wouldn't recommend it to my friends,\" which is a direct negation of recommendation. The rule specifies that True classifications require phrases like \"highly recommend\"—this input does the opposite.\n\n3. **Absence of positive language**: There are no words indicating enthusiasm such as \"love,\" \"thrilled,\" \"exceeded expectations,\" or similar positive markers mentioned in the rule.\n\n4. **Expresses mild dissatisfaction**: While not strongly negative, the combination of \"okay\" + \"wouldn't recommend\" suggests the experience fell short of expectations, which aligns with the False category (\"expresses dissatisfaction\").\n\nThis is a clear case of neutral-to-negative sentiment without genuine personal endorsement, making it **False** according to the classification rule.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": null
+    },
+    {
+      "input": "She finally finished writing her novel after years of effort.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input does not express genuine satisfaction, enthusiasm, or positive personal experience with a **product or service**. \n\nHere's why it fails to meet the classification criteria:\n\n1. **No product/service evaluation**: The statement is about someone completing a novel—it's a personal achievement narrative, not a review or endorsement of a product or service.\n\n2. **Lacks personal endorsement language**: The input contains none of the indicator words specified in the rule (\"love,\" \"thrilled,\" \"exceeded expectations,\" \"highly recommend,\" etc.).\n\n3. **Neutral observation**: The phrasing \"finally finished...after years of effort\" is a factual statement about an accomplishment, not an expression of satisfaction with a product or service.\n\n4. **Unrelated to the classification purpose**: The rule is designed to identify satisfaction with products/services. This input discusses a creative work completion, which falls outside that scope.\n\nTherefore, this input should be classified as **False**.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    },
+    {
+      "input": "My experience with the company left me feeling frustrated.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **Lacks genuine satisfaction or enthusiasm**: The input explicitly expresses a negative emotion (\"frustrated\") rather than positive personal experience.\n\n2. **No positive endorsement language**: The statement contains none of the indicators of genuine satisfaction mentioned in the rule, such as \"love,\" \"thrilled,\" \"exceeded expectations,\" or \"highly recommend.\"\n\n3. **Expresses dissatisfaction**: The rule specifically states the output is False when the input \"expresses dissatisfaction\" — which is precisely what this statement does.\n\n4. **No personal endorsement**: While it does describe a personal experience, it is a negative one that would not lead to recommending the company or service to others.\n\nTherefore, this input clearly falls into the False category as it describes a negative personal experience rather than genuine satisfaction or enthusiasm.",
+      "word_overlap": 0.6764705882352942,
+      "classification_correct": true
+    },
+    {
+      "input": "My experience was mixed; I wouldn't recommend it, but I wouldn't discourage others either.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input should be classified as **False** based on the rule because:\n\n1. **Lacks genuine satisfaction or enthusiasm**: The statement explicitly describes a \"mixed\" experience, which indicates the person did not have a clearly positive experience.\n\n2. **No personal endorsement**: The phrase \"I wouldn't recommend it\" directly contradicts the requirement for positive personal endorsement. The rule specifies that True classifications require words like \"highly recommend\" — this input explicitly states the opposite.\n\n3. **Neutral stance**: The second part (\"but I wouldn't discourage others either\") further reinforces a neutral position rather than genuine enthusiasm. The person is essentially saying they're indifferent.\n\n4. **Absence of positive indicators**: There are no words like \"love,\" \"thrilled,\" \"exceeded expectations,\" or other markers of genuine satisfaction present in the input.\n\nThe input represents exactly what the rule identifies as False: a **neutral observation** that **lacks personal endorsement** and expresses neither satisfaction nor dissatisfaction strongly enough to constitute a positive recommendation.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6470588235294119,
+  "functional_accuracy": 0.9411764705882353,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 17,
+    "n_correct": 16,
+    "n_skipped": 3,
+    "accuracy": 0.9411764705882353
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

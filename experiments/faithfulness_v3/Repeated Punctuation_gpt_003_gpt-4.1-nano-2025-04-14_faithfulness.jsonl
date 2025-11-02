@@ -1,0 +1,423 @@
+{
+  "rule_id": "Repeated Punctuation_gpt_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify texts as positive if they contain a sequence of three or more identical punctuation marks (e.g., '!!!', '???'); otherwise negative.",
+  "generated_articulation": "The classification rule is:  \n**Texts are labeled as True if they contain at least one sequence of three or more consecutive punctuation marks (e.g., \"!!!\", \"...\", \"???\"). Otherwise, they are labeled as False.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow!!! That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you serious???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He shouted: 'Watch out!!!'",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The code failed... again.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They asked... are you coming?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming today??",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No way...I can't believe it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said, 'Hello!'",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wait — what?!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you sure???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!!! That was awesome!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wait... really?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No way!!!!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is so funny!!! Really!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "What are you doing? Yes, I agree!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello... How are you?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Well, that was close... but not enough.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming now? I think so.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wait... what?!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He was so excited he shouted,,!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Well... I guess that's true.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "What do you think???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's a long story—so let's skip ahead%%%%.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No way!!! Are you serious?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wait... no, I didn't mean to upset you.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm not sure what to say...",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Really? Are you sure?!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Well, I think…that's about it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yikes! Really?!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That's amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming??",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!!! That was amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Really??? Are you sure?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Really?? Are you sure?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming...?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming..?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you serious...?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you serious..?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.525,
+  "consistency_tests": [
+    {
+      "input": "He mentioned he might visit his grandparents soon...",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input text \"He mentioned he might visit his grandparents soon...\" contains three consecutive periods (\"...\") at the end. Since the rule states that texts are labeled as True if they contain at least one sequence of three or more consecutive punctuation marks, the presence of \"...\" qualifies the text as True.",
+      "word_overlap": 0.875,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you sure this is correct???",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Are you sure this is correct???\" contains three consecutive question marks (\"???\"). Since the classification rule states that texts with at least one sequence of three or more consecutive punctuation marks are labeled as True, this input meets that criterion. Therefore, it is classified as True.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "He asked if I was coming!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input text \"He asked if I was coming!!!\" contains a sequence of three consecutive punctuation marks (\"!!!\"). Since the classification rule states that texts are labeled as True if they contain at least one sequence of three or more consecutive punctuation marks, this input meets that criterion. Therefore, it is classified as True.",
+      "word_overlap": 0.875,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you coming to the party???",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Are you coming to the party???\" contains a sequence of three consecutive question marks (\"???\"). Since the classification rule states that texts with at least one sequence of three or more consecutive punctuation marks are labeled as True, this input meets that criterion. Therefore, it is classified as True.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "He asked if I was coming???",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"He asked if I was coming???\" contains a sequence of three consecutive question marks (\"???\"). According to the classification rule, any text that includes at least one sequence of three or more consecutive punctuation marks is labeled as True. Since this input has exactly that, it meets the criterion for a True label.",
+      "word_overlap": 0.6875,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you sure about that??",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Are you sure about that??\" contains two consecutive question marks (\"??\"). Since the rule specifies that texts are labeled as True if they contain at least one sequence of three or more consecutive punctuation marks, and this input only has two, it does not meet the criterion. Therefore, based on the rule, the classification should be False. \n\n**Correction:** Given this, the correct classification should be:\n\n**Classification: False**\n\n**Revised Explanation:** The input \"Are you sure about that??\" has only two consecutive punctuation marks (\"??\"), which is fewer than the required three or more. Therefore, it does not satisfy the condition for labeling as True, and the correct classification is False.",
+      "word_overlap": 0.9375,
+      "classification_correct": null
+    },
+    {
+      "input": "The Supreme store was packed with excited fans.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is labeled as True if it contains at least one sequence of three or more consecutive punctuation marks (such as \"!!!\", \"...\", \"???\"). The input sentence \"The Supreme store was packed with excited fans.\" does not contain any punctuation marks, let alone a sequence of three or more consecutive ones. Therefore, it does not meet the criterion for being labeled as True, and the classification is False.",
+      "word_overlap": 0.8125,
+      "classification_correct": null
+    },
+    {
+      "input": "They celebrated their victory with a big party and lots of friends.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is labeled as True if it contains at least one sequence of three or more consecutive punctuation marks (such as \"!!!\", \"...\", \"???\"). In the provided input, \"They celebrated their victory with a big party and lots of friends.\", there are no sequences of three or more consecutive punctuation marks. The sentence contains only standard punctuation (a period at the end), which does not meet the criterion. Therefore, based on the rule, the text is labeled as False.",
+      "word_overlap": 0.8125,
+      "classification_correct": null
+    },
+    {
+      "input": "She bought a new dress yesterday from the boutique downtown.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input text \"She bought a new dress yesterday from the boutique downtown.\" does not contain any sequence of three or more consecutive punctuation marks (such as \"!!!\", \"...\", \"???\"). Since the rule states that texts are labeled as True only if they contain at least one such sequence, and this text lacks any punctuation sequences of that length, it is classified as False.",
+      "word_overlap": 0.9375,
+      "classification_correct": null
+    },
+    {
+      "input": "They are planning a trip to the mountains next summer to explore new trails.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is labeled as True if it contains at least one sequence of three or more consecutive punctuation marks (such as \"!!!\", \"...\", \"???\"). The input sentence \"They are planning a trip to the mountains next summer to explore new trails.\" does not contain any punctuation marks, let alone a sequence of three or more consecutive punctuation marks. Since the condition is not met, the text is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.83125,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

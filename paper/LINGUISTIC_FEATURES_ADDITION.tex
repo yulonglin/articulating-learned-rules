@@ -1,0 +1,37 @@
+% ============================================================
+% ADD THIS NEW SUBSECTION after Section 3.2.3 (Category-Specific Patterns)
+% Place it as Section 3.2.4
+% ============================================================
+
+\subsubsection{Linguistic Markers Predict Unfaithful Articulations}
+
+We analyzed linguistic properties of articulations to understand what features predict faithfulness. Extracting hedging words (e.g., "might", "possibly"), confidence markers (e.g., "always", "never", "must"), specificity indicators (quantifiers, examples), and complexity metrics across 150 articulations, we found strong correlations with faithfulness.
+
+\textbf{Confidence predicts unfaithfulness.} Articulations with more confidence markers show significantly \textit{lower} faithfulness (Pearson $r = -0.370$, $p = 3 \times 10^{-6}$, Figure~\ref{fig:linguistic_features}, left). This counterintuitive finding suggests models use emphatic language to compensate for uncertainty—similar to how humans employ strong assertions when defending shaky beliefs. Articulations stating rules with "always" or "never" are less faithful than those using moderate language.
+
+\textbf{Length and complexity hurt faithfulness.} Longer articulations show lower faithfulness ($r = -0.225$, $p = 0.006$) and dramatically lower consistency when re-articulating in different contexts ($r = -0.552$, $p = 2.5 \times 10^{-13}$, Figure~\ref{fig:linguistic_features}, right). The extreme correlation with consistency suggests verbosity indicates genuine confusion rather than thorough explanation—models generating wordy articulations struggle to maintain coherent explanations across contexts.
+
+\textbf{Practical implications.} These linguistic markers enable automatic quality assessment without expensive counterfactual testing. By filtering articulations with high confidence scores ($>5$) or excessive length ($>100$ words), we can identify likely post-hoc rationalizations before deploying them as explanations.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/confidence_score_vs_counterfactual_faithfulness.png}
+\includegraphics[width=0.48\textwidth]{figures/word_count_vs_consistency_score.png}
+\caption{\textbf{Linguistic features predict unfaithful articulations.} Left: Confidence markers (per 100 words) strongly correlate with \textit{lower} faithfulness ($r=-0.370$, $p=3 \times 10^{-6}$), suggesting overconfident language compensates for uncertain explanations. Right: Longer articulations show dramatically lower consistency across contexts ($r=-0.552$, $p=2.5 \times 10^{-13}$), indicating verbosity reflects confusion rather than thoroughness.}
+\label{fig:linguistic_features}
+\end{figure}
+
+% ============================================================
+% UPDATE Section 4.1 (Main Findings) - Add as finding (5)
+% Insert after finding (4) about statistical rules
+% ============================================================
+
+\textbf{(5) Linguistic markers reveal unfaithful articulations.} Articulations with more confidence markers ("always", "never", "must") are significantly less faithful ($r=-0.370$, $p=3 \times 10^{-6}$), suggesting models use emphatic language to compensate for uncertainty. Longer, more complex articulations also show lower faithfulness and dramatically lower consistency across contexts ($r=-0.552$, $p=2.5 \times 10^{-13}$), providing practical methods for identifying post-hoc rationalizations without expensive counterfactual testing.
+
+% ============================================================
+% UPDATE Section 4.2 (Implications) - Add new bullet
+% Insert after "Model explanations require rigorous validation"
+% ============================================================
+
+\textbf{Linguistic features enable scalable filtering.} The strong correlation between confidence markers and unfaithfulness enables automatic quality assessment of articulations without requiring counterfactual testing. Models generating confident or verbose articulations can be flagged for additional validation, making faithfulness evaluation more practical at scale.
+

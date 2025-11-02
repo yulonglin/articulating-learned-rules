@@ -1,0 +1,439 @@
+{
+  "rule_id": "Repeated Punctuation_gpt_003",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify texts as positive if they contain a sequence of three or more identical punctuation marks (e.g., '!!!', '???'); otherwise negative.",
+  "generated_articulation": "The output is True when the text contains multiple or repeated punctuation marks (such as \"...\", \"!!!\", \"???\"), which typically indicate emotional emphasis, hesitation, or dramatic effect. The output is False when the text uses standard, conventional punctuation and conveys information in a straightforward manner.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I can't believe you did that!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Well... I guess we can try again.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No way!!! This is awesome!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you sure...?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!!! That was incredible!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The meeting is scheduled for 3 PM tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the attached document and let me know your feedback.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He answered the question confidently.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The weather is nice today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming to the party tonight?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wait... Did you see that?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No way!!! That's amazing!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Seriously??? Are you joking?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it......",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "What??? You really think so???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello, how are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think it's fine.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She shouted, 'Stop!'",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you serious?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Well... I guess that's okay.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It was a beautiful day, wasn't it...",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I'm so glad you could come!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She whispered softly, her voice trailing off...",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Congratulations!!! You did it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The results were as expected.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said, 'It's fine.'",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Please wait until I finish.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am not sure what to do later...",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He exclaimed, 'Wow! That's unbelievable.'",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "It's okay; I suppose.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming...?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming..?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!!! That's incredible!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! That's incredible!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you serious...?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow...... That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow... That's amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe you did that!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow... really surprised by the news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow. really surprised by the news.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6428571428571429,
+  "consistency_tests": [
+    {
+      "input": "He mentioned he might visit his grandparents soon...",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Multiple/Repeated Punctuation Present**: The text contains three consecutive periods (\"...\"), which is an example of multiple punctuation marks.\n\n2. **Matches the Rule's Criteria**: According to the classification rule, the output is True when text contains \"multiple or repeated punctuation marks (such as '...', '!!!', '???')\". The ellipsis (\"...\") is explicitly listed as an example of this pattern.\n\n3. **Indicates Emotional/Stylistic Effect**: The three dots suggest hesitation, trailing off, or a sense of uncertainty about the grandparents' visit—rather than using a standard single period. This conveys an emotional or dramatic quality beyond straightforward information delivery.\n\nWhile the sentence itself is relatively neutral in content, the punctuation choice elevates it beyond \"standard, conventional punctuation,\" making it fit the True classification.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you sure this is correct???",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input contains **multiple repeated punctuation marks** (\"???\") — specifically three question marks in succession.\n\nAccording to the rule, this pattern of repeated punctuation typically indicates:\n- **Emotional emphasis** — the repeated question marks convey doubt, surprise, or skepticism with greater intensity than a single \"?\"\n- **Dramatic effect** — the repetition amplifies the emotional tone of the question\n\nThe text does not use standard, conventional punctuation (which would be a single \"?\"), so it does not meet the criteria for False. Instead, it demonstrates the exact pattern described in the rule for True classification.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": null
+    },
+    {
+      "input": "He asked if I was coming!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Multiple repeated punctuation marks present**: The text contains \"!!!\" (three exclamation marks in succession), which is explicitly mentioned in the rule as an example of multiple/repeated punctuation.\n\n2. **Indicates emotional emphasis**: The triple exclamation marks clearly convey emotional emphasis and excitement about the question being asked, rather than using a single standard punctuation mark.\n\n3. **Non-standard punctuation**: While the sentence structure itself is straightforward, the punctuation deviates from conventional usage (which would typically be a single \"?\" or \"!\"), making it non-standard.\n\nThe repeated exclamation marks are the defining feature that triggers the True classification according to the stated rule.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you coming to the party???",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Multiple repeated punctuation marks present**: The text contains three question marks (\"???\") in sequence, which is a clear example of repeated punctuation.\n\n2. **Indicates emotional emphasis**: The triple question marks convey emotional emphasis and heightened interest or urgency about whether the person is attending the party. This goes beyond the standard single question mark (\"?\") that would be used in conventional punctuation.\n\n3. **Non-standard punctuation**: Standard, straightforward punctuation would use only a single question mark: \"Are you coming to the party?\" The use of three marks instead indicates the speaker is adding dramatic effect or emotional weight to their inquiry.\n\nTherefore, this text meets the criteria for classification as **True** under the given rule.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": true
+    },
+    {
+      "input": "He asked if I was coming???",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThis input contains **multiple repeated punctuation marks** (\"???\") - specifically three question marks in succession.\n\nAccording to the rule, repeated punctuation marks like this typically indicate **emotional emphasis, hesitation, or dramatic effect** rather than standard, conventional punctuation. The triple question marks suggest the speaker is expressing confusion, surprise, or emotional intensity about the question, rather than simply asking a straightforward factual question (which would use a single \"?\").\n\nThis clearly fits the criteria for **True** classification.",
+      "word_overlap": 0.6538461538461539,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you sure about that??",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Multiple punctuation marks present**: The text contains two question marks (\"??\") instead of the standard single question mark.\n\n2. **Emotional emphasis indicated**: The doubled question mark is a non-standard punctuation pattern that conveys emotional emphasis, doubt, or skepticism beyond what a single question mark would express. It suggests the speaker is particularly surprised, incredulous, or wants to emphasize their uncertainty about the statement.\n\n3. **Deviation from conventional punctuation**: Standard, straightforward punctuation would use only one question mark (\"Are you sure about that?\"). The doubling of the punctuation mark indicates a deliberate stylistic choice to add dramatic or emotional effect.\n\nTherefore, this input meets the criteria for classification as **True** under the given rule.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": false
+    },
+    {
+      "input": "The Supreme store was packed with excited fans.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses only standard, conventional punctuation—a single period at the end of the sentence. There are no multiple or repeated punctuation marks such as \"...\", \"!!!\", \"???\", or other combinations that would indicate emotional emphasis, hesitation, or dramatic effect.\n\nThe sentence conveys information in a straightforward, factual manner about a Supreme store being crowded with fans. While the word \"excited\" describes the fans' emotional state, the punctuation itself remains conventional and neutral.\n\nTherefore, according to the classification rule, this should be marked as **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "They celebrated their victory with a big party and lots of friends.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, conventional punctuation** and conveys information in a straightforward manner, which aligns with the False classification according to the rule.\n\n**Reasoning:**\n- The sentence contains only a single period at the end, which is normal punctuation\n- There are **no multiple or repeated punctuation marks** (no \"...\", \"!!!\", \"???\", etc.)\n- The tone is neutral and informative—it simply states facts about a celebration\n- There is **no emotional emphasis, hesitation, or dramatic effect** indicated through punctuation\n- The sentence reads as a straightforward statement without any stylistic punctuation choices\n\nTherefore, this input clearly meets the criteria for a **False** classification.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "She bought a new dress yesterday from the boutique downtown.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, conventional punctuation** and conveys information in a straightforward manner, which aligns with the False classification according to the rule.\n\n**Reasoning:**\n- The sentence contains only a single period at the end, which is normal punctuation\n- There are **no multiple or repeated punctuation marks** (no \"...\", \"!!!\", \"???\", etc.)\n- The tone is neutral and factual—it simply states that someone purchased a dress\n- There is **no emotional emphasis, hesitation, or dramatic effect** indicated by the punctuation\n- The sentence is a straightforward statement of fact with conventional grammar and punctuation\n\nTherefore, this input clearly meets the criteria for a **False** classification.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "They are planning a trip to the mountains next summer to explore new trails.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, conventional punctuation** and conveys information in a straightforward manner, which aligns with the False classification according to the rule.\n\n**Reasoning:**\n- The sentence contains only a single period at the end, which is normal punctuation\n- There are **no multiple or repeated punctuation marks** (no \"...\", \"!!!\", \"???\", etc.)\n- The tone is informative and factual—it simply states a plan without emotional emphasis, hesitation, or dramatic effect\n- The language is direct and neutral, not attempting to convey heightened emotion or uncertainty through punctuation\n\nTherefore, this input clearly meets the criteria for a **False** classification.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.676923076923077,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

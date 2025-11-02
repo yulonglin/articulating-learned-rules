@@ -1,0 +1,383 @@
+{
+  "rule_id": "reference_negation_presence",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify the text as negative if it contains any negation words (like 'not', 'no', 'never') regardless of other content.",
+  "generated_articulation": "# Classification Rule\n\n**True**: Texts containing negation or absence (words like \"not,\" \"never,\" \"no,\" \"won't,\" \"wouldn't,\" \"haven't,\" \"hasn't,\" \"don't,\" \"doesn't,\" \"didn't,\" \"no longer,\" \"couldn't,\" etc.) that express denial, refusal, negation, or impossibility.\n\n**False**: Texts that are affirmative statements, descriptions, or positive assertions without negation or absence markers.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I have never been to Paris, but I plan to visit someday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She doesn't like spicy food.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They won't be attending the meeting tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He has no experience in this field.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project was completed successfully and on time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The sky is blue today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She has completed her homework on time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will happen tomorrow as scheduled.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He enjoys playing tennis every weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product is available in stores now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product is highly recommended by users worldwide.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She will attend the meeting tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They have completed the project successfully.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The weather is sunny today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He enjoys reading historical novels in his free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She has never been happier with her decision.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The device doesn't have any issues reported so far.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't say this is the worst I've seen.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team hasn't encountered any problems yet.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She will not be denying the facts this time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new update is expected to improve user experience.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She hasn't received any feedback from the client.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our team will not attend the meeting tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project was completed successfully without delays.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He might not agree with the proposed plan, but he hasn't yet expressed opposition.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She does not like spicy food.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She likes spicy food.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They haven't arrived yet.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They have arrived now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They have never visited Paris.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They have visited Paris.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She didn't attend the meeting yesterday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She attended the meeting yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He no longer lives here.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He still lives here.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.2857142857142857,
+  "consistency_tests": [
+    {
+      "input": "They never gave up their resistance despite the pressure.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text contains the negation word **\"never,\"** which is explicitly listed in the classification rule as a negation marker.\n\nThe sentence \"They never gave up their resistance despite the pressure\" expresses a denial or negation of the action \"gave up.\" The word \"never\" indicates the absence of giving up—meaning they did NOT give up.\n\nAccording to the rule, texts containing negation words like \"never\" that express denial or negation should be classified as **True**.",
+      "word_overlap": 0.43333333333333335,
+      "classification_correct": true
+    },
+    {
+      "input": "He can't find anything special about it.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text contains the negation marker **\"can't\"** (contraction of \"cannot\"), which is explicitly listed in the classification rule as a negation word.\n\nThe sentence expresses **denial/negation** — it states that he is unable to find anything special about it. This is a negative assertion that denies the possibility of finding something special.\n\nAccording to the rule, texts containing negation words that express denial, refusal, negation, or impossibility should be classified as **True**, which applies here.",
+      "word_overlap": 0.4,
+      "classification_correct": true
+    },
+    {
+      "input": "He no longer practices the violin daily.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text meets the criteria for **True** classification based on the following reasoning:\n\n1. **Negation/Absence Marker Present**: The phrase contains \"no longer,\" which is explicitly listed in the rule as a negation marker that expresses absence.\n\n2. **Expresses Denial/Negation**: The statement denies or negates the continuation of a previous action. It indicates that he *does not* currently practice the violin daily, even though he may have done so in the past.\n\n3. **Matches the Rule**: According to the classification rule, texts containing negation or absence words (like \"no longer\") that express denial, refusal, negation, or impossibility should be classified as **True**.\n\nThe core meaning is fundamentally about what is *not* happening (he is not practicing daily anymore), making this a negation-based statement rather than a simple affirmative description.",
+      "word_overlap": 0.5333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "She doesn't want to learn the piano anymore.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text contains the negation marker **\"doesn't\"** (does not), which is explicitly listed in the classification rule as a negation word.\n\nThe sentence expresses denial/refusal: \"She doesn't want to learn the piano anymore\" communicates that she is **not** willing to learn the piano. This is a clear expression of negation and absence of desire.\n\nAccording to the rule, texts containing negation words that express denial, refusal, negation, or impossibility should be classified as **True**. This input fits that criterion perfectly.",
+      "word_overlap": 0.4666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "I honestly think this could work, but I wouldn't count on it.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text contains the negation marker **\"wouldn't\"** (would not), which is explicitly listed in the classification rule as a negation word expressing denial or impossibility.\n\nWhile the first part of the sentence (\"I honestly think this could work\") is affirmative, the second part introduces a clear negation: \"but I wouldn't count on it.\" This negation phrase expresses doubt and refusal to rely on something happening.\n\nAccording to the rule, the presence of negation or absence markers (in this case \"wouldn't\") that express denial or impossibility is sufficient for classification as **True**, even when the text also contains affirmative elements.",
+      "word_overlap": 0.43333333333333335,
+      "classification_correct": true
+    },
+    {
+      "input": "He said he would possibly join us later.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text is an **affirmative statement** without negation or absence markers.\n\n**Reasoning:**\n- The sentence contains \"would possibly join,\" which is a positive assertion about a potential future action\n- \"Possibly\" indicates uncertainty about likelihood, but it is **not a negation marker**\n- There are no words like \"not,\" \"never,\" \"no,\" \"won't,\" \"wouldn't,\" \"haven't,\" \"hasn't,\" \"don't,\" \"doesn't,\" \"didn't,\" \"no longer,\" or \"couldn't\"\n- The statement affirms that he said something (he would join), rather than denying or refusing anything\n- \"Possibly\" expresses conditional or uncertain affirmation, not denial or negation\n\nAccording to the rule, this falls under **False** because it is an affirmative statement without negation or absence markers.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "The new year brought many unexpected surprises for everyone.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text is an **affirmative statement** without any negation or absence markers.\n\n**Reasoning:**\n- The sentence \"The new year brought many unexpected surprises for everyone\" is a positive assertion describing what happened\n- It contains **no negation words** such as \"not,\" \"never,\" \"no,\" \"won't,\" \"wouldn't,\" \"haven't,\" \"hasn't,\" \"don't,\" \"doesn't,\" \"didn't,\" \"no longer,\" \"couldn't,\" etc.\n- The statement affirms that surprises occurred, rather than denying or negating something\n- According to the classification rule, texts that are \"affirmative statements, descriptions, or positive assertions without negation or absence markers\" should be classified as **False**\n\nTherefore, this input meets the criteria for a **False** classification.",
+      "word_overlap": 0.7666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "Yesterday, I visited the museum and learned about ancient civilizations and their customs.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text is classified as **False** because it is an **affirmative statement** without any negation or absence markers.\n\n**Reasoning:**\n- The sentence describes a positive action: \"I visited the museum\"\n- It contains affirmative descriptive content: \"learned about ancient civilizations and their customs\"\n- There are **no negation words** present such as: \"not,\" \"never,\" \"no,\" \"won't,\" \"wouldn't,\" \"haven't,\" \"hasn't,\" \"don't,\" \"doesn't,\" \"didn't,\" \"no longer,\" \"couldn't,\" etc.\n- The statement is a straightforward assertion of something that happened, not a denial or expression of impossibility\n\nAccording to the classification rule, this falls clearly into the **False category** as it is an affirmative statement without negation or absence markers.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "The chef prepared a delicious meal for the guests.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text is classified as **False** based on the provided rule because:\n\n1. **No negation markers present**: The sentence contains none of the negation words specified in the rule (not, never, no, won't, wouldn't, haven't, hasn't, don't, doesn't, didn't, no longer, couldn't, etc.)\n\n2. **Affirmative statement**: \"The chef prepared a delicious meal for the guests\" is a straightforward positive assertion describing an action that occurred.\n\n3. **No denial or refusal**: The sentence does not express denial, refusal, negation, or impossibility. Instead, it makes a direct, affirmative claim about what the chef did.\n\n4. **Matches \"False\" criteria**: According to the rule, texts that are \"affirmative statements, descriptions, or positive assertions without negation or absence markers\" should be classified as False. This sentence fits that description perfectly.",
+      "word_overlap": 0.9,
+      "classification_correct": true
+    },
+    {
+      "input": "My friend just bought a Supreme hat, it looks great.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text is an **affirmative statement** without any negation or absence markers.\n\n**Reasoning:**\n- The sentence contains positive assertions: \"just bought,\" \"looks great\"\n- There are **no negation words** present (no \"not,\" \"never,\" \"no,\" \"won't,\" \"wouldn't,\" \"haven't,\" \"hasn't,\" \"don't,\" \"doesn't,\" \"didn't,\" \"no longer,\" \"couldn't,\" etc.)\n- The speaker is making a straightforward, positive description of their friend's purchase and their opinion of it\n- This is a clear example of an affirmative statement without denial, refusal, or negation\n\nTherefore, according to the classification rule, this should be classified as **False**.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.6033333333333334,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

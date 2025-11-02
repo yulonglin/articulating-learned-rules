@@ -148,12 +148,11 @@ For learnable rules, we test whether models can explicitly state the rule in nat
 \item \textit{Explicit}: "What is the classification rule? Describe it precisely and concisely."
 \end{itemize}
 
-\textbf{Evaluation metrics.} We evaluate articulation quality using four complementary methods:
+\textbf{Evaluation metrics.} We evaluate articulation quality using three complementary methods:
 \begin{enumerate}
 \item \textbf{LLM Judge}: GPT-4 evaluates semantic equivalence to ground truth (0-10 scale, normalized to 0-1)
 \item \textbf{Cosine Similarity}: Embedding-based similarity using text-embedding-3-small
 \item \textbf{Functional Accuracy}: Use the generated articulation to classify 20 held-out examples via a new prompt: "Based on this rule: [articulation], classify: [input]". Measures whether the articulation works operationally.
-\item \textbf{Human evaluation}: For key findings, manual validation of articulation quality
 \end{enumerate}
 
 The functional accuracy metric is particularly important: it tests whether models can \textit{use} their own articulations, independent of whether the articulation matches ground truth terminology. This circumvents issues such as multiple plausible rules.
@@ -363,6 +362,24 @@ We tested three prompt variations for articulation: simple, chain-of-thought (Co
 
 Functional accuracy remains high (86-93\%) across all rule categories (pattern-based, semantic, and statistical), with pattern-based rules showing slightly better performance (93\%). Importantly, high functional accuracy is consistent across categories, but faithfulness varies significantly (see Section~\ref{sec:faithfulness}), with statistical rules showing the poorest faithfulness despite strong functional performance.
 
+\subsubsection{Linguistic Markers Predict Unfaithful Articulations}
+
+We analyzed linguistic properties of articulations to understand what features predict faithfulness. Extracting hedging words (e.g., "might", "possibly"), confidence markers (e.g., "always", "never", "must"), specificity indicators (quantifiers, examples), and complexity metrics across 150 articulations, we found strong correlations with faithfulness.
+
+\textbf{Confidence predicts unfaithfulness.} Articulations with more confidence markers show significantly \textit{lower} faithfulness (Pearson $r = -0.370$, $p = 3 \times 10^{-6}$, Figure~\ref{fig:linguistic_features}, left). This counterintuitive finding suggests models use emphatic language to compensate for uncertainty—similar to how humans employ strong assertions when defending shaky beliefs. Articulations stating rules with "always" or "never" are less faithful than those using moderate language.
+
+\textbf{Length and complexity hurt faithfulness.} Longer articulations show lower faithfulness ($r = -0.225$, $p = 0.006$) and dramatically lower consistency when re-articulating in different contexts ($r = -0.552$, $p = 2.5 \times 10^{-13}$, Figure~\ref{fig:linguistic_features}, right). The extreme correlation with consistency suggests verbosity indicates genuine confusion rather than thorough explanation—models generating wordy articulations struggle to maintain coherent explanations across contexts.
+
+\textbf{Practical implications.} These linguistic markers enable automatic quality assessment without expensive counterfactual testing. By filtering articulations with high confidence scores ($>5$) or excessive length ($>100$ words), we can identify likely post-hoc rationalizations before deploying them as explanations.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/confidence_score_vs_counterfactual_faithfulness.png}
+\includegraphics[width=0.48\textwidth]{figures/word_count_vs_consistency_score.png}
+\caption{\textbf{Linguistic features predict unfaithful articulations.} Left: Confidence markers (per 100 words) strongly correlate with \textit{lower} faithfulness ($r=-0.370$, $p=3 \times 10^{-6}$), suggesting overconfident language compensates for uncertain explanations. Right: Longer articulations show dramatically lower consistency across contexts ($r=-0.552$, $p=2.5 \times 10^{-13}$), indicating verbosity reflects confusion rather than thoroughness.}
+\label{fig:linguistic_features}
+\end{figure}
+
 \subsection{Faithfulness: Articulations Show 73\% Faithfulness with Few-Shot Context}
 \label{sec:faithfulness}
 
@@ -447,11 +464,15 @@ Our systematic evaluation reveals four key insights about the relationship betwe
 
 \textbf{(4) Statistical rules show notable faithfulness gaps, consistent with known limitations.} While models reliably apply statistical rules (89\% functional accuracy), they show lower faithfulness on these rules—an expected pattern given well-documented difficulties with counting and numerical reasoning, compounded by tokenization challenges. Models likely articulate surface patterns rather than underlying mathematical properties, learning correlations that work within-distribution but don't reflect the true generative process.
 
+\textbf{(5) Linguistic markers reveal unfaithful articulations.} Articulations with more confidence markers ("always", "never", "must") are significantly less faithful ($r=-0.370$, $p=3 \times 10^{-6}$), suggesting models use emphatic language to compensate for uncertainty. Longer, more complex articulations also show lower faithfulness and dramatically lower consistency across contexts ($r=-0.552$, $p=2.5 \times 10^{-13}$), providing practical methods for identifying post-hoc rationalizations without expensive counterfactual testing.
+
 \subsection{Implications for Interpretability}
 
 Our findings have important implications for interpretability research:
 
 \textbf{Model explanations require rigorous validation.} High operational performance (functional accuracy) does not guarantee faithful explanation. Models can generate persuasive articulations that work in practice but don't accurately describe their decision processes. Counterfactual testing is essential for assessing explanation faithfulness.
+
+\textbf{Linguistic features enable scalable filtering.} The strong correlation between confidence markers and unfaithfulness enables automatic quality assessment of articulations without requiring counterfactual testing. Models generating confident or verbose articulations can be flagged for additional validation, making faithfulness evaluation more practical at scale.
 
 \textbf{Functional accuracy is necessary but insufficient.} An articulation that works operationally (high functional accuracy) might still be unfaithful. We need both operational validation (does it work?) and faithfulness validation (does it explain what the model actually does?).
 
@@ -476,6 +497,8 @@ Our findings have important implications for interpretability research:
 \textbf{Iterative articulation refinement.} Can models improve articulations when shown counterfactual failures? Does this lead to more faithful explanations?
 
 \textbf{Cross-model generalization.} Do findings hold across model scales (small vs large) and architectures (dense vs MoE)?
+
+\textbf{Compositional rules.} Preliminary experiments with composite rules (A AND B, A OR B) suggest composition modestly increases few-shot requirements (5→10 shots) without fundamentally breaking learnability. Three of six testable composite rules achieved $\geq$90\% accuracy, indicating models can learn compositional patterns. However, dataset artifact overfitting remains critical: independently generated base datasets lack natural overlap, preventing meaningful evaluation of most AND compositions (only 1/5 pairs had sufficient positive examples). Future work should employ targeted generation of examples satisfying multiple rules simultaneously, enabling systematic study of compositional generalization.
 
 
 \section{Conclusion}

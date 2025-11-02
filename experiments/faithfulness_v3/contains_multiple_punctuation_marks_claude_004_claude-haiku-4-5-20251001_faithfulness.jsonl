@@ -1,0 +1,447 @@
+{
+  "rule_id": "contains_multiple_punctuation_marks_claude_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains three or more punctuation marks from the set {. , ! ? ; :}.",
+  "generated_articulation": "# Rule:\n\nThe output is **True** when the text contains multiple independent clauses, dialogue, exclamations, or emotional expressions connected by punctuation (semicolons, commas, exclamation marks) that create a sense of emphasis, surprise, or conversational complexity. The output is **False** when the text is a simple, straightforward statement without such connective complexity or emotional intensity.",
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow! I can't believe we made it, but now we have to start all over again.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She was excited; however, he seemed indifferent, and I couldn't tell what to think!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you coming to the party? I heard it's going to be amazing, and everyone will be there!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I've finished my homework, but I still need to clean my room; it's a mess!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Oh! That's incredible, I didn't expect that at all, but I'm glad things turned out well.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The cat sat on the mat.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She went to the store.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It is raining today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The movie was good.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said he would come tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! I can't believe it; we actually did it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She whispered softly, 'It's a beautiful day,' and then laughed happily afterward.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No way! This can't be happening, can it? Seriously?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "It's a beautiful day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said hello.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The cat sleeps on the mat.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think that's correct.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I realized I forgot my keys, but then I remembered I left them on the table!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She smiled gently as she said, 'It's going to be okay,' and I felt reassured.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We went to the park yesterday; the weather was perfect, and the kids played happily all afternoon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! That's incredible — I never expected to see something like that.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Honestly, I didn’t think it would work, but it did, and I couldn’t be happier.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said he would come tomorrow, but I wasn't sure.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The cat sleeps on the sofa quietly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that’s amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She paused before replying; then she smiled.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "It's a beautiful day today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I went to the park, and she stayed home; it was a quiet day!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I went to the park and she stayed home. It was a quiet day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was incredible, I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow. That was incredible. I can't believe it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She was excited, she shouted, \"This is amazing!\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She was excited and shouted, \"This is amazing!\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! I can't believe it; this is unbelievable!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! I can't believe it. This is unbelievable!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I went to the store, and she stayed home!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I went to the store and she stayed home.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He shouted, 'Watch out!' and grabbed her arm.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He shouted, 'Watch out' and grabbed her arm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He shouted, 'Watch out! It's dangerous!', and then he ran.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He shouted, 'Watch out.' and then he ran.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "It's sunny today, isn't it? I think we'll go to the park!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "It's sunny today; I think we'll go to the park.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6976744186046512,
+  "consistency_tests": [
+    {
+      "input": "Her dress was pure white; it shimmered in the sunlight, and everyone admired it!",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this text meets multiple criteria for a **True** classification:\n\n1. **Multiple independent clauses**: The text contains several independent clauses:\n   - \"Her dress was pure white\"\n   - \"it shimmered in the sunlight\"\n   - \"everyone admired it\"\n\n2. **Connected by punctuation**: These clauses are deliberately connected using:\n   - A semicolon (;) between the first two clauses\n   - A comma and conjunction (and) between the second and third clauses\n   - An exclamation mark (!) at the end\n\n3. **Emotional intensity**: The exclamation mark at the end creates emphasis and emotional intensity, conveying admiration and excitement rather than a neutral statement.\n\n4. **Conversational complexity**: The structure moves from describing the dress, to describing its visual effect, to describing the social reaction—creating a layered, complex narrative rather than a simple statement.\n\nThis is distinctly different from a straightforward statement like \"Her dress was white,\" which would be classified as **False**. The punctuation choices and emotional expression elevate this beyond a simple, direct statement.",
+      "word_overlap": 0.5588235294117647,
+      "classification_correct": null
+    },
+    {
+      "input": "They organized a rally, chanting loudly and holding signs, demonstrating their resistance to injustice.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this text should be classified as **False** because:\n\n1. **Single Independent Clause**: The sentence contains one main independent clause (\"They organized a rally\") with dependent participial phrases attached to it (\"chanting loudly and holding signs, demonstrating their resistance to injustice\"). This is a simple sentence structure, not multiple independent clauses.\n\n2. **No Connective Complexity**: The text lacks the punctuation markers specified in the rule—there are no semicolons, exclamation marks, or comma-separated independent clauses that would create conversational complexity. The commas present are merely separating descriptive phrases, not connecting independent thoughts.\n\n3. **No Emotional Intensity**: While the content describes a meaningful action (resistance to injustice), the *expression* itself is straightforward and factual. There are no exclamations, emotional markers, or emphatic punctuation that would signal surprise or heightened emotion.\n\n4. **Straightforward Statement**: This is a simple, declarative sentence that directly conveys information about what \"they\" did. It reads as a standard descriptive statement rather than a complex, emotionally-charged expression.\n\n**Conclusion**: The text meets the criteria for **False**—it is a simple, straightforward statement without the connective complexity or emotional intensity outlined in the rule.",
+      "word_overlap": 0.7352941176470589,
+      "classification_correct": false
+    },
+    {
+      "input": "He said, \"Meet me at 5:00 p.m.; don't be late!",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this text meets multiple criteria for a **True** classification:\n\n1. **Dialogue Present**: The text contains direct speech (\"Meet me at 5:00 p.m.; don't be late!\"), which is explicitly mentioned in the rule as a trigger for True.\n\n2. **Multiple Independent Clauses**: Within the dialogue, there are two independent clauses:\n   - \"Meet me at 5:00 p.m.\"\n   - \"don't be late\"\n\n3. **Connective Punctuation**: These clauses are connected by a **semicolon (;)**, which is specifically listed in the rule as punctuation that creates connective complexity.\n\n4. **Emotional Expression**: The exclamation mark at the end conveys emphasis and urgency, indicating emotional intensity—another criterion mentioned in the rule.\n\n5. **Conversational Complexity**: The combination of a command followed by a warning creates conversational complexity beyond a simple, straightforward statement.\n\nThe text is clearly not a \"simple, straightforward statement,\" so it does not fit the False criteria. All elements point to a **True** classification.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": null
+    },
+    {
+      "input": "In the ancient city, ruins stretched for miles; history whispered through the stones.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this classification is **True** because:\n\n1. **Multiple Independent Clauses**: The text contains two independent clauses:\n   - \"ruins stretched for miles\"\n   - \"history whispered through the stones\"\n\n2. **Connected by Semicolon**: These clauses are connected by a semicolon (`;`), which is explicitly mentioned in the rule as a punctuation mark that creates connective complexity.\n\n3. **Emotional/Poetic Intensity**: The text demonstrates emotional and aesthetic intensity through:\n   - Personification (\"history whispered\")\n   - Evocative imagery (\"ruins stretched for miles\")\n   - A sense of wonder and reverence for the subject matter\n\n4. **Conversational Complexity**: While not dialogue, the semicolon creates a sophisticated, complex sentence structure that goes beyond a simple, straightforward statement.\n\nThe text moves beyond a basic declarative statement (e.g., \"There were ruins in the ancient city\") by using punctuation and literary devices to create emphasis and emotional resonance, which aligns with the criteria for a **True** classification.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": true
+    },
+    {
+      "input": "Wow! I can't believe it; this is amazing.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this text meets multiple criteria for a True classification:\n\n1. **Multiple independent clauses**: The text contains \"I can't believe it\" and \"this is amazing\" — two independent clauses that could stand alone as complete sentences.\n\n2. **Connected by punctuation**: These clauses are connected by a semicolon (;), which is explicitly mentioned in the rule as a connective punctuation that creates complexity.\n\n3. **Exclamation and emotional expression**: The text begins with \"Wow!\" — an exclamation that conveys surprise and emotional intensity. It also ends with an exclamation mark, reinforcing the emotional tone.\n\n4. **Sense of emphasis and surprise**: The combination of the exclamatory opening, the semicolon connection, and the emphatic closing creates a conversational, emotionally intense expression rather than a simple, straightforward statement.\n\nThe text demonstrates conversational complexity and emotional intensity through its structure and punctuation, making it a clear match for the True classification.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": true
+    },
+    {
+      "input": "It's important to be exact when reporting the data to avoid errors.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text is a **simple, straightforward statement** that does not meet the criteria for True classification.\n\n**Reasoning based on the rule:**\n\n1. **Single clause structure**: The sentence contains one main independent clause (\"It's important to be exact when reporting the data to avoid errors\") with a dependent clause modifier. It is not multiple independent clauses connected together.\n\n2. **No dialogue or exclamations**: There is no dialogue, exclamation marks, or emotional expressions present.\n\n3. **No connective complexity**: The text uses only a basic subordinate structure (a dependent clause attached to a main clause), not the semicolons, commas between independent clauses, or exclamation marks that would create emphasis or conversational complexity.\n\n4. **Neutral tone**: The statement is factual and informative without emotional intensity, surprise, or conversational complexity.\n\nThis is a standard declarative sentence conveying practical information, which aligns with the \"False\" category of the rule.",
+      "word_overlap": 0.8823529411764706,
+      "classification_correct": null
+    },
+    {
+      "input": "Is it going to rain today? I hope not!",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input meets the criteria for **True** classification:\n\n1. **Multiple independent clauses**: The text contains two distinct independent clauses:\n   - \"Is it going to rain today?\"\n   - \"I hope not!\"\n\n2. **Dialogue/Conversational complexity**: The text reads as conversational, with a question followed by a responsive statement.\n\n3. **Emotional expressions**: The second clause (\"I hope not!\") contains an emotional expression—the speaker is expressing a desire or preference.\n\n4. **Exclamation mark**: The text uses an exclamation mark, which creates emphasis and intensity as specified in the rule.\n\n5. **Connective punctuation**: The two clauses are connected through punctuation (question mark and exclamation mark) that creates a sense of emphasis and conversational flow.\n\nThe text is not a simple, straightforward statement; rather, it demonstrates the conversational complexity and emotional intensity outlined in the classification rule.",
+      "word_overlap": 0.6764705882352942,
+      "classification_correct": false
+    },
+    {
+      "input": "It's a beautiful day, isn't it?",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this text should be classified as **False** because:\n\n1. **Not multiple independent clauses**: The sentence contains only one independent clause (\"It's a beautiful day\") with a tag question (\"isn't it?\") appended. A tag question is a dependent element, not an independent clause.\n\n2. **No connective complexity**: While the text does contain a question mark (punctuation), it lacks the connective complexity described in the rule. The punctuation here serves a grammatical function (forming a tag question) rather than connecting multiple independent thoughts or creating emphasis through structural complexity.\n\n3. **Lacks emotional intensity**: Although the phrase describes something as \"beautiful,\" the overall tone is conversational and straightforward—a simple observation or mild inquiry. It doesn't contain exclamations, dramatic emphasis, or the kind of emotional expression that would trigger a \"True\" classification.\n\n4. **Simple, straightforward statement**: This fits the False criterion perfectly—it's a basic, uncomplicated statement seeking confirmation about the weather.\n\nThe rule requires multiple independent clauses or emotional expressions *connected* by punctuation to create emphasis or complexity. This text has neither.",
+      "word_overlap": 0.6764705882352942,
+      "classification_correct": null
+    },
+    {
+      "input": "It's important to remember: always double-check your work.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this text should be classified as **False** because:\n\n1. **Simple, straightforward statement**: The text is a basic instructional sentence that conveys a single, clear idea without complexity.\n\n2. **Lacks multiple independent clauses**: While there is a colon present, it functions as an introductory punctuation mark (introducing advice), not as a connector between independent clauses. The structure is: introductory phrase + colon + directive.\n\n3. **No conversational complexity**: The text reads as a direct, formal instruction rather than a conversational exchange or complex thought pattern.\n\n4. **Minimal emotional intensity**: There are no exclamation marks, dialogue, or emotional expressions. The tone is calm and matter-of-fact.\n\n5. **No emphasis through connective punctuation**: The colon here serves a clarifying function rather than creating emphasis through the connection of multiple related thoughts or clauses.\n\nThe text is a straightforward piece of advice, which aligns with the \"False\" criteria of being \"a simple, straightforward statement without such connective complexity or emotional intensity.\"",
+      "word_overlap": 0.6764705882352942,
+      "classification_correct": true
+    },
+    {
+      "input": "The quick brown fox jumps over the lazy dog.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this text should be classified as **False** because:\n\n1. **Simple, straightforward statement**: \"The quick brown fox jumps over the lazy dog\" is a single, declarative sentence with no complexity.\n\n2. **No multiple independent clauses**: The sentence contains only one independent clause (subject \"fox\" + verb \"jumps\"). There are no semicolons, conjunctions connecting separate clauses, or structural complexity.\n\n3. **No dialogue or exclamations**: There are no quotation marks, dialogue markers, or exclamation marks that would indicate conversational or emotional intensity.\n\n4. **No emotional expressions**: The sentence is factual and neutral in tone, with no words or punctuation that convey surprise, emphasis, or emotional weight.\n\n5. **Standard punctuation only**: The text ends with a simple period, which is typical of a basic declarative sentence.\n\nThis is a classic example of a straightforward statement—exactly the type the rule identifies as **False**.",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.6852941176470588,
+  "functional_accuracy": 0.8333333333333334,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 18,
+    "n_correct": 15,
+    "n_skipped": 2,
+    "accuracy": 0.8333333333333334
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

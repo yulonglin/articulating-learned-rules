@@ -825,13 +825,15 @@ async def run_mc_articulation_tests(config: MCArticulationConfig) -> None:
 
     for rule_id, model_results in summary.items():
         print(f"\n{rule_id}:")
-        for model, metrics in model_results.items():
-            accuracy = metrics["accuracy"]
-            status = "✓" if accuracy >= 0.80 else "✗"
-            print(
-                f"  {model}: {accuracy:.1%} "
-                f"({metrics['n_correct']}/{metrics['n_total']}) {status}"
-            )
+        for model, stats_by_shot in model_results.items():
+            # Print results for each few-shot count
+            for shot_count, metrics in sorted(stats_by_shot.items()):
+                accuracy = metrics["accuracy"]
+                status = "✓" if accuracy >= 0.80 else "✗"
+                print(
+                    f"  {model} ({shot_count}-shot): {accuracy:.1%} "
+                    f"({metrics['n_correct']}/{metrics['n_total']}) {status}"
+                )
 
     print("\n" + "=" * 80)
 

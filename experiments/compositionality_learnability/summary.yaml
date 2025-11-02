@@ -1,0 +1,92 @@
+comp_pair01_AND:
+  claude-haiku-4-5-20251001: {}
+comp_pair01_OR:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.72
+      n_correct: 36
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.78
+      n_correct: 39
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+comp_pair02_AND:
+  claude-haiku-4-5-20251001: {}
+comp_pair02_OR:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.92
+      n_correct: 46
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.96
+      n_correct: 48
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+comp_pair03_AND:
+  claude-haiku-4-5-20251001: {}
+comp_pair03_OR:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.82
+      n_correct: 41
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.88
+      n_correct: 44
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+comp_pair04_AND:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.92
+      n_correct: 46
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.94
+      n_correct: 47
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+comp_pair04_OR:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.96
+      n_correct: 48
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.9
+      n_correct: 45
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+comp_pair05_AND:
+  claude-haiku-4-5-20251001: {}
+comp_pair05_OR:
+  claude-haiku-4-5-20251001:
+    few_shot_10:
+      accuracy: 0.7
+      n_correct: 35
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50
+    few_shot_20:
+      accuracy: 0.84
+      n_correct: 42
+      n_total: 50
+      parse_rate: 1.0
+      n_parseable: 50

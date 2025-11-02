@@ -1,0 +1,471 @@
+{
+  "rule_id": "reference_first_person_perspective",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Written from first-person perspective (uses I, me, my, we, us).",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the sentence contains a first-person perspective (I, we, my) reflecting on personal experiences, decisions, feelings, or realizations, often involving introspection or agency. The output is **False** when the sentence describes external events, third-party actions, or observations without personal reflection or involvement.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I finally decided to start exercising regularly to improve my health.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We enjoyed our weekend trip to the mountains and took many photos.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "My favorite childhood memory is spending summers at my grandparents' farm.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I felt overwhelmed after receiving the news but decided to stay positive.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "When I saw the sunset, I realized how beautiful life can be.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team decided to implement the new strategy last week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sun sets behind the mountains every evening.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt overwhelmed by the workload but managed to complete her tasks.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The movie received rave reviews from critics worldwide.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They are planning to visit Paris next summer.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I finally decided to start a new workout routine after months of hesitation.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We realized that our project needed more time to be completed properly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "My feelings about the event changed after I thought about it overnight.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I remember the day vividly when I first learned to ride a bike.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We often find that our decisions shape our future in unpredictable ways.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The city was bustling with activity as vendors shouted and children played in the streets.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She decided to move to a new country last year for better opportunities.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report highlights the recent trends in the stock market, showing a steady increase.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They were told that the project deadline had been extended, and everyone was relieved.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The experiment was conducted over several weeks to analyze behavioral responses.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We decided to volunteer at the local shelter last weekend and it made me realize how much I enjoy helping others.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "After finishing my first marathon, I felt an incredible sense of accomplishment that stayed with me for days.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Although the project was challenging, I learned a lot about my capabilities and grew more confident.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "My friends invited me to the concert, and I decided to go, feeling excited about the night ahead.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "While observing the new art installation, I felt a deep connection to the piece and contemplated its meaning.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The scientist noticed that the experiment yielded unexpected results.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She decided to postpone the meeting due to unforeseen circumstances.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The factory's output has decreased significantly over the past month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are considering expanding the project next year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I decided to start exercising today because I want to improve my health.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They decided to start exercising today because they want to improve their health.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We felt overwhelmed after the long hike and needed to rest.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team felt overwhelmed after the long hike and needed to rest.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I decided to start a new hobby because I wanted to challenge myself.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She decided to start a new hobby because she wanted to challenge herself.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We thought about our future and made plans accordingly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They thought about their future and made plans accordingly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I decided to start exercising today to improve my health.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She decided to start exercising today to improve her health.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We moved to a new city last month because we wanted a fresh start.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They moved to a new city last month because they wanted a fresh start.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I decided to start exercising yesterday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She decided to start exercising yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We felt excited about the upcoming trip.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "They felt excited about the upcoming trip.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6521739130434783,
+  "consistency_tests": [
+    {
+      "input": "I always enjoy visiting the local farmers' market.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule:\n\n1. **First-person perspective**: The sentence uses \"I,\" which is a clear first-person indicator.\n\n2. **Personal experience and feelings**: The sentence reflects on a personal feeling (\"enjoy\") about a recurring activity (\"always visiting\"). This demonstrates introspection about the speaker's own preferences and experiences.\n\n3. **Personal agency**: The speaker is describing something they actively do (\"visiting\"), showing personal involvement and choice.\n\n4. **No external observation**: This is not a description of external events or third-party actions—it's explicitly about the speaker's own experience and emotional response.\n\nThe sentence directly expresses a personal reflection on an activity the speaker enjoys, which aligns with the rule's definition of first-person perspective involving personal experiences and feelings.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "I can’t believe how much I’ve learned since starting this job.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the following elements:\n\n1. **First-person perspective**: The sentence uses \"I\" twice (\"I can't believe\" and \"I've learned\"), establishing a clear first-person voice.\n\n2. **Personal reflection**: The phrase \"I can't believe\" expresses the speaker's subjective reaction and emotional response to their own experience.\n\n3. **Personal experience**: \"how much I've learned since starting this job\" describes a personal journey and growth that the speaker has directly experienced.\n\n4. **Introspection**: The sentence involves the speaker reflecting on their own development and progress, demonstrating self-awareness about their learning trajectory.\n\n5. **Agency**: The speaker is acknowledging their own active role in the learning process (\"I've learned\").\n\nAll of these elements align with the rule's criteria for **True** classification. This is clearly a statement of personal reflection on one's own experiences and realizations, not an external observation or third-party description.",
+      "word_overlap": 0.5666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "I found a new recipe I want to try tonight.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule:\n\n1. **First-person perspective**: The sentence uses \"I\" (\"I found,\" \"I want\"), establishing a clear first-person voice.\n\n2. **Personal experience and agency**: The speaker is describing their own action (finding a recipe) and their own intention (wanting to try it).\n\n3. **Personal involvement**: The speaker is directly involved in the decision and action—they discovered the recipe and are planning to cook it themselves tonight.\n\n4. **Reflection/intention**: The sentence reflects a personal decision and future plan (\"I want to try tonight\"), showing the speaker's agency and personal choice.\n\nThe sentence does not merely describe an external event or third-party action; rather, it expresses the speaker's personal experience, desire, and intended action.",
+      "word_overlap": 0.43333333333333335,
+      "classification_correct": true
+    },
+    {
+      "input": "I panicked when I heard the alarm go off.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the following reasoning:\n\n1. **First-person perspective**: The sentence uses \"I\" twice, establishing a clear first-person viewpoint.\n\n2. **Personal experience**: The speaker is describing a direct personal experience—hearing an alarm and their reaction to it.\n\n3. **Reflection on feelings**: The sentence reflects on a personal emotional state (\"panicked\"), which is an internal feeling or reaction.\n\n4. **Personal agency/involvement**: The speaker is actively involved in the event, not merely observing it from the outside. They are the subject experiencing the panic.\n\n5. **Introspection element**: By stating \"I panicked,\" the speaker is reflecting on their own emotional response to a stimulus, which constitutes personal introspection.\n\nThe sentence clearly demonstrates personal reflection on an internal emotional experience rather than describing external events or third-party actions without involvement.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "I didn't realize the meeting was scheduled for today.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the following reasoning:\n\n1. **First-person perspective**: The sentence uses \"I\" as the subject, establishing a personal perspective.\n\n2. **Personal reflection/introspection**: The phrase \"didn't realize\" indicates a moment of personal discovery or realization about the speaker's own state of knowledge. This reflects an internal cognitive experience.\n\n3. **Personal experience**: The speaker is describing their own experience of not being aware of the meeting schedule—this is something that happened to them personally.\n\n4. **Agency and involvement**: The speaker is directly involved in the situation (they are the one who didn't realize), rather than merely observing external events or third-party actions.\n\nThe sentence clearly demonstrates personal reflection on a realization or lack of awareness, which aligns with the rule's criteria for **True** classification.",
+      "word_overlap": 0.5333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "The report was submitted yesterday.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an external event without any first-person perspective or personal reflection.\n\n**Reasoning based on the rule:**\n\n- **No first-person language**: The sentence contains no \"I,\" \"we,\" or \"my\" pronouns\n- **External event description**: It reports on an action (report submission) as an objective fact\n- **No introspection or agency**: There is no reflection on personal experiences, decisions, feelings, or realizations\n- **Third-party or passive observation**: The sentence is structured passively (\"was submitted\") and describes what happened without the speaker's personal involvement or perspective\n\nThe sentence fits the False category: it describes an external event without personal reflection or involvement.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "Looking forward to the conference next month.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThis sentence should be classified as **True** based on the following reasoning:\n\n1. **First-person perspective**: The sentence contains an implicit first-person perspective. The subject \"I\" is understood but omitted (ellipsis): \"[I am] looking forward to the conference next month.\"\n\n2. **Personal reflection and feeling**: The phrase \"looking forward to\" expresses a personal emotion, anticipation, and subjective feeling about a future event.\n\n3. **Personal involvement and agency**: The speaker is expressing their own emotional state and anticipation regarding an event they plan to attend, demonstrating personal involvement and perspective.\n\n4. **Introspection element**: The statement reflects an internal mental state (anticipation/excitement) rather than merely describing an external event objectively.\n\nWhile the sentence doesn't explicitly use pronouns like \"I,\" \"we,\" or \"my,\" the rule encompasses first-person perspective that can be implicit. The core criterion—reflecting on personal experiences, feelings, or realizations—is clearly met here, as the speaker is sharing their personal emotional anticipation about an upcoming event.",
+      "word_overlap": 0.5666666666666667,
+      "classification_correct": false
+    },
+    {
+      "input": "The students gathered in the cafeteria before the exam.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an external event without any first-person perspective or personal reflection.\n\n**Reasoning based on the rule:**\n\n- **No first-person language**: The sentence contains no \"I,\" \"we,\" or \"my\" pronouns\n- **Third-party observation**: It describes what \"the students\" (others) did, not what the speaker/writer experienced\n- **No introspection or agency**: There is no reflection on personal feelings, decisions, or realizations\n- **External event**: This is a straightforward observation of an action taken by others in a specific location\n\nThe sentence fits the False category as it describes external events and third-party actions without personal involvement or reflection.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for fresh basil, garlic, and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an external observation about a recipe's ingredients without any first-person perspective or personal reflection.\n\n**Key reasoning:**\n\n- **No first-person language**: The sentence contains no \"I,\" \"we,\" \"my,\" or other first-person pronouns\n- **External description**: It states what \"the recipe calls for\" — an objective fact about an external object, not a personal experience or decision\n- **No introspection or agency**: There is no reflection on personal feelings, realizations, or choices made by the speaker\n- **Third-party/impersonal focus**: The focus is on the recipe itself and its requirements, not on the speaker's involvement with it\n\nAccording to the rule, this is a straightforward external observation, making it **False**.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "Our neighbors are organizing a neighborhood event.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThis sentence should be classified as **False** based on the rule because:\n\n1. **No personal reflection or introspection**: The sentence simply states a fact about what neighbors are doing. There is no internal reflection on personal feelings, decisions, or realizations.\n\n2. **External event description**: The sentence describes an external action (\"organizing a neighborhood event\") being performed by third parties (neighbors), not by the speaker.\n\n3. **Lack of personal agency or involvement**: While the sentence uses \"our\" (which is first-person plural), it does not reflect on the speaker's personal experiences, decisions, or feelings about the event. The \"our\" merely indicates possession/relationship to the neighbors, not personal involvement in the organizing or reflection on it.\n\n4. **Observation without introspection**: This is an observation of what others are doing, not a reflection on one's own thoughts, choices, or experiences.\n\nThe rule requires both first-person perspective **AND** personal reflection/introspection. This sentence has the first-person pronoun but lacks the introspective component, so it does not meet the criteria for True.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6066666666666667,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

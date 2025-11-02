@@ -1,0 +1,471 @@
+{
+  "rule_id": "positive_product_review_gpt_000",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text expresses a positive sentiment specifically about a product or service.",
+  "generated_articulation": "The output is True when the sentence expresses a positive opinion, satisfaction, or endorsement about a product, service, or experience; it is False when the sentence is neutral, negative, or describes memories or situations without expressing approval or enthusiasm.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I absolutely loved the new smartphone I bought; the camera quality is fantastic!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service at the restaurant was excellent, and I had a great time with friends.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I've been using this fitness app for weeks, and it has really helped me stay motivated.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Watching that movie was a wonderful experience; I would recommend it to everyone.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our vacation at the seaside was amazing; the weather and scenery were perfect.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I bought the new phone last week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather was rainy yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She has a meeting scheduled for tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report is due by end of the day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He remembers his childhood vacations fondly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely loved the new smartphone's camera features!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The restaurant's ambiance was delightful, and I had a great time dining there.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I highly recommend this book to anyone interested in history.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This app has made my daily tasks much easier and more enjoyable.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Watching that movie was an incredible experience—truly one of the best films I've seen this year.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I remember the first time I visited that place.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was okay, I guess.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This product costs a lot, but I haven’t used it much.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It’s been a tough week with many challenges.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The movie was about a hero saving the day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new smartphone has a really sleek design that I enjoy using every day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I noticed the conference room was well-lit and comfortable for meetings.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After trying the latest cafe on Main Street, I liked the cozy atmosphere and the friendly staff.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "While the movie was okay, I appreciated the storyline's twists, which kept me engaged.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I remember my stay at the resort; the amenities were satisfactory, and I felt relaxed overall.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I remember using that phone last year, and honestly, it was pretty slow sometimes.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer service was there, but I can't say I was really impressed.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I smiled when I found that app on my device, even though I didn't really use it much.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This experience was just average, nothing special about it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After trying several diets, I’ve not really seen any difference, but it’s not necessarily bad either.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love this phone; it has an amazing camera!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This phone has a good camera.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was fantastic and exceeded my expectations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was okay.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love this new smartphone; it works flawlessly and exceeds my expectations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This new smartphone is okay; it works fine but doesn't stand out.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was fantastic; I will definitely come back again!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was acceptable; nothing extraordinary but okay overall.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love this phone; it has an excellent camera.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This phone has an average camera quality.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was fantastic and made our visit memorable.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was okay, but nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this new phone; the camera quality is stunning!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new phone has a good camera, but I haven't used it much.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This restaurant's service was fantastic; I will definitely come back!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The restaurant's service was okay, nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5,
+  "consistency_tests": [
+    {
+      "input": "I love how the white sofa brightens up our living space.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I love how the white sofa brightens up our living space.\" expresses a positive opinion and enthusiasm about the sofa. The phrase \"I love\" clearly indicates satisfaction and endorsement, aligning with the rule's criteria for a positive opinion about a product or experience.",
+      "word_overlap": 0.4782608695652174,
+      "classification_correct": true
+    },
+    {
+      "input": "I'm so happy with the delivery speed; my package arrived right on time and in perfect condition.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence expresses a positive opinion and satisfaction regarding the delivery service. Phrases like \"I'm so happy,\" \"arrived right on time,\" and \"in perfect condition\" indicate approval and enthusiasm about the experience. According to the rule, such expressions of positive opinion and endorsement lead to a classification of True.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": true
+    },
+    {
+      "input": "The new update made the app much easier to navigate.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The new update made the app much easier to navigate\" expresses a positive opinion and satisfaction with the update. It indicates approval and a favorable experience, aligning with the rule's criteria for a True classification, which is when the sentence conveys positive endorsement or enthusiasm about a product or service.",
+      "word_overlap": 0.6086956521739131,
+      "classification_correct": true
+    },
+    {
+      "input": "I never thought a product could improve my daily routine so much, but this did.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence expresses a positive opinion and satisfaction about the product, indicating that it has improved the speaker's daily routine. Phrases like \"never thought a product could improve my daily routine so much\" and \"but this did\" reflect endorsement and enthusiasm, aligning with the rule's criteria for a positive opinion or endorsement.",
+      "word_overlap": 0.43478260869565216,
+      "classification_correct": true
+    },
+    {
+      "input": "I'm thrilled with my purchase; these headphones deliver incredible sound quality and comfort.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence expresses a positive opinion and enthusiasm about the product. Words like \"thrilled,\" \"incredible sound quality,\" and \"comfort\" indicate satisfaction and endorsement. According to the rule, such expressions of positive opinion and approval lead to a classification of True.",
+      "word_overlap": 0.4782608695652174,
+      "classification_correct": true
+    },
+    {
+      "input": "It doesn't seem to be very effective, but I suppose some find it useful.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a sentence is classified as True if it expresses a positive opinion, satisfaction, or endorsement. In this case, the sentence states, \"It doesn't seem to be very effective,\" which is a negative assessment of the product or service. Although it adds, \"but I suppose some find it useful,\" this is a neutral or tentative remark rather than an endorsement or positive opinion. Overall, the sentence does not convey approval or enthusiasm; instead, it highlights a perceived lack of effectiveness, making it fall into the neutral or negative category. Therefore, the classification is False.",
+      "word_overlap": 0.6086956521739131,
+      "classification_correct": null
+    },
+    {
+      "input": "The service was okay, but I wouldn’t recommend it to my friends.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a sentence expressing a positive opinion, satisfaction, or endorsement is classified as True. In this case, the sentence states \"The service was okay,\" which is a neutral or mildly indifferent assessment, and \"I wouldn’t recommend it to my friends,\" which is a negative opinion. Since the overall sentiment is not positive or enthusiastic, and includes a negative recommendation, it does not meet the criteria for a True classification. Therefore, the sentence is classified as False.",
+      "word_overlap": 0.4782608695652174,
+      "classification_correct": null
+    },
+    {
+      "input": "She finally finished writing her novel after years of effort.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"She finally finished writing her novel after years of effort\" describes a factual event or achievement without expressing a positive opinion, satisfaction, or endorsement. It does not convey approval, enthusiasm, or a positive sentiment about the event; rather, it states a completed action or milestone. According to the classification rule, since the sentence is neutral and does not express positive feelings or endorsement, it should be classified as False.",
+      "word_overlap": 0.5652173913043478,
+      "classification_correct": true
+    },
+    {
+      "input": "My experience with the company left me feeling frustrated.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"My experience with the company left me feeling frustrated\" expresses a negative emotion—frustration—regarding the experience. According to the classification rule, the output is True when the sentence shows positive opinion, satisfaction, or endorsement. Since this sentence conveys dissatisfaction and negative feelings, it does not meet the criteria for a positive or approving statement. Therefore, it is classified as False.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": null
+    },
+    {
+      "input": "My experience was mixed; I wouldn't recommend it, but I wouldn't discourage others either.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output is True when the sentence expresses a positive opinion, satisfaction, or endorsement. In this case, the sentence states, \"My experience was mixed; I wouldn't recommend it, but I wouldn't discourage others either.\" The phrase \"I wouldn't recommend it\" indicates a negative or at least non-enthusiastic opinion, and \"I wouldn't discourage others either\" suggests neutrality rather than endorsement. Overall, the sentence does not convey a positive opinion or enthusiasm; instead, it reflects a mixed or lukewarm sentiment without clear approval. Therefore, it aligns with the criteria for a False classification.",
+      "word_overlap": 0.6521739130434783,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5347826086956522,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

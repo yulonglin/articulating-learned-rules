@@ -1,0 +1,415 @@
+{
+  "rule_id": "unique_character_threshold_claude_082",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text uses fewer than 10 unique characters (including spaces, punctuation, and letters).",
+  "generated_articulation": "# Rule:\n\nClassify as **True** if the text is a simple sentence with:\n- Few words (typically 2-4 words)\n- Basic/common vocabulary\n- Simple structure (usually imperative or simple present tense)\n- No adjectives, adverbs, or complex descriptors\n\nClassify as **False** if the text contains:\n- More words or complex sentence structure\n- Descriptive adjectives (ancient, local, great, entire, etc.)\n- Adverbs (finally, long, etc.)\n- Complex tenses or subordinate clauses\n- More elaborate or sophisticated phrasing",
+  "counterfactual_tests": [
+    {
+      "test_input": "Stop now",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Eat breakfast",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Run daily",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wake up",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Read books",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The ancient city stood tall.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Please consider the implications carefully before making a decision.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is running quickly to catch the bus.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The local market opens at dawn every day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's important to understand the full scope of the project.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Go home",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Eat now",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Run fast",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Sit down",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Close door",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Open the door now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please close the window quickly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Help me with this project",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Turn off the lights now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Bring me the old book",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The city sleeps",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Save water daily",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He runs fast",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Open the door",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Eat the delicious cake now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Close the door",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please close the tall wooden door",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Close the door.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please close the heavy oak door.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Sit down now.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Sit quietly on the comfortable chair.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Sit now.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Sit quietly now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Read it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Read the old book.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Go home now",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Go to the old home now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Start quickly now",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Start the project quickly now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.48717948717948717,
+  "consistency_tests": [
+    {
+      "input": "I am here",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, \"I am here\" meets all criteria for a **True** classification:\n\n1. **Few words**: Contains exactly 3 words ✓\n2. **Basic/common vocabulary**: \"I,\" \"am,\" and \"here\" are fundamental, everyday words ✓\n3. **Simple structure**: Uses simple present tense (\"am\") in a straightforward declarative sentence ✓\n4. **No complex descriptors**: \n   - No adjectives ✓\n   - No adverbs ✓\n   - No subordinate clauses ✓\n   - No elaborate phrasing ✓\n\nThis is a minimal, elementary sentence that exemplifies simplicity in both form and content.",
+      "word_overlap": 0.5405405405405406,
+      "classification_correct": true
+    },
+    {
+      "input": "Go to bed",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, \"Go to bed\" meets all criteria for a **True** classification:\n\n1. **Few words**: Contains exactly 2 words ✓\n2. **Basic/common vocabulary**: Both \"go\" and \"bed\" are everyday, simple words ✓\n3. **Simple structure**: This is an imperative sentence (a command), which is one of the simplest sentence structures ✓\n4. **No complex descriptors**: \n   - No adjectives ✓\n   - No adverbs ✓\n   - No subordinate clauses ✓\n   - No elaborate phrasing ✓\n\nThis is a straightforward, direct command with minimal complexity, making it a clear example of the type of text that should be classified as **True**.",
+      "word_overlap": 0.5675675675675675,
+      "classification_correct": true
+    },
+    {
+      "input": "Run, run, run!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, \"Run, run, run!\" meets all criteria for a **True** classification:\n\n1. **Few words**: Contains only 1 unique word repeated 3 times (very minimal)\n2. **Basic/common vocabulary**: \"Run\" is extremely common, everyday vocabulary\n3. **Simple structure**: This is an imperative sentence (a command) in its most basic form\n4. **No complex descriptors**: \n   - No adjectives (e.g., not \"Run fast, run fast, run fast!\")\n   - No adverbs\n   - No subordinate clauses\n   - No elaborate phrasing\n\nThe repetition actually reinforces its simplicity rather than adding complexity—it's a direct, urgent command with no embellishment. This is about as simple as language gets.",
+      "word_overlap": 0.5405405405405406,
+      "classification_correct": true
+    },
+    {
+      "input": "Go, go now!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, \"Go, go now!\" meets the criteria for **True**:\n\n1. **Few words**: The text contains only 3 words (counting \"go\" twice), which falls within the \"typically 2-4 words\" guideline.\n\n2. **Basic/common vocabulary**: All words are extremely common and simple:\n   - \"Go\" - basic verb\n   - \"Now\" - basic adverb of time\n\n3. **Simple structure**: This is an imperative sentence (a command), which is explicitly listed as a simple structure type.\n\n4. **No complex descriptors**: There are no descriptive adjectives or complex adverbs. While \"now\" is technically an adverb, it's a basic temporal adverb indicating immediacy, not a descriptive modifier that adds complexity.\n\n5. **Straightforward meaning**: The sentence is direct and unambiguous with no subordinate clauses or elaborate phrasing.\n\nThe repetition of \"go\" actually reinforces the simplicity and urgency rather than adding complexity.",
+      "word_overlap": 0.6216216216216216,
+      "classification_correct": true
+    },
+    {
+      "input": "Stay in",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\n\"Stay in\" meets all the criteria for a **True** classification:\n\n1. **Few words**: Only 2 words ✓\n2. **Basic/common vocabulary**: Both \"stay\" and \"in\" are everyday, simple words ✓\n3. **Simple structure**: This is an imperative sentence (a command/instruction) in its most basic form ✓\n4. **No complex descriptors**: \n   - No adjectives ✓\n   - No adverbs ✓\n   - No subordinate clauses ✓\n   - No elaborate phrasing ✓\n\nThis is a straightforward, minimal instruction with no embellishment or complexity.",
+      "word_overlap": 0.4864864864864865,
+      "classification_correct": true
+    },
+    {
+      "input": "The room was empty and silent all night.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this text should be classified as **False** because it violates several criteria:\n\n1. **Word count**: The sentence contains 8 words, which exceeds the \"typically 2-4 words\" threshold for True classification.\n\n2. **Descriptive adjectives**: The text contains two adjectives:\n   - \"empty\" (descriptor)\n   - \"silent\" (descriptor)\n   \n   The rule explicitly states that descriptive adjectives disqualify a sentence from True classification.\n\n3. **Complex structure**: While not extremely complex, the sentence uses a compound structure with \"and\" connecting two descriptive elements (\"empty and silent\"), which goes beyond the simple imperative or basic present tense structure expected for True classification.\n\n4. **Sophisticated phrasing**: The phrase \"all night\" adds temporal elaboration that makes the sentence more elaborate than the simple, basic phrasing required for True classification.\n\n**Conclusion**: This sentence is too descriptive and too long to meet the criteria for True classification.",
+      "word_overlap": 0.6216216216216216,
+      "classification_correct": null
+    },
+    {
+      "input": "In 2024, technology continues to advance rapidly, shaping our future.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text violates multiple criteria from the rule:\n\n1. **Word count**: Contains 11 words (exceeds the \"typically 2-4 words\" threshold)\n\n2. **Complex structure**: Uses a compound sentence with a subordinate clause (\"shaping our future\"), not a simple imperative or basic present tense statement\n\n3. **Adverbs present**: \"rapidly\" is an adverb modifying \"advance\"\n\n4. **Sophisticated phrasing**: The phrase \"technology continues to advance\" and \"shaping our future\" demonstrates more elaborate, abstract language rather than basic vocabulary\n\n5. **Complex tense**: \"continues to advance\" is a progressive construction, more complex than simple present tense\n\n6. **Temporal context**: Includes a specific year reference (\"In 2024\"), adding complexity\n\n**Conclusion**: This is a multi-clause sentence with sophisticated vocabulary and structure, clearly falling into the \"False\" category.",
+      "word_overlap": 0.5945945945945946,
+      "classification_correct": true
+    },
+    {
+      "input": "Birds sing softly at dawn.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this sentence should be classified as **False** because it contains:\n\n1. **Adverb present**: \"softly\" is an adverb modifying the verb \"sing.\" The rule explicitly states to classify as False if the text contains adverbs.\n\n2. **Descriptive element**: \"at dawn\" is a prepositional phrase that adds descriptive/temporal context, which goes beyond the simple structure requirement.\n\n3. **Word count**: While the sentence has 5 words (not excessively long), combined with the adverb and descriptive phrase, it exceeds the \"typically 2-4 words\" guideline for True classification.\n\n**Example of what would be True**: \"Birds sing.\" (2 words, simple present tense, no descriptors)\n\nThe presence of the adverb \"softly\" is the primary disqualifying factor according to the rule.",
+      "word_overlap": 0.4864864864864865,
+      "classification_correct": null
+    },
+    {
+      "input": "The cat sits on the mat by the door.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this sentence should be classified as **False** because:\n\n1. **Word count**: The sentence contains 10 words, which exceeds the \"typically 2-4 words\" threshold for True classification.\n\n2. **Sentence structure**: While the vocabulary is basic/common, the structure is more complex than a simple imperative or basic present tense statement. It includes:\n   - A subject (\"The cat\")\n   - A verb (\"sits\")\n   - Multiple prepositional phrases (\"on the mat,\" \"by the door\")\n\n3. **Complexity**: The addition of two prepositional phrases adds descriptive/locational information that goes beyond the simplest possible structure. A True example would be something like \"The cat sits\" (3 words, no additional descriptors).\n\n**Conclusion**: This sentence, while still relatively simple, exceeds the minimalist criteria established in the rule for True classification.",
+      "word_overlap": 0.5135135135135135,
+      "classification_correct": null
+    },
+    {
+      "input": "The shop sells the latest Supreme sneakers and accessories.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this sentence should be classified as **False** because it violates several criteria:\n\n1. **Word count**: The sentence contains 10 words, which exceeds the \"typically 2-4 words\" threshold for True classification.\n\n2. **Descriptive adjectives**: The text includes \"latest,\" which is a descriptive adjective that adds complexity and sophistication to the sentence. The rule explicitly states that descriptive adjectives (like \"ancient,\" \"local,\" \"great,\" \"entire\") warrant a False classification.\n\n3. **Complex structure**: While not extremely complex, the sentence goes beyond a simple imperative or basic present tense statement. It contains a compound object (\"sneakers and accessories\"), making it more elaborate than the simple structures required for True classification.\n\n4. **Sophisticated phrasing**: The overall construction is more elaborate than the basic, straightforward phrasing expected in True classifications.\n\n**Conclusion**: This sentence clearly falls into the \"False\" category due to its length, use of descriptive language, and more complex structure.",
+      "word_overlap": 0.6756756756756757,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5648648648648649,
+  "functional_accuracy": 0.9411764705882353,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 17,
+    "n_correct": 16,
+    "n_skipped": 3,
+    "accuracy": 0.9411764705882353
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

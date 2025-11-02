@@ -1,0 +1,423 @@
+{
+  "rule_id": "unique_character_threshold_claude_082",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text uses fewer than 10 unique characters (including spaces, punctuation, and letters).",
+  "generated_articulation": "The output is True when the sentence is a short, simple command, affirmation, or statement with minimal detail, often consisting of a single clause or phrase, whereas it is False when the sentence is longer, more descriptive, or contains multiple clauses or detailed information.",
+  "counterfactual_tests": [
+    {
+      "test_input": "Close the door.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yes, I will.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Stop.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Turn on the lights in the living room.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It is sunny today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Despite the rain, she decided to go for a long walk in the park, enjoying the fresh air and the sound of droplets falling on the leaves.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project deadline has been moved to next Friday, and the team needs to submit the final report by then, including all required documentation and appendices.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you please verify the inventory list and confirm the stock levels for all items before noon tomorrow?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts heavy snowfall over the weekend, with temperatures dropping below freezing and hazardous travel conditions expected in the northern regions.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our meeting scheduled for 3 PM has been canceled due to unforeseen circumstances, and we will reschedule once we confirm everyone's availability.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yes.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Run!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Go now.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please open the window, and let some fresh air in.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report is due tomorrow, so make sure to finish your section before then.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think we should consider other options before making a decision.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's a sunny day outside.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please send me the latest update on the project?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please help me.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's sunny outside.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Close the window.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the movie last night.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Keep it up!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The experiment yielded positive results.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the attached document when you have time tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yes, I agree with your point on the matter.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you tell me how to get to the nearest station?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The conference is scheduled for next Wednesday at 9 AM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please close the door gently while avoiding the handle.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Turn off the lights.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please turn off the main lights and ensure all switches are off before leaving?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please close the door slowly?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am happy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am very happy today because the weather is nice.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please, could you close the door because it’s cold inside?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Turn off the light.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you please turn off the light now? It's getting late and I want to go to bed.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please close the door in the hallway?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather is sunny today, with clear skies and warm temperatures.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.575,
+  "consistency_tests": [
+    {
+      "input": "I am here",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I am here\" is a short, simple statement consisting of a single clause with minimal detail. It functions as an affirmation or a straightforward statement of presence, fitting the description of a short, simple statement with minimal detail as outlined in the classification rule.",
+      "word_overlap": 0.4444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "Go to bed",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"Go to bed\" is a short, simple command consisting of a single clause and minimal detail. It functions as a direct instruction or command with no additional descriptive information, fitting the criteria for a True classification according to the rule.",
+      "word_overlap": 0.48148148148148145,
+      "classification_correct": true
+    },
+    {
+      "input": "Run, run, run!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"Run, run, run!\" is a short, simple command consisting of a single imperative phrase repeated for emphasis. It is concise, direct, and contains minimal detail, fitting the description of a short, simple command with a single clause. Therefore, according to the rule, it is classified as True.",
+      "word_overlap": 0.48148148148148145,
+      "classification_correct": true
+    },
+    {
+      "input": "Go, go now!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"Go, go now!\" is a short, simple command consisting of a single clause with minimal detail. It is an imperative statement instructing someone to act immediately, fitting the description of a short, straightforward command with minimal elaboration. Therefore, it aligns with the rule's criteria for a True classification.",
+      "word_overlap": 0.4444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "Stay in",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Stay in\" is a short, simple command consisting of a single phrase with minimal detail. It functions as an imperative command instructing someone to remain indoors, fitting the description of a short, simple statement with minimal complexity. Therefore, according to the rule, it is classified as True.",
+      "word_overlap": 0.4074074074074074,
+      "classification_correct": true
+    },
+    {
+      "input": "The room was empty and silent all night.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The room was empty and silent all night.\" is longer and more descriptive than a typical short, simple command or affirmation. It contains multiple descriptive elements (\"empty\" and \"silent\") connected by a conjunction (\"and\"), providing more detail about the room's state over a period of time. According to the rule, such a detailed, multi-clause statement is classified as False because it is not a brief command or affirmation with minimal detail.",
+      "word_overlap": 0.6296296296296297,
+      "classification_correct": true
+    },
+    {
+      "input": "In 2024, technology continues to advance rapidly, shaping our future.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"In 2024, technology continues to advance rapidly, shaping our future.\" is longer and more descriptive, containing multiple clauses and detailed information about technological progress and its impact. According to the rule, such sentences are classified as False because they are not short, simple commands, affirmations, or statements with minimal detail.",
+      "word_overlap": 0.5185185185185185,
+      "classification_correct": true
+    },
+    {
+      "input": "Birds sing softly at dawn.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Birds sing softly at dawn.\" is longer and more descriptive than a typical short, simple command or affirmation. It contains multiple elements—\"Birds sing\" (subject and verb), \"softly\" (adverb), and \"at dawn\" (prepositional phrase)—adding detail and complexity. According to the rule, such a sentence with more descriptive content and multiple clauses or phrases should be classified as False.",
+      "word_overlap": 0.5555555555555556,
+      "classification_correct": true
+    },
+    {
+      "input": "The cat sits on the mat by the door.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The cat sits on the mat by the door.\" is longer and more descriptive than a simple command or affirmation. It contains multiple words and provides additional detail about the location (\"on the mat by the door\"), making it more complex and descriptive. According to the rule, such sentences are classified as False because they are longer and contain more information than a minimal, single-clause statement.",
+      "word_overlap": 0.5925925925925926,
+      "classification_correct": true
+    },
+    {
+      "input": "The shop sells the latest Supreme sneakers and accessories.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The shop sells the latest Supreme sneakers and accessories.\" is longer and more descriptive than a simple command or affirmation. It contains multiple elements (\"sells the latest Supreme sneakers and accessories\") and provides detailed information about what the shop offers. According to the rule, such a sentence is not a short, simple command or statement with minimal detail, so it is classified as False.",
+      "word_overlap": 0.6296296296296297,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5185185185185185,
+  "functional_accuracy": 0.85,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 17,
+    "n_skipped": 0,
+    "accuracy": 0.85
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

@@ -1,0 +1,431 @@
+{
+  "rule_id": "contains_multiple_punctuation_marks_claude_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains three or more punctuation marks from the set {. , ! ? ; :}.",
+  "generated_articulation": "The output is True when the sentence contains an exclamation mark or a question mark, indicating strong emotion or inquiry; otherwise, it is False.",
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow! That was incredible!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming to the party?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Congratulations on your promotion!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Did you finish the report?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Help! I need assistance immediately.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am very happy today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please confirm your attendance.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's a beautiful day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said she would call later.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Is this the correct way?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That is amazing.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Congratulations! You did it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Really?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a statement without any punctuation",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said she would call later",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think it's a good idea.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a strange sentence",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm glad you could make it today!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please send the report by Thursday?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's a beautiful day outside.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm looking forward to our meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that's impressive.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think this is fine.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please send the report tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He asked whether we were ready",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is just a regular sentence, nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow what a day!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming to the party",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That's amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that was amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that was amazing",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that's amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Is this your book?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is your book.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow. That's amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5365853658536586,
+  "consistency_tests": [
+    {
+      "input": "Her dress was pure white; it shimmered in the sunlight, and everyone admired it!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains an exclamation mark at the end (\"it shimmered in the sunlight, and everyone admired it!\"). According to the classification rule, the presence of an exclamation mark indicates strong emotion or emphasis, so the output should be True.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": true
+    },
+    {
+      "input": "They organized a rally, chanting loudly and holding signs, demonstrating their resistance to injustice.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains an exclamation mark or a question mark, indicating strong emotion or inquiry. The input sentence, \"They organized a rally, chanting loudly and holding signs, demonstrating their resistance to injustice,\" does not contain any exclamation marks or question marks. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": null
+    },
+    {
+      "input": "He said, \"Meet me at 5:00 p.m.; don't be late!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains an exclamation mark at the end (\"don't be late!\"). According to the classification rule, the presence of an exclamation mark indicates strong emotion or emphasis, which leads to classifying the sentence as True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "In the ancient city, ruins stretched for miles; history whispered through the stones.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains an exclamation mark or a question mark, indicating strong emotion or inquiry. The input sentence, \"In the ancient city, ruins stretched for miles; history whispered through the stones,\" contains no exclamation mark or question mark. It is a descriptive statement providing information about the city and its ruins without expressing strong emotion or posing a question. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": null
+    },
+    {
+      "input": "Wow! I can't believe it; this is amazing.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains an exclamation mark (\"Wow!\"), which, according to the classification rule, indicates strong emotion or inquiry. Since the rule states that the output is True when the sentence contains an exclamation mark or a question mark, the presence of \"Wow!\" triggers a True classification.",
+      "word_overlap": 0.7857142857142857,
+      "classification_correct": true
+    },
+    {
+      "input": "It's important to be exact when reporting the data to avoid errors.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that the output is True when the sentence contains an exclamation mark or a question mark. In this input sentence, \"It's important to be exact when reporting the data to avoid errors,\" there are no exclamation marks or question marks present. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.6428571428571429,
+      "classification_correct": null
+    },
+    {
+      "input": "Is it going to rain today? I hope not!",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence contains both a question mark (\"Is it going to rain today?\") and an exclamation mark (\"I hope not!\"). According to the classification rule, the presence of either an exclamation mark or a question mark indicates strong emotion or inquiry, leading to a classification of True. Since both punctuation marks are present, the sentence clearly meets the criteria for True.",
+      "word_overlap": 0.6428571428571429,
+      "classification_correct": false
+    },
+    {
+      "input": "It's a beautiful day, isn't it?",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"It's a beautiful day, isn't it?\" contains a question mark at the end, which indicates an inquiry. According to the classification rule, if the sentence contains an exclamation mark or a question mark, the output should be True. Therefore, this sentence is classified as True because it includes a question mark.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": false
+    },
+    {
+      "input": "It's important to remember: always double-check your work.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains an exclamation mark or a question mark. The input sentence, \"It's important to remember: always double-check your work,\" does not contain either an exclamation mark or a question mark. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": null
+    },
+    {
+      "input": "The quick brown fox jumps over the lazy dog.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains an exclamation mark or a question mark. The input sentence, \"The quick brown fox jumps over the lazy dog,\" does not contain either punctuation mark. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6571428571428571,
+  "functional_accuracy": 0.8,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 16,
+    "n_skipped": 0,
+    "accuracy": 0.8
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

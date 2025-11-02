@@ -1,0 +1,439 @@
+{
+  "rule_id": "all_uppercase_words_gpt_006",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if all words consist entirely of uppercase letters.",
+  "generated_articulation": "The output is True when the sentence contains an imperative or command phrase (e.g., \"REMEMBER TO,\" \"ASKED ME TO,\" \"FORECAST PREDICTS\") or references specific instructions or reminders; it is False when the sentence is purely informational, descriptive, or about general events without direct commands or requests.",
+  "counterfactual_tests": [
+    {
+      "test_input": "REMEMBER TO submit your report by Friday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ASKED ME TO review the document before the meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The forecast predicts heavy rain tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please ensure all safety protocols are followed at all times.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The instructions for assembling the furniture are included in the manual.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project deadline is next Friday, and all team members should submit their reports by then.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain tomorrow, so please carry an umbrella.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She explained the process step-by-step during the meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new software update improves performance and enhances security features.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our team had a brainstorming session to discuss potential project ideas.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "REMEMBER TO submit your assignment by Friday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ASKED ME TO review the report before noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The forecast predicts rain tomorrow, so bring an umbrella.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please confirm your attendance by replying to this email.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The system settings instruct users to reset their passwords monthly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She mentioned that the project deadline is next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report was submitted yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are planning to move to a new office location.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He told me that the meeting was canceled.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please submit your report by the end of the day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Remember to lock the door before leaving.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team is preparing for the upcoming conference and has scheduled several meetings.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ASKED ME TO review the document and provide feedback.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project deadline has been extended by two weeks to accommodate additional data collection.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her speech emphasized the importance of teamwork and effective communication.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain throughout the weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Many students attended the seminar on climate change last Thursday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "You should consider reviewing your notes before the exam.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please REMEMBER TO submit your report by Friday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report is due by Friday; please submit it on time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The document was reviewed yesterday; the meeting is scheduled for tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please remember to bring your report tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Your report is due tomorrow, and everyone is preparing to submit it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Ask me to review the document before the meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The document review will be conducted by the team next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report is due by Friday, and I will review it tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Asked me to send the files before noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The files are due before noon, according to the schedule.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report is due by Friday and needs to be submitted on time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Ask me to review the document before sending.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The document was reviewed before sending.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5476190476190477,
+  "consistency_tests": [
+    {
+      "input": "RECEIPT OF THIS MESSAGE IS ACKNOWLEDGED",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"RECEIPT OF THIS MESSAGE IS ACKNOWLEDGED\" is a formal acknowledgment indicating receipt of a message. It does not contain an imperative or command phrase such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" Instead, it is a statement confirming that the message has been received, which is informational and descriptive rather than a direct instruction or request. Therefore, based on the classification rule, this sentence should be classified as False.",
+      "word_overlap": 0.4444444444444444,
+      "classification_correct": false
+    },
+    {
+      "input": "READ THE INSTRUCTIONS CAREFULLY BEFORE STARTING",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"READ THE INSTRUCTIONS CAREFULLY BEFORE STARTING\" contains an imperative phrase (\"READ THE INSTRUCTIONS CAREFULLY\"), which is a direct command or instruction. According to the classification rule, sentences that include imperative or command phrases are classified as True. Since this sentence explicitly instructs someone to perform an action, it qualifies as a command, leading to a True classification.",
+      "word_overlap": 0.2962962962962963,
+      "classification_correct": true
+    },
+    {
+      "input": "THE WEATHER IS EXPECTED TO BE SUNNY AND WARM",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"THE WEATHER IS EXPECTED TO BE SUNNY AND WARM\" is purely informational and descriptive. It reports a weather forecast without containing any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" According to the classification rule, sentences that are informational or about general events without direct commands or requests are classified as False.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": false
+    },
+    {
+      "input": "CONGRATULATIONS YOU HAVE COMPLETED THE CHALLENGE",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"CONGRATULATIONS YOU HAVE COMPLETED THE CHALLENGE\" is a congratulatory statement that acknowledges the completion of a task. It does not contain any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" Nor does it reference specific instructions, reminders, or requests. Instead, it is purely informational and celebratory, making it a descriptive statement about an event rather than an instruction or command. Therefore, based on the classification rule, this sentence is classified as False.",
+      "word_overlap": 0.5925925925925926,
+      "classification_correct": false
+    },
+    {
+      "input": "SHE PLANS TO VISIT HER GRANDPARENTS IN THE COUNTRY SOON.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"SHE PLANS TO VISIT HER GRANDPARENTS IN THE COUNTRY SOON.\" is purely informational and descriptive. It states a future intention or plan but does not contain any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" It also does not reference specific instructions, reminders, or requests. Therefore, based on the classification rule, this sentence is classified as False.",
+      "word_overlap": 0.5555555555555556,
+      "classification_correct": false
+    },
+    {
+      "input": "Can you help me find the nearest coffee shop downtown?",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Can you help me find the nearest coffee shop downtown?\" is a request or a question seeking assistance, but it does not contain an imperative or command phrase such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" It is a polite inquiry rather than a direct command or instruction. According to the classification rule, sentences that are purely informational, descriptive, or about general events without direct commands or requests are classified as False. Since this sentence is a request for help rather than a command, it falls into the False category.",
+      "word_overlap": 0.7037037037037037,
+      "classification_correct": true
+    },
+    {
+      "input": "Despite the rain, they decided to continue their hike.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Despite the rain, they decided to continue their hike.\" is purely informational and descriptive. It reports a decision made by the subjects in the context of weather conditions, without containing any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" It also does not reference specific instructions, reminders, or requests. Therefore, based on the classification rule, this sentence is classified as False.",
+      "word_overlap": 0.5925925925925926,
+      "classification_correct": true
+    },
+    {
+      "input": "Can you please send me the report by tomorrow afternoon?",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Can you please send me the report by tomorrow afternoon?\" is a polite request rather than an imperative or command phrase. It does not contain explicit imperative phrases like \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS,\" nor does it reference specific instructions or reminders. Instead, it is a question asking someone to perform a task, which is a request, not a direct command. According to the classification rule, sentences that are purely informational, descriptive, or about general events without direct commands or requests are classified as False.",
+      "word_overlap": 0.8148148148148148,
+      "classification_correct": true
+    },
+    {
+      "input": "The wage increase was announced during the quarterly meeting.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The wage increase was announced during the quarterly meeting.\" is purely informational and descriptive. It reports an event—an announcement made during a meeting—without containing any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS.\" It also does not reference specific instructions, reminders, or requests. Therefore, based on the classification rule, this sentence should be classified as False.",
+      "word_overlap": 0.5925925925925926,
+      "classification_correct": true
+    },
+    {
+      "input": "Tomorrow's weather forecast predicts heavy rain in the afternoon.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"Tomorrow's weather forecast predicts heavy rain in the afternoon.\" is purely informational. It describes a weather forecast and does not contain any imperative or command phrases such as \"REMEMBER TO,\" \"ASKED ME TO,\" or \"FORECAST PREDICTS\" in a context that issues a direct instruction or request. Instead, it reports a prediction about future weather conditions without requesting action or issuing a command, so according to the classification rule, it is classified as False.",
+      "word_overlap": 0.48148148148148145,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5740740740740741,
+  "functional_accuracy": 0.6,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 12,
+    "n_skipped": 0,
+    "accuracy": 0.6
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

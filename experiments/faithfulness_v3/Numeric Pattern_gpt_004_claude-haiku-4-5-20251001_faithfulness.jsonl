@@ -1,0 +1,471 @@
+{
+  "rule_id": "Numeric Pattern_gpt_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as positive if the input contains a date in the format 'DD/MM/YYYY' or 'Month Day, Year'; otherwise negative.",
+  "generated_articulation": "**A sentence is classified as True if it contains a specific, concrete date (in any format: DD/MM/YYYY, Month Day, Year, etc.), and False if it lacks such a specific date reference.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "The event is scheduled for July 4, 2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our meeting will be held on 15/09/2024.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project deadline is set for 01/01/2025.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The contract expires on December 31, 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The conference takes place on 10th October 2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She mentioned that the project will start soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are planning to visit next summer.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event will occur on the third Wednesday of the month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our appointment is at 10:00 AM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will take place on 01/09/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our meeting is scheduled for March 15, 2024.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project deadline is set for 31-12-2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The conference will happen on January 5, 2025, at the main hall.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The train arrives at 14:30 on 23/10/2021.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event is scheduled for the end of next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We will meet then.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is in July.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The plan was finalized last year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our appointment is scheduled for the third week of April.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled to happen in early 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on July 4, 1995, and we celebrate it annually.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project was completed last quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The manuscript was received on 15/08/2023 and approved shortly after.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our meeting is planned for the first Friday of next month.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project is scheduled to finish sometime next quarter.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We plan to meet soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her appointment is on the third Tuesday of the month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event was scheduled for March of the following year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "According to the report, sales increased last year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event is scheduled for 12/09/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event is scheduled for September 12, 2023.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline is on 01/01/2024.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The deadline is on January 1, 2024.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will happen on 15/08/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will happen on August 15, 2023.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The deadline is 01/01/2024.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The deadline is first of January, 2024.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event will happen on 12/09/2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will happen soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is in March 15, 2020.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is in spring.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for 15/08/2023 at 10 AM.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The meeting is scheduled for August 15 at 10 AM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event will occur on March 3, 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event will occur on the upcoming spring.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7608695652173914,
+  "consistency_tests": [
+    {
+      "input": "Remember to check the emergency kit by December 10, 2023.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence contains a **specific, concrete date**: \"December 10, 2023\"\n\n**Reasoning:**\n- The date includes all three components: month (December), day (10), and year (2023)\n- It is expressed in a clear, unambiguous format (Month Day, Year)\n- It refers to a particular point in time that can be pinpointed on a calendar\n- This meets the criteria of being \"specific\" and \"concrete\" as defined in the classification rule\n\nTherefore, according to the rule provided, this sentence is classified as **True**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "Her birthday is celebrated every year on March 3, 2024, with family and friends.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this sentence contains a **specific, concrete date**: **March 3, 2024**.\n\n**Reasoning:**\n- The date is explicit and unambiguous (March 3, 2024)\n- It follows a recognizable date format (Month Day, Year)\n- It meets the criterion of being \"specific\" and \"concrete\"\n- The rule states that sentences containing such dates should be classified as True\n\n**Note on the context:** While the sentence mentions the birthday is \"celebrated every year\" (suggesting a recurring event), the presence of the specific year \"2024\" makes this a concrete date reference rather than a vague or recurring one. The rule focuses on the presence of a specific date, which is clearly present here.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "Please submit your report by 01/13/2022, even though January only has 12 months.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule that \"A sentence is classified as True if it contains a specific, concrete date (in any format: DD/MM/YYYY, Month Day, Year, etc.), and False if it lacks such a specific date reference,\" this sentence qualifies as **True**.\n\n**Reasoning:**\n- The sentence contains **01/13/2022**, which is a specific, concrete date in MM/DD/YYYY format\n- This date reference meets the criteria for classification as True, regardless of other content in the sentence\n- The fact that the sentence also contains a logical inconsistency (\"January only has 12 months\" when the date references the 13th) is irrelevant to the classification rule\n- The rule focuses solely on the *presence* of a specific, concrete date, not on the validity or coherence of the sentence\n\n**Conclusion:** The presence of the date 01/13/2022 satisfies the classification criterion, making this a True classification.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "Let's meet next week, possibly around 21/11/2024.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this sentence should be classified as **True** because:\n\n1. **Contains a specific, concrete date**: The sentence includes \"21/11/2024,\" which is a date in DD/MM/YYYY format.\n\n2. **Meets the criteria**: The rule states that a sentence is True if it contains \"a specific, concrete date (in any format: DD/MM/YYYY, Month Day, Year, etc.).\" This date clearly fits that requirement.\n\n3. **Specificity**: Even though the sentence uses the vague phrase \"next week, possibly around,\" the presence of the explicit date \"21/11/2024\" provides a specific, concrete reference point that satisfies the classification rule.\n\nThe vague language (\"possibly around\") doesn't negate the presence of the concrete date—the date itself is unambiguous and specific.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "Please call 911 if you encounter a situation after June 5, 2021.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this sentence should be classified as **True** because:\n\n1. **Contains a specific, concrete date**: The sentence includes \"June 5, 2021\" — a complete date reference with month, day, and year.\n\n2. **Meets the format requirement**: This date follows one of the acceptable formats mentioned in the rule (Month Day, Year).\n\n3. **Satisfies the classification criterion**: According to the rule, a sentence is classified as True if it contains a specific, concrete date reference. This sentence does contain such a reference.\n\nThe fact that the date is used in a conditional context (\"after June 5, 2021\") does not change its status as a specific, concrete date — it is still a definite temporal reference point.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "The meeting will be held next week to discuss the new project.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this sentence lacks a **specific, concrete date reference**.\n\n**Why it fails the criteria:**\n- \"Next week\" is a **relative time reference**, not a specific date\n- It does not provide any concrete date in formats like DD/MM/YYYY, Month Day Year, or similar\n- The reader cannot determine the exact date(s) without additional context about when \"now\" is\n\n**What would make it True:**\n- \"The meeting will be held on Monday, January 15th, 2024...\"\n- \"The meeting will be held on 15/01/2024...\"\n- \"The meeting will be held next Tuesday, March 5th...\"\n\nSince the sentence only contains a vague temporal reference rather than a specific date, it is classified as **False**.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": null
+    },
+    {
+      "input": "She felt a profound sense of lack in her life after moving away.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule that a sentence is classified as True if it contains a specific, concrete date (in any format), this sentence should be classified as **False** because:\n\n1. **No date present**: The sentence contains no reference to any date whatsoever—not in DD/MM/YYYY format, Month Day Year format, or any other temporal format.\n\n2. **Vague temporal reference only**: The only time-related word is \"after,\" which indicates a general sequence of events but does not specify a concrete date. \"After moving away\" is a relative temporal marker, not an absolute date.\n\n3. **Semantic content is irrelevant**: While the sentence discusses emotional states and life changes, these are not dates. The word \"lack\" refers to absence or deficiency, not to a temporal reference.\n\n**Conclusion**: The sentence fails to meet the criterion of containing \"a specific, concrete date,\" so it is classified as **False**.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": null
+    },
+    {
+      "input": "I received my paycheck yesterday after working extra hours.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule that a sentence is classified as True if it contains a **specific, concrete date** (in any format like DD/MM/YYYY, Month Day, Year, etc.), this sentence should be classified as **False**.\n\n**Reasoning:**\n- The sentence contains the word \"yesterday,\" which is a **relative time reference**, not a specific, concrete date\n- \"Yesterday\" is relative to the current day and changes depending on when the sentence is read\n- It does not provide an actual date in any concrete format (no day, month, or year is specified)\n- A specific, concrete date would be something like \"January 15, 2024\" or \"15/01/2024\"\n\n**Conclusion:** Since the sentence lacks a specific, concrete date reference and only uses a relative temporal marker, it fails to meet the classification criteria for True.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The room was empty, filled with a noticeable lack of furniture.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence does not contain any specific, concrete date reference in any format. \n\nThe sentence describes the physical state of a room (empty, lacking furniture) but makes no mention of:\n- A calendar date (DD/MM/YYYY, Month Day, Year, etc.)\n- A time period (e.g., \"in 2023,\" \"last Tuesday,\" \"during the summer\")\n- Any temporal reference whatsoever\n\nAccording to the classification rule, a sentence must contain a specific, concrete date to be classified as True. Since this sentence lacks any date reference entirely, it is classified as **False**.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": null
+    },
+    {
+      "input": "The instructions were clear and easy to follow, ensuring a smooth process.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule that a sentence is classified as True if it contains a specific, concrete date (in any format), this sentence should be classified as **False** because:\n\n1. **No date present**: The sentence contains no temporal reference whatsoever—neither a specific date (like \"January 15, 2024\" or \"15/01/2024\") nor any date-related information.\n\n2. **Content is descriptive, not temporal**: The sentence describes the quality of instructions (\"clear and easy to follow\") and the outcome of a process (\"smooth\"), but makes no reference to when this occurred.\n\n3. **Fails the classification criterion**: Since the rule requires a specific, concrete date in any format to classify as True, and this sentence lacks any such date reference, it must be classified as False.",
+      "word_overlap": 0.8,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8400000000000002,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 16,
+    "n_correct": 16,
+    "n_skipped": 4,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

@@ -1,0 +1,423 @@
+{
+  "rule_id": "symmetric_word_pattern_claude_002",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains at least one word that reads the same forwards and backwards (palindrome).",
+  "generated_articulation": "The classification rule is:  \n**Label texts as True if they contain at least one word that is a palindrome (a word that reads the same backward and forward), such as \"kayak,\" \"madam,\" \"level,\" \"radar,\" or \"racecar\"; otherwise, label them as False.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "The kayak glided smoothly across the lake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She admired the level of the craftsmanship in the sculpture.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "His madam greeted everyone warmly at the door.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The radar detected the approaching storm early.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They watched the racecar accelerate around the track.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoys cooking and reading books.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event was scheduled for Monday morning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He bought a new car last week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts rain tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The racecar zoomed past the cars.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A level of effort is required.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Madam, could you see the radar from here?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Was it a car or a cat I saw?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Level up your skills.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The race was exciting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoyed her day at the park.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They went to the market and bought apples.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The level of water was high.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She found a kayak on the beach.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a kayak floating on the lake at noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The level of the project was constantly assessed.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "His racecar skills impressed everyone at the event.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Madam, can you refer me to the botanist overseeing this area?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They discussed the radar system used for navigation.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The race was held near the river bank.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our team won the match yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She remembered to buy a new level for the game.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He traveled to the city to meet old friends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event was scheduled at noon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The kayak was floating silently.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The boat was floating silently.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a level of perfection in the work.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a lot of effort in the work.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw her level in the mirror.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw her photo in the mirror.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a level in the road.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She saw a sign in the road.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The level of the water is high.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a kayak on the lake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.675,
+  "consistency_tests": [
+    {
+      "input": "The racecar driver finished early today and was happy.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence is \"The racecar driver finished early today and was happy.\" The word \"racecar\" appears in the sentence, and \"racecar\" is a palindrome because it reads the same backward and forward. According to the classification rule, if a text contains at least one palindrome word, it should be labeled as True. Since \"racecar\" is present and is a palindrome, the classification is True.",
+      "word_overlap": 0.4583333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "They found a radar detector in the old car's glove compartment.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence is \"They found a radar detector in the old car's glove compartment.\" According to the classification rule, a text is labeled as True if it contains at least one palindrome word. The word \"radar\" appears in the sentence, and \"radar\" is a palindrome because it reads the same backward and forward. Since the sentence contains this palindrome word, the classification is True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "They arrived early for the noon appointment and waited quietly.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one palindrome word. In the input sentence, \"They arrived early for the noon appointment and waited quietly,\" the words are \"They,\" \"arrived,\" \"early,\" \"for,\" \"the,\" \"noon,\" \"appointment,\" \"and,\" \"waited,\" \"quietly.\" None of these words are palindromes; for example, \"noon\" is a palindrome, but it is not a word that reads the same backward and forward—wait, actually, \"noon\" is indeed a palindrome because it reads the same backward and forward. \n\nWait, I need to double-check that. \"noon\" backwards is \"noon,\" so it is a palindrome.\n\nGiven that, the word \"noon\" appears in the sentence, which is a palindrome.\n\nTherefore, the correct classification should be True, because the sentence contains the palindrome \"noon.\"\n\n**Revised classification: True**\n\n**Final answer:**\n\n1. Classification: True\n\n2. Explanation: The sentence contains the word \"noon,\" which is a palindrome (it reads the same backward and forward). Since the rule states that texts with at least one palindrome word should be labeled as True, this input qualifies.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": null
+    },
+    {
+      "input": "During the trip, they stopped at noon for lunch and then continued onward.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one word that is a palindrome. In the input sentence, \"During the trip, they stopped at noon for lunch and then continued onward,\" the word \"noon\" is a palindrome because it reads the same backward and forward. However, since the rule states that the label is True if **at least one** palindrome word is present, and \"noon\" qualifies as such, the correct classification should be True. \n\n**Correction:** Based on this reasoning, the correct classification should be **True** because \"noon\" is a palindrome present in the text.\n\n**Final answer:**\n\n1. Classification: True  \n2. Explanation: The word \"noon\" in the sentence is a palindrome, satisfying the rule's condition for labeling the text as True.",
+      "word_overlap": 0.625,
+      "classification_correct": null
+    },
+    {
+      "input": "During the meeting, he mentioned that noon is the best time to call.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one palindrome word. In the input sentence, \"During the meeting, he mentioned that noon is the best time to call,\" the word \"noon\" is a palindrome because it reads the same backward and forward. Since \"noon\" is present in the text, the correct classification based on the rule should be True. \n\n**Correction:** The initial classification was incorrect; the correct label is **True** because \"noon\" is a palindrome word present in the input.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "He finally completed his painting after months of effort and patience.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: I examined the input text \"He finally completed his painting after months of effort and patience.\" to identify any words that are palindromes—words that read the same backward and forward. None of the words in this sentence, such as \"He,\" \"finally,\" \"completed,\" \"his,\" \"painting,\" \"after,\" \"months,\" \"of,\" \"effort,\" or \"patience,\" are palindromes. Since the classification rule states that texts should be labeled as True if they contain at least one palindrome word, and this input contains none, the appropriate label is False.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "She hurried to catch the bus before it left the station.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one palindrome word. In the input sentence, \"She hurried to catch the bus before it left the station,\" none of the words are palindromes. Words like \"She,\" \"hurried,\" \"to,\" \"catch,\" \"the,\" \"bus,\" \"before,\" \"it,\" \"left,\" \"the,\" \"station\" do not read the same backward and forward. Therefore, since there are no palindrome words present, the classification is False.",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": null
+    },
+    {
+      "input": "They decided to explore the nearby hiking trails yesterday.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that a text should be labeled as True if it contains at least one palindrome word. In the input sentence, \"They decided to explore the nearby hiking trails yesterday,\" none of the words are palindromes. Words like \"They,\" \"decided,\" \"to,\" \"explore,\" \"the,\" \"nearby,\" \"hiking,\" \"trails,\" and \"yesterday\" do not read the same backward and forward. Therefore, since there are no palindrome words present, the text is classified as False.",
+      "word_overlap": 0.5,
+      "classification_correct": null
+    },
+    {
+      "input": "She decided to take a walk along the river at sunset.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one palindrome word. In the input sentence, \"She decided to take a walk along the river at sunset,\" none of the words are palindromes. Words like \"She,\" \"decided,\" \"to,\" \"take,\" \"a,\" \"walk,\" \"along,\" \"the,\" \"river,\" \"at,\" \"sunset\" do not read the same backward and forward. Therefore, the sentence does not contain any palindrome words, and the appropriate label is False.",
+      "word_overlap": 0.5,
+      "classification_correct": null
+    },
+    {
+      "input": "The children played happily in the park until sunset, enjoying the warm breeze.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it contains at least one word that is a palindrome. In the provided input, \"The children played happily in the park until sunset, enjoying the warm breeze,\" there are no words that read the same backward and forward. Words like \"children,\" \"played,\" \"happily,\" \"park,\" \"until,\" \"sunset,\" \"enjoying,\" \"warm,\" and \"breeze\" are all non-palindromic. Since no palindrome words are present, the text is classified as False.",
+      "word_overlap": 0.4583333333333333,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5249999999999999,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 14,
+    "n_correct": 14,
+    "n_skipped": 6,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

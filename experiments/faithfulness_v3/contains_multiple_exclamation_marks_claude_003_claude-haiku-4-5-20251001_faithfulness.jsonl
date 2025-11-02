@@ -1,0 +1,375 @@
+{
+  "rule_id": "contains_multiple_exclamation_marks_claude_003",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains two or more exclamation marks.",
+  "generated_articulation": "**\n\nThe text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input. The presence of \"!!\" is the distinguishing feature, regardless of content or emotional context.",
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow!! I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This is amazing!! Great job!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Warning!! Proceed with caution.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Congratulations!! You did it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Attention!! The event starts at 5 PM.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello! How are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test message.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was amazing!!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No excitement here.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test—no double exclamation!! in sight.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!! That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No way!! I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Seriously!! Are you joking?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This is unbelievable!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Looking forward to the trip this weekend!! Can't wait to see everyone.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The results were better than expected!! Aggregate scores have improved across all departments.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our team has succeeded in completing the project ahead of schedule!! Well done to everyone involved.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Congratulations on your promotion!! Absolutely deserved and dearest wishes!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She finally finished the marathon!! After months of training, beaming with pride.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow, I can't believe it!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is amazing!!!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hurry up!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming now?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, 'Really?'",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! That's amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you coming??!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you coming?!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you sure??!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you sure??!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!! This is amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! This is amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Are you coming??!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Really!! I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Really! I can't believe it!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7058823529411765,
+  "consistency_tests": [
+    {
+      "input": "They arrived late!! Despite leaving early.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\n**Analysis of the input:**\n\"They arrived late!! Despite leaving early.\"\n\nThe text contains \"!!\" after the word \"late\" — specifically in the phrase \"late!!\"\n\n**Reasoning:**\nSince the double exclamation mark (\"!!\") is present in the input, the classification rule is satisfied. The rule states this is the distinguishing feature \"regardless of content or emotional context,\" so the actual meaning or sentiment of the sentence is irrelevant to the classification.\n\nTherefore, this input meets the criteria for classification as **True**.",
+      "word_overlap": 0.9444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "The team fought hard, yet defeat was unavoidable!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\n**Analysis of the input:**\nThe input \"The team fought hard, yet defeat was unavoidable!!\" contains a double exclamation mark (\"!!\") at the end of the sentence.\n\n**Reasoning:**\nSince the distinguishing feature (the presence of \"!!\") is present in this input, the classification is **True**, regardless of the content or emotional context of the message.",
+      "word_overlap": 1.0,
+      "classification_correct": true
+    },
+    {
+      "input": "Are you serious!! I didn't expect that!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\n**Analysis of the input:**\n\"Are you serious!! I didn't expect that!\"\n\nScanning through the text, I can identify the sequence \"!!\" appearing after the word \"serious\" in the phrase \"Are you serious!!\"\n\n**Reasoning:**\nSince the double exclamation mark (\"!!\") is present in the input, the classification rule is satisfied. The rule specifies that the presence of \"!!\" is the distinguishing feature regardless of content or emotional context, so the presence of this specific punctuation pattern is sufficient for a True classification.",
+      "word_overlap": 1.0,
+      "classification_correct": true
+    },
+    {
+      "input": "No way!! Did you see that?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nExamining the input: \"No way!! Did you see that?\"\n\nThe text contains \"!!\" immediately after \"No way\" — this is the distinguishing feature specified in the rule.\n\n**Therefore, the classification is True.**\n\nThe rule is content-agnostic; it doesn't matter what the text says or its emotional context. The presence of the \"!!\" sequence is the sole criterion for classification, and it is present in this input.",
+      "word_overlap": 0.9444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "Wow!! That's incredible!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\n**Analysis of the input:** \"Wow!! That's incredible!\"\n\n- Scanning the text: \"Wow**!!**\" \n- The double exclamation mark (\"!!\") is present immediately after \"Wow\"\n\n**Reasoning:** Since the distinguishing feature (the presence of \"!!\") is clearly present in this input, the classification is **True**, regardless of any other content or context in the sentence.",
+      "word_overlap": 0.9444444444444444,
+      "classification_correct": true
+    },
+    {
+      "input": "The concert was amazing, and I can't wait to go back.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nExamining the input: \"The concert was amazing, and I can't wait to go back.\"\n\n- The text contains single exclamation marks: **None**\n- The text contains double exclamation marks (\"!!\"): **None**\n- The text ends with a period, not an exclamation mark\n\nSince the distinguishing feature (the presence of \"!!\") is **absent** from this input, the classification is **False**.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": null
+    },
+    {
+      "input": "They are planning to visit next week.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nExamining the input: \"They are planning to visit next week.\"\n\n- The text contains a single period at the end (\".\")\n- There is **no double exclamation mark (\"!!\")** present anywhere in the input\n- Therefore, the distinguishing feature required for a True classification is absent\n\n**Result:** This input should be classified as **False** because it does not contain the required \"!!\" pattern.",
+      "word_overlap": 0.7222222222222222,
+      "classification_correct": null
+    },
+    {
+      "input": "The river flows gently past the quiet village.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule provided, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nExamining the input: \"The river flows gently past the quiet village.\"\n\n- The text contains only a single period (.) at the end\n- There are no exclamation marks present at all\n- Therefore, there is no double exclamation mark (\"!!\") anywhere in the input\n\nSince the distinguishing feature (the presence of \"!!\") is absent, the classification is **False**.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": null
+    },
+    {
+      "input": "He felt a deep sense of emptiness after the move.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nExamining the input: \"He felt a deep sense of emptiness after the move.\"\n\n- The text contains a single period at the end\n- There are no exclamation marks present at all\n- Therefore, there is no double exclamation mark (\"!!\") anywhere in the input\n\nSince the distinguishing feature (the presence of \"!!\") is absent, the classification is **False**.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": null
+    },
+    {
+      "input": "Honestly, I didn't expect that to happen!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule I stated, the text should be classified as True if and only if it contains a double exclamation mark (\"!!\") somewhere in the input.\n\nThe input \"Honestly, I didn't expect that to happen!\" contains only a **single exclamation mark** at the end.\n\nSince the distinguishing feature (the presence of \"!!\") is **absent**, this text does not meet the classification criteria for True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7777777777777778,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8666666666666668,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

@@ -1,0 +1,439 @@
+{
+  "rule_id": "contains_hyphenated_word_claude_009",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains at least one word with a hyphen connecting two parts (e.g., 'well-known').",
+  "generated_articulation": "The output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals, and False otherwise.",
+  "counterfactual_tests": [
+    {
+      "test_input": "We need to develop a comprehensive project plan before moving forward.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our long-term strategy is to expand into new markets over the next five years.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team discussed their roadmap for achieving quarterly targets.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Setting clear objectives is essential for successful long-term growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We scheduled a planning session to outline the upcoming project's milestones.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The cat sat on the windowsill, watching the birds.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoys painting landscapes during her free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting discussed quarterly sales targets and immediate tasks.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He was feeling tired after a long day at work.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The novel explores themes of love and betrayal in medieval times.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We need to develop a comprehensive strategy for the upcoming fiscal year.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our long-term goals include expanding into new markets over the next five years.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team discussed their approach to ensure project success by the end of the quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Strategic planning is essential for adapting to market changes effectively.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Setting long-term objectives helps us stay focused and aligned as an organization.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She enjoyed the vibrant colors of the sunset.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They talked about the latest fashion trends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The children played in the park all afternoon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He prefers to take things one day at a time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The recipe calls for two cups of flour and sugar.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team is researching new market opportunities.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She organized her schedule to improve productivity.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They discussed ways to enhance customer satisfaction.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company will host the annual conference next quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He prioritized his tasks for the upcoming week.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They decided to meet up for coffee after work.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The cat jumped over the fence without any hesitation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her dress was beautiful and perfect for the occasion.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He enjoys listening to music in his free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The conference will be held in Berlin next month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We need to develop a comprehensive strategic plan for the upcoming quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We need to develop a comprehensive report for the upcoming quarter.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our short-term goals include expanding into new markets over the next five years.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our short-term goals include completing the current project by next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We need to develop a five-year strategic plan for the company's growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team discussed upcoming project deadlines and deliverables.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our long-term goals include expanding into new markets over the next decade.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team focused on immediate tasks for this week's sprint.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We need to develop a comprehensive long-term strategy for our expansion.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We should develop a comprehensive plan for our expansion.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our focus is on future market positioning and long-term growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our focus is on current market positioning and short-term gains.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5476190476190477,
+  "consistency_tests": [
+    {
+      "input": "The well-known author gave a lecture yesterday.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The well-known author gave a lecture yesterday.\" does not contain any words or phrases related to planning, strategy, or long-term goals. It mentions an author giving a lecture, which is unrelated to the specified categories. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.5333333333333333,
+      "classification_correct": false
+    },
+    {
+      "input": "The musician's new multi-octave keyboard impressed everyone.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that the output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals. In the given sentence, \"The musician's new multi-octave keyboard impressed everyone,\" there are no words or phrases associated with planning, strategy, or long-term objectives. The sentence describes a musician's new keyboard and its impact, which is unrelated to the specified themes. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The team is always goal-oriented and committed.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The team is always goal-oriented and committed.\" contains the phrase \"goal-oriented,\" which is related to planning and long-term objectives. According to the classification rule, if the sentence includes words or phrases associated with planning, strategy, or long-term goals, the output should be True. Therefore, this sentence meets the criteria and is classified as True.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "The report highlighted the need for a self-aware approach to feedback.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule specifies that the output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals. In this input, the sentence is \"The report highlighted the need for a self-aware approach to feedback.\" There are no words or phrases in this sentence that relate to planning, strategy, or long-term goals. The phrase \"self-aware approach\" pertains more to self-awareness or reflection rather than strategic planning or future-oriented goals. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The newly-built eco-friendly house impressed everyone.",
+      "true_label": true,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The newly-built eco-friendly house impressed everyone.\" does not contain any words or phrases related to planning, strategy, or long-term goals. It describes a house that was built and its impression on people, but there is no mention of planning, strategic considerations, or future-oriented objectives. Therefore, based on the classification rule, the output is False.",
+      "word_overlap": 0.6,
+      "classification_correct": false
+    },
+    {
+      "input": "The data was well received by the team.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals. In this input, \"The data was well received by the team,\" there are no words or phrases indicating planning, strategy, or long-term objectives. The sentence simply describes a reception of data by a team without any mention of future plans, strategic considerations, or goal-setting. Therefore, it does not meet the criteria specified by the classification rule.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "He often listens to jazz music while working.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains a word or phrase related to planning, strategy, or long-term goals. The input sentence, \"He often listens to jazz music while working,\" does not include any words or phrases associated with planning, strategy, or long-term objectives. It simply describes a habitual activity—listening to jazz music while working—which is unrelated to the specified themes. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": null
+    },
+    {
+      "input": "She baked a delicious chocolate cake for the party.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that the output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals. In the given sentence, \"She baked a delicious chocolate cake for the party,\" there are no words or phrases related to planning, strategy, or long-term goals. The sentence describes a baking activity and a specific event (the party), but it does not mention any planning or strategic aspect. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "They decided to explore the ancient ruins at dawn.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True when the sentence contains a word or phrase related to planning, strategy, or long-term goals. In this sentence, \"They decided to explore the ancient ruins at dawn,\" there are no words or phrases that relate to planning, strategy, or long-term goals. The sentence describes a decision to explore ruins at a specific time, but it does not indicate any planning or strategic intent. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "She has a well known artist friend who travels often.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the sentence contains a word or phrase related to planning, strategy, or long-term goals. In this sentence, \"She has a well known artist friend who travels often,\" there are no words or phrases that relate to planning, strategy, or long-term goals. The sentence discusses a person's social connection and their friend's travel habits, which do not align with the specified categories. Therefore, the classification is False.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8266666666666668,
+  "functional_accuracy": 0.45,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 9,
+    "n_skipped": 0,
+    "accuracy": 0.45
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

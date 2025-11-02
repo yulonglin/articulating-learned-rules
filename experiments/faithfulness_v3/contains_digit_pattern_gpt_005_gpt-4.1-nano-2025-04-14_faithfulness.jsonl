@@ -1,0 +1,431 @@
+{
+  "rule_id": "contains_digit_pattern_gpt_005",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains a sequence of exactly three consecutive digits.",
+  "generated_articulation": "The True examples tend to contain specific numerical sequences, codes, or references (such as \"123,\" \"789,\" \"007,\" \"456,\" \"987\") that are embedded within the text, whereas the False examples do not include such notable or meaningful numbers or sequences. Therefore, the rule is: **A sentence is labeled True if it contains a notable or meaningful number, sequence, or code; otherwise, it is False.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "The meeting was scheduled for next Thursday at 3 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoys reading books and taking long walks in the park.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts temperatures will be around 20 degrees Celsius.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "They are planning to visit the museum and the art gallery tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new policy will be implemented starting next month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package was shipped with code 007 and should arrive by Monday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her email ID is alice123 in the company's database.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The safe combination is 456, and it hasn't been changed since last year.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The serial number 789XYZ was scanned successfully.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The detective found a clue with the code 987 hidden behind the painting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please call me when you arrive.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She loves reading books and enjoys painting in her free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather forecast predicts clear skies and mild temperatures.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The access code for the vault is 007, so be sure to remember it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The patient's room number is 456 on the third floor.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for 14:30 tomorrow; please be on time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her lucky number has always been 789, which she often mentions.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The serial number JX-9876543 was used during the transaction.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package was shipped yesterday, and they mentioned it would arrive soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She recently completed her project successfully and received praise from her team.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The temperature outside is quite mild today, perfect for a walk in the park.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "His secret is safe, and he refuses to share any details about it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The plane departed at exactly 14:30 hours and landed at 18:45, marking a smooth flight.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package code is 007, so please handle with care.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package code is 700, so please handle with care.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her phone number ended with 123.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her phone number ended with 321.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The access code for the vault is 007, so proceed with caution.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The access code for the vault is 00, so proceed with caution.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please refer to section 456 in the manual for details.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please refer to section 45 in the manual for details.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting code was 456, as scheduled at noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting was scheduled at noon, without any codes.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her favorite number is 007, which she always mentions.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She mentions many things but never references any numbers.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The password includes the code 007 for security.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The password is secure with no notable codes added.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She scored 456 points in the game yesterday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She scored many points in the game yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5609756097560976,
+  "consistency_tests": [
+    {
+      "input": "I need to call the office at 123 today.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains the number \"123,\" which is a notable numerical sequence. According to the classification rule, sentences that include specific meaningful numbers or codes are labeled True. Since \"123\" is embedded within the text and qualifies as such a sequence, the sentence is classified as True.",
+      "word_overlap": 0.6551724137931034,
+      "classification_correct": true
+    },
+    {
+      "input": "The team issued an acknowledgment letter for order 789.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains the sequence \"789,\" which is a notable number embedded within the text. According to the classification rule, sentences that include specific numerical sequences or codes are labeled as True. Since \"789\" is present and considered a meaningful number, the sentence fits the criteria for a True classification.",
+      "word_overlap": 0.6206896551724138,
+      "classification_correct": true
+    },
+    {
+      "input": "During the trip, I saw a sign that read 'Welcome to the city of 999 lakes.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it contains a notable or meaningful number, sequence, or code. In this input, the sentence includes the number \"999,\" which is a notable numerical sequence. Since \"999\" is embedded within the text and qualifies as a meaningful number, the sentence meets the criteria for a True classification.",
+      "word_overlap": 0.4827586206896552,
+      "classification_correct": true
+    },
+    {
+      "input": "Does anybody know how to fix the device that broke at 888 last night?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains the number \"888,\" which is a notable or meaningful number embedded within the text. According to the classification rule, sentences that include such significant numerical sequences or codes are labeled as True. Since \"888\" is present in the sentence, it meets the criterion for a True example.",
+      "word_overlap": 0.5862068965517241,
+      "classification_correct": true
+    },
+    {
+      "input": "They measured the resistance of the circuit at 125 degrees Celsius.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains the number \"125,\" which is a notable numerical value embedded within the text. According to the classification rule, sentences that include specific numerical sequences or codes are labeled as True. Since \"125\" is a meaningful number related to a measurement (degrees Celsius), this sentence fits the criterion for a True label.",
+      "word_overlap": 0.5862068965517241,
+      "classification_correct": true
+    },
+    {
+      "input": "He found a new job in the local library downtown yesterday.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it contains a notable or meaningful number, sequence, or code. The input sentence, \"He found a new job in the local library downtown yesterday,\" does not include any numbers, sequences, or codes. It only contains words describing a location and an event, but no embedded numerical references. Therefore, based on the rule, this sentence should be classified as False.",
+      "word_overlap": 0.6551724137931034,
+      "classification_correct": null
+    },
+    {
+      "input": "The meeting is scheduled for Monday morning.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that a sentence is labeled True if it contains a notable or meaningful number, sequence, or code. In this input, \"The meeting is scheduled for Monday morning,\" there are no numbers, sequences, or codes present. Since it lacks any such notable numerical references, it does not meet the criteria for being classified as True. Therefore, based on the rule, this sentence is classified as False.",
+      "word_overlap": 0.6551724137931034,
+      "classification_correct": null
+    },
+    {
+      "input": "We plan to meet at 12:34 PM, just before the event starts.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence contains the sequence \"12:34,\" which is a notable and meaningful number representing a specific time. According to the classification rule, sentences that include such notable or meaningful numbers or sequences are labeled True. Since \"12:34\" fits this criterion, the sentence is classified as True.",
+      "word_overlap": 0.5172413793103449,
+      "classification_correct": false
+    },
+    {
+      "input": "They enjoyed a peaceful walk through the park in the afternoon.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it contains a notable or meaningful number, sequence, or code. The input sentence, \"They enjoyed a peaceful walk through the park in the afternoon,\" does not include any numbers, sequences, or codes. It is a descriptive statement without any embedded numerical references. Therefore, based on the rule, this sentence is classified as False.",
+      "word_overlap": 0.6551724137931034,
+      "classification_correct": null
+    },
+    {
+      "input": "His favorite hobby is painting landscapes in watercolor.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it contains a notable or meaningful number, sequence, or code. The input sentence, \"His favorite hobby is painting landscapes in watercolor,\" does not include any numbers, sequences, or codes—it's purely descriptive without any embedded numerical references. Therefore, based on the rule, this sentence should be classified as False.",
+      "word_overlap": 0.6551724137931034,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6068965517241379,
+  "functional_accuracy": 0.9,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 18,
+    "n_skipped": 0,
+    "accuracy": 0.9
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

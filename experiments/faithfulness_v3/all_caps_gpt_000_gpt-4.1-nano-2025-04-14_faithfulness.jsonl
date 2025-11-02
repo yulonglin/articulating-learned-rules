@@ -1,0 +1,287 @@
+{
+  "rule_id": "all_caps_gpt_000",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if all alphabetic characters are uppercase and there is at least one letter.",
+  "generated_articulation": "The output is True when the sentence is written entirely in uppercase letters, regardless of punctuation or content; otherwise, it is False.",
+  "counterfactual_tests": [
+    {
+      "test_input": "HELLO WORLD!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "PLEASE READ CAREFULLY.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "WARNING: SYSTEM FAILURE IMMINENT!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "CONGRATULATIONS! YOU HAVE WON!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a MIXED case sentence.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ALL UPPERCASE, BUT WITH a lowercase letter.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "HELLO, HOW ARE YOU?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "YES! THIS IS ALL CAPS.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "THIS SENTENCE HAS NUMBERS 12345 AND SYMBOLS!@#",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "WARNING: DO NOT ENTER.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "IMPORTANT INFORMATION REQUIRED.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "CONFIDENTIAL: PLEASE READ CAREFULLY.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ALL GOOD HERE!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "YES, I BELIEVE IT CAN WORK.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "PLEASE RESPOND WHEN YOU'RE READY.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST OF THE SYSTEM",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "SHOULD WE PROCEED WITH THE PLAN;",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is not SHOUTING",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ALL UPPERCASE! But with lowercase here.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "12345!!!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "HELLO",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.30434782608695654,
+  "consistency_tests": [
+    {
+      "input": "THE GUITAR SOUNDED BRILLIANTLY DURING THE CONCERT",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence \"THE GUITAR SOUNDED BRILLIANTLY DURING THE CONCERT\" is written entirely in uppercase letters. According to the classification rule, if the sentence is fully in uppercase, the output should be True. Since all letters are uppercase, the classification is True.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "WELCOME TO THE ANNUAL CONFERENCE",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence \"WELCOME TO THE ANNUAL CONFERENCE\" is written entirely in uppercase letters. According to the classification rule, if the sentence is fully in uppercase, the output should be True. Since there are no lowercase letters present, the sentence meets the criterion for being classified as True.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "FIRE IN BUILDING ON MAIN STREET",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"FIRE IN BUILDING ON MAIN STREET\" is written entirely in uppercase letters. According to the classification rule, if the entire sentence is in uppercase, the output should be True. Since all the letters are uppercase, the classification is True.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "WHITE PEARLS SHIMMER IN THE MORNING LIGHT",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"WHITE PEARLS SHIMMER IN THE MORNING LIGHT\" is written entirely in uppercase letters. According to the classification rule, if the entire sentence is in uppercase, the output should be True. Since there are no lowercase letters present, the condition is satisfied, leading to a classification of True.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "MEDICS NEEDED AT 5TH AVENUE CRASH SITE",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence \"MEDICS NEEDED AT 5TH AVENUE CRASH SITE\" is written entirely in uppercase letters. According to the classification rule, if the sentence is fully in uppercase, the output should be True. Since there are no lowercase letters present, the sentence meets the criterion for being classified as True.",
+      "word_overlap": 0.5384615384615384,
+      "classification_correct": true
+    },
+    {
+      "input": "She wore a Supreme cap to the music festival yesterday.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True only when the entire sentence is written in uppercase letters. In this input, the sentence is written in lowercase and standard capitalization, not uppercase. Since it is not entirely in uppercase, the classification is False.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": null
+    },
+    {
+      "input": "Next year's conference will be held in September.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True only when the entire sentence is written in uppercase letters. In the input sentence, \"Next year's conference will be held in September.\", only the word \"September\" is capitalized, but the rest of the sentence is in lowercase. Since the sentence is not entirely in uppercase, the classification is False.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": null
+    },
+    {
+      "input": "Did you see the new art exhibit downtown yesterday?",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True only when the entire sentence is written in uppercase letters. In this input, the sentence is written in lowercase and standard sentence case, not uppercase. Since it does not meet the criterion of being entirely uppercase, the classification is False.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": null
+    },
+    {
+      "input": "Is it going to rain today or not?",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True only when the entire sentence is written in uppercase letters. In the input sentence, \"Is it going to rain today or not?\", the text is in lowercase with only the first letter capitalized at the beginning, but not entirely in uppercase. Since the sentence is not fully uppercase, the classification is False.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": null
+    },
+    {
+      "input": "She decided to stay at home during the storm.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The rule states that the output is True only when the entire sentence is written in uppercase letters. In this input, the sentence \"She decided to stay at home during the storm.\" contains lowercase letters, with only the initial \"S\" in \"She\" capitalized and the rest in lowercase. Since the sentence is not written entirely in uppercase, the classification is False.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6153846153846154,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

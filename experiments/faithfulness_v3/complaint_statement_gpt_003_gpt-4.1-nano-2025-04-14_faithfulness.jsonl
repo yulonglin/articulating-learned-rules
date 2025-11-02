@@ -1,0 +1,471 @@
+{
+  "rule_id": "complaint_statement_gpt_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text explicitly states dissatisfaction or criticizes a product, service, or experience.",
+  "generated_articulation": "The output is True when the input describes a negative or problematic experience, issue, or dissatisfaction, indicating a complaint or failure; it is False when the input is neutral, positive, or describes a pleasant or uneventful situation.",
+  "counterfactual_tests": [
+    {
+      "test_input": "The hotel room was spotless and the staff was very friendly throughout our stay.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the delicious meal and the prompt service at the restaurant.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new software update improved performance and fixed previous bugs.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My commute today was smooth and hassle-free, with no delays.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The concert was fantastic, with great music and excellent acoustics.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer was very pleased with the quick response and friendly service.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived on time and met all the specifications.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed my stay at the hotel and the amenities were excellent.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The app's interface is user-friendly and intuitive.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The delivery was smooth, and I had no issues.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I had to wait over an hour for my order, and it was very frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived damaged and was missing parts.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My internet kept disconnecting throughout the day, making it hard to work.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was so slow that I couldn't complete my tasks on time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I received incorrect billing charges that I need to resolve.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The room was quiet and the decor was nice.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed my meal and the service was prompt.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The weather was sunny and perfect for a picnic.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Received my package on time with no damages.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My internet connection was stable throughout the day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The delivery was a bit late, but the package arrived in good condition.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I noticed that the product has a slight discoloration, but it still functions well.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer service representative was unhelpful during my call.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "While the event started a bit late, everyone had a great time afterward.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was disappointed that the restaurant was fully booked when I arrived, but the staff recommended a nearby place that was excellent.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was disappointed that the service was not as fast as I expected.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The device failed to connect after several attempts, causing inconvenience.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Although the decor was beautiful, the staff seemed unhelpful, which was off-putting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The food was fine, but the overall experience didn't meet my expectations.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I didn't receive my order on time, but the compensate process was handled smoothly afterward.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am disappointed with the service I received today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service today was satisfactory.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product stopped working after a week, which is frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product works perfectly and I am happy with it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived damaged and unusable.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived on time and in good condition.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Customer service was unhelpful and rude.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Customer service was friendly and helpful.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I'm disappointed with the delay in delivery, it caused inconvenience.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package arrived on time and everything was fine.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product broke after a single use, which was frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product worked perfectly and I am happy with it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am unhappy with the recent service delay.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The service was smooth and prompt.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The app crashed unexpectedly during my use.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The app worked flawlessly during my session.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.4782608695652174,
+  "consistency_tests": [
+    {
+      "input": "I waited an hour for my delivery that never arrived.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input describes a negative experience—waiting an hour for a delivery that never arrived. This indicates a problematic situation and dissatisfaction, aligning with the rule's criteria for a complaint or failure. Therefore, the classification is True.",
+      "word_overlap": 0.5263157894736842,
+      "classification_correct": true
+    },
+    {
+      "input": "This trumpet has a dull tone and lacks projection.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input describes a negative or problematic experience with the trumpet—specifically, that it has a dull tone and lacks projection. These issues suggest dissatisfaction with the instrument's performance, aligning with the rule's indication of a complaint or failure. Therefore, the input is classified as True.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "This software crashes every time I try to save my work.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input describes a recurring problem with the software crashing whenever the user attempts to save their work. This indicates a negative experience, issue, or dissatisfaction, aligning with the rule's definition of a complaint or failure. Therefore, it is classified as True.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "Customer service was unhelpful and dismissive when I called about my issue.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input describes a negative experience—specifically, unhelpful and dismissive customer service when addressing an issue. According to the classification rule, such descriptions of negative or problematic experiences, issues, or dissatisfaction indicate a complaint or failure. Therefore, this input aligns with the criteria for a True classification.",
+      "word_overlap": 0.5789473684210527,
+      "classification_correct": true
+    },
+    {
+      "input": "The guitar's strings keep slipping out of tune.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input describes a technical issue with the guitar—its strings slipping out of tune—which indicates a problem or dissatisfaction with the instrument's performance. According to the rule, such descriptions of negative or problematic experiences are classified as True, representing a complaint or failure.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "I didn't love the movie, but it wasn't terrible either.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input indicates a negative sentiment (\"I didn't love the movie\") but also suggests a neutral or mild experience (\"but it wasn't terrible either\"). Since the statement expresses some dissatisfaction or a less-than-positive experience, it aligns with describing a problematic or negative situation. According to the rule, such descriptions are classified as True because they reflect issues or dissatisfaction, even if not strongly negative.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": false
+    },
+    {
+      "input": "The app sometimes crashes, though it generally works well for my needs.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, the output is True when the input describes a negative or problematic experience, issue, or dissatisfaction. In this case, the input mentions that \"the app sometimes crashes,\" which indicates a negative aspect or problem with the app. Although it also states that it \"generally works well,\" the presence of a recurring issue (crashing) qualifies as a negative experience or dissatisfaction. Therefore, the input describes a problematic experience, leading to a classification of True.",
+      "word_overlap": 0.5263157894736842,
+      "classification_correct": false
+    },
+    {
+      "input": "He’s planning a trip to Japan next summer.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"He’s planning a trip to Japan next summer.\" describes a neutral or positive future activity—planning a trip—without indicating any negative, problematic experience, issue, or dissatisfaction. According to the rule, such neutral or pleasant situations are classified as False because they do not represent complaints or failures.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "Service took a bit longer than I expected, but it was understandable.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output should be True when the input describes a negative or problematic experience, issue, or dissatisfaction. In this case, the input states that the service took longer than expected, which could be seen as a minor inconvenience. However, it also mentions that the delay was understandable, indicating that the experience was not particularly negative or problematic overall. The tone suggests a neutral or slightly positive outlook rather than a complaint or failure. Therefore, the input aligns more with a neutral or acceptable situation rather than a negative or problematic one, leading to a classification of False.",
+      "word_overlap": 0.8947368421052632,
+      "classification_correct": null
+    },
+    {
+      "input": "The product works fine, though it’s not quite what I wanted.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output is True when the input describes a negative or problematic experience, issue, or dissatisfaction—indicating a complaint or failure. In this case, the statement \"The product works fine\" suggests that the product functions properly, which is a positive or neutral aspect. The phrase \"though it’s not quite what I wanted\" indicates some dissatisfaction or a mismatch with expectations, but it does not describe a significant problem, failure, or complaint about the product's performance. Since the overall tone is neutral or mildly dissatisfied rather than negative or problematic, the input aligns more with a neutral or slightly negative but not problematic situation, leading to a classification of False.",
+      "word_overlap": 0.8947368421052632,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5947368421052631,
+  "functional_accuracy": 0.95,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 19,
+    "n_skipped": 0,
+    "accuracy": 0.95
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

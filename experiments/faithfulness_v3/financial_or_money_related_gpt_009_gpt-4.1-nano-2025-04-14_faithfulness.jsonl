@@ -1,0 +1,471 @@
+{
+  "rule_id": "financial_or_money_related_gpt_009",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text discusses topics related to finance, money, banking, or investments.",
+  "generated_articulation": "The True examples all relate to financial activities, concepts, or terminology such as investment, banking, market fluctuations, saving, or tax regulations. The False examples involve unrelated topics like nature, art, or general activities without a financial context. Therefore, the rule is:  \n**A sentence is labeled True if it discusses or references financial concepts, activities, or institutions; otherwise, it is False.**",
+  "counterfactual_tests": [
+    {
+      "test_input": "The government announced new tax regulations to encourage small business growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Investors are concerned about the recent fluctuations in the stock market.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She decided to open a savings account to build her emergency fund.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company reported increased profits after a successful quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He attended a seminar on personal finance and investment strategies.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The mountain peak was covered in snow during winter.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoys painting landscapes in her free time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new smartphone model has several innovative features.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He went for a jog in the park to stay healthy.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The recipe calls for two cups of flour and sugar.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The government has introduced new tax regulations to improve compliance among small businesses.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Investors are analyzing the latest market fluctuations to decide on their next move.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The bank announced a new savings account with higher interest rates this quarter.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A recent report shows how currency exchange rates impact international trade.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "An individual is planning to start investing in the stock market to grow their portfolio.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The artist painted a beautiful landscape using vibrant colors.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A family went hiking in the national park during the summer vacation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new smartphone model features advanced camera technology.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Scientists are researching climate change impacts on wildlife.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The chef prepared a delicious meal using fresh ingredients from the local market.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company announced a quarterly dividend increase to shareholders during the annual meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After years of research, the scientists developed a new method to analyze fossil records for better accuracy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Consumers are encouraged to compare interest rates before selecting a savings account or mortgage.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The artist displayed their latest paintings at the gallery opening downtown, drawing a large crowd.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Market analysts forecast economic growth based on recent changes in monetary policy and inflation trends.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The artist spent months working on his latest sculpture, exploring new techniques.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Temperatures are expected to drop significantly throughout the week, affecting local wildlife.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The team brainstormed new ways to improve customer service and enhance user experience.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She spends her weekends hiking and appreciating nature trails.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The novel's complex characters and compelling plot captivated readers around the world.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The government announced new regulations for banking compliance to ensure security.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The artist displayed a stunning sculpture at the gallery opening.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Investors are concerned about market fluctuations affecting their portfolios.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The local theater is hosting a new play this weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company's quarterly report showed a significant increase in stock holdings.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The company's quarterly report discussed the new office furniture and employee benefits.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Investors are advised to diversify their portfolios to minimize risk during market downturns.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Photographers often recommend using natural light to enhance image quality.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced its quarterly earnings, impacting stock prices.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The artist unveiled a new sculpture at the gallery opening.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Investors are considering diversifying their portfolios to include emerging markets.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Participants enjoyed a community picnic in the park on Sunday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The government increased its investment in renewable energy projects this year.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The city held a fun festival celebrating local culture last weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She opened a new savings account to boost her financial security.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The artist displayed her latest paintings at the gallery opening.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5217391304347826,
+  "consistency_tests": [
+    {
+      "input": "She saved enough money from her part-time job to buy a small car.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence discusses \"saving money,\" which is a financial activity related to managing personal finances. Saving money from a job to purchase a car involves financial concepts such as saving, income, and expenditure. Since these are all related to financial activities and terminology, the sentence aligns with the rule that True examples involve financial concepts or activities.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "Banking regulations act as resistance to rapid expansion in the sector.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence discusses \"Banking regulations,\" which are directly related to financial activities and institutions. Since the rule states that a sentence is labeled True if it references financial concepts, activities, or institutions, this sentence qualifies as True because it explicitly mentions banking regulations, a key aspect of the financial sector.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "The central bank's decision to hold rates steady surprised many market analysts.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence discusses the \"central bank's decision to hold rates steady,\" which directly relates to a financial activity and a financial institution (the central bank). The decision about interest rates is a key aspect of monetary policy and financial markets, fitting the rule that sentences referencing financial concepts, activities, or institutions are labeled True.",
+      "word_overlap": 0.2903225806451613,
+      "classification_correct": true
+    },
+    {
+      "input": "Cryptocurrency investments have unique risks compared to traditional assets.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"Cryptocurrency investments have unique risks compared to traditional assets.\" discusses a financial activity—investing in cryptocurrencies—and references financial concepts such as investments, risks, and assets. According to the classification rule, since the sentence relates to financial activities and terminology, it should be labeled True.",
+      "word_overlap": 0.3548387096774194,
+      "classification_correct": true
+    },
+    {
+      "input": "In times of crisis, access to quick cash can make all the difference.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"In times of crisis, access to quick cash can make all the difference.\" references a financial concept—\"quick cash\"—which pertains to readily available money, a common financial activity or resource. The context of \"times of crisis\" often relates to financial emergencies or economic downturns, further emphasizing a financial theme. According to the classification rule, since the sentence discusses a financial concept (access to cash) in a relevant context, it is labeled True.",
+      "word_overlap": 0.25806451612903225,
+      "classification_correct": true
+    },
+    {
+      "input": "The novel's protagonist embarks on a journey across distant lands.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The novel's protagonist embarks on a journey across distant lands\" describes a narrative about a character's travel in a literary context. It does not mention or reference any financial concepts, activities, or institutions such as investment, banking, markets, saving, or tax regulations. According to the classification rule, since the sentence does not relate to financial topics, it is labeled False.",
+      "word_overlap": 0.5161290322580645,
+      "classification_correct": true
+    },
+    {
+      "input": "He spent hours organizing his stamp collection before the exhibition.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence describes someone organizing a stamp collection, which pertains to hobbies or collecting activities. It does not reference any financial concepts, activities, or institutions such as investment, banking, markets, saving, or taxes. According to the classification rule, since the sentence does not involve financial topics, it should be labeled False.",
+      "word_overlap": 0.45161290322580644,
+      "classification_correct": true
+    },
+    {
+      "input": "They discussed the importance of mindfulness in daily routines.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it discusses or references financial concepts, activities, or institutions. The input sentence, \"They discussed the importance of mindfulness in daily routines,\" pertains to mental well-being and mindfulness, which are unrelated to financial topics. Since it does not mention any financial activities, concepts, or institutions, it does not meet the criteria for a True label. Therefore, it is classified as False.",
+      "word_overlap": 0.45161290322580644,
+      "classification_correct": null
+    },
+    {
+      "input": "Mountains cast long shadows across the valley as the sun set behind them.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence describes a natural scene involving mountains, shadows, a valley, and the setting sun. It pertains to nature and outdoor scenery without mentioning any financial activities, concepts, or institutions. According to the classification rule, since it does not reference or relate to financial topics, it is labeled False.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "The new cafe opened downtown offering organic teas and pastries.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a sentence is labeled True if it discusses or references financial concepts, activities, or institutions. The input sentence, \"The new cafe opened downtown offering organic teas and pastries,\" describes a new cafe and its offerings but does not mention any financial activities, concepts, or institutions such as investment, banking, market fluctuations, saving, or tax regulations. Since it pertains to a food establishment and not to finance-related topics, it falls outside the scope of the True category. Therefore, it is classified as False.",
+      "word_overlap": 0.6451612903225806,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.4129032258064516,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

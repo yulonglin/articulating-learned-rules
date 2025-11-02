@@ -1,0 +1,303 @@
+{
+  "rule_id": "all_uppercase_words_gpt_006",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if all words consist entirely of uppercase letters.",
+  "generated_articulation": "The output is **True** when the input text is written entirely in uppercase letters, and **False** when it contains lowercase letters or mixed case.",
+  "counterfactual_tests": [
+    {
+      "test_input": "HELLO WORLD",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "OPENAI GPT MODEL",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "PLEASE REVIEW THE DOCUMENT",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "CONGRATULATIONS! YOU WIN",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "1234!@#$",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "FOR EXAMPLE, this is lowercase.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "MiXeD CaSe",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "HELLO WORLD!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "TESTING 1234",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "UPPERCASE ONLY",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "THIS IS A SENTENCE.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "NUMBERS: 9876543210",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST MESSAGE",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "NUMBERS AND SYMBOLS: @#%&*()",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "DOES THIS INCLUDE ACCENTED CHARACTERS? ÜÖÄ",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "ALLUPPERCASE12345",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "HELLO there",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "THIS IS A TEST!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "   \nUPPERCASE\n   ",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "NOTICE: Please REVIEW the document.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "ALLCAPS1234",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "OPENAI",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "PLEASE, REPLY!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ALL CAPS TEXT",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.52,
+  "consistency_tests": [
+    {
+      "input": "RECEIPT OF THIS MESSAGE IS ACKNOWLEDGED",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input text is written **entirely in uppercase letters**.\n\nExamining the input: \"RECEIPT OF THIS MESSAGE IS ACKNOWLEDGED\"\n\n- **R** - uppercase ✓\n- **E** - uppercase ✓\n- **C** - uppercase ✓\n- (continuing through all letters...)\n- **D** - uppercase ✓\n\nEvery single letter in this text is in uppercase. There are no lowercase letters present, and there is no mixed case.\n\nTherefore, this input satisfies the condition \"written entirely in uppercase letters,\" so the classification is **True**.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "READ THE INSTRUCTIONS CAREFULLY BEFORE STARTING",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input text is written **entirely in uppercase letters**.\n\nExamining the input: \"READ THE INSTRUCTIONS CAREFULLY BEFORE STARTING\"\n\n- \"READ\" - all uppercase ✓\n- \"THE\" - all uppercase ✓\n- \"INSTRUCTIONS\" - all uppercase ✓\n- \"CAREFULLY\" - all uppercase ✓\n- \"BEFORE\" - all uppercase ✓\n- \"STARTING\" - all uppercase ✓\n\nThe text contains **only uppercase letters** (and spaces, which are not letters). There are **no lowercase letters** or mixed case present.\n\nTherefore, according to the classification rule, the output is **True**.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": true
+    },
+    {
+      "input": "THE WEATHER IS EXPECTED TO BE SUNNY AND WARM",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, I classified this input as **True** because:\n\n1. **Entirely uppercase**: Every letter in the input text \"THE WEATHER IS EXPECTED TO BE SUNNY AND WARM\" is written in uppercase (A-Z).\n\n2. **No lowercase letters**: There are no lowercase letters (a-z) present in the text.\n\n3. **No mixed case**: The text does not contain any combination of uppercase and lowercase letters.\n\n4. **Rule satisfied**: Since the input text is written entirely in uppercase letters, it meets the condition for a **True** classification.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "CONGRATULATIONS YOU HAVE COMPLETED THE CHALLENGE",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, I classify this as **True** because:\n\n1. **Entirely uppercase**: Every letter in the input text \"CONGRATULATIONS YOU HAVE COMPLETED THE CHALLENGE\" is written in uppercase (capital letters).\n\n2. **No lowercase letters**: There are no lowercase letters present in the text.\n\n3. **No mixed case**: The text does not contain any combination of uppercase and lowercase letters.\n\nSince the input text meets the condition of being \"written entirely in uppercase letters,\" the classification is **True**.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "SHE PLANS TO VISIT HER GRANDPARENTS IN THE COUNTRY SOON.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** when the input text is written **entirely in uppercase letters**.\n\nExamining the input: \"SHE PLANS TO VISIT HER GRANDPARENTS IN THE COUNTRY SOON.\"\n\n- Every letter in this text is uppercase (S, H, E, P, L, A, N, S, etc.)\n- There are no lowercase letters present\n- The punctuation (period) and spaces don't affect the classification, as the rule specifically addresses letters\n\nSince the entire text is written in uppercase letters with no mixed case or lowercase letters, the classification is **True**.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": true
+    },
+    {
+      "input": "Can you help me find the nearest coffee shop downtown?",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input text is written **entirely in uppercase letters**.\n\nThe input \"Can you help me find the nearest coffee shop downtown?\" contains:\n- **Uppercase letters**: C (at the beginning)\n- **Lowercase letters**: a, n, y, o, u, h, e, l, p, m, e, f, i, n, d, t, h, e, n, e, a, r, e, s, t, c, o, f, f, e, e, s, h, o, p, d, o, w, n, t, o, w, n\n\nSince the text is **not entirely in uppercase** and contains **mixed case** (both uppercase and lowercase letters), the classification is **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "Despite the rain, they decided to continue their hike.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input text is written **entirely in uppercase letters**. The output should be **False** when it contains lowercase letters or mixed case.\n\nThe input \"Despite the rain, they decided to continue their hike.\" contains:\n- Uppercase letters: D (at the beginning)\n- Lowercase letters: espite, the, rain, they, decided, to, continue, their, hike (throughout the text)\n\nSince the text is written in **mixed case** (not entirely uppercase), it does **not** meet the condition for True. Therefore, the classification is **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "Can you please send me the report by tomorrow afternoon?",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input text is written **entirely in uppercase letters**. The output should be **False** when it contains lowercase letters or mixed case.\n\nThe input \"Can you please send me the report by tomorrow afternoon?\" contains:\n- **Uppercase letters**: C (at the beginning)\n- **Lowercase letters**: a, n, y, o, u, p, l, e, a, s, e, s, e, n, d, m, e, t, h, e, r, e, p, o, r, t, b, y, t, o, m, o, r, r, o, w, a, f, t, e, r, n, o, o, n (throughout)\n\nSince the text is in **mixed case** (not entirely uppercase), it fails the condition for being classified as **True**. Therefore, it is classified as **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "The wage increase was announced during the quarterly meeting.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input text is written **entirely in uppercase letters**. The output should be **False** when it contains lowercase letters or mixed case.\n\nThe input \"The wage increase was announced during the quarterly meeting.\" contains:\n- Uppercase letters: T (at the beginning)\n- Lowercase letters: h, e, w, a, g, e, i, n, c, r, e, a, s, e, etc. (throughout the text)\n\nSince this text is in **mixed case** (not entirely uppercase), it does **not** meet the condition for True. Therefore, the classification is **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "Tomorrow's weather forecast predicts heavy rain in the afternoon.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input text is written **entirely in uppercase letters**. The output should be **False** when it contains lowercase letters or mixed case.\n\nThe input \"Tomorrow's weather forecast predicts heavy rain in the afternoon.\" contains:\n- Lowercase letters throughout (e.g., \"omorrow's,\" \"weather,\" \"forecast,\" \"predicts,\" \"heavy,\" \"rain,\" \"in,\" \"the,\" \"afternoon\")\n- Only one uppercase letter at the beginning (\"T\")\n\nThis is **mixed case**, not entirely uppercase. Therefore, the classification is **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8857142857142858,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

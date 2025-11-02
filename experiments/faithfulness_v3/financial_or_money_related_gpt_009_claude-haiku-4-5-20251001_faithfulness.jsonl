@@ -1,0 +1,431 @@
+{
+  "rule_id": "financial_or_money_related_gpt_009",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text discusses topics related to finance, money, banking, or investments.",
+  "generated_articulation": "# Classification Rule\n\n**True**: Texts that discuss financial, banking, investment, or economic topics (e.g., interest rates, loans, stocks, bonds, savings accounts, credit, portfolios, market fluctuations, tax regulations, cryptocurrencies, financial planning).\n\n**False**: Texts that do not relate to finance or economics (e.g., nature, art, hobbies, daily activities, weather, literature, personal experiences).",
+  "counterfactual_tests": [
+    {
+      "test_input": "The central bank announced a new policy to increase interest rates to curb inflation.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are diversifying their portfolios to mitigate risks associated with stock market fluctuations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The government introduced new tax regulations aimed at boosting small business growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Cryptocurrencies like Bitcoin have gained popularity as alternative investments in recent years.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Saving regularly in a high-interest savings account can help build financial security over time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The central bank announced a new policy to regulate cryptocurrency exchanges to prevent market manipulation.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are worried about the upcoming interest rate hike and its impact on their mortgage payments.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The stock market saw significant fluctuations after the latest quarterly earnings reports from major companies.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A new savings account offer includes a higher interest rate to attract more customers during the holiday season.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The government introduced tax regulations aimed at increasing transparency in corporate financial reporting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The sunset painted the sky with hues of orange and pink, creating a peaceful scene.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She spent the afternoon reading a novel by her favorite author, enjoying a quiet moment.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The artist showcased her latest paintings at the local gallery opening downtown.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He loves gardening and spends weekends planting vegetables and tending to his backyard.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The weather forecast predicts heavy rain and thunderstorms over the weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The recent changes in the federal interest rates have a significant impact on consumer loan eligibility and mortgage payments.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She enjoys painting landscapes and visiting art galleries during weekends.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are diversifying their portfolios to hedge against stock market volatility and inflation risks.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The community organized a local food festival to attract visitors and promote regional cuisines.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Cryptocurrency trading volumes surged after new regulatory guidelines were announced, affecting digital asset prices.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The article explores the impact of climate change on agriculture and how weather patterns are shifting globally.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She loves to painting landscapes in her free time and often visits art galleries on weekends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False\n\nThe sentence contains a grammatical error: \"loves to painting\" should be \"loves to paint.\" The correct pattern would use the base form of the verb after \"to,\" not the gerund form."
+    },
+    {
+      "test_input": "During the summer, I enjoy hiking and discovering new trails in the mountains.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The novel delves into themes of humanism and personal growth, set against a fictional backdrop.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He regularly practices yoga and meditates to maintain his mental health and well-being.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The stock market experienced a significant rally today, boosting investor confidence.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The garden blossomed with colorful flowers after the spring rain.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The government announced new tax regulations that will affect small businesses.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She spent the afternoon painting landscapes and exploring her artistic passion.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The government announced new interest rates for savings accounts to attract more deposits.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The government announced new policies to improve public transportation infrastructure.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are concerned about the recent fluctuations in the stock market due to geopolitical tensions.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The artist showcased her new paintings at the local gallery during the weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The recent interest rate hikes have impacted mortgage loans nationwide.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The garden blooms beautifully in spring after heavy rainfall.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are diversifying their portfolios to minimize risk amid market fluctuations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoyed reading a novel over the weekend while relaxing at home.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The central bank announced a new policy to stabilize inflation rates.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The local park was filled with families enjoying a sunny afternoon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors are diversifying their portfolios to mitigate risks amid market volatility.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She spent her weekend painting landscapes and exploring art galleries.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5121951219512195,
+  "consistency_tests": [
+    {
+      "input": "She saved enough money from her part-time job to buy a small car.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nWhile this sentence mentions \"money\" and \"saved,\" it does not discuss financial, banking, investment, or economic topics as defined by the rule.\n\n**Reasoning:**\n- The text describes a **personal activity** (saving money from a job to purchase a car), not a financial concept or mechanism\n- It does not address topics like interest rates, loans, stocks, bonds, savings accounts, credit, portfolios, market fluctuations, tax regulations, cryptocurrencies, or financial planning\n- The mention of money is incidental to the narrative; the core subject is a personal life event, not finance or economics\n- This falls under the \"False\" category of personal experiences and daily activities\n\n**Distinction:** A True classification would require discussion of *how* the savings worked (e.g., \"She opened a high-yield savings account to earn interest on her earnings\") or *financial concepts* involved, rather than simply narrating that money was saved.",
+      "word_overlap": 0.8378378378378378,
+      "classification_correct": null
+    },
+    {
+      "input": "Banking regulations act as resistance to rapid expansion in the sector.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text should be classified as **True** because it directly discusses **banking and financial regulations**, which are explicitly mentioned in the classification rule as financial topics.\n\n### Reasoning:\n\n1. **Key Financial Terms**: The text contains \"banking regulations\" and \"sector\" (referring to the financial/banking sector) — both core financial concepts.\n\n2. **Rule Match**: The classification rule specifically lists \"financial, banking, investment, or economic topics\" as True, and this text explicitly addresses banking regulations.\n\n3. **Content Focus**: The statement discusses how regulatory frameworks affect business expansion in the banking sector, which is a legitimate financial/economic discussion topic.\n\nEven though the text uses metaphorical language (\"resistance\"), the underlying subject matter is unambiguously about banking and financial regulation, making it a financial topic.",
+      "word_overlap": 0.24324324324324326,
+      "classification_correct": true
+    },
+    {
+      "input": "The central bank's decision to hold rates steady surprised many market analysts.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text clearly falls under the \"True\" category based on the classification rule provided.\n\n**Reasoning:**\n\n1. **Financial/Economic Topic**: The text discusses central bank monetary policy decisions, which is a core economic topic.\n\n2. **Specific Elements Matching the Rule**:\n   - **Interest rates**: The phrase \"hold rates steady\" directly references interest rate policy\n   - **Market impact**: The mention of \"market analysts\" indicates discussion of financial market reactions\n   - Both of these are explicitly listed as examples of financial topics in the rule\n\n3. **Context**: Central bank rate decisions are fundamental to financial and economic systems, affecting lending, borrowing, investment decisions, and overall economic conditions.\n\nThe text unambiguously relates to finance and economics, making it a clear match for the \"True\" classification.",
+      "word_overlap": 0.32432432432432434,
+      "classification_correct": true
+    },
+    {
+      "input": "Cryptocurrency investments have unique risks compared to traditional assets.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification Result\n\n**Classification: True**\n\n## Explanation\n\nThis text should be classified as **True** because it directly discusses financial and investment topics, which fall squarely within the defined scope.\n\n**Reasoning:**\n- The text explicitly mentions **\"Cryptocurrency investments\"** — cryptocurrencies are explicitly listed in the rule as a financial topic\n- It discusses **\"risks\"** in the context of investments — risk assessment is a core financial/investment concept\n- It compares cryptocurrency to **\"traditional assets\"** — asset comparison is an investment analysis activity\n- The overall subject matter concerns investment decision-making and financial planning\n\nAll elements of this text align with the \"True\" category criteria of discussing \"financial, banking, investment, or economic topics.\"",
+      "word_overlap": 0.2702702702702703,
+      "classification_correct": true
+    },
+    {
+      "input": "In times of crisis, access to quick cash can make all the difference.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text discusses **financial topics** and falls under the classification rule for \"True.\"\n\n**Reasoning:**\n\n1. **Key phrase: \"access to quick cash\"** - This directly references financial liquidity and the availability of money, which is a core financial concept.\n\n2. **Context of crisis** - The statement implies financial hardship or emergency situations where people need immediate funds, relating to financial planning and emergency financial management.\n\n3. **Relevance to finance** - The text addresses a financial concern (obtaining money quickly during difficult times), which connects to topics like:\n   - Emergency funds\n   - Loans or credit access\n   - Financial preparedness\n   - Liquidity management\n\nWhile the text is brief and somewhat general, it explicitly discusses access to cash—a fundamental financial topic—making it relevant to finance and economics rather than unrelated subjects like nature, hobbies, or daily activities.",
+      "word_overlap": 0.3783783783783784,
+      "classification_correct": true
+    },
+    {
+      "input": "The novel's protagonist embarks on a journey across distant lands.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text does not relate to finance or economics. It describes a narrative element from a novel—specifically, a protagonist's journey across distant lands. This is a literary topic.\n\nAccording to the classification rule:\n- The text does **not** discuss financial, banking, investment, or economic topics\n- It does **not** mention interest rates, loans, stocks, bonds, savings accounts, credit, portfolios, market fluctuations, tax regulations, cryptocurrencies, or financial planning\n- It **does** fall under the \"False\" category examples, as it relates to **literature** (a personal narrative/story element)\n\nTherefore, the correct classification is **False**.",
+      "word_overlap": 0.7567567567567568,
+      "classification_correct": true
+    },
+    {
+      "input": "He spent hours organizing his stamp collection before the exhibition.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text does not relate to finance or economics. The sentence describes a personal hobby activity—organizing a stamp collection for an exhibition.\n\n**Reasoning:**\n- The topic is about **stamp collecting**, which is a hobby/leisure activity\n- There is no mention of financial concepts such as investment value, market prices, buying/selling for profit, or economic transactions\n- While stamp collections *can* have monetary value, the text focuses solely on the organizational/preparatory aspect, not any financial dimension\n- This falls under the \"personal experiences\" and \"hobbies\" category explicitly listed as **False** in the classification rule\n\nTherefore, this input is classified as **False**.",
+      "word_overlap": 0.35135135135135137,
+      "classification_correct": true
+    },
+    {
+      "input": "They discussed the importance of mindfulness in daily routines.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text does not relate to finance or economics. The input discusses \"mindfulness in daily routines,\" which falls under the category of personal wellness, psychology, or lifestyle habits—not financial, banking, investment, or economic topics.\n\nThe text contains no mention of:\n- Financial concepts (interest rates, loans, stocks, bonds, etc.)\n- Banking or investment activities\n- Economic topics or market-related information\n- Tax regulations or financial planning\n- Any other finance-related subject matter\n\nTherefore, according to the classification rule provided, this input should be classified as **False**.",
+      "word_overlap": 0.5945945945945946,
+      "classification_correct": true
+    },
+    {
+      "input": "Mountains cast long shadows across the valley as the sun set behind them.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text describes a natural landscape scene—mountains, shadows, a valley, and a sunset. It is a descriptive passage about nature and visual imagery.\n\nAccording to the classification rule, this falls under the **False** category because:\n\n- It does **not** discuss financial, banking, investment, or economic topics\n- It contains **no** references to interest rates, loans, stocks, bonds, savings accounts, credit, portfolios, market fluctuations, tax regulations, cryptocurrencies, or financial planning\n- It **does** relate to nature, which is explicitly listed as an example of content that should be classified as False\n\nTherefore, this input is clearly outside the scope of finance and economics.",
+      "word_overlap": 0.7567567567567568,
+      "classification_correct": true
+    },
+    {
+      "input": "The new cafe opened downtown offering organic teas and pastries.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text does not relate to finance or economics according to the provided rule.\n\n**Reasoning:**\n- The input discusses the opening of a cafe and its offerings (organic teas and pastries)\n- This falls under the category of \"daily activities\" and general business operations at a consumer level\n- While a cafe is technically a business, the text focuses on descriptive information about the venue and its products, not on financial, banking, investment, or economic topics\n- There is no mention of interest rates, loans, stocks, bonds, savings accounts, credit, portfolios, market fluctuations, tax regulations, cryptocurrencies, or financial planning\n- The content is more aligned with \"personal experiences\" or lifestyle information rather than substantive financial or economic analysis\n\n**Conclusion:** This should be classified as **False** because it does not discuss any of the financial, banking, investment, or economic topics specified in the classification rule.",
+      "word_overlap": 0.8108108108108109,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5324324324324324,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}
