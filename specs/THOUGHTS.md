@@ -79,6 +79,9 @@ Does few-shot count affect accuracy and articulation differently?
 - Counterfactual test cases
 - Classification predictions
 
+### Rule Inventory
+- `specs/RULES_REFERENCE.md` maintains the active core rule set and candidate backlog.
+
 ### Critical Constraints
 - **Step 1:** NO CoT, no reasoning models
 - **Step 2:** CoT allowed (but test both)
@@ -86,4 +89,7 @@ Does few-shot count affect accuracy and articulation differently?
 - **Input space:** Keep consistent (sentences)
 - **Scope:** In-context learning (ICL) first, finetuning if time permits
 - **Priority:** Steps 1-2 complete before deep Step 3 investigation
+- Each example, should only be passed to the model if it's unambiguously true or false. If it's unclear whether the ground truth rule applies, it shouldn't be included in the dataset at all. If it's unclear whether the articulated rule applies to an example, it shouldn't be included as a counterfactual
 
+## Extras
+- Conditionals AND or OR. If a model can articulate or is faithful for rules A and B, or A or B, would that generalise to the composite rule?
