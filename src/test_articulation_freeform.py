@@ -70,7 +70,6 @@ class FreeFormArticulationConfig:
     """Configuration for free-form articulation test."""
     rules_file: Path
     datasets_dir: Path
-    few_shot_count: int
     prompt_variations: list[str]
     models: list[str]
     evaluation_methods: list[str]  # "keyword", "rouge", "llm_judge", "functional"
@@ -475,6 +474,7 @@ async def evaluate_rule_freeform(
     rule: Rule,
     model: str,
     variation: str,
+    few_shot_count: int,
     config: FreeFormArticulationConfig,
     logger: logging.Logger,
 ) -> FreeFormArticulationResult:
@@ -485,6 +485,7 @@ async def evaluate_rule_freeform(
         rule: Rule to evaluate
         model: Model name
         variation: Prompt variation to use
+        few_shot_count: Number of few-shot examples to use
         config: Configuration
         logger: Logger instance
 
@@ -492,7 +493,7 @@ async def evaluate_rule_freeform(
         FreeFormArticulationResult object
     """
     logger.info(
-        f"Evaluating {rule.rule_id} with {model} using {variation} prompt"
+        f"Evaluating {rule.rule_id} with {model} using {variation} prompt ({few_shot_count}-shot)"
     )
 
     # Check learnability - skip if model not learnable for this rule
@@ -502,20 +503,6 @@ async def evaluate_rule_freeform(
                 f"Skipping {rule.rule_id} | {model}: Not in learnability data"
             )
             return None
-
-        # Use the minimum few-shot count required for this model
-        min_few_shot = rule.learnability[model]["min_few_shot_required"]
-        few_shot_count = max(min_few_shot, config.few_shot_count)
-
-        if few_shot_count != config.few_shot_count:
-            logger.info(
-                f"Using {few_shot_count} few-shot examples "
-                f"(min required: {min_few_shot}, config: {config.few_shot_count})"
-            )
-    else:
-        # No learnability data, use config default
-        few_shot_count = config.few_shot_count
-        logger.debug(f"No learnability data, using config few_shot_count: {few_shot_count}")
 
     # Load dataset
     dataset_path = config.datasets_dir / f"{rule.rule_id}.jsonl"
@@ -622,6 +609,8 @@ async def run_freeform_articulation_tests(config: FreeFormArticulationConfig) ->
     """
     Run free-form articulation tests for all rules, models, and prompt variations.
 
+    Tests at multiple few-shot counts: [5, 10, 20, 50, 100]
+
     Args:
         config: Configuration for free-form articulation tests
     """
@@ -652,7 +641,6 @@ async def run_freeform_articulation_tests(config: FreeFormArticulationConfig) ->
     logger.info("=" * 80)
     logger.info(f"Rules file: {config.rules_file}")
     logger.info(f"Datasets directory: {config.datasets_dir}")
-    logger.info(f"Few-shot count: {config.few_shot_count}")
     logger.info(f"Prompt variations: {config.prompt_variations}")
     logger.info(f"Evaluation methods: {config.evaluation_methods}")
     logger.info(f"Models: {config.models}")
@@ -669,56 +657,87 @@ async def run_freeform_articulation_tests(config: FreeFormArticulationConfig) ->
     # Set random seed
     set_random_seed(config.random_seed)
 
-    # Run evaluations
-    summary: dict[str, dict[str, dict[str, Any]]] = {}
+    # Test articulation at multiple few-shot counts (like learnability and MC articulation)
+    few_shot_counts = [5, 10, 20, 50, 100]
+    logger.info(
+        f"Testing articulation at multiple few-shot counts: {few_shot_counts}"
+    )
 
+    # Create all evaluation tasks
+    async def evaluate_and_save(
+        rule: Rule, model: str, variation: str, shot_count: int
+    ) -> tuple[str, str, str, int, Optional[dict[str, Any]]]:
+        """Evaluate and save a single rule-model-variation-shot combination."""
+        result = await evaluate_rule_freeform(
+            rule=rule,
+            model=model,
+            variation=variation,
+            few_shot_count=shot_count,
+            config=config,
+            logger=logger,
+        )
+
+        if result is None:
+            logger.warning(
+                f"No result for {rule.rule_id} | {model} | {variation} | {shot_count}-shot"
+            )
+            return rule.rule_id, model, variation, shot_count, None
+
+        # Save result (one file per rule-model-variation-shot combination)
+        output_file = (
+            config.output_dir /
+            f"{rule.rule_id}_{model}_{variation}_{shot_count}shot_freeform.jsonl"
+        )
+        with output_file.open("w") as f:
+            f.write(result.model_dump_json() + "\n")
+
+        logger.info(f"Saved result to {output_file.name}")
+
+        # Compute metrics
+        metrics = {}
+        if result.keyword_match_score is not None:
+            metrics["keyword_match"] = round(result.keyword_match_score, 4)
+        if result.llm_judge_score is not None:
+            metrics["llm_judge"] = round(result.llm_judge_score, 4)
+        if result.functional_test_accuracy is not None:
+            metrics["functional_accuracy"] = round(
+                result.functional_test_accuracy, 4
+            )
+            metrics["functional_details"] = result.functional_test_details
+
+        return rule.rule_id, model, variation, shot_count, metrics
+
+    # Create all tasks
+    tasks = []
     for rule in rules:
-        summary[rule.rule_id] = {}
-
         for model in config.models:
-            summary[rule.rule_id][model] = {}
-
             for variation in config.prompt_variations:
-                # Run evaluation
-                result = await evaluate_rule_freeform(
-                    rule=rule,
-                    model=model,
-                    variation=variation,
-                    config=config,
-                    logger=logger,
-                )
-
-                if result is None:
-                    logger.warning(
-                        f"No result for {rule.rule_id} | {model} | {variation}"
-                    )
-                    continue
-
-                # Save result
-                output_file = (
-                    config.output_dir /
-                    f"{rule.rule_id}_{model}_{variation}_freeform.jsonl"
-                )
-                with output_file.open("w") as f:
-                    f.write(result.model_dump_json() + "\n")
-
-                logger.info(f"Saved result to {output_file.name}")
-
-                # Compute summary statistics
-                metrics = {
-                    "generated_articulation": result.generated_articulation,
-                }
-
-                if result.keyword_match_score is not None:
-                    metrics["keyword_match"] = round(result.keyword_match_score, 4)
-                if result.llm_judge_score is not None:
-                    metrics["llm_judge"] = round(result.llm_judge_score, 4)
-                if result.functional_test_accuracy is not None:
-                    metrics["functional_accuracy"] = round(
-                        result.functional_test_accuracy, 4
+                for shot_count in few_shot_counts:
+                    tasks.append(
+                        evaluate_and_save(rule, model, variation, shot_count)
                     )
 
-                summary[rule.rule_id][model][variation] = metrics
+    logger.info(f"Running {len(tasks)} evaluations in parallel...")
+
+    # Run all in parallel
+    results = await asyncio.gather(*tasks)
+
+    # Organize results into summary
+    # Structure: rule_id -> model -> variation -> shot_count -> metrics
+    summary: dict[str, dict[str, dict[str, dict[int, Any]]]] = {}
+
+    for rule_id, model, variation, shot_count, metrics in results:
+        if metrics is None:
+            continue
+
+        if rule_id not in summary:
+            summary[rule_id] = {}
+        if model not in summary[rule_id]:
+            summary[rule_id][model] = {}
+        if variation not in summary[rule_id][model]:
+            summary[rule_id][model][variation] = {}
+
+        summary[rule_id][model][variation][shot_count] = metrics
 
     # Save summary
     summary_file = config.output_dir / "summary_freeform.yaml"
@@ -732,18 +751,22 @@ async def run_freeform_articulation_tests(config: FreeFormArticulationConfig) ->
 
     # Print summary table
     print("\n" + "=" * 80)
-    print("FREE-FORM ARTICULATION TEST SUMMARY")
+    print("FREE-FORM ARTICULATION TEST SUMMARY (MULTI-SHOT)")
     print("=" * 80 + "\n")
 
     for rule_id, model_results in summary.items():
         print(f"\n{rule_id}:")
         for model, variation_results in model_results.items():
             print(f"  {model}:")
-            for variation, metrics in variation_results.items():
+            for variation, shot_results in variation_results.items():
                 print(f"    {variation}:")
-                for metric_name, metric_value in metrics.items():
-                    if metric_name != "generated_articulation":
-                        print(f"      {metric_name}: {metric_value}")
+                for shot_count in sorted(shot_results.keys()):
+                    metrics = shot_results[shot_count]
+                    print(f"      {shot_count}-shot:", end="")
+                    for metric_name, metric_value in metrics.items():
+                        if metric_name != "functional_details":
+                            print(f" {metric_name}={metric_value}", end="")
+                    print()
 
     print("\n" + "=" * 80)
 
@@ -782,18 +805,12 @@ def create_argument_parser() -> argparse.ArgumentParser:
 
     # Experiment parameters
     parser.add_argument(
-        "--few-shot-count",
-        type=int,
-        default=10,
-        help="Number of few-shot examples to show",
-    )
-    parser.add_argument(
         "--prompt-variations",
         type=str,
         nargs="+",
         default=["simple", "cot", "explicit"],
         choices=["simple", "cot", "explicit"],
-        help="Prompt variations to test",
+        help="Prompt variations to test (NOTE: tests at multiple shot counts [5,10,20,50,100])",
     )
     parser.add_argument(
         "--evaluation-methods",
@@ -885,7 +902,6 @@ def main() -> None:
     config = FreeFormArticulationConfig(
         rules_file=args.rules_file,
         datasets_dir=args.datasets_dir,
-        few_shot_count=args.few_shot_count,
         prompt_variations=args.prompt_variations,
         models=args.models,
         evaluation_methods=args.evaluation_methods,

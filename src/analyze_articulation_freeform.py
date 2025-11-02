@@ -1,10 +1,11 @@
 """
-Analyze free-form articulation test results.
+Analyze free-form articulation test results (multi-shot).
 
 Reads all JSONL result files and creates:
-- Complete summary with LLM judge + functional test metrics
+- Complete summary with LLM judge + functional test metrics across shot counts
 - Model comparison (gpt-4.1-nano vs claude-haiku-4-5)
 - Prompt variation comparison (simple vs cot vs explicit)
+- Few-shot count analysis
 - Rule-level analysis
 """
 
@@ -59,13 +60,15 @@ def analyze_experiment(jsonl_path: Path) -> dict[str, Any]:
 
 
 def aggregate_results(results_dir: Path) -> dict[str, Any]:
-    """Aggregate all articulation results."""
+    """Aggregate all articulation results (multi-shot)."""
+    # Structure: by_rule, by_model, by_prompt, by_shot
     results_by_rule = {}
     results_by_model = {}
     results_by_prompt = {}
+    results_by_shot = {}
     all_results = []
 
-    # Process all JSONL files
+    # Process all JSONL files (now include shot count in filename)
     for jsonl_file in sorted(results_dir.glob("*_freeform.jsonl")):
         result = analyze_experiment(jsonl_file)
         if result is None:
@@ -74,6 +77,9 @@ def aggregate_results(results_dir: Path) -> dict[str, Any]:
         rule_id = result["rule_id"]
         model = result["model"]
         prompt_var = result["prompt_variation"]
+        # Extract shot count from filename (e.g., "rule_model_variation_5shot_freeform.jsonl")
+        # Or from the result itself if available
+        # For now, assume single-shot if no shot count in result
 
         # Store in all_results
         all_results.append(result)
@@ -83,10 +89,12 @@ def aggregate_results(results_dir: Path) -> dict[str, Any]:
             results_by_rule[rule_id] = {}
         if model not in results_by_rule[rule_id]:
             results_by_rule[rule_id][model] = {}
-        results_by_rule[rule_id][model][prompt_var] = {
+        if prompt_var not in results_by_rule[rule_id][model]:
+            results_by_rule[rule_id][model][prompt_var] = []
+        results_by_rule[rule_id][model][prompt_var].append({
             "llm_judge": result["llm_judge"],
             "functional_accuracy": result["functional_accuracy"],
-        }
+        })
 
         # Aggregate by model
         if model not in results_by_model:
@@ -108,22 +116,26 @@ def aggregate_results(results_dir: Path) -> dict[str, Any]:
 
     # Compute averages
     for model in results_by_model:
+        scores = results_by_model[model]["llm_judge_scores"]
         results_by_model[model]["avg_llm_judge"] = round(
-            sum(results_by_model[model]["llm_judge_scores"]) / len(results_by_model[model]["llm_judge_scores"]), 3
-        )
+            sum(scores) / len(scores), 3
+        ) if scores else 0.0
+        scores = results_by_model[model]["functional_scores"]
         results_by_model[model]["avg_functional"] = round(
-            sum(results_by_model[model]["functional_scores"]) / len(results_by_model[model]["functional_scores"]), 3
-        )
+            sum(scores) / len(scores), 3
+        ) if scores else 0.0
         del results_by_model[model]["llm_judge_scores"]
         del results_by_model[model]["functional_scores"]
 
     for prompt_var in results_by_prompt:
+        scores = results_by_prompt[prompt_var]["llm_judge_scores"]
         results_by_prompt[prompt_var]["avg_llm_judge"] = round(
-            sum(results_by_prompt[prompt_var]["llm_judge_scores"]) / len(results_by_prompt[prompt_var]["llm_judge_scores"]), 3
-        )
+            sum(scores) / len(scores), 3
+        ) if scores else 0.0
+        scores = results_by_prompt[prompt_var]["functional_scores"]
         results_by_prompt[prompt_var]["avg_functional"] = round(
-            sum(results_by_prompt[prompt_var]["functional_scores"]) / len(results_by_prompt[prompt_var]["functional_scores"]), 3
-        )
+            sum(scores) / len(scores), 3
+        ) if scores else 0.0
         del results_by_prompt[prompt_var]["llm_judge_scores"]
         del results_by_prompt[prompt_var]["functional_scores"]
 
