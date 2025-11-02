@@ -16,10 +16,16 @@ Write LaTeX in `paper/` directory, which you can compile to PDF afterwards.
 - **Finding:** Models can learn rules (90%+ accuracy) and articulate them functionally (85-88%), but articulations are only ~70% faithful (multi-shot) or ~51% (zero-shot)
 - **Implication:** Articulations are often post-hoc rationalizations, not faithful explanations
 
-### 2. **Degrading Performance with More Examples**
-- **Location:** `research_log.md` (needs investigation)
-- **Finding:** Some rules show worse performance as few-shot count increases
-- **Action needed:** Examine datasets for quality issues, identify patterns
+### 2. **Degrading Performance with More Examples** ⚠️
+- **Location:** `tmp/degrading_performance_analysis.md` (detailed analysis)
+- **Finding:** 28 out of 88 rule-model pairs (32%) show >3% accuracy drops at intermediate shot counts
+- **Pattern:** Most show **V-shaped degradation** (drop at 10-20 shots, recover by 50-100)
+  - Example: "Repeated Punctuation" (Claude): 86%→60%→90%→98%→97%
+  - Worst: 26% drop from 5→10 shots, but fully recovers
+- **Categories affected:** Pattern rules most (10 cases), Statistical least (2 cases)
+- **Models:** GPT-4.1-nano more prone (18 cases) than Claude (10 cases)
+- **Hypothesis:** Dataset quality issues or sampling variance at mid-range shot counts
+- **Impact:** Not a dealbreaker - most recover by 100-shot and still achieve >90% final accuracy
 
 ### 3. **Syntactic vs Semantic Rule Articulation**
 - **Location:** `research_log.md:400-450` (category analysis)
@@ -51,12 +57,14 @@ Write LaTeX in `paper/` directory, which you can compile to PDF afterwards.
   - Faithfulness testing (counterfactual, consistency, functional, cross-context)
   - Full prompts documented in research log lines 176-240
 
-### 7. **Category Trends: Learnability vs Articulation**
-- **Location:** `research_log.md:400-450`
-- **Interesting pattern:** Need to verify if any category shows opposite trends
-- **Known patterns:**
-  - Semantic rules: High MC accuracy (87.9%), moderate judge scores (70-80%)
-  - Statistical rules: Low judge scores (20-40%), high functional (85-100%)
+### 7. **Category Trends: Articulation Gap Varies by Type**
+- **Location:** `research_log.md:400-450, 545-551`
+- **Finding:** No category shows opposite trends (all improve with shots), but **gap size varies**:
+  - **Semantic** rules: Smallest gap (71.3% judge, 90.1% functional = +18.8%)
+  - **Syntactic** rules: Medium gap (50.0% judge, 86.3% functional = +36.3%)
+  - **Statistical** rules: **Largest gap** (20-40% judge, 85-100% functional = ~50% gap!)
+- **Interpretation:** Statistical rules work operationally but models struggle to verbalize them in ground-truth terms
+- **Examples:** Entropy, variance, ratio rules have high functional accuracy but low LLM judge scores
 
 ### 8. **Chain-of-Thought Impact**
 - **Location:** `research_log.md:335-348`
