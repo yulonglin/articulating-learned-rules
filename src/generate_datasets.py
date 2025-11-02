@@ -79,7 +79,7 @@ class DatasetMetadata(BaseModel):
     num_samples: int
     num_positive: int
     num_negative: int
-    generation_method: Literal["programmatic", "llm", "hybrid"]
+    generation_method: Literal["programmatic", "llm", "hybrid", "llm_v2", "llm_v3"]
     random_seed: int
     timestamp: str
     models_used: list[str] = Field(default_factory=list)
@@ -1886,12 +1886,34 @@ class ProgrammaticGenerator(InputGenerator):
 class LLMGenerator(InputGenerator):
     """Generate inputs using LLM for complex/semantic rules."""
 
+    # Load theme words from file (random words for diverse contexts)
+    _THEME_WORDS = None
+
+    @classmethod
+    def _load_theme_words(cls):
+        """Load theme words from data/random_words.txt."""
+        if cls._THEME_WORDS is None:
+            words_file = Path("data/random_words.txt")
+            if words_file.exists():
+                with open(words_file, "r") as f:
+                    cls._THEME_WORDS = [line.strip() for line in f if line.strip()]
+            else:
+                # Fallback to hardcoded words if file not found
+                cls._THEME_WORDS = [
+                    "technology", "nature", "food", "travel", "sports", "music", "work", "family",
+                    "education", "health", "weather", "animals", "cities", "hobbies", "shopping",
+                    "entertainment", "science", "art", "history", "future", "ocean", "mountains",
+                    "space", "celebration", "mystery", "adventure", "childhood", "friendship"
+                ]
+        return cls._THEME_WORDS
+
     def __init__(
         self,
         rule: Rule,
         model: str = DEFAULT_TEST_MODEL,
         random_seed: int = 42,
-        cache_mode: CacheMode = CacheMode.PERSISTENT
+        cache_mode: CacheMode = CacheMode.PERSISTENT,
+        max_concurrent: int = 10
     ):
         super().__init__(rule, random_seed)
         self.model = model
@@ -1899,7 +1921,10 @@ class LLMGenerator(InputGenerator):
             model=model,
             temperature=0.7,  # Higher temp for diversity
             cache_mode=cache_mode,
+            max_concurrent=max_concurrent,
         )
+        self.rng = random.Random(random_seed)
+        self.THEME_WORDS = self._load_theme_words()
 
     async def generate(self, num_samples: int, target_label: bool) -> list[str]:
         """Generate inputs using LLM."""
@@ -1940,6 +1965,107 @@ Example format: ["example 1", "example 2", ...]"""
             # Fallback: split by newlines
             lines = [line.strip(' "[],-') for line in content.split("\n") if line.strip()]
             return [line for line in lines if line and not line.startswith("//")][:num_samples]
+
+    async def generate_batch_v3(
+        self,
+        batch_size: int,
+        target_label: bool,
+        batch_type: str,
+        theme: str = None,
+        temperature: float = 0.7
+    ) -> list[str]:
+        """Generate batch with specific strategy (v3).
+
+        Args:
+            batch_size: Number of examples to generate
+            target_label: True for positive examples, False for negative
+            batch_type: 'edge_case', 'diversity', or 'themed'
+            theme: Optional theme/context word
+            temperature: Sampling temperature
+        """
+        label_str = "matches" if target_label else "does not match"
+
+        # Build prompt based on batch type
+        if batch_type == "edge_case":
+            prompt = f"""Generate {batch_size} text examples that {label_str} this rule:
+
+Rule: {self.rule.description}
+
+IMPORTANT: Focus on edge cases and boundary conditions.
+
+Think step by step:
+1. What are the edge cases and boundary conditions for this rule?
+2. What examples would be tricky or non-obvious?
+3. Generate examples that test these edge cases
+
+Requirements:
+- Each example: 5-30 words
+- Focus on edge cases, corner cases, and boundary conditions
+- Natural and realistic despite being edge cases
+- Diverse within this batch
+
+Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+
+        elif batch_type == "diversity":
+            prompt = f"""Generate {batch_size} HIGHLY DIVERSE text examples that {label_str} this rule:
+
+Rule: {self.rule.description}
+
+IMPORTANT: Maximize diversity within this batch.
+
+Think step by step:
+1. Identify different ways an example could {label_str} this rule
+2. Consider different contexts, styles, and phrasings
+3. Generate examples that are as different from each other as possible
+
+Requirements:
+- Each example: 5-30 words
+- Examples should be VERY different from each other (different contexts, styles, topics)
+- Natural and realistic
+- Avoid any repetitive patterns within this batch
+
+Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+
+        else:  # themed
+            theme_instruction = f"\n\nContext/Theme: All examples should relate to '{theme}'" if theme else ""
+            prompt = f"""Generate {batch_size} text examples that {label_str} this rule:
+
+Rule: {self.rule.description}{theme_instruction}
+
+Requirements:
+- Each example: 5-30 words
+- Natural and realistic
+- Diverse within this batch
+
+Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+
+        # Create caller with specific temperature
+        temp_caller = create_caller(
+            model=self.model,
+            temperature=temperature,
+            cache_mode=CacheMode.PERSISTENT,
+        )
+
+        messages = [Message(role="user", content=prompt)]
+        response = await temp_caller.call(messages)
+
+        # Parse JSON response
+        content = response.content.strip()
+        if content.startswith("```"):
+            content = content.split("```")[1]
+            if content.startswith("json"):
+                content = content[4:]
+            content = content.strip()
+
+        try:
+            examples = json.loads(content)
+            if not isinstance(examples, list):
+                raise ValueError("Response is not a list")
+            return [str(ex) for ex in examples[:batch_size]]
+        except (json.JSONDecodeError, ValueError) as e:
+            # Fallback: split by newlines
+            lines = [line.strip(' "[],-') for line in content.split("\n") if line.strip()]
+            return [line for line in lines if line and not line.startswith("//")][:batch_size]
 
 
 class LLMEvaluator:
@@ -2011,9 +2137,10 @@ class GeneratorConfig:
     num_samples: int = 200
     output_dir: Path = Path("experiments/datasets")
     use_llm: bool = False
-    models: list[str] = None
+    models: Optional[list[str]] = None
     random_seed: int = 42
     balance_ratio: float = 0.5  # Target ratio of positive samples
+    version: int = 1  # Dataset generation version (1=v1, 2=v2, 3=v3)
 
     def __post_init__(self):
         if self.models is None:
@@ -2223,19 +2350,260 @@ class DatasetGenerator:
 
         return samples, metadata
 
+    async def generate_for_rule_v3(self, rule: Rule) -> tuple[list[DatasetSample], DatasetMetadata]:
+        """Generate dataset using v3 approach (optimized for diversity & edge cases)."""
+        print(f"\nGenerating dataset (v3) for: {rule.name} ({rule.rule_id})")
+
+        # Determine if rule needs LLM evaluation
+        needs_llm_eval = rule.name in LLM_EVAL_RULES
+        use_llm = self.config.use_llm or not rule.programmatic or needs_llm_eval
+
+        if not use_llm:
+            print("  v3 generation only supports LLM mode, falling back to v1")
+            return await self.generate_for_rule(rule)
+
+        # Create LLM generator with high concurrency
+        generator = LLMGenerator(
+            rule=rule,
+            model=self.config.models[0],
+            random_seed=self.config.random_seed,
+            max_concurrent=50  # Moderate parallelization for v3
+        )
+
+        # Setup evaluator
+        evaluator: Optional[LLMEvaluator] = None
+        eval_fn: Optional[Callable[[str], bool]] = None
+
+        if needs_llm_eval:
+            print("  Using LLM evaluation for semantic rule...")
+            evaluator = LLMEvaluator(rule=rule, model=self.config.models[0])
+        else:
+            eval_fn = EVAL_FUNCTIONS.get(rule.name)
+            if eval_fn is None:
+                raise ValueError(f"No evaluation function for rule: {rule.name}")
+
+        async def evaluate_input(text: str) -> bool:
+            if evaluator is not None:
+                return await evaluator.evaluate(text)
+            assert eval_fn is not None
+            return eval_fn(text)
+
+        # V3 batch strategy: 40 batches × 5 examples = 200 examples
+        # Distribution: 30% edge, 30% diversity, 40% themed
+        batch_size = 5
+        num_batches_pos = 20  # 100 positive
+        num_batches_neg = 20  # 100 negative
+
+        # Calculate batch distribution
+        edge_batches = int(num_batches_pos * 0.3)  # 6 batches
+        diversity_batches = int(num_batches_pos * 0.3)  # 6 batches
+        themed_batches = num_batches_pos - edge_batches - diversity_batches  # 8 batches
+
+        print(f"  Strategy: {edge_batches} edge batches, {diversity_batches} diversity batches, {themed_batches} themed batches per label")
+
+        # Generate positive examples
+        print("  Generating positive examples...")
+        pos_tasks = []
+        rng = random.Random(self.config.random_seed)
+        temp_range = (0.6, 0.9)
+
+        # Edge case batches
+        for i in range(edge_batches):
+            temp = rng.uniform(*temp_range)
+            pos_tasks.append(generator.generate_batch_v3(batch_size, True, "edge_case", temperature=temp))
+
+        # Diversity batches
+        for i in range(diversity_batches):
+            temp = rng.uniform(*temp_range)
+            pos_tasks.append(generator.generate_batch_v3(batch_size, True, "diversity", temperature=temp))
+
+        # Themed batches
+        for i in range(themed_batches):
+            theme = rng.choice(generator.THEME_WORDS)
+            temp = rng.uniform(*temp_range)
+            pos_tasks.append(generator.generate_batch_v3(batch_size, True, "themed", theme=theme, temperature=temp))
+
+        # Generate negative examples
+        print("  Generating negative examples...")
+        neg_tasks = []
+
+        # Edge case batches
+        for i in range(edge_batches):
+            temp = rng.uniform(*temp_range)
+            neg_tasks.append(generator.generate_batch_v3(batch_size, False, "edge_case", temperature=temp))
+
+        # Diversity batches
+        for i in range(diversity_batches):
+            temp = rng.uniform(*temp_range)
+            neg_tasks.append(generator.generate_batch_v3(batch_size, False, "diversity", temperature=temp))
+
+        # Themed batches
+        for i in range(themed_batches):
+            theme = rng.choice(generator.THEME_WORDS)
+            temp = rng.uniform(*temp_range)
+            neg_tasks.append(generator.generate_batch_v3(batch_size, False, "themed", theme=theme, temperature=temp))
+
+        # Run all generation tasks in parallel
+        all_results = await asyncio.gather(*(pos_tasks + neg_tasks), return_exceptions=True)
+
+        # Flatten results
+        all_examples = []
+        generation_errors = []
+        for i, result in enumerate(all_results):
+            expected_label = i < len(pos_tasks)  # First half are positive
+            batch_idx = i if expected_label else (i - len(pos_tasks))
+
+            if isinstance(result, Exception):
+                error_msg = str(result)
+                generation_errors.append({"batch": i, "expected": expected_label, "error": error_msg})
+                if i < 3:  # Print first 3 errors for debugging
+                    print(f"  Generation error in batch {i}: {error_msg}")
+            else:
+                for ex in result:
+                    all_examples.append((ex, expected_label))
+
+        # Deduplicate examples
+        seen = set()
+        unique_examples = []
+        duplicates = 0
+        for ex, label in all_examples:
+            ex_lower = ex.lower().strip()
+            if ex_lower not in seen:
+                seen.add(ex_lower)
+                unique_examples.append((ex, label))
+            else:
+                duplicates += 1
+
+        print(f"  Generated {len(all_examples)} examples, {len(unique_examples)} unique ({duplicates} duplicates removed)")
+
+        # Validate all examples (parallelized)
+        print("  Validating generated examples...")
+        async def validate_sample(text: str, expected_label: bool):
+            try:
+                actual = await evaluate_input(text)
+                return (text, expected_label, actual, None)
+            except Exception as e:
+                return (text, expected_label, None, str(e))
+
+        validation_results = await asyncio.gather(
+            *[validate_sample(text, expected) for text, expected in unique_examples]
+        )
+
+        # Process validation results
+        samples = []
+        errors = []
+        evaluations = 0
+
+        for text, expected_label, actual_label, error in validation_results:
+            evaluations += 1
+
+            if error is not None:
+                errors.append({
+                    "input": text,
+                    "expected": expected_label,
+                    "error": error,
+                })
+            elif actual_label == expected_label:
+                samples.append(DatasetSample(
+                    input=text,
+                    label=expected_label,
+                    rule_id=rule.rule_id,
+                    metadata={
+                        "expected_label": expected_label,
+                        "correct": True,
+                        "version": 3
+                    }
+                ))
+            else:
+                errors.append({
+                    "input": text,
+                    "expected": expected_label,
+                    "actual": actual_label,
+                })
+
+        # Shuffle samples
+        random.shuffle(samples)
+
+        # Calculate quality metrics
+        actual_positive = sum(1 for s in samples if s.label)
+        actual_negative = len(samples) - actual_positive
+        accuracy = (evaluations - len(errors)) / evaluations if evaluations else 0.0
+
+        if samples:
+            input_lengths = [len(s.input) for s in samples]
+            positive_ratio = actual_positive / len(samples)
+            input_length_stats = {
+                "min": min(input_lengths),
+                "max": max(input_lengths),
+                "avg": sum(input_lengths) / len(input_lengths),
+            }
+        else:
+            positive_ratio = 0.0
+            input_length_stats = {"min": 0, "max": 0, "avg": 0.0}
+
+        quality_checks = {
+            "accuracy": accuracy,
+            "positive_ratio": positive_ratio,
+            "num_errors": len(errors),
+            "input_length_stats": input_length_stats,
+            "errors": errors[:10],  # First 10 errors
+            "version": 3,  # v3 marker
+            "duplicates_removed": duplicates,
+            "generation_errors": len(generation_errors),
+            "batch_strategy": {
+                "edge_case_batches": edge_batches * 2,  # pos + neg
+                "diversity_batches": diversity_batches * 2,
+                "themed_batches": themed_batches * 2,
+                "batch_size": batch_size
+            }
+        }
+
+        print(f"  Quality: {accuracy*100:.1f}% correct labels")
+        print(f"  Actual split: {actual_positive} positive / {actual_negative} negative")
+        if len(errors):
+            print(f"  WARNING: {len(errors)} validation errors!")
+
+        # Create metadata with v3 marker
+        metadata = DatasetMetadata(
+            rule_id=rule.rule_id,
+            rule_name=rule.name,
+            rule_description=rule.description,
+            num_samples=len(samples),
+            num_positive=actual_positive,
+            num_negative=actual_negative,
+            generation_method="llm_v3",  # v3 marker
+            models_used=self.config.models,
+            random_seed=self.config.random_seed,
+            timestamp=datetime.now().isoformat(),
+            quality_checks=quality_checks,
+        )
+
+        return samples, metadata
+
     async def generate_all(self) -> dict[str, Path]:
         """Generate datasets for all rules."""
         rules = self._load_rules()
         print(f"Loaded {len(rules)} rules from {self.config.rules_file}")
+        print(f"Using generation version: v{self.config.version}")
 
         generated_files = {}
         all_metadata = {}
 
         for rule in async_tqdm(rules, desc="Generating datasets", disable=not sys.stdout.isatty()):
-            samples, metadata = await self.generate_for_rule(rule)
+            # Route to appropriate generator based on version
+            if self.config.version == 3:
+                samples, metadata = await self.generate_for_rule_v3(rule)
+                dataset_file = self.config.output_dir / f"{rule.rule_id}_v3.jsonl"
+            elif self.config.version == 2:
+                # v2 not implemented in this file, fallback to v1
+                print(f"  v2 not implemented, using v1 for {rule.name}")
+                samples, metadata = await self.generate_for_rule(rule)
+                dataset_file = self.config.output_dir / f"{rule.rule_id}.jsonl"
+            else:
+                samples, metadata = await self.generate_for_rule(rule)
+                dataset_file = self.config.output_dir / f"{rule.rule_id}.jsonl"
 
             # Save dataset
-            dataset_file = self.config.output_dir / f"{rule.rule_id}.jsonl"
             save_jsonl(
                 [s.model_dump() for s in samples],
                 dataset_file
@@ -2245,8 +2613,12 @@ class DatasetGenerator:
 
             print(f"  Saved to: {dataset_file}")
 
-        # Save combined metadata
-        metadata_file = self.config.output_dir / "metadata.yaml"
+        # Save combined metadata with version suffix if v3
+        if self.config.version == 3:
+            metadata_file = self.config.output_dir / "metadata_v3.yaml"
+        else:
+            metadata_file = self.config.output_dir / "metadata.yaml"
+
         save_yaml(all_metadata, metadata_file)
         print(f"\nSaved metadata to: {metadata_file}")
 
@@ -2318,6 +2690,13 @@ def parse_args() -> GeneratorConfig:
         default=0.5,
         help="Target ratio of positive samples (0.0-1.0)"
     )
+    parser.add_argument(
+        "--version",
+        type=int,
+        choices=[1, 2, 3],
+        default=1,
+        help="Dataset generation version (1=basic, 2=individual+paired, 3=edge+diversity+themed)"
+    )
 
     args = parser.parse_args()
 
@@ -2329,6 +2708,7 @@ def parse_args() -> GeneratorConfig:
         models=args.models,
         random_seed=args.random_seed,
         balance_ratio=args.balance_ratio,
+        version=args.version,
     )
 
 
