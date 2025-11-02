@@ -38,16 +38,24 @@ This project tests the hypothesis: **Can LLMs achieve high accuracy on classific
 #### Analyze (`analyze_learnability.py`)
 - Filters for rules with >90% accuracy
 - Identifies which rules are learnable vs difficult
+- **Output:** `summary_complete.yaml` with per-rule, per-model, per-few-shot metrics
+
+#### Enrich (`enrich_rules_with_learnability.py`)
+- Adds model-specific `min_few_shot_required` metadata to rules
+- Filters to only include learnable rules (≥90% accuracy for at least one model)
+- **Output:** `curated_rules_learnable.jsonl` with learnability metadata per model
 
 ### Step 3: Test Articulation (Research Step 2)
 
 #### Multiple Choice (`test_articulation_mc.py`)
 - Tests if model can identify correct rule from multiple options
 - **CoT reasoning allowed** (unlike learnability test)
+- Automatically uses `min_few_shot_required` per model from enriched rules
 
 #### Free-form (`test_articulation_freeform.py`)
 - Tests if model can articulate the rule in natural language
 - Uses LLM judges and functional scoring to evaluate articulations
+- Automatically uses `min_few_shot_required` per model from enriched rules
 
 #### Analyze (`analyze_articulation_freeform.py`)
 - Aggregates articulation results
@@ -90,8 +98,15 @@ python -m src.generate_datasets --rules-file out/rules/curated_rules.jsonl --out
 # 3. Test learnability
 python -m src.test_learnability --rules-file out/rules/curated_rules.jsonl --datasets-dir data/datasets --output-dir out/learnability
 
-# 4. Test articulation
-python -m src.test_articulation_freeform --rules-file out/rules/curated_rules.jsonl --datasets-dir data/datasets --output-dir out/articulation
+# 3a. Analyze learnability and enrich rules
+python -m src.analyze_learnability --results-dir out/learnability --output-summary out/learnability/summary_complete.yaml
+python -m src.enrich_rules_with_learnability \
+  --rules-file data/processed/list-of-rules/curated_rules_generated.jsonl \
+  --learnability-summary out/learnability/summary_complete.yaml \
+  --output-file out/rules/curated_rules_learnable.jsonl
+
+# 4. Test articulation (uses enriched rules with min_few_shot_required per model)
+python -m src.test_articulation_freeform --rules-file out/rules/curated_rules_learnable.jsonl --datasets-dir data/datasets --output-dir out/articulation
 
 # 5. Test faithfulness
 python -m src.test_faithfulness --rules-file out/rules/curated_rules.jsonl --articulations-file out/articulation/results.jsonl --output-dir out/faithfulness
