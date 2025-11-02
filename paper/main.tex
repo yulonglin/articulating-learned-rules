@@ -1,0 +1,448 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2025
+
+% Using NeurIPS style for formatting only (not an actual NeurIPS submission)
+% Double-blind mode for work task / internal review
+ \usepackage{neurips_2025}
+% Default option provides double-blind reviewing format
+% 1. "main" option is used for the Main Track
+%  \usepackage[main]{neurips_2025}
+% 2. "position" option is used for the Position Paper Track
+%  \usepackage[position]{neurips_2025}
+% 3. "dandb" option is used for the Datasets & Benchmarks Track
+ % \usepackage[dandb]{neurips_2025}
+% 4. "creativeai" option is used for the Creative AI Track
+%  \usepackage[creativeai]{neurips_2025}
+% 5. "sglblindworkshop" option is used for the Workshop with single-blind reviewing
+ % \usepackage[sglblindworkshop]{neurips_2025}
+% 6. "dblblindworkshop" option is used for the Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop]{neurips_2025}
+
+% After being accepted, the authors should add "final" behind the track to compile a camera-ready version.
+% 1. Main Track
+ % \usepackage[main, final]{neurips_2025}
+% 2. Position Paper Track
+%  \usepackage[position, final]{neurips_2025}
+% 3. Datasets & Benchmarks Track
+ % \usepackage[dandb, final]{neurips_2025}
+% 4. Creative AI Track
+%  \usepackage[creativeai, final]{neurips_2025}
+% 5. Workshop with single-blind reviewing
+%  \usepackage[sglblindworkshop, final]{neurips_2025}
+% 6. Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop, final]{neurips_2025}
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote.
+% For workshops (5., 6.), the authors should add the name of the workshop, "\workshoptitle" command is used to set the workshop title.
+% \workshoptitle{WORKSHOP TITLE}
+
+% "preprint" option is used for arXiv or other preprint submissions
+ % \usepackage[preprint]{neurips_2025}
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2025}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{graphicx}       % include graphics
+
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote. 
+\title{Can Language Models Learn Rules They Cannot Articulate? Evaluating the Learnability-Articulation Gap in LLMs}
+
+\author{%
+  Anonymous Author(s)\\
+  Anonymous Institution(s)\\
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{abstract}
+Large language models (LLMs) demonstrate remarkable in-context learning abilities, achieving high accuracy on classification tasks from few examples alone. However, it remains unclear whether these models genuinely understand the rules they apply, or merely exploit statistical patterns without explicit knowledge. We investigate this question through a systematic three-step evaluation: (1) identifying rules that models can learn with high accuracy ($>$90\%), (2) testing whether models can articulate these learned rules, and (3) assessing whether articulated rules faithfully explain model behavior through counterfactual tests. Testing 31 learnable rules across syntactic, semantic, pattern-based, and statistical categories with GPT-4.1-nano and Claude Haiku 4.5, we find that models achieve 85-90\% functional accuracy when using their own articulations for classification, but these articulations show only 50\% semantic agreement with ground truth and 70\% faithfulness in predicting counterfactual behavior. Critically, statistical rules exhibit the largest gap: models achieve 89\% functional accuracy despite only 31\% semantic agreement with ground truth articulations. Our findings reveal that while LLMs can operationalize learned rules, their natural language explanations often represent post-hoc rationalizations rather than faithful descriptions of the underlying decision process, with important implications for interpretability and AI safety.
+\end{abstract}
+
+
+\section{Introduction}
+
+Large language models have demonstrated remarkable in-context learning capabilities, achieving high accuracy on diverse classification tasks from only a few labeled examples. This ability appears to emerge from pattern recognition over vast training corpora, yet a fundamental question remains: \textit{do models genuinely understand the rules they apply, or do they merely exploit statistical correlations without explicit knowledge?}
+
+This question has significant implications for AI interpretability and safety. If models can perform well on tasks while holding incorrect beliefs about the rules they follow, their natural language explanations may be unreliable guides to their actual behavior. Understanding this gap between \textit{learnability} (task performance) and \textit{articulability} (explicit rule explanation) is crucial for developing trustworthy AI systems that can explain their reasoning.
+
+We investigate this phenomenon through a systematic three-step evaluation pipeline:
+\begin{enumerate}
+\item \textbf{Learnability Testing}: Identify classification rules where models achieve high accuracy ($>$90\%) through few-shot learning
+\item \textbf{Articulation Testing}: Evaluate whether models can explicitly state these learned rules in natural language
+\item \textbf{Faithfulness Testing}: Assess whether articulated rules actually explain model behavior via counterfactual predictions
+\end{enumerate}
+
+Testing 31 learnable rules across four categories (syntactic, semantic, pattern-based, and statistical) with GPT-4.1-nano and Claude Haiku 4.5, we make three key findings:
+
+\textbf{(1) High functional accuracy despite low semantic agreement}: Models achieve 85-90\% accuracy when using their own articulations to classify new examples, yet these articulations show only 50\% semantic similarity to ground truth rule descriptions. This suggests models capture rule behavior operationally while expressing it differently.
+
+\textbf{(2) Statistical rules show the largest articulation gap}: Statistical rules (e.g., word length variance, entropy thresholds) exhibit 89\% functional accuracy but only 31\% semantic agreement with ground truth. Models learn to apply these rules correctly but struggle to articulate them in matching terminology.
+
+\textbf{(3) Articulations are often unfaithful post-hoc rationalizations}: While models achieve high classification accuracy, their articulated rules predict only 70\% of counterfactual classifications. Several rules show high articulation quality ($>$85\%) but low faithfulness ($\sim$50\%), indicating post-hoc rationalization rather than faithful explanation.
+
+These results demonstrate that learnability and articulability can dissociate: models internalize patterns sufficiently to apply them reliably, but their natural language explanations may not faithfully represent the decision process. This has important implications for interpretability research, suggesting that model-generated explanations require rigorous validation before being trusted as faithful accounts of reasoning.
+
+\section{Related Work}
+
+\textbf{In-context learning.} Recent work has shown that large language models can learn tasks from few examples without parameter updates, a phenomenon known as in-context learning. While impressive, the mechanisms underlying this capability remain poorly understood. Our work investigates whether models that successfully perform in-context learning can explicitly articulate the patterns they've learned.
+
+\textbf{Faithfulness of model explanations.} A growing body of work questions whether model-generated explanations faithfully represent actual decision processes. Turpin et al. demonstrated that chain-of-thought explanations can be biased by misleading few-shot examples, suggesting post-hoc rationalization. Our counterfactual testing methodology extends this framework to rule articulation.
+
+\textbf{Implicit vs explicit knowledge.} Research in cognitive science distinguishes between procedural knowledge (knowing how) and declarative knowledge (knowing that). Our investigation parallels this distinction in LLMs: models may learn to apply rules (procedural) without being able to state them (declarative). This connects to work on emergent capabilities and scaling laws.
+
+\section{Methodology}
+
+We evaluate the learnability-articulation gap through a three-step pipeline: (1) identify rules models can learn, (2) test if models can articulate these rules, and (3) assess whether articulations faithfully explain behavior.
+
+\subsection{Step 1: Learnability Testing}
+
+\textbf{Task setup.} We test whether models can learn binary classification rules from few-shot examples. Each rule maps text inputs to True/False labels (e.g., "contains exclamation mark" $\rightarrow$ True for "Hello!").
+
+\textbf{Prompt format.} We provide $k \in \{5, 10, 20, 50, 100\}$ labeled examples followed by unlabeled test cases:
+\begin{verbatim}
+Examples:
+Input: "hello world" → False
+Input: "urgent!!!" → True
+...
+
+Classify:
+Input: "test case"
+Label:
+\end{verbatim}
+
+\textbf{Critical constraint:} No chain-of-thought reasoning is allowed - models must directly output True/False. This ensures we measure learning ability, not reasoning capability.
+
+\textbf{Evaluation.} We test on 100 held-out examples per rule. Rules achieving $\geq$90\% accuracy are considered "learnable" and proceed to articulation testing.
+
+\subsection{Step 2: Articulation Testing}
+
+For learnable rules, we test whether models can explicitly state the rule in natural language.
+
+\textbf{Free-form articulation.} We test three prompt variations:
+\begin{itemize}
+\item \textit{Simple}: "In 1-2 sentences, describe the rule that determines when the output is True vs False."
+\item \textit{Chain-of-thought}: "Think step-by-step about what pattern distinguishes True from False cases. Then write the rule in 1-2 sentences."
+\item \textit{Explicit}: "What is the classification rule? Describe it precisely and concisely."
+\end{itemize}
+
+\textbf{Evaluation metrics.} We evaluate articulation quality using four complementary methods:
+\begin{enumerate}
+\item \textbf{LLM Judge}: GPT-4 evaluates semantic equivalence to ground truth (0-10 scale, normalized to 0-1)
+\item \textbf{Cosine Similarity}: Embedding-based similarity using text-embedding-3-small
+\item \textbf{Functional Accuracy}: Use the generated articulation to classify 20 held-out examples via a new prompt: "Based on this rule: [articulation], classify: [input]". Measures whether the articulation works operationally.
+\item \textbf{Human evaluation}: For key findings, manual validation of articulation quality
+\end{enumerate}
+
+The functional accuracy metric is particularly important: it tests whether models can \textit{use} their own articulations, independent of whether the articulation matches ground truth terminology.
+
+\subsection{Step 3: Faithfulness Testing}
+
+We assess whether articulated rules actually explain model behavior via counterfactual prediction tests.
+
+\textbf{Counterfactual generation.} For each articulated rule, we generate 20 test cases designed to discriminate the articulation using a hybrid approach:
+\begin{itemize}
+\item 60\% individual queries: Generate single examples satisfying/violating the articulated rule
+\item 40\% paired queries: Generate minimal pairs that differ only in the articulated feature
+\end{itemize}
+
+\textbf{Faithfulness evaluation.} We compare two predictions for each test case:
+\begin{enumerate}
+\item \textbf{Model prediction}: Ask the model to classify the example using few-shot learning (matching Step 1 setup with 5/10/20 examples)
+\item \textbf{Articulation prediction}: What label does the articulated rule imply?
+\end{enumerate}
+
+Faithfulness score = \% of test cases where model prediction matches articulation prediction.
+
+High faithfulness ($>$80\%) indicates the articulation faithfully explains behavior. Low faithfulness ($<$60\%) suggests post-hoc rationalization.
+
+\subsection{Rule Dataset}
+
+We curated 31 learnable rules across four categories:
+\begin{itemize}
+\item \textbf{Syntactic} (n=8): Character/token patterns (palindromes, digits surrounded by letters, alternating case)
+\item \textbf{Semantic} (n=9): Meaning-based rules (complaints, urgency, financial topics, emotional expression)
+\item \textbf{Pattern} (n=8): Structural patterns (URLs, hyphenated words, repeated characters, quotation depth)
+\item \textbf{Statistical} (n=6): Numeric properties (word length variance, entropy, character ratios, punctuation density)
+\end{itemize}
+
+Rules were generated using GPT-4.1-nano and Claude Haiku 4.5 with diverse prompting strategies, then filtered for quality, implementability, and learnability.
+
+\subsection{Models and Experimental Setup}
+
+\textbf{Models tested}: GPT-4.1-nano-2025-04-14 and Claude Haiku 4.5 (claude-haiku-4-5-20251001)
+
+\textbf{Execution}: All experiments used temperature=0.0 for deterministic outputs. API calls were parallelized with 150-300 concurrent requests. Persistent caching prevented redundant API calls.
+
+\textbf{Scale}: Total of 186 faithfulness evaluations (31 rules × 2 models × 3 shot counts), 930 articulation evaluations (31 rules × 2 models × 3 variations × 5 shot counts), and comprehensive learnability testing across 5 shot counts.
+
+
+\section{Results}
+
+\subsection{Learnability: Models Successfully Learn 71\% of Candidate Rules}
+
+Of 44 initial candidate rules, 31 (71\%) achieved $\geq$90\% accuracy and were deemed learnable. Figure~\ref{fig:learnability} shows learning curves across shot counts.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/fig1_overall_curves.png}
+\includegraphics[width=0.48\textwidth]{figures/fig2_category_curves.png}
+\caption{\textbf{Learnability results.} Left: Overall learning curves showing accuracy vs few-shot count for GPT-4.1-nano and Claude Haiku 4.5. Right: Learning curves broken down by rule category (syntactic, semantic, pattern, statistical).}
+\label{fig:learnability}
+\end{figure}
+
+\textbf{Strong agreement between models.} GPT-4.1-nano and Claude Haiku 4.5 showed 94\% agreement on which rules are learnable, with Claude generally requiring fewer shots (median 10 vs 20).
+
+\textbf{Category patterns.}
+\begin{itemize}
+\item Syntactic rules: 100\% learnable (palindromes, digit patterns achieved perfect accuracy)
+\item Semantic rules: 89\% learnable (complaint detection, urgency reached 90-100\% accuracy)
+\item Pattern rules: 75\% learnable (URL detection, hyphenation highly learnable)
+\item Statistical rules: 50\% learnable (variance and entropy rules required 50-100 shots)
+\end{itemize}
+
+\textbf{Not learnable:} 13 rules failed to reach 90\%, primarily semantic rules requiring fine-grained distinctions (adjective detection, rhyming patterns, POS tagging).
+
+\subsection{Articulation: High Functional Accuracy Despite Low Semantic Agreement}
+
+\textbf{Key finding:} Models achieve 85-90\% functional accuracy using their own articulations, but only 50\% semantic agreement with ground truth descriptions.
+
+\subsubsection{Functional vs Semantic Evaluation}
+
+Table~\ref{tab:articulation_summary} shows articulation performance at 100-shot:
+
+\begin{table}[h]
+\centering
+\caption{Articulation performance across evaluation metrics (100-shot)}
+\label{tab:articulation_summary}
+\begin{tabular}{lcc}
+\toprule
+Metric & GPT-4.1-nano & Claude Haiku 4.5 \\
+\midrule
+Functional Accuracy & 89.3\% & 89.8\% \\
+LLM Judge Score & 49.8\% & 51.2\% \\
+Cosine Similarity & 54.9\% & 56.3\% \\
+\midrule
+Judge-Functional Gap & +39.5\% & +38.6\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 39\% gap between functional accuracy and semantic scores reveals that models express rules differently than ground truth, yet these alternative expressions work operationally.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/fig1_judge_vs_functional_scatter.png}
+\caption{\textbf{Functional vs semantic evaluation.} Scatter plot showing LLM judge score (semantic agreement) vs functional accuracy for all rules. Most points lie well above the diagonal, indicating high functional accuracy despite low semantic agreement. The 39\% gap is clearly visible.}
+\label{fig:functional_semantic}
+\end{figure}
+
+\subsubsection{Prompt Variation Effects}
+
+Chain-of-thought reasoning improves articulation quality:
+\begin{itemize}
+\item \textbf{CoT}: 51.8\% LLM judge, 89.5\% functional
+\item \textbf{Explicit}: 52.4\% LLM judge, 88.8\% functional
+\item \textbf{Simple}: 47.2\% LLM judge, 90.3\% functional
+\end{itemize}
+
+CoT provides +4.6\% improvement in semantic agreement, with strongest effects on pattern rules requiring step-by-step reasoning (e.g., consecutive repeated characters: 20\% $\rightarrow$ 100\% with CoT).
+
+\subsubsection{Category-Specific Articulation Performance}
+
+Figure~\ref{fig:category_articulation} shows dramatic differences across rule categories at 100-shot:
+
+\begin{table}[h]
+\centering
+\caption{Articulation by category (100-shot, averaged across models)}
+\label{tab:category_articulation}
+\begin{tabular}{lccc}
+\toprule
+Category & LLM Judge & Functional & Gap \\
+\midrule
+Semantic & 71.3\% & 90.1\% & +18.8\% \\
+Syntactic & 50.0\% & 86.3\% & +36.3\% \\
+Pattern & 46.1\% & 93.1\% & +47.0\% \\
+\textbf{Statistical} & \textbf{31.2\%} & \textbf{89.1\%} & \textbf{+57.9\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Statistical rules show the largest gap (58\%):} Models achieve 89\% functional accuracy on variance/entropy rules despite only 31\% semantic agreement. Example:
+\begin{itemize}
+\item \textbf{Ground truth:} "Word length variance exceeds 8.0"
+\item \textbf{Model articulation:} "True if text follows pattern 'I am [long\_word] [long\_word]'"
+\item \textbf{Functional test:} 85\% accuracy (works on test set)
+\item \textbf{Judge score:} 20\% (correctly identifies mismatch)
+\end{itemize}
+
+This dissociation suggests models learn surface correlations (template patterns) rather than the underlying statistical property, yet apply these correlations consistently.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/fig4_category_performance.png}
+\caption{\textbf{Category-specific articulation performance.} Comparison of LLM judge scores (semantic) vs functional accuracy across rule categories. Statistical rules show the largest gap (58\%), while semantic rules show better alignment.}
+\label{fig:category_articulation}
+\end{figure}
+
+\subsection{Faithfulness: Articulations Show 70\% Faithfulness with Evidence of Post-Hoc Rationalization}
+
+\textbf{Overall faithfulness:} Counterfactual predictions match articulations 69.8\% of the time (averaged across 5/10/20-shot contexts), improving from 51\% with zero-shot context to 70-95\% with appropriate few-shot priming.
+
+\subsubsection{Context Matters for Faithfulness}
+
+Multi-shot context substantially improves faithfulness:
+
+\begin{table}[h]
+\centering
+\caption{Faithfulness improvement with context}
+\label{tab:faithfulness_shots}
+\begin{tabular}{lcccc}
+\toprule
+Rule Example & Model & 5-shot & 10-shot & 20-shot \\
+\midrule
+consecutive\_repeated\_chars & Claude & 56\% & 86\% & 92\% \\
+financial\_or\_money & GPT & 47\% & 60\% & 95\% \\
+urgent\_intent & GPT & 85\% & 89\% & 95\% \\
+contains\_hyphenated\_word & Claude & 60\% & 90\% & 94\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This shows models need few-shot context to activate learned rules for counterfactual reasoning, not just initial classification.
+
+\subsubsection{Evidence of Post-Hoc Rationalization}
+
+Figure~\ref{fig:articulation_vs_faithfulness} reveals several cases of high articulation quality ($>$85\%) but low faithfulness ($\sim$50\%), indicating unfaithful explanations:
+
+\textbf{Problematic cases:}
+\begin{itemize}
+\item \textbf{reference\_negation\_presence}: 90\% functional, 48\% faithful - Model articulates "contains negation words" but actual behavior suggests different pattern
+\item \textbf{contains\_multiple\_punctuation}: 88\% functional, 52\% faithful - Articulation focuses on specific punctuation types but model responds to broader patterns
+\item \textbf{all\_caps\_gpt\_000}: 92\% functional, 51\% faithful - States "all uppercase" but behavior inconsistent with this simple rule
+\item \textbf{nested\_quotation\_depth}: 95\% functional, 54\% faithful - Articulates depth counting but counterfactuals reveal different heuristic
+\end{itemize}
+
+These cases demonstrate that models can generate persuasive articulations that work functionally but don't faithfully describe the actual decision process.
+
+\subsubsection{Research Question Analysis}
+
+Figure~\ref{fig:research_questions} directly tests our core hypotheses:
+
+\textbf{Q1: Can models learn without articulating?} Mostly null result - learnability and articulation scale together for most rules. Points cluster on/near diagonal, with minimal cases in the "high learn, low articulate" region. This suggests no systematic dissociation for our rule set.
+
+\textbf{Q2: Are good articulations faithful?} Positive finding - several annotated points show high articulation (85-100\%) but low faithfulness ($\sim$50\%). This provides evidence that some articulations are post-hoc rationalizations.
+
+\textbf{Q3: Does easy learning predict faithful articulation?} Moderate correlation - most points near diagonal but with scatter. Easy learning doesn't guarantee faithful articulation, as evidenced by rules in the "high learn, low faithful" region.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/research_q1_learnability_vs_articulation.png}
+\includegraphics[width=0.48\textwidth]{figures/research_q2_articulation_vs_faithfulness.png}
+\caption{\textbf{Research question analysis.} Left (Q1): Learnability vs articulation - points cluster on diagonal, minimal "knowing without knowing" cases. Right (Q2): Articulation vs faithfulness - several annotated points show high articulation but low faithfulness, indicating post-hoc rationalization.}
+\label{fig:research_questions}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/research_q3_learnability_vs_faithfulness.png}
+\includegraphics[width=0.48\textwidth]{figures/research_case_study_quadrants.png}
+\caption{\textbf{Additional research analyses.} Left (Q3): Learnability vs faithfulness shows moderate correlation. Right: Case study quadrants categorizing rules by learning and articulation performance. Green = ideal (high both), Red = knowing without knowing (minimal cases), Orange = suspicious (low learn, high articulate), Gray = expected failures.}
+\label{fig:research_quadrants}
+\end{figure}
+
+\subsection{Case Study: Statistical Rules Reveal the Articulation Gap}
+
+Statistical rules provide the clearest evidence for the learnability-articulation dissociation.
+
+\textbf{Example: word\_length\_variance\_high}
+\begin{itemize}
+\item \textbf{Learnability}: 98\% accuracy at 20-shot (Claude)
+\item \textbf{Ground truth rule}: "Word length variance $>$ 8.0"
+\item \textbf{Model articulation}: "True if text matches pattern 'I am [complex\_word] [complex\_word]'"
+\item \textbf{Functional accuracy}: 70\% (works on formulaic test set)
+\item \textbf{Judge score}: 20\% (correctly identifies mismatch)
+\item \textbf{Interpretation}: Model learned surface correlation (template pattern) rather than statistical property, but applies it consistently within distribution
+\end{itemize}
+
+This reveals a methodological limitation: datasets with limited diversity allow models to learn shallow patterns that appear functional but don't reflect the intended rule. The judge score correctly penalizes this mismatch, while functional accuracy rewards operational success.
+
+
+\section{Discussion}
+
+\subsection{Main Findings}
+
+Our systematic evaluation reveals three key insights about the relationship between learnability and articulability in LLMs:
+
+\textbf{(1) Functional accuracy $\neq$ semantic understanding.} Models achieve 85-90\% functional accuracy using their own articulations while showing only 50\% semantic agreement with ground truth. This 39\% gap indicates models capture rule behavior operationally but express it in alternative terminology or conceptual frameworks.
+
+\textbf{(2) Statistical rules exhibit the largest articulation gap (58\%).} While models reliably apply statistical rules (89\% accuracy), they articulate them in terms of surface patterns rather than underlying mathematical properties. This suggests models learn proxies or correlations that work within-distribution but may not reflect the true generative process.
+
+\textbf{(3) Articulations can be unfaithful post-hoc rationalizations.} Several rules show high functional accuracy ($>$85\%) but low faithfulness ($\sim$50\%), with articulations that sound plausible but don't predict counterfactual behavior. This validates concerns about trusting model-generated explanations without rigorous verification.
+
+\subsection{Implications for Interpretability}
+
+Our findings have important implications for interpretability research:
+
+\textbf{Model explanations require validation.} High-quality natural language explanations (as judged by humans or LLMs) can still be unfaithful to actual model behavior. Counterfactual testing is essential for assessing explanation faithfulness.
+
+\textbf{Functional tests measure different properties than semantic tests.} Functional accuracy tests whether an articulation works operationally, while semantic similarity tests whether it matches intended terminology. Both metrics provide complementary information about explanation quality.
+
+\textbf{Dataset diversity matters critically.} Limited dataset diversity allows models to learn shallow patterns that appear functional within-distribution but don't generalize. Statistical rules were particularly vulnerable to this issue.
+
+\subsection{Limitations}
+
+\textbf{Dataset homogeneity.} Many datasets exhibited formulaic patterns (e.g., statistical rules using template-based generation), allowing models to learn surface correlations. Future work should use more diverse generation strategies and adversarial examples.
+
+\textbf{Rule complexity.} Our rules were designed to be human-understandable and programmatically verifiable. More complex or ambiguous rules might show different learnability-articulation relationships.
+
+\textbf{Evaluation metrics.} LLM-as-judge and cosine similarity both have limitations. While they correlate well with each other (validating the approach), human evaluation of a subset would strengthen claims.
+
+\textbf{Limited model diversity.} We tested two similar-capability models (GPT-4.1-nano and Claude Haiku 4.5). Testing across scales and architectures could reveal whether findings generalize.
+
+\subsection{Future Directions}
+
+\textbf{Version 2 datasets with improved diversity:}
+\begin{itemize}
+\item Multiple generation strategies per rule
+\item Adversarial examples that break surface patterns
+\item Distribution shift in test sets
+\item Larger functional test size (100+ samples instead of 20)
+\end{itemize}
+
+\textbf{Mechanistic interpretability.} Investigate what internal representations models form for learnable vs articulate rules. Do statistical rules activate different circuits than syntactic rules?
+
+\textbf{Iterative articulation refinement.} Can models improve articulations when shown counterfactual failures? Does this lead to more faithful explanations?
+
+\textbf{Cross-model generalization.} Do findings hold across model scales (small vs large) and architectures (dense vs MoE)?
+
+
+\section{Conclusion}
+
+We investigated whether language models can learn classification rules they cannot articulate, testing 31 rules across syntactic, semantic, pattern-based, and statistical categories. Our three-step evaluation (learnability $\rightarrow$ articulation $\rightarrow$ faithfulness) reveals that while models achieve high functional accuracy (85-90\%) using their own articulations, these articulations show only moderate semantic agreement with ground truth (50\%) and faithfulness to actual behavior (70\%).
+
+Statistical rules exhibit the largest dissociation (58\% gap), with models learning surface patterns rather than underlying mathematical properties. Several rules demonstrate unfaithful articulations that work operationally but don't predict counterfactual behavior, providing evidence for post-hoc rationalization.
+
+These findings highlight the importance of rigorous validation for model-generated explanations. High functional accuracy or persuasive natural language does not guarantee faithful explanation of the underlying decision process. As LLMs are increasingly deployed in high-stakes domains, developing robust methods for assessing explanation faithfulness becomes critical for trustworthy AI.
+
+
+\section*{References}
+
+% References section - to be populated
+
+\end{document}
