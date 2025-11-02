@@ -732,6 +732,10 @@ async def get_articulation(
     """
     Get articulation from Step 2 results or generate on-the-fly.
 
+    Selects the BEST articulation from multiple configurations by:
+    1. Highest functional_test_accuracy
+    2. Tie-breaker: Highest llm_judge_score
+
     Args:
         rule: Rule being tested
         model: Model name
@@ -745,14 +749,65 @@ async def get_articulation(
     # Try to load from articulation results
     if config.articulation_results_dir:
         # Look for articulation result files
-        pattern = f"{rule.rule_id}_{model}_*.jsonl"
-        articulation_files = list(config.articulation_results_dir.glob(pattern))
+        # Pattern matches: {rule_id}_{model}_{variation}_{shots}shot_freeform.jsonl
+        # Model name may have hyphens, so use glob pattern
+        pattern = f"{rule.rule_id}_*_freeform.jsonl"
+        all_files = list(config.articulation_results_dir.glob(pattern))
+
+        # Filter to only this model's files by checking the loaded data
+        articulation_files = []
+        for file in all_files:
+            try:
+                data = load_jsonl(file)
+                if data and data[0].get("model") == model:
+                    articulation_files.append(file)
+            except Exception as e:
+                logger.warning(f"Failed to load {file}: {e}")
+                continue
 
         if articulation_files:
-            # Load the first matching file
-            artic_data = load_jsonl(articulation_files[0])
-            if artic_data:
-                return artic_data[0].get("generated_articulation")
+            # Load all matching files and select best
+            best_articulation = None
+            best_functional_accuracy = -1
+            best_llm_judge_score = -1
+
+            for file in articulation_files:
+                try:
+                    artic_data = load_jsonl(file)
+                    if not artic_data:
+                        continue
+
+                    data = artic_data[0]
+                    functional_acc = data.get("functional_test_accuracy", 0.0) or 0.0
+                    llm_judge = data.get("llm_judge_score", 0.0) or 0.0
+                    articulation = data.get("generated_articulation", "")
+
+                    # Select best: highest functional_accuracy, tie-break by llm_judge_score
+                    is_better = (
+                        functional_acc > best_functional_accuracy or
+                        (functional_acc == best_functional_accuracy and llm_judge > best_llm_judge_score)
+                    )
+
+                    if is_better and articulation:
+                        best_articulation = articulation
+                        best_functional_accuracy = functional_acc
+                        best_llm_judge_score = llm_judge
+                        logger.debug(
+                            f"New best for {rule.rule_id}/{model}: "
+                            f"func={functional_acc:.2f}, judge={llm_judge:.2f} from {file.name}"
+                        )
+
+                except Exception as e:
+                    logger.warning(f"Failed to parse {file}: {e}")
+                    continue
+
+            if best_articulation:
+                logger.info(
+                    f"Selected best articulation for {rule.rule_id}/{model}: "
+                    f"functional_acc={best_functional_accuracy:.2f}, "
+                    f"llm_judge={best_llm_judge_score:.2f}"
+                )
+                return best_articulation
 
     # Generate on-the-fly if not found
     logger.info(f"Generating articulation on-the-fly for {rule.rule_id}")
@@ -856,35 +911,49 @@ async def run_faithfulness_tests(config: FaithfulnessConfig) -> None:
     # Set random seed
     set_random_seed(config.random_seed)
 
-    # Run evaluations
+    # Create all evaluation tasks (rule-model pairs) to run in parallel
+    tasks = []
+    rule_model_pairs = []
+    for rule in rules:
+        for model in config.models:
+            tasks.append(evaluate_faithfulness(rule, model, config, logger))
+            rule_model_pairs.append((rule.rule_id, model))
+
+    logger.info(f"Running {len(tasks)} evaluations in parallel (max_concurrent={config.max_concurrent})")
+
+    # Run all evaluations in parallel
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    # Process results
     summary: dict[str, dict[str, dict[str, Any]]] = {}
 
-    for rule in rules:
-        summary[rule.rule_id] = {}
+    for (rule_id, model), result in zip(rule_model_pairs, results):
+        if rule_id not in summary:
+            summary[rule_id] = {}
 
-        for model in config.models:
-            # Run faithfulness evaluation
-            result = await evaluate_faithfulness(rule, model, config, logger)
+        if isinstance(result, Exception):
+            logger.error(f"Error evaluating {rule_id} | {model}: {result}")
+            continue
 
-            if result is None:
-                logger.warning(f"No result for {rule.rule_id} | {model}")
-                continue
+        if result is None:
+            logger.warning(f"No result for {rule_id} | {model}")
+            continue
 
-            # Save detailed results
-            output_file = config.output_dir / f"{rule.rule_id}_{model}_faithfulness.jsonl"
-            with output_file.open("w") as f:
-                f.write(result.model_dump_json(indent=2))
+        # Save detailed results
+        output_file = config.output_dir / f"{rule_id}_{model}_faithfulness.jsonl"
+        with output_file.open("w") as f:
+            f.write(result.model_dump_json(indent=2))
 
-            logger.info(f"Saved results to {output_file.name}")
+        logger.info(f"Saved results to {output_file.name}")
 
-            # Add to summary
-            summary[rule.rule_id][model] = {
-                "generated_articulation": result.generated_articulation,
-                "counterfactual_faithfulness": round(result.counterfactual_faithfulness, 4) if result.counterfactual_faithfulness is not None else None,
-                "consistency_score": round(result.consistency_score, 4) if result.consistency_score is not None else None,
-                "functional_accuracy": round(result.functional_accuracy, 4) if result.functional_accuracy is not None else None,
-                "cross_context_match": round(result.cross_context_match_score, 4) if result.cross_context_match_score is not None else None,
-            }
+        # Add to summary
+        summary[rule_id][model] = {
+            "generated_articulation": result.generated_articulation,
+            "counterfactual_faithfulness": round(result.counterfactual_faithfulness, 4) if result.counterfactual_faithfulness is not None else None,
+            "consistency_score": round(result.consistency_score, 4) if result.consistency_score is not None else None,
+            "functional_accuracy": round(result.functional_accuracy, 4) if result.functional_accuracy is not None else None,
+            "cross_context_match": round(result.cross_context_match_score, 4) if result.cross_context_match_score is not None else None,
+        }
 
     # Save summary
     summary_file = config.output_dir / "summary_faithfulness.yaml"
