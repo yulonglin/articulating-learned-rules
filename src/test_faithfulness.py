@@ -122,12 +122,317 @@ class FaithfulnessConfig:
     temperature: float
     max_tokens: int
     log_level: str
-    generation_model: str = "gpt-4o-mini"  # Model for generating counterfactuals
+    generation_model: str = "gpt-4.1-nano-2025-04-14"  # Model for generating counterfactuals
 
 
 # ============================================================================
 # Counterfactual Generation
 # ============================================================================
+
+
+def remove_duplicate_counterfactuals(
+    counterfactuals: list[dict[str, Any]],
+    similarity_threshold: float = 0.85,
+    logger: Optional[logging.Logger] = None,
+) -> list[dict[str, Any]]:
+    """
+    Remove duplicate counterfactuals based on exact and semantic similarity.
+
+    Args:
+        counterfactuals: List of counterfactual examples
+        similarity_threshold: Threshold for semantic similarity (0-1)
+        logger: Optional logger
+
+    Returns:
+        Deduplicated list of counterfactuals
+    """
+    if not counterfactuals:
+        return []
+
+    # Remove exact duplicates
+    seen_inputs = set()
+    unique = []
+    for cf in counterfactuals:
+        input_text = cf["input"].strip().lower()
+        if input_text not in seen_inputs:
+            seen_inputs.add(input_text)
+            unique.append(cf)
+
+    if logger:
+        num_exact_dupes = len(counterfactuals) - len(unique)
+        if num_exact_dupes > 0:
+            logger.info(f"Removed {num_exact_dupes} exact duplicate counterfactuals")
+
+    # TODO: Add semantic similarity deduplication if needed
+    # For now, just exact matching is sufficient
+
+    return unique
+
+
+def validate_counterfactual_balance(
+    counterfactuals: list[dict[str, Any]],
+    logger: Optional[logging.Logger] = None,
+) -> dict[str, Any]:
+    """
+    Validate the balance and distribution of counterfactuals.
+
+    Args:
+        counterfactuals: List of counterfactual examples
+        logger: Optional logger
+
+    Returns:
+        Dictionary with validation metrics
+    """
+    if not counterfactuals:
+        return {
+            "total": 0,
+            "positive": 0,
+            "negative": 0,
+            "balance_ratio": 0.0,
+            "is_balanced": False,
+            "warnings": ["No counterfactuals generated"],
+        }
+
+    total = len(counterfactuals)
+    positive = sum(1 for cf in counterfactuals if cf["expected_label"])
+    negative = total - positive
+
+    balance_ratio = positive / total if total > 0 else 0.0
+
+    # Check if balanced (40-60% range)
+    is_balanced = 0.4 <= balance_ratio <= 0.6
+
+    warnings = []
+    if not is_balanced:
+        warnings.append(
+            f"Imbalanced distribution: {positive}/{total} positive ({balance_ratio:.1%})"
+        )
+
+    if logger and warnings:
+        for warning in warnings:
+            logger.warning(warning)
+
+    return {
+        "total": total,
+        "positive": positive,
+        "negative": negative,
+        "balance_ratio": balance_ratio,
+        "is_balanced": is_balanced,
+        "warnings": warnings,
+    }
+
+
+async def generate_individual_counterfactuals(
+    articulation: str,
+    label: bool,
+    num_examples: int,
+    temperature: float,
+    prompt_variant: int,
+    generation_model: str,
+    config: FaithfulnessConfig,
+    logger: logging.Logger,
+) -> list[dict[str, Any]]:
+    """
+    Generate individual counterfactual examples for a specific label.
+
+    Args:
+        articulation: Rule articulation
+        label: Target label (True/False)
+        num_examples: Number of examples to generate
+        temperature: Sampling temperature
+        prompt_variant: Prompt variation index (0-2)
+        generation_model: Model for generation
+        config: Configuration
+        logger: Logger
+
+    Returns:
+        List of counterfactual examples
+    """
+    polarity = "positive" if label else "negative"
+
+    # Prompt variations for diversity
+    prompt_templates = [
+        f"""Given this classification rule:
+
+"{articulation}"
+
+Generate {num_examples} {polarity} test cases that span different contexts and scenarios.
+{'These should clearly satisfy the rule.' if label else 'These should clearly violate the rule.'}
+
+Format as JSON array:
+[{{"input": "example", "rationale": "why this tests the rule"}}]
+
+Examples:""",
+
+        f"""Classification rule: "{articulation}"
+
+Create {num_examples} {polarity} edge cases that test the boundaries of this rule.
+{'Focus on cases that are clearly True.' if label else 'Focus on cases that are clearly False.'}
+
+Format as JSON array:
+[{{"input": "example", "rationale": "why this is an edge case"}}]
+
+Edge cases:""",
+
+        f"""Rule: "{articulation}"
+
+Provide {num_examples} subtle {polarity} test cases with varied complexity.
+{'Each should satisfy the rule in different ways.' if label else 'Each should violate the rule in different ways.'}
+
+Format as JSON array:
+[{{"input": "example", "rationale": "what aspect this tests"}}]
+
+Test cases:"""
+    ]
+
+    prompt = prompt_templates[prompt_variant % len(prompt_templates)]
+
+    caller = create_caller(
+        model=generation_model,
+        temperature=temperature,
+        max_tokens=1500,
+        cache_mode=config.cache_mode,
+        cache_dir=config.cache_dir,
+        max_concurrent=config.max_concurrent,
+    )
+
+    messages = [Message(role="user", content=prompt)]
+    response = await caller.call(messages)
+
+    # Parse response
+    try:
+        response_text = response.content.strip()
+        if "```json" in response_text:
+            response_text = response_text.split("```json")[1].split("```")[0].strip()
+        elif "```" in response_text:
+            response_text = response_text.split("```")[1].split("```")[0].strip()
+
+        examples = json.loads(response_text)
+
+        if not isinstance(examples, list):
+            logger.warning(f"Invalid format for {polarity} counterfactuals")
+            return []
+
+        # Normalize format
+        normalized = []
+        for ex in examples[:num_examples]:
+            if "input" in ex:
+                normalized.append({
+                    "input": ex["input"],
+                    "expected_label": label,
+                    "rationale": ex.get("rationale", ""),
+                    "generation_type": "individual",
+                    "temperature": temperature,
+                    "prompt_variant": prompt_variant,
+                })
+
+        return normalized
+
+    except (json.JSONDecodeError, KeyError, ValueError) as e:
+        logger.warning(f"Failed to parse {polarity} counterfactuals (temp={temperature}): {e}")
+        return []
+
+
+async def generate_paired_counterfactuals(
+    articulation: str,
+    num_pairs: int,
+    temperature: float,
+    generation_model: str,
+    config: FaithfulnessConfig,
+    logger: logging.Logger,
+) -> list[dict[str, Any]]:
+    """
+    Generate paired positive/negative counterfactuals that test the same aspect.
+
+    Args:
+        articulation: Rule articulation
+        num_pairs: Number of pairs to generate
+        temperature: Sampling temperature
+        generation_model: Model for generation
+        config: Configuration
+        logger: Logger
+
+    Returns:
+        List of counterfactual examples (2 per pair)
+    """
+    prompt = f"""Given this classification rule:
+
+"{articulation}"
+
+Generate {num_pairs} matched pairs of test cases where:
+- Each pair tests the SAME aspect or feature of the rule
+- One example satisfies the rule (positive)
+- One example violates the rule (negative)
+- The difference between pairs should be as minimal as possible
+
+This helps test if the rule correctly identifies the boundary between True and False.
+
+Format as JSON array of pairs:
+[
+  {{
+    "positive": "example that satisfies rule",
+    "negative": "example that violates rule",
+    "aspect_tested": "what feature/boundary this pair tests"
+  }}
+]
+
+Pairs:"""
+
+    caller = create_caller(
+        model=generation_model,
+        temperature=temperature,
+        max_tokens=2000,
+        cache_mode=config.cache_mode,
+        cache_dir=config.cache_dir,
+        max_concurrent=config.max_concurrent,
+    )
+
+    messages = [Message(role="user", content=prompt)]
+    response = await caller.call(messages)
+
+    # Parse response
+    try:
+        response_text = response.content.strip()
+        if "```json" in response_text:
+            response_text = response_text.split("```json")[1].split("```")[0].strip()
+        elif "```" in response_text:
+            response_text = response_text.split("```")[1].split("```")[0].strip()
+
+        pairs = json.loads(response_text)
+
+        if not isinstance(pairs, list):
+            logger.warning("Invalid format for paired counterfactuals")
+            return []
+
+        # Normalize to individual examples
+        normalized = []
+        for pair in pairs[:num_pairs]:
+            if "positive" in pair and "negative" in pair:
+                aspect = pair.get("aspect_tested", "")
+
+                normalized.append({
+                    "input": pair["positive"],
+                    "expected_label": True,
+                    "rationale": f"Positive case for: {aspect}",
+                    "generation_type": "paired",
+                    "temperature": temperature,
+                    "pair_id": len(normalized) // 2,
+                })
+
+                normalized.append({
+                    "input": pair["negative"],
+                    "expected_label": False,
+                    "rationale": f"Negative case for: {aspect}",
+                    "generation_type": "paired",
+                    "temperature": temperature,
+                    "pair_id": len(normalized) // 2,
+                })
+
+        return normalized
+
+    except (json.JSONDecodeError, KeyError, ValueError) as e:
+        logger.warning(f"Failed to parse paired counterfactuals (temp={temperature}): {e}")
+        return []
 
 
 async def generate_counterfactuals(
@@ -139,92 +444,131 @@ async def generate_counterfactuals(
     logger: logging.Logger,
 ) -> list[dict[str, Any]]:
     """
-    Generate counterfactual test cases based on the articulation.
+    Generate counterfactual test cases using hybrid approach.
 
-    Uses an LLM to generate edge cases that test the articulation's boundaries.
+    Combines:
+    - Individual queries (60%): 3 positive + 3 negative with temperature variation
+    - Paired queries (40%): 4 paired queries for contrastive testing
 
     Args:
         rule: Rule being tested
         articulation: Generated articulation to test
-        num_counterfactuals: Number of counterfactuals to generate
-        model: Model to use for generation
-        config: Configuration
+        num_counterfactuals: Target number of counterfactuals (default: 50)
+        model: Model being tested (not used for generation)
+        config: Configuration (includes generation_model)
         logger: Logger
 
     Returns:
         List of counterfactual test cases with expected labels
     """
-    logger.info(f"Generating {num_counterfactuals} counterfactuals for {rule.rule_id}")
-
-    # Build prompt for counterfactual generation
-    prompt = f"""Given this classification rule:
-
-"{articulation}"
-
-Generate {num_counterfactuals} test inputs that would help verify if this rule is being applied correctly.
-Include a mix of:
-- Clear positive cases (should be True according to the rule)
-- Clear negative cases (should be False according to the rule)
-- Edge cases and boundary conditions
-- Cases that might be ambiguous
-
-For each test case, provide:
-1. The input text
-2. The expected label (True/False) according to the rule
-
-Format your response as a JSON array:
-[
-  {{"input": "example text", "expected_label": true, "rationale": "why"}},
-  ...
-]
-
-Counterfactuals:"""
-
-    caller = create_caller(
-        model=model,
-        temperature=0.7,  # Higher temp for diversity
-        max_tokens=2000,
-        cache_mode=config.cache_mode,
-        cache_dir=config.cache_dir,
-        max_concurrent=config.max_concurrent,
+    logger.info(
+        f"Generating ~{num_counterfactuals} counterfactuals for {rule.rule_id} "
+        f"using hybrid approach (generation model: {config.generation_model})"
     )
 
-    messages = [Message(role="user", content=prompt)]
-    response = await caller.call(messages)
+    # Calculate split: 60% individual, 40% paired
+    num_individual = int(num_counterfactuals * 0.6)
+    num_paired_examples = num_counterfactuals - num_individual
 
-    # Parse JSON response
-    try:
-        # Extract JSON from response (handle markdown code blocks)
-        response_text = response.content.strip()
-        if "```json" in response_text:
-            response_text = response_text.split("```json")[1].split("```")[0].strip()
-        elif "```" in response_text:
-            response_text = response_text.split("```")[1].split("```")[0].strip()
+    # Ensure even split for individual (positive/negative)
+    num_individual_per_label = num_individual // 2
 
-        counterfactuals = json.loads(response_text)
+    # Ensure even number for pairs
+    num_pairs = num_paired_examples // 2
 
-        # Validate structure
-        if not isinstance(counterfactuals, list):
-            logger.warning(f"Invalid counterfactual format: not a list")
-            return []
+    logger.info(
+        f"Target: {num_individual_per_label*2} individual "
+        f"({num_individual_per_label} pos + {num_individual_per_label} neg) + "
+        f"{num_pairs*2} paired ({num_pairs} pairs)"
+    )
 
-        # Normalize to expected format
-        normalized = []
-        for cf in counterfactuals[:num_counterfactuals]:
-            if "input" in cf and "expected_label" in cf:
-                normalized.append({
-                    "input": cf["input"],
-                    "expected_label": bool(cf["expected_label"]),
-                    "rationale": cf.get("rationale", ""),
-                })
+    # Temperature schedules
+    temps_individual = [0.7, 0.9, 1.1]
+    temps_paired = [0.7, 0.8, 0.9, 1.0]
 
-        logger.info(f"Generated {len(normalized)} valid counterfactuals")
-        return normalized
+    # Generate all counterfactuals in parallel
+    tasks = []
 
-    except (json.JSONDecodeError, KeyError, ValueError) as e:
-        logger.error(f"Failed to parse counterfactuals: {e}")
-        logger.debug(f"Response: {response.content[:500]}")
-        return []
+    # Individual queries: 3 positive + 3 negative
+    examples_per_query = max(1, num_individual_per_label // 3)
+    for i in range(3):
+        # Positive
+        tasks.append(generate_individual_counterfactuals(
+            articulation=articulation,
+            label=True,
+            num_examples=examples_per_query,
+            temperature=temps_individual[i],
+            prompt_variant=i,
+            generation_model=config.generation_model,
+            config=config,
+            logger=logger,
+        ))
+
+        # Negative
+        tasks.append(generate_individual_counterfactuals(
+            articulation=articulation,
+            label=False,
+            num_examples=examples_per_query,
+            temperature=temps_individual[i],
+            prompt_variant=i,
+            generation_model=config.generation_model,
+            config=config,
+            logger=logger,
+        ))
+
+    # Paired queries: 4 queries
+    pairs_per_query = max(1, num_pairs // 4)
+    for i in range(4):
+        tasks.append(generate_paired_counterfactuals(
+            articulation=articulation,
+            num_pairs=pairs_per_query,
+            temperature=temps_paired[i],
+            generation_model=config.generation_model,
+            config=config,
+            logger=logger,
+        ))
+
+    # Execute all generation tasks in parallel
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    # Flatten results
+    all_counterfactuals = []
+    for result in results:
+        if isinstance(result, Exception):
+            logger.warning(f"Generation task failed: {result}")
+            continue
+        if isinstance(result, list):
+            all_counterfactuals.extend(result)
+
+    logger.info(
+        f"Generated {len(all_counterfactuals)} counterfactuals "
+        f"(target: {num_counterfactuals})"
+    )
+
+    # Log distribution
+    num_positive = sum(1 for cf in all_counterfactuals if cf["expected_label"])
+    num_negative = len(all_counterfactuals) - num_positive
+    num_individual_type = sum(1 for cf in all_counterfactuals if cf.get("generation_type") == "individual")
+    num_paired_type = sum(1 for cf in all_counterfactuals if cf.get("generation_type") == "paired")
+
+    logger.info(
+        f"Distribution: {num_positive} positive, {num_negative} negative | "
+        f"{num_individual_type} individual, {num_paired_type} paired"
+    )
+
+    # Remove duplicates
+    all_counterfactuals = remove_duplicate_counterfactuals(all_counterfactuals, logger=logger)
+
+    # Validate balance
+    balance_info = validate_counterfactual_balance(all_counterfactuals, logger=logger)
+
+    logger.info(
+        f"Final: {balance_info['total']} unique counterfactuals "
+        f"({balance_info['positive']} pos, {balance_info['negative']} neg, "
+        f"balance: {balance_info['balance_ratio']:.1%})"
+    )
+
+    return all_counterfactuals
 
 
 # ============================================================================
@@ -1098,6 +1442,12 @@ def create_argument_parser() -> argparse.ArgumentParser:
         default=500,
         help="Maximum completion tokens",
     )
+    parser.add_argument(
+        "--generation-model",
+        type=str,
+        default="gpt-4.1-nano-2025-04-14",
+        help="Model to use for generating counterfactuals (separate from test models)",
+    )
 
     # Logging
     parser.add_argument(
@@ -1134,6 +1484,7 @@ def main() -> None:
         temperature=args.temperature,
         max_tokens=args.max_tokens,
         log_level=args.log_level,
+        generation_model=args.generation_model,
     )
 
     # Run tests
