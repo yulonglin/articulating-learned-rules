@@ -1,0 +1,250 @@
+{
+  "rule_id": "Numeric Pattern_gpt_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as positive if the input contains a date in the format 'DD/MM/YYYY' or 'Month Day, Year'; otherwise negative.",
+  "generated_articulation": "The input should be classified as **True** if it contains a date (in any format: month name with day/year, or numerical date format like DD/MM/YYYY). The input should be classified as **False** if it contains no date information and is just a random word or phrase.",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "The conference will be held on September 15, 2023 at the downtown convention center.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The deadline for submissions is 23/11/2023, so please submit your papers before then.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event is scheduled for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the document and send your feedback.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for March 5, 2023",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Deadline: 15/09/2024",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "meeting scheduled next week",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The words are random and do not include any date",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The conference will be held on July 15, 2024, at the main auditorium.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our meeting is scheduled for 21/09/2022 to discuss the project milestones.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Meeting scheduled for July 15th at noon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The system window Suddenly minimizes without warning.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for March 15, 2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Let's meet on March 15, 2023 to discuss the project.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Let's meet to discuss the project.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Meeting scheduled on August 15, 2023.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Meeting scheduled on August 15, 2023",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Meeting scheduled on 12/05/2021 next week.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Meeting scheduled on next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.8947368421052632,
+  "consistency_tests": [
+    {
+      "input": "Meeting on 25/2/2020",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"Meeting on 25/2/2020\" contains a date in numerical format (DD/MM/YYYY), specifically **25/2/2020** (February 25th, 2020).\n\nAccording to the classification rule, inputs containing dates in any format—including numerical date formats like DD/MM/YYYY—should be classified as **True**.\n\nSince this input clearly includes date information and is not just a random word or phrase, it meets the criteria for a **True** classification.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "Meeting on 1/7/2022",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification Result\n\n**Classification: True**\n\n## Explanation\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Date Present**: The input contains a date in numerical format: **1/7/2022**\n2. **Format Match**: This follows the DD/MM/YYYY (or MM/DD/YYYY) numerical date format specified in the classification rule\n3. **Rule Application**: The rule states that inputs containing dates in any format should be classified as True, and this input clearly contains date information\n\nThe phrase \"Meeting on\" provides context, but the critical element is the presence of the date **1/7/2022**, which satisfies the condition for a True classification.",
+      "word_overlap": 0.55,
+      "classification_correct": true
+    },
+    {
+      "input": "Meeting on July 9, 2023",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification Result\n\n**Classification: True**\n\n## Explanation\n\nThis input contains a date in the format of **month name with day and year** (\"July 9, 2023\"), which matches the first criterion specified in the classification rule.\n\nBreaking it down:\n- **Month name**: July ✓\n- **Day**: 9 ✓\n- **Year**: 2023 ✓\n\nSince the input includes date information in an explicit and recognizable format, it satisfies the condition for classification as **True**. The presence of the date \"July 9, 2023\" means this is not just a random word or phrase—it contains meaningful temporal information.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "Meeting on April 22, 2022",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification Result\n\n**Classification: True**\n\n## Explanation\n\nThis input contains a date in the format of **month name with day and year** (\"April 22, 2022\"), which matches the first criterion specified in the classification rule.\n\nBreaking it down:\n- **Month name**: April ✓\n- **Day**: 22 ✓\n- **Year**: 2022 ✓\n\nSince the input includes date information in an explicit and recognizable format, it satisfies the condition for classification as **True**. The presence of the date makes this more than just a random word or phrase—it conveys specific temporal information.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "Meeting on August 10, 2023",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification Result\n\n**Classification: True**\n\n## Explanation\n\nThis input contains a date in the format of **month name with day and year** (\"August 10, 2023\"), which matches the first criterion specified in the classification rule.\n\nBreaking it down:\n- **Month name**: August ✓\n- **Day**: 10 ✓\n- **Year**: 2023 ✓\n\nSince the input includes date information in an explicit and recognizable format, it satisfies the condition for classification as **True**. The input is not a random word or phrase—it contains meaningful temporal information.",
+      "word_overlap": 0.65,
+      "classification_correct": true
+    },
+    {
+      "input": "quick",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThe input \"quick\" is a single adjective with no date information in any format. \n\nAccording to the rule, the input should be classified as **True** only if it contains a date (in any format such as month name with day/year, or numerical formats like DD/MM/YYYY). Since \"quick\" is just a random word with no temporal or date-related information whatsoever, it meets the criteria for **False** classification.",
+      "word_overlap": 0.95,
+      "classification_correct": null
+    },
+    {
+      "input": "sample",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification Result\n\n**Classification: False**\n\n## Explanation\n\nThe input \"sample\" contains no date information in any format. It is simply a random word with no:\n- Month names (January, February, etc.)\n- Day numbers\n- Year numbers\n- Numerical date formats (DD/MM/YYYY, MM/DD/YYYY, etc.)\n- Any other temporal indicators\n\nAccording to the classification rule, since this input contains no date information and is just a random word, it should be classified as **False**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "fox",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThe input \"fox\" is a single random word with no date information in any format. \n\nAccording to the classification rule, the input should be classified as **False** if it contains no date information and is just a random word or phrase.\n\nSince \"fox\" contains:\n- No month names (January, February, etc.)\n- No day numbers\n- No year information\n- No numerical date format (DD/MM/YYYY, MM/DD/YYYY, etc.)\n\nIt is simply a random word, therefore it meets the criteria for a **False** classification.",
+      "word_overlap": 0.85,
+      "classification_correct": true
+    },
+    {
+      "input": "cat",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThe input \"cat\" contains no date information in any format. It is simply a random word (a noun referring to an animal) with no:\n- Month names\n- Day or year numbers\n- Numerical date format (DD/MM/YYYY, MM/DD/YYYY, etc.)\n- Any temporal indicators\n\nAccording to the classification rule, since the input contains no date information and is just a random word, it should be classified as **False**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "sat",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThe input \"sat\" does not contain a date in any format. While \"sat\" could be an abbreviation for \"Saturday\" (a day of the week), it is not a complete date. According to the classification rule, a valid date must include:\n- A month name with day/year, OR\n- A numerical date format like DD/MM/YYYY\n\n\"Sat\" alone provides no specific date information (no day number, no month, no year). It is simply a word/abbreviation without date context, which falls under the \"random word or phrase\" category that should be classified as **False**.",
+      "word_overlap": 0.85,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.7599999999999999,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe pattern is: **Output is True if and only if the string contains a date.**\n\n## Breakdown:\n\n**True cases** - All contain dates in various formats:\n- \"Meeting on 25/2/2020\" → Contains date in DD/M/YYYY format\n- \"Meeting on 1/7/2022\" → Contains date in D/M/YYYY format\n- \"Meeting on July 9, 2023\" → Contains date in Month Day, Year format\n- \"Meeting on April 22, 2022\" → Contains date in Month Day, Year format\n- \"Meeting on August 10, 2023\" → Contains date in Month Day, Year format\n\n**False cases** - None contain dates:\n- \"quick\", \"sample\", \"fox\", \"cat\", \"sat\" → All are just random words with no date information\n\nThe presence of a date (regardless of format) triggers True, while the absence of any date triggers False.",
+  "cross_context_match_score": 0.6
+}

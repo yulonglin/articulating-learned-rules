@@ -1,0 +1,218 @@
+{
+  "rule_id": "entropy_threshold_low_claude_001",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the Shannon entropy of character distribution is below 4.2 bits, suggesting repetitive or predictable character patterns.",
+  "generated_articulation": "The classification rule is:  \n**Texts that are short, simple, and contain minimal or no meaningful content (e.g., very brief or trivial statements) are classified as True; longer, more meaningful or idiomatic expressions are classified as False.**",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "Hi.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "OK.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you believe how complicated this situation has become?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Yes.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Okay.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Good morning!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Could you please turn off the light?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is blue.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "OK",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Okay",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello, how are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hi!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hi, how are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hi everyone, how are you doing today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5333333333333333,
+  "consistency_tests": [
+    {
+      "input": "Bye!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Bye!\" is a very short, simple, and minimal statement with little meaningful content beyond a casual farewell. According to the classification rule, such brief and trivial expressions are classified as True.",
+      "word_overlap": 0.6190476190476191,
+      "classification_correct": true
+    },
+    {
+      "input": "Nice!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Nice!\" is very short, simple, and contains minimal content—just a single word with an exclamation mark. According to the classification rule, such brief and trivial statements are classified as True because they lack substantial or meaningful content.",
+      "word_overlap": 0.6190476190476191,
+      "classification_correct": true
+    },
+    {
+      "input": "aaaaaa",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"aaaaaa\" is very short, consisting of only six repeated characters with no meaningful content or complexity. According to the classification rule, texts that are short, simple, and contain minimal or no meaningful content are classified as True. Since \"aaaaaa\" fits this description—being brief and trivial—it is classified as True.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "Hmm.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Hmm.\" is very short, simple, and contains minimal content—just a brief interjection with no meaningful or idiomatic expression. According to the classification rule, such brief and trivial statements are classified as True.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "Yes yes yes yes yes.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Yes yes yes yes yes.\" is a short, repetitive, and simple statement with minimal meaningful content beyond affirmation. According to the classification rule, such brief and trivial expressions are classified as True because they are short, simple, and contain minimal meaningful content.",
+      "word_overlap": 0.6190476190476191,
+      "classification_correct": true
+    },
+    {
+      "input": "When in Rome, do as the Romans do.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts that are longer, more meaningful, or idiomatic are classified as False. The input \"When in Rome, do as the Romans do.\" is an idiomatic expression conveying a meaningful cultural guideline. Although it is relatively brief, it is a well-known proverb with significant meaning, which aligns with the criterion for being classified as False. Therefore, despite its brevity, its idiomatic and meaningful nature leads to a False classification.",
+      "word_overlap": 0.5238095238095238,
+      "classification_correct": true
+    },
+    {
+      "input": "This sentence has a mix of different letters and numbers.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts that are short, simple, and contain minimal or no meaningful content are classified as True, while longer, more meaningful or idiomatic expressions are classified as False. The input \"This sentence has a mix of different letters and numbers.\" is a relatively longer sentence that conveys meaningful information about its content. It is not brief or trivial, and it contains descriptive content about the composition of the sentence itself. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.9047619047619048,
+      "classification_correct": null
+    },
+    {
+      "input": "Jack of all trades, master of none.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation: The phrase \"Jack of all trades, master of none\" is a well-known idiomatic expression. It is relatively short but contains meaningful content conveying a specific idea or lesson. According to the classification rule, texts that are longer and more meaningful or idiomatic are classified as False. However, since this phrase is concise and idiomatic, it falls into the category of meaningful expressions, which should be classified as False.  \n**Correction:** Given the rule, the correct classification should be **False** because it is an idiomatic expression with meaningful content.  \n\n**Final answer:**  \n**Classification: False**  \n**Reasoning:** The input is an idiomatic expression with meaningful content, fitting the criterion for False classification.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Better late than never.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The phrase \"Better late than never\" is a short, simple idiomatic expression that conveys a meaningful idea in a concise manner. According to the classification rule, such brief and idiomatic statements are classified as True because they contain minimal content and are not lengthy or complex.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": false
+    },
+    {
+      "input": "Hello, world! Today is a sunny day.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Hello, world! Today is a sunny day.\" is relatively short and simple, containing basic greetings and a straightforward statement about the weather. It lacks complex or idiomatic language and does not convey deep or meaningful content. According to the classification rule, such brief and trivial statements are classified as True because they are minimal in content and straightforward, fitting the criteria for True classification.",
+      "word_overlap": 0.6190476190476191,
+      "classification_correct": false
+    }
+  ],
+  "consistency_score": 0.661904761904762,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the examples carefully:\n\n**Examples where the output is True:**\n- \"Bye!\"\n- \"Nice!\"\n- \"aaaaaa\"\n- \"Hmm.\"\n- \"Yes yes yes yes yes.\"\n\n**Examples where the output is False:**\n- \"When in Rome, do as the Romans do.\"\n- \"This sentence has a mix of different letters and numbers.\"\n- \"Jack of all trades, master of none.\"\n- \"Better late than never.\"\n- \"Hello, world! Today is a sunny day.\"\n\n---\n\n### Observations:\n\n1. **True examples:**\n   - They are short or repetitive.\n   - \"Bye!\", \"Nice!\", \"Hmm.\" are short sentences or words.\n   - \"aaaaaa\" is a string of repeated characters.\n   - \"Yes yes yes yes yes.\" is a repeated phrase.\n\n2. **False examples:**\n   - Longer sentences with varied vocabulary.\n   - Sentences with multiple words, mixed letters, and punctuation.\n   - No obvious repetition or pattern in content.\n\n---\n\n### Hypothesis:\n\n**The pattern seems to be related to whether the input is a single word or a phrase with repeated words or characters, possibly with minimal variation.**\n\n### More detailed analysis:\n\n- **\"aaaaaa\"**: a string of the same character repeated multiple times → **True**\n- **\"Bye!\"** and **\"Nice!\"**: single words, possibly with exclamation mark → **True**\n- **\"Hmm.\"**: a single word with punctuation → **True**\n- **\"Yes yes yes yes yes.\"**: multiple repetitions of the same word → **True**\n\nIn contrast:\n\n- Longer sentences with different words and no repetition → **False**\n- Sentences with mixed content, multiple words, and no repetition → **False**\n\n---\n\n### Final Pattern:\n\n**The output is True if and only if the input is either:**\n\n- A single word (possibly with punctuation), **or**\n- A phrase consisting of **the same word repeated multiple times** (with or without punctuation).\n\n**Otherwise, the output is False.**\n\n---\n\n### Summary:\n\n**Pattern:**  \n> The function returns **True** if the input is either a single word (with optional punctuation) or a phrase where the same word is repeated multiple times (with optional punctuation).  \n> It returns **False** for sentences with multiple different words, varied content, or complex structures.\n\n---\n\n**In other words:**  \n> **True** when",
+  "cross_context_match_score": 0.3333333333333333
+}

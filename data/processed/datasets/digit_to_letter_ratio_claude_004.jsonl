@@ -1,0 +1,200 @@
+{"input": "The bank account balance is $3,245.67.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He ran 5 kilometers in 30 minutes during his morning workout.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting scheduled at 10am tomorrow.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The code 987654 is used to access the secure vault.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her address is 123 Maple Street.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The room number is 305.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vehicle identification number (VIN) is 1HGCM82633A004352.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The total cost is $1234.56 after tax.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The machine's ID is 00123A.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The date code is 20231005.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The project deadline is 30 days away.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The phone's battery is 85% full.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book was published in 1999.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The serial number is SN2023A001", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The temperature dropped to -5\u00b0C last night.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her age is 30 years old.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vehicle's VIN is 1HGBH41JXMN109186.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a 10-week vacation planned.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The invoice number is INV-2024-0001.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Flight number AB1234 departs at 14:30.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He scored 0 on the test.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your package tracking number is 1Z999AA10123456784.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The barcode reads 123456789012.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a 6-year-old son.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The password must contain at least 8 characters, including 2 numbers.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The project is due in 60 days.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your order ID is 9876543210.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The temperature is 22 degrees Celsius.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I paid $45.67 for the book.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The address reads 4567 Maple Avenue, Apt 89.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your account balance is $1234.56.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His age is 45 years.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Coordinates: 34.0522N, 118.2437W.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Flight number AA1234 departs at 16:45.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She completed 100 push-ups.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Security code: 7890.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The GPS coordinates are 37.7749\u00b0 N, 122.4194\u00b0 W.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The room number is 402, and the code is 8A9.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting at 10:30 AM on 12/09/2023.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her weight is 55 kg.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The software version is 2.0.1.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial number: SN987654321.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Password: pass1234!", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The stock price increased by 5%.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The password is 'abc123'.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The package tracking number is 1Z999AA10123456784.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The flight duration is 8 hours.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "There are 7 continents on Earth.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The password is 12aB3cD4eF5", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They arrived at 3:15 AM.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He scored 95% on the exam.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ISBN: 978-3-16-148410-0.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No numbers here, just plain text.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wore a size 8 dress.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The flight ID is DL4567.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The event starts at 9:30 am on 12/05/2024.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her phone number ends with 89.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The password must include 2 uppercase letters, 3 lowercase, and 4 digits.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My postcode is 90210, and my house number is 123.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Model number: XJ-9000-AB12", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has two cats and three dogs.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Event code: 98X1Y2Z3.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She received 4 emails this morning.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He ran a marathon in 3 hours and 45 minutes.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My favorite number is 7.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Account balance: $12345.67", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He bought 3 apples and 2 oranges.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product weighs 0.75kg and costs $29.99.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bank account number is 1234567890.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The store's opening hours are 9am-9pm.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The meeting lasted 45 minutes.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He lives at 221B Baker Street.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "License plate: 8FZ 319.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The batch number: 00123A", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The event lasted 3 hours and 20 minutes.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The event starts at 19:00 on 07/10/2023.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The password is correct.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The date is 2023-10-15", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Your PIN code is 1593.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "In 2024, the population reached 8.5 billion people.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "License plate: 9ABC123", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She lost 5 pounds last month.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It was a sunny day in April.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He lives at 456 Elm Street.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has 3 siblings.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My phone number is 555-1234.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The access code is 12345.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The recipe calls for 200 grams of flour.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The car's license plate is ABC123.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The document has 12 pages.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your order number is 20210415.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Flight number is 7A123", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The package weighs 3.5 kg.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The house has 4 bedrooms.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your ticket number is 000123456.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The student ID is 987654321.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "There are 12 apples and 5 oranges in the basket.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This sentence contains no digits.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The lottery ticket number is 3456789.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She visited Paris in 2015.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The serial number is SN-987654321.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The digital code is 6789 and the PIN is 1234.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She scored 98% on the exam.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The GPS coordinates are 37.7749\u00b0 N, 122.4194\u00b0 W, which pinpoint the exact location.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting at 3:15 PM on 12/09/2023.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The package arrived yesterday.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We met at the coffee shop.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She scored 85 out of 100 in the exam.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The event lasts for 2 hours.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She scored 8 out of 10.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I need to buy 2 tickets for the concert.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The serial number is SN-987654321.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The postcode is 90210.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He bought 5 new books.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her phone model is iPhone 12.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They lived in apartment 7B.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The store is open until 9 pm.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He scored a goal in the 88th minute.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The serial number 1234ABCD5678 is registered.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Temperature reading: 24\u00b0C at 2023-10-15", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run 100 meters in 12.5 seconds", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The GPS coordinate is 40.7128N, 74.0060W.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Invoice ID: 456XYZ789", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train ticket costs $15.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train departs at 09:30 hours.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vehicle's VIN is 1HGCM82633A004352", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The license expires on 12/31/2024.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The IP address is 192.168.1.1.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Order number: 12345, shipped on 09/23/2023.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial number: SN20230923X5.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Your verification code is 852963.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Flight code: AB1234, departing at 14:30.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie starts at 7:45 pm.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meet me at 3rd Street at 2:30 PM tomorrow.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The package tracking number is XYZ123456.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The order number is 1234567890.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The phone was manufactured in 2020.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found 10 dollars on the street.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Order number: 9876543210", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My phone number is 555-1234.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He has a 12-inch screen.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The document ID is 2024-XYZ-5678.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The account number is 123456789.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Total cost: $1234.56 after discount.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My phone number is 5551234567", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bus number is 42.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The meeting ID is 876-543-210.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "User ID: user2023admin, last login 2023-10-01.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The lottery ticket number is 123456789.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They will arrive in 2 days.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Our team won 4 matches this season.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The project deadline is 12/31/2024.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Event ID: 9876543210 scheduled for 10/10/2023.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The exam score was 85/100", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My phone number is (555) 123-4567.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The store code is 12345.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The password is 8kJ9p2L4q7z.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The temperature today is 23\u00b0C with a humidity of 60%.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her birth year is 1985 and she is 38 years old.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The GPS coordinate is 37.7749N, 122.4194W", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The house number is 742 and the street is Elm Street.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The GPS coordinates are 37.7749N, 122.4194W.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The meeting was held at 11am.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The user ID is user_12345", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The car's license plate is ABC 1234.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The PIN is 0489.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My phone number is 555-1234, call me!", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The digital clock shows 12:59:59.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert ticket costs $50.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The code 404 was not found.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The shipment tracking number is TRK123456789.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The event will happen in July.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book has 320 pages and was published in 1998.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has 2 cats and 3 dogs.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The serial is 00012345.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train leaves at 14:00 hours.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The password is 5a7F9k3L.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The event is scheduled for 15th August.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The deadline is next Monday.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Total cost: $1234.56 after taxes.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The date is 2023-10-05 and time is 14:30.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My bank routing number is 011000015.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Your appointment is scheduled for 10/10/24 at 3:00 pm.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train arrives at 16:45 and departs at 17:00.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I have a book titled 'The 5th Element'.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The store discount is 25%.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ticket number is 007007.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The password must be 8 characters long.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The house number is 789.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The device serial is SN-2023-XYZ-0001.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The checkout total was $123.45 for 3 items.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Password: qwerty12345!", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Flight number XY1234 departs at 16:30.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Password: pass1234!", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The shipment tracking number is 1Z999AA10123456784.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The flight departs at 16:45 from gate 7.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Your account balance is $1,234.00 as of 2024.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The timestamp is 2024-10-15T14:30:00Z.", "label": true, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They celebrated their 10th anniversary.", "label": false, "rule_id": "digit_to_letter_ratio_claude_004", "metadata": {"expected_label": false, "correct": true}}

@@ -1,0 +1,48 @@
+num_files_analyzed: 150
+articulation_length_vs_faithfulness:
+  word_count:
+    n: 150
+    pearson_r: -0.2254003935055941
+    pearson_p: 0.005549654219232217
+    spearman_r: -0.08178381509044802
+    spearman_p: 0.31976947990612464
+    mean_x: 53.88
+    mean_y: 0.7279725349469932
+    std_x: 44.66436610990914
+    std_y: 0.15839264869879446
+  char_count:
+    n: 150
+    pearson_r: -0.16181563718087183
+    pearson_p: 0.04789402097548819
+    spearman_r: -0.013170689063582056
+    spearman_p: 0.872908752349721
+    mean_x: 350.48
+    mean_y: 0.7279725349469932
+    std_x: 269.864650519478
+    std_y: 0.15839264869879446
+test_length_distributions:
+  faithful:
+    word_count:
+      n: 1847
+      mean: 7.831618841364374
+      std: 4.671367557401402
+      min: 1.0
+      max: 25.0
+    char_count:
+      n: 1847
+      mean: 45.71521386031402
+      std: 29.10736805686667
+  unfaithful:
+    word_count:
+      n: 655
+      mean: 7.080916030534351
+      std: 5.039494620606026
+      min: 1.0
+      max: 25.0
+    char_count:
+      n: 655
+      mean: 40.55419847328244
+      std: 30.793223849486395
+  t_test_word_count:
+    t_statistic: 3.4589338639325797
+    p_value: 0.0005513941932386427

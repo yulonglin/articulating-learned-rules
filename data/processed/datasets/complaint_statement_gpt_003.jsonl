@@ -1,0 +1,200 @@
+{"input": "The hairdresser cut my hair way shorter than I wanted.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The delivery arrived exactly when promised, in perfect condition.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The subscription renewal charged me unexpectedly.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The flight was smooth, and the crew was courteous throughout.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The flight was smooth and on time.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new software features are very useful.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert tickets were overpriced for the experience.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The website crashed multiple times during checkout.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The software's interface is cluttered and hard to navigate.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The photo quality is much worse than advertised.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden blooms with beautiful flowers each spring.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The puzzle game challenges my mind in a good way.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The car's fuel efficiency is remarkable.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The furniture assembly instructions were confusing.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The jewelry design is elegant and timeless.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The meditation session left me feeling refreshed.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel bathroom was moldy and poorly maintained.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bakery's bread is freshly baked daily.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The software update caused more problems than it solved.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The room was dirty and smelled bad.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The weather app provides accurate forecasts.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The haircut was uneven and poorly done.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The flight was overcrowded and uncomfortable.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online course provided valuable insights.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I appreciate how easy the interface is to navigate.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The dance class improved my confidence.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clothing material feels cheap and uncomfortable.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I love the vibrant colors of this artwork.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Delivery took twice as long as promised.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I enjoyed the variety of options available at the buffet.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The smartphone's screen cracked easily.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The park is perfect for a weekend picnic.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The print quality on the shirt was terrible.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The taxi driver was rude and aggressive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The language app helps me learn quickly.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rental property was not as described online.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The product's user manual was completely useless.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The gym equipment was modern and well-maintained.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The Wi-Fi connection dropped constantly.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The scenic train route is a must-try.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The home cleaning service was thorough and efficient.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel bed was uncomfortable and noisy.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This phone battery drains too quickly.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The community event brought neighbors together.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The knitting patterns are easy to follow.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online experience was frustrating and confusing.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new fashion collection is very stylish.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Customer service was very attentive and helpful.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel check-in process was tedious and slow.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The website design is user-friendly and modern.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new update made the app faster and more intuitive.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert tickets were overpriced for such a mediocre performance.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The public transportation was often delayed.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The children's museum has interactive exhibits.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online reviews were misleading.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The food was cold and tasteless.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online marketplace has a wide selection.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The exhibit displayed fascinating artifacts from ancient civilizations.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The gym equipment was broken and unsafe.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert sound quality was terrible.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The server was down during the busiest hours.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The service at the cafe was slow and inattentive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The local theater offers excellent performances.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city tour offered fascinating insights into local history.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The software update fixed many bugs.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cleaning product left stains on my surfaces.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The gym equipment is well-maintained and clean.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online course content was outdated.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The software is full of bugs and crashes frequently.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online magazine features diverse topics.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The herbal tea has a soothing aroma.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Customer service was friendly and attentive throughout our stay.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The airline's in-flight entertainment was broken.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online class was poorly structured and boring.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The camping gear is durable and reliable.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tech support was unhelpful and dismissive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I found the restaurant's ambiance quite charming.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online support was unhelpful and dismissive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The car rental was overpriced for the service provided.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The music selection at the event was diverse and enjoyable.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel room had bugs and was not clean.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This coffee shop has the best latte in town.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product arrived exactly as described.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new furniture complements the living room perfectly.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hiking trail offers breathtaking views.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product packaging was flimsy and torn.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline lost my luggage and didn't compensate.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The subscription service offers great value.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The teacher explained the concepts clearly.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cooking utensils are of high quality.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival was poorly organized and chaotic.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The service center delayed fixing my device multiple times.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train ride was scenic and comfortable.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My subscription was canceled without warning.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The art workshop sparked my creativity.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bakery's pastries were stale and overpriced.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The theme park was overcrowded and underwhelming.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This book offers unique insights that kept me engaged.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert was an unforgettable experience.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The delivery person was disrespectful and impatient.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new bicycle model is sleek and lightweight.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The app keeps freezing on my device.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The digital camera's image quality is disappointing.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The hotel room had a stunning view of the ocean.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ride was uncomfortable and the driver was rude, a terrible experience.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The product broke within a week, clearly low quality.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The charity event was well-organized and impactful.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The smartphone's camera quality is impressive.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The park was clean, safe, and perfect for a family picnic.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The yoga class helped me relax and stretch.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The scenery was breathtaking and made the trip worthwhile.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival had a great lineup of performers.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online support chat was unresponsive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The product arrived late and in damaged condition.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The language exchange meetup was enjoyable.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The beach resort has excellent amenities.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cooking class was fun and educational.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mobile game is addictive and fun.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The landscape view from the hotel room was stunning.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The coffee was stale and bitter.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The rental bike was broken and unsafe to ride.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mobile network coverage is unreliable in this area.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The instructions were confusing and unclear.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The food delivery app charges hidden fees.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The community library has a vast collection of books.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The service at the spa was incredibly relaxing.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product's warranty was difficult to claim.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The coffee shop's Wi-Fi was painfully slow.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The headphones broke after minimal use.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The food was cold and tasteless, definitely not worth the price.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I was disappointed with the slow delivery and missing items.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The kitchen appliances broke down within months.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The hotel room was dirty and smelled bad, not what was advertised.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The delivery was quick and hassle-free.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new feature on the device significantly improved my productivity.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bicycle ride through the park was invigorating.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The game has too many glitches and lags.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I loved the design and functionality of the new app update.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vintage store has a unique collection of items.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product's durability is questionable.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The subscription service kept charging me after cancellation.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The pet grooming service was gentle and caring.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The furniture arrived damaged and scratched.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The live event was poorly managed and chaotic.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The app crashes every time I try to open my profile, extremely frustrating.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The tour guide was uninformative and rude.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new headphones have exceptional sound quality.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The parking lot is often overcrowded and hard to find a spot.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The website's checkout process is confusing and causes multiple errors.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The restaurant's portions were tiny and overpriced.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The podcast offers insightful discussions.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The packaging was eco-friendly and attractive.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel was noisy and poorly maintained.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online marketplace has too many fake reviews.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline's seating was uncomfortable and cramped.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Customer service was unhelpful and dismissive throughout the entire call.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline's delays ruined my travel plans.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new update removed features I used daily, very inconvenient.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The meal was delicious and served promptly.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The staff was knowledgeable and eager to help with my questions.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The amusement park's staff were unfriendly and unhelpful.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert exceeded all my expectations with an incredible performance.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The outdoor concert was poorly organized.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The interior decor of the cafe is charming.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The streaming service's content library is limited.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The event was well-organized and ran smoothly from start to finish.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cleaning service missed several spots.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Customer service was unhelpful and rude.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online game is riddled with pay-to-win mechanics.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The botanical garden is a peaceful retreat.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I appreciated the prompt response to my inquiry.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The laundry service lost my clothes.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book's plot was engaging from start to finish.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The website's layout made it simple to find what I was looking for.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The photography course helped me improve my skills.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new policy negatively impacted my experience.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The subscription box is filled with delightful surprises.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online course offered comprehensive content and engaging instructors.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The camping trip was filled with adventure.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The museum's exhibits are very informative.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fitness app's tracking features are inaccurate.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The museum exhibits were dull and uninspiring.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The soap caused an allergic reaction.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I found the staff to be very dismissive.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie was boring and way too long.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our hotel stay exceeded all expectations.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tech conference showcased innovative ideas.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The customer support line was busy for hours.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline's check-in process was seamless.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The charity shop has a delightful variety of items.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The dress didn't fit as advertised.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The workshop provided valuable skills that I can apply immediately.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The spa treatment was rushed and ineffective.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online order was incorrect and had missing items.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The customer support refused to address my issue.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The phone's camera quality is subpar compared to competitors.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The product's packaging was eco-friendly and attractive.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The product stopped working after a week.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The rental car was filthy and smelled bad.", "label": true, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new recipe turned out delicious.", "label": false, "rule_id": "complaint_statement_gpt_003", "metadata": {"expected_label": false, "correct": true}}

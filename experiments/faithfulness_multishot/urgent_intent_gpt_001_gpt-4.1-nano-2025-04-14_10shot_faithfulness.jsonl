@@ -1,0 +1,242 @@
+{
+  "rule_id": "urgent_intent_gpt_001",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text indicates an urgent request or call for immediate action.",
+  "generated_articulation": "The classification rule is:  \n**Label texts as True if they explicitly mention an emergency, urgent situation, or immediate need for assistance or action (e.g., medical emergencies, hazards, threats, or critical incidents); otherwise, label them as False.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "There is a fire in the building, and we need emergency services immediately.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A person is experiencing chest pain and needs urgent medical attention.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team met to discuss the quarterly sales targets and strategize for the upcoming year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new policy updates will be implemented starting next month, with all employees required to review the documentation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The patient is experiencing severe chest pain and showing signs of a heart attack.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There has been a gas leak detected in the building, posing an immediate hazard to all occupants.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team is meeting to discuss the quarterly sales report.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the latest company policies at your convenience.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There's a strange smell coming from the basement that we haven't identified yet.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The patient hasn't responded to the medication, and the medical team is considering immediate intervention.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The team discussed the upcoming project deadline in their meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report highlights areas where safety improvements are recommended, but there is no immediate danger identified.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a medical emergency requiring immediate assistance.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "There is a medical situation that needs attention but no immediate help is required.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a medical situation, but no immediate assistance is needed now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a medical situation that should be addressed soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a medical emergency at the hospital, please send help immediately.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "There is a medical clinic nearby, please send help later.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.8888888888888888,
+  "consistency_tests": [
+    {
+      "input": "Urgent: floodwaters rising rapidly—evacuate now.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The text explicitly mentions an \"Urgent\" situation and describes floodwaters rising rapidly, which indicates a critical incident requiring immediate action. According to the classification rule, texts that mention an emergency, urgent situation, or immediate need for assistance or action—such as evacuations due to hazards—should be labeled as True. Therefore, this message clearly fits the criteria.",
+      "word_overlap": 0.625,
+      "classification_correct": true
+    },
+    {
+      "input": "Please respond immediately—situation critical and escalating.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input states \"Please respond immediately—situation critical and escalating.\" The use of \"immediately\" indicates an urgent need for action, and describing the situation as \"critical\" suggests an emergency or serious threat. According to the classification rule, texts that explicitly mention an emergency, urgent situation, or immediate need for assistance or action should be labeled as True. Therefore, this message clearly aligns with those criteria.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "Please prioritize this—urgent diplomatic negotiations required.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text should be labeled as True if it explicitly mentions an emergency, urgent situation, or immediate need for assistance or action related to critical incidents like medical emergencies, hazards, threats, or similar. In this input, the phrase \"urgent diplomatic negotiations required\" indicates urgency but pertains to diplomatic or political matters rather than an emergency or immediate threat requiring urgent assistance. Since it does not explicitly mention an emergency, hazard, threat, or critical incident, it does not meet the criteria for a True label. Therefore, it is classified as False.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": null
+    },
+    {
+      "input": "The situation is urgent—please provide immediate assistance.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input states \"The situation is urgent—please provide immediate assistance,\" which explicitly indicates an urgent situation requiring immediate help. According to the classification rule, texts that mention an emergency, urgent situation, or immediate need for assistance are labeled as True. Since the message clearly conveys urgency and a request for prompt action, it meets the criteria for a True label.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "The clock is ticking—please act now to prevent disaster.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The phrase \"please act now to prevent disaster\" indicates an urgent situation requiring immediate action to avert a significant threat. The use of \"act now\" and \"disaster\" suggests a critical incident or emergency, aligning with the rule's criteria for labeling texts as True when they explicitly mention urgent or emergency scenarios.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "It's a beautiful day outside, enjoy your walk!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"It's a beautiful day outside, enjoy your walk!\" does not explicitly mention an emergency, urgent situation, or immediate need for assistance or action. It is a positive, casual statement about the weather and encouraging someone to enjoy their walk, which does not align with the criteria for labeling as True. Therefore, based on the rule, it should be classified as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Looking forward to catching up soon.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"Looking forward to catching up soon.\" does not explicitly mention an emergency, urgent situation, or immediate need for assistance or action. It is a casual, friendly statement expressing anticipation for a future meeting. According to the classification rule, since there is no mention of a critical incident, hazard, threat, or urgent situation, it should be labeled as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "Enjoy your dinner!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"Enjoy your dinner!\" does not explicitly mention an emergency, urgent situation, or immediate need for assistance or action. It is a casual, polite expression wishing someone to have a pleasant meal, which does not align with the criteria for labeling as True. Therefore, based on the rule, this text should be classified as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Have fun at the game.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"Have fun at the game.\" does not explicitly mention any emergency, urgent situation, or immediate need for assistance or action. It is a casual, positive statement about enjoying a game, which does not align with the criteria for labeling as True. Therefore, based on the classification rule, it should be labeled as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Thanks for your patience.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"Thanks for your patience.\" does not explicitly mention an emergency, urgent situation, or immediate need for assistance or action. It is a polite expression of gratitude, which does not align with the criteria for labeling as True. Therefore, based on the classification rule, this text should be labeled as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5875000000000001,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is that the sentences labeled as **True** contain explicit urgent language or phrases that indicate immediate action is required due to a critical or emergency situation. These phrases often include words like **\"urgent,\" \"immediately,\" \"now,\" \"rapidly,\" \"critical,\" \"escalating,\" \"please act,\" \"prevent disaster,\"** or similar terms that convey urgency and the need for prompt response.\n\nIn contrast, the sentences labeled as **False** are neutral, casual, or polite statements that do not suggest any immediate action or emergency. They are general expressions of well-wishing, anticipation, or appreciation without any sense of urgency.\n\n**In summary:**\n\n- **True**: Sentences that explicitly or strongly imply urgency, immediacy, or critical action (e.g., \"urgent,\" \"immediately,\" \"now,\" \"please act\").\n- **False**: Sentences that are neutral, polite, or casual without any indication of urgency or immediate action.\n\n**This pattern hinges on the presence of urgent language signaling a need for prompt response.**",
+  "cross_context_match_score": 0.4583333333333333
+}

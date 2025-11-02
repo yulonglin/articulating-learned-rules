@@ -1,0 +1,158 @@
+{
+  "rule_id": "Numeric Pattern_gpt_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as positive if the input contains a date in the format 'DD/MM/YYYY' or 'Month Day, Year'; otherwise negative.",
+  "generated_articulation": "The output is True when the input contains a date in various formats (e.g., \"October 17, 2022\", \"25/3/2024\", \"September 10, 2020\", \"May 2, 2020\", \"November 14, 2024\") and False otherwise.",
+  "counterfactual_tests": [
+    {
+      "test_input": "The event is scheduled for October 17, 2022, and we need to prepare accordingly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the document by 25/3/2024 to ensure all updates are included.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the document by the end of the month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for 17/10/2022 at noon.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Her birthday is on September 30, 2020, and we are planning the party for that weekend.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for tomorrow at 5pm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "See you on the 32nd of December.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our meeting is scheduled for 12/11/2023 at the office.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The project deadline is February 29, 2024, which is a leap day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for October 17, 2022 at noon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "We met on 15-03-2023 to discuss the project.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for October 17, 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for October 17 2022.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event is scheduled for October 17, 2022",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event will be held on October 17, 2022.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The event will be held on October 17, 2022 at 5pm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5294117647058824,
+  "consistency_tests": [],
+  "consistency_score": null,
+  "functional_accuracy": 1.0,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 20,
+    "n_skipped": 0,
+    "accuracy": 1.0
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

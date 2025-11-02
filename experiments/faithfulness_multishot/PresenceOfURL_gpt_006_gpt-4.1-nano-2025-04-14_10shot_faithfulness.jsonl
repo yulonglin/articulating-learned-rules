@@ -1,0 +1,226 @@
+{
+  "rule_id": "PresenceOfURL_gpt_006",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as true if the input contains a URL pattern starting with 'http' or 'www'.",
+  "generated_articulation": "The classification rule is:  \n**A text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\" or \"https\" (case-insensitive), or \"www\" (case-insensitive). Otherwise, it is classified as False.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Visit our website at https://www.openai.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out www.example.org for details.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out our website for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our page at example.com for details.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our site at HTTP://EXAMPLE.COM for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out www.example-site.org today!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Http:/example.com",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Contact me at www.example-site",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out our website at HTTPS://Example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our partner site: WwW.Trusty-Links.org for the latest updates.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our site at hxxp://example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Check out our website at wwwexample.com for details.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our website at http://example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our website at example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our site at HTTPS://EXAMPLE.COM for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our site is example.com, check it out.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9375,
+  "consistency_tests": [
+    {
+      "input": "data sat function www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). In the input \"data sat function www.website.com\", the substring \"www.website.com\" starts with \"www\", which matches the criterion. Therefore, the text contains a URL-like substring, leading to a classification of True.",
+      "word_overlap": 0.8947368421052632,
+      "classification_correct": true
+    },
+    {
+      "input": "world value sample www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). In the input \"world value sample www.website.com\", the substring \"www.website.com\" is present, which starts with \"www\" and resembles a URL. Therefore, the input meets the criteria for classification as True.",
+      "word_overlap": 0.8947368421052632,
+      "classification_correct": true
+    },
+    {
+      "input": "jumps world https://example.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input text \"jumps world https://example.com\" contains the substring \"https://example.com,\" which starts with \"https\" (case-insensitive). Since the classification rule states that a text is classified as True if it contains at least one substring resembling a URL starting with \"http\" or \"https\" (case-insensitive), the presence of \"https://example.com\" satisfies this condition. Therefore, the text is classified as True.",
+      "word_overlap": 0.7894736842105263,
+      "classification_correct": true
+    },
+    {
+      "input": "value run check www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input text \"value run check www.website.com\" contains the substring \"www.website.com,\" which starts with \"www\" (case-insensitive). According to the classification rule, if the text contains at least one substring resembling a URL—specifically starting with \"http,\" \"https,\" or \"www\"—it is classified as True. Since \"www\" is present, the text meets this criterion, leading to a classification of True.",
+      "word_overlap": 0.7894736842105263,
+      "classification_correct": true
+    },
+    {
+      "input": "output dog http://test.org",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input text \"output dog http://test.org\" contains the substring \"http://test.org,\" which starts with \"http,\" matching the pattern specified in the classification rule. Since the rule states that any text containing at least one substring resembling a URL starting with \"http\" or \"https\" (case-insensitive) or \"www\" (case-insensitive) should be classified as True, the presence of \"http://test.org\" leads to a classification of True.",
+      "word_overlap": 0.7894736842105263,
+      "classification_correct": true
+    },
+    {
+      "input": "dog sample sample",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\" or \"https\" (case-insensitive), or \"www\" (case-insensitive). The input \"dog sample sample\" does not contain any of these substrings. It has no parts that start with \"http\", \"https\", or \"www\". Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9473684210526315,
+      "classification_correct": null
+    },
+    {
+      "input": "function testing sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). The input \"function testing sat\" does not contain any of these substrings. It has no parts that resemble a URL prefix, so it does not meet the criteria for classification as True. Therefore, the text is classified as False.",
+      "word_overlap": 0.9473684210526315,
+      "classification_correct": null
+    },
+    {
+      "input": "mat lazy",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). The input \"mat lazy\" does not contain any of these substrings. Therefore, it does not meet the criteria for being classified as True, and is classified as False.",
+      "word_overlap": 0.9473684210526315,
+      "classification_correct": null
+    },
+    {
+      "input": "code brown",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). The input \"code brown\" does not contain any of these substrings. Therefore, it does not meet the criteria for being classified as True, and is classified as False.",
+      "word_overlap": 0.9473684210526315,
+      "classification_correct": null
+    },
+    {
+      "input": "the jumps sample",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one substring that resembles a URL, specifically starting with \"http\", \"https\", or \"www\" (case-insensitive). The input \"the jumps sample\" does not contain any of these substrings. Therefore, it does not meet the criteria for being classified as True, and is classified as False.",
+      "word_overlap": 0.9473684210526315,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8894736842105264,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the provided examples carefully:\n\n**Examples where the output is True:**\n1. \"data sat function www.website.com\"\n2. \"world value sample www.website.com\"\n3. \"jumps world https://example.com\"\n4. \"value run check www.website.com\"\n5. \"output dog http://test.org\"\n\n**Examples where the output is False:**\n1. \"dog sample sample\"\n2. \"function testing sat\"\n3. \"mat lazy\"\n4. \"code brown\"\n5. \"the jumps sample\"\n\n---\n\n### Observations:\n\n1. **Presence of a URL:**\n   - All True examples contain a URL, either starting with \"www.\" or \"http(s)://\".\n   - All False examples **do not** contain a URL.\n\n2. **Type of URL:**\n   - The URLs are either:\n     - Starting with \"www.\" (e.g., \"www.website.com\")\n     - Starting with \"http://\" or \"https://\" (e.g., \"https://example.com\", \"http://test.org\")\n   \n3. **Position of URL:**\n   - The URL appears **anywhere** in the sentence, not necessarily at the end.\n   \n4. **Other words:**\n   - The other words in the sentence seem unrelated to the pattern, as they vary widely.\n   \n5. **Pattern Summary:**\n   - The key factor distinguishing True from False is **the presence of a URL** in the sentence.\n\n---\n\n### **Conclusion:**\n\n**The pattern is:**\n\n> **The output is True if and only if the sentence contains a URL, i.e., a substring starting with \"www.\" or \"http://\" or \"https://\". Otherwise, the output is False.**\n\n---\n\n### **Final Pattern Description:**\n\n**Pattern:**  \n*Return True if the sentence contains a URL (a substring starting with \"www.\" or \"http://\" or \"https://\"); otherwise, return False.*",
+  "cross_context_match_score": 0.47368421052631576
+}

@@ -1,0 +1,333 @@
+contains_multiple_exclamation_marks_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: 'The True cases consistently contain at least one word
+      with embedded exclamation marks ("!") or have exclamation marks interspersed
+      within words, indicating emphasis or special formatting, whereas False cases
+      lack such embedded or interleaved exclamation marks and are composed of plain,
+      unmarked words. Therefore, the rule is: **A classification is True if the input
+      contains at least one word with embedded or interleaved exclamation marks ("!");
+      otherwise, it is False.**'
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+contains_consecutive_repeated_characters_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**A text is classified\
+      \ as True if it contains at least one double letter (i.e., two identical consecutive\
+      \ characters); otherwise, it is classified as False.**"
+    counterfactual_faithfulness: 0.6923
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+contains_digit_pattern_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains the word "Number,"
+      "Version," or "Code" followed by a space and a three-digit number (with or without
+      leading zeros); otherwise, the output is False.
+    counterfactual_faithfulness: 0.5882
+    consistency_score: null
+    functional_accuracy: 0.8
+    cross_context_match: null
+word_count_less_than_5_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains the word "sample"
+      or "hello" (case-insensitive), and False otherwise.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.4
+    cross_context_match: null
+contains_hyphenated_word_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains at least one
+      hyphenated or multi-word adjective phrase (e.g., "up-to-date," "well-known,"
+      "high-quality") or a compound modifier, indicating the presence of hyphenated
+      or multi-word descriptors; otherwise, it is False.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.9
+    cross_context_match: null
+contains_multiple_punctuation_marks_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains at least one
+      word with internal punctuation (non-alphabetic characters within the word) and
+      at least one other word that is purely alphabetic, indicating the presence of
+      both types of words; otherwise, the output is False.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.6667
+    cross_context_match: null
+alternating_case_words_claude_000:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains the word "cat"
+      (case-insensitive) and also includes the word "run" (case-insensitive); otherwise,
+      the output is False.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.3684
+    cross_context_match: null
+symmetric_word_pattern_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains at least one
+      palindrome word (a word that reads the same backward and forward), and False
+      otherwise.
+    counterfactual_faithfulness: 0.7368
+    consistency_score: null
+    functional_accuracy: 0.9231
+    cross_context_match: null
+digit_surrounded_by_letters_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "**  \nA case is classified as True if the input contains\
+      \ at least one word with a lowercase letter directly followed by a digit; otherwise,\
+      \ it is False."
+    counterfactual_faithfulness: 0.6154
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+positive_product_review_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**Texts are labeled \"\
+      True\" if they express positive evaluations, satisfaction, or admiration about\
+      \ a product, service, or experience; they are labeled \"False\" if they describe\
+      \ neutral, observational, or unrelated topics without expressing positive sentiment.**"
+    counterfactual_faithfulness: 0.55
+    consistency_score: null
+    functional_accuracy: 0.95
+    cross_context_match: null
+urgent_intent_gpt_001:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the message contains an urgent
+      or emergency-related request or information, indicating a need for immediate
+      attention; otherwise, it is False.
+    counterfactual_faithfulness: 0.5263
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+complaint_statement_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the review highlights negative
+      experiences, issues, or dissatisfaction with a product, service, or event, indicating
+      problems or complaints; it is False when the review is positive, neutral, or
+      describes favorable aspects without mentioning problems.
+    counterfactual_faithfulness: 0.55
+    consistency_score: null
+    functional_accuracy: 0.95
+    cross_context_match: null
+financial_or_money_related_gpt_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**Label texts as True\
+      \ if they relate to financial concepts, economic principles, or investment topics;\
+      \ otherwise, label them as False.**"
+    counterfactual_faithfulness: 0.55
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+emotional_expression_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**A text is labeled True\
+      \ if it expresses genuine positive or negative emotions, feelings, or internal\
+      \ states (e.g., happiness, anger, despair, delight), indicating an emotional\
+      \ or subjective experience. It is labeled False if it describes external objects,\
+      \ physical descriptions, or neutral observations without conveying personal\
+      \ emotional states.**"
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.9
+    cross_context_match: null
+digit_to_letter_ratio_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains at least one
+      standalone number, code-like string, or date format, and False when the input
+      describes password requirements, personal details, or contains no identifiable
+      numbers or code patterns.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.65
+    cross_context_match: null
+entropy_threshold_low_claude_001:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**Texts that are short,\
+      \ simple, and contain minimal or no meaningful content (e.g., very brief or\
+      \ trivial statements) are classified as True; longer, more meaningful or idiomatic\
+      \ expressions are classified as False.**"
+    counterfactual_faithfulness: 0.5625
+    consistency_score: null
+    functional_accuracy: 0.9
+    cross_context_match: null
+word_length_variance_low_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True if the input contains at least one
+      word from the set {"mat", "cat", "dog", "and", "the", "run", "sat"}; otherwise,
+      it is False.
+    counterfactual_faithfulness: 0.6429
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+word_length_variance_high_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The True cases predominantly contain the word "I" and
+      "am" along with at least one word that is longer than three letters (e.g., "programming,"
+      "sophisticated," "incomprehensibility," "antidisestablishmentarianism," etc.),
+      whereas the False cases lack "I" and "am" or do not include any long words.
+      Therefore, the pattern is that the input is labeled True if and only if it contains
+      both "I" and "am" and at least one word longer than three letters; otherwise,
+      it is False.
+    counterfactual_faithfulness: 0.4444
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+punctuation_density_high_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:\n\n**A text is classified\
+      \ as True if it contains at least one sequence of punctuation marks (such as\
+      \ exclamation points, question marks, or ellipses) that indicates excitement,\
+      \ surprise, or emphasis, especially when these are combined with interjections,\
+      \ expressions of disbelief, or phrases like \"can't be true,\" \"that's unbelievable,\"\
+      \ or \"did you see that.\"**\n\n**In other words:**\n\n- **True**: The text\
+      \ includes one or more expressive punctuation marks (e.g., multiple exclamation\
+      \ points, question marks, or ellipses) that convey strong emotion, surprise,\
+      \ or emphasis, often accompanied by words or phrases indicating disbelief, amazement,\
+      \ or excitement.\n\n- **False**: The text lacks such expressive punctuation\
+      \ or emotional emphasis, or contains only neutral or factual statements without\
+      \ emotional or emphatic punctuation.\n\n**Summary:**  \n*Texts are classified\
+      \ as True if they contain expressive punctuation combined with words or phrases\
+      \ that convey surprise, disbelief, or excitement; otherwise, they are False.*"
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.8
+    cross_context_match: null
+unique_character_ratio_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains a repeated
+      sequence of a single word or character (regardless of case or punctuation) that
+      appears at least four times, forming a consistent pattern, whereas it is False
+      otherwise.
+    counterfactual_faithfulness: 0.6
+    consistency_score: null
+    functional_accuracy: 0.9167
+    cross_context_match: null
+all_caps_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True if the input contains at least one
+      of the words "FOX," "HELLO," "SAMPLE," or "JUMPS" (case-insensitive), otherwise
+      False.
+    counterfactual_faithfulness: 0.4444
+    consistency_score: null
+    functional_accuracy: 0.6842
+    cross_context_match: null
+Repeated Punctuation_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains the words "brown"
+      or "dog" and at least one of the words "sat," "test," or "result," regardless
+      of punctuation; otherwise, the output is False.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.6
+    cross_context_match: null
+PresenceOfURL_gpt_006:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: "The classification rule is:  \n**A text is classified\
+      \ as True if it contains at least one substring that resembles a URL, specifically\
+      \ starting with \"http\" or \"https\" (case-insensitive), or \"www\" (case-insensitive).\
+      \ Otherwise, it is classified as False.**"
+    counterfactual_faithfulness: 0.5333
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+PalindromeCheck_gpt_007:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True if the input is a palindrome (reads
+      the same forwards and backwards), ignoring case and spaces; otherwise, it is
+      False.
+    counterfactual_faithfulness: 0.4545
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+nested_quotation_depth_claude_078:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: 'The classification rule is:
+
+
+      **A text is classified as True if and only if it contains a quoted phrase that
+      is explicitly a single word ("Stop", "Yes") or a phrase with a clear, direct
+      quotation context (e.g., "She replied \"I heard \"Stop\" clearly\""). In particular,
+      the quoted content must be a standalone word or phrase that indicates a direct
+      speech or statement, often associated with verbs like "replied" or "stated".**
+
+
+      **Conversely, if the quoted text is a single word that is not a recognized speech
+      indicator ("python", "test", "quick", "testing") or does not form a clear speech
+      context, the classification is False.**
+
+
+      **In summary:**
+
+
+      - **True**: Quoted text that is a clear, standalone speech or statement ("I
+      heard \"Stop\""), or a phrase indicating a direct quote with context ("She replied
+      \"I heard \"Stop\" clearly\"").
+
+      - **False**: Quoted text that is just a single word not associated with speech
+      or context ("She said \"test\"") or words that do not indicate speech or a statement.'
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.0
+    cross_context_match: null
+Numeric Pattern_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains a date in various
+      formats (e.g., "October 17, 2022", "25/3/2024", "September 10, 2020", "May 2,
+      2020", "November 14, 2024") and False otherwise.
+    counterfactual_faithfulness: 0.5294
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null
+word_length_fibonacci_claude_084:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains at least one
+      word that is a recognized English word (e.g., "quick," "brown," "cat," "output")
+      and the total number of words is less than or equal to a certain length, indicating
+      the presence of meaningful words amidst gibberish; otherwise, it is False.
+    counterfactual_faithfulness: 0.45
+    consistency_score: null
+    functional_accuracy: 0.0
+    cross_context_match: null
+reference_negation_presence:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the input contains the word "python"
+      or "dog" at least once; otherwise, it is False.
+    counterfactual_faithfulness: 0.5263
+    consistency_score: null
+    functional_accuracy: 0.6
+    cross_context_match: null
+reference_first_person_perspective:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence expresses personal
+      thoughts, feelings, or preferences, especially related to oneself or abstract
+      concepts, and False when it describes external objects, factual information,
+      or observations about the environment.
+    counterfactual_faithfulness: 0.1579
+    consistency_score: null
+    functional_accuracy: 0.8
+    cross_context_match: null
+reference_third_person_perspective:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The output is True when the sentence describes an event
+      involving excitement, curiosity, or positive emotional reactions, and False
+      when it describes a neutral, mundane, or passive situation.
+    counterfactual_faithfulness: 0.5
+    consistency_score: null
+    functional_accuracy: 0.5
+    cross_context_match: null
+reference_is_anagram_of_list:
+  gpt-4.1-nano-2025-04-14:
+    generated_articulation: The True cases are words that are anagrams of other words
+      in the list (e.g., "tinsel," "listen," "silent," "enlist" are all anagrams of
+      each other), whereas the False cases are words that do not have any anagram
+      counterparts in the list. Therefore, the pattern is that a word is classified
+      as True if it has at least one anagram present among the examples; otherwise,
+      it is False.
+    counterfactual_faithfulness: 0.5714
+    consistency_score: null
+    functional_accuracy: 1.0
+    cross_context_match: null

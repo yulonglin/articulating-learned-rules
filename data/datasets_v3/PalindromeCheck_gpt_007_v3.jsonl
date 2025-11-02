@@ -1,0 +1,112 @@
+{"input": "Local shops are offering special discounts this weekend.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The house was empty, with no signs of activity or movement.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His voice echoed through the empty hall for minutes.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to take a different route home today.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The suspect was caught fleeing the scene late at night.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The artist used golden hues to brighten the painting.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Never odd or even", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The store's display featured bold Supreme branding and accessories.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The painting's details are remarkably intricate and captivating.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Able was I saw Elba", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She packed her favorite pair of casual pants.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The cake was delicious and everyone enjoyed it immensely", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you believe how fast time flies during summer?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite efforts, the team couldn't find a solution to the problem.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The new restaurant downtown has a cozy atmosphere.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She visited her favorite park early in the morning.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His mind races with endless ideas and reflections", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sunset cast a warm, golden hue over the mountains.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She told me she would call tomorrow after work", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps over the lazy dog again", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He attended the town hall meeting last night.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a hat and sunglasses on the sunny afternoon.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I scored a limited edition Supreme jacket yesterday.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the bustling city, she lost her keys and couldn't find her way home", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Her eyes sparkled with a golden shimmer during the evening.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yesterday, I saw a beautiful sunset by the river.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I love reading books on rainy afternoons", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They enjoyed a picnic in the park after rain.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how tall the skyscraper is?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yesterday, I visited the museum and saw ancient artifacts.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please stay seated and keep your belongings close.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There was no indication of trouble, just a quiet, calm evening.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They found a vintage pair of corduroys in the attic.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Despite the rain, they continued their hike up the mountain.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She often wonders if her thoughts are truly her own", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The city skyline was beautiful at sunset.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The workers discussed their hourly wages after the meeting.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Overtime pay can significantly boost your overall wages.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Many employees are concerned about wage stagnation this year.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They discovered evidence linking him to the series of burglaries.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She found a beautiful golden necklace at the market.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She told a remarkable story that moved everyone in the room.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The sun sets behind the mountains as the river flows.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to stay at the cozy beachfront cottage.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Meeting at the cafe was scheduled for noon tomorrow", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The hotel was the perfect place to stay during the trip.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She looked around but found nothing useful for her project.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the gallery, the paintings were hung in a symmetrical arrangement.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I went shopping for new jeans yesterday.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Madam Arora saw a racecar at noon", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite the cold, they decided to go hiking in the mountains", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yesterday I cooked pasta for dinner and watched a movie", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how tall that building is?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She negotiated her salary increase with confidence.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No lemon, no melon", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Thinking deeply about the choices that lie ahead", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are planning to visit the museum tomorrow afternoon.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She promised to stay committed to her goals.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I visited my grandmother's house last weekend.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The tailor adjusted the fit of his trousers.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She opened the window to let in fresh air", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Never odd or even, did you see that?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The company announced a new wage structure effective next month.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you tell me the time in Tokyo now?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Did you see the new Supreme logo on that hoodie?", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always enjoys painting landscapes on weekends.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Climate change poses significant challenges for future generations.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She bought a new car yesterday and loved it", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He searched the entire area but came up empty-handed.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite challenges, his achievements remain remarkable in the community.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They decided to explore the abandoned house at midnight during the storm.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She testified in court about the theft that occurred downtown.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "They celebrated with a toast of sparkling golden champagne.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In 1920, the world experienced significant technological changes.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Sometimes, I can't quiet my thoughts at night", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No lemon no melon", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The quick brown fox jumps over the lazy dog near the lake", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Supreme has always been a streetwear icon since the 90s.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The city\u2019s architecture is truly remarkable and inspiring to all who visit.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Despite the rain, they continued their hike up the mountain", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The community center hosts many events throughout the year.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He exclaimed with joy as the sunrise painted the sky in shades of orange and pink", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yesterday, I watched a documentary about ancient civilizations and their mysteries", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Their teamwork resulted in a remarkable success that exceeded expectations.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He was convicted after a lengthy trial last year.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "No lemon, no melon.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concept of consciousness has fascinated thinkers for centuries", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the midst of chaos, there is also opportunity", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "My favorite hobby is exploring new recipes and cooking techniques.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I love browsing the latest Supreme collections in the city.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite the rain, the festival continued late into the night.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She bought fresh vegetables from the market this morning.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The police found fingerprints on the stolen jewelry.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She enjoys baking cookies on weekends with her family.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to buy groceries, clean the house, and call your friend for a chat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I visited Paris last summer and enjoyed the museums", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I asked my friend to stay until the morning light.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She bought a new dress yesterday evening.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Step on no pets", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Last night, I watched a documentary about space exploration.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He wore striped khakis to the office.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A Santa at NASA", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "Top spot", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "Was I ere I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "Avid diva", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "Civic civic civic", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "She bought a new dress yesterday and loved the color.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "During the hike, they discovered an ancient, forgotten temple hidden behind the trees.", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}
+{"input": "The quick brown fox jumps over the lazy dog", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"augmented": true}}

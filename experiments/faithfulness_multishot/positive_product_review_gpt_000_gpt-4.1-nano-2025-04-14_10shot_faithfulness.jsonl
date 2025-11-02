@@ -1,0 +1,258 @@
+{
+  "rule_id": "positive_product_review_gpt_000",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text expresses a positive sentiment specifically about a product or service.",
+  "generated_articulation": "The classification rule is:  \n**Texts are labeled \"True\" if they express positive evaluations, satisfaction, or admiration about a product, service, or experience; they are labeled \"False\" if they describe neutral, observational, or unrelated topics without expressing positive sentiment.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "I absolutely love this new smartphone! The camera quality is fantastic and it runs smoothly all day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Vacationing at the beach was a wonderful experience; I enjoyed every moment in the sun and surf.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The train was delayed by an hour due to maintenance issues.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report includes data collected from various sources over the past year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this camera; the picture quality is stunning and exceeds my expectations.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This restaurant offers amazing service and delicious food, making it one of my favorite places to dine.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I visited the park yesterday, and it was quite crowded but no better or worse than usual.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The instructions for assembling the furniture are printed in small font on the back of the box.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After trying out the new smartphone, I was impressed by its fast performance and sleek design, making it a great upgrade from my previous device.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The hotel was located near the city center and offered free Wi-Fi, which was convenient for my work trip.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The phone has a sleek design and feels light in the hand.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I visited the new coffee shop yesterday, and it was surprisingly quiet.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely loved this new phone; the camera quality is fantastic!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This phone has a camera that works well for photos.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this phone; the camera quality is fantastic!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The phone has a good camera, but I haven't used it much.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I absolutely love this phone; the camera quality is fantastic and makes every photo look amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This phone has a good battery life, lasting over a day with regular use.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I absolutely loved this product! It exceeded all my expectations and I would highly recommend it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This product arrived yesterday. It is made of sturdy materials and meets the specifications.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.85,
+  "consistency_tests": [
+    {
+      "input": "This eco-friendly detergent keeps my clothes fresh.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"This eco-friendly detergent keeps my clothes fresh.\" expresses a positive evaluation of the product—specifically, it highlights the effectiveness (\"keeps my clothes fresh\") and the eco-friendly aspect, which can be associated with satisfaction or admiration. Since it conveys a positive sentiment about the detergent, it aligns with the rule for labeling texts as \"True.\"",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "I feel so confident wearing these new sneakers.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The statement \"I feel so confident wearing these new sneakers\" expresses a positive evaluation and admiration for the sneakers, indicating satisfaction and a favorable sentiment toward the product. According to the classification rule, such expressions of positive feelings about a product qualify the text as \"True.\"",
+      "word_overlap": 0.375,
+      "classification_correct": true
+    },
+    {
+      "input": "The wedding venue was breathtaking and well-organized.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The wedding venue was breathtaking and well-organized\" expresses positive evaluations and admiration about the venue. The use of words like \"breathtaking\" and \"well-organized\" indicates satisfaction and positive sentiment, aligning with the rule that texts expressing positive evaluations or admiration are labeled \"True.\"",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "I highly recommend this gym for its friendly atmosphere.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"I highly recommend this gym for its friendly atmosphere.\" expresses a positive evaluation and admiration for the gym, highlighting its friendly atmosphere and recommending it. According to the classification rule, such expressions of positive sentiment about a product or service are labeled \"True.\"",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "I appreciate how this service respects my privacy.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The statement \"I appreciate how this service respects my privacy\" expresses a positive evaluation and admiration toward the service, specifically highlighting appreciation for its privacy practices. Since it conveys a positive sentiment about the service, it aligns with the rule that texts expressing positive evaluations or admiration are labeled \"True.\"",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "She hesitated before making her decision.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"She hesitated before making her decision\" describes a neutral or observational action without expressing any positive evaluation, satisfaction, or admiration about a product, service, or experience. It simply states a behavior or state of indecision, which does not align with the criteria for a \"True\" label that requires positive sentiment or admiration.",
+      "word_overlap": 0.625,
+      "classification_correct": null
+    },
+    {
+      "input": "The coffee shop is surprisingly quiet this morning.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts labeled \"True\" should express positive evaluations, satisfaction, or admiration about a product, service, or experience. The input, \"The coffee shop is surprisingly quiet this morning,\" is a neutral observation that describes the state of the coffee shop without expressing any positive sentiment, satisfaction, or admiration. It does not evaluate the quality or experience positively; it simply notes a characteristic of the environment. Therefore, it aligns with the \"False\" category.",
+      "word_overlap": 0.7916666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "I enjoyed trying a new recipe last night.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I enjoyed trying a new recipe last night.\" expresses a positive evaluation and satisfaction regarding the experience of trying a new recipe. Since it conveys a positive sentiment about an experience, it aligns with the rule's criterion for labeling texts as \"True.\"",
+      "word_overlap": 0.375,
+      "classification_correct": false
+    },
+    {
+      "input": "That boat sailing across the lake looked peaceful.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"That boat sailing across the lake looked peaceful.\" describes an observational scene and conveys a neutral or descriptive tone. It does not express a positive evaluation, satisfaction, or admiration about a product, service, or experience. According to the classification rule, since it lacks positive sentiment or admiration, it should be labeled \"False.\"",
+      "word_overlap": 0.625,
+      "classification_correct": true
+    },
+    {
+      "input": "He looked tired after a long day at work.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input \"He looked tired after a long day at work.\" describes an observational statement about someone's appearance and condition. It does not express a positive evaluation, satisfaction, or admiration about a product, service, or experience. According to the classification rule, such neutral or observational statements are labeled \"False.\"",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5208333333333333,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern appears to be based on whether the sentence explicitly references a **positive or beneficial attribute or quality** associated with a product, service, or experience, often emphasizing its usefulness, environmental friendliness, confidence boost, or organizational quality. When the sentence highlights a favorable, constructive, or commendable aspect, the output is **True**.\n\nConversely, when the sentence describes a **neutral, observational, or negative** situation—such as hesitation, tiredness, or a simple observation without a positive connotation—the output is **False**.\n\n**In summary:**\n\n- **True**: Sentences that express or imply a positive, beneficial, or commendable attribute related to a product, service, or experience.\n- **False**: Sentences that are neutral, describe feelings or states without positive connotations, or are observational without emphasizing a beneficial aspect.\n\n**Examples:**\n\n- \"This eco-friendly detergent keeps my clothes fresh.\" → Positive attribute (eco-friendly, keeps clothes fresh) → True\n- \"I feel so confident wearing these new sneakers.\" → Confidence (positive feeling) → True\n- \"The wedding venue was breathtaking and well-organized.\" → Positive qualities (breathtaking, well-organized) → True\n- \"She hesitated before making her decision.\" → Neutral/negative (hesitation) → False\n- \"He looked tired after a long day at work.\" → Neutral/negative (tiredness) → False\n\nThis pattern hinges on the presence of a positive or beneficial descriptor or implication in the sentence.",
+  "cross_context_match_score": 0.4583333333333333
+}

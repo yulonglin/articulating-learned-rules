@@ -1,0 +1,250 @@
+{
+  "rule_id": "reference_third_person_perspective",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Written from third-person perspective (uses he, she, they, them).",
+  "generated_articulation": "# Classification Rule\n\n**True**: Texts describe actions, habits, preferences, emotions, or states of a person/people (subject-focused narratives about what someone does, feels, thinks, or experiences).\n\n**False**: Texts describe atmospheric scenes, environmental observations, or events where the focus is on objects, nature, or settings rather than on a person's agency or internal state (scene-focused or object-focused narratives).\n\n**Key distinction**: \n- True = \"What is the person doing/feeling/experiencing?\"\n- False = \"What is happening in the environment/scene?\"",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "She was thrilled when she finally finished her marathon and couldn't wait to tell her friends about it.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He often spends his weekends hiking in the mountains, enjoying the fresh air and peaceful scenery.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sun dipped below the horizon, casting a golden glow over the quiet village.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The leaves rustled gently in the breeze as the river flowed peacefully past the meadow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She paused to look at her reflection, contemplating her next move.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He smiled warmly as he greeted his friend, feeling a surge of happiness.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The sky was painted with hues of orange and pink as the sun set behind the hills, casting a calm glow over the landscape.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The towering trees swayed gently in the breeze, leaves shimmering in the fading light of dusk.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She enjoys hiking every weekend and finds peace in the outdoors.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The wind howled through the empty streets, leaves swirling in the stormy night.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The garden was lush and vibrant, with butterflies fluttering among the blooming flowers.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He observed the sunset over the horizon, feeling a sense of calm wash over him.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She sighed happily as she finished her painting in the studio.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sunset painted the sky in hues of orange and pink over the city skyline.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She feels excited about starting her new job tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The city skyline is illuminated by colorful lights at night.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The city skyline was illuminated by the sunset yesterday evening.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She smiled as she sipped her coffee and read the book in the park.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The park was filled with trees, birds, and people enjoying the sunshine.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7368421052631579,
+  "consistency_tests": [
+    {
+      "input": "They celebrated their anniversary with a quiet dinner.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text describes an **action and experience of people** (the subject), which aligns with the \"True\" category.\n\n**Reasoning:**\n\n- **Subject-focused**: The sentence centers on \"they\" (people) and what they actively did\n- **Action-oriented**: \"celebrated\" is a deliberate action performed by the people\n- **Personal experience**: The anniversary celebration represents a meaningful personal/emotional experience\n- **Agency**: The people are the agents driving the narrative—they chose to celebrate in a specific way\n\n**Applying the key distinction:**\n- The question being answered is: \"What are the people doing/experiencing?\" ✓\n- NOT: \"What is happening in the environment/scene?\" ✗\n\nEven though the dinner setting is mentioned, it serves as context for the **people's action and experience**, not as the focus itself. The emphasis remains on their deliberate choice to celebrate together.",
+      "word_overlap": 0.30434782608695654,
+      "classification_correct": true
+    },
+    {
+      "input": "They decided to adopt a rescue cat from the shelter.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text describes an **action and decision made by a person/people** (\"They decided to adopt...\"), which is subject-focused.\n\n**Reasoning based on the rule:**\n- The focus is on **what the people are doing** — making a deliberate choice to adopt a cat\n- This involves **human agency** — the subjects are actively making a decision\n- It answers the key distinction question: \"What is the person doing?\" (deciding to adopt)\n- It is NOT focused on the environment, scene, or objects themselves, but rather on the people's action and intention\n\nEven though a cat and shelter are mentioned, they are contextual elements supporting the narrative about the people's action, not the primary focus. The core of the sentence is about human decision-making and behavior.",
+      "word_overlap": 0.3695652173913043,
+      "classification_correct": true
+    },
+    {
+      "input": "They are considering adopting a second pet.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text describes an **action and mental state of a person/people** (the subject \"they\").\n\n**Reasoning based on the rule:**\n\n- **Subject-focused**: The sentence centers on what \"they\" are doing and thinking—specifically, the act of considering and the potential action of adopting.\n- **Person's agency**: \"Considering\" is a cognitive/decision-making process that belongs to the person, not an environmental observation.\n- **Answers the key question**: \"What is the person doing/feeling/experiencing?\" → They are considering (thinking about/deliberating) adopting a pet.\n\nThis is clearly a narrative about a person's thoughts, intentions, and potential actions—not a description of an atmospheric scene or environmental setting.",
+      "word_overlap": 0.391304347826087,
+      "classification_correct": true
+    },
+    {
+      "input": "They were amazed by the fireworks display.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text describes an **emotional state of a person/people** (\"They\"), which aligns with the True category.\n\n**Reasoning:**\n- The subject is \"They\" (people)\n- The focus is on what they are **feeling/experiencing**: amazement\n- The question being answered is \"What are the people experiencing?\" rather than \"What is happening in the environment?\"\n- Even though fireworks (an environmental object) are mentioned, they serve only as the *cause* of the emotion, not the focus\n- The narrative centers on the **person's internal state** (amazement), not on describing the atmospheric scene itself\n\n**Key indicator:** The sentence structure prioritizes the people's emotional response over the environmental details, making this a subject-focused narrative about what someone feels.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "She has never tried skydiving but wants to someday.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text describes a **person's preference and desire** — specifically about what \"she\" wants to experience in the future. \n\n**Reasoning based on the rule:**\n\n- **Subject focus**: The narrative centers on the person (\"she\") and her internal state/preference\n- **Key question test**: \"What is the person feeling/experiencing?\" → She wants to try skydiving; she has a desire/preference\n- **Not scene-focused**: The text doesn't describe an atmospheric scene or environmental observation. It's not about what's happening in the environment, but rather about what the person thinks and wants\n- **Personal agency**: The statement reflects her agency (her choice/desire), not passive observation of surroundings\n\nThis is a **subject-focused narrative** about a person's preferences and aspirations, making it **True** according to the classification rule.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "A sudden gust of wind scattered leaves across the empty street.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text describes an **environmental/atmospheric event** rather than a person's action, emotion, or state.\n\n**Applying the rule:**\n\n- **Focus**: The narrative centers on a natural phenomenon (wind and leaves) and the scene (empty street)\n- **Agency**: There is no person performing an action, experiencing an emotion, or undergoing a state change\n- **Key question - \"What is happening in the environment/scene?\"**: Yes, this is clearly answered—wind is scattering leaves across a street\n- **Key question - \"What is the person doing/feeling/experiencing?\"**: Not applicable; no person is present or involved\n\nThis is a **scene-focused narrative** that emphasizes atmospheric/environmental observation, which aligns with the \"False\" classification criteria.",
+      "word_overlap": 0.41304347826086957,
+      "classification_correct": true
+    },
+    {
+      "input": "The clock struck midnight, signaling the start of a new day.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text describes an **environmental/atmospheric event** rather than a person's action, emotion, or state.\n\n**Key reasoning:**\n\n- **Focus**: The sentence centers on the clock and the passage of time—objects and environmental phenomena\n- **Agency**: There is no person performing an action, experiencing an emotion, or having an internal state\n- **Question test**: \n  - \"What is the person doing/feeling/experiencing?\" → *Not applicable; no person is the subject*\n  - \"What is happening in the environment/scene?\" → *Yes; a clock striking midnight, marking a temporal transition*\n\nThe clock is the active agent here (metaphorically), not a person. This is a **scene-focused narrative** describing an atmospheric moment rather than a **subject-focused narrative** about human experience.",
+      "word_overlap": 0.4782608695652174,
+      "classification_correct": true
+    },
+    {
+      "input": "The crowd cheered loudly at the final score.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text describes an **event/action in a scene** rather than focusing on an individual person's agency, emotions, or internal state.\n\n**Key reasoning:**\n\n- **Subject**: \"The crowd\" (a collective group, not a person)\n- **Focus**: The text describes **what is happening in the environment** (cheering at a final score) rather than **what a person is doing/feeling/experiencing**\n- **Agency**: While \"cheering\" is an action, it's presented as a collective atmospheric response to an event, not as a narrative about an individual's personal experience, habit, preference, or emotional state\n- **Scene-focused**: This reads as an observation of an environmental moment—the atmosphere and collective behavior at a sporting event—rather than a subject-focused narrative about someone's internal experience\n\n**Comparison to True:**\n- True would be: \"I felt excited when the final score was announced\" or \"She cheered loudly, expressing her joy\"\n- These would center on an individual's personal experience or agency\n\nThis text is **scene-focused**, making it **False**.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": null
+    },
+    {
+      "input": "The abandoned playground was covered in vines.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text is **scene-focused/object-focused**, not subject-focused.\n\n**Why False:**\n- The focus is on the **environment and setting** (\"abandoned playground\") and its atmospheric qualities (\"covered in vines\")\n- There is **no person or people** mentioned or implied\n- There is **no human agency, action, emotion, or internal state** being described\n- The sentence answers \"What is happening in the environment/scene?\" rather than \"What is the person doing/feeling/experiencing?\"\n\nThe text is a descriptive observation of a physical location and its condition, which aligns with the False category: \"atmospheric scenes, environmental observations, or events where the focus is on objects, nature, or settings rather than on a person's agency or internal state.\"",
+      "word_overlap": 0.6304347826086957,
+      "classification_correct": true
+    },
+    {
+      "input": "The train's whistle echoed across the empty station platform.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text describes an **atmospheric scene and environmental observation** rather than focusing on a person's actions, feelings, or experiences.\n\n**Key indicators:**\n- The subject is \"the train's whistle\" (an object/sound)\n- The focus is on what is **happening in the environment** (\"echoed across the empty station platform\")\n- There is **no person or their agency** mentioned\n- The narrative is **scene-focused**, emphasizing the setting and atmospheric quality\n\n**Applying the distinction:**\n- The question being answered is: \"What is happening in the environment/scene?\" ✓\n- NOT: \"What is the person doing/feeling/experiencing?\" ✗\n\nThis is a classic example of object-focused/scene-focused narrative that describes a setting rather than a subject's internal state or actions.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.46304347826086956,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**True** when the sentence describes an action, decision, or experience that involves **a person or people as the active subject** doing something intentional or experiential.\n\n**False** when the sentence describes a **scene, event, or phenomenon** that occurs **independently of human agency** — things happening in the world without a person actively choosing or experiencing them.\n\n## Breakdown:\n\n**True examples** - Person/people actively involved:\n- \"They celebrated...\" (people doing something)\n- \"They decided to adopt...\" (people making a choice)\n- \"They are considering...\" (people thinking/deciding)\n- \"They were amazed...\" (people experiencing emotion)\n- \"She has never tried...\" (person's experience/desire)\n\n**False examples** - Events/scenes without human agency:\n- \"A sudden gust of wind...\" (nature acting alone)\n- \"The clock struck midnight...\" (mechanical/natural event)\n- \"The crowd cheered...\" (collective action, but describes the event itself rather than individual agency)\n- \"The abandoned playground...\" (static scene description)\n- \"The train's whistle...\" (object/machine acting)\n\nThe key distinction: **True = human agency/experience; False = independent events or static descriptions**",
+  "cross_context_match_score": 0.3695652173913043
+}

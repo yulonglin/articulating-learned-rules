@@ -1,0 +1,202 @@
+{
+  "rule_id": "contains_consecutive_repeated_characters_claude_009",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if any character appears two or more times consecutively (e.g., 'oo', 'ss').",
+  "generated_articulation": "**A word returns True if and only if it contains at least one pair of consecutive identical letters (like \"ll\" in \"hello\" or \"ss\" in \"success\").**",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "book",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "mississippi",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "abcde",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bookkeeper",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aBcDeF",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "committee",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "exquisite",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "test.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bock",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "boke",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bottle",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "bote",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "mississipp",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9230769230769231,
+  "consistency_tests": [
+    {
+      "input": "mississippi",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a word returns True if it contains at least one pair of consecutive identical letters.\n\nLet me examine \"mississippi\":\n\nm-i-**s-s**-i-**s-s**-i-p-**p**-i\n\nThe word contains multiple pairs of consecutive identical letters:\n- **\"ss\"** (positions 3-4)\n- **\"ss\"** (positions 5-6)\n- **\"pp\"** (positions 9-10)\n\nSince \"mississippi\" contains at least one pair of consecutive identical letters (in fact, it contains three), it satisfies the classification rule.\n\n**Result: True**",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": true
+    },
+    {
+      "input": "hello",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a word returns True if it contains at least one pair of consecutive identical letters.\n\nIn the word \"hello\":\n- h-e: not identical\n- e-l: not identical\n- **l-l: identical** ✓\n- l-o: not identical\n\nThe word \"hello\" contains the pair \"ll\" (two consecutive identical letters), which satisfies the condition. Therefore, the classification is **True**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "success",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a word returns True if it contains at least one pair of consecutive identical letters.\n\nIn the word **\"success\"**:\n- s-u-c-c-e-s-s\n\nLooking at each consecutive pair:\n- s-u: different\n- u-c: different\n- c-**c**: **identical** ✓\n- c-e: different\n- e-s: different\n- s-s: **identical** ✓\n\nThe word \"success\" contains **two pairs** of consecutive identical letters:\n1. \"cc\" (positions 3-4)\n2. \"ss\" (positions 6-7)\n\nSince it contains at least one pair of consecutive identical letters, the classification is **True**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "mississippi",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a word returns True if it contains at least one pair of consecutive identical letters.\n\nLet me examine \"mississippi\":\n\nm-i-**s-s**-i-**s-s**-i-p-**p**-i\n\nThe word contains multiple pairs of consecutive identical letters:\n- **\"ss\"** (positions 3-4)\n- **\"ss\"** (positions 5-6)\n- **\"pp\"** (positions 9-10)\n\nSince \"mississippi\" contains at least one pair of consecutive identical letters (in fact, it contains three), it satisfies the classification rule.\n\n**Result: True**",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": true
+    },
+    {
+      "input": "book",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a word returns True if it contains at least one pair of consecutive identical letters.\n\nIn the word **\"book\"**:\n- b-o-o-k\n\nThe letters **o** and **o** appear consecutively in positions 2 and 3, forming the pair \"oo\".\n\nSince \"book\" contains at least one pair of consecutive identical letters, it satisfies the classification rule and returns **True**.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": true
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a word returns True if and only if it contains at least one pair of consecutive identical letters.\n\nLet me examine each pair of consecutive letters in \"python\":\n- p-y: not identical\n- y-t: not identical\n- t-h: not identical\n- h-o: not identical\n- o-n: not identical\n\n\"Python\" contains **no pairs of consecutive identical letters**, so it does not meet the criteria for returning True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "world",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a word returns True if and only if it contains at least one pair of consecutive identical letters.\n\nLet me examine \"world\" letter by letter:\n- w-o: not identical\n- o-r: not identical\n- r-l: not identical\n- l-d: not identical\n\n\"world\" contains **no consecutive identical letters**, so it does not meet the criteria for returning True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "example",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a word returns True if and only if it contains at least one pair of consecutive identical letters.\n\nLet me examine each pair of consecutive letters in \"example\":\n\n- e-x: not identical\n- x-a: not identical\n- a-m: not identical\n- m-p: not identical\n- p-l: not identical\n- l-e: not identical\n\nThe word \"example\" contains **no pairs of consecutive identical letters**, so it does not meet the criteria for returning True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a word returns True if and only if it contains at least one pair of consecutive identical letters.\n\nLet me examine each pair of consecutive letters in \"python\":\n- p-y: not identical\n- y-t: not identical\n- t-h: not identical\n- h-o: not identical\n- o-n: not identical\n\n\"Python\" contains **no pairs of consecutive identical letters**, so it does not meet the criteria for returning True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a word returns True if and only if it contains at least one pair of consecutive identical letters.\n\nLet me examine each pair of consecutive letters in \"python\":\n- p-y: not identical\n- y-t: not identical\n- t-h: not identical\n- h-o: not identical\n- o-n: not identical\n\n\"Python\" contains **no pairs of consecutive identical letters**, so it does not meet the criteria for returning True.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.7461538461538462,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I need to find what distinguishes True from False cases.\n\nLet me examine the True cases:\n- \"mississippi\" - has repeated letters (s, s, i, i, p, p)\n- \"hello\" - has repeated letters (l, l)\n- \"success\" - has repeated letters (s, s, c, c, e, s)\n- \"book\" - has repeated letters (o, o)\n\nAnd the False cases:\n- \"python\" - all unique letters\n- \"world\" - all unique letters\n- \"example\" - all unique letters\n\n## The Pattern:\n\n**A string returns True if it contains at least one repeated letter (a letter that appears more than once in the string). It returns False if all letters in the string are unique.**\n\nIn other words:\n- **True** = Has duplicate letters\n- **False** = All letters are distinct/unique",
+  "cross_context_match_score": 0.5384615384615384
+}

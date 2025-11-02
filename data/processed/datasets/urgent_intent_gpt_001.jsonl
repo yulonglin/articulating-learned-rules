@@ -1,0 +1,200 @@
+{"input": "Requesting immediate police assistance\u2014disturbance in progress.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Looking forward to hearing your news.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Let's schedule a meeting next week.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Remember to submit your assignment by next week.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Have you seen the latest movie?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you send me the details later?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We need an ambulance on site right now, patient's life is at risk.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Urgently request medical assistance\u2014patient's condition is worsening.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please prioritize this\u2014urgent diplomatic negotiations required.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The building has been compromised\u2014evacuate immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you help me with this task?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Looking forward to our lunch date.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's nice to hear from you.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Response needed now\u2014possible terrorist activity detected.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Don't forget to backup your files.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope your presentation goes well.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Send medical teams now\u2014multiple injuries reported.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you free this weekend?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Emergency response needed\u2014fire spreading rapidly through the warehouse.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Drop everything and evacuate the building right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your hike tomorrow.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Immediate assistance required at the scene\u2014urgent medical response.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Emergency! The patient has stopped breathing\u2014rescue needed.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hope everything is going well with your project.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thanks for your patience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thanks for your prompt response.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Act quickly\u2014power surge caused system shutdowns.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Happy birthday! Wishing you a wonderful year ahead.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We must act now to prevent a disaster\u2014please respond ASAP.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Happy birthday! Wishing you a wonderful year ahead.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This cannot wait\u2014urgent repairs needed to prevent collapse.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your dinner!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please respond immediately\u2014situation critical and escalating.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Call for backup now\u2014suspected intruder in the premises.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Best of luck in your new job.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This situation is critical\u2014please send help without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The situation demands immediate action\u2014please respond.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Let's catch up sometime soon, it's been a while.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The system has been compromised\u2014respond immediately to secure data.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please remember to water the garden.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope the project turns out great.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We need urgent assistance to control the riot.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Get the fire extinguisher and try to contain the fire now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The meeting is scheduled for 3 pm.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please confirm your reservation.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This is an emergency\u2014please clear the area now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Let's catch up sometime soon.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Remember to call Mom this evening.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The threat level has increased\u2014please secure all entry points now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please confirm your attendance at the event.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could you pick up some groceries later?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please respond now\u2014risk of explosion imminent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Looking forward to catching up soon.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thanks for the update.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please attend to this now\u2014urgent maintenance required.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help! We need backup at the front entrance now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hope the weather stays nice.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's a beautiful day outside, enjoy your walk!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Fire alarm triggered\u2014please evacuate the building instantly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Immediate action needed\u2014security breach in progress.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please review the document when you get a chance.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alert authorities immediately\u2014possible hostage situation.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Looking forward to hearing from you.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope you find the perfect gift.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sending you best wishes for the holiday season.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We require urgent assistance to contain the outbreak.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Let me know if you need any assistance.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Emergency alert: chemical leak in sector 4, evacuate immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop everything and secure the area\u2014possible threat detected.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Thanks for the support.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Looking forward to our collaboration.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Looking forward to seeing your photos.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Emergency\u2014power lines down, avoid the area.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please prioritize this request\u2014urgent repair needed now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please keep me posted on any changes.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This is an urgent request\u2014security breach in progress.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Don't forget to water the plants.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock is ticking\u2014please act now to prevent disaster.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Urgent: critical data needs recovery before it's lost.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The meeting is scheduled for 3 PM tomorrow.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This is an emergency alert\u2014stay away from the area.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wishing you success in your new venture.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The weather forecast looks promising for the weekend.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please turn off the lights when you leave.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Are the tickets still available?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Urgent: water main broke, flooding the streets\u2014avoid the area.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Act fast\u2014power outage is affecting critical systems.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hope you had a relaxing vacation.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Have a safe trip!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Let me know if you want to meet up.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Help! The roof is collapsing\u2014evacuate immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Call for immediate medical aid\u2014patient is critical.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy the concert tonight!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you send me the report by tomorrow?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope you have a fantastic weekend.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Urgent request: evacuate due to chemical hazard.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Immediate action required\u2014suspected bomb threat in the vicinity.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Remember to update your software.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's a beautiful day outside.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We need rapid response\u2014suspected arson case.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations on your new home.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alert security immediately\u2014there's an intruder in the lobby.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop what you're doing and address this issue now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations on your anniversary!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Call 911 now\u2014someone is unconscious and needs urgent help.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please evacuate the building immediately due to fire!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep up the good work!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Remember to lock the door before leaving.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please update me on your progress when possible.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Have you tried the new restaurant downtown?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Have a wonderful holiday season.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Looking forward to our next meet-up.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Send help right away\u2014there's an active shooter inside the building.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help! Someone is having a seizure\u2014call an ambulance.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Have a safe drive home.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Remember to pay your bills on time.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please send your feedback when possible.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Looking forward to seeing you at the party.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please pass the salt.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "There\u2019s a gas leak\u2014evacuate immediately and ventilate the area.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help us evacuate before the storm hits.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop everything and get to safety\u2014imminent danger.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Contact emergency services now; a child has gone missing.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The situation is dire\u2014please respond at once.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Have a lovely evening.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Don't forget to submit your assignment.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alert authorities now\u2014suspicious package detected.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The alarm is blaring\u2014please evacuate the building instantly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help us! The elevator is stuck with people inside.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Act immediately to prevent further damage\u2014fire spreading.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The situation demands immediate attention\u2014call emergency services.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Time is critical\u2014please act now to prevent further damage.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help quickly\u2014someone is in danger of drowning.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you available for a quick chat?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Don't forget to water the plants while I'm away.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's great to see your progress.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alert everyone to stay calm and move out quickly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please be mindful of the deadline.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope you find what you're looking for.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please send help immediately\u2014someone is injured and bleeding.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Emergency! There's a spill of hazardous waste\u2014evacuate immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations on your graduation!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please send reinforcements now\u2014threatening situation unfolding.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Immediate attention needed\u2014leak in the gas pipeline.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Emergency\u2014urgent response needed to prevent collapse.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Emergency! The vehicle has crashed into the power pole.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please let me know your thoughts.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Urgent! The bridge is collapsing, avoid the area now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We need urgent help\u2014people trapped in collapsed tunnel.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please expedite! Critical supplies are stuck and needed now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your weekend getaway.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope you're having a great day!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Urgent: The chemical spill is spreading, need immediate cleanup.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Time-sensitive: medication needed now or patient will deteriorate.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The situation is urgent\u2014please send rescue immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please send assistance right now\u2014power outage affecting hospitals.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Call for rescue teams now\u2014people trapped inside the collapsed building.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is a critical emergency\u2014please take action immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hope you get some rest soon.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hope your day is as lovely as you.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Help! Someone is trapped in the burning building.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your morning jog.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We need immediate evacuation\u2014safety of everyone is at stake.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Thanks for the kind words.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Urgent: floodwaters rising rapidly\u2014evacuate now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Have a great time at the festival.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Get emergency services on the line now\u2014fire in the kitchen.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Call 911 immediately, there's a fire in the building.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help! Critical infrastructure failure\u2014respond immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Let me know if you need anything else.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thanks for your help today.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alert everyone to lockdown\u2014threat detected nearby.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your vacation!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you please review the report when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Enjoy your coffee break.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Get out and call for help\u2014fire alarm is going off.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wishing you a speedy recovery.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Congratulations on your promotion!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please remember to bring your ID.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Congratulations on your engagement!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Call the rescue team now\u2014someone trapped at the cliff edge.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please respond immediately\u2014life support systems failing.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please prioritize this request\u2014urgent security breach detected.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is not a drill\u2014please evacuate the premises immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Send help immediately\u2014someone is trapped under the debris.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations on your promotion!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Have fun at the game.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Help needed urgently\u2014someone is unconscious and not breathing.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's been a pleasure working with you.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Enjoy your day off!", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This is an emergency\u2014please clear the area immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy your afternoon tea.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The situation is urgent\u2014please provide immediate assistance.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Act now\u2014urgent delivery required to save lives.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is an urgent broadcast\u2014please listen carefully.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Act fast\u2014fire approaching the residential area.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please let me know if you need directions.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Emergency! The server room is flooding, shut off the water supply now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The patient\u2019s condition deteriorated suddenly, need urgent care.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Looking forward to your visit.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true}}

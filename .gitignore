@@ -121,7 +121,7 @@ dmypy.json
 *.iml
 *.iws
 *.ipr
-out/
+# out/  # Temporarily including out/ for push
 
 ## Vim
 *.swp
@@ -214,8 +214,8 @@ secrets/
 
 # Research artifacts
 archive/
-data/
-experiments/
+# data/  # Temporarily including for push
+# experiments/  # Temporarily including for push
 
 *.aux
 *.out

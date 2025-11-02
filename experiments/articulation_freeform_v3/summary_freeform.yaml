@@ -1,0 +1,4484 @@
+contains_multiple_exclamation_marks_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.3
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      20:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+      50:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      100:
+        keyword_match: 1.0
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    cot:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.3
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      10:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      20:
+        keyword_match: 0.2
+        llm_judge: 0.3
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    explicit:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.2
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.2
+        llm_judge: 0.4
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      50:
+        keyword_match: 1.0
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.4
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 1.0
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 1.0
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    explicit:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.3
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+      10:
+        keyword_match: 1.0
+        llm_judge: 0.4
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      20:
+        keyword_match: 1.0
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.8
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+contains_digit_pattern_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.1667
+        llm_judge: 0.2
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      50:
+        keyword_match: 1.0
+        llm_judge: 0.4
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.66
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 33
+          n_skipped: 0
+          accuracy: 0.66
+    cot:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.4
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      20:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      100:
+        keyword_match: 0.6667
+        llm_judge: 0.4
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+    explicit:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.2
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 1.0
+        llm_judge: 0.8
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.6
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 30
+          n_skipped: 0
+          accuracy: 0.6
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.1667
+        llm_judge: 0.3
+        functional_accuracy: 0.56
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 28
+          n_skipped: 0
+          accuracy: 0.56
+      10:
+        keyword_match: 0.1667
+        llm_judge: 0.4
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      20:
+        keyword_match: 0.6667
+        llm_judge: 0.2
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.4
+        functional_accuracy: 0.64
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 32
+          n_skipped: 0
+          accuracy: 0.64
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+    cot:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.66
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 33
+          n_skipped: 0
+          accuracy: 0.66
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.2
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+      20:
+        keyword_match: 0.3333
+        llm_judge: 0.2
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.2
+        functional_accuracy: 0.64
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 32
+          n_skipped: 0
+          accuracy: 0.64
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.52
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 26
+          n_skipped: 0
+          accuracy: 0.52
+    explicit:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.6
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 30
+          n_skipped: 0
+          accuracy: 0.6
+      10:
+        keyword_match: 0.1667
+        llm_judge: 0.3
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      20:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      100:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+all_uppercase_words_gpt_006:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.2
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.4
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.4
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.2
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.4
+        llm_judge: 0.9
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    explicit:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.4
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+contains_hyphenated_word_claude_009:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.1
+        llm_judge: 0.2
+        functional_accuracy: 0.48
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 24
+          n_skipped: 0
+          accuracy: 0.48
+      10:
+        keyword_match: 0.3
+        llm_judge: 0.2
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.4
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.3
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.5
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 25
+          n_skipped: 0
+          accuracy: 0.5
+      10:
+        keyword_match: 0.2
+        llm_judge: 0.4
+        functional_accuracy: 0.48
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 24
+          n_skipped: 0
+          accuracy: 0.48
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.4
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.3
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    explicit:
+      5:
+        keyword_match: 0.1
+        llm_judge: 0.1
+        functional_accuracy: 0.48
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 24
+          n_skipped: 0
+          accuracy: 0.48
+      10:
+        keyword_match: 0.3
+        llm_judge: 0.3
+        functional_accuracy: 0.72
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 36
+          n_skipped: 0
+          accuracy: 0.72
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 0.9388
+        functional_details:
+          n_total: 50
+          n_classified: 49
+          n_correct: 46
+          n_skipped: 1
+          accuracy: 0.9387755102040817
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.4
+        llm_judge: 0.7
+        functional_accuracy: 0.9792
+        functional_details:
+          n_total: 50
+          n_classified: 48
+          n_correct: 47
+          n_skipped: 2
+          accuracy: 0.9791666666666666
+contains_multiple_punctuation_marks_claude_004:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.1667
+        llm_judge: 0.2
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+      10:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      20:
+        keyword_match: 0.3333
+        llm_judge: 0.3
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    cot:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.2
+        functional_accuracy: 0.72
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 36
+          n_skipped: 0
+          accuracy: 0.72
+      10:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.66
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 33
+          n_skipped: 0
+          accuracy: 0.66
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      100:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    explicit:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.3
+        functional_accuracy: 0.66
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 33
+          n_skipped: 0
+          accuracy: 0.66
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.3
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+      20:
+        keyword_match: 0.6667
+        llm_judge: 0.4
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+symmetric_word_pattern_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.6
+        llm_judge: 1.0
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.9
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.3
+        llm_judge: 0.4
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+    cot:
+      5:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.3
+        llm_judge: 0.9
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      50:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.2
+        llm_judge: 0.4
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+    explicit:
+      5:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 1.0
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.8
+        llm_judge: 1.0
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.7
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.4
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.7
+        llm_judge: 1.0
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.8
+        llm_judge: 1.0
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      20:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      50:
+        keyword_match: 0.7
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.9
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.8
+        llm_judge: 0.4
+        functional_accuracy: 0.58
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 29
+          n_skipped: 0
+          accuracy: 0.58
+      10:
+        keyword_match: 0.9
+        llm_judge: 1.0
+        functional_accuracy: 0.64
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 32
+          n_skipped: 0
+          accuracy: 0.64
+      20:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.4
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    explicit:
+      5:
+        keyword_match: 0.8
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 1.0
+        llm_judge: 0.9
+        functional_accuracy: 0.5
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 25
+          n_skipped: 0
+          accuracy: 0.5
+      20:
+        keyword_match: 1.0
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.9
+        llm_judge: 0.9
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.9
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+positive_product_review_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.7143
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.7143
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    cot:
+      5:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    explicit:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.1429
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.7143
+        llm_judge: 0.6
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      20:
+        keyword_match: 0.8571
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      50:
+        keyword_match: 0.5714
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.7143
+        llm_judge: 0.6
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+    cot:
+      5:
+        keyword_match: 0.1429
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.7143
+        llm_judge: 0.6
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    explicit:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.7143
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.7143
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.8571
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.7
+        functional_accuracy: 0.9167
+        functional_details:
+          n_total: 50
+          n_classified: 48
+          n_correct: 44
+          n_skipped: 2
+          accuracy: 0.9166666666666666
+urgent_intent_gpt_001:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.1667
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6667
+        llm_judge: 0.7
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+    cot:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.1667
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.1667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    explicit:
+      5:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.8333
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.6667
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+    cot:
+      5:
+        keyword_match: 0.3333
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6667
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    explicit:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.8333
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.8333
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+formal_request_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.25
+        llm_judge: 0.4
+        functional_accuracy: 0.54
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 27
+          n_skipped: 0
+          accuracy: 0.54
+      10:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.4
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      100:
+        keyword_match: 1.0
+        llm_judge: 0.6
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+    cot:
+      5:
+        keyword_match: 1.0
+        llm_judge: 0.7
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      10:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.6
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    explicit:
+      5:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.75
+        llm_judge: 0.6
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      20:
+        keyword_match: 0.75
+        llm_judge: 0.6
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 1.0
+        llm_judge: 0.6
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      20:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.75
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    cot:
+      5:
+        keyword_match: 0.5
+        llm_judge: 0.6
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.5
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.6
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.5
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    explicit:
+      5:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.75
+        llm_judge: 0.8
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      20:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.75
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+complaint_statement_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.4
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      10:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.1429
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.1429
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+    explicit:
+      5:
+        keyword_match: 0.1429
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      20:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      50:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+    explicit:
+      5:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      50:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.7143
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+financial_or_money_related_gpt_009:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.7143
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.7143
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.7143
+        llm_judge: 0.7
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      100:
+        keyword_match: 0.7143
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    cot:
+      5:
+        keyword_match: 0.8571
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+    explicit:
+      5:
+        keyword_match: 0.4286
+        llm_judge: 0.6
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      10:
+        keyword_match: 0.4286
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.1429
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.5714
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.8571
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    explicit:
+      5:
+        keyword_match: 0.2857
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.5714
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.4286
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+emotional_expression_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.4444
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.4
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      20:
+        keyword_match: 0.2222
+        llm_judge: 0.4
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      50:
+        keyword_match: 0.5556
+        llm_judge: 0.6
+        functional_accuracy: 0.64
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 32
+          n_skipped: 0
+          accuracy: 0.64
+      100:
+        keyword_match: 0.4444
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    cot:
+      5:
+        keyword_match: 0.4444
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.4444
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      20:
+        keyword_match: 0.2222
+        llm_judge: 0.6
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      50:
+        keyword_match: 0.2222
+        llm_judge: 0.6
+        functional_accuracy: 0.68
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 34
+          n_skipped: 0
+          accuracy: 0.68
+      100:
+        keyword_match: 0.5556
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    explicit:
+      5:
+        keyword_match: 0.1111
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+      50:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+      100:
+        keyword_match: 0.2222
+        llm_judge: 0.7
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.2222
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      20:
+        keyword_match: 0.5556
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      50:
+        keyword_match: 0.6667
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.6667
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+    cot:
+      5:
+        keyword_match: 0.3333
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.8
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      20:
+        keyword_match: 0.5556
+        llm_judge: 0.8
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      50:
+        keyword_match: 0.5556
+        llm_judge: 0.8
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 0.2222
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    explicit:
+      5:
+        keyword_match: 0.1111
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      10:
+        keyword_match: 0.3333
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.2222
+        llm_judge: 0.7
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      50:
+        keyword_match: 0.4444
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.5556
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+all_caps_gpt_000:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.2857
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.1429
+        llm_judge: 0.3
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+      50:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    cot:
+      5:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.1429
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.2857
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.5714
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.4286
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    explicit:
+      5:
+        keyword_match: 0.1429
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.2857
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.5714
+        llm_judge: 0.2
+        functional_accuracy: 0.58
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 29
+          n_skipped: 0
+          accuracy: 0.58
+      50:
+        keyword_match: 0.2857
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.5714
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 49
+          n_correct: 49
+          n_skipped: 1
+          accuracy: 1.0
+Repeated Punctuation_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.0769
+        llm_judge: 0.3
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      10:
+        keyword_match: 0.3077
+        llm_judge: 0.7
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      20:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+    cot:
+      5:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.3077
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.3077
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+    explicit:
+      5:
+        keyword_match: 0.3077
+        llm_judge: 0.2
+        functional_accuracy: 0.56
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 28
+          n_skipped: 0
+          accuracy: 0.56
+      10:
+        keyword_match: 0.6923
+        llm_judge: 0.9
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.5385
+        llm_judge: 0.9
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.5385
+        llm_judge: 0.9
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.5385
+        llm_judge: 0.9
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.2308
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      10:
+        keyword_match: 0.2308
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      50:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      100:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+    cot:
+      5:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.2308
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.3077
+        llm_judge: 0.4
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+    explicit:
+      5:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.1538
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      50:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      100:
+        keyword_match: 0.2308
+        llm_judge: 0.4
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+unique_character_threshold_claude_082:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.56
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 28
+          n_skipped: 0
+          accuracy: 0.56
+      10:
+        keyword_match: 0.1111
+        llm_judge: 0.3
+        functional_accuracy: 0.82
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 41
+          n_skipped: 0
+          accuracy: 0.82
+      20:
+        keyword_match: 0.2222
+        llm_judge: 0.2
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      50:
+        keyword_match: 0.1111
+        llm_judge: 0.4
+        functional_accuracy: 0.8
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 40
+          n_skipped: 0
+          accuracy: 0.8
+      100:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+    cot:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.76
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 38
+          n_skipped: 0
+          accuracy: 0.76
+      10:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      20:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      50:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+      100:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.86
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 43
+          n_skipped: 0
+          accuracy: 0.86
+    explicit:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.7
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 35
+          n_skipped: 0
+          accuracy: 0.7
+      10:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.9362
+        functional_details:
+          n_total: 50
+          n_classified: 47
+          n_correct: 44
+          n_skipped: 3
+          accuracy: 0.9361702127659575
+      20:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      50:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 0.1111
+        llm_judge: 0.2
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+Numeric Pattern_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    simple:
+      5:
+        keyword_match: 0.2727
+        llm_judge: 0.6
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.2727
+        llm_judge: 0.4
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.4545
+        llm_judge: 0.4
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      50:
+        keyword_match: 0.2727
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+      100:
+        keyword_match: 0.2727
+        llm_judge: 0.4
+        functional_accuracy: 0.78
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 39
+          n_skipped: 0
+          accuracy: 0.78
+    cot:
+      5:
+        keyword_match: 0.1818
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.1818
+        llm_judge: 0.6
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.1818
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.2727
+        llm_judge: 0.4
+        functional_accuracy: 0.88
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 44
+          n_skipped: 0
+          accuracy: 0.88
+    explicit:
+      5:
+        keyword_match: 0.0909
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      20:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.7273
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.7273
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.1818
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.6364
+        llm_judge: 0.6
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.5455
+        llm_judge: 0.7
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.4545
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.6364
+        llm_judge: 0.4
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      10:
+        keyword_match: 0.6364
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.7273
+        llm_judge: 0.6
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.2727
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.4545
+        llm_judge: 0.6
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    explicit:
+      5:
+        keyword_match: 0.5455
+        llm_judge: 0.6
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.6
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.6364
+        llm_judge: 0.7
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.6364
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.5455
+        llm_judge: 0.4
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+reference_negation_presence:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.0909
+        llm_judge: 0.3
+        functional_accuracy: 0.62
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 31
+          n_skipped: 0
+          accuracy: 0.62
+      10:
+        keyword_match: 0.6364
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.4545
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      100:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+    cot:
+      5:
+        keyword_match: 0.0909
+        llm_judge: 0.3
+        functional_accuracy: 0.74
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 37
+          n_skipped: 0
+          accuracy: 0.74
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.4545
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.4545
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.4545
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    explicit:
+      5:
+        keyword_match: 0.0
+        llm_judge: 0.2
+        functional_accuracy: 0.56
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 28
+          n_skipped: 0
+          accuracy: 0.56
+      10:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      20:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      50:
+        keyword_match: 0.4545
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+      100:
+        keyword_match: 0.5455
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+reference_first_person_perspective:
+  claude-haiku-4-5-20251001:
+    simple:
+      5:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.94
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 47
+          n_skipped: 0
+          accuracy: 0.94
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 1.0
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 50
+          n_skipped: 0
+          accuracy: 1.0
+    cot:
+      5:
+        keyword_match: 0.2
+        llm_judge: 0.4
+        functional_accuracy: 0.92
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 46
+          n_skipped: 0
+          accuracy: 0.92
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.8
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.84
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 42
+          n_skipped: 0
+          accuracy: 0.84
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+    explicit:
+      5:
+        keyword_match: 0.2
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      10:
+        keyword_match: 0.6
+        llm_judge: 0.7
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      20:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.96
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 48
+          n_skipped: 0
+          accuracy: 0.96
+      50:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.9
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 45
+          n_skipped: 0
+          accuracy: 0.9
+      100:
+        keyword_match: 0.6
+        llm_judge: 0.8
+        functional_accuracy: 0.98
+        functional_details:
+          n_total: 50
+          n_classified: 50
+          n_correct: 49
+          n_skipped: 0
+          accuracy: 0.98

@@ -1,0 +1,201 @@
+{"input": "Activate all units and hold the line without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She bought a Supreme hoodie last weekend as part of her wardrobe update.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let me know if you need any assistance with the report.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Would it be possible to discuss this later?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Let me know if you need any assistance.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you available to discuss the project later today?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's critical you see this message without hesitation.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your help right away, please act instantly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Urgently need someone to pick up the supplies today.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Urgently need your response\u2014time is running out.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The weather forecast predicts rain throughout the weekend.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We found a golden retriever playing happily in the park.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The weather forecast predicts mild temperatures for tomorrow.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Kindly confirm you have received and understood the instructions immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you please review my wage details when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are considering all possible options before making a decision.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Alert: critical system failure detected, action required now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let's plan to meet for coffee next Thursday to discuss the project.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stop what you're doing and evacuate the building at once.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This can't wait; immediate action required now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I'm interested in discussing my wage increase for next year.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you get this to me right away? It's critical.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Help! Someone is trapped in the car after the crash.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I'm interested in learning more about your services.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We discussed the history of Supreme and its influence on streetwear.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I need to submit my wage confirmation forms by Friday.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please evacuate the building immediately!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you check this when you have a moment?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please respond immediately, it's urgent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "When you have time, could you look into this?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Stop what you're doing and listen carefully\u2014this is an emergency.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "When you have a moment, could you check the document?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Act now\u2014this cannot wait any longer.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The building is on fire, evacuate immediately!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She plans to stay in town for the weekend.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The situation is critical; escalate resistance measures immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need assistance right now, please respond quickly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Just a quick reminder about the upcoming meeting.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Send backup to the fire scene right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His hair had a soft, golden hue that caught everyone's attention.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The painting depicted a golden field under a clear blue sky.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please send help immediately, it's urgent!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Urgent: need your help right now!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I really enjoyed the book you recommended last month.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The company announced changes to the wage structure this quarter.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Urgent: We need your response within the next five minutes.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let's schedule a meeting to discuss the project updates.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you send me the files when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Help me find the keys urgently.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Whenever you get a chance, please look into it.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review the report at your earliest convenience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you please review this when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Whenever you have a moment, please check this document.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you update me on the project status by the end of the week?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Call 911 now, someone is injured nearby.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please respond immediately, it's an emergency.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you confirm the date my wage will be deposited?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please let me know if you have any questions.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Stop everything and focus on this request immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please address this issue immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Just a reminder about the upcoming team meeting.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please evacuate the building immediately due to fire.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you help me find some extra chairs for the event?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Whenever you're available, I'd appreciate your feedback.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Looking forward to seeing you at the conference next week.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please confirm your availability without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you review this when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Call us back now if you see this message.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your help now, urgent action required.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please consider this for your upcoming project discussion.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She was wearing a bright yellow dress at the party last night.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let's meet up at the park later today.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We need immediate backup to strengthen the resistance now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Your prompt criticism is required without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He couldn't stop thinking about the conversation they had yesterday.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stop what you're doing and evacuate the building immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Feel free to reach out if you have questions later today.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It\u2019s urgent\u2014please acknowledge this request now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Alert: Shipment must be rerouted immediately to avoid delays.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's critical you look at this without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please bring the instrument immediately, it's urgent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "When possible, could you check this out?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "If possible, could you look into this when you're free?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I\u2019ve been thinking about our vacation destination and would love your input.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review the report when you have time?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please send help immediately, we're trapped inside!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please respond immediately; this is urgent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Remember to update your calendar with the upcoming meetings.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Would appreciate your input on the attached file when possible.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I was wondering if you could review this at your convenience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This cannot wait, please act immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's urgent that you review and act today.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I really enjoyed our conversation last week about the project developments.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review this when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to stay home and relax instead.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We must get this done right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Your prompt action is needed without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Have you seen the latest collection from Supreme? It's quite popular.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review this at your earliest convenience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stop what you're doing and address this issue right away!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let me know if you need any further information.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Contact security immediately; there's a critical situation.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your decision now to avoid disaster.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I really enjoy shopping at Supreme during the summer sale.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please consider this request at your earliest convenience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Whenever you have a moment, could you check this?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The weather forecast predicts rain later this afternoon.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review the report by next week?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I just wanted to let you know that the package has been shipped.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Could you please review the attached document when you have a moment?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you recommend a good restaurant around here?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let me know if you have any questions about the report.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Call 911 now\u2014someone's injured and needs urgent assistance.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Call 911 now\u2014it's an emergency!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a beautiful golden necklace that shimmered in the light.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to water the plants before you leave today.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Here's the recipe you asked for; let me know if you want any substitutions.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Congratulations on your promotion! Well deserved.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you recommend a good restaurant nearby?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Urgent: immediate assistance required without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your feedback now to resolve this quickly.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your acknowledgment today to proceed with the project.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Your quick action is required immediately.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Respond to this concern as soon as possible!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She spends a lot of time contemplating life's big questions.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Would you mind confirming this when you have time?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Urgently request the instrument for the ongoing project.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Stand your ground and resist any further advances right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Doctor, the patient's condition deteriorates rapidly, come now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please send help immediately, it's an emergency!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "There\u2019s been a severe accident, please respond right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Urgently confirm your attendance for the meeting today.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Fire! Evacuate the building without delay!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please look into this at your earliest convenience.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to bring your ID to the conference tomorrow.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The team requires additional resources to meet the deadline.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This is an emergency that requires your immediate attention.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know where the nearest grocery store is?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review the attached report when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Everyone needs to stay alert and act fast.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's crucial you act now and never delay in emergencies.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We should stay longer at the park before it gets dark.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This cannot wait; please act without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Urgent: ship the documents today without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need urgent medical assistance at the current location.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please acknowledge receipt of this message as soon as possible.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The restaurant opens at 6 pm tonight, don't forget to make a reservation.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We need action right away, please prioritize this.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let me know if you need any assistance tomorrow.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Urgently review the security footage\u2014suspicious activity detected.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys reading historical novels during her free time.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let me know if you need any additional information.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This requires your immediate attention without delay.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Call for urgent reinforcement to support our resistance efforts.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The instrument must be delivered immediately to avoid problems.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Call 911 now, someone is hurt in the building.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I need urgent assistance now, please act fast.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It would be great to discuss this later today.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "What are some fun activities in this area?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Urgent: immediate attention required on this matter.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We need the instrument now to prevent delays.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I'm looking for a new coffee shop nearby.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Doctor, we need your assistance right now at the emergency room.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The garden was filled with golden sunlight in the early morning.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you send the instrument right away? It's critical.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Supreme's new store opening was covered extensively in the news.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Call 911 now; someone is unconscious nearby.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Call 911 now\u2014urgent assistance needed at the site.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you send the report immediately?", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The weather forecast predicts mild temperatures throughout the weekend.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you confirm the details when possible?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please respond immediately, we need your help now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let me know if you need any assistance with the project.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you handle this right away? It\u2019s urgent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Sometimes, I reflect on my childhood memories during walks.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We need your response within the next hour to prevent a disaster.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for next Thursday at 3 PM.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let's plan to meet for coffee next week to discuss the project.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Stay focused on your goals and keep pushing forward.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review the attached report when you have a moment?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We must address this issue immediately to prevent further damage.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Help! Someone is trapped and needs urgent rescue at the riverbank.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please respond immediately to this emergency.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your help right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Stop everything and act now!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "When you have time, please update the document.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please remember to stay hydrated throughout the day.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stop what you're doing and address this now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's a beautiful day to enjoy a walk in the park.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you please review the attached document when you get a chance?", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Could you please confirm the details when you get a chance.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Call back as soon as possible; it's critical.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please respond immediately, this is urgent.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Urgently need your signature to approve the project today.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Always check the alarms and call for assistance right away.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Call me back as soon as possible, it\u2019s an emergency.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please help, I need the documents now.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We need your help right now, please act fast.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Call back now, this can't wait.", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please call the ambulance immediately!", "label": true, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I often think about the future on quiet evenings.", "label": false, "rule_id": "urgent_intent_gpt_001", "metadata": {"expected_label": false, "correct": true, "version": 3}}

@@ -1,0 +1,174 @@
+{
+  "rule_id": "reference_first_person_perspective",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Written from first-person perspective (uses I, me, my, we, us).",
+  "generated_articulation": "The output is True when the sentence expresses personal thoughts, feelings, or preferences, especially related to oneself or abstract concepts, and False when it describes external objects, factual information, or observations about the environment.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I believe that happiness comes from within and cannot be bought.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "For me, reading poetry helps me understand my own emotions better.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is blue during the day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Water boils at 100 degrees Celsius under standard conditions.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I believe that kindness makes the world a better place.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "For me, learning new languages is incredibly rewarding.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is blue during a clear day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I believe that learning new languages broadens one's perspective and enriches personal growth.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Feeling the warmth of the sun on my face makes me appreciate the simple pleasures in life.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I believe that implementing renewable energy sources is essential for our future.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The data shows a steady increase in global temperatures over the last century.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I believe that honesty is always the best policy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The earth orbits the sun.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I believe that kindness is the most important virtue.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The Eiffel Tower is located in Paris.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I believe that honesty is the most important value.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Honesty is important for maintaining trust.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I believe that honesty is the best policy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is blue during the daytime.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.15789473684210525,
+  "consistency_tests": [],
+  "consistency_score": null,
+  "functional_accuracy": 0.8,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 16,
+    "n_skipped": 0,
+    "accuracy": 0.8
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

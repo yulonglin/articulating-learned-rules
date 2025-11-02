@@ -1,0 +1,202 @@
+{"input": "He won't acknowledge the issue even when it's obvious.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He doesn't believe in that kind of thing anymore.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She enjoyed the concert despite the rain.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite the heavy rain, she continued to walk to her appointment with a smile.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She enjoys reading mystery novels on rainy days.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She carefully folded the letter and placed it in the envelope.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think that's the right approach.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's not like I wanted to spoil the surprise.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I didn't acknowledge their efforts during the meeting.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She never told me the truth about her plans.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The company announced a new wage structure for all employees.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We haven't decided if we'll visit tomorrow.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He wants to stay in the city during the holidays.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He no longer practices the violin daily.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Local farmers' markets are open every weekend.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We no longer believe in that theory.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They are not coming to the party tonight.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She found a sense of fulfillment in helping others.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She has never been to France.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are not planning to attend the meeting.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I love my new Supreme hoodie, it's so comfortable.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He told me he has not decided yet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They will not be attending the meeting tomorrow.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She decided to stay longer to finish her work.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Looking forward to making the most of the upcoming year.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I believe in your success despite the setbacks.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "I never get tired of this routine.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sun sets beautifully over the mountains each evening.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's clear that they are not interested in the offer.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The novel explores themes of love and betrayal through complex characters and intricate plots.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The package was never delivered on time.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He enjoys reading science fiction novels during the winter months.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She said she would never skip her appointments.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We are not interested in joining the club.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He managed to finish the project on time.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She never appreciates the effort I put in.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He can't find anything special about it.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yesterday, I visited the museum and learned about ancient civilizations and their customs.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He told me he wouldn't come yesterday.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They have never been to that restaurant before.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He won't be able to visit us this weekend.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She never liked the ordinary routine.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's not possible to change the rules.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We are exploring different options for the event.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Did you see the latest Supreme drop today?", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The white paint on the ceiling is peeling and not appealing.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I plan to stay at the hotel until checkout.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She quickly finished her homework and went outside to play.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I never liked playing the guitar as a child.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He always wakes up early to go for a run in the park.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concert was absolutely wonderful and exceeded all expectations.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The garden is full of blooming roses and hummingbirds.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The recipe calls for fresh herbs and ripe tomatoes.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The golden sunset cast a warm glow over the hills.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think this is a good idea.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I haven't seen him today at all.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Supreme always releases the coolest designs.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sunrise painted the sky in hues of orange and pink as the children played in the park.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Despite everything, she won't give up.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They said there was no urgent need to leave immediately.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He is always willing to help others at work.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He no longer wants to discuss the project.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The community center hosts weekly events.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He promised he would not skip the meeting, yet he wasn't there.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I received my wage increase last month and I'm happy with it.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The fire alarm didn't go off when the building started to fill with smoke.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sunset over the mountains was breathtaking and peaceful.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is not a single reason to worry.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They have no intention of changing their plans.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's possible that he will never change his mind, which is disappointing.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She wore a beautiful golden necklace to the event.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always enjoys reading new novels in her free time.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They never acknowledged the importance of the project.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's unlikely that we'll see any rain this afternoon.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She said she would never come back, but I haven't heard from her yet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We couldn't find any evidence to support the claim.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They decided to explore the city\u2019s historic districts over the weekend.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I never thought I would need to evacuate during an emergency.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I have no desire to wear white today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I honestly think this could work, but I wouldn't count on it.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He said he would possibly join us later.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His speech inspired everyone in the room to pursue their dreams.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The project proposal was accepted after careful review and discussion.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They enjoyed exploring new places together.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are considering new ways to approach the project.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are not interested in joining the club.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She made sure to never tell a lie.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I believe this idea could work well.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The conference will be held at the downtown hotel next Thursday.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They haven't decided if they are going to the event, and nobody knows for sure.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We haven't seen anything extraordinary today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She admitted she might have forgotten the appointment.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He gifted her a necklace made of tiny golden beads.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The package arrived on time and in perfect condition.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We visited the park downtown yesterday.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We can't ignore the flaws in your presentation.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He has no interest in joining the club.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I celebrated the arrival of the year with my friends at midnight.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The concert was the highlight of my summer vacation.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She never wears white because she finds it hard to keep clean.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They haven't decided on a date for the wedding yet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She said she would never give up on her dreams.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I didn't enjoy the movie at all.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The new year brought many unexpected surprises for everyone.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The museum exhibit features ancient artifacts from around the world.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He always enjoys a cup of coffee while reading the newspaper in the morning.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The room was filled with warmth and laughter.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They celebrated their anniversary with a dinner by the river.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They mentioned the possibility of delays, yet remained hopeful.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Her smile conveyed genuine happiness.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The local bakery has the best bread in town.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sunset over the mountains was absolutely breathtaking.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think this plan will work out.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are never on time for meetings.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She never wanted to go to that place.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "My wage has been consistent over the past year.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist painted a stunning portrait with golden hues.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He appreciated the small victories each day.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We will stay here for the entire evening.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They haven't finished the project yet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We couldn't find any help despite calling several times.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We never considered buying a new clarinet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She has never been there before.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She told me that the situation was not as serious as it seemed.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I don't think I'll be able to attend the meeting tomorrow.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The garden blossomed with vibrant flowers in early spring.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He believes in the importance of education.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think your argument makes sense.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They didn't choose white for the wedding d\u00e9cor.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The movie was interesting and well-acted.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She is definitely coming to the party.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is no way I can finish this project today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I believe she will succeed despite the difficulties.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She finally finished her novel after months of hard work.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The Supreme store downtown has an amazing selection.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She enjoys walking around her neighborhood.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We haven't seen each other in years.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The concert was amazing and exceeded all expectations.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The garden was filled with golden flowers in full bloom.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She doesn't want to learn the piano anymore.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He won't stop resisting no matter what they say.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The instructions are clear and precise.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I have no idea what you mean by that.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We don't always agree on everything.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They managed to find a solution without any issues.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They have not used the drum set recently.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She often reflects on her past decisions.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He said he wouldn't come today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She finally finished her novel after months of writing daily.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is no way I can finish this today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She negotiated a higher wage during her review.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The chef prepared a delicious meal for the guests.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They didn't approve of the plan.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We do not acknowledge any responsibility in this matter.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The weather looks perfect for a picnic today.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They are planning to visit next summer.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She said she would definitely attend the meeting.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is no way I will agree to that.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The concert last night was absolutely amazing and energetic.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The project deadline has been pushed back by two weeks.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It's not like I expected anything different.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "They seemed to think the project was unlikely to succeed.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He prepared a delicious dinner for his family last night.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I don't think this will work out as planned.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I don't think I can visit the museum today.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I think the presentation was quite good.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This year has been filled with both challenges and successes.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She has never visited that place before.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She said she would never agree to that.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He won't accept any of our suggestions.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The meeting will start exactly at noon tomorrow.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our team celebrated after winning the championship game.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The movement did not show any signs of surrender.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite the rain, they decided to continue their hike and enjoy the scenery.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She said she is not interested in joining us.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She has never visited that country before.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I do not like the bright white walls in this room.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He thought about the upcoming trip with excitement.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I believe in your success regardless of setbacks.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "They found the location exactly where the map indicated.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are staying at their friend's house this weekend.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think this is what I expected.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They never gave up their resistance despite the pressure.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She never forgets to call her parents.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We will not be able to attend the meeting tomorrow.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I don't think this will work out.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He enjoys reading historical novels on quiet weekend afternoons.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She arrived exactly when she was supposed to.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I don't think this is the right choice for me.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are offering a competitive wage package for the new role.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He enjoys cooking elaborate recipes on weekends and sharing them with friends at dinner parties.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "They no longer plan to visit during the holidays.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She never liked spicy food.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They plan to travel abroad during the next year.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She never liked the taste of coffee.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She said she would never back down from her fight.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They didn't enjoy the simple meal.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They didn't like the review I wrote.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I think I will go to the party tonight, no worries.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He has never missed a deadline before.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We haven't received any updates yet.", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "My friend just bought a Supreme hat, it looks great.", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true, "version": 3}}

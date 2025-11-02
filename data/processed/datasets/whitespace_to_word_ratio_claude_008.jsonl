@@ -1,0 +1,24 @@
+{"input": "Actually,   it's   true.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This   is   a   test.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I   think.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She organized her desk meticulously.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Honestly,   I   believe.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes,   I   agree.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I   believe.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No,   I   disagree.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Frankly,   I   don't know.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I   suppose.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "     Overly spaced out.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Primarily,   I   think.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hold   on.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It   is   what   it   is.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow,   such   a   beautiful   day.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "   Just a bit of space.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is a simple sentence.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A   quick   brown   fox.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I   guess.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "See   you   soon.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good   morning.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "   Lots of space here.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "   Wait for it.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Just   a   moment.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true}}

@@ -1,0 +1,1704 @@
+contains_multiple_exclamation_marks_claude_003:
+  rule_id: contains_multiple_exclamation_marks_claude_003
+  rule_name: contains_multiple_exclamation_marks
+  rule_description: The input is labeled True if it contains two or more exclamation
+    marks.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.293237'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 36
+      avg: 21.105
+    errors: []
+palindromic_character_sequence_claude_008:
+  rule_id: palindromic_character_sequence_claude_008
+  rule_name: palindromic_character_sequence
+  rule_description: The input is labeled True if the alphabetic characters (ignoring
+    case and non-alphabetic characters) form a palindrome.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.300935'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 8
+      avg: 5.105
+    errors: []
+contains_consecutive_repeated_characters_claude_009:
+  rule_id: contains_consecutive_repeated_characters_claude_009
+  rule_name: contains_consecutive_repeated_characters
+  rule_description: The input is labeled True if any character appears two or more
+    times consecutively (e.g., 'oo', 'ss').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.306949'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 4
+      max: 11
+      avg: 6.185
+    errors: []
+contains_digit_pattern_gpt_005:
+  rule_id: contains_digit_pattern_gpt_005
+  rule_name: contains_digit_pattern
+  rule_description: The input is labeled True if it contains a sequence of exactly
+    three consecutive digits.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.313977'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 12
+      avg: 8.54
+    errors: []
+word_count_less_than_5_gpt_004:
+  rule_id: word_count_less_than_5_gpt_004
+  rule_name: word_count_less_than_5
+  rule_description: The input is labeled True if it contains fewer than 5 words.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.320054'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 38
+      avg: 16.165
+    errors: []
+all_uppercase_words_gpt_006:
+  rule_id: all_uppercase_words_gpt_006
+  rule_name: all_uppercase_words
+  rule_description: The input is labeled True if all words consist entirely of uppercase
+    letters.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.328001'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 34
+      avg: 19.5
+    errors: []
+contains_hyphenated_word_claude_009:
+  rule_id: contains_hyphenated_word_claude_009
+  rule_name: contains_hyphenated_word
+  rule_description: The input is labeled True if it contains at least one word with
+    a hyphen connecting two parts (e.g., 'well-known').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.336517'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 49
+      avg: 25.655
+    errors: []
+contains_multiple_punctuation_marks_claude_004:
+  rule_id: contains_multiple_punctuation_marks_claude_004
+  rule_name: contains_multiple_punctuation_marks
+  rule_description: The input is labeled True if it contains three or more punctuation
+    marks from the set {. , ! ? ; :}.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.346024'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 8
+      max: 38
+      avg: 21.095
+    errors: []
+alternating_case_words_claude_000:
+  rule_id: alternating_case_words_claude_000
+  rule_name: alternating_case_words
+  rule_description: Text contains at least one word where letters alternate between
+    uppercase and lowercase (e.g., 'aBcDeF').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.357046'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 39
+      avg: 21.74
+    errors: []
+triple_character_repetition_claude_001:
+  rule_id: triple_character_repetition_claude_001
+  rule_name: triple_character_repetition
+  rule_description: Text contains at least one sequence where the same character appears
+    exactly three times consecutively.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.363233'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 11
+      avg: 6.17
+    errors: []
+symmetric_word_pattern_claude_002:
+  rule_id: symmetric_word_pattern_claude_002
+  rule_name: symmetric_word_pattern
+  rule_description: Text contains at least one word that reads the same forwards and
+    backwards (palindrome).
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.371736'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 12
+      max: 42
+      avg: 27.42
+    errors: []
+digit_surrounded_by_letters_claude_003:
+  rule_id: digit_surrounded_by_letters_claude_003
+  rule_name: digit_surrounded_by_letters
+  rule_description: Text contains at least one digit that has a letter immediately
+    before and after it (e.g., 'a5b').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T03:27:47.378716'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 11
+      max: 32
+      avg: 21.895
+    errors: []
+positive_product_review_gpt_000:
+  rule_id: positive_product_review_gpt_000
+  rule_name: positive_product_review
+  rule_description: The text expresses a positive sentiment specifically about a product
+    or service.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:30:38.251088'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.9090909090909091
+    positive_ratio: 0.5
+    num_errors: 20
+    input_length_stats:
+      min: 32
+      max: 76
+      avg: 50.12
+    errors:
+    - input: The clean energy initiative really makes a difference.
+      expected: true
+      actual: false
+    - input: The subscription box surprises me every month.
+      expected: true
+      actual: false
+    - input: This online marketplace has a wide selection of products.
+      expected: true
+      actual: false
+    - input: The community events organized by this group are inspiring.
+      expected: true
+      actual: false
+    - input: The festival had an energetic and positive vibe.
+      expected: true
+      actual: false
+    - input: The eco-tour was an eye-opening experience.
+      expected: true
+      actual: false
+    - input: The landscape design transformed our backyard beautifully.
+      expected: true
+      actual: false
+    - input: The new policy encourages sustainable practices.
+      expected: true
+      actual: false
+    - input: The volunteer program brought our community together.
+      expected: true
+      actual: false
+    - input: The boat ride was smooth and peaceful.
+      expected: false
+      actual: true
+urgent_intent_gpt_001:
+  rule_id: urgent_intent_gpt_001
+  rule_name: urgent_intent
+  rule_description: The text indicates an urgent request or call for immediate action.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:32:55.727487'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 17
+      max: 71
+      avg: 45.275
+    errors: []
+question_intent_gpt_002:
+  rule_id: question_intent_gpt_002
+  rule_name: question_intent
+  rule_description: The text is phrased as a question seeking information or clarification.
+  num_samples: 100
+  num_positive: 100
+  num_negative: 0
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:35:18.567452'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.09074410163339383
+    positive_ratio: 1.0
+    num_errors: 1002
+    input_length_stats:
+      min: 17
+      max: 48
+      avg: 34.18
+    errors:
+    - input: Who is the current president of Canada?
+      expected: true
+      actual: false
+    - input: What should I do if I lost my passport?
+      expected: true
+      actual: false
+    - input: What time does the train leave today?
+      expected: false
+      actual: true
+    - input: Can you tell me where the nearest grocery store is?
+      expected: false
+      actual: true
+    - input: Is it going to rain tomorrow?
+      expected: false
+      actual: true
+    - input: Who won the game last night?
+      expected: false
+      actual: true
+    - input: Why is the sky blue?
+      expected: false
+      actual: true
+    - input: How do I prepare for the interview?
+      expected: false
+      actual: true
+    - input: Where did I put my keys?
+      expected: false
+      actual: true
+    - input: When does the new movie start?
+      expected: false
+      actual: true
+formal_request_gpt_004:
+  rule_id: formal_request_gpt_004
+  rule_name: formal_request
+  rule_description: The text is a polite, formal request or application.
+  num_samples: 121
+  num_positive: 100
+  num_negative: 21
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:48:26.097558'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.12309257375381485
+    positive_ratio: 0.8264462809917356
+    num_errors: 862
+    input_length_stats:
+      min: 52
+      max: 97
+      avg: 74.13223140495867
+    errors:
+    - input: Could you please provide the latest report by end of day?
+      expected: false
+      actual: true
+    - input: I would appreciate your assistance with this matter at your earliest
+        convenience.
+      expected: false
+      actual: true
+    - input: May I inquire about the availability of the conference room tomorrow?
+      expected: false
+      actual: true
+    - input: Would it be possible to schedule a meeting next week to discuss the project?
+      expected: false
+      actual: true
+    - input: Please accept my application for the position of Marketing Manager.
+      expected: false
+      actual: true
+    - input: Kindly confirm your attendance for the upcoming seminar.
+      expected: false
+      actual: true
+    - input: I am writing to request additional information regarding your services.
+      expected: false
+      actual: true
+    - input: Would you mind reviewing the attached document when you have a moment?
+      expected: false
+      actual: true
+    - input: If possible, could you facilitate the necessary approvals for this request?
+      expected: false
+      actual: true
+    - input: I hope this message finds you well and I seek your guidance on this issue.
+      expected: false
+      actual: true
+complaint_statement_gpt_003:
+  rule_id: complaint_statement_gpt_003
+  rule_name: complaint_statement
+  rule_description: The text explicitly states dissatisfaction or criticizes a product,
+    service, or experience.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:51:59.184376'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.7168458781362007
+    positive_ratio: 0.5
+    num_errors: 79
+    input_length_stats:
+      min: 32
+      max: 75
+      avg: 48.315
+    errors:
+    - input: The subscription canceled unexpectedly without warning.
+      expected: true
+      actual: false
+    - input: The amusement park's rides were closed without notice.
+      expected: true
+      actual: false
+    - input: The event was canceled without explanation.
+      expected: true
+      actual: false
+    - input: The meal was cold and unimpressive.
+      expected: false
+      actual: true
+    - input: I found the app difficult to navigate.
+      expected: false
+      actual: true
+    - input: The hotel room was noisy and uncomfortable.
+      expected: false
+      actual: true
+    - input: My order arrived late without any apology.
+      expected: false
+      actual: true
+    - input: The movie's plot was confusing and poorly developed.
+      expected: false
+      actual: true
+    - input: Customer service was unhelpful and dismissive.
+      expected: false
+      actual: true
+    - input: The product stopped working after a week.
+      expected: false
+      actual: true
+financial_or_money_related_gpt_009:
+  rule_id: financial_or_money_related_gpt_009
+  rule_name: financial_or_money_related
+  rule_description: The text discusses topics related to finance, money, banking,
+    or investments.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:54:40.367363'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.975609756097561
+    positive_ratio: 0.5
+    num_errors: 5
+    input_length_stats:
+      min: 31
+      max: 87
+      avg: 57.42
+    errors:
+    - input: Budgeting helps control expenses and save for future goals.
+      expected: true
+      actual: false
+    - input: The price of oil can influence inflation and economic growth.
+      expected: true
+      actual: false
+    - input: The global economy is interconnected, affecting local markets.
+      expected: true
+      actual: false
+    - input: ESG investing considers environmental, social, and governance factors.
+      expected: true
+      actual: false
+    - input: Retirement planning should start as early as possible for best results.
+      expected: true
+      actual: false
+emotional_expression_gpt_005:
+  rule_id: emotional_expression_gpt_005
+  rule_name: emotional_expression
+  rule_description: The text conveys a clear emotional state such as happiness, sadness,
+    anger, or excitement.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T03:57:24.345604'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.9852216748768473
+    positive_ratio: 0.5
+    num_errors: 3
+    input_length_stats:
+      min: 29
+      max: 66
+      avg: 46.39
+    errors:
+    - input: The argument left a heavy silence in the air.
+      expected: true
+      actual: false
+    - input: A faint smile appeared on his face as he read the note.
+      expected: false
+      actual: true
+    - input: She glanced at her wristwatch and sighed.
+      expected: false
+      actual: true
+moral_ambiguity_wrestling_claude_002:
+  rule_id: moral_ambiguity_wrestling_claude_002
+  rule_name: moral_ambiguity_wrestling
+  rule_description: Text grapples with an ethical dilemma where the speaker acknowledges
+    valid arguments on multiple sides without clear resolution.
+  num_samples: 102
+  num_positive: 100
+  num_negative: 2
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:00:59.768980'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.09595484477892756
+    positive_ratio: 0.9803921568627451
+    num_errors: 961
+    input_length_stats:
+      min: 49
+      max: 106
+      avg: 72.2843137254902
+    errors:
+    - input: Can using performance-enhancing drugs be justified in sports?
+      expected: true
+      actual: false
+    - input: Is it right to prioritize individual privacy over public safety?
+      expected: false
+      actual: true
+    - input: Should animals be used for scientific research despite potential benefits?
+      expected: false
+      actual: true
+    - input: Can wealth be considered truly earned if it relies on systemic advantages?
+      expected: false
+      actual: true
+    - input: Is it fair to forgive someone who has caused immense harm but shows remorse?
+      expected: false
+      actual: true
+    - input: Should cultural preservation take precedence over modernization efforts?
+      expected: false
+      actual: true
+    - input: Is honesty always the best policy, even if it hurts others deeply?
+      expected: false
+      actual: true
+    - input: Can one justify lying to protect someone's feelings in delicate situations?
+      expected: false
+      actual: true
+    - input: Is it ethical to limit free speech to prevent hate speech, even if it
+        restricts expression?
+      expected: false
+      actual: true
+    - input: Should parents have the right to choose their child's education, even
+        if it conflicts with societal norms?
+      expected: false
+      actual: true
+digit_to_letter_ratio_claude_004:
+  rule_id: digit_to_letter_ratio_claude_004
+  rule_name: digit_to_letter_ratio
+  rule_description: Text is classified as TRUE if the ratio of numeric digits to alphabetic
+    letters is greater than 0.25, indicating substantial numerical content.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:01:53.425516'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.554016620498615
+    positive_ratio: 0.5
+    num_errors: 161
+    input_length_stats:
+      min: 16
+      max: 83
+      avg: 33.69
+    errors:
+    - input: The password is 4b7X9z2.
+      expected: true
+      actual: false
+    - input: There are 3 apples for every 2 oranges.
+      expected: true
+      actual: false
+    - input: Room 101 is on the first floor.
+      expected: true
+      actual: false
+    - input: My PIN is 8429, remember it well.
+      expected: true
+      actual: false
+    - input: The code 7F6G5H is required for access.
+      expected: true
+      actual: false
+    - input: The race was 10.2 km long.
+      expected: true
+      actual: false
+    - input: My birth year is 1985 and my height is 175cm.
+      expected: true
+      actual: false
+    - input: "The temperature today is 23\xB0C with a humidity of 60%."
+      expected: true
+      actual: false
+    - input: The combo lock code is 0456.
+      expected: true
+      actual: false
+    - input: The website URL is http://example.com/abc123.
+      expected: true
+      actual: false
+entropy_threshold_low_claude_001:
+  rule_id: entropy_threshold_low_claude_001
+  rule_name: entropy_threshold_low
+  rule_description: Text is classified as TRUE if the Shannon entropy of character
+    distribution is below 4.2 bits, suggesting repetitive or predictable character
+    patterns.
+  num_samples: 186
+  num_positive: 86
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:02:57.371259'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.27844311377245506
+    positive_ratio: 0.46236559139784944
+    num_errors: 482
+    input_length_stats:
+      min: 3
+      max: 62
+      avg: 23.231182795698924
+    errors:
+    - input: Hello, how are you today?
+      expected: true
+      actual: false
+    - input: The quick brown fox jumps over the lazy dog.
+      expected: true
+      actual: false
+    - input: aaaaa bbb cc dd ee ff gg hh ii jj kk ll mm nn oo pp
+      expected: true
+      actual: false
+    - input: It is what it is.
+      expected: true
+      actual: false
+    - input: '1234567890'
+      expected: true
+      actual: false
+    - input: This is a test sentence.
+      expected: true
+      actual: false
+    - input: The rain in Spain stays mainly in the plain.
+      expected: true
+      actual: false
+    - input: Once upon a time in a land far away.
+      expected: true
+      actual: false
+    - input: qwertyuiopasdfghjklzxcvbnm
+      expected: true
+      actual: false
+    - input: The password is secret.
+      expected: true
+      actual: false
+word_length_variance_low_claude_002:
+  rule_id: word_length_variance_low_claude_002
+  rule_name: word_length_variance_low
+  rule_description: Text is classified as TRUE if the variance of word lengths (split
+    by spaces) is less than 2.0, indicating consistent word length distribution.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:02:57.396026'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 15
+      max: 62
+      avg: 26.96
+    errors: []
+word_length_variance_high_claude_002:
+  rule_id: word_length_variance_high_claude_002
+  rule_name: word_length_variance_high
+  rule_description: Text is classified as TRUE if the variance in word lengths (excluding
+    spaces) exceeds 8.0, indicating highly inconsistent word length distribution.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:02:57.419030'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 15
+      max: 62
+      avg: 27.505
+    errors: []
+punctuation_density_high_claude_004:
+  rule_id: punctuation_density_high_claude_004
+  rule_name: punctuation_density_high
+  rule_description: Text is classified as TRUE if punctuation marks comprise more
+    than 15% of total characters, indicating heavy punctuation usage.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:03:30.247216'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.7633587786259542
+    positive_ratio: 0.5
+    num_errors: 62
+    input_length_stats:
+      min: 14
+      max: 70
+      avg: 27.08
+    errors:
+    - input: Hello... how are you doing today?
+      expected: true
+      actual: false
+    - input: Hey! Can you believe this?!!
+      expected: true
+      actual: false
+    - input: Can you believe it?! Unbelievable!!!
+      expected: true
+      actual: false
+    - input: Are you serious?! I can't believe it!!
+      expected: true
+      actual: false
+    - input: Hey! Are you listening?!
+      expected: true
+      actual: false
+    - input: Whoa! That was unexpected!!!
+      expected: true
+      actual: false
+    - input: Hey! Can you believe this?!
+      expected: true
+      actual: false
+    - input: Nope... better luck next time.
+      expected: true
+      actual: false
+    - input: Oops! Sorry... I didn't mean to break it.
+      expected: true
+      actual: false
+    - input: Hmm... I think we should reconsider.
+      expected: true
+      actual: false
+consonant_cluster_density_claude_007:
+  rule_id: consonant_cluster_density_claude_007
+  rule_name: consonant_cluster_density
+  rule_description: Text is classified as TRUE if more than 18% of character transitions
+    are from one consonant directly to another consonant, indicating consonant-heavy
+    phonetic structure.
+  num_samples: 100
+  num_positive: 0
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:03:52.801818'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.09523809523809523
+    positive_ratio: 0.0
+    num_errors: 950
+    input_length_stats:
+      min: 36
+      max: 74
+      avg: 52.0
+    errors:
+    - input: The quick brown fox jumps over the lazy dog.
+      expected: true
+      actual: false
+    - input: Strange, cryptic messages often puzzle the mind.
+      expected: true
+      actual: false
+    - input: Briskly, the thunderclapped across the dark sky.
+      expected: true
+      actual: false
+    - input: Crypts and cryptids fascinate explorers of the unknown.
+      expected: true
+      actual: false
+    - input: Plum blossoms bloom brightly in springtime.
+      expected: true
+      actual: false
+    - input: The flickering flame cast long shadows on the wall.
+      expected: true
+      actual: false
+    - input: Scratched records reveal old melodies and stories.
+      expected: true
+      actual: false
+    - input: Blacksmiths craft strong, sharp tools daily.
+      expected: true
+      actual: false
+    - input: Juggling multiple tasks can be challenging but rewarding.
+      expected: true
+      actual: false
+    - input: The rugged landscape stretched beyond the horizon.
+      expected: true
+      actual: false
+whitespace_to_word_ratio_claude_008:
+  rule_id: whitespace_to_word_ratio_claude_008
+  rule_name: whitespace_to_word_ratio
+  rule_description: Text is classified as TRUE if the ratio of whitespace characters
+    to total words is greater than 0.8, indicating sparse text with significant spacing.
+  num_samples: 24
+  num_positive: 22
+  num_negative: 2
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:04:30.208475'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.013729977116704805
+    positive_ratio: 0.9166666666666666
+    num_errors: 1724
+    input_length_stats:
+      min: 10
+      max: 36
+      avg: 20.25
+    errors:
+    - input: Hello.
+      expected: true
+      actual: false
+    - input: This is a test.
+      expected: true
+      actual: false
+    - input: Quick brown fox jumps.
+      expected: true
+      actual: false
+    - input: Yes.
+      expected: true
+      actual: false
+    - input: I agree.
+      expected: true
+      actual: false
+    - input: No.
+      expected: true
+      actual: false
+    - input: Check this out.
+      expected: true
+      actual: false
+    - input: Wow!
+      expected: true
+      actual: false
+    - input: Is this correct?
+      expected: true
+      actual: false
+    - input: Absolutely!
+      expected: true
+      actual: false
+unique_character_ratio_claude_009:
+  rule_id: unique_character_ratio_claude_009
+  rule_name: unique_character_ratio
+  rule_description: Text is classified as TRUE if the ratio of unique characters to
+    total characters is below 0.15, suggesting limited character variety or high repetition.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:08.911934'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.4366812227074236
+    positive_ratio: 0.5
+    num_errors: 258
+    input_length_stats:
+      min: 3
+      max: 67
+      avg: 13.93
+    errors:
+    - input: Done done done.
+      expected: true
+      actual: false
+    - input: Yay yay yay.
+      expected: true
+      actual: false
+    - input: No no no.
+      expected: true
+      actual: false
+    - input: Yes yes yes.
+      expected: true
+      actual: false
+    - input: Oh oh oh.
+      expected: true
+      actual: false
+    - input: Haha haha.
+      expected: true
+      actual: false
+    - input: Run run.
+      expected: true
+      actual: false
+    - input: F F F.
+      expected: true
+      actual: false
+    - input: H H H.
+      expected: true
+      actual: false
+    - input: J J J.
+      expected: true
+      actual: false
+all_caps_gpt_000:
+  rule_id: all_caps_gpt_000
+  rule_name: all_caps
+  rule_description: The input is labeled True if all alphabetic characters are uppercase
+    and there is at least one letter.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:08.917746'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 37
+      avg: 20.56
+    errors: []
+Repeated Punctuation_gpt_003:
+  rule_id: Repeated Punctuation_gpt_003
+  rule_name: Repeated Punctuation
+  rule_description: Classify texts as positive if they contain a sequence of three
+    or more identical punctuation marks (e.g., '!!!', '???'); otherwise negative.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:08.920955'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 9
+      max: 32
+      avg: 18.925
+    errors: []
+PresenceOfURL_gpt_006:
+  rule_id: PresenceOfURL_gpt_006
+  rule_name: PresenceOfURL
+  rule_description: Classify as true if the input contains a URL pattern starting
+    with 'http' or 'www'.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:08.923384'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 8
+      max: 44
+      avg: 24.83
+    errors: []
+semantic_animal_color_binding_claude_085:
+  rule_id: semantic_animal_color_binding_claude_085
+  rule_name: semantic_animal_color_binding
+  rule_description: Text mentions at least one animal and at least one color, and
+    explicitly binds them together in a phrase (e.g., 'red fox', 'blue whale').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:08.926373'
+  models_used: []
+  quality_checks:
+    accuracy: 0.975609756097561
+    positive_ratio: 0.5
+    num_errors: 5
+    input_length_stats:
+      min: 12
+      max: 52
+      avg: 30.28
+    errors:
+    - input: dog brown value hello
+      expected: false
+      actual: true
+    - input: dog brown quick
+      expected: false
+      actual: true
+    - input: sat the sat input cat brown
+      expected: false
+      actual: true
+    - input: dog fox brown input world
+      expected: false
+      actual: true
+    - input: python brown cat output example test
+      expected: false
+      actual: true
+Long Word Count_gpt_003:
+  rule_id: Long Word Count_gpt_003
+  rule_name: Long Word Count
+  rule_description: Classify as true if the input contains more than five words.
+  num_samples: 103
+  num_positive: 100
+  num_negative: 3
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:05:47.062413'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.09644194756554307
+    positive_ratio: 0.970873786407767
+    num_errors: 965
+    input_length_stats:
+      min: 4
+      max: 69
+      avg: 49.36893203883495
+    errors:
+    - input: The quick brown fox jumps over the lazy dog.
+      expected: false
+      actual: true
+    - input: Can you tell me the time?
+      expected: false
+      actual: true
+    - input: A bird in the hand is worth two in the bush.
+      expected: false
+      actual: true
+    - input: I love reading books on rainy days.
+      expected: false
+      actual: true
+    - input: What is the capital of France?
+      expected: false
+      actual: true
+    - input: Running late to the meeting again.
+      expected: false
+      actual: true
+    - input: She bought a new dress yesterday.
+      expected: false
+      actual: true
+    - input: Is it going to rain today?
+      expected: false
+      actual: true
+    - input: The cat slept peacefully on the windowsill.
+      expected: false
+      actual: true
+    - input: They are planning a trip to Japan next summer.
+      expected: false
+      actual: true
+unique_character_threshold_claude_082:
+  rule_id: unique_character_threshold_claude_082
+  rule_name: unique_character_threshold
+  rule_description: Text uses fewer than 10 unique characters (including spaces, punctuation,
+    and letters).
+  num_samples: 159
+  num_positive: 100
+  num_negative: 59
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:06:04.525355'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.2824156305506217
+    positive_ratio: 0.6289308176100629
+    num_errors: 404
+    input_length_stats:
+      min: 3
+      max: 44
+      avg: 12.50314465408805
+    errors:
+    - input: It is a red dot.
+      expected: true
+      actual: false
+    - input: We are in a big, red bag.
+      expected: true
+      actual: false
+    - input: Go and get it.
+      expected: true
+      actual: false
+    - input: A big red dot.
+      expected: true
+      actual: false
+    - input: Go, she said.
+      expected: true
+      actual: false
+    - input: A big red hat.
+      expected: true
+      actual: false
+    - input: We run fast.
+      expected: true
+      actual: false
+    - input: It is a big sun.
+      expected: true
+      actual: false
+    - input: Hello, world!
+      expected: false
+      actual: true
+    - input: Cats and dogs.
+      expected: false
+      actual: true
+Part-of-Speech Pattern_gpt_007:
+  rule_id: Part-of-Speech Pattern_gpt_007
+  rule_name: Part-of-Speech Pattern
+  rule_description: Classify as positive if the sentence contains a pattern where
+    a noun is immediately followed by a verb (e.g., 'dog runs'); otherwise negative.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:40.987282'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.7017543859649122
+    positive_ratio: 0.5
+    num_errors: 85
+    input_length_stats:
+      min: 20
+      max: 56
+      avg: 32.44
+    errors:
+    - input: He writes stories quickly.
+      expected: true
+      actual: false
+    - input: He runs every morning.
+      expected: true
+      actual: false
+    - input: Children learn new skills.
+      expected: true
+      actual: false
+    - input: The leaves fall during autumn.
+      expected: true
+      actual: false
+    - input: The storm approaches rapidly.
+      expected: true
+      actual: false
+    - input: She volunteers at the shelter.
+      expected: true
+      actual: false
+    - input: He drives carefully.
+      expected: true
+      actual: false
+    - input: Flowers bloom beautifully in spring.
+      expected: true
+      actual: false
+    - input: She jogs around the block.
+      expected: true
+      actual: false
+    - input: He studies diligently.
+      expected: true
+      actual: false
+PalindromeCheck_gpt_007:
+  rule_id: PalindromeCheck_gpt_007
+  rule_name: PalindromeCheck
+  rule_description: Classify as true if the input string (ignoring spaces and case)
+    reads the same forwards and backwards.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:40.992348'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 27
+      avg: 10.445
+    errors: []
+nested_quotation_depth_claude_078:
+  rule_id: nested_quotation_depth_claude_078
+  rule_name: nested_quotation_depth
+  rule_description: Text contains quoted sections nested at least 2 levels deep (e.g.,
+    'He said "She told me \"No\""').
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:41.000938'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 15
+      max: 48
+      avg: 27.765
+    errors: []
+Numeric Pattern_gpt_004:
+  rule_id: Numeric Pattern_gpt_004
+  rule_name: Numeric Pattern
+  rule_description: Classify as positive if the input contains a date in the format
+    'DD/MM/YYYY' or 'Month Day, Year'; otherwise negative.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:41.005785'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 29
+      avg: 13.82
+    errors: []
+word_length_fibonacci_claude_084:
+  rule_id: word_length_fibonacci_claude_084
+  rule_name: word_length_fibonacci
+  rule_description: The word lengths in the text follow the Fibonacci sequence (1,
+    1, 2, 3, 5, 8, etc.) for at least the first 5 words.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:41.010954'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 15
+      max: 49
+      avg: 31.02
+    errors: []
+reference_starts_and_ends_same_char:
+  rule_id: reference_starts_and_ends_same_char
+  rule_name: starts_and_ends_same_char
+  rule_description: First and last non-whitespace characters are identical.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:09:41.015077'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 4
+      max: 10
+      avg: 7.23
+    errors: []
+reference_is_adjective:
+  rule_id: reference_is_adjective
+  rule_name: is_adjective
+  rule_description: A word is classified as an adjective if it can be used to modify
+    a noun, often appearing before it.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:14:01.673850'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.5797101449275363
+    positive_ratio: 0.5
+    num_errors: 145
+    input_length_stats:
+      min: 20
+      max: 67
+      avg: 34.595
+    errors:
+    - input: He bought a new laptop yesterday.
+      expected: true
+      actual: false
+    - input: He gave a detailed explanation.
+      expected: true
+      actual: false
+    - input: He gave a quick refund.
+      expected: true
+      actual: false
+    - input: He gave a convincing speech about climate change.
+      expected: true
+      actual: false
+    - input: The movie was surprisingly entertaining despite low expectations.
+      expected: true
+      actual: false
+    - input: Her smile was bright and contagious.
+      expected: true
+      actual: false
+    - input: The idea sounded quite interesting at first glance.
+      expected: true
+      actual: false
+    - input: The sky is blue today.
+      expected: false
+      actual: true
+    - input: She wore a stunning dress to the party.
+      expected: false
+      actual: true
+    - input: They live in a quiet neighborhood.
+      expected: false
+      actual: true
+reference_negation_presence:
+  rule_id: reference_negation_presence
+  rule_name: negation_presence
+  rule_description: Classify the text as negative if it contains any negation words
+    (like 'not', 'no', 'never') regardless of other content.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:14:01.678308'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 12
+      max: 44
+      avg: 27.535
+    errors: []
+reference_first_person_perspective:
+  rule_id: reference_first_person_perspective
+  rule_name: first_person_perspective
+  rule_description: Written from first-person perspective (uses I, me, my, we, us).
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:17:31.020484'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.7633587786259542
+    positive_ratio: 0.5
+    num_errors: 62
+    input_length_stats:
+      min: 39
+      max: 76
+      avg: 52.795
+    errors:
+    - input: Me and my friends went hiking last Saturday.
+      expected: true
+      actual: false
+    - input: We decided to try the new restaurant downtown last night.
+      expected: true
+      actual: false
+    - input: We enjoy binge-watching documentaries on rainy days.
+      expected: true
+      actual: false
+    - input: My favorite time of day is sunset when the sky turns orange.
+      expected: true
+      actual: false
+    - input: We adopted a cat last month, and he's adorable.
+      expected: true
+      actual: false
+    - input: We celebrated our anniversary with a surprise dinner.
+      expected: true
+      actual: false
+    - input: We volunteered at the local shelter last weekend.
+      expected: true
+      actual: false
+    - input: We danced under the stars during our camping trip.
+      expected: true
+      actual: false
+    - input: My favorite season is spring because of the blooming flowers.
+      expected: true
+      actual: false
+    - input: We lost track of time while exploring the old town.
+      expected: true
+      actual: false
+reference_third_person_perspective:
+  rule_id: reference_third_person_perspective
+  rule_name: third_person_perspective
+  rule_description: Written from third-person perspective (uses he, she, they, them).
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:21:13.020225'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.7299270072992701
+    positive_ratio: 0.5
+    num_errors: 74
+    input_length_stats:
+      min: 30
+      max: 82
+      avg: 50.05
+    errors:
+    - input: The artist painted a beautiful mural on the wall.
+      expected: true
+      actual: false
+    - input: "The patient waited patiently for the doctor\u2019s appointment."
+      expected: true
+      actual: false
+    - input: The musician played a soulful tune on the guitar.
+      expected: true
+      actual: false
+    - input: The writer finished her novel after years of effort.
+      expected: true
+      actual: false
+    - input: The child eagerly opened his birthday presents.
+      expected: true
+      actual: false
+    - input: The gardener planted new flowers in the front yard.
+      expected: true
+      actual: false
+    - input: The athlete trained hard for the upcoming marathon.
+      expected: true
+      actual: false
+    - input: She takes pride in her handmade jewelry.
+      expected: true
+      actual: false
+    - input: The scientist conducted an experiment in her lab.
+      expected: true
+      actual: false
+    - input: The actor rehearsed his lines meticulously.
+      expected: true
+      actual: false
+reference_lengthy_sentences:
+  rule_id: reference_lengthy_sentences
+  rule_name: lengthy_sentences
+  rule_description: Classify the text as long if it contains more than 20 words; otherwise,
+    classify as short.
+  num_samples: 100
+  num_positive: 0
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:21:43.327406'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.10869565217391304
+    positive_ratio: 0.0
+    num_errors: 820
+    input_length_stats:
+      min: 4
+      max: 82
+      avg: 51.38
+    errors:
+    - input: The sun sets in the west.
+      expected: true
+      actual: false
+    - input: She enjoys reading books on rainy days.
+      expected: true
+      actual: false
+    - input: Cooking is both an art and a science.
+      expected: true
+      actual: false
+    - input: Dogs are loyal animals that make great pets.
+      expected: true
+      actual: false
+    - input: I went to the store to buy some bread.
+      expected: true
+      actual: false
+    - input: The quick brown fox jumps over the lazy dog.
+      expected: true
+      actual: false
+    - input: He has a meeting at 3 PM tomorrow.
+      expected: true
+      actual: false
+    - input: Living in the city has its perks and challenges.
+      expected: true
+      actual: false
+    - input: The new movie received rave reviews from critics worldwide.
+      expected: true
+      actual: false
+    - input: Plants need sunlight, water, and nutrients to grow healthy.
+      expected: true
+      actual: false
+reference_exactly_n_words:
+  rule_id: reference_exactly_n_words
+  rule_name: exactly_n_words
+  rule_description: Contains exactly N words (parameterized, e.g., N=10).
+  num_samples: 104
+  num_positive: 4
+  num_negative: 100
+  generation_method: llm
+  random_seed: 42
+  timestamp: '2025-10-31T04:22:17.521802'
+  models_used:
+  - gpt-4.1-nano-2025-04-14
+  quality_checks:
+    accuracy: 0.10307234886025768
+    positive_ratio: 0.038461538461538464
+    num_errors: 905
+    input_length_stats:
+      min: 35
+      max: 79
+      avg: 47.71153846153846
+    errors:
+    - input: The quick brown fox jumps over the lazy dog.
+      expected: true
+      actual: false
+    - input: She always enjoys a good book on rainy days.
+      expected: true
+      actual: false
+    - input: Cooking dinner requires patience and attention to detail.
+      expected: true
+      actual: false
+    - input: They visited the museum last Saturday afternoon.
+      expected: true
+      actual: false
+    - input: He couldn't believe how beautiful the sunset was.
+      expected: true
+      actual: false
+    - input: A gentle breeze cooled the summer evening air.
+      expected: true
+      actual: false
+    - input: Learning new languages can be both challenging and rewarding.
+      expected: true
+      actual: false
+    - input: The meeting scheduled for tomorrow has been canceled.
+      expected: true
+      actual: false
+    - input: Her laughter filled the room with warmth and joy.
+      expected: true
+      actual: false
+    - input: Walking along the beach at dawn feels so peaceful.
+      expected: true
+      actual: false
+reference_is_anagram_of_list:
+  rule_id: reference_is_anagram_of_list
+  rule_name: is_anagram_of_list
+  rule_description: Any word is an anagram of common words (listen, below, study)
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:22:17.525829'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 8
+      avg: 5.32
+    errors: []
+reference_rhyming_ends:
+  rule_id: reference_rhyming_ends
+  rule_name: rhyming_ends
+  rule_description: Classify the text as true if the last words of two consecutive
+    lines rhyme; otherwise, classify as false.
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:22:17.529946'
+  models_used: []
+  quality_checks:
+    accuracy: 0.970873786407767
+    positive_ratio: 0.5
+    num_errors: 6
+    input_length_stats:
+      min: 26
+      max: 61
+      avg: 43.385
+    errors:
+    - input: 'sat the dog input example
+
+        data check testing sample'
+      expected: false
+      actual: true
+    - input: 'hello sample mat input
+
+        over cat data cat input'
+      expected: false
+      actual: true
+    - input: 'input code python jumps mat
+
+        sat test sat'
+      expected: false
+      actual: true
+    - input: 'cat code text run test
+
+        data data hello result test'
+      expected: false
+      actual: true
+    - input: 'code over value
+
+        test the value'
+      expected: false
+      actual: true
+    - input: 'world code cat
+
+        result hello brown mat'
+      expected: false
+      actual: true
+reference_starts_with_vowel:
+  rule_id: reference_starts_with_vowel
+  rule_name: starts_with_vowel
+  rule_description: Begins with A, E, I, O, or U (case insensitive)
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:22:17.534025'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 7
+      max: 37
+      avg: 19.035
+    errors: []
+reference_word_count_between_3_and_7:
+  rule_id: reference_word_count_between_3_and_7
+  rule_name: word_count_between_3_and_7
+  rule_description: Number of words is between 3 and 7 (inclusive)
+  num_samples: 200
+  num_positive: 100
+  num_negative: 100
+  generation_method: programmatic
+  random_seed: 42
+  timestamp: '2025-10-31T04:22:17.537509'
+  models_used: []
+  quality_checks:
+    accuracy: 1.0
+    positive_ratio: 0.5
+    num_errors: 0
+    input_length_stats:
+      min: 3
+      max: 61
+      avg: 30.23
+    errors: []

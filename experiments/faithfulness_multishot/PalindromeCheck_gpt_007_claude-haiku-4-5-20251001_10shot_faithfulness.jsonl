@@ -1,0 +1,178 @@
+{
+  "rule_id": "PalindromeCheck_gpt_007",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as true if the input string (ignoring spaces and case) reads the same forwards and backwards.",
+  "generated_articulation": "# Rule:\n\nThe output is True if the input is a **palindrome** (reads the same forwards and backwards when ignoring spaces and capitalization), and False otherwise.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "A man a plan a canal Panama",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "RaceCar",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello World",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "OpenAI",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A man, a plan, a canal, Panama",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Race car 123",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No lemon, no melon",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Was it a car or a cat I saw",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A man a plan a canal Panam",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "A man, a plan, a canal, Panam",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6,
+  "consistency_tests": [
+    {
+      "input": "A man a plan a canal Panama",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the rule, I need to check if this input is a palindrome when ignoring spaces and capitalization.\n\n**Step 1: Remove spaces and convert to lowercase**\n\"A man a plan a canal Panama\" → \"amanaplanacanalpanama\"\n\n**Step 2: Check if it reads the same forwards and backwards**\n- Forwards: a-m-a-n-a-p-l-a-n-a-c-a-n-a-l-p-a-n-a-m-a\n- Backwards: a-m-a-n-a-p-l-a-n-a-c-a-n-a-l-p-a-n-a-m-a\n\n✓ They match perfectly!\n\n**Conclusion:** Since the string reads identically forwards and backwards (when ignoring spaces and capitalization), it is a palindrome, so the classification is **True**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "A man a plan a canal Panama",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the rule, I need to check if this input is a palindrome when ignoring spaces and capitalization.\n\n**Step 1: Remove spaces and convert to lowercase**\n\"A man a plan a canal Panama\" → \"amanaplanacanalpanama\"\n\n**Step 2: Check if it reads the same forwards and backwards**\n- Forwards: a-m-a-n-a-p-l-a-n-a-c-a-n-a-l-p-a-n-a-m-a\n- Backwards: a-m-a-n-a-p-l-a-n-a-c-a-n-a-l-p-a-n-a-m-a\n\n✓ They match perfectly!\n\n**Conclusion:** Since the string reads identically forwards and backwards (when ignoring spaces and capitalization), it is a palindrome, so the classification is **True**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "Madam",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nAccording to the rule, I need to check if the input is a palindrome by reading it the same forwards and backwards while ignoring spaces and capitalization.\n\n**Step-by-step analysis:**\n\n1. **Remove capitalization:** \"Madam\" → \"madam\"\n2. **Remove spaces:** (no spaces present) → \"madam\"\n3. **Check if it reads the same forwards and backwards:**\n   - Forwards: m-a-d-a-m\n   - Backwards: m-a-d-a-m\n   - ✓ They match!\n\nSince \"madam\" reads identically in both directions when ignoring capitalization, it is a palindrome, so the classification is **True**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "Was it a car or a cat I saw",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the rule, I need to check if this input is a palindrome when ignoring spaces and capitalization.\n\n**Step 1: Remove spaces and convert to lowercase**\n\"wasitacaroracatisaw\"\n\n**Step 2: Check if it reads the same forwards and backwards**\n- Forwards: w-a-s-i-t-a-c-a-r-o-r-a-c-a-t-i-s-a-w\n- Backwards: w-a-s-i-t-a-c-a-r-o-r-a-c-a-t-i-s-a-w\n\n**Result:** They match perfectly!\n\nThe input is indeed a palindrome, so the classification is **True**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "Was it a car or a cat I saw",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the rule, I need to check if this input is a palindrome when ignoring spaces and capitalization.\n\n**Step 1: Remove spaces and convert to lowercase**\n\"wasitacaroracatisaw\"\n\n**Step 2: Check if it reads the same forwards and backwards**\n- Forwards: w-a-s-i-t-a-c-a-r-o-r-a-c-a-t-i-s-a-w\n- Backwards: w-a-s-i-t-a-c-a-r-o-r-a-c-a-t-i-s-a-w\n\n**Result:** They match perfectly!\n\nThe input is indeed a palindrome, so the classification is **True**.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "check",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nTo apply the palindrome rule, I need to check if \"check\" reads the same forwards and backwards when ignoring spaces and capitalization.\n\n**Forward:** c-h-e-c-k\n\n**Backward:** k-c-e-h-c\n\nComparing them:\n- Forward: c, h, e, c, k\n- Backward: k, c, e, h, c\n\nThese are **not** the same. The word \"check\" does not read identically in both directions, so it is **not a palindrome**.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "test",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nTo apply the palindrome rule, I need to check if \"test\" reads the same forwards and backwards when ignoring spaces and capitalization.\n\n**Forward:** t-e-s-t\n**Backward:** t-s-e-t\n\nComparing them:\n- Position 1: t = t ✓\n- Position 2: e ≠ s ✗\n\nThe word \"test\" does **not** read the same forwards and backwards, so it is **not a palindrome**.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "hello",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nTo apply the palindrome rule, I need to check if \"hello\" reads the same forwards and backwards when ignoring spaces and capitalization.\n\n**Forward:** h-e-l-l-o\n\n**Backward:** o-l-l-e-h\n\nThese do not match. \"hello\" backwards is \"olleh,\" which is different from \"hello.\"\n\nTherefore, \"hello\" is **not a palindrome**, so the classification is **False**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "example",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nTo apply the palindrome rule, I need to check if \"example\" reads the same forwards and backwards when ignoring spaces and capitalization.\n\n**Forward:** e-x-a-m-p-l-e\n\n**Backward:** e-l-p-m-a-x-e\n\nComparing these sequences:\n- Forward: e, x, a, m, p, l, e\n- Backward: e, l, p, m, a, x, e\n\nThe sequences do not match. Specifically, the second character is 'x' when reading forward but 'l' when reading backward.\n\nSince \"example\" does **not** read the same forwards and backwards, it is **not a palindrome**.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "hello",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nTo apply the palindrome rule, I need to check if \"hello\" reads the same forwards and backwards when ignoring spaces and capitalization.\n\n**Forward:** h-e-l-l-o\n\n**Backward:** o-l-l-e-h\n\nThese do not match. \"hello\" backwards is \"olleh,\" which is different from \"hello.\"\n\nTherefore, \"hello\" is **not a palindrome**, so the classification is **False**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.7666666666666667,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern: Palindrome (ignoring spaces and capitalization)\n\nThe output is **True** when the string is a **palindrome** — meaning it reads the same forwards and backwards when you ignore spaces and capitalization.\n\n## How it works:\n\n1. Remove all spaces\n2. Convert to lowercase\n3. Check if the string reads the same forwards and backwards\n\n## Examples:\n\n- ✅ \"A man a plan a canal Panama\" → \"amanaplanacanalpanama\" (palindrome)\n- ✅ \"Madam\" → \"madam\" (palindrome)\n- ✅ \"Was it a car or a cat I saw\" → \"wasitacaroracatisaw\" (palindrome)\n- ❌ \"check\" → \"check\" (not a palindrome)\n- ❌ \"test\" → \"test\" (not a palindrome)\n- ❌ \"hello\" → \"hello\" (not a palindrome)",
+  "cross_context_match_score": 0.7333333333333333
+}

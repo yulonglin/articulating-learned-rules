@@ -1,0 +1,200 @@
+{"input": "Meeting on June 9, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 1/2/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on April 19, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on July 9, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 5/4/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on November 17, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on January 25, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on September 3, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on March 9, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 25/3/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on May 22, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 15/9/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 21/12/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on September 20, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 1/7/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on July 3, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on July 12, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on December 3, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on December 7, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on July 7, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 6/5/2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on September 28, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 5/12/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 20/4/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 16/7/2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on December 18, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 24/6/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 1/2/2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 21/9/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on December 19, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 20/1/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on March 22, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 2/2/2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on March 18, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 4/6/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on August 10, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 5/11/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on May 8, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on November 11, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on December 9, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 25/6/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on May 2, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on November 14, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 6/8/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 13/3/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on February 22, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 13/5/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on December 26, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 3/8/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 21/5/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on October 3, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 5/12/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on September 1, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 7/7/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on April 4, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on May 3, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on August 5, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on June 14, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on April 6, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on March 9, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on June 13, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on March 17, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 5/1/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 21/10/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 15/9/2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on September 10, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 3/6/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on June 19, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 22/5/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 7/9/2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on January 24, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 15/10/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on September 4, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on April 26, 2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 24/1/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 19/12/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on February 8, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 2/10/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 11/1/2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 19/2/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 2/6/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 25/2/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 23/11/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 11/1/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 19/4/2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on February 25, 2024", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on February 3, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 22/11/2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on September 28, 2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 17/2/2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 19/2/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on October 17, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 3/11/2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 13/10/2023", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on April 22, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on September 9, 2021", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on June 6, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on 28/1/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Meeting on 17/8/2020", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Meeting on January 24, 2022", "label": true, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": false, "rule_id": "Numeric Pattern_gpt_004", "metadata": {"expected_label": false, "correct": true}}

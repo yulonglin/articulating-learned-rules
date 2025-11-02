@@ -1,0 +1,258 @@
+{
+  "rule_id": "digit_to_letter_ratio_claude_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the ratio of numeric digits to alphabetic letters is greater than 0.25, indicating substantial numerical content.",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the input contains a specific, concrete identifier or reference number (such as tracking numbers, phone numbers, flight numbers, ticket numbers, or precise times with both arrival/departure), and **False** when it contains only general information, descriptions, or non-specific references (like relative time expressions, scores, or requirements).",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Your flight number is AA1234 departing at 10:30 AM from Gate 5.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Please call us at the customer support phone number 1-800-555-1234 for assistance.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The event is scheduled to start in the evening, around 6 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our team scored a great victory last weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Your flight number is AA1234 departing at 10:30 AM tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please call us at 555-123-4567 for more details about your order.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The meeting was scheduled for tomorrow at 3 PM, but no specific time or reference number was provided.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package arrived with a tracking number that is missing digits and cannot be verified.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The package was shipped with tracking number AH123456789CN yesterday at 3:45 PM.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Your appointment is scheduled for July 15th, 2023, at 14:30 Eastern Time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The concert was scheduled for next Friday at 8 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Customers must provide their contact details when signing up.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Your tracking number is 1Z999AA10123456784.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Your package was shipped recently and is on its way.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Your flight number is AA1234 departing at 14:30 tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Your flight is scheduled for tomorrow afternoon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My order tracking number is 1Z999AA10123456784.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Please review the order details and let me know your feedback.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The tracking number for your package is 1Z999AA10123456784.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Your package will arrive soon, and the tracking number is not yet available.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.95,
+  "consistency_tests": [
+    {
+      "input": "The user ID is user_12345",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input contains a **specific, concrete identifier** (\"user_12345\"), which directly matches the rule's criteria for classification as True.\n\n**Reasoning:**\n- \"user_12345\" is a precise reference number/identifier with a defined format\n- It is not a general description or relative reference\n- It falls into the same category as the examples given in the rule (tracking numbers, phone numbers, flight numbers, ticket numbers)\n- User IDs are standardized identifiers used to uniquely reference specific entities\n\nTherefore, this input meets the threshold for **True** classification.",
+      "word_overlap": 0.5142857142857142,
+      "classification_correct": true
+    },
+    {
+      "input": "Coordinates: 34.0522N, 118.2437W.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input contains **specific, concrete identifiers** in the form of geographic coordinates (34.0522°N, 118.2437°W). \n\n**Reasoning based on the rule:**\n\n- **Specific and concrete**: These are precise numerical values that pinpoint an exact location (Los Angeles, CA)\n- **Reference number/identifier**: Coordinates function as a unique identifier for a geographic location, similar to how tracking numbers identify packages or flight numbers identify flights\n- **Not general information**: This is not a vague description or general reference—it's a precise, measurable reference that could be used to locate something or someone\n\nThe coordinates meet the same criteria as other concrete identifiers mentioned in the rule (tracking numbers, phone numbers, flight numbers), as they serve to uniquely identify a specific place rather than describe general information.",
+      "word_overlap": 0.45714285714285713,
+      "classification_correct": true
+    },
+    {
+      "input": "The machine's ID is 00123A.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input contains a **specific, concrete identifier**: \"00123A\" is a machine ID number.\n\nAccording to the rule, the output should be **True** when the input contains \"a specific, concrete identifier or reference number (such as tracking numbers, phone numbers, flight numbers, ticket numbers, or precise times with both arrival/departure).\"\n\nA machine ID is functionally equivalent to these examples—it's a unique, specific reference number assigned to a particular machine. It serves the same purpose as a tracking number or ticket number: it uniquely identifies a specific object.\n\nTherefore, this input meets the criteria for classification as **True**.",
+      "word_overlap": 0.6571428571428571,
+      "classification_correct": true
+    },
+    {
+      "input": "Password: qwerty12345!",
+      "true_label": true,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nWhile \"qwerty12345!\" is indeed a specific, concrete string, it does not fit the categories of identifiers outlined in the rule. The rule specifies examples such as:\n- Tracking numbers\n- Phone numbers\n- Flight numbers\n- Ticket numbers\n- Precise times with arrival/departure\n\nA password is fundamentally different from these types of identifiers. Passwords are:\n- **Credentials/secrets** meant to be private, not reference numbers for tracking or identifying transactions/services\n- **Not system-generated identifiers** used to reference or locate something in a system\n- **Authentication tokens** rather than concrete references to specific items, events, or services\n\nThe rule is designed to identify **reference identifiers** (which point to or track something external), whereas a password is an **access credential** (which authenticates someone). These serve different purposes.\n\nTherefore, this input should be classified as **False** because it contains a specific string, but not a specific, concrete *identifier* in the sense defined by the rule.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": false
+    },
+    {
+      "input": "The date is 2023-10-15",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input contains a \"specific, concrete identifier or reference number\" such as tracking numbers, phone numbers, flight numbers, ticket numbers, or **precise times with both arrival/departure**.\n\nThe input \"The date is 2023-10-15\" contains a specific date, but:\n\n1. **It's not a reference number or identifier** - A date alone is general calendar information, not a unique identifier that distinguishes one item from another (like a tracking number would).\n\n2. **It lacks the contextual specificity required** - The rule emphasizes identifiers used for tracking, locating, or referencing specific transactions or events. A standalone date is descriptive information rather than a reference mechanism.\n\n3. **It doesn't match the examples** - The rule lists tracking numbers, phone numbers, flight numbers, and ticket numbers as qualifying identifiers. A date by itself doesn't serve the same function as these reference systems.\n\nTherefore, this falls under \"general information\" rather than \"specific, concrete identifier,\" making the classification **False**.",
+      "word_overlap": 0.8,
+      "classification_correct": null
+    },
+    {
+      "input": "The password must include 2 uppercase letters, 3 lowercase, and 4 digits.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input contains **only general information and requirements**, not a specific, concrete identifier or reference number.\n\n**Why False:**\n- The input describes *rules* or *requirements* for creating a password (2 uppercase, 3 lowercase, 4 digits)\n- These are abstract specifications, not concrete identifiers\n- There is no actual tracking number, phone number, flight number, ticket number, or precise time reference\n- The numbers mentioned (2, 3, 4) are *constraints* or *parameters*, not identifiers that uniquely reference something\n\n**Comparison to the rule:**\n- ✗ Not a specific identifier (like \"TRK-12345678\")\n- ✗ Not a reference number (like \"FL-789\")\n- ✗ Not a precise time (like \"2:30 PM arrival\")\n- ✓ Is general descriptive information about requirements\n\nTherefore, this classifies as **False** according to the rule.",
+      "word_overlap": 0.6285714285714286,
+      "classification_correct": true
+    },
+    {
+      "input": "No numbers here, just plain text.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **No specific, concrete identifiers**: The input contains no tracking numbers, phone numbers, flight numbers, ticket numbers, or precise times with arrival/departure information.\n\n2. **General information only**: The input is explicitly stating that it contains \"no numbers\" and only \"plain text\" — which falls squarely into the category of general information and descriptions.\n\n3. **Non-specific references**: There are no precise references of any kind that would trigger a True classification.\n\nThe input is a meta-description of itself that confirms it lacks the concrete identifiers required by the rule to return True.",
+      "word_overlap": 0.6285714285714286,
+      "classification_correct": null
+    },
+    {
+      "input": "His age is 45 years.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input contains a **specific, concrete identifier or reference number** (such as tracking numbers, phone numbers, flight numbers, ticket numbers, or precise times with both arrival/departure).\n\nThe input \"His age is 45 years\" contains a **numerical value (45)**, but this is:\n\n- **Not an identifier or reference number** — it's a descriptive attribute about a person\n- **General information** — age is a characteristic, not a unique reference that identifies or tracks something\n- **Not in the category of examples provided** — it's not a tracking number, phone number, flight number, ticket number, or precise time\n\nTherefore, this falls under the \"general information\" category, making the classification **False**.",
+      "word_overlap": 0.8,
+      "classification_correct": null
+    },
+    {
+      "input": "The store discount is 25%.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input contains only **general information** about a discount percentage, not a specific, concrete identifier or reference number.\n\n**Reasoning based on the rule:**\n- The input describes a discount rate (25%), which is a general descriptive value, not a specific identifier\n- It lacks any concrete reference numbers such as:\n  - Tracking numbers\n  - Phone numbers\n  - Flight numbers\n  - Ticket numbers\n  - Precise times with arrival/departure details\n  - Or any other unique identifier\n\nThe \"25%\" is a non-specific reference that describes a general promotion or discount policy, similar to how \"scores\" or \"requirements\" are classified as False in the rule. It does not uniquely identify or reference anything specific.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "The password must contain at least 8 characters, including 2 numbers.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input contains only **general information and requirements**, not a specific, concrete identifier or reference number.\n\n**Reasoning:**\n- The input describes a *rule or requirement* (\"must contain at least 8 characters, including 2 numbers\")\n- It uses general, non-specific language that applies broadly to any password meeting these criteria\n- There is no concrete identifier, tracking number, reference number, or specific instance being referenced\n- This is a description of a *category of acceptable passwords*, not a reference to a particular password or identifier\n\nAccording to the rule, this should be classified as **False** because it lacks the specific, concrete identifier or reference number that would trigger a True classification.",
+      "word_overlap": 0.45714285714285713,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6228571428571429,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe output is **True** when the text contains **an actual sequence of numbers or alphanumeric characters that appears to be a specific identifier, code, or value**.\n\nThe output is **False** when the text only **describes or discusses numbers in general terms** (rules, requirements, counts, or abstract references).\n\n## Key Distinctions:\n\n**True cases** have:\n- Actual concrete data: `user_12345`, `34.0522N, 118.2437W`, `00123A`, `qwerty12345!`, `2023-10-15`\n- These are real instances of IDs, passwords, coordinates, dates, etc.\n\n**False cases** have:\n- Only descriptions or rules about numbers: \"2 uppercase letters, 3 lowercase, and 4 digits\"\n- General statements: \"His age is 45 years\" (just mentioning a number in context)\n- Percentages or measurements: \"25%\"\n- Requirements or constraints: \"at least 8 characters, including 2 numbers\"\n\n**In short:** True = the text **contains** a specific alphanumeric identifier/code/value. False = the text only **talks about** numbers or requirements without providing an actual concrete identifier.",
+  "cross_context_match_score": 0.42857142857142855
+}

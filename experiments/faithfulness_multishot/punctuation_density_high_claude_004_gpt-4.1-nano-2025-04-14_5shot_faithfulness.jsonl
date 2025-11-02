@@ -1,0 +1,250 @@
+{
+  "rule_id": "punctuation_density_high_claude_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if punctuation marks comprise more than 15% of total characters, indicating heavy punctuation usage.",
+  "generated_articulation": "The classification rule is:\n\n**A text is classified as True if it contains at least one sequence of punctuation marks (such as exclamation points, question marks, or ellipses) that indicates excitement, surprise, or emphasis, especially when these are combined with interjections, expressions of disbelief, or phrases like \"can't be true,\" \"that's unbelievable,\" or \"did you see that.\"**\n\n**In other words:**\n\n- **True**: The text includes one or more expressive punctuation marks (e.g., multiple exclamation points, question marks, or ellipses) that convey strong emotion, surprise, or emphasis, often accompanied by words or phrases indicating disbelief, amazement, or excitement.\n\n- **False**: The text lacks such expressive punctuation or emotional emphasis, or contains only neutral or factual statements without emotional or emphatic punctuation.\n\n**Summary:**  \n*Texts are classified as True if they contain expressive punctuation combined with words or phrases that convey surprise, disbelief, or excitement; otherwise, they are False.*",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow!!! I can't believe they actually did it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Did you see that?! That's unbelievable!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The meeting is scheduled for tomorrow at 10 AM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said she would call back later.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! I can't believe this actually happened!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report was finished on time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She asked if you were coming tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe we finally won the match!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Did you see that? Unbelievable!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe you did that.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "It's just a regular update, nothing special.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! I can't believe we won the game!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We won the game yesterday.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was incredible!! I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "That was incredible. I can't believe it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it! This is amazing!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it! This is amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe they canceled the event!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe they canceled the event.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 1.0,
+  "consistency_tests": [
+    {
+      "input": "Are you coming? Let's go now!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence \"Are you coming? Let's go now!!!\" contains multiple exclamation points (\"!!!\") at the end, which are expressive punctuation marks conveying excitement or emphasis. Additionally, the phrase \"Let's go now!!!\" suggests urgency and enthusiasm, especially with the multiple exclamation marks. According to the classification rule, the presence of such expressive punctuation combined with an enthusiastic phrase indicates strong emotion or emphasis, leading to a classification of True.",
+      "word_overlap": 0.3275862068965517,
+      "classification_correct": true
+    },
+    {
+      "input": "Wow... such a beautiful day!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Wow... such a beautiful day!!!\" contains multiple expressive punctuation marks—ellipsis (\"...\") and multiple exclamation points (\"!!!\")—which convey excitement and emphasis. The word \"Wow\" is an interjection expressing surprise or amazement. According to the classification rule, the presence of such expressive punctuation combined with an interjection indicates strong emotion, surprise, or emphasis. Therefore, this text meets the criteria for being classified as True.",
+      "word_overlap": 0.39655172413793105,
+      "classification_correct": true
+    },
+    {
+      "input": "Hmm... maybe... I guess so?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Hmm... maybe... I guess so?\" contains multiple ellipses (\"...\") which are expressive punctuation marks often used to convey hesitation, uncertainty, or a contemplative tone. The question mark at the end (\"?\") indicates a question, which can also express curiosity or surprise. Although the phrase \"I guess so?\" is somewhat neutral, the combination of ellipses and the question mark suggests a tone of uncertainty or mild surprise. According to the classification rule, the presence of expressive punctuation (ellipses and question mark) combined with a phrase that can imply hesitation or mild surprise qualifies the text as True, as it conveys emotional nuance rather than neutrality.",
+      "word_overlap": 0.3448275862068966,
+      "classification_correct": true
+    },
+    {
+      "input": "Alright... let's go!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Alright... let's go!!!\" contains multiple expressive punctuation marks—ellipsis (\"...\") and multiple exclamation points (\"!!!\"). These punctuation marks are often used to convey excitement or emphasis. Additionally, the phrase \"let's go!!!\" suggests enthusiasm or eagerness, which aligns with the idea of conveying strong emotion or emphasis. According to the classification rule, the presence of such expressive punctuation combined with an enthusiastic phrase indicates a True classification.",
+      "word_overlap": 0.3620689655172414,
+      "classification_correct": true
+    },
+    {
+      "input": "Yay!!! We're here!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Yay!!! We're here!!!\" contains multiple exclamation points (\"!!!\") which are expressive punctuation marks indicating excitement or emphasis. The word \"Yay\" is an interjection expressing happiness or excitement. The presence of these multiple exclamation marks combined with an enthusiastic interjection aligns with the classification rule that texts containing expressive punctuation and words conveying excitement or emphasis are classified as True.",
+      "word_overlap": 0.3448275862068966,
+      "classification_correct": true
+    },
+    {
+      "input": "The quick brown fox jumps over the lazy dog.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The input sentence \"The quick brown fox jumps over the lazy dog.\" contains no expressive punctuation marks such as exclamation points, question marks, or ellipses. Additionally, it does not include any words or phrases indicating surprise, disbelief, or excitement (e.g., \"can't be true,\" \"that's unbelievable,\" \"did you see that\"). It is a neutral, factual statement without emotional emphasis or punctuation that would suggest strong emotion. Therefore, based on the classification rule, this text is classified as False.",
+      "word_overlap": 0.5172413793103449,
+      "classification_correct": null
+    },
+    {
+      "input": "Please, call me when you arrive.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation:  \nAccording to the classification rule, a text is classified as True if it contains expressive punctuation marks (such as multiple exclamation points, question marks, or ellipses) that indicate strong emotion, surprise, or emphasis, especially when combined with words or phrases expressing disbelief, amazement, or excitement.  \n\nIn the input sentence, \"Please, call me when you arrive,\" there are no expressive punctuation marks—no exclamation points, question marks, or ellipses. Additionally, the sentence is a neutral, polite request without any words or phrases conveying surprise, disbelief, or excitement. Therefore, it does not meet the criteria for a True classification and is classified as False.",
+      "word_overlap": 0.5517241379310345,
+      "classification_correct": null
+    },
+    {
+      "input": "Yes, of course!",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Yes, of course!\" contains an exclamation point, which is an expressive punctuation mark indicating emphasis or excitement. According to the classification rule, texts that include such punctuation combined with words or phrases conveying surprise, disbelief, or excitement are classified as True. Although \"Yes, of course!\" is a common phrase, the exclamation point suggests a tone of emphasis or enthusiasm, aligning with the rule's criteria for emotional or emphatic punctuation. Therefore, this text is classified as True.",
+      "word_overlap": 0.39655172413793105,
+      "classification_correct": false
+    },
+    {
+      "input": "Oops! Sorry about that.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Oops! Sorry about that.\" contains an exclamation point after \"Oops,\" which is an interjection expressing surprise or mild embarrassment. According to the classification rule, texts that include expressive punctuation (like exclamation points) combined with words or phrases conveying surprise, disbelief, or excitement are classified as True. Since \"Oops!\" is an interjection indicating a reaction to an unexpected or unintended event, and it is emphasized with an exclamation point, the text fits the criteria for a True classification.",
+      "word_overlap": 0.3620689655172414,
+      "classification_correct": false
+    },
+    {
+      "input": "Oops! I did it again.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Oops! I did it again.\" contains an exclamation point after \"Oops,\" which is an interjection expressing surprise or mild excitement. According to the classification rule, the presence of expressive punctuation (exclamation point) combined with an interjection indicates emotional emphasis, surprise, or excitement. Therefore, this text fits the criteria for a \"True\" classification.",
+      "word_overlap": 0.25862068965517243,
+      "classification_correct": false
+    }
+  ],
+  "consistency_score": 0.3862068965517242,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the provided examples carefully.\n\n**Examples with output True:**\n1. \"Are you coming? Let's go now!!!\"  \n2. \"Wow... such a beautiful day!!!\"  \n3. \"Hmm... maybe... I guess so?\"  \n4. \"Alright... let's go!!!\"  \n5. \"Yay!!! We're here!!!\"\n\n**Examples with output False:**\n- \"The quick brown fox jumps over the lazy dog.\"  \n- \"Please, call me when you arrive.\"  \n- \"Yes, of course!\"  \n- \"Oops! Sorry about that.\"  \n- \"Oops! I did it again.\"\n\n---\n\n### Observations:\n\n1. **Presence of multiple exclamation marks or ellipses:**\n   - True examples often contain **multiple exclamation marks** (`!!!`) or **multiple dots** (`...`).\n   - For example:\n     - \"Let's go now!!!\" (exclamation marks)\n     - \"Wow... such a beautiful day!!!\" (ellipsis + exclamation marks)\n     - \"Yay!!!\" (multiple exclamation marks)\n     - \"Alright... let's go!!!\" (ellipsis + exclamation marks)\n     - \"Hmm... maybe... I guess so?\" (ellipsis + question mark)\n\n2. **Placement of punctuation:**\n   - The true examples often end with **multiple punctuation marks** (e.g., `!!!` or `...`), sometimes combined.\n   - The false examples tend to have standard punctuation or no excessive punctuation at the end.\n\n3. **Question marks:**\n   - The only true example with a question mark is:  \n     - \"Hmm... maybe... I guess so?\"  \n   - The false examples with question marks are \"?\" at the end, but they don't have multiple exclamation marks or ellipses.\n\n4. **Type of punctuation:**\n   - The true examples often have **either**:\n     - Multiple exclamation marks (`!!!`)\n     - Multiple dots (`...`)\n     - Or a combination of ellipses and exclamation marks.\n\n5. **No false examples with multiple exclamation marks or ellipses:**\n   - The false examples have standard punctuation, no excessive punctuation at the end.\n\n---\n\n### **Hypothesis:**\n\n**The pattern for output being True is:**\n\n> The sentence contains **at least one sequence of three or more identical punctuation marks** (e.g., `!!!`, `...`) **at the end of the",
+  "cross_context_match_score": 0.3620689655172414
+}

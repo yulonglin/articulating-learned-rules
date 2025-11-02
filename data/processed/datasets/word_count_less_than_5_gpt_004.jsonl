@@ -1,0 +1,200 @@
+{"input": "hello value sample python python input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat python over test test the", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat check text", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world jumps test mat run input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test code cat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy data data python result fox", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps testing", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function data jumps brown sample", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run test", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example over value world data", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat lazy the brown sat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown example input data value code", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result lazy output sat testing testing", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox run text dog mat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the lazy", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example test", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test dog run over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function dog input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result lazy cat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run brown world function", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy over check world", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run check jumps input sat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat result function", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox text test jumps output", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over function sample output", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input fox", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run code input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps sample sat text", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps testing data cat hello test", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test example", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing jumps input hello code code", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat mat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test text quick function code", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over input data", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run check run over run quick", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example mat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example input world input hello", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world dog quick function brown", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat fox dog", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello result", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick hello lazy input result", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over quick lazy check", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick code check test hello", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample example fox jumps sat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample sat hello the check value", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat testing lazy sat over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over result sat test testing python", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test text brown", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat result result hello data", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps sat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check cat brown test", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data code the hello", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over lazy text", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function code", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function result", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python run value testing over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing example sat python dog", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox the", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample jumps output", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test the result data test output", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data function input hello run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps quick", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat fox cat code data code", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function over data sat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world sat sample sat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick world testing text output brown", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the mat check", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run data input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over fox", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world brown lazy python", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox testing", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result quick function brown result", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result test text result", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello dog output sat brown testing", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog input", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy result run sample mat lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data jumps testing", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown data python quick run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown quick", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick fox", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello mat text lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps value", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code dog", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value jumps brown run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the function value mat quick test", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing dog over over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value fox jumps", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function input", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run quick", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy cat lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data over the lazy over lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python lazy lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat text check python text hello", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code cat value lazy", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result check data python example", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing mat fox world result", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data cat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the fox over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown lazy", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world text dog run mat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example function", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result the check over check", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox text data testing the", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code jumps run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output input testing run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sample check", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over value", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value code", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code result fox", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example run result python", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data lazy sample hello", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cat value example check check", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy sat jumps", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python over text", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sample input value", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sample", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat text over", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing check", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the cat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over text python fox", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value mat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function example value text", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello sample", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over the jumps sample", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check jumps run", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps output", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test cat code result", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat result", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result value data input", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value python testing over jumps data", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check hello python dog", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text cat", "label": true, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output sample fox input cat", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over over quick fox quick sample", "label": false, "rule_id": "word_count_less_than_5_gpt_004", "metadata": {"expected_label": false, "correct": true}}

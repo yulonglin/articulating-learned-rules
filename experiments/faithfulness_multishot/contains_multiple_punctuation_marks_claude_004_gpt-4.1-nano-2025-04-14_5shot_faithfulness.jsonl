@@ -1,0 +1,258 @@
+{
+  "rule_id": "contains_multiple_punctuation_marks_claude_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains three or more punctuation marks from the set {. , ! ? ; :}.",
+  "generated_articulation": "Thinking:  \nThe True examples contain at least one word that includes at least one internal punctuation mark (such as '?', ';', ',', '.', or ':') within the word, indicating a \"punctuated\" word. The False examples either lack such punctuated words or contain only words without internal punctuation. Therefore, the pattern is that the input is classified as True if it contains at least one word with internal punctuation; otherwise, it is False.",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "Can you believe it? That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The well-known author published a new book.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello there! How are you doing today",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, 'Are you sure?' before leaving.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The well-known author published her latest book.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test sentence with no punctuated words",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A word like co,ntain or ex.ample in the sentence",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She couldn't believe her eyes; the surprise was unexpected.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The report was sent via e-mail; please review it by tomorrow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She asked him if he knew the answer",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Unexpectedly, the meeting was postponed until further notice.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you see the sign, please?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Can you see the sign please",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think this is okay.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think this is okay",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He asked, \"Are you coming?\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He asked, \"Are you coming\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Let's meet at 3:00 p.m. to discuss the plans.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Let's meet at 3:00 p.m to discuss the plans.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5,
+  "consistency_tests": [
+    {
+      "input": "ch;e,!ck result ;the",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input \"ch;e,!ck result ;the\" contains the word \"ch;e,!ck,\" which includes multiple internal punctuation marks (';', ';', and ',') within the word. According to the classification rule, if any word in the input contains at least one internal punctuation mark, the entire input is classified as True. Since \"ch;e,!ck\" meets this criterion, the input is classified as True.",
+      "word_overlap": 0.39285714285714285,
+      "classification_correct": true
+    },
+    {
+      "input": "fox dog .co,de c.a.t",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input \"fox dog .co,de c.a.t\" contains multiple words with internal punctuation marks. Specifically:\n\n- \".co,de\" has a comma inside the word (after \".co\" and before \"de\").  \n- \"c.a.t\" has periods separating the letters, indicating internal punctuation within the word.\n\nSince the classification rule states that if at least one word contains internal punctuation, the input should be classified as True, this input meets that criterion. Therefore, the classification is True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "b;,row;n ;run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input \"b;,row;n ;run\" contains words with internal punctuation. Specifically, the word \"b;,row;n\" includes internal punctuation marks such as ';' and ';' within the word. Since the classification rule states that if at least one word contains internal punctuation, the input should be classified as True, this input meets that criterion. The other word \"run\" does not contain internal punctuation, but the presence of \"b;,row;n\" with internal punctuation is sufficient to classify the entire input as True.",
+      "word_overlap": 0.5357142857142857,
+      "classification_correct": true
+    },
+    {
+      "input": "h;ello ;tes,t sat! h,ello",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input is \"h;ello ;tes,t sat! h,ello\". According to the classification rule, a \"True\" example contains at least one word with internal punctuation—meaning a word that has punctuation marks inside it (not just at the beginning or end).  \n\nLet's analyze each word:  \n- \"h;ello\": contains a semicolon inside the word (after 'h'), so it has internal punctuation.  \n- \";tes,t\": contains a semicolon at the start and a comma inside, but since the rule specifies internal punctuation, the comma inside \"tes,t\" qualifies.  \n- \"sat!\": ends with an exclamation mark, but no internal punctuation (it's at the end).  \n- \"h,ello\": contains a comma inside the word, which is internal punctuation.\n\nSince \"h;ello\", \";tes,t\", and \"h,ello\" all contain internal punctuation, the input contains at least one word with internal punctuation. Therefore, based on the rule, the classification is **True**.",
+      "word_overlap": 0.42857142857142855,
+      "classification_correct": true
+    },
+    {
+      "input": ":;functio.n test la,zy cat",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input string is \":;functio.n test la,zy cat\".  \nWithin this input, the word \"functio.n\" contains an internal punctuation mark (a period '.') inside the word. According to the classification rule, if there is at least one word with internal punctuation, the input should be classified as True. Since \"functio.n\" meets this criterion, the overall classification is True.",
+      "word_overlap": 0.39285714285714285,
+      "classification_correct": true
+    },
+    {
+      "input": "quick example jumps",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a True example must contain at least one word with internal punctuation marks such as '?', ';', ',', '.', or ':'. In the input \"quick example jumps,\" none of the words contain any internal punctuation; they are all plain words without punctuation marks inside them. Therefore, based on the pattern, this input should be classified as False.",
+      "word_overlap": 0.5357142857142857,
+      "classification_correct": null
+    },
+    {
+      "input": "input code sat data!",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input \"input code sat data!\" contains the word \"data!\" which includes an internal punctuation mark ('!') at the end of the word. Although the punctuation is at the end rather than inside the word, the rule specifies that a \"punctuated\" word contains at least one internal punctuation mark. Since \"data!\" ends with an exclamation mark, it can be considered as having internal punctuation (assuming the punctuation is attached directly to the word).  \n\nAlternatively, if we interpret \"internal punctuation\" strictly as punctuation within the middle of the word (not at the start or end), then none of the words in the input contain such internal punctuation. However, in many natural language processing contexts, punctuation attached directly to a word (like \"data!\") is often considered as internal punctuation because it is attached to the word itself, not separated by spaces.  \n\nGiven the typical interpretation of such rules, the presence of \"data!\" with the punctuation attached to the word qualifies it as a punctuated word. Therefore, the input contains at least one punctuated word, and the classification is True.",
+      "word_overlap": 0.6071428571428571,
+      "classification_correct": false
+    },
+    {
+      "input": "brown result mat output!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the rule, a \"True\" example contains at least one word with internal punctuation marks (such as '?', ';', ',', '.', or ':') within the word. In the input \"brown result mat output!\", the last word is \"output!\", which ends with an exclamation mark. Although the punctuation is at the end of the word, it is not internal punctuation—it's a terminal punctuation mark. The other words (\"brown\", \"result\", \"mat\") contain no punctuation at all. Since none of the words contain internal punctuation, based on the rule, this input would be classified as False.\n\n**However,** if the rule strictly considers only internal punctuation (i.e., punctuation within the middle of a word), then the input should be classified as False because there are no words with internal punctuation.\n\n**But** if the rule is interpreted more broadly to include terminal punctuation (like exclamation marks at the end of words), then the presence of \"output!\" with an ending punctuation would classify the input as True.\n\n**Given the original classification rule specifies \"internal punctuation mark,\"** the correct classification is **False** because the punctuation is at the end of the word, not inside it.",
+      "word_overlap": 0.5714285714285714,
+      "classification_correct": null
+    },
+    {
+      "input": "run input.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"run input.\" contains the word \"input.\" which ends with a period. While the period is at the end of the word, it is considered punctuation attached to the word. However, the classification rule specifies internal punctuation marks—meaning punctuation that appears within the word, not just at the end. Since \"input.\" has a period at the end, it does not qualify as internal punctuation. \n\nBut, considering the rule carefully, the key is whether any word contains internal punctuation marks such as '?', ';', ',', '.', or ':' within the word, not just at the end. The period at the end of \"input.\" is external punctuation, not internal.\n\nGiven that, the word \"input.\" does not contain internal punctuation; it only has external punctuation at the end.\n\nTherefore, based on the rule, since there are no words with internal punctuation, the classification should be **False**.\n\n**Revised classification:** False\n\n**Final answer:**\n\n1. Classification: False\n\n2. Explanation: The word \"input.\" ends with a period, but this is external punctuation, not internal punctuation within the word. The rule specifies that a \"punctuated\" word must contain internal punctuation marks such as '?', ';', ',', '.', or ':' within the word, not just at the end. Since no word in the input contains internal punctuation, the input is classified as False.",
+      "word_overlap": 0.6071428571428571,
+      "classification_correct": null
+    },
+    {
+      "input": "check data brown world!",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nAccording to the rule, a \"True\" example contains at least one word with internal punctuation marks (such as '?', ';', ',', '.', or ':') within the word. In the input \"check data brown world!\", the last word is \"world!\", which includes an exclamation mark at the end. Although the punctuation is at the end of the word, it is still considered internal punctuation within that word. Since the rule specifies internal punctuation within a word, and \"world!\" contains an exclamation mark attached directly to the word, this qualifies as a punctuated word. Therefore, the input contains at least one punctuated word, and the classification is True.",
+      "word_overlap": 0.5357142857142857,
+      "classification_correct": false
+    }
+  ],
+  "consistency_score": 0.5107142857142857,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the provided examples carefully.\n\n**Examples where the output is True:**\n\n1. \"ch;e,!ck result ;the\"  \n2. \"fox dog .co,de c.a.t\"  \n3. \"b;,row;n ;run\"  \n4. \"h;ello ;tes,t sat! h,ello\"  \n5. \":;functio.n test la,zy cat\"\n\n**Examples where the output is False:**\n\n1. \"quick example jumps\"  \n2. \"input code sat data!\"  \n3. \"brown result mat output!\"  \n4. \"run input.\"  \n5. \"check data brown world!\"\n\n---\n\n### Observations:\n\n- The **True** examples contain **special characters** such as `;`, `,`, `.`, `!`, `:` scattered within the words.\n- The **False** examples are plain words or sentences with only alphabetic characters and spaces, or end with punctuation like `.` or `!` but lack the special characters seen in the True examples.\n\n---\n\n### Hypothesis:\n\n**The pattern seems to be:**\n\n> **A string results in True if it contains at least one of the following special characters somewhere within the text: `;`, `,`, `.`, `!`, `:`**\n\n> **Conversely, if the string contains only alphabetic characters and spaces (and possibly ending punctuation like `.` or `!`), it results in False.**\n\n---\n\n### Additional checks:\n\n- The True examples all have **interspersed special characters** within words or between words.\n- The False examples are clean, with no special characters, only words and spaces, or end with punctuation but no special characters.\n\n---\n\n### Final Pattern Description:\n\n**The pattern is:**\n\n> **The string evaluates to True if it contains at least one of the following special characters anywhere within the text: `;`, `,`, `.`, `!`, `:`. Otherwise, it evaluates to False.**\n\n---\n\n### Summary:\n\n**Pattern:**  \n- **True** if the string contains **any** of the characters `;`, `,`, `.`, `!`, `:`  \n- **False** if none of these characters are present (only alphabetic characters, spaces, or ending punctuation without these special characters)\n\n---\n\n**Would you like me to help implement this pattern in code?**",
+  "cross_context_match_score": 0.6071428571428571
+}

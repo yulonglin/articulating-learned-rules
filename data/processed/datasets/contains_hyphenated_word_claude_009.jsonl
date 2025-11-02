@@ -1,0 +1,200 @@
+{"input": "check over up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over sample output python world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "high-quality dog input output output", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world sat sample well-known", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy hello sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input self-aware dog output sample", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "high-quality result fox", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check well-known output over hello", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing data result", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "state-of-the-art world python", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output input dog high-quality", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output quick check testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the jumps output lazy", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text python check input test", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat high-quality text", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat world state-of-the-art value sample", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat jumps sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat quick output mat value", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output run cat input run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run hello cat quick", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown mat dog", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy dog", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick mat up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data data input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick jumps sample cat cat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python over", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function lazy check run testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox run text self-aware dog", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code cat well-known code test", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing example sat python", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result check data python self-aware", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick mat high-quality mat result", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data sat over test", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy jumps output output mat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text world up-to-date the", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "up-to-date the output data", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python test value high-quality function example", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy python result", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick result state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat dog fox output text", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check test hello check mat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text example cat text over self-aware", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello the jumps text sample high-quality", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps quick sample world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function well-known input mat example quick", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps code well-known the", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "well-known jumps sample", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "up-to-date world cat result", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "well-known lazy code the mat function", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over output python state-of-the-art code input", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example over test function", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the state-of-the-art mat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "high-quality result the check over", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox cat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function run cat run hello", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat state-of-the-art mat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat testing lazy sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat check state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code cat value", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "up-to-date mat result value data", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat input value testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sat fox run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world testing state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "well-known check the run", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps self-aware testing quick", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "well-known result the", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "state-of-the-art hello over", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input brown", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "self-aware test text", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over testing sample state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test text run python well-known", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps sample sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sample input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input world input well-known hello sat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value python testing over jumps up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox text data testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check over run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text lazy example", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over mat sample lazy well-known", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python high-quality sat text cat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run data", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog testing up-to-date dog testing dog", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing text jumps", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick jumps state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example run state-of-the-art", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value code jumps run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run state-of-the-art mat lazy", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing fox sat up-to-date world cat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data code fox sample value", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text text function lazy function", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check testing hello data run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test self-aware test the check", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check function lazy data", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example state-of-the-art the data", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat brown fox", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example jumps high-quality mat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data over high-quality the lazy over", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "high-quality brown result example", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing code self-aware", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input up-to-date lazy over", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "up-to-date run sample", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data check testing sample", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "well-known over value world data test", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "high-quality code sample code example", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "state-of-the-art example quick dog", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result world testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value self-aware jumps brown", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code data over python self-aware", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check mat example", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example well-known run result", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output well-known test code", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps text run hello run self-aware", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python text hello jumps input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing over testing up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test sat lazy", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat code world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input quick world world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello over quick sat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "up-to-date lazy function text", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function value mat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "high-quality input check", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat output", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example quick example result", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the check", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run brown world high-quality", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over up-to-date text python", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "state-of-the-art input code", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example up-to-date data dog run", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the well-known lazy data check cat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input hello", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello brown check function the", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "self-aware testing jumps input hello code", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run fox the well-known mat sat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data test output mat high-quality", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the output test input code", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "state-of-the-art code brown data python", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "high-quality value check", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input well-known sat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example testing the world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result over output jumps mat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox state-of-the-art value", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input check dog output", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world example", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "state-of-the-art hello sample text hello", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test the", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "high-quality test cat code", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function python mat the", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value quick quick high-quality", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat value mat over high-quality jumps", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text testing", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick hello lazy self-aware input", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python value", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox mat self-aware sat", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over up-to-date dog", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value input", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check mat testing dog code", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output input test", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the world quick high-quality data run", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over hello python", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "state-of-the-art function value", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test the output", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function sample run", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data world over data", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value jumps world test", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing quick state-of-the-art cat function", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run function example quick state-of-the-art input", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function check hello python up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test world brown lazy", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text test result quick", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "high-quality input jumps", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value code testing up-to-date", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "up-to-date input value data lazy sample", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example value test over", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run text over", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog function over check quick", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing result lazy high-quality cat check", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example up-to-date text function result", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run jumps", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello example over function", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog mat lazy jumps", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the jumps", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello sample function dog input well-known", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy cat", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog example well-known output test", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown output cat state-of-the-art world", "label": true, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the fox data function world", "label": false, "rule_id": "contains_hyphenated_word_claude_009", "metadata": {"expected_label": false, "correct": true}}

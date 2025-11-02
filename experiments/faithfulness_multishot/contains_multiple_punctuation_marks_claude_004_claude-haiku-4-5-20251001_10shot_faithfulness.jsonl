@@ -1,0 +1,186 @@
+{
+  "rule_id": "contains_multiple_punctuation_marks_claude_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains three or more punctuation marks from the set {. , ! ? ; :}.",
+  "generated_articulation": "**A string is classified as True if it contains special characters (like `.!:;?`) that are embedded within or between words, rather than appearing only at the end of the string.** In other words, special characters must interrupt or be interspersed with the text, not merely terminate it.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Hello!How are you?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The price is $100; please confirm.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test string.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello world! How are you?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "hello!world",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "What is this?Yes, it is.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello world!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "hello there! How are you",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test.string",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello! How are you?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5454545454545454,
+  "consistency_tests": [
+    {
+      "input": "ch;e,!ck result ;the",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule that special characters must be \"embedded within or between words, rather than appearing only at the end of the string,\" this input clearly qualifies:\n\n1. **`;` (semicolon) after \"ch\"** - interrupts the word \"check\", appearing within the text rather than at the end\n2. **`,` (comma) after \"e\"** - embedded within the word structure\n3. **`!` (exclamation mark) after the comma** - continues the pattern of special characters interspersed with text\n4. **`;` (semicolon) before \"the\"** - appears between words in the middle of the string\n\nAll of these special characters are **interspersed throughout the string**, interrupting and breaking up the words and phrases. None of them appear solely as a terminating punctuation at the very end. This matches the classification rule perfectly.\n\n**Result: True** ✓",
+      "word_overlap": 0.7083333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "fox dog .co,de c.a.t",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule, I need to identify special characters that are **embedded within or between words**, rather than only at the end.\n\nAnalyzing \"fox dog .co,de c.a.t\":\n\n1. **\"fox\"** - no special characters\n2. **\"dog\"** - no special characters\n3. **\".co,de\"** - contains special characters **embedded within the word**:\n   - `.` before \"co\"\n   - `,` between \"co\" and \"de\"\n   - These interrupt the word structure\n4. **\"c.a.t\"** - contains special characters **embedded within the word**:\n   - `.` between \"c\" and \"a\"\n   - `.` between \"a\" and \"t\"\n   - These interrupt the word structure\n\nSince the string contains special characters (`.` and `,`) that are **interspersed within words** rather than merely appearing at the end of the entire string, it meets the classification criteria.\n\n**Result: True**",
+      "word_overlap": 0.7083333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "b;,row;n ;run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule, I need to identify whether special characters are embedded within or between words, rather than only appearing at the end.\n\nIn \"b;,row;n ;run\":\n\n- **`;` after \"b\"** - This special character interrupts the word, appearing between letters within what could be \"brown\"\n- **`,` after the first `;`** - Another special character embedded in the sequence\n- **`;` after \"row\"** - This special character is embedded between \"row\" and \"n\", interrupting the flow of text\n- **Space and `;` before \"run\"** - The semicolon appears between words, interspersed with the text\n\nThe special characters (`;` and `,`) are clearly **interspersed throughout the string**, interrupting and embedding themselves within and between the words, rather than appearing only at the terminal end of the string.\n\nTherefore, this satisfies the classification rule and is **True**.",
+      "word_overlap": 0.625,
+      "classification_correct": true
+    },
+    {
+      "input": "h;ello ;tes,t sat! h,ello",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule, I'm classifying this as True because the string contains multiple special characters that are **embedded within and between words**, rather than only appearing at the end:\n\n- **`;`** in \"h;ello\" - interrupts the word itself\n- **`;`** before \"tes\" - appears between words\n- **`,`** in \"tes,t\" - interrupts the word itself\n- **`!`** after \"sat\" - appears mid-string (not at the end of the entire string)\n- **`,`** in \"h,ello\" - interrupts the word itself\n\nThe special characters are interspersed throughout the text, interrupting and breaking up the words rather than simply terminating the string. This matches the classification rule perfectly.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": ":;functio.n test la,zy cat",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule, I need to identify whether special characters are embedded within or between words, rather than only appearing at the end.\n\nAnalyzing the input `:;functio.n test la,zy cat`:\n\n- **`:;`** at the start - appears before words\n- **`.`** in `functio.n` - embedded *within* a word, interrupting it\n- **`,`** in `la,zy` - embedded *within* a word, interrupting it\n\nThe special characters (particularly the `.` and `,`) are **interspersed with the text and interrupt words**, rather than merely terminating the string. They appear in the middle of words, which satisfies the condition of being \"embedded within or between words.\"\n\nTherefore, this input meets the classification criteria for **True**.",
+      "word_overlap": 0.7083333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "quick example jumps",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule, a string is classified as True if it contains special characters (like `.!:;?`) that are embedded within or between words, rather than appearing only at the end.\n\nThe input \"quick example jumps\" contains **no special characters at all** — neither embedded within words, between words, nor at the end. It consists solely of three regular words separated by spaces.\n\nSince the rule requires the *presence* of special characters in specific positions (embedded or interspersed with text), and this string lacks any special characters whatsoever, it does not meet the criteria for classification as True.\n\nTherefore, it is classified as **False**.",
+      "word_overlap": 0.7916666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "input code sat data!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if special characters are **embedded within or between words**, rather than appearing only at the end.\n\nIn the input \"input code sat data!\":\n- The exclamation mark `!` appears **only at the end** of the string\n- It does **not** interrupt or intersperse with the text\n- There are no special characters embedded within words (like \"in.put\" or \"co:de\") or between words (like \"input. code\")\n\nSince the special character only terminates the string rather than being interspersed throughout the text, this does **not** meet the classification criteria.\n\n**Result: False**",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    },
+    {
+      "input": "brown result mat output!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if special characters are **embedded within or between words**, rather than appearing only at the end.\n\nIn the input \"brown result mat output!\":\n- The exclamation mark `!` appears **only at the end** of the string\n- It does **not** interrupt or interrupt the text\n- It does **not** appear between or within words\n\nSince the special character merely **terminates** the string rather than being interspersed with the text, this does not meet the criteria for a True classification.\n\n**Result: False**",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    },
+    {
+      "input": "run input.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if special characters are **embedded within or between words**, rather than appearing only at the end.\n\nIn \"run input.\":\n- The period (`.`) appears **only at the end** of the string\n- It does **not** interrupt or interrupt the text\n- It does **not** appear between or within words\n\nSince the special character merely terminates the string rather than being interspersed with the text, this input does **not** meet the criteria for classification as True.\n\n**Result: False**",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    },
+    {
+      "input": "check data brown world!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if special characters are **embedded within or between words**, rather than appearing only at the end.\n\nIn the input \"check data brown world!\":\n- The exclamation mark `!` appears **only at the end** of the string\n- It does **not** interrupt or interrupt the text\n- It does **not** appear between or within words\n\nSince the special character merely **terminates** the string rather than being interspersed with the text, this does not meet the criteria for classification as True.\n\n**Result: False**",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.7208333333333334,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the True vs False examples, I need to identify what distinguishes them.\n\n## Observation\n\nLet me examine the **punctuation and special characters** in each string:\n\n**True examples:**\n- \"ch;e,!ck result ;the\" → Contains: `;` `,` `!`\n- \"fox dog .co,de c.a.t\" → Contains: `.` `,` `.` `.`\n- \"b;,row;n ;run\" → Contains: `;` `,` `;` `;`\n- \"h;ello ;tes,t sat! h,ello\" → Contains: `;` `;` `,` `!` `,`\n- \":;functio.n test la,zy cat\" → Contains: `:` `;` `.` `,`\n\n**False examples:**\n- \"quick example jumps\" → No special characters\n- \"input code sat data!\" → Only `!` (one type)\n- \"brown result mat output!\" → Only `!` (one type)\n- \"run input.\" → Only `.` (one type)\n- \"check data brown world!\" → Only `!` (one type)\n\n## Pattern\n\n**The output is True if and only if the string contains at least 2 different types of punctuation/special characters (from the set: `;` `,` `!` `.` `:`)**\n\nThe False examples either have no punctuation or only one type of punctuation character, while all True examples have multiple different punctuation marks mixed throughout.",
+  "cross_context_match_score": 0.25
+}

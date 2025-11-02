@@ -1,0 +1,843 @@
+contains_multiple_exclamation_marks_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.4375
+      consistency_score: 0.5312
+      functional_accuracy: null
+      cross_context_match: 0.4062
+    10shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.5344
+      functional_accuracy: null
+      cross_context_match: 0.3125
+    20shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.5344
+      functional_accuracy: null
+      cross_context_match: 0.3125
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.9375
+      functional_accuracy: null
+      cross_context_match: 0.5
+    10shot:
+      counterfactual_faithfulness: 0.8889
+      consistency_score: 0.9375
+      functional_accuracy: null
+      cross_context_match: 0.5
+    20shot:
+      counterfactual_faithfulness: 0.8571
+      consistency_score: 0.9375
+      functional_accuracy: null
+      cross_context_match: 0.5
+contains_consecutive_repeated_characters_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.5625
+      consistency_score: 0.8286
+      functional_accuracy: null
+      cross_context_match: 0.3571
+    10shot:
+      counterfactual_faithfulness: 0.7143
+      consistency_score: 0.8286
+      functional_accuracy: null
+      cross_context_match: 0.2857
+    20shot:
+      counterfactual_faithfulness: 0.6154
+      consistency_score: 0.8286
+      functional_accuracy: null
+      cross_context_match: 0.3571
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5625
+      consistency_score: 0.7462
+      functional_accuracy: null
+      cross_context_match: 0.5385
+    10shot:
+      counterfactual_faithfulness: 0.8571
+      consistency_score: 0.7462
+      functional_accuracy: null
+      cross_context_match: 0.5385
+    20shot:
+      counterfactual_faithfulness: 0.9231
+      consistency_score: 0.7462
+      functional_accuracy: null
+      cross_context_match: 0.5385
+contains_digit_pattern_gpt_005:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5714
+      consistency_score: 0.6538
+      functional_accuracy: null
+      cross_context_match: 0.6154
+    10shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.6538
+      functional_accuracy: null
+      cross_context_match: 0.6154
+    20shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.6538
+      functional_accuracy: null
+      cross_context_match: 0.6154
+word_count_less_than_5_gpt_004:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.8462
+      consistency_score: 0.8375
+      functional_accuracy: null
+      cross_context_match: 0.75
+    10shot:
+      counterfactual_faithfulness: 0.6429
+      consistency_score: 0.8375
+      functional_accuracy: null
+      cross_context_match: 0.75
+    20shot:
+      counterfactual_faithfulness: 0.7857
+      consistency_score: 0.8375
+      functional_accuracy: null
+      cross_context_match: 0.75
+contains_hyphenated_word_claude_009:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.5389
+      functional_accuracy: null
+      cross_context_match: 0.8333
+    10shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.5389
+      functional_accuracy: null
+      cross_context_match: 0.8333
+    20shot:
+      counterfactual_faithfulness: 0.9444
+      consistency_score: 0.5389
+      functional_accuracy: null
+      cross_context_match: 0.8333
+contains_multiple_punctuation_marks_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.5107
+      functional_accuracy: null
+      cross_context_match: 0.6071
+    10shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.5036
+      functional_accuracy: null
+      cross_context_match: 0.4643
+    20shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.5
+      functional_accuracy: null
+      cross_context_match: 0.6786
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.7208
+      functional_accuracy: null
+      cross_context_match: 0.25
+    10shot:
+      counterfactual_faithfulness: 0.5455
+      consistency_score: 0.7208
+      functional_accuracy: null
+      cross_context_match: 0.25
+    20shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.7208
+      functional_accuracy: null
+      cross_context_match: 0.25
+alternating_case_words_claude_000:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.8421
+    10shot:
+      counterfactual_faithfulness: 0.5385
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.8421
+    20shot:
+      counterfactual_faithfulness: 0.5714
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.8421
+symmetric_word_pattern_claude_002:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.7895
+      consistency_score: 0.4107
+      functional_accuracy: null
+      cross_context_match: 0.6429
+    10shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.4107
+      functional_accuracy: null
+      cross_context_match: 0.6429
+    20shot:
+      counterfactual_faithfulness: 0.7222
+      consistency_score: 0.4107
+      functional_accuracy: null
+      cross_context_match: 0.6429
+digit_surrounded_by_letters_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.9231
+      consistency_score: 0.9
+      functional_accuracy: null
+      cross_context_match: 0.5333
+    10shot:
+      counterfactual_faithfulness: 0.5294
+      consistency_score: 0.9
+      functional_accuracy: null
+      cross_context_match: 0.4667
+    20shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.9
+      functional_accuracy: null
+      cross_context_match: 0.4
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.7333
+      consistency_score: 0.6
+      functional_accuracy: null
+      cross_context_match: 0.4737
+    10shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.6
+      functional_accuracy: null
+      cross_context_match: 0.4737
+    20shot:
+      counterfactual_faithfulness: 0.8
+      consistency_score: 0.6
+      functional_accuracy: null
+      cross_context_match: 0.4737
+positive_product_review_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.8
+      consistency_score: 0.5208
+      functional_accuracy: null
+      cross_context_match: 0.4583
+    10shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.5208
+      functional_accuracy: null
+      cross_context_match: 0.4583
+    20shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.5208
+      functional_accuracy: null
+      cross_context_match: 0.4583
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.4122
+      functional_accuracy: null
+      cross_context_match: 0.3659
+    10shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.4122
+      functional_accuracy: null
+      cross_context_match: 0.3659
+    20shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.4122
+      functional_accuracy: null
+      cross_context_match: 0.3659
+urgent_intent_gpt_001:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.5958
+      functional_accuracy: null
+      cross_context_match: 0.4583
+    10shot:
+      counterfactual_faithfulness: 0.8889
+      consistency_score: 0.5875
+      functional_accuracy: null
+      cross_context_match: 0.4583
+    20shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.5958
+      functional_accuracy: null
+      cross_context_match: 0.5
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.75
+      functional_accuracy: null
+      cross_context_match: 0.5
+    10shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.75
+      functional_accuracy: null
+      cross_context_match: 0.5
+    20shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.75
+      functional_accuracy: null
+      cross_context_match: 0.5
+complaint_statement_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.65
+      consistency_score: 0.4667
+      functional_accuracy: null
+      cross_context_match: 0.5
+    10shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.4542
+      functional_accuracy: null
+      cross_context_match: 0.4583
+    20shot:
+      counterfactual_faithfulness: 0.6842
+      consistency_score: 0.4875
+      functional_accuracy: null
+      cross_context_match: 0.5417
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.65
+      consistency_score: 0.664
+      functional_accuracy: null
+      cross_context_match: 0.44
+    10shot:
+      counterfactual_faithfulness: 0.55
+      consistency_score: 0.664
+      functional_accuracy: null
+      cross_context_match: 0.44
+    20shot:
+      counterfactual_faithfulness: 0.65
+      consistency_score: 0.664
+      functional_accuracy: null
+      cross_context_match: 0.44
+financial_or_money_related_gpt_009:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.4737
+      consistency_score: 0.7312
+      functional_accuracy: null
+      cross_context_match: 0.375
+    10shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.6937
+      functional_accuracy: null
+      cross_context_match: 0.375
+    20shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.7063
+      functional_accuracy: null
+      cross_context_match: 0.4375
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.725
+      functional_accuracy: null
+      cross_context_match: 0.45
+    10shot:
+      counterfactual_faithfulness: 0.8947
+      consistency_score: 0.69
+      functional_accuracy: null
+      cross_context_match: 0.45
+    20shot:
+      counterfactual_faithfulness: 0.9474
+      consistency_score: 0.725
+      functional_accuracy: null
+      cross_context_match: 0.45
+emotional_expression_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.7
+      consistency_score: 0.5281
+      functional_accuracy: null
+      cross_context_match: 0.4062
+    10shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.5219
+      functional_accuracy: null
+      cross_context_match: 0.375
+    20shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.5031
+      functional_accuracy: null
+      cross_context_match: 0.3438
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.7895
+      consistency_score: 0.6562
+      functional_accuracy: null
+      cross_context_match: 0.4062
+    10shot:
+      counterfactual_faithfulness: 0.9474
+      consistency_score: 0.6562
+      functional_accuracy: null
+      cross_context_match: 0.4062
+    20shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.6562
+      functional_accuracy: null
+      cross_context_match: 0.4062
+digit_to_letter_ratio_claude_004:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.9474
+      consistency_score: 0.6229
+      functional_accuracy: null
+      cross_context_match: 0.4286
+    10shot:
+      counterfactual_faithfulness: 0.95
+      consistency_score: 0.6229
+      functional_accuracy: null
+      cross_context_match: 0.4286
+    20shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.6229
+      functional_accuracy: null
+      cross_context_match: 0.4286
+entropy_threshold_low_claude_001:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.5333
+      consistency_score: 0.6619
+      functional_accuracy: null
+      cross_context_match: 0.3333
+    10shot:
+      counterfactual_faithfulness: 0.9333
+      consistency_score: 0.6571
+      functional_accuracy: null
+      cross_context_match: 0.3333
+    20shot:
+      counterfactual_faithfulness: 0.8571
+      consistency_score: 0.681
+      functional_accuracy: null
+      cross_context_match: 0.3333
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.8235
+      consistency_score: 0.8174
+      functional_accuracy: null
+      cross_context_match: 0.1739
+    10shot:
+      counterfactual_faithfulness: 0.6875
+      consistency_score: 0.8174
+      functional_accuracy: null
+      cross_context_match: 0.1739
+    20shot:
+      counterfactual_faithfulness: 0.5882
+      consistency_score: 0.8174
+      functional_accuracy: null
+      cross_context_match: 0.1739
+word_length_variance_low_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.6923
+      consistency_score: 0.6947
+      functional_accuracy: null
+      cross_context_match: 0.6842
+    10shot:
+      counterfactual_faithfulness: 0.8125
+      consistency_score: 0.7158
+      functional_accuracy: null
+      cross_context_match: 0.5263
+    20shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.6947
+      functional_accuracy: null
+      cross_context_match: 0.6316
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.7238
+      functional_accuracy: null
+      cross_context_match: 0.1905
+    10shot:
+      counterfactual_faithfulness: 0.7143
+      consistency_score: 0.7238
+      functional_accuracy: null
+      cross_context_match: 0.1905
+    20shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.7238
+      functional_accuracy: null
+      cross_context_match: 0.1905
+word_length_variance_high_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.8
+      consistency_score: 0.4258
+      functional_accuracy: null
+      cross_context_match: 0.3871
+    10shot:
+      counterfactual_faithfulness: 0.5294
+      consistency_score: 0.4355
+      functional_accuracy: null
+      cross_context_match: 0.6452
+    20shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.4484
+      functional_accuracy: null
+      cross_context_match: 0.3871
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.7
+      consistency_score: 0.6278
+      functional_accuracy: null
+      cross_context_match: 0.4444
+    10shot:
+      counterfactual_faithfulness: 0.7368
+      consistency_score: 0.6278
+      functional_accuracy: null
+      cross_context_match: 0.4444
+    20shot:
+      counterfactual_faithfulness: 0.875
+      consistency_score: 0.6278
+      functional_accuracy: null
+      cross_context_match: 0.4444
+punctuation_density_high_claude_004:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.3862
+      functional_accuracy: null
+      cross_context_match: 0.3621
+    10shot:
+      counterfactual_faithfulness: 0.7
+      consistency_score: 0.4069
+      functional_accuracy: null
+      cross_context_match: 0.6034
+    20shot:
+      counterfactual_faithfulness: 0.7
+      consistency_score: 0.4034
+      functional_accuracy: null
+      cross_context_match: 0.4483
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.75
+      consistency_score: 0.6882
+      functional_accuracy: null
+      cross_context_match: 0.3235
+    10shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.6882
+      functional_accuracy: null
+      cross_context_match: 0.3235
+    20shot:
+      counterfactual_faithfulness: 0.8947
+      consistency_score: 0.6882
+      functional_accuracy: null
+      cross_context_match: 0.3235
+unique_character_ratio_claude_009:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.6875
+      consistency_score: 0.7458
+      functional_accuracy: null
+      cross_context_match: 0.5
+    10shot:
+      counterfactual_faithfulness: 0.5294
+      consistency_score: 0.7792
+      functional_accuracy: null
+      cross_context_match: 0.4167
+    20shot:
+      counterfactual_faithfulness: 0.8667
+      consistency_score: 0.7708
+      functional_accuracy: null
+      cross_context_match: 0.5417
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.7467
+      functional_accuracy: null
+      cross_context_match: 0.4
+    10shot:
+      counterfactual_faithfulness: 0.7692
+      consistency_score: 0.7467
+      functional_accuracy: null
+      cross_context_match: 0.4
+    20shot:
+      counterfactual_faithfulness: 0.8333
+      consistency_score: 0.7467
+      functional_accuracy: null
+      cross_context_match: 0.4
+all_caps_gpt_000:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.6364
+      consistency_score: 0.8056
+      functional_accuracy: null
+      cross_context_match: 0.5
+    10shot:
+      counterfactual_faithfulness: 0.4444
+      consistency_score: 0.8056
+      functional_accuracy: null
+      cross_context_match: 0.5
+    20shot:
+      counterfactual_faithfulness: 0.3333
+      consistency_score: 0.8056
+      functional_accuracy: null
+      cross_context_match: 0.5
+Repeated Punctuation_gpt_003:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.6154
+      consistency_score: 0.8929
+      functional_accuracy: null
+      cross_context_match: 0.5714
+    10shot:
+      counterfactual_faithfulness: 0.7059
+      consistency_score: 0.8929
+      functional_accuracy: null
+      cross_context_match: 0.5714
+    20shot:
+      counterfactual_faithfulness: 0.5714
+      consistency_score: 0.8929
+      functional_accuracy: null
+      cross_context_match: 0.5714
+PresenceOfURL_gpt_006:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 1.0
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.4211
+    10shot:
+      counterfactual_faithfulness: 0.9375
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.4737
+    20shot:
+      counterfactual_faithfulness: 0.7647
+      consistency_score: 0.8895
+      functional_accuracy: null
+      cross_context_match: 0.4737
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5625
+      consistency_score: 0.5895
+      functional_accuracy: null
+      cross_context_match: 0.5789
+    10shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.5895
+      functional_accuracy: null
+      cross_context_match: 0.5789
+    20shot:
+      counterfactual_faithfulness: 0.7778
+      consistency_score: 0.5895
+      functional_accuracy: null
+      cross_context_match: 0.5789
+PalindromeCheck_gpt_007:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.7273
+      consistency_score: 0.8462
+      functional_accuracy: null
+      cross_context_match: 0.9231
+    10shot:
+      counterfactual_faithfulness: 0.5385
+      consistency_score: 0.8462
+      functional_accuracy: null
+      cross_context_match: 0.9231
+    20shot:
+      counterfactual_faithfulness: 0.9091
+      consistency_score: 0.8462
+      functional_accuracy: null
+      cross_context_match: 0.9231
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5
+      consistency_score: 0.7667
+      functional_accuracy: null
+      cross_context_match: 0.7333
+    10shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.7667
+      functional_accuracy: null
+      cross_context_match: 0.7333
+    20shot:
+      counterfactual_faithfulness: 0.7
+      consistency_score: 0.7667
+      functional_accuracy: null
+      cross_context_match: 0.7333
+nested_quotation_depth_claude_078:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.4375
+      consistency_score: 0.5451
+      functional_accuracy: null
+      cross_context_match: 0.3725
+    10shot:
+      counterfactual_faithfulness: 0.4737
+      consistency_score: 0.5529
+      functional_accuracy: null
+      cross_context_match: 0.3922
+    20shot:
+      counterfactual_faithfulness: 0.4737
+      consistency_score: 0.5392
+      functional_accuracy: null
+      cross_context_match: 0.3725
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.8333
+      consistency_score: 0.6375
+      functional_accuracy: null
+      cross_context_match: 0.5833
+    10shot:
+      counterfactual_faithfulness: 0.6316
+      consistency_score: 0.6375
+      functional_accuracy: null
+      cross_context_match: 0.5833
+    20shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.6375
+      functional_accuracy: null
+      cross_context_match: 0.5833
+Numeric Pattern_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.7857
+      consistency_score: 0.5125
+      functional_accuracy: null
+      cross_context_match: 0.625
+    10shot:
+      counterfactual_faithfulness: 0.7647
+      consistency_score: 0.5813
+      functional_accuracy: null
+      cross_context_match: 0.6875
+    20shot:
+      counterfactual_faithfulness: 0.65
+      consistency_score: 0.5375
+      functional_accuracy: null
+      cross_context_match: 0.6875
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.8947
+      consistency_score: 0.76
+      functional_accuracy: null
+      cross_context_match: 0.6
+    10shot:
+      counterfactual_faithfulness: 0.8947
+      consistency_score: 0.76
+      functional_accuracy: null
+      cross_context_match: 0.6
+    20shot:
+      counterfactual_faithfulness: 0.8421
+      consistency_score: 0.76
+      functional_accuracy: null
+      cross_context_match: 0.6
+word_length_fibonacci_claude_084:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.7273
+      consistency_score: 0.6212
+      functional_accuracy: null
+      cross_context_match: 0.2727
+    10shot:
+      counterfactual_faithfulness: 0.5333
+      consistency_score: 0.6212
+      functional_accuracy: null
+      cross_context_match: 0.2727
+    20shot:
+      counterfactual_faithfulness: 0.7692
+      consistency_score: 0.6242
+      functional_accuracy: null
+      cross_context_match: 0.2727
+reference_negation_presence:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.4667
+      consistency_score: 0.348
+      functional_accuracy: null
+      cross_context_match: 0.66
+    10shot:
+      counterfactual_faithfulness: 0.4667
+      consistency_score: 0.348
+      functional_accuracy: null
+      cross_context_match: 0.66
+    20shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.348
+      functional_accuracy: null
+      cross_context_match: 0.66
+reference_first_person_perspective:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.65
+      consistency_score: 0.5871
+      functional_accuracy: null
+      cross_context_match: 0.4194
+    10shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.5871
+      functional_accuracy: null
+      cross_context_match: 0.4194
+    20shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.5806
+      functional_accuracy: null
+      cross_context_match: 0.4194
+reference_third_person_perspective:
+  gpt-4.1-nano-2025-04-14: {}
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.9
+      consistency_score: 0.463
+      functional_accuracy: null
+      cross_context_match: 0.3696
+    10shot:
+      counterfactual_faithfulness: 0.7368
+      consistency_score: 0.463
+      functional_accuracy: null
+      cross_context_match: 0.3696
+    20shot:
+      counterfactual_faithfulness: 0.85
+      consistency_score: 0.463
+      functional_accuracy: null
+      cross_context_match: 0.3696
+reference_is_anagram_of_list:
+  gpt-4.1-nano-2025-04-14:
+    5shot:
+      counterfactual_faithfulness: 0.7692
+      consistency_score: 0.5808
+      functional_accuracy: null
+      cross_context_match: 0.4615
+    10shot:
+      counterfactual_faithfulness: 0.4667
+      consistency_score: 0.5808
+      functional_accuracy: null
+      cross_context_match: 0.4615
+    20shot:
+      counterfactual_faithfulness: 0.6
+      consistency_score: 0.5885
+      functional_accuracy: null
+      cross_context_match: 0.5
+  claude-haiku-4-5-20251001:
+    5shot:
+      counterfactual_faithfulness: 0.5714
+      consistency_score: 0.5368
+      functional_accuracy: null
+      cross_context_match: 0.3684
+    10shot:
+      counterfactual_faithfulness: 0.5833
+      consistency_score: 0.5316
+      functional_accuracy: null
+      cross_context_match: 0.3684
+    20shot:
+      counterfactual_faithfulness: 0.6667
+      consistency_score: 0.5368
+      functional_accuracy: null
+      cross_context_match: 0.3684

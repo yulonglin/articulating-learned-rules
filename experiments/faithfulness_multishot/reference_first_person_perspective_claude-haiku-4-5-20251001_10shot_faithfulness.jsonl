@@ -1,0 +1,258 @@
+{
+  "rule_id": "reference_first_person_perspective",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Written from first-person perspective (uses I, me, my, we, us).",
+  "generated_articulation": "# Rule:\n\nThe output is **True** when the sentence expresses a personal experience, feeling, reflection, habit, or emotional response from the speaker's perspective (using \"I,\" \"we,\" or describing personal states). The output is **False** when the sentence describes external observations, factual events, or descriptions of things/places without personal introspection or emotional engagement.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "I always feel energized after going for a morning run.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We visited the Grand Canyon last summer and were amazed by its beauty.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The Eiffel Tower is located in Paris and attracts millions of tourists annually.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new policy was implemented last month to improve workplace safety.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I remember feeling really anxious during my first public speech.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "We often find ourselves questioning the meaning of life during quiet nights.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The building's architecture is stunning and attracts many visitors each year.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Scientists have discovered a new method to improve data processing speeds.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I often find that starting my day with a walk boosts my mood for hours.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The park was crowded yesterday, filled with families and children playing.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The city skyline looks stunning at sunset, creating a magical atmosphere.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The pandemic caused significant changes in global economies, which were widely reported.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt excited about my weekend plans.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The city skyline was beautiful at sunset.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I love walking in the park on sunny days.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The park is beautiful on sunny days with many trees.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I often feel anxious when I think about the future.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The weather forecast predicts rain for the weekend.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt excited when I received the news yesterday.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The news was exciting when I heard about it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.85,
+  "consistency_tests": [
+    {
+      "input": "Me, I prefer mornings over nights for productivity.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule because:\n\n1. **Personal perspective**: The sentence explicitly uses \"Me, I\" - a clear first-person pronoun establishing the speaker's personal viewpoint.\n\n2. **Personal preference**: The word \"prefer\" expresses a subjective preference, which is a personal feeling/opinion rather than an objective fact.\n\n3. **Emotional/reflective engagement**: The speaker is reflecting on their own productivity patterns and making a value judgment about when they work best - this is introspection about personal states and habits.\n\n4. **Not external observation**: This is not describing an external fact or observation about the world, but rather the speaker's internal experience and preference.\n\nThe sentence clearly expresses a personal experience and preference from the speaker's perspective, fitting squarely within the definition of **True**.",
+      "word_overlap": 0.5483870967741935,
+      "classification_correct": true
+    },
+    {
+      "input": "My favorite song changes depending on my mood.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the following reasoning:\n\n1. **Personal perspective**: The sentence uses \"my\" (possessive pronoun indicating the speaker), establishing a first-person perspective.\n\n2. **Personal reflection**: The statement expresses a subjective, introspective observation about how the speaker's preferences work—specifically, how their musical taste fluctuates based on internal emotional states.\n\n3. **Emotional engagement**: The sentence directly connects personal preferences (\"favorite song\") to emotional states (\"mood\"), demonstrating emotional introspection rather than external observation.\n\n4. **Not merely factual**: While the sentence could theoretically be a general observation, the use of \"my\" anchors it firmly to the speaker's personal experience and internal psychological patterns.\n\nThe sentence is fundamentally about the speaker's personal experience and emotional response, not an external observation or factual description of something outside themselves.",
+      "word_overlap": 0.4838709677419355,
+      "classification_correct": true
+    },
+    {
+      "input": "I feel excited about starting my new hobby tomorrow.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule because:\n\n1. **Personal Perspective**: The sentence uses \"I\" as the subject, directly expressing something from the speaker's perspective.\n\n2. **Emotional Response**: The sentence explicitly states an emotion (\"feel excited\"), which is a clear emotional response from the speaker.\n\n3. **Personal Experience/Reflection**: The speaker is reflecting on their anticipated personal experience (starting a new hobby), which involves introspection about their own future actions and feelings.\n\n4. **Emotional Engagement**: There is clear emotional engagement—the speaker is not merely observing or describing an external fact, but rather expressing their internal emotional state about an upcoming personal event.\n\nAll of these elements align with the rule's criteria for outputting **True**: the sentence expresses a personal feeling and emotional response from the speaker's perspective.",
+      "word_overlap": 0.5806451612903226,
+      "classification_correct": true
+    },
+    {
+      "input": "I often wonder about the universe and our place in it.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the following reasoning:\n\n1. **First-person perspective**: The sentence uses \"I\" (\"I often wonder\"), which is explicitly mentioned in the rule as an indicator of personal perspective.\n\n2. **Personal reflection**: The act of wondering about the universe and humanity's place in it is a form of personal introspection and philosophical reflection—a mental/emotional activity from the speaker's perspective.\n\n3. **Emotional/cognitive engagement**: \"Wonder\" expresses an emotional and intellectual response, not merely an external observation. It reveals the speaker's internal state and contemplative engagement with a topic.\n\n4. **Habit indicator**: The word \"often\" suggests this is a recurring personal habit or pattern of thinking, which aligns with the rule's mention of \"habit\" as a qualifying factor.\n\nThe sentence clearly expresses a personal experience and reflection rather than describing external facts or observations about the world objectively.",
+      "word_overlap": 0.5806451612903226,
+      "classification_correct": true
+    },
+    {
+      "input": "I feel tired but grateful after a productive day.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule because:\n\n1. **Personal perspective**: The sentence uses \"I\" as the subject, directly expressing the speaker's own experience.\n\n2. **Emotional response**: The sentence explicitly contains emotional states:\n   - \"feel tired\" - a personal feeling\n   - \"grateful\" - an emotional response\n\n3. **Personal reflection**: The speaker is reflecting on their internal state and how they feel about their day, not merely observing external facts.\n\n4. **Introspection**: There is clear personal introspection—the speaker is evaluating both their physical state (tiredness) and their emotional state (gratitude) in relation to their actions (productive day).\n\nThis is a direct expression of personal feelings and emotional engagement from the speaker's perspective, which aligns perfectly with the classification rule for **True**.",
+      "word_overlap": 0.5161290322580645,
+      "classification_correct": true
+    },
+    {
+      "input": "She gazed at the stars, pondering life's biggest questions.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an **external observation** of another person's actions and mental state, rather than expressing a personal experience, feeling, or reflection from the speaker's perspective.\n\n**Key reasoning:**\n\n1. **Third-person perspective**: The sentence uses \"she\" (third person), not \"I\" or \"we\" (first person). The speaker is observing someone else, not sharing their own experience.\n\n2. **External description**: The sentence describes what \"she\" is doing (gazing) and what she might be thinking (pondering), but this is an observation about her, not the speaker's personal introspection or emotional response.\n\n3. **No personal engagement**: There is no indication that the speaker is personally reflecting on or emotionally responding to this scene. It's a narrative description of events.\n\nAccording to the rule, this falls into the **False category** because it describes external observations and descriptions of things/people without personal introspection or emotional engagement from the speaker.",
+      "word_overlap": 0.6774193548387096,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for two cups of flour and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an **external observation** of factual information rather than a personal experience, feeling, or reflection.\n\n**Key reasoning:**\n\n- **No personal perspective**: The sentence uses no first-person pronouns (\"I,\" \"we\") and contains no indication that the speaker is sharing their own experience.\n- **Factual description**: It objectively states what a recipe requires—this is information about an external thing (the recipe itself), not about the speaker's internal state or personal engagement.\n- **No emotional or reflective content**: There is no personal introspection, emotional response, or habit being described. It's simply reporting what ingredients are needed.\n- **Neutral reporting**: The speaker is conveying factual data, not their personal experience of cooking, their feelings about the recipe, or their reflection on it.\n\nAccording to the rule, this falls clearly into the \"False\" category: describing external observations and factual events without personal introspection or emotional engagement.",
+      "word_overlap": 0.7096774193548387,
+      "classification_correct": true
+    },
+    {
+      "input": "She prefers tea over coffee during the mornings.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis sentence describes an **external observation** about someone else's preference, not a personal experience or feeling from the speaker's perspective.\n\n**Key reasoning:**\n\n- **Subject is third-person (\"She\")**: The sentence is about another person's preference, not the speaker's own experience\n- **No personal introspection**: There is no reflection on the speaker's own feelings, habits, or emotional responses\n- **Factual description**: This is a statement of fact about someone else's behavior/preference, similar to describing an external event\n- **Lacks first-person perspective**: The rule specifies personal experiences using \"I,\" \"we,\" or describing the speaker's personal states—none of which are present here\n\nAccording to the rule, this falls into the **False category** because it describes an external observation without personal emotional engagement or introspection from the speaker.",
+      "word_overlap": 0.6451612903225806,
+      "classification_correct": true
+    },
+    {
+      "input": "My new bicycle is perfect for weekend rides.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence meets the criteria for **True** based on the rule because:\n\n1. **Personal perspective**: The sentence uses \"My,\" which explicitly indicates the speaker's personal possession and viewpoint.\n\n2. **Personal experience/feeling**: The word \"perfect\" expresses a subjective evaluation and positive feeling about the bicycle. This is not a neutral, factual description but rather a personal judgment reflecting the speaker's satisfaction.\n\n3. **Personal habit/activity**: The phrase \"weekend rides\" describes a personal activity/habit that the speaker engages in, framed from their perspective.\n\nWhile the sentence does contain some factual elements (describing a bicycle), the overall framing is fundamentally personal—it expresses the speaker's subjective experience, emotional response (\"perfect\"), and personal use of the object. This distinguishes it from a purely external observation like \"Bicycles are used for transportation\" or \"That bicycle is blue.\"",
+      "word_overlap": 0.5483870967741935,
+      "classification_correct": false
+    },
+    {
+      "input": "The river's current was stronger than expected during the hike.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis sentence should be classified as **True** because it expresses a **personal experience and reflection from the speaker's perspective**.\n\nHere's my reasoning:\n\n1. **Personal Experience**: The speaker is describing something they directly encountered during a hike they participated in (\"during the hike\" implies the speaker was there).\n\n2. **Personal Observation with Evaluation**: The phrase \"stronger than expected\" is a **personal reflection**—it compares the actual experience against the speaker's prior expectations or assumptions. This is not a neutral, objective fact but rather a subjective assessment based on the speaker's perspective.\n\n3. **Emotional/Cognitive Engagement**: The use of \"expected\" indicates the speaker's mental engagement with the experience—they had formed an expectation and then experienced something different, which is a form of personal reflection.\n\nWhile the sentence doesn't use explicit first-person pronouns like \"I,\" it clearly describes a personal state of experience and introspection (the gap between expectation and reality), which aligns with the rule's inclusion of \"describing personal states.\"\n\n**Note**: If the sentence were simply \"The river's current is strong,\" that would be a factual observation (False). But the addition of \"than expected\" transforms it into a personal reflection (True).",
+      "word_overlap": 0.5806451612903226,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5870967741935484,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe pattern is: **True when the statement is written in first-person perspective (using \"I,\" \"me,\" \"my\") and expresses a subjective experience, preference, feeling, or thought. False when the statement is written in third-person perspective (using \"she,\" \"he,\" \"the\") or describes objective facts.**\n\nMore specifically:\n\n**True statements:**\n- Use first-person pronouns (I, me, my)\n- Express internal states: preferences, feelings, emotions, thoughts, or wonderings\n- Are inherently subjective and personal\n\n**False statements:**\n- Use third-person pronouns (she, he, the) OR\n- Describe objective facts/observations even if in first-person (like \"my bicycle is perfect for weekend rides\" - this is about an object's properties, not an internal experience)\n- Are more objective or external in nature\n\nThe key distinction is that **True requires both first-person perspective AND subjective internal experience**, while False is anything that lacks either of these elements.",
+  "cross_context_match_score": 0.41935483870967744
+}

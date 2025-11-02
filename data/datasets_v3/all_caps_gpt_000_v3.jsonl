@@ -1,0 +1,201 @@
+{"input": "YOUR PERFORMANCE WAS UNACCEPTABLE AND NEEDS IMPROVEMENT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "ALL systems GO!", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please review the attached document at your earliest convenience.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL SYSTEMS ARE GO", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The weather forecast predicts rain for the weekend.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to stay at home during the storm.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "CONFIDENTIAL INFORMATION INSIDE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THIS IS A TEST SENTENCE WITH ALL LETTERS IN CAPITAL", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "IT'S IMPORTANT TO ACKNOWLEDGE ALL TASKS COMPLETED TODAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "HAVE A GREAT DAY AND STAY SAFE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Thinking about the future can be both exciting and intimidating", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THEY ARRANGED A SPECIAL VISIT FOR NEW STUDENTS TO THE CITY'S ART GALLERY.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The report highlights a lack of data to support the conclusions.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "CALL 911 IMMEDIATELY FOR ASSISTANCE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We are planning to visit the Supreme Court next week.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "DON'T FORGET TO SCHEDULE YOUR NEXT VISIT TO THE VETERINARY CLINIC.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I ALWAYS PUT MY FAMILY FIRST IN EVERYTHING I DO.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Many workers are concerned about their hourly wage increases this year.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "WELCOME TO THE CONFERENCE ROOM", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "ALL SYSTEMS ARE GO FOR LAUNCH AT DAWN", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The Supreme pizza here is better than anywhere else.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL SYSTEMS ARE GO FOR LAUNCH", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE REMEMBER TO BRING THE DOCUMENTS TOMORROW", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite efforts, the project still suffers from lack of resources.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This is a test message.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "THE SUNSET OVER THE HILL WAS STUNNING AND UNFORGETTABLE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "WHITE PEARLS SHIMMER IN THE MORNING LIGHT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She loves reading books and exploring new cuisines.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "HELLO WORLD", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE CONFIRM RECEIPT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "MEETING AT NOON HAS BEEN RESCHEDULED", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We plan to stay in the city for the weekend.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "PLEASE REVIEW THE DOCUMENT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE SUBMIT THE FINAL REPORT BY FRIDAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She visited the local park to enjoy the spring weather.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "YOUR WORK FAILED TO MEET THE EXPECTATIONS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE ACKNOWLEDGE RECEIPT OF THIS MESSAGE AS SOON AS POSSIBLE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "GOOD MORNING AND HAVE A NICE DAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "HAVE A GREAT DAY!", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THIS IS AN ALL CAPS SENTENCE WITH NUMBERS 12345", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "JUST A SIMPLE TEST CASE HERE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "HAVE A GREAT DAY AND STAY SAFE.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THIS IS A TEST SENTENCE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He painted a stunning portrait with golden hues in the background.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL SYSTEMS GO", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "NO ONE CAN BREAK THE RESISTANCE AGAINST THE OPPRESSORS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "There is a noticeable lack of enthusiasm in the room.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how beautiful the sunset was yesterday evening?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE PIANO'S KEYS WERE WORN FROM YEARS OF USE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A beautiful sunset painted the sky with shades of pink and orange.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review the attached document and let me know your thoughts.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review the attached document before the meeting.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to water the plants before leaving for vacation.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The measurements need to be exact for the experiment to succeed.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "MEET ME AT THE PARK AT NOON", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "ERROR: NO RESPONSE RECEIVED", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "HELLO, HOW ARE YOU TODAY?", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "PLEASE CONFIRM RECEIPT OF THIS MESSAGE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "EVACUATE THE AREA WITHOUT DELAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Did you see the new art exhibit downtown yesterday?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "PLEASE SEND THE DOCUMENTS BY FRIDAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Did you see the new Supreme collaboration this season?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review the document before submitting.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She often ponders the meaning of life late at night", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "MEDICS NEEDED AT 5TH AVENUE CRASH SITE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the midst of chaos, there\u2019s always an opportunity to learn.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL UPPERCASE SENTENCE HERE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I CAN'T BELIEVE THIS IS HAPPENING TODAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please review the attached document by tomorrow.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She arrived at the exact time we agreed upon yesterday.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to visit the museum on Saturday morning.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "KINDLY ACKNOWLEDGE YOUR ATTENDANCE AT THE MEETING", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a test sentence with only uppercase letters.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THIS IS A TEST MESSAGE TO VERIFY SYSTEM FUNCTIONALITY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "THE SNOW FALLS QUIETLY OVER THE WHITE LANDSCAPE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She whispered softly, afraid of waking the sleeping baby.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "POLICE HAVE ARRIVED AT THE EMERGENCY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THEIR RESISTANCE INSPIRED OTHERS TO STAND UP AND FIGHT BACK", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you send me the latest sales report by Friday?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The temperature outside is 25 degrees Celsius.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She whispered softly as the sun set behind the mountains.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you send me the report by tomorrow afternoon?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Wage disparities remain a significant issue across different industries.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We found an old chest filled with golden coins and jewelry.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "IT'S TIME TO START THE MEETING", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "HELLO WORLD!", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The golden rays of the early morning sun warmed the quiet town.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He asked if I wanted to stay longer.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This sentence contains some uppercase letters but also lowercase ones.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "HAVE YOU HAD A CHANCE TO ACKNOWLEDGE THE NEW POLICY UPDATES", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please return the documents by tomorrow.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His account of the event was accurate and detailed.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the midst of chaos, there is also opportunity.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I just bought the latest Supreme hoodie from the store downtown.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "SHE PLUCKED THE STRINGS OF THE VIOLIN GENTLY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "HAVE A NICE DAY!", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They plan to visit Europe in the summer.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please make sure to submit your report by Friday.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE RESISTANCE MOVEMENT GATHERED AT DAWN TO PLAN THEIR STRATEGY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "ALL UPPERCASE BUT SPACES AND NUMBERS INSIDE 2023", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "EXPERIENCE THE EXHILARATION OF COMPLETING A CHALLENGE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "CONGRATULATIONS ON YOUR PROMOTION", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The annual report was finalized last month.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "This is a test message to verify the system's response.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how beautiful the sunset was today?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The company announced a new minimum wage policy starting next month.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They will stay after the meeting to discuss.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Here's an example with a number 123 and symbols", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Employees are encouraged to review their pay stubs regularly.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "\u00a1Hola! \u00bfC\u00f3mo est\u00e1s hoy?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you stay with me until dawn?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "MEET ME AT THE OLD TAVERN AT MIDNIGHT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THE ROOM WAS PAINTED A BRIGHT WHITE COLOR", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "SHE DECIDED TO MAKE A QUICK VISIT TO THE LIBRARY BEFORE CLOSING TIME.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Sometimes I wonder if our dreams hold hidden truths", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The recipe calls for exactly two cups of sugar.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She negotiated a higher wage during her last review meeting.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Her work shows a clear lack of understanding about the topic.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "CONGRATULATIONS, THE PROCESS IS COMPLETE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "FIRE IN BUILDING ON MAIN STREET", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "GOOD MORNING", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "HELLO, how are you doing today?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "FIRE ALARMS MUST BE TESTED MONTHLY ACCORDING TO REGULATIONS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "12345 was the last password used on this device.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This message contains some UPPERCASE and lowercase letters.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THIS REVISIT IS NECESSARY TO ADDRESS THE ISSUES", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "RESISTANCE IS FUELED BY THE DESIRE FOR FREEDOM AND JUSTICE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a TEST message with MIXED CASE.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL uppercase without spaces", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "MEET ME AT THE OLD TOWN SQUARE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a TEST", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you please send the report by tomorrow?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "An entire line written in lowercase letters only.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She wore a Supreme cap to the music festival yesterday.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE FINAL REPORT IS READY FOR REVIEW", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are we meeting at the caf\u00e9 later this evening?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please follow the instructions and be precise in your work.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "HE TUNED HIS SAXOPHONE BEFORE THE PERFORMANCE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "WE SHOULD MEET AT THE CAF\u00c9 AROUND NOON.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Our local library hosts weekly reading programs for children.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "HELLO", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "SHE WORE A WHITE DRESS TO THE PARTY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Her response was YES, I will proceed.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE DRUMMER HIT THE CYMBALS WITH ENTHUSIASM", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a beautiful golden pendant that caught everyone's eye.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "PLEASE READ THE INSTRUCTIONS CAREFULLY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "All caps should be used sparingly in formal writing.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE FINAL COUNTDOWN BEGINS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His thoughts drifted to childhood memories by the lake", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Is it going to rain today or not?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL UPPERCASE TEXT HERE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THE CRITICISM WAS UNFAIR AND UNJUSTIFIED", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "MEET me at the usual spot at 6 pm.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please review the DOCUMENT carefully.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "MEETING AT NINE O'CLOCK WAS SUCCESSFUL", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please send the documents by tomorrow afternoon.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She has been studying history since 2010.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She whispered softly, trying not to wake the baby.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "HELLO world, how are you today?", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Next year's conference will be held in September.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "WELCOME TO THE ANNUAL CONFERENCE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLANS TO VISIT THE ANCIENT RUINS WERE APPROVED YESTERDAY.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please review the attached document before noon.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our project deadline is set for December.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "PLEASE SUBMIT THE REPORT BY NOON", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE RESPOND WHEN READY TO PROCEED", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "THE GUITAR SOUNDED BRILLIANTLY DURING THE CONCERT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The local community center offers various classes for all ages.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She bought a new dress for the summer party last weekend.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I AM GOING TO THE GROCERY STORE TODAY.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In 2020, the global economy faced unprecedented challenges.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In 2020, the world faced unprecedented challenges and changes.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "VISIT THE HISTORIC MUSEUM THIS WEEKEND WITH YOUR FAMILY.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "THE WHITE SANDS EXTENDED FOR MILES ALONG THE COAST", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The garden was decorated with golden banners and flowers.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "ALL UPPERCASE BUT with minimal punctuation.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The local government announced new initiatives for urban development.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Many areas in the city face a chronic lack of clean water.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THE WEATHER IS NICE AND CALM THIS MORNING.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A STRONG RESISTANCE DEVELOPED IN THE FACE OF TYRANNY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE CONFIRM RECEIPT OF THE DOCUMENTS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "ALL CAPS SENTENCE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE RESPOND QUICKLY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She whispered softly, trying not to wake the sleeping baby.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I need to pick up some supplies from the local store today.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "THANK YOU FOR YOUR HELP TODAY", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Reflecting on past decisions helps me understand myself better", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This is a mixed CASE sentence with some lowercase letters.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "A SHORT SENTENCE WITH EXTRAS LIKE THIS", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "WELCOME TO THE NEW WORLD ORDER", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The weather forecast is sunny today.", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "CONGRATULATIONS ON YOUR PROMOTION!", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "PLEASE REMEMBER TO BRING YOUR UMBRELLA.", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "WE MUST ACKNOWLEDGE THE CHANGES BEFORE FINALIZING THE REPORT", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I HAVE SOME FEEDBACK TO HELP YOU IMPROVE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "please review the attached document before the meeting", "label": false, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "THIS IS A TEST MESSAGE", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "LUNCH IS READY IN THE KITCHEN", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "CONGRATULATIONS ON YOUR PROMOTION AT WORK", "label": true, "rule_id": "all_caps_gpt_000", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}

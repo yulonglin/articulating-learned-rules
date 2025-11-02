@@ -1,0 +1,210 @@
+{
+  "rule_id": "contains_consecutive_repeated_characters_claude_009",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if any character appears two or more times consecutively (e.g., 'oo', 'ss').",
+  "generated_articulation": "The classification rule is:  \n**A text is classified as True if it contains at least one double letter (i.e., two identical consecutive characters); otherwise, it is classified as False.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "bookkeeper",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "mississippi",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "hello world",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "committee",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abbc",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abcde",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Analysis",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "accommodation",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bookkeepered",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "bookkeeperx",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bamboo",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "bamboa",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "book",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "bock",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7142857142857143,
+  "consistency_tests": [
+    {
+      "input": "mississippi",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"mississippi\" contains multiple instances of double letters, such as \"ss\" and \"pp.\" Since the classification rule states that a text is classified as True if it contains at least one double letter, the presence of these double letters in \"mississippi\" means it should be classified as True.",
+      "word_overlap": 0.6428571428571429,
+      "classification_correct": true
+    },
+    {
+      "input": "hello",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The rule states that a text is classified as True if it contains at least one double letter (two identical consecutive characters). In the input \"hello,\" the sequence \"ll\" appears consecutively, which is a double letter. Therefore, based on the rule, the classification is True.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": true
+    },
+    {
+      "input": "success",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The word \"success\" contains double letters—specifically, the double \"c\" (\"cc\") and the double \"s\" (\"ss\"). Since the classification rule states that a text is classified as True if it contains at least one double letter, \"success\" meets this criterion and is classified as True.",
+      "word_overlap": 0.6428571428571429,
+      "classification_correct": true
+    },
+    {
+      "input": "mississippi",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"mississippi\" contains multiple instances of double letters, such as \"ss\" and \"pp.\" Since the classification rule states that a text is classified as True if it contains at least one double letter, the presence of these double letters in \"mississippi\" means it should be classified as True.",
+      "word_overlap": 0.6428571428571429,
+      "classification_correct": true
+    },
+    {
+      "input": "book",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"book\" contains a double letter \"oo\" — two identical consecutive characters. According to the classification rule, if a text contains at least one double letter, it is classified as True. Since \"book\" has \"oo,\" it meets this criterion.",
+      "word_overlap": 0.8571428571428571,
+      "classification_correct": true
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a text is classified as True if it contains at least one double letter—two identical consecutive characters. The input \"python\" does not have any consecutive repeated characters; the sequence of letters is p-y-t-h-o-n, with no double letters present. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9285714285714286,
+      "classification_correct": null
+    },
+    {
+      "input": "world",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains at least one double letter—two identical consecutive characters. In the input \"world,\" the sequence of characters is w, o, r, l, d. There are no two identical characters next to each other; each letter is unique in its position. Therefore, since \"world\" does not contain any double letters, it is classified as False.",
+      "word_overlap": 0.9285714285714286,
+      "classification_correct": null
+    },
+    {
+      "input": "example",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that a text is classified as True if it contains at least one double letter (two identical consecutive characters). In the input \"example,\" the sequence of characters is e-x-a-m-p-l-e. Checking for double letters, we see that none of the characters are repeated consecutively. Therefore, since \"example\" does not contain any double letters, it is classified as False.",
+      "word_overlap": 0.9285714285714286,
+      "classification_correct": null
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a text is classified as True if it contains at least one double letter—two identical consecutive characters. The input \"python\" does not have any consecutive repeated characters; the sequence of letters is p-y-t-h-o-n, with no double letters present. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9285714285714286,
+      "classification_correct": null
+    },
+    {
+      "input": "python",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a text is classified as True if it contains at least one double letter—two identical consecutive characters. The input \"python\" does not have any consecutive repeated characters; the sequence of letters is p-y-t-h-o-n, with no double letters present. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.9285714285714286,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8285714285714286,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the examples:\n\n**Inputs with output True:**\n- \"mississippi\"\n- \"hello\"\n- \"success\"\n- \"book\"\n\n**Inputs with output False:**\n- \"python\"\n- \"world\"\n- \"example\"\n\n---\n\n**Observations:**\n\n1. The words labeled True seem to contain the letter **\"s\"**:\n   - \"mississippi\" (contains multiple \"s\")\n   - \"hello\" (does **not** contain \"s\") → but it's labeled True, so this breaks the pattern if we only consider \"s\"\n   - \"success\" (contains \"s\")\n   - \"book\" (does **not** contain \"s\") → again, labeled True, so not just \"s\"\n\n2. Let's check for other common features:\n   - \"mississippi\" has multiple \"i\"s and \"s\"s\n   - \"hello\" has no \"s\" but is labeled True\n   - \"success\" has multiple \"s\"s\n   - \"book\" has no \"s\" but is labeled True\n\n3. Now, look at the words labeled False:\n   - \"python\"\n   - \"world\"\n   - \"example\"\n\n   None of these contain the letter \"s\".\n\n4. The only words labeled True that do **not** contain \"s\" are \"hello\" and \"book\".\n\n---\n\n**Alternative hypothesis:**\n\n- The pattern might be related to the **presence of the letter \"s\"** **or** the **length of the word**.\n\nCheck the length:\n\n- \"mississippi\" (11) → True\n- \"hello\" (5) → True\n- \"success\" (7) → True\n- \"book\" (4) → True\n- \"python\" (6) → False\n- \"world\" (5) → False\n- \"example\" (7) → False\n\nNo clear pattern based on length alone.\n\n---\n\n**Another angle:**\n\n- Are the words with True **palindromes**?  \n  - \"mississippi\" → No\n  - \"hello\" → No\n  - \"success\" → No\n  - \"book\" → No\n\nNo.\n\n---\n\n**Looking for a different pattern:**\n\n- Could it be related to the **number of vowels**?\n\nCount vowels:\n\n- \"mississippi\": i, i, i, i → 4 vowels\n- \"hello\": e, o → 2",
+  "cross_context_match_score": 0.2857142857142857
+}

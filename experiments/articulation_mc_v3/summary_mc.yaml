@@ -1,0 +1,917 @@
+contains_multiple_exclamation_marks_claude_003:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+contains_digit_pattern_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+all_uppercase_words_gpt_006:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+contains_hyphenated_word_claude_009:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+contains_multiple_punctuation_marks_claude_004:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.4
+      n_correct: 2
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 0.4
+      n_correct: 2
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.4
+      n_correct: 2
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+symmetric_word_pattern_claude_002:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+positive_product_review_gpt_000:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+urgent_intent_gpt_001:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+formal_request_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+complaint_statement_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+financial_or_money_related_gpt_009:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+emotional_expression_gpt_005:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+all_caps_gpt_000:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+Repeated Punctuation_gpt_003:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+unique_character_threshold_claude_082:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.2
+      n_correct: 1
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 0.2
+      n_correct: 1
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 0.0
+      n_correct: 0
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 0.4
+      n_correct: 2
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 0.6
+      n_correct: 3
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+Numeric Pattern_gpt_004:
+  gpt-4.1-nano-2025-04-14:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+reference_negation_presence:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 0.8
+      n_correct: 4
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+reference_first_person_perspective:
+  claude-haiku-4-5-20251001:
+    5:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    10:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    20:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    50:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5
+    100:
+      accuracy: 1.0
+      n_correct: 5
+      n_total: 5
+      parse_rate: 1.0
+      n_parseable: 5

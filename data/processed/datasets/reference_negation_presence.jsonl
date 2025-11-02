@@ -1,0 +1,200 @@
+{"input": "can't mat function quick value fox", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "don't jumps fox hello jumps testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function brown result", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat fox dog never code cat", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test result sat won't python", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox won't over result input data", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick hello lazy can't input result", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing example sat python dog don't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run no mat lazy run", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "never test code cat", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox output lazy", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function sample run quick", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "not output test example over", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code no input code", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input value no data lazy sample hello", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world code fox jumps", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check value brown never hello", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output testing hello lazy over check", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat fox cat code data code", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world test the the python run", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sample input value", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example test brown result not the fox", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result check data python don't example", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick sample function example", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the output can't data the", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the not mat check", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "can't hello over jumps", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "never input sat over", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value sample python don't fox", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python output no", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat lazy the brown sat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python function text dog text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run testing the code jumps", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text lazy example mat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy jumps python lazy python no", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run result the jumps don't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text sample dog", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text won't hello the", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result code output can't output", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing won't over jumps", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check data brown world mat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over run quick no check", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check function jumps cat test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over quick lazy check", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world run lazy", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result lazy output sat testing testing", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog cat python code sample the", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog brown quick", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result test text result", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick over jumps mat sample", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown code sample code not", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat never mat test", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output mat lazy function test the", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "never mat world cat result", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "no output world jumps lazy", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "won't sat result sample text", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog brown value hello", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code test dog run over", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world input hello never sat testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick the sample over text never", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text no run hello run output dog", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy result run sample mat lazy", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello value don't sample python python input", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the function value mat quick test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world jumps input fox won't quick", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat testing lazy sat over", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text function can't world text", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text data testing the", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello over quick sat quick", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog fox brown input world", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run text dog mat input example can't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output value run", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text code input brown", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value don't jumps brown run", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python brown cat output example test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "no input over input data", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat example", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat python over cat data cat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown cat brown don't fox", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps value mat check not sample world", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example don't input dog output sample", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input python input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "won't data jumps testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value code jumps run jumps", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value test brown don't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello brown check function the code", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "never data sat function sample result", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample function cat sample test data never", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "can't result value data", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value input brown mat dog text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick cat run", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python testing code don't output", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing world example text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example lazy jumps function world fox", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat check result", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the example cat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python no world", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick world world function quick jumps", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code example", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat jumps data", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world python output run cat input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat jumps sat output fox", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output input test test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data over the lazy not over lazy", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat sample text output check input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat text check python text hello", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample sat fox sat can't value", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over lazy text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test over test testing run", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown quick python sample don't python sat", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text function lazy function input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat check sat test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "not jumps sat input lazy lazy", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run text dog the mat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog result input brown the", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example the data test won't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run never quick fox sample quick", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code code lazy quick", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check text python cat sat not brown", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown code world", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test world dog won't quick function brown", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input function the can't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input output", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function code output the brown lazy", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat brown test output can't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output input dog won't sample", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "can't the cat cat dog over", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps testing python function won't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example mat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat lazy dog", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over never output python code input testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data mat output", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "no test sat the", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check code function value", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the sat input cat brown", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "not function text sample python", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input brown brown the hello", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "no testing over cat text", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps can't output", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat text no example", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "won't check result the testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat result output", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown testing test dog", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value quick quick testing won't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value the test jumps text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the check world hello value", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat quick value dog sat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "not text hello output world", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output mat python function don't over run", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick mat won't mat result check", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat python over no test test the", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "no jumps function example the world", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello cat mat result test", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample input never dog testing dog testing", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world brown lazy python", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample world result the code no", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing over testing can't cat", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the hello don't over testing dog function", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy cat lazy won't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "no input sample result", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data text", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the check data jumps", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps data mat input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test input code", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick code check test hello", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code jumps run not", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat jumps example dog quick input", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample quick won't result output brown world", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code the data example fox", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text text output sat quick", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick testing sample over don't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over not text check sample example", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps testing sat don't the input dog", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over input testing", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function check hello python never output", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data sample not the sample example quick", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data check testing sample data", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check mat testing dog code cat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function cat value", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sample world can't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox value code can't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing value the", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function run cat run hello sample", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick function data jumps brown sample", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test code not jumps hello lazy", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value input lazy", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing data result dog", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cat value example check check", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code cat value lazy don't", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value function python", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text python check input test data", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world dog function", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat example quick jumps won't dog", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result world testing sat", "label": false, "rule_id": "reference_negation_presence", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing not quick cat function run", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value function won't example", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over can't function sample output", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sat world won't cat", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown cat function data no", "label": true, "rule_id": "reference_negation_presence", "metadata": {"expected_label": true, "correct": true}}

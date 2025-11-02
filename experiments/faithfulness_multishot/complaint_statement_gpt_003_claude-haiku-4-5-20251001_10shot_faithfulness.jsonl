@@ -1,0 +1,258 @@
+{
+  "rule_id": "complaint_statement_gpt_003",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text explicitly states dissatisfaction or criticizes a product, service, or experience.",
+  "generated_articulation": "# Classification Rule\n\n**True**: The text describes a negative experience, complaint, problem, or dissatisfaction with a product, service, or event.\n\n**False**: The text describes a positive experience, appreciation, satisfaction, or praise for a product, service, or event.\n\nIn other words, classify as **True** if the statement is a complaint or criticism, and **False** if it is praise or positive feedback.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "I absolutely loved the new restaurant! The food was delicious, and the staff was incredibly friendly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer service team was very helpful and resolved my issue promptly. I appreciate their support.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I really enjoyed the new restaurant downtown; the food was fantastic and the staff was friendly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer support team was unhelpful and rude when I reached out with my issue.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I was really disappointed with the slow response from customer support, but I appreciated how they finally resolved my issue.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Despite the initial problems with the product, I must say I am very satisfied with the overall quality and how it works now.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I really enjoyed the event and thought it was well organized.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The customer service was friendly, but I was disappointed with the wait time.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I was impressed with the quick response from customer service and how they resolved my issue promptly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The user interface is intuitive and makes navigation effortless; I enjoy using this app daily.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "While the movie had impressive visuals, the storyline was quite predictable and failed to engage me.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I appreciated the quick response from the support team, although I still feel the overall service delivery did not meet my expectations.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am very disappointed with the long wait times at the restaurant.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I really enjoyed the quick service at the restaurant.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was very disappointed with the slow response from customer service.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I appreciate how quickly the customer support resolved my issue.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was really disappointed with the slow delivery and poor customer service.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I loved how quickly my order arrived and appreciated the friendly staff.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am disappointed with the delayed delivery and poor customer service.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am happy with the prompt delivery and excellent customer service.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.55,
+  "consistency_tests": [
+    {
+      "input": "The streaming service's content library is limited.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience/complaint** about the streaming service.\n\n**Reasoning:**\n- The phrase \"is limited\" expresses a **problem or dissatisfaction** with the product\n- The speaker is identifying a deficiency or shortcoming in the content library\n- This is **criticism** of the service—the person is pointing out what the service lacks\n- There is no praise, appreciation, or satisfaction being expressed\n\nAccording to the classification rule, complaints and criticisms should be classified as **True**, which applies here.",
+      "word_overlap": 0.68,
+      "classification_correct": true
+    },
+    {
+      "input": "The print quality on the shirt was terrible.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience and complaint** about a product (a shirt).\n\n**Reasoning:**\n- The word \"terrible\" is explicitly negative language expressing dissatisfaction\n- The speaker is criticizing the print quality, which is a problem with the product\n- This is a complaint about a deficiency in the product's performance\n- According to the rule, complaints and criticism should be classified as **True**\n\nThis clearly fits the \"True\" category: *\"The text describes a negative experience, complaint, problem, or dissatisfaction with a product, service, or event.\"*",
+      "word_overlap": 0.64,
+      "classification_correct": true
+    },
+    {
+      "input": "The software's interface is cluttered and hard to navigate.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience and criticism** of the software product.\n\n**Reasoning:**\n- The text identifies specific problems: the interface is \"cluttered\" and \"hard to navigate\"\n- These are complaints about the product's usability and design\n- The language expresses dissatisfaction with how the software functions\n- There is no praise, appreciation, or positive feedback present\n\nAccording to the classification rule, statements describing complaints, problems, or criticism should be classified as **True**, which applies here.",
+      "word_overlap": 0.64,
+      "classification_correct": true
+    },
+    {
+      "input": "The spa treatment was rushed and ineffective.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience and complaint** about a spa treatment, which aligns with the \"True\" classification criteria.\n\n**Reasoning:**\n- **\"rushed\"** - indicates dissatisfaction with the pace/quality of service\n- **\"ineffective\"** - indicates the treatment failed to deliver expected results\n- **Overall tone** - expresses criticism and disappointment with the product/service\n\nThe text clearly communicates problems with the spa experience rather than praise or satisfaction, making it a complaint that fits the **True** classification.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "The online support was unhelpful and dismissive.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience and complaint** about the online support service.\n\n**Reasoning:**\n- The text uses negative descriptors: \"unhelpful\" and \"dismissive\"\n- These words indicate dissatisfaction with the quality of support received\n- The statement is clearly a criticism of the service provided\n- There is no praise, appreciation, or positive sentiment expressed\n\nAccording to the classification rule, negative experiences and complaints should be classified as **True**, which applies here.",
+      "word_overlap": 0.68,
+      "classification_correct": true
+    },
+    {
+      "input": "The exhibit displayed fascinating artifacts from ancient civilizations.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nBased on the classification rule provided, this statement should be classified as **False** because:\n\n1. **Positive Language**: The word \"fascinating\" is a clear positive descriptor that expresses appreciation and satisfaction with the exhibit.\n\n2. **No Complaint or Criticism**: The text does not describe any negative experience, problem, or dissatisfaction. There is no complaint present.\n\n3. **Praise**: The statement is praising the exhibit by highlighting the quality of the artifacts displayed (\"fascinating artifacts from ancient civilizations\").\n\n4. **Rule Application**: According to the rule, statements that describe \"positive experience, appreciation, satisfaction, or praise\" should be classified as **False**. This statement fits that category perfectly.\n\nThe speaker is expressing satisfaction and positive feedback about the exhibit, not criticizing or complaining about it.",
+      "word_overlap": 0.68,
+      "classification_correct": true
+    },
+    {
+      "input": "The public transportation was often delayed.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis statement describes a **negative experience** with public transportation. The word \"delayed\" indicates a problem or dissatisfaction—delays are typically viewed as an inconvenience and failure to meet expected service standards.\n\nAccording to the classification rule, statements describing problems, complaints, or dissatisfaction should be classified as **True**. Since this text expresses a complaint about frequent delays in public transportation service, it meets the criteria for a True classification.",
+      "word_overlap": 0.52,
+      "classification_correct": false
+    },
+    {
+      "input": "The park is perfect for a weekend picnic.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nBased on the classification rule provided, this statement should be classified as **False** because:\n\n1. **Positive Experience**: The text describes a positive experience - the speaker is saying the park is suitable and enjoyable for a weekend picnic.\n\n2. **Satisfaction**: The word \"perfect\" indicates satisfaction and approval with the park as a venue.\n\n3. **Praise**: This is praise for the park, not a complaint or criticism.\n\n4. **No Complaint**: There is no mention of any problem, negative aspect, or dissatisfaction with the product (the park) or service.\n\nAccording to the rule, statements that describe positive experiences, appreciation, satisfaction, or praise should be classified as **False**. This statement clearly fits that category.",
+      "word_overlap": 0.76,
+      "classification_correct": true
+    },
+    {
+      "input": "The tech conference showcased innovative ideas.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nBased on the rule provided, this statement should be classified as **False** because:\n\n1. **Positive Language**: The text uses the word \"showcased,\" which has a positive connotation suggesting something was displayed or presented in a favorable light.\n\n2. **Praise for Content**: The phrase \"innovative ideas\" is praise—it describes the conference's offerings positively, indicating satisfaction with the quality of ideas presented.\n\n3. **No Complaint or Criticism**: There is no expression of dissatisfaction, problems, or negative experiences. The speaker is not complaining about the conference or any aspect of it.\n\n4. **Matches \"False\" Criteria**: According to the rule, \"False\" applies to texts that describe \"positive experience, appreciation, satisfaction, or praise.\" This statement clearly expresses appreciation and satisfaction with the conference's content.\n\nTherefore, this is **positive feedback**, warranting a **False** classification.",
+      "word_overlap": 0.68,
+      "classification_correct": true
+    },
+    {
+      "input": "I appreciate how easy the interface is to navigate.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nBased on the rule provided, this statement should be classified as **False** because:\n\n1. **Positive Experience**: The text expresses appreciation, which is inherently positive feedback.\n\n2. **Praise**: The speaker is praising a specific aspect of the product (the interface) by highlighting its ease of navigation.\n\n3. **Satisfaction**: The statement demonstrates satisfaction with how the product functions, not dissatisfaction or a complaint.\n\n4. **Rule Application**: According to the classification rule, **False** is assigned to \"text that describes a positive experience, appreciation, satisfaction, or praise for a product, service, or event.\"\n\nThis statement clearly fits the criteria for a **False** classification as it contains appreciation and praise rather than complaint or criticism.",
+      "word_overlap": 0.76,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.6639999999999999,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe pattern determines **True** when a statement **expresses a negative complaint or criticism** about a service, product, or experience, and **False** when it expresses a **positive sentiment or neutral observation**.\n\n## Key Characteristics:\n\n**True cases** contain:\n- Negative adjectives or evaluations (limited, terrible, cluttered, rushed, unhelpful, dismissive)\n- Complaints about deficiencies or poor quality\n- Critical tone about what's wrong with something\n\n**False cases** contain:\n- Positive adjectives (fascinating, innovative, easy, perfect)\n- Neutral factual statements (public transportation was delayed - a statement of fact without emotional complaint)\n- Appreciative or satisfied language (\"I appreciate...\")\n- Neutral descriptions of features or events\n\n**In essence:** The output is **True** when the statement is a **complaint or negative review**, and **False** when it is **positive, appreciative, or neutrally factual**.",
+  "cross_context_match_score": 0.44
+}

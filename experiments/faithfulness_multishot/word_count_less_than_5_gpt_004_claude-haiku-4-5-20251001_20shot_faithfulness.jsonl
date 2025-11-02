@@ -1,0 +1,210 @@
+{
+  "rule_id": "word_count_less_than_5_gpt_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains fewer than 5 words.",
+  "generated_articulation": "**The input is classified as True if it contains 2 or fewer words, and False if it contains 3 or more words.**",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "Hi",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Good morning",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This is a very long sentence with more than three words",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "One",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "word one two",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "this is a test case",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Great job",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Absolutely wonderful work today",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "a very long sentence here",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "word",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hi there",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hi there now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hi there today",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7857142857142857,
+  "consistency_tests": [
+    {
+      "input": "example function",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"example function\" contains **2 words**.\n\nAccording to the rule: *\"The input is classified as True if it contains 2 or fewer words, and False if it contains 3 or more words.\"*\n\nSince the word count (2) falls within the \"2 or fewer words\" threshold, the classification is **True**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "sat",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThe input \"sat\" contains **1 word**, which is fewer than or equal to 2 words.\n\nAccording to the rule: \"The input is classified as True if it contains 2 or fewer words, and False if it contains 3 or more words.\"\n\nSince 1 ≤ 2, the classification is **True**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "hello",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"hello\" contains **1 word**, which satisfies the condition of the classification rule: \"2 or fewer words = True.\"\n\nSince 1 ≤ 2, the input is classified as **True**.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "sample",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"sample\" contains **1 word**, which satisfies the condition of the classification rule: \"2 or fewer words.\"\n\nSince 1 ≤ 2, the input is classified as **True**.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "sample",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"sample\" contains **1 word**, which satisfies the condition of the classification rule: \"2 or fewer words.\"\n\nSince 1 ≤ 2, the input is classified as **True**.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "world cat fox dog",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe input \"world cat fox dog\" contains **4 words**:\n1. world\n2. cat\n3. fox\n4. dog\n\nAccording to the rule, the input is classified as **False if it contains 3 or more words**.\n\nSince this input contains 4 words (which is ≥ 3), it meets the condition for classification as **False**.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "text code brown example mat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nFollowing the rule provided:\n- **The rule states:** True if 2 or fewer words; False if 3 or more words\n- **Word count in input:** \"text code brown example mat\" = **5 words**\n- **Reasoning:** Since the input contains 5 words, which is 3 or more words, the classification is **False**",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "dog run check jumps input sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nFollowing the rule: \"The input is classified as True if it contains 2 or fewer words, and False if it contains 3 or more words.\"\n\n**Word count:** \"dog run check jumps input sat\" contains **6 words**\n\nSince 6 words ≥ 3 words, the classification is **False**.",
+      "word_overlap": 1.0,
+      "classification_correct": null
+    },
+    {
+      "input": "test cat code result",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe input \"test cat code result\" contains **4 words**:\n1. test\n2. cat\n3. code\n4. result\n\nAccording to the classification rule, the input is classified as **False** because it contains 3 or more words (specifically, it contains 4 words, which exceeds the threshold of 2 words).",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "function dog input",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe input \"function dog input\" contains **3 words**:\n1. function\n2. dog\n3. input\n\nAccording to the classification rule, inputs with **3 or more words are classified as False**.\n\nSince this input has exactly 3 words, it meets the threshold for a False classification.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.8375,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I can identify the pattern:\n\n**The output is True if and only if the input contains 3 or fewer words.**\n\n## Verification:\n\n**True cases:**\n- \"example function\" → 2 words ✓\n- \"sat\" → 1 word ✓\n- \"hello\" → 1 word ✓\n- \"sample\" → 1 word ✓\n- \"sample\" → 1 word ✓\n\n**False cases:**\n- \"world cat fox dog\" → 4 words ✗\n- \"text code brown example mat\" → 5 words ✗\n- \"dog run check jumps input sat\" → 6 words ✗\n- \"test cat code result\" → 4 words ✗\n- \"function dog input\" → 3 words... \n\nWait, let me reconsider. \"function dog input\" has 3 words but returns False.\n\n**Revised Pattern:**\n\n**The output is True if and only if the input contains fewer than 3 words (i.e., 1 or 2 words).**\n\nThis correctly classifies all examples:\n- True cases: all have 1-2 words\n- False cases: all have 3+ words",
+  "cross_context_match_score": 0.75
+}

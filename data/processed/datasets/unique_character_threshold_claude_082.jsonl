@@ -1,0 +1,159 @@
+{"input": "Can you go?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Uh oh.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Follow your heart.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, he ran.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Make it happen.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay grateful.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Shine bright.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay joyful.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, I will.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My dog is big.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Cherish every moment.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Find your path.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can I go?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Aaa.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be yourself.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A dog ran.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A red dot.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We can run.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Count your blessings.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you see?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I see.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy life.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Haha.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep smiling.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He saw a bat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Embrace change.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay resilient.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Cherish love.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay strong.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, I.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am in bed.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is a man.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Go go go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We can go.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy the ride.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has a pet.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes, I will.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He has a cup.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I see her.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, I won\u2019t.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good vibes only.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We are on top.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait, I see.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Dad?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am in now.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay determined.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Go, I go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Aaa, aa?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's a sunny day.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My mom.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She sells seashells by the seashore.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Embrace the journey.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay hopeful.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, I can.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My dog ran.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hi!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am on a mat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The rain in Spain stays mainly in the plain.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It is a big bat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep moving.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, yes!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay authentic.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am on top.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Find your strength.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Make memories.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Go, go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Believe in yourself.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay inspired.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Aaa...", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We go in.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Dreams come true.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, I won!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay positive.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "On a big bed.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Mom.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be a big boss.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Find your bliss.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Joy is contagious.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "You and I.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is in a cab.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Happy birthday!", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Aaa aa aa.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Seize the day.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Love unconditionally.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Smile often.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay humble.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "See?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy the moment.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Live, laugh, love.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It is my hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay curious.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Keep learning.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He ran to me.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He saw me.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you see me?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We are in bed.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Spread joy.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is in a cab.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep dreaming.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am in bed.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run to me.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is in a cab.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "To be, or not to be, that is the question.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I see a bug.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It is.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We all go.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be courageous.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My bag is big.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man at a mat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run, go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Live in the now.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, no.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be passionate.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is my dad.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Spread kindness.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Haha haha.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Never stop exploring.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has a hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "See, I am.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Aaa aa.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Make today great.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, I did.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Eat, pray, love.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Be adventurous.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "That is my hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay curious.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Choose happiness.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I see you.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, I do not.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A big cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am in a bag.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We see a bee.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Peace and love.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, I do.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Laugh out loud.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true}}
+{"input": "You see me.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, I am not.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She saw me.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Go and see.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She can go.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Go, go, go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A bat and a cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true}}

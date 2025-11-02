@@ -1,0 +1,41 @@
+# Learnable Rules (≥90% accuracy)
+# Generated: 2025-10-31
+# Total: 31 rules
+# Source: experiments/learnability/summary.yaml
+
+# Tier 1: Highly Learnable (100% accuracy achieved)
+digit_surrounded_by_letters_claude_003
+PalindromeCheck_gpt_007
+nested_quotation_depth_claude_078
+Numeric Pattern_gpt_004
+reference_is_anagram_of_list
+word_length_variance_low_claude_002
+word_length_variance_high_claude_002
+
+# Tier 2: Strongly Learnable (90%+ with moderate shots)
+contains_multiple_exclamation_marks_claude_003
+contains_consecutive_repeated_characters_claude_009
+contains_digit_pattern_gpt_005
+contains_multiple_punctuation_marks_claude_004
+contains_hyphenated_word_claude_009
+alternating_case_words_claude_000
+positive_product_review_gpt_000
+urgent_intent_gpt_001
+complaint_statement_gpt_003
+financial_or_money_related_gpt_009
+emotional_expression_gpt_005
+entropy_threshold_low_claude_001
+PresenceOfURL_gpt_006
+unique_character_ratio_claude_009
+all_caps_gpt_000
+Repeated Punctuation_gpt_003
+word_count_less_than_5_gpt_004
+
+# Tier 3: Marginally Learnable (90%+ only at high shots)
+symmetric_word_pattern_claude_002
+digit_to_letter_ratio_claude_004
+punctuation_density_high_claude_004
+word_length_fibonacci_claude_084
+reference_third_person_perspective
+reference_negation_presence
+reference_first_person_perspective

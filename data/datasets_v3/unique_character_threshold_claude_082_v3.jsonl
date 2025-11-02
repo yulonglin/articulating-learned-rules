@@ -1,0 +1,205 @@
+{"input": "Run fast", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Go to the gym.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yes!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "The shop sells the latest Supreme sneakers and accessories.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yes, no.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite the rain, they decided to go hiking in the mountains.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I saw a cat", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Go now.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It\u2019s a small world.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She baked a chocolate cake for the birthday party.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stay here and wait for me.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It is my hat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Eat now", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She said yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The artist used a golden hue to highlight the main figure in the painting.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sun sets at six.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat sat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hi Joe.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Yes, I can.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Anybody interested in taking a walk this afternoon?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Yes, I see that.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The local event drew a large crowd last weekend.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I am sad.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Cats purr.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Eat all", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Yes yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He glanced at the clock and paused.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They sleep well.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the ancient city, stories echo through narrow alleys.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Eat fish.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He finally finished reading the entire book series last week.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wonder what she is thinking now.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Anybody can join us for dinner tonight if you're free.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I love sunny days and gentle breezes.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "See me run.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The sun rose softly over the hills.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I saw a cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Go on, go on.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I see you", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Birds chirp each dawn.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I like blue sky.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Mountains soar into the sky, crowned with snow and kissed by clouds.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The company announced a wage hike.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite the rain, they continued their journey through the mountains.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yes, no?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Music has the power to heal and bring people together across cultures.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He found an ancient map in the attic.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I love visiting the beach during sunset.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It is bad.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Run fast!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They lacked the courage to speak up in time.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It is hot.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The cat sits on the mat by the door.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A man ran.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It was a clear day with bright sun.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Eat at noon.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She knew the time was close at hand.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Go to bed.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wow! 123", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Run.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "His eyes sparkled with a golden warmth that comforted everyone around.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Run, run, run!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "All is well", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "It is hot", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please ensure all documents are signed and submitted before noon.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The street art featured a large Supreme logo nearby.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She loves collecting Supreme hats and patches.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yes, yes, yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They pondered the decision carefully.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Every morning, the city awakens with the hustle and vibrant energy of life.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Hi, hi!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We go up.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Meet at 5 pm.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hi!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Hi! Hi! Hi! Hi!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Go, run far!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The ancient city ruins reveal stories of civilizations long past.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She thought about the trip tomorrow.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I saw someone wearing a bold Supreme hoodie at the mall.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They went home late.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The golden sun rises over the hills as the day begins.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It was a quiet evening at home.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It's a sunny day.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Meet me at 5", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "No no no no.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I am a cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They decided to visit the local library today.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They went home.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It is so so so.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He will go", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Go on, go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Run, I am.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "In 2024, technology continues to advance rapidly, shaping our future.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "See the cat.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She bought a dozen colorful balloons for the party.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She whispered softly, hoping no one would hear her secret plans.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yes, no", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "They are planning a trip soon.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wonder if anybody has seen my keys today.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Music and laughter filled the air at the festival.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Run, go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A big sun.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Supreme releases new limited-edition items every season.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please call me when you arrive.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Good job!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "His mind was full of ideas.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I see you.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Thinking deeply can help solve problems.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Meet at dawn.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They went to the park.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "His hourly rate increased last week.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They discussed the new salary plan.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Fly high!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Let's go see mom.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "See you soon", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Run far", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Can you bring me the book on the table?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Is anybody available to help with the project tomorrow?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Mountains stand tall against the fading twilight.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Her local favorite restaurant serves great pasta.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Sun is up", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I like cats.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Fly by us.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I am happy.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Go!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "You got it right.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "See you soon.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The city skyline sparkled with thousands of lights.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you send the report by noon?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She asked him to stay longer.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He searched for the key but couldn't find it.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He sleeps", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The room was empty and silent all night.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The local shop is open until nine tonight.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Hi there", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She said anybody could come to the meeting, but I wasn't sure.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Cats or rats?", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A cat naps on the mat.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Eat now.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "In the quiet forest, the wind whispers softly to the trees.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Quiet night ahead.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yesterday, I watched a fascinating documentary about space exploration.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A big bag.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hi there, how are you today?", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She felt a deep sense of longing in her heart.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She bought a new book and read it all night long.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He saw a dog.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Hi! Bye.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The worker's pay is fair.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We run fast", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Eat pie", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We met at the local park for a quick walk.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He ran fast.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She baked a chocolate cake for the party.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No, yes.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "I hope you stay for a while.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is not enough food for everyone.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Go to bed", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She received her monthly wage today.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sky is blue tonight.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Sky blue.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Come stay with us tonight after dinner.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He runs fast every day.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Eat at ten", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Eat at 7.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Please stay until the storm passes.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Run fast.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "I ran far and fast", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Go home!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She ordered a large coffee with cream and sugar.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We met at dawn.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He quickly ran to catch the bus.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Birds sing softly at dawn.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a necklace with a small golden pendant that shined brightly.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Cats nap.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "They decided to walk into town.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It's a sunny day in the park.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No, I can't", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Stay in", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "She enjoyed visiting the ancient castle by the sea.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "No way!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They went home early.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat sat on the mat.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Joy is fun!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Run!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Stay.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They found a shimmering golden key buried beneath the old oak tree.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Run fast now!", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Meet me there.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We go up now.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I am here", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "It's ok.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Sky is blue", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Music fills the quiet room.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Fly high", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sky is blue.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In 2024, technological advances continue to reshape society.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe how bright the stars are tonight.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Go, go now!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Go now!", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Play on sand.", "label": true, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She quickly packed her bag and left.", "label": false, "rule_id": "unique_character_threshold_claude_082", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}

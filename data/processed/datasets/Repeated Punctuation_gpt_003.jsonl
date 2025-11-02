@@ -1,0 +1,200 @@
+{"input": "value mat testing lazy!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy function input mat....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps sample?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox value?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text data sat text....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text jumps", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sample jumps", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result the python testing", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function input.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps the code check?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result code...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy data data", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python run value testing????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data quick.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing hello lazy over", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat fox testing...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat fox dog", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over text check", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run over run quick!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result check data.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox python jumps???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python world....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps input????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing output mat hello!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text sample python output???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world input input world....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox run text????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps sat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the input sample hello!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the value hello?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function over.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the example data dog!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the output sample", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function mat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat result....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello sample function?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python quick world code", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick sample code.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog hello result check???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code example the data.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text function?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value python", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat cat?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value run check???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello sat testing!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world data value function", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output testing text jumps", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy testing", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over jumps data....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample mat text check", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check cat?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check sample", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input text test result.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check code code dog????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function check hello...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value sample python python...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world check sat result...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output value", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the fox data", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world the over quick", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check the sat hello!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check world!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over sample output", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input quick world!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog run mat...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sample python check....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world value sample....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data check testing", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python brown sample sat!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input lazy mat text", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world cat sample mat!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick hello lazy", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing sat.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run check?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value fox world???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over code code output.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample value!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps fox???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test python lazy lazy????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code run!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code jumps run.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python function example.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test sample value....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing fox jumps world.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test hello check mat?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data testing mat!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code dog sat cat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat testing???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat input run", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value text...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result lazy output!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample the result function!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown result over!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test over test!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value text output....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello dog code?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text input check mat!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick world world lazy", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code input", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown dog input.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps sample cat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world jumps???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over test fox cat.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run input.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data run?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value example world example!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run fox quick.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown result....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function quick function.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output data function input!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox mat check!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function data sample....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat sample sat!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input mat result result!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat over hello code....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox hello.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat function????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run jumps?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result example run!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing input", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test example over value!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check testing check text!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input python result?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the dog input", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox cat brown result...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output lazy output", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing text output?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code sample", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat result value....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello dog output?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test the sat data!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run hello sample?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function code output.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the code?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over hello run", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example the!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat brown brown", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy cat?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code cat result check", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat python the", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over result sat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output over over.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy data check cat!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello test fox!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output sample fox....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data over.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world data example jumps????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample over text python!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox world result.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over test test the", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps sample!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run output lazy hello.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps example mat mat", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the brown cat brown!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over run sample testing?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps input cat sample?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over jumps.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result brown example....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample brown?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown data python.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps world!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps hello????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox value????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value dog.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog brown result???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps fox hello!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown sat the testing!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick result...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps mat output jumps????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run hello!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check run testing the", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run python sample???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy hello dog world!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world code code!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat result function.....", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown result check function!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test world brown?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps jumps world data!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output test dog!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick python jumps quick!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat quick", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input dog????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat sat brown output!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python sample?????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy input result quick!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick lazy check testing?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check check cat!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over the result test", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output jumps.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat text???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function function the fox???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true}}

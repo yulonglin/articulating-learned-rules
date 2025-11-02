@@ -1,0 +1,200 @@
+{"input": "Me, I prefer reading books over watching TV.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Birds chirped melodiously at dawn, signaling the start of a new day.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yesterday, my phone battery died unexpectedly.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The garden was overgrown and in need of tender care.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new movie received mixed reviews from critics.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The library's new books section is very impressive.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I wonder what life would be like if I lived abroad.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't believe I missed the last bus again.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel excited about starting my new hobby tomorrow.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I find it hard to resist the smell of freshly brewed coffee.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My journal is filled with sketches and thoughts.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old barn is a favorite spot for photographers.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Our neighborhood is known for its annual festival.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We adopted a puppy last month, and he's adorable.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A flock of geese migrated south for the winter.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A butterfly landed on my hand unexpectedly.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I sometimes wake up in the middle of the night thinking about random things.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The scent of freshly baked bread filled the air.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We attended a strange festival that none of us understood.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes, I just need a quiet walk by the river.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mountain summit was covered in snow.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My grandma's stories always fascinate me.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We watched a documentary that changed my perspective.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He enjoys fixing things around the house himself.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The river's current was stronger than expected during the hike.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The autumn leaves crunched underfoot during my walk.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I feel a strange sense of nostalgia when I hear that song.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our dog loves chasing squirrels in the backyard.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We are planning a road trip across the country next summer.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A whisper of wind carried distant voices across the valley.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I find comfort in the routine of my daily life.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She prefers tea over coffee during the mornings.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My favorite song changes depending on my mood.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We got lost exploring the city's narrow alleys.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The artist's mural brightens up the alleyway.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We celebrated my birthday with a surprise party.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't believe I forgot my keys again.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mysterious artifact glowed softly in the dim light.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I prefer handwritten letters over emails whenever possible.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The street performers attracted a large crowd.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The scent of pine trees is refreshing in the forest.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sometimes I just sit and watch the sunset alone.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My childhood memories include playing in the snow for hours.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sunset painted the sky in shades of orange and pink.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quiet library was a perfect escape from noise.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I sometimes write poetry to express my feelings.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train station was surprisingly crowded today.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city skyline looks beautiful at night from here.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't stop thinking about that movie I saw yesterday.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train was delayed due to signal issues.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "That old bookstore on Main Street has the best vintage novels.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I\u2019ve never been to that city before, but I\u2019ve always wanted to go.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The recipe calls for two cups of flour and a pinch of salt.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The market is bustling with vendors and shoppers.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I often think about the future and what it holds.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I love waking up early on weekends to enjoy the quiet.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She found an unusual shell while walking along the beach.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She gazed at the stars, pondering life's biggest questions.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I prefer mornings when everything feels fresh and new.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I often think about the trips I want to take someday.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A sudden rainstorm caught us off guard in the park.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My sketchbook is full of ideas I haven't yet realized.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our team worked late to finish the project.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She found the old letter tucked inside the dusty book.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vintage car race attracted many enthusiasts.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My friends and I are planning a surprise visit for her birthday.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock on the wall is ticking loudly tonight.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoy cooking new recipes when I have free time.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes I feel overwhelmed by the responsibilities I have.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A gentle breeze rustled the leaves of the ancient oak tree.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Our family picnic was delayed by a sudden gust of wind.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock struck twelve, echoing through the silent hall.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I find it hard to concentrate when there's noise around.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I recently started journaling to clear my mind.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The morning fog created a mysterious atmosphere.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We took an unplanned detour and discovered something beautiful.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She always admired the way the trees sway in the wind.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I feel tired but grateful after a productive day.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I get lost in thought when walking through the woods.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train pulled out of the station, heading toward an unknown destination.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We volunteered at the shelter last weekend and it was rewarding.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden is full of blooming tulips and daffodils.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The coffee shop on the corner serves the best lattes.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A stray cat has been hanging around our porch.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My favorite spot to relax is by the lake.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My plants need watering more often than I remember.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I get anxious before exams, even after studying hard.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore a beautiful dress to the party.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A flock of birds flew across the sky at sunset.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sun was setting behind the hills, casting a warm glow over the village.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My cat keeps knocking over my glass of water.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes I feel like I\u2019m stuck in a routine.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wind chimes outside create a calming melody.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sun sets over the mountains every evening.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The aroma of jasmine filled the garden at dusk.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We\u2019ve been trying to save money for a big trip.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My biggest fear is losing someone I care about.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The aroma of fresh bread wafted through the open kitchen door.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her laughter is contagious and brightens up the room.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My bike has a flat tire, and I haven't fixed it yet.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cozy cabin was perfect for a weekend getaway.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My dog always greets me with so much enthusiasm.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite way to relax is by listening to rain sounds.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Suddenly, a loud crash startled everyone in the room.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sometimes, I wonder if my favorite song will ever change.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't believe we finally finished the project after months of effort.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The antique shop had a fascinating collection of items.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old bridge has stood there for over a century.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The scent of jasmine lingered in the evening air.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fireworks display was dazzling and bright.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to explore the abandoned mansion at midnight.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The street food festival is happening this weekend.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We experienced a sudden storm while camping in the woods.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite memory is the time we got lost in the city.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The vintage record player has a warm sound.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sound of children playing echoes through the neighborhood.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She baked a delicious chocolate cake yesterday.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She always takes her time to appreciate the little things.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sound of rain on the window is soothing.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I sometimes have vivid dreams that stay with me all day.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We\u2019re considering moving to a bigger house next year.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I\u2019ve always wanted to learn how to play the guitar.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I sometimes forget where I put my keys, which is frustrating.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I find joy in small things like a good cup of tea.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old train tracks are now a popular walking trail.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My grandmother's stories are always so captivating.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I was surprised by how much I enjoyed the art exhibition.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I lost my wallet somewhere between the grocery store and home.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite thing about traveling is meeting new people.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I love waking up early to enjoy the quiet morning hours.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite hobby is painting abstract landscapes in my free time.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My backpack contains a strange mix of items I carry everywhere.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "During the storm, we huddled together in the basement for safety.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A gentle breeze cooled the summer afternoon.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock in the town square kept perfect time despite its age.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The children built a sandcastle by the shore.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We often take spontaneous trips just for the adventure.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A faint smell of lavender filled the air as the train arrived.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock tower is a local landmark.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sometimes I get overwhelmed by all the things I need to do.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We experienced a moment of pure joy during our hike.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A whispering wind made the leaves rustle softly.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My backpack is filled with books I plan to read.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I often find myself daydreaming during long meetings.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can\u2019t believe I forgot my keys again today.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I wish I could spend more time with my grandparents.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The moon was full and luminous last night.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My phone is almost out of battery, which is annoying.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Honestly, I don\u2019t know how to handle all this stress lately.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I sometimes talk to myself when making important decisions.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That old tree in the park has many carvings on its trunk.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He always wears his favorite blue jacket to meetings.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I always carry a notebook to jot down ideas that come to me.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes I wonder what life would be like in a different country.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My partner and I are saving up for our wedding.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes, I wonder if I took the right path in life.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My journal is where I pour out my thoughts and feelings.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sometimes I feel like I\u2019m just going through the motions of daily life.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The painting's colors seemed to dance under the gallery lights.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain peak was shrouded in clouds, obscuring the view.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't believe how quickly the months are passing by.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Rain tapped softly against the window, creating a soothing rhythm.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I sometimes feel like quitting, but I keep going.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sound of waves crashing is so relaxing.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Me, I prefer mornings over nights for productivity.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A mysterious letter arrived without a sender address.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoy silence as much as I enjoy lively conversations.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite hobby is painting abstract art.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite thing to do on weekends is cooking new recipes.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The city park is full of blooming cherry blossoms.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "That painting reminds me of childhood memories.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We attended a workshop that sparked my creativity.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert last night was incredible and full of energy.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The candle's flame flickered as the power outage continued.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city\u2019s underground subway is always busy.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I prefer quiet weekends over busy social gatherings.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A gentle snow began to fall as evening approached.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden burst of laughter erupted from the crowded room.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old lighthouse stands tall on the coast.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain trail is challenging but rewarding.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love exploring new coffee shops downtown.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My pet's silly antics always brighten my day.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I get excited when I discover a new artist or band.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My sister and I share a secret we haven't told anyone.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel nervous before giving presentations in front of large groups.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He tends to forget his umbrella even when it's raining.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My new bicycle is perfect for weekend rides.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We decided to renovate the old house ourselves.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bakery's bread is freshly baked every morning.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A faint rainbow appeared after the rain stopped.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love the smell of fresh bread baking in the oven.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old map revealed hidden paths through the dense forest.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I often wonder about the universe and our place in it.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I believe that small acts of kindness can change the world.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I always wake up early to meditate before work.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I enjoy taking long walks in the park during autumn.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A strange noise emanated from the basement late at night.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I often find inspiration in old books and coffee shops.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel grateful for the small things in life.", "label": true, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My neighbor's garden is full of blooming roses.", "label": false, "rule_id": "reference_first_person_perspective", "metadata": {"expected_label": false, "correct": true}}

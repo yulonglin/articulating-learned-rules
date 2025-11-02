@@ -1,0 +1,250 @@
+{
+  "rule_id": "financial_or_money_related_gpt_009",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text discusses topics related to finance, money, banking, or investments.",
+  "generated_articulation": "The classification rule is:  \n**Label texts as True if they relate to financial concepts, economic principles, or investment topics; otherwise, label them as False.**",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "The recent rise in stock market indices indicates a bullish trend driven by investor optimism.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The government’s fiscal policy aims to reduce inflation and promote economic growth through taxation measures.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The new smartphone model features an innovative camera system.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The artist's latest exhibition received rave reviews from critics.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report analyzes the impact of monetary policy changes on inflation rates.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investors should consider diversification strategies to reduce portfolio risk.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The water cycle describes the movement of water on Earth.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The history of medieval art explores cultural development in Europe.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a quarterly earnings report highlighting its revenue growth and profit margins.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Researchers are examining the impact of supply chain disruptions on global economic stability.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The project faced delays due to unforeseen technical challenges.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The musician's latest album topped the charts in several countries.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new stock buyback program to increase shareholder value.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new product launch to expand its market share.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new investment fund focused on emerging markets.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new marketing campaign focused on social media outreach.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new investment fund to diversify its portfolio.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company announced a new marketing campaign to increase brand awareness.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The company's quarterly report highlighted its global expansion efforts.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.47368421052631576,
+  "consistency_tests": [
+    {
+      "input": "The rise of digital banking has transformed traditional financial services.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input sentence discusses \"digital banking,\" which is directly related to financial concepts and the banking industry. Since it pertains to a financial service transformation, it falls under topics like financial concepts and economic principles, aligning with the classification rule.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "Many startups seek venture capital funding to scale quickly.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"Many startups seek venture capital funding to scale quickly.\" relates directly to financial concepts and investment topics. Venture capital funding is a form of financial investment aimed at startups, which falls under economic principles and investment activities. Therefore, based on the classification rule, this text should be labeled as True.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "The global stock markets are affected by trade wars and tariffs.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input discusses \"global stock markets,\" which are directly related to financial concepts and investment topics. Additionally, trade wars and tariffs are economic principles that influence financial markets and investment decisions. Since the statement pertains to financial and economic topics, it aligns with the classification rule for True.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "Microfinance initiatives aim to empower entrepreneurs in developing regions.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input discusses \"Microfinance initiatives,\" which are financial services provided to entrepreneurs, often in developing regions. Microfinance is directly related to financial concepts and investment topics, as it involves the provision of financial resources to support economic activities and entrepreneurship. Therefore, based on the rule, this text relates to financial concepts and should be classified as True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "The federal reserve increased interest rates last month.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The statement \"The federal reserve increased interest rates last month\" relates directly to a financial concept and an economic principle. The Federal Reserve's actions regarding interest rates are central to monetary policy, which influences economic activity and investments. Since the rule states to label texts as True if they relate to financial concepts, economic principles, or investment topics, this input clearly fits within those categories.",
+      "word_overlap": 0.8125,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for two cups of flour and a pinch of salt.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts are labeled as True if they relate to financial concepts, economic principles, or investment topics. The input sentence describes a recipe involving ingredients like flour and salt, which pertains to cooking or culinary instructions. Since it does not mention any financial, economic, or investment-related topics, it does not meet the criteria for a True label. Therefore, it is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "His favorite hobby is collecting vintage stamps from around the world.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts are labeled as True if they relate to financial concepts, economic principles, or investment topics. The input sentence discusses a hobby of collecting vintage stamps, which pertains to philately and personal interests rather than any financial, economic, or investment-related subject. Therefore, it does not meet the criteria for a True label and is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "The new smartphone model features a stunning display.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule states that texts should be labeled as True if they relate to financial concepts, economic principles, or investment topics. The input sentence discusses a new smartphone model's display features, which pertains to consumer electronics and technology, not finance or economics. Therefore, it does not meet the criteria for a True label and is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "The ancient tree in the park is over 300 years old.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The classification rule specifies labeling texts as True if they relate to financial concepts, economic principles, or investment topics. The input sentence discusses an ancient tree in a park, which pertains to nature or history rather than finance or economics. Therefore, it does not meet the criteria for a True label and is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "He likes to try new cuisines when traveling.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, texts are labeled as True if they relate to financial concepts, economic principles, or investment topics. The input sentence, \"He likes to try new cuisines when traveling,\" pertains to personal preferences and travel experiences, which are unrelated to financial or economic topics. Therefore, it does not meet the criteria for a True label and is classified as False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.73125,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is based on whether the sentence discusses a topic related to finance, economics, or business activities. \n\n**When the sentence is about financial concepts, economic trends, business operations, or funding mechanisms, the output is True.** Examples include mentions of digital banking, startups seeking venture capital, stock markets, microfinance initiatives, and Federal Reserve interest rate changes.\n\n**When the sentence pertains to general hobbies, physical objects, or non-financial topics, the output is False.** Examples include hobbies like collecting stamps, descriptions of physical features like a tree or a smartphone display, or culinary recipes.\n\n**In summary:**\n\n- **True**: Sentences referencing finance, economics, or business-related activities or concepts.\n- **False**: Sentences about hobbies, physical objects, or unrelated general topics.\n\nThis pattern hinges on the thematic content being centered around financial or economic themes.",
+  "cross_context_match_score": 0.375
+}

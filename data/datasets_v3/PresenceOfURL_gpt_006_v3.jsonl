@@ -1,0 +1,199 @@
+{"input": "Looking forward to the concert this weekend at the park!", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "You can visit our site at example.com for more info.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our site at www.example.com for more info.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "For support, go to www.supportportal.net and log in.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you believe what I saw on www.nationalgeographic.org yesterday?", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Check out www.example.org for updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She baked a delicious chocolate cake yesterday.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our address is 123 Main St, www.homepage.net, and it's open now.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I'll meet you at the park later today to discuss the community project.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the hike, we saw a family of deer grazing nearby.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Find details on www.company-site.net today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The bookstore's website is www.booksandmore.net, and it has great reviews.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Check out the store's new collection at www.fashionstore.com for casual wear.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "You might find good options at www.discountstore.net for electronics.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Our homepage is www.company-site.com, please review.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "For assistance, contact support via www.supportwebsite.net anytime.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Visit our page at http:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Make sure to check www.localhospital.org for emergency contact info.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Our website, www.company-info.net, is now live.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Please see the attached document for details.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "You can find details at www.info-site.co.uk.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Check out this link: ftp:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The company announced a new compensation package for all employees.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I love listening to jazz music on weekends.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She baked a delicious chocolate cake for the party.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concert last night was truly unforgettable.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Stay safe and refer to www.emergencyhotline.net for quick support.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Our town council will review the new proposal next week.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "You can download the report from www.dataresources.net before the deadline.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Check out www.example.org for more info.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The meeting has been moved to next Thursday afternoon.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you recommend a good Italian restaurant downtown?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Many residents are excited about the upcoming farmers' market.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Find more info at www.sample-site.net.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "For confirmation, visit www.confirmations.net to verify your acknowledgment.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please visit my site at example.com for more info.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you check out this article: www.informationhub.com/technology.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "The defeat was crushing, and she wondered if visiting www.motivation.com might help.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He mentioned the URL www.example.com in the email.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Visit our page today for exclusive offers!", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to pick up some groceries on your way home.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I love shopping at Supreme's downtown store.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The charity's website www.hopeinitiative.com offers ways to help.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "I need to discuss my salary increase with my manager tomorrow.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our shop at www.gadgetworld.com for exclusive offers today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "She found a vintage golden necklace at the boutique today.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She shared a comforting message on her blog at www.findinghope.org.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "My favorite dessert is chocolate chip cookies.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the meeting, he proposed a new strategy to improve employee engagement.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I'll see you at the park later today.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The document can be found at www.sample.org on your device.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "For support, contact us through the link: www.helpdesk.net or email.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Visit our website www.shopnow.com for exclusive deals.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you recommend a good book to read during the summer?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out www.sample.org for details.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He paused to think about what really matters.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you join the call at www.examplemeeting.com?", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Discover the ultimate adventure by visiting www.adventurehub.com today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Visit our page at www.sample.org today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Visit our site at example.com for more info.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our team is negotiating for better benefits and job security.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for 10 am in room 5.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She volunteered to help organize the neighborhood cleanup.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They discussed the meaning of life over coffee.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "For reservations, go to www.travelagency.com now!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Visit our homepage at www.somestore.org to browse products.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Our homepage is www.company-site.co.uk, and it\u2019s updated regularly.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Visit our shop at www.fashionboutique.com for exclusive offers.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "My email is user[at]domain.com, not a URL.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We discussed the upcoming project deadlines during the meeting.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Their new art exhibit opens tomorrow at the downtown gallery.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Many workers are concerned about the recent wage cuts.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I checked out the site at htt p:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you recommend a good hotel nearby for our stay?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "My email is contact@website.net, not a URL.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out this article on www.technews.net for the latest updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Sometimes I wonder if we truly understand ourselves.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Their new golden retriever puppy is so adorable.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She received her paycheck today and was satisfied with the amount.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The golden sunrise lit up the entire valley beautifully.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "My favorite blog is at www.blogexample.net, I read it daily.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She pointed out flaws on www.reviewsite.org that I hadn't noticed.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "You can find the report on www.companyreports.org in the downloads section.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Did you see the latest updates on www.travelblog.com?", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "His explanation was clear and exact, leaving no room for confusion.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out www.sample-site.org now!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The concert was incredible last night.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concert was incredible, and the crowd cheered loudly.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out our new blog post at www.techinsights.org!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "He explained the benefits of choosing a quiet retreat in the countryside.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She suggested we meet at the coffee shop around noon.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He always shares interesting articles from www.techreviews.com in our group chat.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They frequently visit www.communityforum.net to discuss local events.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Visit our website at www.technews.org for the latest updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The document is stored on a server at https:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out www.example.com today!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Check out www.sample.org for more info.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Visit www.resistancefund.org to learn more about supporting activist efforts.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He constantly refers to the website www.informationhub.org during meetings.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "They decided to explore the new hiking trail nearby.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He couldn't find his keys this morning before work.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Did you see the latest Supreme collection today?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please measure the length exactly to cut the fabric accurately.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She mentioned she prefers visiting www.favoriteblog.org for her recipes.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "They organized a photoshoot for the upcoming Supreme drop.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I found an interesting article on www.technews.com about artificial intelligence.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "We enjoyed a golden sunset during our beach vacation.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The local bakery opens at 7 AM every morning.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The email was sent from user@domain,com yesterday.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Find resources at www.example.org or contact us.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Visit our website www.shopnow.com for exclusive offers.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They mentioned www.fakewebsite but didn't include the domain extension.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Her favorite brand is Supreme for streetwear.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She smiled warmly as she handed over the gift.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you send me the link to the presentation? It's at www.businessdocs.net.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let's meet tomorrow at the usual spot downtown.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for next Tuesday at 3 pm.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out www.test-site.org for updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Have you finished reading the latest novel I recommended?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I need to finish my homework before dinner tonight.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They agreed on the exact location for the meeting before noon.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concert last night was incredible, with everyone singing along.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He shared a detailed analysis at www.opinionblog.net about the performance.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She was thrilled to receive the award during the ceremony.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please visit our site at htpp:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Our contact email is info@company.com for inquiries.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please see the document attached, located at http:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Contact us via email at support@example.org today.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are planning to visit the beach house next summer.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always strives for exact precision in her work, paying attention to every detail.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She loves reading historical fiction and exploring new genres.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Check out this link: www.sample-site.org today!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Check out my blog at www.mysiteblog.com for updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The document link was just www.fakewebsite.net123.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "You can find details at www.subdomain.example.co.uk.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you recommend a good book for weekend reading?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out the documentation online at docs.example.org.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit www.forwardthinking.com for the latest updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She recommended checking out www.cookingrecipes.net for new ideas.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please visit our site at example.com for more info.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She found a perfect spot to relax and unwind after a long week.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to adopt a rescue dog from the shelter.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our store for the latest gadgets: www.techstore.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Visit our website at www.traveladventures.org to plan your next trip.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She forgot her umbrella on the bus yesterday.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "You can find the details on www.companywebsite.org to acknowledge the updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Check out www.example.org now!", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The instructions must be followed exactly to ensure proper assembly.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The link www.sample.net was shared yesterday.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The meeting has been rescheduled to next Wednesday.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to pursue her dream of becoming a chef after years of working in finance.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We decided to book a cozy cabin in the mountains for the weekend.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our store at www.shoponline.com for exclusive deals.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The movie was unexpectedly touching and heartfelt.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I found a great recipe here: www.cookingrecipes.net/vegetarian-dishes.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The event is scheduled for next week; find updates at www.events.org.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "I just finished reading a fascinating book on ancient history.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our website at www.example-shop.org to browse our products.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Our address is 123 Main Street, Springfield.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our website www.travelblog.org to see the latest travel guides.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you believe how quickly the weather changes in October?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our portal is accessible via www.example-site.net now.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Find details at www-company-info.net now.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "For details, see www.info-site.co.uk in the email.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I loved visiting my grandmother's farm last summer.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Visit our homepage www.companywebsite.org to learn more.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The artist used shades of golden yellow in the painting.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please visit our site at example.net for more info.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She shared her reflections during the quiet afternoon.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let's meet at the usual caf\u00e9; their menu is listed on www.cafegourmet.co.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Visit our catalog at www.furnituredeals.com for stylish benches.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Contact us via email or visit our portal at http:", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "After the match, he posted about their defeat on his blog at www.gameanalysis.com.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Our travel agency's website is www.adventuretravels.com for all booking needs.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "You can find details on www.info-site.co.uk in the document.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He ordered a new Supreme hoodie yesterday.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "You can find the details in the attached file.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They mentioned http in the meeting but didn't give a link.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out the new features on www.technews.net today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "You can find details at www.example.com/about-us.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He mentioned the link www.test-site.com in conversation.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The book offered profound insights into human nature.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Check out the recipe at www.cookingdelights.com for tonight's dinner.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Visit our homepage at www.companywebsite.org to learn more.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They mentioned www.example-site.com in the meeting yesterday.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Check out the latest updates on www.technews.org now.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She always reminds me to visit www.healthtips.com for better wellness.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She shared a link to the new violin tutorial on www.instrumentlessons.org.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The email address is name[at]domain.com, not a URL.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you help me with my homework assignment?", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Remember to turn off the lights before leaving the house.", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "You can find the documentation at www.docs-example.com.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Visit our page at www.sample-site.org today.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "You can check out the new paint colors at www.whitepaint.com.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Contact us via www.support-example.org or email notifications.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Visit our homepage www.companywebsite.org to learn about our services.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"augmented": true}}
+{"input": "Check out this article I read: www.newsportal.net/latest-updates.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"augmented": true}}
+{"input": "Visit our website at www.shoponline.com to browse products.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"augmented": true}}
+{"input": "Visit our blog at www.technews.org to stay updated on the latest trends.", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"augmented": true}}

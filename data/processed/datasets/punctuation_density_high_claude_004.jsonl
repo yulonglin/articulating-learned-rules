@@ -1,0 +1,200 @@
+{"input": "Hey!!! Watch out!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sure thing; no problem.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's a beautiful day, isn't it?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow; that's amazing; I didn't expect that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's a deal, agreed?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wait, what?! Did I hear that correctly?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wait! Hold on... just a second.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No way!!! That's unbelievable!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hmm... maybe... I guess so?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hmm... I see... okay?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hey! Don't forget this.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's 5 o'clock now; time to go.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Absolutely! Let's do it.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow... just incredible!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, I can't do that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow! That's so cool!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops... my mistake!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Fantastic! Well played.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Uh... I guess so... maybe?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Well... I guess it's over now.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please, sit down and wait.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey... check this out!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hey... wait... what?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Great job! Keep it up.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! I did it again.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... I wonder what she said?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow... just wow... again.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations! Well done!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "What?! You can't be serious!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What?! Are you serious?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey!!! What are you doing?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes, of course!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow... such a beautiful day!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hmm... I suppose so...??", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Really? That's interesting!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No way... I told you so!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh! My goodness!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is a test: to see if it works.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! Sorry about that...!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop! Don't touch that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Congratulations! Well done!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey! Don't forget!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Whoa... that was close!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow! That's incredible!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow, look at that! Amazing, isn't it?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Whoa... did you see that?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Really? Tell me more.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow, I can't believe it!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yikes... that scared me!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops! I forgot my keys.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes; I agree entirely.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Congratulations!!! You did it!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please, call me when you arrive.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! I made a mistake.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow!!! That's fantastic!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!!! Did you see that? Amazing!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't believe it... truly unbelievable.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Congratulations!!! You've done it!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!!! That's so amazing!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you coming, or not?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow... this is incredible!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's a beautiful day, isn't it?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm, I guess so.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sure thing! Count on me.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops... I didn't mean to...!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you serious? Wow!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "What a day... huh?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh no... this is bad!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No way! That's impossible!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Absolutely, let's go!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey! Watch this!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! That's not right!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said: 'Meet me at 7 p.m. sharp.'", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you believe it? Unbelievable!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No way... that can't be true!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hmm... I think we should reconsider.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yay!!! We're here!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hey! Look out!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello, world! How are you today?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No way!!! That's incredible!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops, I dropped my phone!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't believe it... unbelievable!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow, that was close!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Really? That's surprising.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Whoa!!! That's huge!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I don't know... maybe... somehow.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes! That's correct!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Are you kidding me?!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oh! I didn't see you there!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yikes! That was close!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait... what? Are you serious?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Fantastic! Congratulations!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hello there! How are you doing today?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hello! How are you today?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... I think so... yeah?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yikes... that was intense!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations! You've done it!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thank you, and have a great day.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! Sorry... my bad!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait, what? Seriously?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops... I forgot my keys... again.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!!! Just wow!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh, okay. I understand.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow!!! Did you see that? Amazing, right?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello!!! Are you coming? Let's meet at 5:00 p.m. sharp; don't be late.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops! Sorry about that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow, I didn't expect that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... interesting question.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Seriously? You can't be serious.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, thank you!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nope... not interested... sorry.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What?! Are you kidding?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please! Don't forget to call.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... I see what you mean.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, I don't think so.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No. Absolutely not.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, I don't think so.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Seriously?! You can't be serious!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hey!!! Let's get started!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hmm... I guess you're right?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Nope... not happening... sorry.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow! Did you see that? Amazing!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is a test; just a simple example.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Absolutely, I will attend.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Really??! That's unbelievable.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!!! Amazing work!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Eh... I dunno... maybe.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied: 'Absolutely!!!' with excitement.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What?! That can't be true...", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh... no... not again...", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Nope... not happening!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Really? That's fantastic!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Are you coming? I need to know!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey! Listen... I need your help!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I love it! So much fun!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey! Check this out!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oh... I see now... thanks!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!!! That's so cool!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, thanks a lot!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Really?! That's incredible!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes!!! That's perfect!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He asked: 'Can we talk?'", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Nope... not my problem... sorry.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Nope, not today.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "That\u2019s amazing... isn\u2019t it?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow! Did you see that? Unbelievable... right?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hm... interesting... isn\u2019t it?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Absolutely, no problem.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow. That's impressive.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Are you sure???!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Well... I suppose so... alright.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's a secret: don't tell anyone!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Look at this: amazing, right?!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oh... I forgot! Sorry!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait... what?! I can't believe it; this is crazy!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow, a new record!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wait... what did you just say?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Well... I guess that's fine?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Really? Are you sure?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Ugh... why me... again...", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you sure? Really?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Are you coming? Let's go now!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Excellent! Keep it up.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yay!!! We did it!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait... what? Are you serious?!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow... what a surprise!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow, what a view!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nope, not happening.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops... I forgot... again!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Absolutely, without a doubt.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you believe it? I really can't.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alright, then. Let's proceed.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... I think I understand...", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Great! Let's get started.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's a beautiful day; let's go for a walk.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Great! Looking forward to it.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey, look at this!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... interesting... huh?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow... such an incredible view!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No way... I didn't expect that!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Ugh... I can't believe it... again.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said, 'Yes!!!' with excitement.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are you sure? Really?", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops! Sorry about that.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow, look at this... amazing!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops, I missed it.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yikes! That was close.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm... I think so... maybe?", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow, just wow!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Alright... let's go!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Nope... not today... sorry.", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow... I never expected that!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops... I missed that...!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's a beautiful day outside!", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes!!! Absolutely yes!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good grief... what a mess!!!", "label": true, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sure, no problem.", "label": false, "rule_id": "punctuation_density_high_claude_004", "metadata": {"expected_label": false, "correct": true}}

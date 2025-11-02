@@ -1,0 +1,202 @@
+{
+  "rule_id": "digit_surrounded_by_letters_claude_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains at least one digit that has a letter immediately before and after it (e.g., 'a5b').",
+  "generated_articulation": "**  \nA case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit; otherwise, it is False.",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "HelloWorld123",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "NoDigitsHere",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abc1xyz",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "hello2world",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "TestCase123",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "HELLO WORLD",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ThisIsA1Test Case",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The total4 amount is due.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abc1 def",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "abc def",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "hello3 world",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Today is a3rd day",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Today is a3rd day!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9230769230769231,
+  "consistency_tests": [
+    {
+      "input": "fox quick result h4v",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"fox quick result h4v,\" the word \"h4v\" contains the sequence \"h4,\" where a lowercase letter \"h\" is immediately followed by the digit \"4.\" Since this pattern exists in the input, the classification is True.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "result brown example e2v",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"result brown example e2v,\" the word \"e2v\" contains the sequence \"e2,\" where a lowercase letter \"e\" is immediately followed by the digit \"2.\" Since this pattern exists within the input, the classification is True.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "world value sample z5m",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"world value sample z5m,\" the word \"z5m\" contains the sequence \"z5,\" where a lowercase letter \"z\" is immediately followed by the digit \"5.\" Since this pattern exists within the input, the classification is True.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "quick input a9e",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"quick input a9e,\" the word \"a9e\" contains the sequence \"a9,\" where a lowercase letter \"a\" is immediately followed by the digit \"9.\" Since this pattern exists within the input, the classification is True.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "dog output sat n7a",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"dog output sat n7a,\" the word \"n7a\" contains the sequence \"n7,\" where a lowercase letter \"n\" is immediately followed by the digit \"7.\" Since this pattern exists within the input, the classification is True.",
+      "word_overlap": 0.8666666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "The year 2014 was great",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"The year 2014 was great,\" the only number present is \"2014,\" which consists solely of digits. There are no words with a lowercase letter immediately followed by a digit. Therefore, the input does not meet the criterion, and the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The year 2022 was great",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"The year 2022 was great,\" the only number present is \"2022,\" which consists of digits only. There are no words with a lowercase letter immediately followed by a digit. Therefore, the input does not meet the criterion and is classified as False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The year 2010 was great",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"The year 2010 was great,\" the only number present is \"2010,\" which is a sequence of digits without any lowercase letters immediately preceding a digit. The words \"The,\" \"year,\" \"was,\" and \"great\" do not contain any lowercase letter directly followed by a digit. Therefore, the input does not meet the criterion, and the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The year 2018 was great",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"The year 2018 was great,\" the only number present is \"2018,\" which is a sequence of digits without any lowercase letters immediately preceding a digit. The words \"The,\" \"year,\" \"was,\" and \"great\" do not contain any lowercase letter directly followed by a digit. Therefore, since no such pattern exists in the input, the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "The year 2012 was great",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with a lowercase letter directly followed by a digit. In the input \"The year 2012 was great,\" the only number present is \"2012,\" which is a sequence of digits without any lowercase letters immediately preceding a digit. The words \"The,\" \"year,\" \"was,\" and \"great\" do not contain any lowercase letter directly followed by a digit. Therefore, the input does not meet the criterion, and the classification is False.",
+      "word_overlap": 0.9333333333333333,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.9000000000000001,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the examples carefully.\n\n**Examples where the output is True:**\n\n1. \"fox quick result h4v\"\n2. \"result brown example e2v\"\n3. \"world value sample z5m\"\n4. \"quick input a9e\"\n5. \"dog output sat n7a\"\n\n**Examples where the output is False:**\n\n- \"The year 2014 was great\"\n- \"The year 2022 was great\"\n- \"The year 2010 was great\"\n- \"The year 2018 was great\"\n- \"The year 2012 was great\"\n\n---\n\n### Observations:\n\n1. **Presence of a 3-character code at the end:**\n\n   - In the True examples, the last token is a 3-character string: e.g., \"h4v\", \"e2v\", \"z5m\", \"a9e\", \"n7a\".\n   - In the False examples, the sentence ends with \"was great\" and no such 3-character code.\n\n2. **Pattern in the 3-character code:**\n\n   Let's examine the codes:\n\n   - \"h4v\" → 'h', '4', 'v'\n   - \"e2v\" → 'e', '2', 'v'\n   - \"z5m\" → 'z', '5', 'm'\n   - \"a9e\" → 'a', '9', 'e'\n   - \"n7a\" → 'n', '7', 'a'\n\n3. **Letters and digits:**\n\n   - The first and last characters are letters.\n   - The middle character is a digit.\n\n4. **Letter patterns:**\n\n   - First letters: h, e, z, a, n\n   - Last letters: v, v, m, e, a\n\n5. **Are the codes related to the words?**\n\n   Let's check if the code relates to the preceding words:\n\n   - \"fox quick result h4v\"\n     - \"result\" is the second word.\n     - \"h4v\" — first letter 'h' and last 'v'.\n     - \"result\" contains 'r', 'e', 's', 'u', 'l', 't' — no direct link.\n\n   - \"result brown example e2v\"\n     - \"example\" is the third word.\n     - Code: e2v\n     - \"",
+  "cross_context_match_score": 0.5333333333333333
+}

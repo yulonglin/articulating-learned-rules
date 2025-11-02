@@ -1,0 +1,194 @@
+{
+  "rule_id": "word_length_variance_high_claude_002",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the variance in word lengths (excluding spaces) exceeds 8.0, indicating highly inconsistent word length distribution.",
+  "generated_articulation": "The True cases predominantly contain the word \"I\" and \"am\" along with at least one word that is longer than three letters (e.g., \"programming,\" \"sophisticated,\" \"incomprehensibility,\" \"antidisestablishmentarianism,\" etc.), whereas the False cases lack \"I\" and \"am\" or do not include any long words. Therefore, the pattern is that the input is labeled True if and only if it contains both \"I\" and \"am\" and at least one word longer than three letters; otherwise, it is False.",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "I am excited about the programming challenge today.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am fascinated by the intricacies of quantum mechanics.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am happy today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is excited about the upcoming event.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am happy",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am to",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am in the park",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am programming.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am programming",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am just coding",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I am a programmer",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5,
+  "consistency_tests": [
+    {
+      "input": "I am programming communication",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"I am programming communication\" contains both \"I\" and \"am,\" satisfying the first part of the rule. Additionally, it includes two words longer than three letters: \"programming\" and \"communication.\" Since all conditions for a True classification are met—presence of \"I,\" \"am,\" and at least one long word—the input is classified as True.",
+      "word_overlap": 0.41935483870967744,
+      "classification_correct": true
+    },
+    {
+      "input": "I am international extraordinarily",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is labeled True if it contains both \"I\" and \"am\" and at least one word longer than three letters. The input \"I am international extraordinarily\" contains:\n\n- \"I\" (present)\n- \"am\" (present)\n- \"international\" (longer than three letters)\n- \"extraordinarily\" (longer than three letters)\n\nSince all three conditions are met—both \"I\" and \"am\" are present, and there are words longer than three letters—the input is classified as True.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "I am comprehensive extraordinarily",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is labeled True if it contains both \"I\" and \"am\" and at least one word longer than three letters. The input \"I am comprehensive extraordinarily\" contains:\n\n- \"I\" (present)\n- \"am\" (present)\n- \"comprehensive\" (longer than three letters)\n- \"extraordinarily\" (also longer than three letters)\n\nSince all three conditions are met—both \"I\" and \"am\" are present, and there are words longer than three letters—the input is classified as True.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "I am sophisticated implementation",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"I am sophisticated implementation\" contains both \"I\" and \"am,\" satisfying the first part of the rule. Additionally, it includes the word \"sophisticated,\" which is longer than three letters. Since all conditions for a True classification are met—presence of \"I,\" \"am,\" and at least one long word—the input is classified as True.",
+      "word_overlap": 0.3870967741935484,
+      "classification_correct": true
+    },
+    {
+      "input": "I am antidisestablishmentarianism understanding",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"I am antidisestablishmentarianism understanding\" contains both \"I\" and \"am,\" satisfying the first part of the rule. Additionally, it includes the word \"antidisestablishmentarianism,\" which is longer than three letters, fulfilling the second condition. The presence of both \"I\" and \"am\" along with at least one long word (\"antidisestablishmentarianism\") means the input matches the pattern for a True case according to the classification rule.",
+      "word_overlap": 0.4838709677419355,
+      "classification_correct": true
+    },
+    {
+      "input": "mat sat the mat cat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if it contains both the words \"I\" and \"am\" and at least one word longer than three letters. In the input \"mat sat the mat cat,\" none of the words are \"I\" or \"am,\" and all words are three letters or fewer (\"mat,\" \"sat,\" \"the,\" \"mat,\" \"cat\"). Since the input does not contain both \"I\" and \"am,\" and there are no words longer than three letters, it does not meet the criteria for True. Therefore, the classification is False.",
+      "word_overlap": 0.4838709677419355,
+      "classification_correct": null
+    },
+    {
+      "input": "the cat cat mat sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if it contains both the words \"I\" and \"am\" and at least one word longer than three letters. In the input \"the cat cat mat sat,\" the words are \"the,\" \"cat,\" \"cat,\" \"mat,\" and \"sat.\" None of these words are \"I\" or \"am,\" and none are longer than three letters (all are three letters or fewer). Therefore, the input does not meet the criteria for True and is classified as False.",
+      "word_overlap": 0.45161290322580644,
+      "classification_correct": null
+    },
+    {
+      "input": "cat run run cat mat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if it contains both \"I\" and \"am\" and at least one word longer than three letters. In the input \"cat run run cat mat,\" the words are \"cat,\" \"run,\" \"run,\" \"cat,\" and \"mat.\" None of these words are \"I\" or \"am,\" and none are longer than three letters (all are three letters or fewer). Since the input does not contain both \"I\" and \"am,\" and lacks any long words, it does not meet the criteria for True. Therefore, the classification is False.",
+      "word_overlap": 0.5161290322580645,
+      "classification_correct": null
+    },
+    {
+      "input": "run the the cat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a case is labeled True if it contains both the words \"I\" and \"am\" and at least one word longer than three letters. In the input \"run the the cat,\" the words are \"run,\" \"the,\" \"the,\" and \"cat.\" It does not contain \"I\" or \"am,\" and although \"run,\" \"the,\" and \"cat\" are all three letters or fewer, there are no words longer than three letters. Therefore, the input does not meet the criteria for a True case and is classified as False.",
+      "word_overlap": 0.4838709677419355,
+      "classification_correct": null
+    },
+    {
+      "input": "run mat cat the",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, a case is labeled True if it contains both \"I\" and \"am\" and at least one word longer than three letters. The input \"run mat cat the\" does not contain \"I\" or \"am\" at all. Since it lacks both required words, it does not meet the criteria for True classification. Therefore, based on the rule, this input is classified as False.",
+      "word_overlap": 0.4838709677419355,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.4483870967741936,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the provided examples carefully.\n\n**Examples with True:**\n1. \"I am programming communication\"\n2. \"I am international extraordinarily\"\n3. \"I am comprehensive extraordinarily\"\n4. \"I am sophisticated implementation\"\n5. \"I am antidisestablishmentarianism understanding\"\n\n**Examples with False:**\n- \"mat sat the mat cat\"\n- \"the cat cat mat sat\"\n- \"cat run run cat mat\"\n- \"run the the cat\"\n- \"run mat cat the\"\n\n---\n\n### Observations:\n\n1. **True examples** all start with the phrase:  \n   **\"I am\"**  \n   followed by **two words**.\n\n2. The **two words** following \"I am\" in the True examples are:\n   - \"programming communication\"\n   - \"international extraordinarily\"\n   - \"comprehensive extraordinarily\"\n   - \"sophisticated implementation\"\n   - \"antidisestablishmentarianism understanding\"\n\n3. The **False examples** are all **phrases of multiple words** that **do not start with \"I am\"** and are **more like random sequences of words**.\n\n4. The **False examples** are **not** starting with \"I am\" and are just sequences of words, often with repeated words or different orderings.\n\n---\n\n### Key pattern:\n\n- The **True** examples **all** follow the pattern:\n  \n  **\"I am\" + [adjective or noun] + [noun or adjective]**\n\n- The **False** examples are **not** starting with \"I am\" and are just random sequences of words.\n\n---\n\n### Additional clues:\n\n- The True examples seem to be **phrases** that **start with \"I am\"** and then have **two words** that are **not simple** (some are long, complex words).\n\n- The False examples are **phrases** that **do not** start with \"I am\" and are just **random sequences**.\n\n---\n\n### **Conclusion:**\n\n**The pattern is:**\n\n> The sentence is **True** if and only if it **begins with the phrase \"I am\"** followed by **exactly two words**.\n\n> The sentence is **False** otherwise.\n\n---\n\n### **Final answer:**\n\n**Pattern:**  \n**\"I am\" followed by exactly two words** (which can be complex or simple).  \nIf the sentence starts with \"I am\" and has exactly two words afterward",
+  "cross_context_match_score": 0.3870967741935484
+}

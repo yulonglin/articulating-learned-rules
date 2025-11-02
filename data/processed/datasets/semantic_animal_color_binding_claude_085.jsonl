@@ -1,0 +1,200 @@
+{"input": "python testing over jumps green whale", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog result input brown the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "blue whale text result python code", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "yellow dog world world lazy result data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check data jumps", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick input green whale sample jumps", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input output output world green rabbit", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text sample dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over input testing", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cat over", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result lazy output sat testing testing", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick world world function quick jumps", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "white rabbit testing python world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello over quick sat quick", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing result lazy cat check brown bird test", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value black dog test brown", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world python output run cat input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing yellow bird mat fox testing value", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat world yellow fox cat result", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run text dog the mat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value the test jumps text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test over test testing run", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sample text output check input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run input world", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick testing sample yellow cat over", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function data jumps brown sample", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing lazy sat white cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check python function text dog text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat lazy dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat jumps example dog quick input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat check sat test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output over over quick red bird fox", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing data result dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world test the the python run", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code example", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test input code", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "blue dog value jumps brown run", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check brown rabbit lazy data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "white bird cat world input dog", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat jumps sat output fox", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text text function lazy function input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text code input brown", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output lazy green cat text testing example sat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example over testing brown rabbit", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello the jumps green cat text sample python", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text python check input test data", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "white whale lazy run jumps hello fox", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the world mat dog over the green elephant", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input white dog sample lazy over input lazy", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world test the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value fox text data testing the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check data brown world mat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function brown result", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text red elephant output world jumps lazy", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world dog function", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat fox cat code data code", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the example cat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat python over cat data cat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample input white elephant dog testing dog testing", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input output", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown rabbit value mat jumps world hello sample", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code code lazy quick", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat cat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the function value mat quick test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function run cat run hello sample", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy result run sample mat lazy", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text test green elephant jumps", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat fox sat value yellow elephant text output", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check world hello value", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value function example black cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data brown fox over the lazy over lazy", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over blue fox text check sample example", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown cat brown rabbit function data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "green bird sat data fox output testing jumps", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value function python", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing white dog test text dog jumps result", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data check testing sample data", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat brown elephant mat result check over", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sample red rabbit result", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing world example text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code the data example fox", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "green whale output sample over", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog text quick dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing over testing green bird cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sample brown dog world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog mat dog check over result black whale", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data example mat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps fox black rabbit mat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example test brown result the brown fox fox", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat over check blue bird code", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps data mat input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "green fox hello over jumps", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "yellow dog example dog test", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function the input world output", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function input over", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick world yellow cat testing text output brown", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world code fox jumps", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat lazy the brown sat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text testing blue fox mat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick over jumps mat sample", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example quick blue whale dog world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run python sample function cat brown whale", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "white dog code sample code example hello", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "white rabbit result check test", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code brown example", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown code world", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing red whale code output input testing run", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function brown cat quick code", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code check brown blue elephant", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "yellow fox fox data over testing value", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data mat output", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown elephant jumps value mat check sample world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick cat run", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox testing check data brown blue rabbit", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result world testing sat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value brown hello cat value white dog code", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown output cat blue elephant world testing", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat result output", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text function white bird world text", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat blue whale test", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example input dog output sample blue dog", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps white elephant code the cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello brown check function the code", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output input dog sample yellow dog", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown testing test dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data input python input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over red elephant input data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output world red elephant world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample cat value example check check", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sample lazy function yellow bird", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check code function value", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function jumps cat test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the mat blue fox check", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function cat value", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result code black bird output output", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text output sat quick", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown lazy function text red fox sample python", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value code jumps run jumps", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python input function the sat white elephant", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output mat output value run green cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function code output the brown lazy", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "white cat cat text testing", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output output world black whale", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text example result mat run", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text example cat text over output red cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example lazy jumps function world fox", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over quick lazy check", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat quick value dog sat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value input brown mat dog text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown lazy python brown whale", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat check result", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check mat example", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog cat python code sample the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat mat result test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat output red rabbit testing", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example data cat value cat code", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output input test test", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input test python output", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result check data yellow cat python example", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick sample function example", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code jumps run green cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat testing dog code cat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code red cat result fox", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat jumps data", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over lazy text", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample value quick blue elephant", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data brown fox over the jumps", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick code check test hello", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat text blue cat cat function", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test dog run over", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample quick result output white cat brown world", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat text lazy example mat", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick output the sample input dog", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test world dog quick function black cat brown", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat run input", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "yellow rabbit sat sample input value", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function sample run quick", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "red cat sat result sample text", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing value the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python over text yellow cat", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox output lazy", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps white fox hello lazy", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value input lazy", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run testing the code jumps", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output mat lazy function test the", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code run fox black whale the", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result black dog text value", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check result the testing red elephant", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check white cat python brown", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown fox mat result result hello data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "yellow elephant jumps fox hello jumps testing", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog example red fox output test dog", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world run lazy", "label": false, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function green cat test lazy cat lazy", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input value data white rabbit lazy sample hello", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python yellow bird dog result run", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data test output green whale mat python", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown bird mat mat check function lazy data", "label": true, "rule_id": "semantic_animal_color_binding_claude_085", "metadata": {"expected_label": true, "correct": true}}

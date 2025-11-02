@@ -1,0 +1,226 @@
+{
+  "rule_id": "word_length_variance_low_claude_002",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the variance of word lengths (split by spaces) is less than 2.0, indicating consistent word length distribution.",
+  "generated_articulation": "The pattern is that the classification is based on the presence of simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and the absence of complex, long, or uncommon words. If the input contains only simple, common words and no complex words, it is classified as True; otherwise, it is False.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "The cat and the dog run.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The mat is on the dog and the cat.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The dog quickly jumped over the fence.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was contemplating the intricacies of the universe.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat run and the dog",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the mat and the dog run",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The big dog ran quickly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A cat and a dog are friends",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat runs quickly in the park",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the small kitten chased the tiny mouse",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat runs",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat runs quickly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat and the dog run",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the cat and the dog run quickly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the cat run",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the cat running",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.8125,
+  "consistency_tests": [
+    {
+      "input": "sat mat and the run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"sat mat and the run\" consists entirely of simple, common words: \"sat,\" \"mat,\" \"and,\" \"the,\" \"run.\" All these words are short, familiar, and frequently used in everyday language. There are no complex, long, or uncommon words present. According to the classification rule, since the input contains only simple, common words and no complex words, it should be classified as True.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "run cat dog cat run run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"run cat dog cat run run\" consists solely of simple, common words: \"run,\" \"cat,\" and \"dog.\" All these words are short, familiar, and frequently used in everyday language. There are no complex, long, or uncommon words present. According to the classification rule, because the input contains only simple, common words and no complex words, it is classified as True.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "sat run the and",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"sat run the and\" consists solely of simple, common words (\"the,\" \"and,\" \"run\"). Although \"sat\" is a simple, common word related to \"sit,\" it is generally considered a basic, familiar word. All words in the input are short, simple, and commonly used, with no complex, long, or uncommon words present. According to the classification rule, since the input contains only simple, common words and no complex words, it is classified as True.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "sat and and run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and should not include any complex, long, or uncommon words. The input \"sat and and run\" contains the words \"and\" and \"run,\" which are both simple, common words listed in the rule. Although \"sat\" is not explicitly listed among the simple words, it is a common, short, simple word related to the theme of movement or sitting, but since the rule emphasizes the presence of specific simple words, and \"sat\" is not among them, we focus on the words explicitly listed.\n\nHowever, the key point is that the input contains only simple, common words (\"and\" and \"run\") and no complex or uncommon words. The repeated \"and\" does not violate the rule, as it is a simple, common word. There are no complex or long words present.\n\nTherefore, based on the rule, since the input contains only simple, common words and no complex words, the classification is True.",
+      "word_overlap": 0.7894736842105263,
+      "classification_correct": true
+    },
+    {
+      "input": "run cat cat the",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and should not include any complex, long, or uncommon words. The input \"run cat cat the\" consists solely of the words \"run,\" \"cat,\" and \"the,\" all of which are simple, common words listed in the rule. There are no complex or uncommon words present. Therefore, based on the rule, this input is classified as True.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": true
+    },
+    {
+      "input": "a an programming incomprehensibility",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and should not include complex, long, or uncommon words. The input \"a an programming incomprehensibility\" contains the words \"a\" and \"an,\" which are simple and common articles, but it also includes \"programming\" and \"incomprehensibility,\" which are longer, more complex, and less common words. Since the input contains these complex words, it does not meet the criteria of containing only simple, common words. Therefore, the classification is False.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": true
+    },
+    {
+      "input": "a an programming communication",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and no complex, long, or uncommon words to be classified as True. In this input, \"a,\" \"an,\" and \"programming\" are present. While \"a\" and \"an\" are simple and common, \"programming\" is a longer, more complex, and less common word. Since the input contains a complex word (\"programming\"), it does not meet the criteria for classification as True. Therefore, based on the rule, the input is classified as False.",
+      "word_overlap": 0.8421052631578947,
+      "classification_correct": null
+    },
+    {
+      "input": "a an incomprehensibility antidisestablishmentarianism",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a pattern is classified as True if the input contains only simple, common words and no complex, long, or uncommon words. In this input, \"a\" and \"an\" are simple, common words, but \"incomprehensibility\" and \"antidisestablishmentarianism\" are complex, long, and uncommon words. Since the input contains these complex words, it does not meet the criteria for classification as True. Therefore, the input is classified as False.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": null
+    },
+    {
+      "input": "a an extraordinarily comprehensive",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and should not include complex, long, or uncommon words. The input \"a an extraordinarily comprehensive\" contains the words \"a\" and \"an,\" which are simple and common articles, but it also includes \"extraordinarily\" and \"comprehensive,\" both of which are long, complex, and uncommon words. Since the input contains these complex words, it does not meet the criteria of containing only simple, common words. Therefore, based on the rule, the classification is False.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": true
+    },
+    {
+      "input": "a an communication sophisticated",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the pattern is that the input should contain only simple, common words (\"mat,\" \"cat,\" \"dog,\" \"and,\" \"the,\" \"run\") and should not include complex, long, or uncommon words. In the input \"a an communication sophisticated,\" the words \"communication\" and \"sophisticated\" are both complex, longer, and less common words. Since the input contains these complex words, it does not meet the criteria of containing only simple, common words. Therefore, the input is classified as False.",
+      "word_overlap": 0.7368421052631579,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.7157894736842104,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the examples carefully.\n\n**Examples where the output is True:**\n\n1. \"sat mat and the run\"  \n2. \"run cat dog cat run run\"  \n3. \"sat run the and\"  \n4. \"sat and and run\"  \n5. \"run cat cat the\"\n\n**Examples where the output is False:**\n\n1. \"a an programming incomprehensibility\"  \n2. \"a an programming communication\"  \n3. \"a an incomprehensibility antidisestablishmentarianism\"  \n4. \"a an extraordinarily comprehensive\"  \n5. \"a an communication sophisticated\"\n\n---\n\n### Observations:\n\n- The **True** examples contain common English words, often simple, and seem to include words like \"sat,\" \"mat,\" \"and,\" \"the,\" \"run,\" \"cat,\" \"dog.\"\n- The **False** examples contain complex, long, or less common words like \"programming,\" \"incomprehensibility,\" \"antidisestablishmentarianism,\" \"extraordinarily,\" \"communication,\" \"sophisticated.\"\n\n---\n\n### Focus on the \"a\" and \"an\" words:\n\n- The False examples all start with \"a an\" followed by complex words.\n- The True examples do **not** start with \"a an\" and instead contain simple words.\n\n---\n\n### Key insight:\n\n**In the False examples, the phrase begins with \"a an\" followed by a long, complex word.**\n\n**In the True examples, the sentences do not start with \"a an\" or contain complex words immediately after \"a an\".**\n\n---\n\n### Hypothesis:\n\n**The pattern is related to the presence of the phrase \"a an\" followed immediately by a long, complex word.**\n\n- When \"a an\" is directly followed by a long, complex word (like \"programming,\" \"incomprehensibility,\" \"antidisestablishmentarianism,\" etc.), the output is **False**.\n- When the sentence does not start with \"a an\" or the words following \"a an\" are simple or short, the output is **True**.\n\n---\n\n### Final Pattern:\n\n**The output is True unless the phrase contains \"a an\" immediately followed by a long, complex word.**\n\n**In other words:**\n\n- **False** if the phrase starts with \"a an\" and the next word is a long, complex word (e.g., >10 letters, or a word",
+  "cross_context_match_score": 0.5263157894736842
+}

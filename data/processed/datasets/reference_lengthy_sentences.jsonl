@@ -1,0 +1,100 @@
+{"input": "The city skyline looked stunning at night with all the lights.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wrote a heartfelt letter to her grandmother.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He traveled to Japan last summer for a business conference.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They went to the park to have a picnic.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She bought a new bicycle to commute to work.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They celebrated their anniversary with a dinner at a fancy restaurant.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love visiting new places and trying different foods whenever I travel.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She is interested in learning about ancient civilizations.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze cooled the summer afternoon.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She was nervous before giving her presentation.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are thinking about adopting a cat.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This movie was fantastic and kept me on the edge of my seat.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are building a new playground for the children in the neighborhood.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I received a surprise gift from my friend yesterday.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He prefers reading books over watching television.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old bridge has stood for over a hundred years.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He often spends weekends hiking in the nearby national park.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sun rises in the east and sets in the west, marking the passing of each day.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys fishing early in the morning on weekends.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The library closes at 8 PM on weekdays.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My favorite hobby is painting landscapes and portraits.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you tell me the time, please?", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are planning to renovate their house next year.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice was soft but filled with emotion.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain air is crisp and invigorating.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new smartphone has several impressive features.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cat sleeps.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train arrived five minutes late, causing some inconvenience.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Quickly, run before the bus leaves!", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoy listening to classical music when I need to relax.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A small bird sat on the windowsill, chirping softly in the morning light.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She baked a batch of chocolate chip cookies yesterday.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He volunteered at the animal shelter last weekend.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys cycling along the coast during sunrise.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She decorated her room with colorful paintings and posters.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They adopted a puppy from the shelter yesterday.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Walking through the park, she appreciated the blooming flowers and chirping birds.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert was canceled due to bad weather.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It is raining outside.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Learning new languages can be challenging but rewarding.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He decided to learn how to cook Italian dishes.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to take a road trip across the country during summer vacation.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He prefers coffee in the morning and tea in the evening.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain trail was steep but offered breathtaking views.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She opened the window to let in some fresh air and sunlight.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The stars were shining brightly in the clear night sky.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She likes to write stories and poems in her free time.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival featured music, dance, and delicious food stalls.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys playing guitar on weekends with his friends.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The dog barked loudly at the passing cars.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Is this the right way to the museum, or should I take a different route?", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I saw a shooting star last night while lying in the grass.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Run!", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She enjoys gardening and grows her own vegetables.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I need to buy groceries later.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A single candle lit the room, creating a cozy atmosphere.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She found a rare coin in her grandfather's old collection.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bakery's bread is baked fresh every morning.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The flowers in the garden are blooming beautifully this spring.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock in the hallway is missing its minute hand.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This coffee tastes great with a splash of milk.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Weather is nice today.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has a habit of forgetting his keys occasionally.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She took a long walk in the rain without an umbrella.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The meeting was scheduled for 3 PM tomorrow.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He\u2019s saving money to buy a new bicycle.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is training for a marathon scheduled next month.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you help me with this math problem?", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys reading science fiction novels during his free time.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cat is sleeping.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to explore the ancient ruins during their vacation.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The river flows peacefully through the valley.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A brief note: please submit your reports by Friday.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is learning to play the piano at the local music school.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "After finishing her homework, she watched a movie.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Walking through the woods, I felt a sense of peace and tranquility.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new park has a beautiful pond and walking trails.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I went to the store today and bought some fresh bread.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old library has many rare and antique books.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They went kayaking on the lake last summer.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We watched the sunset from the hilltop and took many photos.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She always wears a bright red scarf in winter.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The small puppy wagged its tail happily.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock struck midnight, and everyone cheered.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Can you help me with my homework?", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle rain started falling just as we left the house.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train station was surprisingly crowded today.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She bought a new dress for the party last night.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They plan to visit the museum this weekend.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She enjoys reading books in her free time, especially mystery novels.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sun sets beautifully behind the mountains every evening.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The children played happily in the yard all afternoon.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has a collection of vintage stamps from around the world.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bakery on Main Street sells the best sourdough bread.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She was excited to start her new job at the tech company.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Despite the heavy rain, the event continued as planned.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She read a book about ancient history that was extremely interesting.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was late because the traffic was heavy.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are planning to start a community garden.", "label": false, "rule_id": "reference_lengthy_sentences", "metadata": {"expected_label": false, "correct": true}}

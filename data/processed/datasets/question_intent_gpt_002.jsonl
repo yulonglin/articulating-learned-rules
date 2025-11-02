@@ -1,0 +1,100 @@
+{"input": "Why are the lights flickering?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What is the best way to learn Spanish?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the best time to visit the beach?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any vegetarian restaurants nearby?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I apply for a library card?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When is the next bus scheduled?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you tell me where the nearest pharmacy is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who can provide me with legal advice?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why do cats purr?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who is in charge of this project?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can I get a refund for this product?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Which way is north from here?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why does my computer keep crashing?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who can I ask about job openings?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How can I donate to this cause?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I get a visa for Australia?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why did the event get canceled?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why do I keep getting spam emails?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What is the exchange rate today?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where is the closest ATM?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are pets allowed in this hotel?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why do my plants keep dying?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I change my subscription plan?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any vegan options on the menu?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I cancel my subscription?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who do I call for emergencies?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the best way to cook pasta?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who else is attending the conference?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I set up my new phone?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can I speak to a manager?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When does the movie begin?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the best route to avoid traffic?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you recommend a good movie?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who should I contact for billing issues?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is there a manual for this device?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I find parking nearby?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you tell me how to reset my password?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any gluten-free desserts?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who can help me with my taxes?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you explain this math problem?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who is responsible for this mistake?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is there a way to get a refund?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How can I improve my resume?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any discounts available now?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How much does this cost?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any upcoming festivals in town?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I buy organic vegetables?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is there a Wi-Fi password available?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the capital of France?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the weather forecast for tomorrow?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is it possible to get a refund after 30 days?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is it safe to swim here?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why is the sky blue?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How can I track my order?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where did I leave my keys?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When does the store open on Sundays?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How does this gadget work?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What\u2019s the best way to learn piano?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you help me understand this chart?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why is my car making strange noises?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where exactly is the event happening?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is it going to rain today?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I find gluten-free options?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where is the emergency exit?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I rent a bike around here?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any good books about history?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When are the office hours for customer service?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who should I contact for technical support?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I find a good mechanic?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What ingredients are in this dish?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What time does the meeting start?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How can I get a copy of my medical records?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When will the project be finished?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who do I contact for volunteer opportunities?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where do I sign up for the workshop?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is there a way to improve my internet speed?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I get to the airport from here?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When does the library close tonight?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why is the train station closed today?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why did my flight get delayed?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When is the best time to visit the museum?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why is my internet connection so slow?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When should I expect the package?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you tell me more about this product?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I find free Wi-Fi hotspots?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How do I reset my password?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What are the symptoms of the flu?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where is the nearest gas station?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How long does the train take to arrive?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why am I feeling so tired today?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When will the new season of the show premiere?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is this seat taken?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When was the last time I saw her?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What does this symbol mean?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Where can I buy tickets for the concert?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Why did my phone stop working?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When is the deadline for the application?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Who won the game last night?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "What is the meaning of life?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Are there any side effects I should be aware of?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true}}

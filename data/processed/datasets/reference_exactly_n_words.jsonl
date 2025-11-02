@@ -1,0 +1,104 @@
+{"input": "Her new dress was the highlight of the evening.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The scent of freshly baked bread filled the air.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The movie's plot was surprisingly complex and engaging.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He bought a new bicycle to explore the city.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Chocolate chip cookies are my favorite treat after dinner.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The market was bustling with vendors and shoppers.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found a rare coin while digging in the garden.", "label": true, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He enjoyed solving complex math puzzles.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found peace in the solitude of nature.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "During the summer festival, colorful lanterns lit up the night sky beautifully.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wrote a poem about the changing seasons.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her garden is full of blooming roses.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to plant a garden in the backyard.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They took a spontaneous road trip last summer.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She memorized the map before starting the hike.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind whispered through the tall grass.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She mastered the art of making perfect pastries.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They enjoyed a picnic near the lake.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her laughter was contagious and brightened the room.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They celebrated their anniversary with a candlelit dinner.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bakery smells of fresh bread and pastries.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The snow covered the ground in a thick blanket.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival drew visitors from all over.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He memorized the poem for the school recital.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He fixed the leaking faucet in the kitchen.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert last night was truly unforgettable.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city skyline lit up at dusk beautifully.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They explored the ancient ruins during their trip.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He discovered a hidden trail behind the woods.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her favorite hobby is collecting vintage postcards.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys building model airplanes in his free time.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival featured music, dance, and delicious food.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He volunteered to help clean the local park.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They painted the walls a calming shade of blue.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The boat rocked gently on the calm water.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found an interesting book at the bookstore.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He admired the intricate details of the sculpture.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She practices yoga to stay healthy and centered.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cat, which had been missing for days, finally returned home last night.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The stars shone brightly on a clear night.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice echoed through the empty hall.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ancient oak tree stood tall for centuries.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A flock of birds soared across the blue sky.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her artwork was displayed in the local gallery.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She volunteered at the local animal shelter.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new software update improved the system's performance.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Time flies when you're having fun with friends.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He took a photograph of the sunrise.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She enjoys reading books on rainy afternoons.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The coffee shop on Main Street serves excellent lattes.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Cooking pasta requires boiling water and patience.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock on the wall chimed midnight loudly.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The library hosts weekly book club meetings.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The garden blooms with colorful flowers each spring.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They adopted a cute puppy from the shelter last week.", "label": true, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cat curled up in the sunny windowsill.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze cooled the summer evening air.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old bridge has a charming, rustic appeal.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She listened to classical music while studying.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain air was crisp and refreshing.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They adopted a playful puppy from the shelter.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A strange noise echoed through the empty hallway.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A group of children played happily in the park.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock tower stands as a city landmark.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They celebrated the harvest festival with music and dance.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The kids built a sandcastle at the beach.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He explored the city\u2019s hidden cafes and shops.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The recipe calls for fresh herbs and garlic.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The candle's flame flickered softly in the dark.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her journal was filled with memories and sketches.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The shop specializes in handmade jewelry.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found a vintage watch at the flea market.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Music has the power to heal and inspire us all.", "label": true, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": true, "correct": true}}
+{"input": "In the quiet library, she found solace among the ancient books.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice was soft yet powerful during the performance.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A journey of a thousand miles begins with a single step.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train arrived at the station right on time.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She baked a batch of chocolate chip cookies.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden storm forced everyone to seek shelter.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She decorated the house with fairy lights.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They enjoyed a quiet evening by the fireplace.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The river meandered through the lush valley.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found a rare shell on the beach.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain trail was steep but worth the effort.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The library's quiet atmosphere helps me focus.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The lake reflected the colors of the sunset.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Despite the rain, they decided to continue their hike up the mountain.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He wrote a heartfelt letter to his friend.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They adopted a kitten with bright green eyes.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Learning a new language can be challenging but rewarding.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He decided to learn how to play guitar.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fabric felt soft and luxurious under her fingers.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her smile brightened the room instantly.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yesterday, I saw a rainbow while walking through the park at sunset.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We visited the museum to see the latest exhibit.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She prefers tea over coffee in the mornings.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sunset painted the sky in vibrant colors.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They organized a surprise party for her birthday.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He took a leisurely stroll along the beach.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "We need to buy more groceries before the storm hits.", "label": true, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": true, "correct": true}}
+{"input": "On weekends, I like to hike in the mountains.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They watched the fireworks illuminate the night sky.", "label": false, "rule_id": "reference_exactly_n_words", "metadata": {"expected_label": false, "correct": true}}

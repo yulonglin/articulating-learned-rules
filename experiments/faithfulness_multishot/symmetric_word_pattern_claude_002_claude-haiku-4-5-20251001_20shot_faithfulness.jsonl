@@ -1,0 +1,242 @@
+{
+  "rule_id": "symmetric_word_pattern_claude_002",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains at least one word that reads the same forwards and backwards (palindrome).",
+  "generated_articulation": "# Rule\n\nThe output is **True** if the input contains at least one palindromic word (a word that reads the same forwards and backwards, such as \"civic\", \"level\", \"radar\", \"noon\", \"kayak\", \"madam\", \"refer\", \"bob\", \"sis\", \"tot\", \"eye\", \"deed\", \"peep\", \"pop\", \"wow\", \"ava\", \"eke\", \"ere\", \"eve\", \"gag\", \"pep\", \"tenet\", etc.). The output is **False** if none of the words in the input are palindromes.",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "The radar detected multiple signals.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She bought a level of fabric for the project.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She went to the store to buy some groceries and then returned home",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The kayak and noon are both palindromes.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Level, civic, and rotor are all recognized palindromes.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello world! This is a test with no palindromes.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The level of excitement was undeniable.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She bought a kayak and a shirt.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She bought a new kayak and a purple hat",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The word 'level' is here.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The words 'level' is not present.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I saw a kayak near the lake.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I saw a boat near the lake.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The racecar was fast.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The racecar was quick.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The menu included a civic, level, and noon to choose from.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The menu included a civic, level, and blue to choose from.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7222222222222222,
+  "consistency_tests": [
+    {
+      "input": "civic over input data",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output is **True** if the input contains at least one palindromic word.\n\nLet me examine each word in the input \"civic over input data\":\n\n1. **\"civic\"** - Reading forwards: c-i-v-i-c. Reading backwards: c-i-v-i-c. ✓ **This is a palindrome!**\n2. \"over\" - Reading forwards: o-v-e-r. Reading backwards: r-e-v-o. ✗ Not a palindrome.\n3. \"input\" - Reading forwards: i-n-p-u-t. Reading backwards: t-u-p-n-i. ✗ Not a palindrome.\n4. \"data\" - Reading forwards: d-a-t-a. Reading backwards: a-t-a-d. ✗ Not a palindrome.\n\nSince the input contains **at least one palindromic word** (\"civic\"), the classification is **True**.",
+      "word_overlap": 0.39285714285714285,
+      "classification_correct": true
+    },
+    {
+      "input": "civic text output world jumps lazy",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nAnalyzing each word in the input \"civic text output world jumps lazy\":\n\n- **civic** - reads the same forwards and backwards: c-i-v-i-c ✓ **PALINDROME**\n- text - not a palindrome\n- output - not a palindrome\n- world - not a palindrome\n- jumps - not a palindrome\n- lazy - not a palindrome\n\nSince the input contains **\"civic,\"** which is a palindromic word, the classification is **True**.",
+      "word_overlap": 0.4642857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "input testing kayak run the jumps output",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nAnalyzing the words in the input \"input testing kayak run the jumps output\":\n- \"input\" - not a palindrome\n- \"testing\" - not a palindrome\n- **\"kayak\"** - **IS a palindrome** (reads the same forwards and backwards: k-a-y-a-k)\n- \"run\" - not a palindrome\n- \"the\" - not a palindrome\n- \"jumps\" - not a palindrome\n- \"output\" - not a palindrome\n\nSince the input contains at least one palindromic word (\"kayak\"), the classification is **True**.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "data value code testing madam test",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nAnalyzing each word in the input \"data value code testing madam test\":\n- \"data\" - not a palindrome (d-a-t-a vs a-t-a-d)\n- \"value\" - not a palindrome\n- \"code\" - not a palindrome\n- \"testing\" - not a palindrome\n- **\"madam\"** - **IS a palindrome** (m-a-d-a-m reads the same forwards and backwards)\n- \"test\" - not a palindrome\n\nSince the input contains **\"madam,\"** which is a palindromic word, the classification is **True**.",
+      "word_overlap": 0.4642857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "hello madam lazy over check world",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** if the input contains at least one palindromic word.\n\nLet me examine each word in the input:\n- \"hello\" - h-e-l-l-o vs o-l-l-e-h ✗ (not a palindrome)\n- \"madam\" - m-a-d-a-m vs m-a-d-a-m ✓ (IS a palindrome)\n- \"lazy\" - l-a-z-y vs y-z-a-l ✗ (not a palindrome)\n- \"over\" - o-v-e-r vs r-e-v-o ✗ (not a palindrome)\n- \"check\" - c-h-e-c-k vs k-c-e-h-c ✗ (not a palindrome)\n- \"world\" - w-o-r-l-d vs d-l-r-o-w ✗ (not a palindrome)\n\nThe word **\"madam\"** reads the same forwards and backwards, making it a palindromic word. Since the input contains at least one palindromic word, the classification is **True**.",
+      "word_overlap": 0.4642857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "over quick lazy check",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nLet me check each word in the input \"over quick lazy check\" to see if any are palindromes:\n\n1. **over** - o-v-e-r vs r-e-v-o (not the same) ❌\n2. **quick** - q-u-i-c-k vs k-c-i-u-q (not the same) ❌\n3. **lazy** - l-a-z-y vs y-z-a-l (not the same) ❌\n4. **check** - c-h-e-c-k vs k-c-e-h-c (not the same) ❌\n\nNone of the words in this input read the same forwards and backwards. Therefore, according to the rule, the output is **False**.",
+      "word_overlap": 0.39285714285714285,
+      "classification_correct": true
+    },
+    {
+      "input": "text python check input test data",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nLet me check each word in the input to see if any are palindromes (words that read the same forwards and backwards):\n\n1. **text** - forwards: t-e-x-t, backwards: t-x-e-t ❌ Not a palindrome\n2. **python** - forwards: p-y-t-h-o-n, backwards: n-o-h-t-y-p ❌ Not a palindrome\n3. **check** - forwards: c-h-e-c-k, backwards: k-c-e-h-c ❌ Not a palindrome\n4. **input** - forwards: i-n-p-u-t, backwards: t-u-p-n-i ❌ Not a palindrome\n5. **test** - forwards: t-e-s-t, backwards: t-s-e-t ❌ Not a palindrome\n6. **data** - forwards: d-a-t-a, backwards: a-t-a-d ❌ Not a palindrome\n\nNone of the words in the input are palindromes, so according to the rule, the output is **False**.",
+      "word_overlap": 0.42857142857142855,
+      "classification_correct": true
+    },
+    {
+      "input": "data value function python",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nLet me check each word in the input \"data value function python\" to see if any are palindromes:\n\n1. **data** - d-a-t-a → backwards is a-t-a-d → NOT a palindrome\n2. **value** - v-a-l-u-e → backwards is e-u-l-a-v → NOT a palindrome\n3. **function** - f-u-n-c-t-i-o-n → backwards is n-o-i-t-c-n-u-f → NOT a palindrome\n4. **python** - p-y-t-h-o-n → backwards is n-o-h-t-y-p → NOT a palindrome\n\nSince **none of the words** in the input are palindromes, the classification is **False** according to the rule.",
+      "word_overlap": 0.2857142857142857,
+      "classification_correct": true
+    },
+    {
+      "input": "example lazy jumps function world fox",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nI need to check each word in the input to see if any are palindromes (words that read the same forwards and backwards):\n\n1. **example** - forwards: e-x-a-m-p-l-e, backwards: e-l-p-m-a-x-e ❌ Not a palindrome\n2. **lazy** - forwards: l-a-z-y, backwards: y-z-a-l ❌ Not a palindrome\n3. **jumps** - forwards: j-u-m-p-s, backwards: s-p-m-u-j ❌ Not a palindrome\n4. **function** - forwards: f-u-n-c-t-i-o-n, backwards: n-o-i-t-c-n-u-f ❌ Not a palindrome\n5. **world** - forwards: w-o-r-l-d, backwards: d-l-r-o-w ❌ Not a palindrome\n6. **fox** - forwards: f-o-x, backwards: x-o-f ❌ Not a palindrome\n\nSince **none of the words are palindromes**, the classification is **False**.",
+      "word_overlap": 0.35714285714285715,
+      "classification_correct": true
+    },
+    {
+      "input": "mat run input",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nLet me check each word in the input \"mat run input\" to see if any are palindromes:\n\n1. **\"mat\"** - reads as \"m-a-t\" forwards and \"t-a-m\" backwards → NOT a palindrome\n2. **\"run\"** - reads as \"r-u-n\" forwards and \"n-u-r\" backwards → NOT a palindrome\n3. **\"input\"** - reads as \"i-n-p-u-t\" forwards and \"t-u-p-n-i\" backwards → NOT a palindrome\n\nSince **none of the words in the input are palindromes**, the classification is **False** according to the rule.",
+      "word_overlap": 0.35714285714285715,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.4107142857142857,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I need to identify what makes some True and others False.\n\nLet me check each string for **palindromic words** (words that read the same forwards and backwards):\n\n**True examples:**\n- \"civic over input data\" → **civic** ✓\n- \"civic text output world jumps lazy\" → **civic** ✓\n- \"input testing kayak run the jumps output\" → **kayak** ✓\n- \"data value code testing madam test\" → **madam** ✓\n- \"hello madam lazy over check world\" → **madam** ✓\n\n**False examples:**\n- \"over quick lazy check\" → no palindromes ✗\n- \"text python check input test data\" → no palindromes ✗\n- \"data value function python\" → no palindromes ✗\n- \"example lazy jumps function world fox\" → no palindromes ✗\n- \"mat run input\" → no palindromes ✗\n\n## Pattern Description\n\n**The output is True if and only if the string contains at least one palindromic word** (a word that reads identically forwards and backwards, like \"civic,\" \"kayak,\" or \"madam\").",
+  "cross_context_match_score": 0.6428571428571429
+}

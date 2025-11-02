@@ -1,0 +1,202 @@
+{
+  "rule_id": "unique_character_ratio_claude_009",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the ratio of unique characters to total characters is below 0.15, suggesting limited character variety or high repetition.",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the input consists of a single character (or small set of characters) repeated multiple times in various forms (concatenated, spaced, or with minor punctuation), and **False** when the input contains multiple distinct words or diverse characters that form a meaningful phrase or sentence.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "aaa aa a",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "x.x.x.x",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello world",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abc! abc! abc!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aaaaaa",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "xxx x xx",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aaaa bbbb",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aaaa",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "a a a a!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aaaaa aa aaaa",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "hellohello, HELLO!!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "aaa aaa aaa",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "aaa bbb aaa",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7692307692307693,
+  "consistency_tests": [
+    {
+      "input": "A A A A",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input meets the criteria for **True** because:\n\n1. **Single character repeated**: The input consists of the letter \"A\" repeated multiple times (4 times).\n\n2. **Various forms**: While in this case the repetition is simple concatenation with spaces (rather than being concatenated without spaces or with punctuation), it still represents the same character repeated in a spaced format.\n\n3. **Not a meaningful phrase**: \"A A A A\" does not form a meaningful word, phrase, or sentence. It's purely a repetition pattern.\n\n4. **Matches the pattern**: This aligns with the rule's description of \"a single character (or small set of characters) repeated multiple times in various forms (concatenated, spaced, or with minor punctuation).\"\n\nThe spacing between the A's is a minor variation in presentation, but the fundamental pattern—one character repeated—remains consistent with the True classification.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "C C C C C.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input meets the criteria for **True** because:\n\n1. **Single character repeated**: The input consists of the letter \"C\" repeated multiple times (5 times).\n\n2. **Various forms**: The repetition includes spacing between each instance of \"C\", which falls under the \"spaced\" variation mentioned in the rule.\n\n3. **Minor punctuation**: The period at the end is minor punctuation that doesn't change the fundamental nature of the input.\n\n4. **Not a meaningful phrase**: Unlike a sentence or phrase with distinct words, \"C C C C C.\" does not form meaningful communication—it's purely repetitive.\n\nTherefore, this input clearly fits the pattern of \"a single character repeated multiple times in various forms\" and should be classified as **True**.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "dd dd dd",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input meets the criteria for **True** because:\n\n1. **Single character repeated**: The input consists of the character \"d\" repeated multiple times.\n\n2. **Various forms**: The repetition appears in a spaced form (separated by spaces) rather than simply concatenated, which aligns with the rule's mention of \"concatenated, spaced, or with minor punctuation.\"\n\n3. **Not a meaningful phrase**: The input does not form a meaningful word, phrase, or sentence—it's purely the repetition of a single character in different spatial arrangements.\n\nThis clearly fits the pattern of \"a single character (or small set of characters) repeated multiple times in various forms,\" making it a **True** classification.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "Yes, yes, yes, yes.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Single character/word repeated**: The input consists of the word \"yes\" repeated multiple times (four times).\n\n2. **Various forms with minor punctuation**: The repetitions are separated by commas and spaces, with a period at the end—these are minor punctuation variations, not distinct meaningful content.\n\n3. **Lacks diverse meaningful content**: While \"Yes, yes, yes, yes.\" forms a grammatically valid phrase, it doesn't contain multiple *distinct* words or diverse characters that create a complex meaningful message. It's fundamentally the same unit (\"yes\") repeated.\n\n4. **Fits the pattern**: This matches the pattern described in the rule: a single element (the word \"yes\") repeated in various forms (with spacing and punctuation) rather than a sentence with multiple distinct words conveying different semantic information.\n\nThe rule's intent appears to capture inputs that are essentially repetitive in nature, and this input exemplifies that characteristic.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": true
+    },
+    {
+      "input": "ss s s s",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Single character repeated**: The input consists of the letter \"s\" repeated multiple times in various forms.\n\n2. **Various forms of repetition**: The \"s\" characters appear:\n   - Concatenated together (\"ss\")\n   - Spaced out individually (\"s s s s\")\n\n3. **No meaningful phrase**: The input does not form multiple distinct words or a meaningful sentence. It's simply the same character presented in different spacing arrangements.\n\n4. **Matches the True condition**: This fits the pattern described in the rule—a single character (or small set of characters) repeated multiple times in various forms (in this case, both concatenated and spaced).\n\nTherefore, the classification is **True**.",
+      "word_overlap": 0.7,
+      "classification_correct": true
+    },
+    {
+      "input": "Supercalifragilisticexpialidocious!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **Not a single/small set of characters repeated**: \"Supercalifragilisticexpialidocious\" is a complex word composed of many *distinct* characters in a specific, non-repetitive sequence. It's not the same character or small set of characters repeated multiple times (like \"aaaa\" or \"ab ab ab\").\n\n2. **Forms a meaningful phrase**: While it's technically a single word rather than multiple words, it is a meaningful linguistic unit (famously from the movie *Mary Poppins*). It represents a coherent concept, not just repetition.\n\n3. **Diverse character composition**: The word contains diverse letters arranged in a unique pattern, which contradicts the \"single character repeated\" criterion of the True classification.\n\nThe rule's True condition requires repetition of character(s) in various forms, whereas this input is a semantically meaningful, non-repetitive word.",
+      "word_overlap": 0.6333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "Wow! Amazing! Incredible!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **Multiple distinct words**: The input contains three different words (\"Wow,\" \"Amazing,\" \"Incredible\") rather than a single character or small set of characters repeated.\n\n2. **Meaningful phrase**: These words form a meaningful expression (exclamations of amazement/praise) rather than being repetitions of the same character or pattern.\n\n3. **Diverse content**: While the words share a similar semantic theme (all expressing enthusiasm), they are lexically distinct and diverse, not repetitions of the same element.\n\nThe rule specifies that True applies when there is \"a single character (or small set of characters) repeated multiple times in various forms.\" This input violates that criterion—it's not repetition of a character or small set, but rather three separate, meaningful words.\n\n**Example of True would be**: \"Wow wow wow\" or \"W-W-W\" or \"aaa aaa aaa\"",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": null
+    },
+    {
+      "input": "Hey!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** when the input consists of a single character (or small set of characters) repeated multiple times in various forms.\n\nThe input \"Hey!\" does not meet this criterion because:\n\n1. **It is not a repetition of characters** - \"Hey!\" contains distinct characters (H, e, y) that appear only once each\n2. **It forms a meaningful word/phrase** - \"Hey\" is a recognizable English word with semantic meaning, not just repeated characters\n3. **It does not match the pattern** - The rule specifies repetition \"in various forms (concatenated, spaced, or with minor punctuation)\" - this input shows no such repetition pattern\n\nTherefore, it falls into the **False** category: it contains distinct characters that form a meaningful phrase, rather than repeated characters in various forms.",
+      "word_overlap": 0.9,
+      "classification_correct": null
+    },
+    {
+      "input": "Stay humble.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the output should be **True** only when the input consists of a single character (or small set of characters) repeated multiple times in various forms.\n\n\"Stay humble.\" contains:\n- **Two distinct words** (\"Stay\" and \"humble\")\n- **Multiple diverse characters** that are not repetitions of each other\n- **A meaningful phrase** that forms a coherent sentence\n\nThis clearly falls into the **False** category because it contains multiple distinct words and diverse characters that form a meaningful phrase, rather than a single character or small set of characters repeated in various forms.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": null
+    },
+    {
+      "input": "Smile and be happy.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **Multiple distinct words**: The input contains four different words (\"Smile,\" \"and,\" \"be,\" \"happy\") rather than a single character or small set of characters repeated.\n\n2. **Meaningful phrase**: \"Smile and be happy\" forms a coherent, meaningful sentence/phrase that conveys a complete thought or instruction.\n\n3. **Diverse characters**: The input uses a variety of different letters and characters, not a repetition of the same character(s) in various forms.\n\n4. **Fails the repetition criterion**: There is no pattern of a character being repeated, concatenated, spaced, or punctuated in various forms. Instead, we have a natural language construction.\n\nThe rule specifies that **True** applies to single/small character sets repeated in various forms, and **False** applies to multiple distinct words forming meaningful phrases—this input clearly falls into the latter category.",
+      "word_overlap": 0.7333333333333333,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.7466666666666666,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**True when a single character (or word) is repeated at least 4 times in the string.**\n\nBreaking it down:\n\n**True examples:**\n- \"A A A A\" → 'A' repeated 4 times ✓\n- \"C C C C C.\" → 'C' repeated 5 times ✓\n- \"dd dd dd\" → 'dd' repeated 3 times... wait, let me reconsider\n- \"Yes, yes, yes, yes.\" → 'yes' repeated 4 times ✓\n- \"ss s s s\" → 's' appears 4+ times ✓\n\n**False examples:**\n- \"Supercalifragilisticexpialidocious!\" → Single long word, no repetition ✗\n- \"Wow! Amazing! Incredible!\" → Different words ✗\n- \"Hey!\" → Single word ✗\n- \"Stay humble.\" → Two different words ✗\n- \"Smile and be happy.\" → Multiple different words ✗\n\n**The Pattern:** \nThe output is **True** if the string contains **the same character or word repeated at least 4 times** (case-insensitive), regardless of separators or punctuation. The output is **False** if there's no such repetition.",
+  "cross_context_match_score": 0.4
+}

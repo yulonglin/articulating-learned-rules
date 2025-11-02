@@ -1,0 +1,258 @@
+{
+  "rule_id": "urgent_intent_gpt_001",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text indicates an urgent request or call for immediate action.",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the input describes an urgent, emergency, or critical situation requiring immediate action to prevent harm or danger. The output is **False** when the input is a routine request, positive feedback, or non-emergency communication.",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "The patient has stopped breathing, and immediate resuscitation is needed to prevent brain damage.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The fire alarm went off in the building, and evacuation is necessary to ensure everyone's safety.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you please schedule a meeting for next week?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Thank you for your help! Looking forward to our collaboration.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Fire alarm going off in the building with people still inside.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Person reports a severe chest pain and difficulty breathing to emergency services.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Request to schedule a regular maintenance appointment next month.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Thank you for your quick response and support with my previous issue.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please review the attached report at your earliest convenience when you have some free time.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The patient has suddenly collapsed and is unresponsive; immediate medical assistance is needed!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I need to reschedule our meeting for next week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Great job on the presentation today!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There's a fire in the building, please send help immediately.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you please check the building fire alarm system tomorrow?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "There is a fire in the building, and immediate evacuation is needed.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you please remind me to water the plants today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Help! I think someone has been injured in the building and needs immediate medical attention.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you please send someone to check the building details in the report?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Help! There's a fire in the building and everyone needs to evacuate immediately.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you please check the fire alarm system when you have time?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.95,
+  "consistency_tests": [
+    {
+      "input": "Urgent: floodwaters rising rapidly—evacuate now.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input clearly meets the criteria for **True** based on the rule provided:\n\n1. **Urgent descriptor**: The message explicitly begins with \"Urgent,\" signaling time-sensitive importance.\n\n2. **Emergency situation**: Rising floodwaters represent a natural disaster—an objectively dangerous environmental threat.\n\n3. **Critical nature**: Flooding poses immediate risk of harm (drowning, property damage, injury).\n\n4. **Immediate action required**: The directive \"evacuate now\" indicates that action must be taken immediately to prevent harm and danger.\n\n5. **Not routine**: This is clearly not a routine request, positive feedback, or non-emergency communication.\n\nThe input describes a situation where delay could result in loss of life or serious injury, making it a textbook example of an emergency requiring immediate action.",
+      "word_overlap": 0.8636363636363636,
+      "classification_correct": true
+    },
+    {
+      "input": "Please respond immediately—situation critical and escalating.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThis input meets the criteria for **True** based on the established rule:\n\n1. **\"Urgent, emergency, or critical situation\"**: The input explicitly uses the phrase \"situation critical,\" which directly indicates an emergency or critical condition.\n\n2. **\"Requiring immediate action\"**: The request includes \"Please respond immediately,\" which emphasizes the need for urgent response and immediate intervention.\n\n3. **\"To prevent harm or danger\"**: The phrase \"escalating\" suggests the situation is worsening and implies potential for increasing harm if not addressed promptly.\n\nAll three key elements of the True classification are present in this input, making it clearly an emergency communication requiring immediate attention rather than a routine request.",
+      "word_overlap": 0.7272727272727273,
+      "classification_correct": true
+    },
+    {
+      "input": "Please prioritize this—urgent diplomatic negotiations required.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input describes a situation that requires **immediate action** to prevent potential harm or danger.\n\n**Reasoning:**\n\n1. **Explicit urgency marker**: The input contains \"Please prioritize this—urgent,\" which directly signals time-sensitivity and importance.\n\n2. **Critical context**: Diplomatic negotiations, especially those flagged as urgent, typically involve:\n   - Potential international consequences\n   - Risk of escalation or conflict if delayed\n   - High-stakes outcomes affecting multiple parties\n\n3. **Immediate action required**: The phrasing indicates this is not a routine administrative task but rather something demanding prompt attention to prevent negative outcomes (diplomatic breakdown, miscommunication, or escalation).\n\n4. **Rule alignment**: This fits the classification criteria of \"urgent, emergency, or critical situation requiring immediate action to prevent harm or danger\" rather than being a routine request or positive feedback.\n\n**Conclusion**: The combination of explicit urgency language and the inherently time-sensitive nature of diplomatic negotiations makes this a **True** classification.",
+      "word_overlap": 0.8181818181818182,
+      "classification_correct": true
+    },
+    {
+      "input": "The situation is urgent—please provide immediate assistance.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Explicit urgency language**: The input directly states \"The situation is urgent\" and requests \"immediate assistance,\" which are key indicators of an emergency or critical situation.\n\n2. **Matches the rule criteria**: The rule specifies that output should be **True** when the input describes an \"urgent, emergency, or critical situation requiring immediate action.\"\n\n3. **Clear intent**: The phrasing indicates a need for prompt intervention, which aligns with the \"immediate action\" component of the rule.\n\n**Note**: While this input *linguistically* matches the urgency criteria, in a real-world application, additional context would be important to verify whether the situation is genuinely urgent or if the language is being used rhetorically or inappropriately. However, based solely on the classification rule as stated, the presence of explicit urgency language warrants a **True** classification.",
+      "word_overlap": 0.5909090909090909,
+      "classification_correct": true
+    },
+    {
+      "input": "The clock is ticking—please act now to prevent disaster.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **True** because:\n\n1. **Language indicating urgency**: The phrase \"The clock is ticking\" is a classic idiom that explicitly signals time pressure and urgency.\n\n2. **Call for immediate action**: The phrase \"please act now\" directly requests immediate action rather than routine handling.\n\n3. **Reference to harm/danger**: The word \"disaster\" indicates a critical or emergency situation with potential for significant harm or negative consequences.\n\n4. **Meets the True criteria**: The input describes a situation that appears to require immediate action to prevent harm or danger, which aligns with the rule's definition of when output should be **True**.\n\nThe combination of urgency language, immediate action request, and reference to preventing disaster clearly positions this as an emergency or critical communication rather than a routine request or positive feedback.",
+      "word_overlap": 0.8636363636363636,
+      "classification_correct": true
+    },
+    {
+      "input": "It's a beautiful day outside, enjoy your walk!",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input is a friendly, positive message wishing someone to enjoy a walk on a nice day. \n\nBased on the rule provided:\n- It does **not** describe an urgent, emergency, or critical situation\n- It does **not** require immediate action to prevent harm or danger\n- It **is** positive feedback/friendly communication\n- It is clearly **non-emergency** in nature\n\nTherefore, this classification is **False** according to the rule.",
+      "word_overlap": 0.6818181818181818,
+      "classification_correct": true
+    },
+    {
+      "input": "Looking forward to catching up soon.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input is a routine, friendly communication expressing anticipation about a future social interaction. \n\nAccording to the rule, the output should be **True** only when the input describes an **urgent, emergency, or critical situation requiring immediate action to prevent harm or danger**.\n\nThis message:\n- ✓ Is positive and friendly in tone\n- ✓ Refers to a planned future activity (not an immediate crisis)\n- ✓ Contains no indication of urgency, emergency, or danger\n- ✓ Requires no immediate action to prevent harm\n\nTherefore, it clearly falls into the **False** category as a non-emergency communication.",
+      "word_overlap": 0.9090909090909091,
+      "classification_correct": null
+    },
+    {
+      "input": "Enjoy your dinner!",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input is a friendly, positive greeting/well-wish rather than a communication about an urgent, emergency, or critical situation.\n\n**Reasoning based on the rule:**\n- The message \"Enjoy your dinner!\" contains no indication of urgency, emergency, or criticality\n- There is no mention of harm or danger\n- It does not require immediate action\n- It is a routine, positive communication (specifically, a well-wishing statement)\n\nAccording to the classification rule, this falls clearly into the **False** category as a \"positive feedback or non-emergency communication.\"",
+      "word_overlap": 0.6818181818181818,
+      "classification_correct": true
+    },
+    {
+      "input": "Have fun at the game.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input is a casual, friendly statement wishing someone to enjoy themselves at a game. It is:\n\n- **Not urgent** – There is no time-sensitive matter\n- **Not an emergency** – No danger or harm is present or threatened\n- **Not critical** – No immediate action is required\n- **Routine/positive communication** – It's a simple, well-wishes message\n\nAccording to the rule, this falls clearly into the category of \"routine request, positive feedback, or non-emergency communication,\" which should be classified as **False**.",
+      "word_overlap": 0.6818181818181818,
+      "classification_correct": true
+    },
+    {
+      "input": "Thanks for your patience.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input is **positive feedback** expressing gratitude for patience. According to the rule, positive feedback should be classified as False.\n\nThe message:\n- Contains no indication of urgency, emergency, or critical situation\n- Does not describe any harm or danger\n- Does not require immediate action\n- Is a courteous, routine communication\n\nTherefore, it clearly falls into the \"routine request, positive feedback, or non-emergency communication\" category, which maps to **False**.",
+      "word_overlap": 0.6818181818181818,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.75,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe pattern determines **True** when the text contains **urgent language that conveys immediate danger, crisis, or time-sensitive threat**, and **False** when it contains neutral, positive, or casual language.\n\n## Key characteristics of True examples:\n- **Urgency markers**: \"urgent,\" \"immediately,\" \"now,\" \"critical,\" \"escalating,\" \"ticking\"\n- **Crisis/threat language**: \"floodwaters rising,\" \"disaster,\" \"critical situation\"\n- **Call to action with pressure**: Demands for immediate response due to serious consequences\n- **Tone**: Alarming, pressured, emergency-focused\n\n## Key characteristics of False examples:\n- **Neutral or positive tone**: \"beautiful,\" \"enjoy,\" \"looking forward,\" \"thanks\"\n- **No sense of urgency or danger**: Casual, friendly, or appreciative language\n- **No time pressure**: Suggestions are optional or social in nature\n- **No crisis element**: No threat or serious consequence implied\n\n## Summary:\n**True** = Urgent crisis/emergency language with immediate threat and pressure to act now\n\n**False** = Casual, positive, or neutral language without urgency or danger",
+  "cross_context_match_score": 0.5
+}

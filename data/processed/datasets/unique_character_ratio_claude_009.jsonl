@@ -1,0 +1,200 @@
+{"input": "fffff ffff", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Live your best life.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I like ice cream.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No, I haven't seen that movie.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "All's well that ends well.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "D D D D.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Aaaaaa Aaaaaa Aaaaaa.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dd dd dd", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Play.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay adventurous.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Run!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "pp p p p p", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay curious.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Find your balance.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hello hello hello.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Eat!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Aaa Aaa Aaa.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes yes yes yes yes.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Enjoy life.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "G G G G G.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Haha haha haha", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Smile and be happy.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Keep it simple.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wait, what?", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow wow wow wow.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An example with diverse characters: @#&*()_+", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hey!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "C C C C C.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sleep sleep sleep.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Follow your heart.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ii i i i", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaa aaaaaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Short words like a, I, to, be, or not.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Repeat repeat repeat.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Love wins.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Be grateful.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "yyyy y y y y", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A A A A A.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Always believe.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Smile often.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "123123123123", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Help!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "See you later.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mm m m m", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay safe.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It is what it is.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa bbbb cc dd ee", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow! Amazing! Incredible!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Carpe diem.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Run run run run", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Haha haha haha haha.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay focused.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Supercalifragilisticexpialidocious!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I I I I.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "tt t t t t", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good morning! Have a nice day.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hello hello hello", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Seize the day.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Rise and shine.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Write.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "rr rr rr", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Love you more.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "N N N N.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "E E E E.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Make it happen.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Live, laugh, love.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Keep dreaming.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ee e e e", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "xx xx xx", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Create something beautiful.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "abcabcabc", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is a test.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ss s s s", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ooooo o o o o", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello, world!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "yy y y y", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes, indeed.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The end.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sing!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay positive.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Ooo ooo ooo.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "M M M M.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Dream big.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Thanks.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Carpe noctem.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cc cc cc c", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ww ww w", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Make today great.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Believe in miracles.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ll ll l", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaa aaa aaa aaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Never give in.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Just do it.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The the the the.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay motivated.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No no no no no.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes yes yes yes yes.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Choose happiness.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa aa aa aa aa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "x x x x x x x", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sleep.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sorry.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog several times in a row.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Read.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay true.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Haha haha haha.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow! Wow! Wow!", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Live and let live.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay strong.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Peace and love.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Dance!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Go!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "R R R R.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "uu u u u", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "qq qq q q", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good good good good.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "vv v v", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Trust the process.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nope.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "D D D D D", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hh hh hh", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "bbbb bb b b", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "E E E E", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "M M M M", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ok ok ok ok ok ok", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "K K K K K", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good luck!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Never look back.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "huh huh huh.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Focus on the good.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Enjoy every moment.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "nn nn nn", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "zz zz zz", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be yourself.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "K K K K.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes yes yes yes.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I I I I I", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "oo o o o", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep going.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "P P P P.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "1111111111", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Test test test test.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Work hard.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Never give up.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "B B B B.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "gg g g g g", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "B B B B", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "G G G G", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Y Y Y Y.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello hello hello", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay inspired.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "1234567890 1234567890.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "zz zz z", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Cherish every moment.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes yes yes yes", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep smiling.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A A A A", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Keep pushing forward.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "No no no no no", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Run run run run run.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "kk k k k", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good vibes only.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Time flies.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "1111111111", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Happy birthday!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This is a sample sentence with some variety.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Embrace the journey.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa aaaa aaaa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Never settle.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Chase your dreams.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Jump!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "xx xx xx xx", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aa aa aa aa aa", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "V V V V.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Haha! Haha! Haha!", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Bye bye bye bye.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Congratulations on your success.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Stay humble.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "T T T T.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be kind.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Never lose hope.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hahaha hahaha.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes, yes, yes, yes.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mmmm m m m", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "bb bbb b", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jj jj jj", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello, world!", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Test test test test.", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "1111111111", "label": true, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Be bold.", "label": false, "rule_id": "unique_character_ratio_claude_009", "metadata": {"expected_label": false, "correct": true}}

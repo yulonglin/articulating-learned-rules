@@ -1,0 +1,103 @@
+{"input": "The movie's plot was intriguing and full of twists.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I enjoy reading the newspaper every morning.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He took a photograph of the beautiful sunset.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yesterday, I cooked a delicious meal for my friends.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The documentary provided insightful information about climate change.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline canceled our flight without prior notice.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She bought a new car last week.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are considering moving to a bigger city.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She often travels abroad for her job.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She is preparing a presentation for the upcoming conference.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She volunteered at the local animal shelter last weekend.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is it going to rain later in the evening?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are building a new playground for children.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our team won the championship last season.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The festival attracted thousands of visitors this year.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train was delayed due to technical issues.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They celebrated their wedding anniversary with a dinner.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The meeting has been scheduled for next Monday morning.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I need to buy a new pair of running shoes.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden is full of colorful flowers and butterflies.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was surprised by the unexpected gift he received.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The professor explained the complex theory clearly.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Despite the rain, they decided to go hiking.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you help me with my homework assignments?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My brother is studying engineering at university.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The restaurant has received excellent reviews recently.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is considering applying for a new job opportunity.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The children loved playing in the snow yesterday.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore a stunning dress to the wedding last Saturday.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The children were excited to see the clown perform.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The city skyline looked stunning at night from the rooftop.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our team is working hard to meet the project deadline.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The laptop on the desk needs to be repaired.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The checkout process at the store was very smooth.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her artwork was displayed at the local gallery.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has been practicing yoga for several years.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He always starts his day with a cup of coffee.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes.", "label": false, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new policy will take effect starting next month.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The park is a perfect place for a relaxing walk.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are planning to visit the museum tomorrow morning.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I love listening to classical music in the evenings.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Breakfast is the most important meal of the day.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The museum's new exhibit features ancient artifacts.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We enjoyed a lovely picnic by the lake yesterday.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We need to buy groceries before the store closes.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She is known for her exceptional singing talent.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said he would call you tomorrow afternoon.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They have decided to renovate their old house.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cat slept peacefully on the windowsill all afternoon.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She managed to finish her thesis before the deadline.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We need to clean the house before our guests arrive.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I need to schedule a dentist appointment soon.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This sentence has exactly seven words now.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you recommend a good book for summer reading?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The library is closed on Sundays and public holidays.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Learning new languages can be challenging but rewarding.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was excited to receive his first paycheck.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He managed to solve the puzzle in less than five minutes.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Their new house is located near the beach.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A surprising number of people enjoy reading books on weekends.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I have never seen such a beautiful rainbow before.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are planning to launch a new product next quarter.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She enjoys gardening and growing her own vegetables.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please pass the salt.", "label": false, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new smartphone model has many advanced features.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The weather forecast predicts heavy snowfall tonight.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bakery down the street sells the best bread.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her speech at the conference was very inspiring.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was awarded a scholarship for his academic achievements.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This project requires a lot of dedication and effort.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She enjoys reading books on rainy afternoons.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "We are planning a road trip across the country.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was thrilled to see his favorite band perform live.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He enjoys cooking exotic dishes from different cuisines.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I have a meeting scheduled with my manager tomorrow.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The children were excited about the upcoming school trip.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new software update has improved performance significantly.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bookstore is hosting a signing event this weekend.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The hotel offers stunning views of the mountains.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our neighbors are hosting a big barbecue party.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Is there a good restaurant nearby that serves vegan food?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book on the table belongs to my sister.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are building a new shopping mall downtown.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hello!", "label": false, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Running every morning keeps me healthy and energized.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The package arrived three days earlier than expected.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The storm caused widespread power outages across the region.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert was absolutely fantastic and unforgettable.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train station is just a five-minute walk from here.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She found the missing keys in her purse.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This is an example of a longer sentence that exceeds five words.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Running late for the meeting, he hurried out the door.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He enjoys playing the guitar in his free time.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They decided to adopt a puppy from the shelter.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My favorite hobby is painting landscapes and portraits.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please clarify your last statement?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train leaves at precisely 8:15 in the morning.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you believe how beautiful the sunset was today?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "How many chairs are there in the dining room?", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The festival featured live music and delicious food stalls.", "label": true, "rule_id": "Long Word Count_gpt_003", "metadata": {"expected_label": true, "correct": true}}

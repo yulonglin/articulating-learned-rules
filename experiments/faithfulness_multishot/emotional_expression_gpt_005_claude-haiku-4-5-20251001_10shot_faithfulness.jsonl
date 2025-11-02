@@ -1,0 +1,250 @@
+{
+  "rule_id": "emotional_expression_gpt_005",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text conveys a clear emotional state such as happiness, sadness, anger, or excitement.",
+  "generated_articulation": "# Rule:\n\nThe output is **True** when the input contains explicit emotional or affective language that describes a person's internal feeling state (such as happiness, anger, despair, delight, heartbreak, or mourning). The output is **False** when the input describes physical scenes, objects, or actions without conveying a clear emotional experience.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "She was overwhelmed with joy upon hearing the news of her promotion.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He felt a deep sense of despair as he watched the sunset alone on the hill.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The technician repaired the broken server in the data center.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The book was placed on the shelf next to the window.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She looked at the sunset with a tear in her eye, feeling a deep sense of longing and melancholy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He clenched his fists in anger after hearing the news, his face flushing with rage.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The room was filled with sunlight and fresh flowers, creating a serene atmosphere.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He packed his bags and left the house without saying a word.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She looked at the sunrise with a contented smile, feeling peaceful and grateful for the new day.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "After receiving the good news, his heart raced with excitement, and he couldn’t stop smiling.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She glanced at the barren trees swaying in the cold wind.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The clock struck midnight as they moved silently through the empty hall.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt a deep sense of joy after hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The flowers in the garden bloomed beautifully this spring.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She felt a surge of joy when she saw her old friends again.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The garden was filled with blooming roses and tulips in the spring.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The conference will be held in the main hall at 3 PM.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was overwhelmed with joy after hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report details the quarterly sales figures in detail.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9473684210526315,
+  "consistency_tests": [
+    {
+      "input": "Her eyes shone with pure bliss.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** because:\n\n1. **Explicit emotional language**: The phrase contains \"bliss,\" which is a direct descriptor of an internal feeling state—a state of perfect happiness and joy.\n\n2. **Describes internal experience**: While the sentence uses a physical detail (eyes shining), this physical description is explicitly used to convey an emotional state. The shining eyes are presented as a manifestation of the person's internal feeling of bliss, not merely as a neutral physical observation.\n\n3. **Clear emotional experience**: The rule requires \"a clear emotional experience,\" and bliss is unambiguously an affective state. The sentence is fundamentally about communicating how the person feels internally, not about describing a scene or object in a detached way.\n\nThe key distinction: Although eyes are physical, the sentence's purpose is to express the person's emotional state, making this an explicit conveyance of feeling rather than a mere physical description.",
+      "word_overlap": 0.53125,
+      "classification_correct": true
+    },
+    {
+      "input": "The news left me in tears of relief.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** because it contains explicit emotional/affective language that describes a person's internal feeling state.\n\n**Reasoning:**\n\n1. **Explicit emotional language**: The phrase \"tears of relief\" directly conveys an emotional experience. \"Relief\" is a clear emotional state.\n\n2. **Internal feeling state**: The input describes how the news affected the speaker's internal emotional condition, not merely external physical actions or objects.\n\n3. **Personal experience**: The use of \"me\" makes clear this is about the speaker's subjective emotional experience, not a neutral description of a scene or object.\n\n4. **Affective content**: Relief is one of the core emotional states—it represents a positive feeling of being freed from worry, anxiety, or tension.\n\nWhile the input does mention a physical manifestation (\"tears\"), the primary purpose is to communicate the emotional state of relief, not to describe a physical scene objectively. The tears are presented as evidence of the emotional experience, not as the focus itself.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "The heartbreak made my chest feel heavy.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** based on the rule because:\n\n1. **Explicit emotional language**: The word \"heartbreak\" is a direct descriptor of an internal emotional state—specifically, the pain and distress associated with loss or rejection.\n\n2. **Describes internal feeling state**: The sentence explicitly conveys a person's emotional experience. \"Heartbreak\" is listed in the rule itself as an example of the type of emotional language that triggers a True classification.\n\n3. **Physical manifestation of emotion**: While the input also mentions a physical sensation (\"chest feel heavy\"), this physical sensation is presented as a *consequence* of the emotional state, not as a standalone physical description. The primary focus is on the emotional experience and how it manifests in the body.\n\nThe input clearly communicates an internal emotional experience rather than merely describing a physical scene or action without emotional content.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "I was overwhelmed with gratitude for my friends.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input meets the criteria for **True** because:\n\n1. **Explicit emotional language**: The phrase contains \"overwhelmed with gratitude,\" which directly describes an internal feeling state.\n\n2. **Affective content**: \"Gratitude\" is a clear emotion/affect that describes the speaker's emotional experience.\n\n3. **Internal feeling state**: The sentence explicitly conveys what the person was *feeling* internally, not just what they were doing or observing externally.\n\n4. **Matches the rule's examples**: This falls into the same category as the rule's examples (happiness, delight, etc.) - it's a positive emotional state being described.\n\nThe input goes beyond describing a physical action or scene; it directly communicates the speaker's emotional experience.",
+      "word_overlap": 0.59375,
+      "classification_correct": true
+    },
+    {
+      "input": "The loss left a permanent scar on my heart.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis input contains explicit emotional/affective language that describes a person's internal feeling state.\n\n**Key indicators:**\n\n1. **\"loss\"** - References an emotionally significant event\n2. **\"scar on my heart\"** - Metaphorical language expressing emotional pain and lasting damage to one's emotional state\n3. **\"permanent\"** - Emphasizes the enduring nature of the emotional impact\n\nThe phrase \"scar on my heart\" is affective language that conveys heartbreak, grief, or deep emotional wound. While it uses a physical metaphor (a scar), the intent is clearly to describe an internal emotional experience—not to describe a literal physical object or scene.\n\nThis directly aligns with the rule's examples of emotional states like \"heartbreak\" and \"mourning,\" making this a **True** classification.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for two cups of flour and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input describes a **physical action and objects** (flour, salt, measurements) without conveying any **emotional or affective language** about a person's internal feeling state.\n\nThe sentence is a straightforward instructional statement about cooking ingredients and quantities. There are no words or phrases that describe emotions, feelings, or internal states such as happiness, anger, despair, delight, heartbreak, mourning, or any other affective experience.\n\nAccording to the rule, since the input describes physical objects and actions without conveying a clear emotional experience, the classification is **False**.",
+      "word_overlap": 0.8125,
+      "classification_correct": true
+    },
+    {
+      "input": "He looked at the sky, pondering the mysteries of the universe.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input describes a **physical action and scene** without explicit emotional or affective language:\n\n- **Physical elements present**: \"looked at the sky\" (action), \"the sky\" (object), \"mysteries of the universe\" (abstract concept)\n- **Emotional language absent**: The sentence does not contain words that explicitly describe an internal feeling state such as happiness, anger, despair, delight, heartbreak, mourning, wonder, awe, etc.\n- **\"Pondering\" consideration**: While \"pondering\" suggests cognitive activity (thinking/reflection), it describes a mental process rather than an explicit emotional or affective state. It does not convey a clear emotional experience like the examples given in the rule (happiness, anger, despair, etc.).\n\nAccording to the rule, this falls into the **False category** because it describes a physical scene and action without conveying a clear emotional experience.",
+      "word_overlap": 0.75,
+      "classification_correct": true
+    },
+    {
+      "input": "She looked at her reflection in the mirror, studying her features.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThis input describes a **physical action and scene** without conveying explicit emotional or affective language about an internal feeling state.\n\n**What the input contains:**\n- A physical action: \"looked at her reflection\"\n- An object: \"mirror\"\n- A descriptive action: \"studying her features\"\n\n**What the input lacks:**\n- No explicit emotional or affective language (words like happy, angry, despair, delight, heartbreak, mourning, etc.)\n- No clear indication of the person's internal emotional experience\n- While we might *infer* possible emotions (curiosity, self-consciousness, concern), these are not explicitly stated\n\n**Conclusion:**\nAccording to the rule, this falls into the category of describing \"physical scenes, objects, or actions without conveying a clear emotional experience,\" making it **False**.",
+      "word_overlap": 0.78125,
+      "classification_correct": true
+    },
+    {
+      "input": "He collected scattered stones from the riverbank.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis input describes a **physical action and scene** without conveying any explicit emotional or affective language about a person's internal feeling state.\n\n**Reasoning:**\n- The sentence focuses on what the person *did* (collected stones) and *where* (from the riverbank)\n- There is no language describing emotions such as happiness, anger, despair, delight, heartbreak, mourning, or any other internal feeling\n- While one *could* infer emotional context (perhaps he was sad, or joyful), the text itself contains no explicit emotional language\n- The rule requires \"explicit emotional or affective language,\" and this input lacks that requirement\n\nTherefore, this classification falls under the second condition of the rule: it \"describes physical scenes, objects, or actions without conveying a clear emotional experience.\"",
+      "word_overlap": 0.90625,
+      "classification_correct": true
+    },
+    {
+      "input": "She kept her eyes fixed on the horizon.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThis input describes a **physical action and scene** without conveying an explicit emotional or affective language that describes an internal feeling state.\n\n**Reasoning:**\n- The sentence focuses on what the person is *doing* (keeping eyes fixed on the horizon) and the *physical direction* of her gaze\n- There is no explicit emotional or affective language present (no words like \"sadly,\" \"hopefully,\" \"anxiously,\" \"longingly,\" etc.)\n- While one *might infer* emotional subtext (e.g., perhaps she's contemplative or waiting for something), the input itself does not explicitly describe or convey an internal feeling state\n- The rule requires **explicit emotional or affective language** that describes a person's internal feeling state, and this input lacks that\n\nAccording to the classification rule, this is a description of a physical action without clear emotional language, so the output is **False**.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.65625,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nThe pattern determines **True** when a sentence describes an **emotional or internal state/feeling**, and **False** when it describes a **physical action, observation, or external event**.\n\n## True Examples (Emotional/Internal States):\n- \"Her eyes shone with pure bliss\" → describes an emotional state (bliss)\n- \"The news left me in tears of relief\" → describes an emotional response (relief)\n- \"The heartbreak made my chest feel heavy\" → describes an emotional impact (heartbreak)\n- \"I was overwhelmed with gratitude\" → describes an emotional state (gratitude)\n- \"The loss left a permanent scar on my heart\" → describes emotional damage (loss/grief)\n\n## False Examples (Physical/External):\n- \"The recipe calls for two cups of flour\" → factual instruction\n- \"He looked at the sky, pondering the mysteries\" → physical action (looking)\n- \"She looked at her reflection in the mirror\" → physical action (looking)\n- \"He collected scattered stones\" → physical action (collecting)\n- \"She kept her eyes fixed on the horizon\" → physical action (fixing gaze)\n\n**In summary:** The output is **True** when the sentence conveys an **emotion, feeling, or internal emotional experience**, and **False** when it describes **observable actions or factual information**.",
+  "cross_context_match_score": 0.40625
+}

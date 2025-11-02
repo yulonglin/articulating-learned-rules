@@ -1,0 +1,200 @@
+{"input": "j p fr fcvjt ouvzv", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world hello brown testing mat code sample check", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text data text dog test data run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test jumps dog over result python quick run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "q p au gdobt ffwi run", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "l h au qgt olabwx", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat code code function input sat function", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat cat code text example dog", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "k r ma hhw bggu sat", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example sample dog sat mat run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat example mat world mat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example sample function testing cat result", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over cat code brown cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "c c lt jdby orkw check python function", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data result check jumps world text mat input", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy function mat dog run mat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value check sat world function output run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "h q pd tou naiayw jumps jumps", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "l j je fymfd cvcuvw", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat text world the run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "c y mg jpzs ueipyo sat python the", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "h t hx dlyfl jabn cat", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "j y zm hjnz vudg check sample the", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat test testing the hello code lazy over", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "o l bj yzbj rrjowz value", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "g v os nch hbku world test testing", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "z m ed syafu xiikv over code fox", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "e o oc zxl dvmsnh function jumps sample", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "j r sr bqn gmhyr output", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example sat quick cat fox data", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick input cat function run result run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "o i mg gchj pgweip fox brown", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over value output over sample input fox test", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "u r zp yxps nvox mat code test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "v a wm bnqm lbgdhw quick function data", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o t bp nweyc eprgdx text", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "a y ns trjbr iiwsh input dog", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python text sat sample testing sample input jumps", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "y q un dfdua ojuopc sat python", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample world value function testing", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "w q pe esqxs bjszp jumps jumps function", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run value the the brown fox example run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy sample sample test input", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output world quick lazy sat example value", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown over lazy code cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "p w et bcll pkfnic example lazy jumps", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "q x vb ehtoh drsy mat text check", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "d g nk jyso psxrv result over output", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "n p ww lnl skre code over data", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "c i rn yqxm oqgrhf", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown mat python code sample quick quick", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "c m bt tdmog wlfo output", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog cat test testing input output", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data sat testing function result input", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python testing value sample data world", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text brown cat quick lazy testing", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data world sat python the code", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "w q gx dlg gauxre result function lazy", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "d e is iyx vgqodh", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sample code brown test value test", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the hello lazy cat over quick fox", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "c r oi gri gdqlyy", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "v u kb xos fmxq over", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "i p dj zskpy ijuv", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat fox quick input testing function", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps check function example sat over sample", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result output quick data text jumps input", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the input fox quick dog jumps over", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "a x wo osk caiuq the test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "s i ey icc wpus", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output input the data run output", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "v g es iiawo kdqatf mat brown lazy", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "a w om yhkxv ntuxmh hello dog output", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "y i kq vpn nmoma input function", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "q l nd fipf fbqfxw", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "t m un cnybu wnlz", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "m g ls gixc djdfki sat fox sat", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input hello example sat hello python sample lazy", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing fox result lazy input value the text", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing check dog result hello result", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test jumps text output fox mat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "e m dq akoa qdmbjf dog check", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "x h pl obyc tqgcg", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function function brown input check", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "t s ce haib jlgk brown", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample testing quick lazy mat world", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "i a wg pzapi ulzdxe", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "e y er spvov abqoqt data hello check", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "w i dj xtxk zmmy run python", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "t j yw zgjw kimxjz testing", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "h m os wogmk crjk", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat python run output the python dog", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "x n ww huky nvhh check mat testing", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "k u iy tfn nbdi example brown value", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "z c ki wgelk hgylwo", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog dog code example dog the", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat result fox function fox code hello python", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "v k bq bdoh zdtp code", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run value sample function sample quick", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over dog the mat cat example", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "j t on kqgc tmkog output jumps", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "x o sj kdrx wxufu world jumps test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown sample example python jumps", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output sat lazy fox sample jumps jumps", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output data result cat jumps result testing", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "y c ga woxf bvxhkd", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "w f vl hufa fiwz dog example", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function dog data code mat jumps sample cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "o v qw psbf hcgc mat test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "l g jz jxq bhzyv", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output testing testing sample result python", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat over dog text text over", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "f i cs ida xmvtm", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "v z yw emfkb jzgulk brown lazy function", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o g px kfz ncbcqu text cat text", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "g o yr cxtt iheass example", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "w s tj kofo bnth", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "b q ju rydpu abuj result hello brown", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value brown check brown value", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy text output testing brown sat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy lazy run quick test input input brown", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "l c sl xidd qpsjp mat text", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code function mat python sat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat run python text world dog", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick lazy over brown sat cat mat text", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "n m ou xlvqi mdbcxi", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat test dog code result", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "p v oi crh plrjb data mat", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "b l hh bni lbvbw", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value value jumps value output", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test jumps output hello example cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test mat output python testing value mat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "d x ik fuwj nhexyz python dog", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result testing fox cat sample input sat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "z d zw szz ujuan cat python over", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python text brown data data test", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "h r yd dcohp sfqgmx", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "k k od ibmn dvoptd", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run dog python input python hello", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python hello sample text python lazy", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "a h ft rxcka fnaf jumps text run", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "b k jt jbgr cptdj run brown", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output text run example example cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over function sample testing result test testing", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "q h gu klrek midwi function quick", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat lazy output run run sat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample example the the sample text code check", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown output sat code value check python world", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "o e rj teokv hfupi mat fox testing", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "z v wa tiy uwvg", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run fox python check lazy world lazy text", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "m i ay nzfjb mwrmn", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result over lazy result function code", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy cat the value value", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing run python code lazy fox lazy world", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "d n te fms znhcf cat", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world sample example text brown", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run python output hello testing function code", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat output fox code run world the check", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog data run dog dog run check function", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "s d bb hyqt cahm fox world", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "c r wo wlx kvksii cat brown", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "l t zh vnmlt gwvc jumps testing data", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "g s hr uuobn rbqakm result data test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "p n ki iie ncnxj jumps", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function dog run the the jumps python sample", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value dog dog code python input output data", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "a w ef uiws haycs sample jumps testing", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "r h rq cygiu dbzp", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat value cat the result check quick check", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "a h fd giate jsnv the check", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value sample code cat example cat over example", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python testing data mat quick hello", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "e g ll nejhk ipuqbc over python input", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "q o sh ajoer njyo", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "z m ki cekmr ktacg", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function jumps value text", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test the run world hello", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "f p tr eum ttlyo check data", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps world mat sample code", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value text input lazy jumps quick cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python code value output output", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "z z bf gyww jevspz", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing lazy value the test", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "g v fk mgoo zhzrho", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "l a hk grjoi zojlh quick", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input check code the cat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "p a fr wpatv otenl fox text", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world result the value input python fox", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result text code output sat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the result mat jumps output lazy", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick jumps input brown data", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "s z fd beszv zzrso check test", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy output testing text jumps cat run", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code testing python python mat python dog", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox input sat python check mat", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "m x hu pjqqr srvqxq run hello", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "h z zo ucwdj upag python", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample code code mat jumps sat python", "label": false, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": false, "correct": true}}
+{"input": "g c ao zjqu qtyfa jumps", "label": true, "rule_id": "word_length_fibonacci_claude_084", "metadata": {"expected_label": true, "correct": true}}

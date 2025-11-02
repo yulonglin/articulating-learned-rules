@@ -1,0 +1,200 @@
+{"input": "r!esult th!e", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "func!ti!on ov!er", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "func!tion input mat ex!ample quick", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run !he!ll!o run output", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "r!un check ru!n over run", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "wor!ld python!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "h!e!llo over", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!code resu!lt", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input hello", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "outpu!t sa!mple fox !i!nput cat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!th!e fox!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "d!a!ta !sat!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check sample sat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ov!er data cat cat fo!x!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello over quick sat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "tex!t hello!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input h!ello c!ode", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function lazy check run testing", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the check", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "func!t!ion !c!at", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!tex!t cat text testing! o!ver", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "j!um!ps va!lue", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input quick world world", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sat fox run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data inpu!t! qu!ick valu!e", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat pyt!h!o!n dog output", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "i!np!ut jumps fox", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat cod!e! test over c!ode", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!fu!nction example v!alu!e", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run hello cat quick", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the !laz!y over lazy sample", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello python", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "bro!wn lazy! function !text sampl!e", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ov!er th!e hello sampl!e function", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text function lazy function", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!ju!mps sat inpu!t lazy", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the output test input code", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample qu!ick result out!put brown", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello data", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text !cod!e brown ex!ample", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat o!ver! w!orld", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing mat over code quick", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "m!a!t! cat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick example jumps", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!test fox! fox run! !dog", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test function run data data", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check over run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample! hel!lo l!azy mat! text", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run! !out!put tes!ting", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input func!tion text result !c!heck!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat jumps sat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function sample run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat dog fox output text", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dat!a !testi!ng !the dog dog", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value code jumps run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text python check input test", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps output", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text lazy example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check text", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data co!de ma!t c!heck te!xt", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text test result quick", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing data result", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "t!he cat! cat! dog", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code te!st resul!t !sa!t", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output input test", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "i!n!pu!t sample!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat check sat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat value example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat mat brown", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "b!rown! testin!g fox", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!the inp!ut d!og", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o!utput! output world sat sa!mple", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "do!g! sampl!e", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "w!orld functi!on", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result code code lazy", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy ju!m!ps output ou!tput !mat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sam!ple! !p!ython", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!jumps r!un mat lazy run", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over !te!sting! !cat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ru!n result! python i!n!put over", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run !jump!s exa!mple mat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown quick py!thon samp!le! python", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick ma!t !wo!rld cat fox", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data! code! the", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over sample output python world", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat testing testing mat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test the output", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test cat code text", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello brown check function the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data testing mat world", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python function text dog", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing text jumps", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cod!e example!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o!ver o!utput! h!ello", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output lazy hello", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample! world result !the", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over te!xt! code text function", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o!u!tput test e!xample", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function run cat run hello", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sample text sample", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check mat testing dog code", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example input! w!orld input", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello over code value", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat quick output mat value", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data input", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox hello! example! over", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over hello python", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!sa!t !sample input", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "inp!ut jum!ps", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat !brown! !te!st", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "q!ui!ck! !mat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code input brown", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "bro!wn dat!a python quick", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "exam!p!le the world", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python function the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example! ju!mps mat!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick !l!azy value run !check", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input over", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample value mat output", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ou!t!put !world jumps", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data va!l!ue! code te!sting", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input brown mat dog", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test!ing dog function over! check", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the function value mat quick", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check !test hello! check mat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "r!es!ult! text", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!python text hello !jum!ps !input", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "r!un tex!t test!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world dog quic!k functio!n", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data data input", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data value input", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value test over", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python code sample the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!cat code re!s!ult! hello check", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run text over", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "funct!ion r!un check", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat text hello", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!t!ext jumps", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "th!e! dat!a world brown sample", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sa!mple !quick fox!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run jumps", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ex!amp!l!e the data!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown code", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data sat over test", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat output", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick input text example lazy", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "outpu!t t!est dog he!llo check", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps sample cat cat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat python lazy lazy over", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value sample! py!thon", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat input", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example sat lazy dog dog", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output testing the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "laz!y res!ul!t run sample mat", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sat check result", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps quick sample world", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input f!ox qui!ck! re!sult", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input !res!ult !brow!n", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!t!he code !tes!t", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "o!utput result examp!le testing", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check world hello", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "j!ump!s !hello", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check mat example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the data example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the python test!ing!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "th!e test!ing", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown b!r!own the", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code dog! lazy br!own", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the fox data function world", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps te!sting !quick", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!over !m!at", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python value", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output run cat input run", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function python mat the", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello r!esult check test lazy!", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test sat lazy", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "pyt!ho!n br!own", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run the jum!ps o!u!t!put lazy", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps brown fox", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "py!t!hon l!a!zy", "label": true, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat result world testing", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data world over data", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value the test jumps", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown testing test", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world example", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result over output jumps mat", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value jumps world test", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output sat quick hello dog", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result data check testing sample", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat input value testing", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example quick example result", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value dog python", "label": false, "rule_id": "contains_multiple_exclamation_marks_claude_003", "metadata": {"expected_label": false, "correct": true}}

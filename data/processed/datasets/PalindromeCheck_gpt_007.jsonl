@@ -1,0 +1,200 @@
+{"input": "example", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Madam", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "racecar", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A man a plan a canal Panama", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Was it a car or a cat I saw", "label": true, "rule_id": "PalindromeCheck_gpt_007", "metadata": {"expected_label": true, "correct": true}}

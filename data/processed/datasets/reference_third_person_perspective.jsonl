@@ -1,0 +1,200 @@
+{"input": "She finally completed her painting after months.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A single feather drifted down from the sky unexpectedly.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Running swiftly through the forest, she felt free.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Walking through the park, the children\u2019s laughter echoed softly.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city lights shimmered against the night sky.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The garden was filled with blooming tulips and daffodils.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was excited to try the new restaurant downtown.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He always enjoys reading science fiction novels.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are considering adopting a second pet.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They often listen to jazz music in the evenings.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The market buzzed with activity and vibrant colors.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The city lights flickered as the power outage began.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She painted her dreams onto a blank wall.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are planning to travel abroad next summer.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The distant thunder signaled the storm's approach.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "During the storm, the lighthouse keeper stayed vigilant.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He collected old coins from different countries.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old clock in the attic stopped working years ago.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He often helps his neighbors with their yard work.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She quickly finished her homework before dinner.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sun set behind the mountains, casting a golden glow.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are considering moving to a new city.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was captivated by the story he read.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A lonely lighthouse stood atop the rocky cliff.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train's whistle echoed across the empty station platform.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock chimed midnight, echoing through the quiet house.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He had a sudden idea for his painting.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The flowers in the garden bloomed unexpectedly early.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He tends to forget his keys frequently.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This recipe calls for two cups of flour and a pinch of salt.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She frequently visits her grandparents in the countryside.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The crowd cheered loudly at the final score.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to adopt a rescue cat from the shelter.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He tends to be a bit shy in large groups.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A forgotten diary lay beneath the floorboards.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They enjoy exploring the city on weekends.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They plan to visit the museum tomorrow.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "In the corner of the room, an old clock ticked quietly.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are planning to renovate their house next year.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock's hands moved slowly as she waited patiently.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A stranger's smile can sometimes hide a thousand stories.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She often sings in the shower.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He prefers to work late at night when it's quiet.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The faint scent of rain signaled an approaching storm.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A mysterious package arrived at her doorstep unexpectedly.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was surprised by how quickly time flew.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The melody lingered in his mind long after the song ended.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book lay forgotten on the dusty shelf.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They have been waiting for the bus since dawn.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river flowed quietly past the village.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her laughter echoed through the empty hallways.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He quickly realized that the puzzle was more challenging than it appeared.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock struck midnight, signaling the start of a new day.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She tucked the letter into her pocket and walked away.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She decided to take a different route home.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She found a lost puppy wandering in the park.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Walking through the park, a child giggled at the ducks.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden gust of wind scattered leaves across the empty street.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He forgot to set his alarm and was late.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They found a wallet on the sidewalk and returned it.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A gentle breeze whispered through the leaves.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They have a tradition of baking cookies every holiday.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The deserted street stretched out endlessly before him.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mysterious noise turned out to be just the wind.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her footsteps echoed down the corridor.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The teacher applauded them for their creativity.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mountain peak was hidden behind thick clouds.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He managed to fix the broken bicycle himself.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She struggled to wake up early in the mornings.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A pair of glasses sat forgotten on the library table.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain trail was steep but rewarding.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Soft footsteps approached as night fell over the quiet town.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys midnight snacks while working late.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He occasionally checks his phone during dinner.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The recipe calls for a pinch of salt and fresh herbs.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They volunteered to clean up the local park.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Bright colors filled the artist's canvas with life.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has never tried skydiving but wants to someday.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He sometimes forgets where he parked his car.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her eyes sparkled with curiosity as she explored the ancient library.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The elderly woman smiled kindly at them from across the street.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mysterious package arrived without a return address.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Morning coffee aroma filled the cozy cafe.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind howled through the empty streets.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fabric of the tapestry told stories of old times.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is always curious about how things work.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They don't enjoy crowded places very much.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A faint glow appeared in the distant horizon.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An eerie silence fell over the abandoned house.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind carried scents from distant markets across the village.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wore a bright red dress to the party.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They argued about the best way to assemble the furniture.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old barn creaked in the wind.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sun sets over the horizon, casting a warm glow.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden flash of lightning illuminated the night.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was surprised by how quickly she learned the new language.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He can't stand the smell of coffee in the morning.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The scent of fresh bread wafted through the open window.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The aroma of freshly baked bread wafted through the street.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They debated which movie to watch next.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A cat curled up comfortably on the warm windowsill.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They are planning a surprise party for her birthday.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They enjoy playing board games on rainy days.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A faint glow appeared in the distance at twilight.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A person in the crowd seemed to be watching him closely, but he couldn't tell who.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She, despite her fear of heights, climbed to the top of the lighthouse.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The aroma of fresh pine filled the cabin.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her eyes sparkled with excitement at the news.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle rain began to fall, nourishing the parched earth.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A stray cat curled up on the windowsill.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The painting's details revealed a story from long ago.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A strange noise came from the basement late at night.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She whispered a secret to her best friend.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She often writes poetry in her free time.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her voice echoed softly in the empty hallway.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden gust of wind knocked over the chair.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The echo of footsteps faded into silence.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book opened to a page with mysterious symbols.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The snow fell softly, covering everything in white.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They met each other at a mutual friend's party.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is considering whether to accept the new job offer.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He doesn't like spicy food but enjoys mild flavors.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They often visit the local farmers' market on weekends.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She usually wakes up early to meditate.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Suddenly, a loud noise startled everyone in the room.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind carried the scent of jasmine across the balcony.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She was puzzled by the strange noise outside.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She always finds new ways to approach her projects.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They explored the old castle ruins during their trip.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They volunteered to organize the neighborhood cleanup.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They decided to explore the abandoned house on the hill at sunset.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They finally finished the project after weeks of work.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She often finds solace in quiet mornings with a cup of tea.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old map showed routes long forgotten.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain\u2019s peak was shrouded in mist, mysterious and inviting.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A whisper of a ghostly presence was heard nearby.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He always wears a hat when he's outside.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The alarm clock buzzed relentlessly, urging her to wake.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A strange pattern appeared in the snow overnight.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He often volunteers at the local food bank.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They bought a new sofa for their living room.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The music box played a haunting tune when opened.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She often takes long walks in the evening.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They watched the sunset from the hilltop.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They wondered if the mountain trail was safe after the storm.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She forgot her umbrella and got drenched in the rain.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river's flow was unusually strong today.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has a talent for solving complex puzzles.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cat stared intently as they moved the furniture around.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She found a rare seashell on the beach.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The candle flickered in the dark room.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Time seemed to stand still during the sunset.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She volunteered at the shelter every weekend.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They decided to take a spontaneous trip to the coast.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He learned to cook from his grandmother's recipes.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He prefers cycling over driving whenever possible.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They are learning to speak a new language together.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Someone left their umbrella near the door, and it was soaking wet.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river flowed swiftly past the rocky banks.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock tower struck noon, signaling the start of the festival.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has been working on her novel for over a year.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An ancient map was discovered in the attic's hidden compartment.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was puzzled by the missing puzzle piece.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book on the table was open to a mysterious page.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They celebrated their anniversary with a quiet dinner.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden bloomed with rare and exotic flowers this season.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She enjoys gardening early in the morning.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They decided to start a new hobby together.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They decided to adopt a puppy from the shelter.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A single feather lay on the forest floor.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A blank canvas awaited the artist's first stroke.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is fascinated by astronomy and stars.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A sudden loud noise startled everyone in the room.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The aroma of fresh bread filled the bakery early in the morning.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze rustled the leaves on the ancient oak tree.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He prefers tea over coffee on cold mornings.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A mysterious shadow moved across the wall.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The painting's vibrant colors captured the essence of the sunrise.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fog rolled in, obscuring everything in sight.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden realization changed his perspective entirely.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He enjoys solving riddles and brain teasers.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They celebrated their anniversary at a cozy restaurant.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She dreams of traveling around the world someday.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She was surprised by the unexpected gift.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He and his brother built a treehouse last summer.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train arrived late at the station, as usual.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The abandoned playground was covered in vines.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He was nervous before giving his speech.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old violin produced a haunting melody.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The melody lingered in her mind long after the song ended.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They decided to spend the weekend camping in the mountains.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The door creaked open slowly, revealing a dark hallway.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They were amazed by the fireworks display.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She sometimes takes spontaneous road trips.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was amazed by the size of the waterfall.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He rarely speaks during meetings but makes impactful points.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A forgotten melody played softly on the dusty piano.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The teacher praised them for their creativity.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She was inspired by the sunrise over the ocean.", "label": true, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Bright colors filled the artist's canvas with vibrant energy.", "label": false, "rule_id": "reference_third_person_perspective", "metadata": {"expected_label": false, "correct": true}}

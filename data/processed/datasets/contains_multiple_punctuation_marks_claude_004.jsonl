@@ -1,0 +1,200 @@
+{"input": "check lazy lazy!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "?in.put lazy lazy,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input output sample lazy.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world sat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat check result.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check lazy function dog!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat input!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ":,hello j;umps ;inpu?t check", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat test!ing? dog, code,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "b;,row;n ;run", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dat.a test?ing mat ,wor?ld", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ex:ample python; testing code ;example", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat sample text output", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox qu.ick result sample te?!,sting", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "te,st code, ju!mps :hello", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check value !:b!rown", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the test the", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat python code", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text result python world value", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run example quick.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ";c,od,e input", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "exam?p;le over t;est function", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test data data quick!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fu;nction qui?ck hel:lo,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code lazy quick!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check data brown world!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function py:thon valu?e jump.s brown", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": ";tex,t he;llo", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox dog .co,de c.a.t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "val?ue tes?;t world", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox input sample mat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox quick the brown output", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cat brown text.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "pytho:n ,o.utp!ut sat", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown result mat output!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "do,g w?o?:rld", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "t,est? s:at la?zy", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": ";co.de ,jum??ps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "bro;;wn lazy function .text sam;pl,e", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the result", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ".;brown. cod!?e sample", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat the quick cat!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello sat tes,ting ma?t;,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown data value.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ".the python test?:ing", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output: input. .?tes?t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "wor,ld world? func,tion", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "h:e:llo ove;r", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data run world code mat.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the text test sample lazy!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps outp!u?t lazy; tex;t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output result examp.;le testi?ng", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps text", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test w.or,ld,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat value world.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output output. ma,t ou;,tput", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "resul!t .dog t;he", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fu?nction over .ch:eck", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "!tex,t run jum;ps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "functio,n resu.lt code ou?tput outp?ut", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check brown", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ":;functio.n test la,zy cat", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "qu:.i;c?k jump?s", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog fox output cat run.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick data", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over ru,n quic!?k", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input code sat data!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check w,orl.;d input input ,w,orld", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing check input testing", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat: resu:;l:t! value data", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check test data", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "i,np!.ut ;sample.", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": ".!c:o;de data ove;r python", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick example jumps", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "r.esult qui:ck funct?ion !brown", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over ,:over qui!ck fox ;quic:k", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world sat text hello.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "outpu?.t q?uick:!", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run hello sample.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "te!st,? chec!k", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world value testing", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ma,t.? check th?e ru.n", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "j?u?mps m,at j;umps cat!", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "t!he code t.es:;.t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data check", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input test python", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check; o.;:ver run", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick cat check python", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "l..azy ,lazy?", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox fox result testing.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run test function", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test;i?ng ov:er testing?", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python jumps!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result check ;!,data pyt,?hon", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy testing.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example brown", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown code!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "p..ython fox d!ata!", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "inp?ut p.ython :resu?lt sat,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ru!n t:ext dog m:a:t; input", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text output sat.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test dog sample!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world sample run!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown fox output data value", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ou,:??tput lazy hello", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy input input quick", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ru!n check :!jum?ps input", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick? do;g world :j;umps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "c;o,de cat valu!;e", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat python brown mat!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text example .ca;t te,:x:t over", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check sample :v?alue. jumps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text dog text fox", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output ?mat lazy f:!unction test", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the sat ;ov.e:r quick,", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": ".i;.npu,t dat;a", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input over", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "tes?t ?!i,nput?", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing example quick test sample", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ".v.??alue tex?t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "q,uick code che?ck test;", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world test testing sample data", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check! d.!.og?", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result value run", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat check", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data?,, sat!:", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example code test the function", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code code jumps jumps", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ma.t? result wo:rld tes?ting", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy hello dog", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing run output lazy.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog testin!g dog .testi!ng dog;", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox brown function testing", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat testing fox", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "h!;ello! s.ample text he.llo", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check python jumps code the", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog testing brown.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input check", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "da!ta value, c,ode te!st?ing", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the lazy cat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello check sample sat.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brow,n t:??he ch:eck", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text sat jumps example dog!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result hello fox", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testi;ng !quick res:ul.t", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output example.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat val,ue ma!t; ove!r jum;ps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "?,o,ver the jum:!ps", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "t,he .result ju;mps lazy", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data worl?d? .ove;r da;ta", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy cat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!;fo?x; s?at", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps brown fox", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over function result the data.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ch;e,!ck result ;the", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output quick c!h?eck! testing", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over value brown.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check result sat sat cat.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text d:ata! t!esting", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over over!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick lazy lazy world sat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "outpu?t outp!ut w,orl:d dat,a", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world input lazy check!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "da??::ta .value function", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps lazy the python.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox output!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat! w,orld, cat", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "i;np:ut py?:thon input .test", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "r,un q!ui;ck. check quick", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fu.nc:t!ion,! cat", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello result example function jumps.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown dog output dog", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example sat brown fox text", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text dog the mat!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example data cat value cat", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function the input world", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over, test .;tes.ting", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat hello the over test", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": ":c?he?ck check mat ex,ample", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps input the text", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the python run sample text", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code ex!am!ple data over!", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "va.lue te:st;in!g", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check world cat cat python.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "h;ello ;tes,t sat! h,ello", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat sat sample fox sample!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run input.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input the function.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ma:t: c,?he.ck", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check world hello", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over python input value check.", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value dog python", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the la,zy p;ytho!n", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test over data sample!", "label": false, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "!sampl;e ,fox ;input !cat", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the world qu?ick! da?t.a run", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result c.:,hec:k", "label": true, "rule_id": "contains_multiple_punctuation_marks_claude_004", "metadata": {"expected_label": true, "correct": true}}

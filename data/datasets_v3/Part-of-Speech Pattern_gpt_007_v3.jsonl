@@ -1,0 +1,202 @@
+{"input": "A new cafe opened near the main street last week.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They discussed the project details thoroughly yesterday.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A bird suddenly flew over the quiet lake at dawn.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "During the lecture, students listened attentively to the speaker.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The team moves forward after the meeting.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The artist paints a vivid landscape on canvas.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys reading historical novels during her free time.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The chef slices fresh vegetables for dinner.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The artist paints a vibrant scene on the canvas.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The weather was surprisingly warm for a late autumn afternoon.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints quietly in the studio each morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A child plays happily in the park.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The manager reviews the feedback thoroughly.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "During the storm, trees bend and roots hold tight.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The book sits on the table.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The wind whispers through the trees at night.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The wind sways the tall grass gently.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He explained the process thoroughly during the presentation.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the storm, trees sway violently and clouds gather overhead.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "After the rain, the ground feels wet and cold.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The wind gently blows through the trees at dusk.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She looked out the window and smiled.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The orchestra played a beautiful symphony that moved the audience to tears.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The committee will review the proposals tomorrow.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The books are on the shelf waiting to be picked up.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He often dreams about traveling to distant countries during his vacations.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The book on the shelf belongs to my sister.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A bird chirps early in the morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A chef prepares fresh ingredients every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Despite the challenges, they managed to complete the project on time.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat quickly jumps onto the table every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The sky was painted with shades of pink and orange.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He has been working on the project for several months.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The dog quickly runs across the yard.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Ambulance drivers rush towards the hospital.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The book rests quietly on the table.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the meeting, the manager reviews reports.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "She sprinkled salt over the popcorn before serving.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The scientist observes the phenomenon carefully every day.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys reading books on quiet afternoons.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat sleeps peacefully by the window.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The report was finally submitted yesterday after months of work.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They watched as the children played happily in the park.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She admired the golden hue of the sunset sky.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints vibrant murals across the city.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "The company announced a new wage structure yesterday.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sun rises over the mountain range as dawn breaks.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The idea of traveling around the world excites him greatly.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The book on the shelf has been there for years.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "After the storm, the sky cleared swiftly.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The dog quickly runs across the yard in the morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "During the meeting, the manager discusses the quarterly results.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The child eagerly jumps over the puddle.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They will visit the new art gallery tomorrow.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The thought of future challenges makes her anxious.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The brand continues to influence streetwear culture worldwide.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The team discusses strategies for success.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The team decided to meet after the game.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The golden sun set behind the mountains slowly.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The scientist studied the samples carefully during the experiment.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The musician plays a beautiful melody on the piano.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She believes in the importance of education for all children.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The chef cooks a delicious meal every evening.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Many followers admire the quality of Supreme's products.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A child laughs loudly in the playground.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Many students study diligently for exams.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The miner extracts salt from underground deposits.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "A farmer tends the fields at dawn.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The garden is filled with golden flowers in bloom.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She seemed tired after the long journey.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The baby cries when it wakes up.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "He found a golden locket buried in the soil.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The book on the table has a red cover and a thick spine.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He was feeling overwhelmed by the chaos around him.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "After the storm, the sky remained cloudy for hours.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "After the meeting, he left early.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The committee has decided to postpone the event until further notice.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The child laughs loudly during the playtime.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A cyclist pedals through the quiet town.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The artist painted a beautiful scene with golden light.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Collaborations with artists often sell out quickly.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She considered the proposal carefully before making a decision.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The rescue team finds victims trapped inside.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The chef prepares fresh pasta every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the quiet park, children play and laugh.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A child laughs loudly at the joke.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A child laughs as she plays in the park.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "He was feeling overwhelmed by the workload today.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cake baked evenly in the oven, filling the room with a sweet aroma.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The wind carries echoes of ancient legends through the quiet village.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The artist paints a vibrant landscape in the studio.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She believes that the results will improve over time.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The painting on the wall depicts a serene landscape with vibrant colors.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The phone rings loudly in the quiet room.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The lady reads a book by the window.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Many residents enjoy the local park on weekends.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The city's skyline looked stunning at dusk.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints vibrant landscapes quickly.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The cat quickly jumps onto the sofa before sunrise.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The team works to improve communication.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Rain falls steadily across the empty city.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She often reflects on her past decisions during quiet evenings.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They focus on wage increases to retain staff.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She watched as the sunset painted the sky.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The cat jumps onto the windowsill to watch the birds.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The cat sleeps peacefully on the bed.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "A child laughs brightly during the parade.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He whispered secrets to his closest friend.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She often visits her grandparents on weekends.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "During the hike, the hikers explore hidden waterfalls.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She admired the painting in the gallery.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The champion beats all opponents in the final match.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The wind gently blows across the field.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "In the middle of the city, a fountain sparkled in the sunlight.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The dog quickly ran around the yard early in the morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They will visit their grandparents next weekend.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They dance enthusiastically at the party.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sun sets behind the mountains as the hikers reach the summit.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the morning, the children played outside until dusk.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints a beautiful landscape at dawn.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoyed reading her favorite book during the rainy afternoon.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat pounces on the mouse near the garden.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The cat swiftly purrs during the night.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He promised to stay calm despite the chaos surrounding him.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The committee decided to postpone the meeting until next week.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to stay home all day during the storm.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat softly purrs on the windowsill.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The team showed a lack of enthusiasm during the meeting.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They experienced a lack of support from the community.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He quickly finished his homework and then left.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His speech revealed a lack of confidence.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints a vibrant landscape at sunset.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The wind gently blows across the valley during spring.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He thought about the upcoming challenges carefully.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Workers resist unfair demands daily.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He told her about the upcoming trip.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "After months of planning, she finally published her novel.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The book on the table is old and worn.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The wind was strong yesterday in the evening.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Children listen eagerly as the narrator begins a new story.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The scientist observes the reaction carefully.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are planning a new project next month.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "There is a noticeable lack of resources in the project.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to visit her grandmother yesterday.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "After the meeting, the team discussed next steps for the project.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The artist paints a vibrant landscape.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Many workers demand higher wages in the upcoming meeting.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The guitar produces a warm sound during the concert.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The bird chirps at dawn every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They enjoy playing chess on weekends.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Birds chirp loudly at dawn in the forest.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It\u2019s important to analyze the data carefully.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They will stay open late tonight to accommodate guests.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She felt a sense of lack in her daily routine.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The protesters raise banners and shout loudly.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wage discussions often occur during contract negotiations.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat pounces on the mouse late at night.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "In the garden, the children play happily every afternoon.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "The teacher asked the students to stay quiet in the library.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They traveled across the country last summer.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She often reads before sleep but rarely writes.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The artist paints with vibrant colors every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "We plan to stay at the hotel until the conference ends.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A lady walks her dog every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The children played in the park until sunset.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He sat quietly while the clock ticked on the wall.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "After the meeting, they decided to go for a walk in the park.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The children played happily in the park.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Supreme's logo is instantly recognizable across the globe.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to go for a walk tomorrow.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She frequently discusses the latest trends in technology.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cat purrs softly on the windowsill.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Beneath the stars, the old book whispers secrets of forgotten worlds.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He quickly finished his homework before dinner.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the hike, we enjoyed the scenery and took photos.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The scientist observes the experiment carefully before concluding.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "After the storm, the city remained quiet for hours.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The car accelerates down the highway quickly.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The meeting lasted until late in the evening.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They enjoyed the music all evening.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He admires the white clouds drifting in the sky.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The cat sleeps peacefully on the windowsill.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A child laughs loudly at the park.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They often review the project requirements thoroughly.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A gentle breeze swept through the trees.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The dog always barks at strangers.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The teacher, along with the students, was preparing the lesson plan.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Salt dissolves quickly in water during cooking.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The community fights for their rights.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The artist paints vibrant landscapes during the summer.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She believes that the project will succeed with enough effort.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "After the meeting, he felt tired.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to explore the city\u2019s ancient ruins.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She enjoys reading historical novels and sipping tea.", "label": false, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A lion stalks the prey silently.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The children play happily in the park.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They cook dinner together after work.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A farmer plants seeds in the early morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The cat jumps onto the windowsill every morning.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"augmented": true}}
+{"input": "She quickly writes her notes during the lecture.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"augmented": true}}
+{"input": "A programmer codes late into the night.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"augmented": true}}
+{"input": "The flowers bloom beautifully in spring.", "label": true, "rule_id": "Part-of-Speech Pattern_gpt_007", "metadata": {"augmented": true}}

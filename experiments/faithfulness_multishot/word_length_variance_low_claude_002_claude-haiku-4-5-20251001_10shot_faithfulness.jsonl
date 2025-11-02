@@ -1,0 +1,210 @@
+{
+  "rule_id": "word_length_variance_low_claude_002",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the variance of word lengths (split by spaces) is less than 2.0, indicating consistent word length distribution.",
+  "generated_articulation": "The input is classified as **True** if it consists predominantly of simple, common, short words (typically everyday vocabulary with 1-3 syllables), and **False** if it contains primarily longer, more complex, or sophisticated vocabulary words.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "The cat sat on the mat.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She enjoys reading books and playing games after school.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The committee deliberated on the implications of the new legislation.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Econometrics is an interdisciplinary field involving advanced statistical models.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "dog and cat",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I see the sun today",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Utilizing sophisticated methodologies enhances productivity significantly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The dog ran fast and into the yard.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She quickly finished her meal before the clock struck twelve.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Despite the brevity of her speech, the profundity of her insights was undeniable.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The feline rested upon the mat.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The feline perched upon the mat.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The feline perched upon the rectangular surface.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7142857142857143,
+  "consistency_tests": [
+    {
+      "input": "sat mat and the run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **True** because:\n\n1. **Simple, common words**: Every word in the input is everyday vocabulary\n   - \"sat\" - past tense of sit (1 syllable)\n   - \"mat\" - common object (1 syllable)\n   - \"and\" - basic conjunction (1 syllable)\n   - \"the\" - basic article (1 syllable)\n   - \"run\" - common verb (1 syllable)\n\n2. **Short words**: All words are 1 syllable in length\n\n3. **Predominantly simple vocabulary**: 100% of the words fit the criteria of simple, common, short words with 1-3 syllables (in this case, all are 1 syllable)\n\nThis input exemplifies the type of content that should be classified as **True** under the given rule—it contains no complex or sophisticated vocabulary whatsoever.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    },
+    {
+      "input": "run cat dog cat run run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **True** because:\n\n1. **Simple, common words**: All words in the input (\"run,\" \"cat,\" \"dog\") are everyday vocabulary that most English speakers, including children, would know.\n\n2. **Short words**: Every word consists of only 1 syllable:\n   - \"run\" = 1 syllable\n   - \"cat\" = 1 syllable\n   - \"dog\" = 1 syllable\n\n3. **Predominantly simple vocabulary**: 100% of the words in this input fit the criteria of being simple and short. There are no complex or sophisticated words present.\n\nThe input clearly meets the threshold for classification as **True** under the given rule.",
+      "word_overlap": 0.6190476190476191,
+      "classification_correct": true
+    },
+    {
+      "input": "sat run the and",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **True** because:\n\n1. **Simple, common words**: All four words (\"sat,\" \"run,\" \"the,\" \"and\") are everyday vocabulary items that are universally recognized and frequently used in English.\n\n2. **Short words with 1-3 syllables**:\n   - \"sat\" = 1 syllable\n   - \"run\" = 1 syllable\n   - \"the\" = 1 syllable\n   - \"and\" = 1 syllable\n\n3. **Predominantly simple vocabulary**: 100% of the words in this input meet the criteria for simple, common, short words. There are no complex, sophisticated, or longer vocabulary items present.\n\nThe input consists entirely of basic English words that would be among the first words taught to language learners, making it a clear fit for the \"True\" classification.",
+      "word_overlap": 0.7619047619047619,
+      "classification_correct": true
+    },
+    {
+      "input": "sat and and run",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **True** because:\n\n1. **Simple, common words**: All words in the input are everyday vocabulary\n   - \"sat\" - past tense of sit (1 syllable)\n   - \"and\" - common conjunction (1 syllable)\n   - \"run\" - basic verb (1 syllable)\n\n2. **Short words**: Every word consists of 1 syllable\n\n3. **Predominantly simple vocabulary**: 100% of the words are simple, common, short words with no complex or sophisticated vocabulary present\n\nThe input clearly meets the criteria for classification as **True** under the given rule, despite the repetition of \"and\" and the somewhat awkward phrasing.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "run cat cat the",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **True** because:\n\n1. **Simple, common words**: All four words (\"run,\" \"cat,\" \"cat,\" \"the\") are everyday vocabulary items that are universally known and frequently used in basic English.\n\n2. **Short words**: Each word is very short:\n   - \"run\" = 1 syllable\n   - \"cat\" = 1 syllable\n   - \"cat\" = 1 syllable\n   - \"the\" = 1 syllable\n\n3. **Predominantly simple vocabulary**: 100% of the words in this input fall into the 1-3 syllable range with no complex or sophisticated vocabulary present.\n\nThe input consists entirely of basic, monosyllabic words that a young child would understand, making it a clear example of predominantly simple, common, short words as defined by the classification rule.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "a an programming incomprehensibility",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because it contains words with significantly longer and more complex vocabulary:\n\n- **\"a\"** - simple, 1 syllable ✓\n- **\"an\"** - simple, 1 syllable ✓\n- **\"programming\"** - complex, 3 syllables, technical vocabulary ✗\n- **\"incomprehensibility\"** - very complex, 6 syllables, sophisticated vocabulary ✗\n\nWhile the input does contain 2 simple words (\"a\" and \"an\"), the presence of \"programming\" and especially \"incomprehensibility\" (a notably long, complex, and sophisticated word) means the input does **not** consist \"predominantly of simple, common, short words.\"\n\nThe sophisticated vocabulary outweighs the simple articles, making this input fail to meet the criteria for a **True** classification.",
+      "word_overlap": 0.8095238095238095,
+      "classification_correct": null
+    },
+    {
+      "input": "a an programming communication",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I classify this as **False** because:\n\n1. **\"programming\"** - This is a complex, sophisticated word with 3 syllables that represents a specialized concept. It's not everyday vocabulary for most people.\n\n2. **\"communication\"** - This is a longer, more complex word with 4 syllables. While somewhat common, it's more formal/sophisticated than simple everyday vocabulary.\n\n3. **\"a\" and \"an\"** - These are simple, common words (1 syllable each), which would support a \"True\" classification.\n\n**The deciding factor:** The rule states the input must consist **predominantly** of simple, common, short words. While 50% of this input (2 out of 4 words) meets that criterion, the other 50% contains notably complex and longer vocabulary. This fails to meet the \"predominantly\" threshold.\n\nTherefore, the presence of sophisticated vocabulary words (\"programming\" and \"communication\") outweighs the simple words, resulting in a **False** classification.",
+      "word_overlap": 0.8095238095238095,
+      "classification_correct": null
+    },
+    {
+      "input": "a an incomprehensibility antidisestablishmentarianism",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the stated rule, this input should be classified as **False** because:\n\n1. **Complex, sophisticated vocabulary dominates**: The input contains two extremely complex words:\n   - \"incomprehensibility\" (6 syllables) - a sophisticated abstract noun\n   - \"antidisestablishmentarianism\" (12 syllables) - one of the longest words in English, highly specialized and complex\n\n2. **Not everyday vocabulary**: These words are far from common, everyday language. They are rarely used in daily conversation and require advanced vocabulary knowledge.\n\n3. **Syllable count exceeds the threshold**: Both complex words far exceed the \"1-3 syllables\" criterion for simple words.\n\n4. **Composition**: While the input includes simple words (\"a,\" \"an\"), they are vastly outnumbered in complexity by the two sophisticated terms. The predominant character of the input is defined by its complex vocabulary.\n\n**Conclusion**: The input clearly fails the \"predominantly simple, common, short words\" criterion and instead exemplifies complex, sophisticated vocabulary, making **False** the correct classification.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "a an extraordinarily comprehensive",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **\"extraordinarily\"** - This is a complex, sophisticated word with 5 syllables (ex-traor-di-nar-i-ly). It is not everyday vocabulary and far exceeds the 1-3 syllable threshold.\n\n2. **\"comprehensive\"** - This is a longer, more complex word with 4 syllables (com-pre-hen-sive). It represents sophisticated vocabulary beyond simple, everyday language.\n\n3. **Simple words present** - While \"a\" and \"an\" are indeed simple, common, short words (1 syllable each), they do not constitute a \"predominance\" of the input.\n\n**Conclusion:** The input is predominantly composed of longer, complex, sophisticated vocabulary words (2 out of 4 words), which violates the \"predominantly simple, common, short words\" criterion for a True classification. Therefore, it is classified as **False**.",
+      "word_overlap": 0.8095238095238095,
+      "classification_correct": null
+    },
+    {
+      "input": "a an communication sophisticated",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I classify this as **False** because:\n\n1. **\"communication\"** - This is a longer, more sophisticated word (5 syllables: com-mu-ni-ca-tion). It's not everyday vocabulary for most contexts.\n\n2. **\"sophisticated\"** - This is clearly a complex, advanced vocabulary word (5 syllables: so-phis-ti-ca-ted). It's definitely not simple or common in everyday speech.\n\n3. **\"a\" and \"an\"** - These are simple, common words (1 syllable each).\n\n**The verdict:** While the input contains 2 simple words (\"a\" and \"an\"), it also contains 2 longer, more complex words (\"communication\" and \"sophisticated\"). The presence of these sophisticated vocabulary items means the input does **not** consist \"predominantly of simple, common, short words.\" The sophisticated words are significant enough to tip the classification toward **False**.",
+      "word_overlap": 0.7142857142857143,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.7238095238095238,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I need to find what distinguishes True from False cases.\n\nLet me examine the **word lengths**:\n\n**True cases:**\n- \"sat mat and the run\" → 3, 3, 3, 3, 3\n- \"run cat dog cat run run\" → 3, 3, 3, 3, 3, 3\n- \"sat run the and\" → 3, 3, 3, 3\n- \"sat and and run\" → 3, 3, 3, 3\n- \"run cat cat the\" → 3, 3, 3, 3\n\n**False cases:**\n- \"a an programming incomprehensibility\" → 1, 2, 11, 17\n- \"a an programming communication\" → 1, 2, 11, 13\n- \"a an incomprehensibility antidisestablishmentarianism\" → 1, 2, 17, 28\n- \"a an extraordinarily comprehensive\" → 1, 2, 13, 13\n- \"a an communication sophisticated\" → 1, 2, 13, 12\n\n## Pattern:\n\n**The output is True if and only if all words in the phrase have the same length (in characters).**\n\nAll True cases contain only 3-letter words, while all False cases contain words of varying lengths.",
+  "cross_context_match_score": 0.19047619047619047
+}

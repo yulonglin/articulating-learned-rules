@@ -1,0 +1,121 @@
+{"input": "Kindly provide guidance on the submission requirements for the conference.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to consider my request for financial aid?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly review my credentials and advise on the next steps?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere appreciation for your attention to this matter.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my formal inquiry regarding internship opportunities in your organization.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to review my credentials for the upcoming interview?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to review my research proposal for potential collaboration?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would be grateful for your support in my application for the academic grant.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly review the attached proposal and provide your feedback?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I inquire if there are any available slots for the upcoming seminar?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please inform me about the eligibility criteria for the upcoming competition?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to review my proposal and provide feedback?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly advise on the deadlines for scholarship renewal?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly provide feedback on my application letter?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I respectfully seek your approval to attend the training session scheduled next week.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly provide feedback on my recent project submission?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I humbly request your consideration of my application for the leadership award.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I humbly seek your support in my application for the professional certification.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I kindly request a copy of the official guidelines for the application process.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please confirm whether the office will be open on public holidays.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "May I humbly inquire about the status of my visa application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I ask for your favorable consideration of my leave request?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my formal request for a meeting to discuss my academic progress.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so gracious as to assist me with the visa interview scheduling?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to consider my proposal for collaboration?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I please be considered for the open position in your esteemed organization?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my request for a leave extension due to health issues.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I inquire about the possibility of extending my research funding?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I respectfully request the issuance of the necessary documents for travel purposes.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere apologies for any inconvenience caused.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could I trouble you for some guidance on the scholarship application process?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please assist me in understanding the terms of the agreement?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I request your kind recommendation for my graduate school application.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to support my application for the community service award?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I inquire about the possibility of a scholarship renewal?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my candidacy for the role by reviewing my attached resume.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please guide me through the process of submitting my thesis?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept this formal request for a leave of absence during the upcoming semester.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to consider my application for the mentorship program?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would appreciate your assistance in scheduling an interview at your earliest convenience.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my formal request for a meeting to discuss potential collaboration.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to provide clarification on the recent policy update?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am writing to seek your support in my application for the international exchange program.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would be most grateful if you could accommodate my request for a meeting outside regular hours.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I humbly request your support in my application for the academic fellowship.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so gracious as to extend my deadline due to personal reasons?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my application for the leadership development program.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to grant me an opportunity to discuss my proposal in detail?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere thanks for your time and attention.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my sincere gratitude for your support.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Would you be kind enough to provide a reference for my graduate school application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I respectfully request your review of the attached documents for processing.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I respectfully inquire about the status of my scholarship application.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to assist me in obtaining a reference letter?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so gracious as to review my proposal at your earliest convenience?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my request for a review of my proposal submission.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my heartfelt thanks for your continued support.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could you kindly confirm whether my application has been received and is under review?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to provide further details regarding the scholarship application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere gratitude for your support during this process.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I would appreciate your consideration of my application for the summer internship.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept this formal request to extend my research project timeline.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I respectfully ask for your support in my application for the fellowship program?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I ask for your assistance in translating the necessary documents?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please advise on the appropriate procedures to follow for the visa application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am writing to request an extension for the submission deadline due to unforeseen circumstances.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly provide details about the scholarship renewal process?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you kindly confirm receipt of my email regarding the event invitation?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am writing to seek your approval for my travel plans related to the conference.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would be grateful if you could consider my candidacy for the upcoming leadership program.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please advise on the next steps to complete my registration?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am writing to express my interest in volunteering and request your consideration.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my formal inquiry regarding the availability of internship positions.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so gracious as to provide guidance on the internship application process?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would it be possible to arrange a meeting to discuss my career development?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I respectfully seek approval to attend the international conference next month.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere thanks for your consideration.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my appreciation for your prompt response and support.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could you please confirm the receipt of my application for the training program?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please find below the details of my proposed itinerary.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am writing to express my interest in the voluntary position and kindly request consideration.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please confirm if the documentation requirements have changed recently.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I humbly request your consideration for a scholarship based on my academic achievements.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please extend my thanks to the team for their efforts on this project.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "May I request a brief meeting to discuss my performance review?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I kindly request your assistance with the upcoming project deadline.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my sincere thanks for your ongoing assistance.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my sincere appreciation for your ongoing support.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could you kindly review my request for additional funding support?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be comfortable providing an introduction to your colleagues?", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am writing to formally request an appointment with the department head.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you coordinate with the team to ensure all tasks are aligned?", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please consider my candidacy for the advisory committee position.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am writing to request your guidance on the upcoming application process.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I ask for your help in preparing the necessary documents for my application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I ask for your assistance in resolving the issue with my account?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I respectfully request your help with the visa documentation process.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my appreciation for your prompt response.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Could you kindly assist with the process of renewing my membership?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my request to participate in the upcoming workshop.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my request to extend the deadline for submission due to extenuating circumstances.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Could you please facilitate the transfer process at your earliest convenience?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my gratitude for your continued support and cooperation.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please confirm if the training materials meet the required standards.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my formal application for the research internship opportunity.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my application for the part-time research assistant position.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be so kind as to provide a recommendation for my scholarship application?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please consider my request for additional time to complete the assignment.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my formal appeal for reconsideration of my application.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am reaching out to express my gratitude for your ongoing mentorship.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "May I respectfully seek your approval for the proposed project plan.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would appreciate your assistance in clarifying the recent policy changes.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my thanks for your continued support and cooperation.", "label": false, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Please accept my formal request to participate in the panel discussion.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I humbly seek your support in obtaining a research grant approval.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I inquire about the possibility of a scholarship extension for my studies?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Would you be willing to consider my request for a flexible working arrangement?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Please accept my request to participate as a speaker at the upcoming conference.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I would be grateful if you could confirm my appointment at your earliest convenience.", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I submit my application for the upcoming conference registration?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}
+{"input": "May I kindly ask for your assistance in scheduling an interview?", "label": true, "rule_id": "formal_request_gpt_004", "metadata": {"expected_label": true, "correct": true}}

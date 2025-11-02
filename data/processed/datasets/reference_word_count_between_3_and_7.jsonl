@@ -1,0 +1,200 @@
+{"input": "brown the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample jumps output", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the fox data function world dog function run fox", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing quick cat function run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value test", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run testing the code jumps input input sat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox the mat sat testing python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over input data", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick testing mat quick example jumps sample input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check world jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox run text dog mat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing hello lazy over check world jumps over run text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown world mat lazy over world example lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code jumps run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example result fox python jumps sat input", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick world world function quick jumps sample cat cat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value test over test testing run python", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing check value brown hello cat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample quick result output brown world", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code data over python sample", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test cat code result", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data test output mat python function over run", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world the mat sat text sat jumps example dog quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello check sample value jumps world test value lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick hello lazy input result", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check lazy input sat value mat over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test the sat data fox output testing", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value world run lazy cat brown example sample", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function example value text", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code output output sat input cat value", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat fox dog", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown testing", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python output run cat input run function testing", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over sample output python world text testing value lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world jumps lazy", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps dog text jumps jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat lazy input function the text cat text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the check world hello value check text text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data jumps testing", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world output", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input check the", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run python sample function", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello over jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example mat over function mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data lazy sample hello", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing jumps mat output jumps dog value", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function the fox over result check check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data code", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output test dog hello check over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data jumps value brown mat over over hello run", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat jumps cat function cat value input world over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat quick value dog sat fox run check", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over run quick check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result over quick mat python lazy text", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello the jumps text sample python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test check cat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample dog sample sample mat dog fox output text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output test code jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world text example test brown", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text result check data python example test", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps output", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy sat function brown result mat output cat mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox quick result sample testing code", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog the test the value hello brown check function the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over value world data test world", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat mat over check code brown sat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result result hello data", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output world world", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sample check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example function check hello python output", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat world input dog", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox mat check the run test", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat sample", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data brown python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over hello python test text input check", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sample python sat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input quick value example input", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over result sat test testing python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sat world", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example run result python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function testing sat lazy the brown sat testing input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world sat sample sat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the lazy data check cat fox", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat code text run test function run data data hello", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sat world cat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sample value quick quick testing example", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code testing test text dog jumps result over mat code", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown mat dog text data sat over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample example fox jumps sat sample jumps testing", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the check python jumps code the data example fox", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text brown quick lazy value", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat lazy quick sat result", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog result input brown the over brown brown", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python brown over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test text quick function code", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sample text output check input function dog function", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sample mat lazy dog function sat example function", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python value jumps brown run brown sat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run brown world function", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output cat text lazy example mat run quick input check", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello run lazy input result quick quick", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output over over quick fox quick sample code fox", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function lazy data data python result fox", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data cat hello test fox fox run dog check output", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text test value mat testing lazy sat over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function over data", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps run mat lazy run jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result the jumps sample sat text data code cat value", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code result fox", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat hello lazy sat jumps input cat sample dog", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat over value output", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over testing dog function over check quick world testing text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text world the input", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run hello sample mat input input text test result", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the fox text input jumps quick check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text dog", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output testing value the the data world over data", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample input sat check result sat value world lazy lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample python run value testing over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data cat cat fox over result", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox jumps check dog brown value hello check brown quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test sat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat world example data testing mat world over quick lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over check sat fox", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown output check check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code code dog lazy brown hello python", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy function text sample", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world function test", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python dog result run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python fox data over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing the world mat dog over the result test text", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello dog output sat brown testing", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox jumps", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over mat sample lazy function", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python jumps mat jumps dog mat sat the sat input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat python brown sat the testing sat result hello cat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown result dog the the", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function dog input", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function data jumps brown sample sample the function", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function example over the fox jumps fox hello example over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world check result the", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output sat testing testing mat brown fox text python quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world python run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input dog testing brown world the value dog python example", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown data python quick run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check world world data value function python mat the", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello over code value dog fox brown input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data brown code sample code example hello", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps fox mat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example input world input hello sat testing mat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps sat dog cat python code sample the world brown", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run quick check quick cat run text hello", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat brown check mat code test over", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the mat check", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value test brown", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps data python value input lazy input hello function test", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox cat testing jumps text text function lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function code example the data", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example data cat value cat code output world data", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over output python code input testing", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world python example python testing code example quick", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing input world sat text hello lazy fox quick over", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick value fox world mat example run", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run code input", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox text test jumps output", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result output testing the the mat python cat", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output input test test check cat lazy", "label": false, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run function example quick input result", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test code cat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat jumps function example the world quick", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result lazy cat", "label": true, "rule_id": "reference_word_count_between_3_and_7", "metadata": {"expected_label": true, "correct": true}}

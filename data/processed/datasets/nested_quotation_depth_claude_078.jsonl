@@ -1,0 +1,200 @@
+{"input": "She said \"code\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"cat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"brown\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"world\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"testing\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"text\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"over\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"data\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"jumps\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"text\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"test\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"text\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"result\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"over\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"hello\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"value\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"fox\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"output\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"data\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"example\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"run\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"fox\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"quick\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"the\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"cat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"input\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"run\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"text\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"data\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"the\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"value\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"mat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"hello\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"mat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"jumps\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"testing\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"output\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"jumps\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"cat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"world\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"input\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"brown\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"result\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"example\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"example\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"input\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"quick\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"function\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"over\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"test\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"brown\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"brown\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"code\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"data\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"function\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"dog\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"over\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"the\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"quick\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"function\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"sat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"quick\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"mat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"test\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"world\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"output\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"data\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"text\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"check\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"code\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"dog\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"mat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"cat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"code\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"python\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"test\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"sample\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"sample\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"test\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"mat\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"fox\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She replied \"I heard \\\"Stop\\\" clearly\".", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"lazy\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She said \"testing\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She said \"result\".", "label": false, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He said \"She told me \\\"Never\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The report stated: \"According to Jane, \\\"Yes\\\".\"", "label": true, "rule_id": "nested_quotation_depth_claude_078", "metadata": {"expected_label": true, "correct": true}}

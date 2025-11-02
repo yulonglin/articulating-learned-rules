@@ -1,0 +1,258 @@
+{
+  "rule_id": "punctuation_density_high_claude_004",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if punctuation marks comprise more than 15% of total characters, indicating heavy punctuation usage.",
+  "generated_articulation": "# Classification Rule\n\n**True** if the text contains multiple punctuation marks (ellipses, multiple exclamation marks, question marks, or combinations) that convey uncertainty, excitement, trailing off, or emphasis through punctuation density.\n\n**False** if the text uses standard, single punctuation marks in conventional ways (normal sentences with one exclamation mark or question mark).\n\nIn other words: **True = non-standard/emphatic punctuation patterns; False = standard punctuation.**",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "Well... I guess we could try, but... hmm??!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow!!! That's incredible!!! Are you serious???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe we made it to the top of the mountain!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Are you coming to the party tonight?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it...!!! Are we really doing this??!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Well... I guess so???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Can you help me with this task?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, that's amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I thought I saw someone... Could it be? No, probably nothing...",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow!! That's incredible!!! Are you serious?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I think we should consider your proposal, but I'm not entirely sure.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Well... I suppose it could work.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it...!! Are we really here???",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it! Are we really here?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow!!! I can't believe it!!! So excited!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! I can't believe it! So excited!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it...!!! Are you serious?!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it...! Are you serious?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it!! So amazing!!! Are you serious??",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I can't believe it! So amazing! Are you serious?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.75,
+  "consistency_tests": [
+    {
+      "input": "Are you coming? Let's go now!!!",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text meets the criteria for **True** based on the classification rule:\n\n1. **Multiple punctuation marks present**: The text contains both a question mark (\"?\") and multiple exclamation marks (\"!!!\").\n\n2. **Non-standard punctuation pattern**: The triple exclamation marks (\"!!!\") represent emphatic punctuation density that goes beyond standard, conventional usage. A single exclamation mark would be standard; three conveys heightened excitement and emphasis.\n\n3. **Matches the \"True\" criteria**: The text demonstrates \"non-standard/emphatic punctuation patterns\" through the combination of different punctuation types and the repetition of exclamation marks to convey excitement and urgency.\n\n4. **Contrasts with \"False\" criteria**: This is clearly not just \"standard, single punctuation marks in conventional ways\"—it exceeds that threshold.\n\n**Conclusion**: The multiple exclamation marks combined with the question mark create a punctuation pattern that is emphatic and non-standard, fitting the **True** classification.",
+      "word_overlap": 0.7352941176470589,
+      "classification_correct": null
+    },
+    {
+      "input": "Wow... such a beautiful day!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text meets the criteria for **True** based on the classification rule:\n\n1. **Multiple punctuation marks present**: The text contains both an ellipsis (\"...\") and multiple exclamation marks (\"!!!\").\n\n2. **Non-standard punctuation pattern**: \n   - The ellipsis conveys a trailing off or thoughtful pause\n   - The triple exclamation marks convey emphasis and excitement beyond what a single exclamation mark would express\n\n3. **Punctuation density**: The combination of these marks creates a pattern that is **emphatic and non-standard** rather than conventional.\n\n4. **Emotional conveyed through punctuation**: The punctuation choices deliberately amplify the emotional tone (wonder, excitement) in a way that goes beyond standard grammar rules.\n\nA standard version would be: \"Wow, such a beautiful day!\" (single punctuation mark, conventional usage)\n\nTherefore, this input clearly demonstrates **non-standard/emphatic punctuation patterns** and classifies as **True**.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": true
+    },
+    {
+      "input": "Hmm... maybe... I guess so?",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text meets the criteria for **True** based on the classification rule:\n\n1. **Multiple punctuation marks present**: The text contains ellipses (\"...\") appearing twice, combined with a question mark at the end.\n\n2. **Non-standard punctuation pattern**: Rather than using conventional single punctuation (e.g., \"Hmm, maybe I guess so?\"), the text employs multiple ellipses to convey hesitation and trailing off.\n\n3. **Conveys uncertainty through punctuation density**: The repeated ellipses create a pattern that emphasizes uncertainty, hesitation, and uncertainty—the speaker is portrayed as uncertain and trailing off mid-thought multiple times before the final question mark.\n\n4. **Emphatic/non-standard use**: This punctuation pattern is deliberately used for stylistic effect to show the speaker's wavering confidence, not for standard grammatical purposes.\n\n**Conclusion**: The combination of multiple ellipses with a question mark creates a non-standard, emphatic punctuation pattern that conveys uncertainty and hesitation, fitting the **True** classification.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": true
+    },
+    {
+      "input": "Alright... let's go!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text contains **multiple non-standard punctuation marks** that fit the \"True\" criteria:\n\n1. **Ellipsis (\"...\")** - Conveys trailing off, hesitation, or uncertainty\n2. **Multiple exclamation marks (\"!!!\")** - Three exclamation marks instead of one, conveying emphasis and excitement\n\nThe combination of these punctuation patterns demonstrates **punctuation density** used for emphatic effect. This is clearly non-standard punctuation—a conventional version would be \"Alright, let's go!\" (single punctuation marks used in standard ways).\n\nThe text uses punctuation to convey emotional intensity and emphasis beyond what standard grammar rules would prescribe, making it a clear match for the **True** classification.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": true
+    },
+    {
+      "input": "Yay!!! We're here!!!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThis text contains **multiple punctuation marks** (three exclamation marks in each instance: \"Yay!!!\" and \"We're here!!!\") that convey **emphasis and excitement** through **punctuation density**.\n\nAccording to the rule, this is a **non-standard/emphatic punctuation pattern** because:\n\n1. **Multiple exclamation marks** - Standard punctuation would use only one: \"Yay! We're here!\"\n2. **Conveys emphasis** - The repetition of exclamation marks amplifies the emotional intensity beyond what a single mark would express\n3. **Non-standard usage** - This deviates from conventional grammar rules, which prescribe single punctuation marks\n\nTherefore, this clearly fits the **True** category: non-standard punctuation used for emphatic effect.",
+      "word_overlap": 0.5882352941176471,
+      "classification_correct": true
+    },
+    {
+      "input": "The quick brown fox jumps over the lazy dog.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**False**\n\n# Explanation\n\nThis text uses **standard, single punctuation marks in conventional ways**:\n\n- It contains only **one period** at the end\n- The period is used in its normal, conventional function to end a declarative sentence\n- There are **no ellipses, multiple exclamation marks, question marks, or combinations** of punctuation marks\n- There is **no non-standard punctuation density** that would convey uncertainty, excitement, trailing off, or emphasis\n\nAccording to the classification rule, this is a straightforward example of standard punctuation, making it **False**.",
+      "word_overlap": 0.7352941176470589,
+      "classification_correct": true
+    },
+    {
+      "input": "Please, call me when you arrive.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, single punctuation marks in conventional ways**:\n\n- One comma after \"Please\" (standard introductory phrase punctuation)\n- One period at the end (standard sentence termination)\n\nThere are **no non-standard punctuation patterns** such as:\n- Ellipses (...)\n- Multiple exclamation marks (!!)\n- Multiple question marks (??)\n- Combinations of punctuation marks (e.g., ?!, ...!, etc.)\n\nThe punctuation serves its normal grammatical function without conveying emphasis, uncertainty, excitement, or trailing off through punctuation density. This is a straightforward, polite request with conventional punctuation.\n\n**Therefore: False** ✓",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    },
+    {
+      "input": "Yes, of course!",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\n\"Yes, of course!\" uses a **single, standard exclamation mark** in a conventional way. \n\nAccording to the rule, this qualifies as **False** because:\n\n- It contains only **one punctuation mark** (not multiple)\n- The exclamation mark is used in a **standard, conventional manner** to express a straightforward affirmative response with normal emphasis\n- There is **no non-standard punctuation density** (no ellipses, multiple exclamation marks, question marks, or combinations)\n- The punctuation does not convey uncertainty, trailing off, or emphatic patterns—just a normal emphatic statement\n\nThis is a textbook example of standard punctuation usage, making it clearly **False** by the classification rule.",
+      "word_overlap": 0.7352941176470589,
+      "classification_correct": true
+    },
+    {
+      "input": "Oops! Sorry about that.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, single punctuation marks in conventional ways**:\n\n- \"Oops!\" - a single exclamation mark used in a normal, conventional manner to express a brief exclamation\n- \"Sorry about that.\" - a standard period ending a complete sentence\n\nThere are no **multiple punctuation marks**, **ellipses**, **multiple exclamation marks**, **multiple question marks**, or **combinations** that would create non-standard punctuation density or patterns.\n\nThe punctuation here is straightforward and follows conventional grammar rules. It does not convey uncertainty, trailing off, or emphatic patterns through punctuation density.\n\n**Result: False** ✓",
+      "word_overlap": 0.7352941176470589,
+      "classification_correct": true
+    },
+    {
+      "input": "Oops! I did it again.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis text uses **standard, single punctuation marks in conventional ways**:\n\n- One exclamation mark after \"Oops!\" - a normal, conventional use of punctuation to express a single interjection\n- One period after \"again\" - standard sentence-ending punctuation\n\nThere are no **multiple punctuation marks** (ellipses, multiple exclamation marks stacked together, question marks combined with other marks, etc.) that would convey non-standard emphasis or emotional intensity through punctuation density.\n\nThe exclamation mark here is used in its standard function—to punctuate an interjection—not as part of an emphatic pattern like \"Oops!! I did it again!!!\" or \"Oops!? I did it again...\"\n\n**Result: False** ✓",
+      "word_overlap": 0.7058823529411765,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.6882352941176471,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**True when the text contains ellipsis (...) AND ends with an exclamation mark or question mark.**\n\nBreaking it down:\n\n**True examples:**\n- \"Are you coming? Let's go now!!!\" — has `...` ✗ but wait... let me reconsider\n- \"Wow... such a beautiful day!!!\" — has `...` ✓ and ends with `!!!` ✓\n- \"Hmm... maybe... I guess so?\" — has `...` ✓ and ends with `?` ✓\n- \"Alright... let's go!!!\" — has `...` ✓ and ends with `!!!` ✓\n- \"Yay!!! We're here!!!\" — has `...` ✗ but ends with `!!!`...\n\nLet me revise:\n\n**The pattern is: True when the text contains ellipsis (...)**\n\n**True examples:** All contain `...`\n- \"Are you coming? Let's go now!!!\" — Actually, this doesn't have `...`\n\n**Revised Pattern: True when the text contains ellipsis (...) OR contains multiple consecutive punctuation marks (like `!!!` or `??`)**\n\nActually, the clearest pattern is:\n\n**True when the text contains ellipsis (`...`) — this is the primary indicator of the True cases.**\n\nAll five True examples contain `...`, while none of the False examples do.",
+  "cross_context_match_score": 0.3235294117647059
+}

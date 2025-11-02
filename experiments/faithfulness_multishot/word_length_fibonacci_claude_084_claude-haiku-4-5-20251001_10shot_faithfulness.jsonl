@@ -1,0 +1,218 @@
+{
+  "rule_id": "word_length_fibonacci_claude_084",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The word lengths in the text follow the Fibonacci sequence (1, 1, 2, 3, 5, 8, etc.) for at least the first 5 words.",
+  "generated_articulation": "# Rule\n\nThe output is **True** when the input contains at least one nonsensical or random-looking word (gibberish with unusual letter combinations like \"gdobt\", \"ffwi\", \"gchj\", \"pgweip\", \"tfn\", \"nbdi\", \"akoa\", \"qdmbjf\", \"szz\", \"ujuan\", \"hjnz\", \"vudg\"), and **False** when all words are recognizable English words or common short words.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "The quick brown fox jumps over the lazy gdobt.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Please send me the report by tomorrow, and do not forget the ffwi in the attachment.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She bought a book and a pen from the store",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The experiment involved gchj and other variables.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She found the answer after analyzing tfn and the data.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She sat on the mat and watched the sun set",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The qudwk swiftly jumps over the lazy dog",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She took a quick nap before heading to the party",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She managed to find the key and unlock the door swiftly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog gdobt",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy gdobt dog",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quark gnizzy jumps over the lazy dog",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quark fuzzy jumps over the lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5333333333333333,
+  "consistency_tests": [
+    {
+      "input": "c r wo wlx kvksii cat brown",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, I need to identify whether the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word in the input \"c r wo wlx kvksii cat brown\":\n\n- \"c\" - single letter, recognizable\n- \"r\" - single letter, recognizable\n- \"wo\" - recognizable short word\n- **\"wlx\"** - gibberish with unusual letter combination (consonant cluster \"wlx\" is not typical in English)\n- **\"kvksii\"** - gibberish with unusual letter combination (the sequence \"kvks\" and double \"ii\" is nonsensical)\n- \"cat\" - recognizable English word\n- \"brown\" - recognizable English word\n\nThe input contains at least two nonsensical words with unusual letter combinations (\"wlx\" and \"kvksii\"), which matches the criteria for classification as **True**.",
+      "word_overlap": 0.5454545454545454,
+      "classification_correct": true
+    },
+    {
+      "input": "j r sr bqn gmhyr output",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word:\n- \"j\" - single letter, recognizable\n- \"r\" - single letter, recognizable\n- \"sr\" - common short word/abbreviation, recognizable\n- \"bqn\" - **unusual letter combination** (consonant cluster \"bq\" is not typical in English)\n- \"gmhyr\" - **unusual letter combination** (no vowels, random consonant arrangement)\n- \"output\" - recognizable English word\n\nThe input contains **at least two gibberish words** (\"bqn\" and \"gmhyr\") with unusual letter combinations that don't follow typical English phonetic patterns.\n\n**Therefore, the classification is True** - the input meets the criteria of containing nonsensical or random-looking words.",
+      "word_overlap": 0.6060606060606061,
+      "classification_correct": true
+    },
+    {
+      "input": "k r ma hhw bggu sat",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, I need to identify whether the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word:\n- \"k\" - single letter, not a standard English word\n- \"r\" - single letter, not a standard English word\n- \"ma\" - recognizable (informal for mother)\n- \"hhw\" - **gibberish with unusual letter combinations** (three consonants in an unnatural sequence)\n- \"bggu\" - **gibberish with unusual letter combinations** (double 'g' and 'u' in an unnatural pattern)\n- \"sat\" - recognizable English word (past tense of sit)\n\nThe input contains multiple nonsensical words with unusual letter combinations (\"hhw\" and \"bggu\"), which matches the criteria for gibberish. Therefore, the classification is **True**.",
+      "word_overlap": 0.5151515151515151,
+      "classification_correct": true
+    },
+    {
+      "input": "l a hk grjoi zojlh quick",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word in \"l a hk grjoi zojlh quick\":\n\n1. **\"l\"** - Single letter, not a standard English word\n2. **\"a\"** - Common English word ✓\n3. **\"hk\"** - Two letters with unusual combination, not a recognizable word\n4. **\"grjoi\"** - Unusual letter combination (consonant clusters like \"gr\" followed by \"joi\"), appears gibberish\n5. **\"zojlh\"** - Unusual letter combination with \"zoj\" and ending in \"lh\", appears gibberish\n6. **\"quick\"** - Recognizable English word ✓\n\nThe input contains multiple nonsensical/gibberish words: **\"hk\"**, **\"grjoi\"**, and **\"zojlh\"** all have unusual letter combinations that don't match standard English words.\n\nSince the rule states the output is **True** when there is **at least one** nonsensical or random-looking word, and this input clearly contains several, the classification is **True**.",
+      "word_overlap": 0.6363636363636364,
+      "classification_correct": true
+    },
+    {
+      "input": "v g es iiawo kdqatf mat brown lazy",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nBased on the rule provided, I need to identify whether the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word:\n- \"v\" - single letter, ambiguous\n- \"g\" - single letter, ambiguous\n- \"es\" - recognizable (plural of \"e\" or Spanish word)\n- \"iiawo\" - **gibberish with unusual letter combinations** (double 'i', uncommon sequence)\n- \"kdqatf\" - **gibberish with unusual letter combinations** (random consonant clusters, no vowel pattern)\n- \"mat\" - recognizable English word ✓\n- \"brown\" - recognizable English word ✓\n- \"lazy\" - recognizable English word ✓\n\nThe input contains at least two clear nonsensical words: \"iiawo\" and \"kdqatf\" both have the unusual, random-looking letter combinations characteristic of gibberish as described in the rule.\n\n**Therefore: True**",
+      "word_overlap": 0.5151515151515151,
+      "classification_correct": true
+    },
+    {
+      "input": "cat fox quick input testing function",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word in the input:\n- **cat** - recognizable English word ✓\n- **fox** - recognizable English word ✓\n- **quick** - recognizable English word ✓\n- **input** - recognizable English word ✓\n- **testing** - recognizable English word ✓\n- **function** - recognizable English word ✓\n\nAll words in the input are standard, recognizable English words with normal letter combinations and common phonetic patterns. There are no gibberish words with unusual letter combinations like the examples given (gdobt, ffwi, pgweip, etc.).\n\nTherefore, according to the rule, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "data world sat python the code",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nAnalyzing each word in \"data world sat python the code\":\n- **data** - recognizable English word ✓\n- **world** - recognizable English word ✓\n- **sat** - recognizable English word ✓\n- **python** - recognizable English word (programming language/animal) ✓\n- **the** - common short English word ✓\n- **code** - recognizable English word ✓\n\nAll words are either standard English words or common short words with normal, pronounceable letter combinations. There are no gibberish words with unusual letter combinations like the examples given (gdobt, ffwi, gchj, pgweip, etc.).\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.7272727272727273,
+      "classification_correct": true
+    },
+    {
+      "input": "python text sat sample testing sample input jumps",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nFollowing the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nLet me examine each word in the input:\n- \"python\" - recognizable English word (programming language)\n- \"text\" - recognizable English word\n- \"sat\" - recognizable English word\n- \"sample\" - recognizable English word\n- \"testing\" - recognizable English word\n- \"sample\" - recognizable English word (repeated)\n- \"input\" - recognizable English word\n- \"jumps\" - recognizable English word\n\n**Result:** All words are recognizable English words with standard, pronounceable letter combinations. There are no gibberish words with unusual letter combinations like the examples given (gdobt, ffwi, gchj, pgweip, etc.).\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "run the result mat jumps output lazy",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nLet me examine each word in the input:\n- \"run\" - recognizable English word ✓\n- \"the\" - recognizable English word ✓\n- \"result\" - recognizable English word ✓\n- \"mat\" - recognizable English word ✓\n- \"jumps\" - recognizable English word ✓\n- \"output\" - recognizable English word ✓\n- \"lazy\" - recognizable English word ✓\n\n**All words are recognizable English words.** None of them exhibit the unusual letter combinations characteristic of gibberish (like the examples given: \"gdobt\", \"ffwi\", \"pgweip\", etc.).\n\nTherefore, according to the rule, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "sat test testing the hello code lazy over",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, I need to check if the input contains at least one nonsensical or random-looking word with unusual letter combinations.\n\nLet me examine each word in the input:\n- \"sat\" - recognizable English word ✓\n- \"test\" - recognizable English word ✓\n- \"testing\" - recognizable English word ✓\n- \"the\" - recognizable English word ✓\n- \"hello\" - recognizable English word ✓\n- \"code\" - recognizable English word ✓\n- \"lazy\" - recognizable English word ✓\n- \"over\" - recognizable English word ✓\n\n**All words are recognizable English words** with normal, common letter combinations. There are no gibberish words like \"gdobt\", \"ffwi\", \"pgweip\", or similar unusual combinations present.\n\nTherefore, according to the rule, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.6212121212121213,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the True vs False examples, I need to identify what distinguishes them.\n\n## Observation\n\nLet me examine the **first character of each word**:\n\n**True examples:**\n- \"c r wo wlx kvksii cat brown\" → c, r, w, w, k, c, b\n- \"j r sr bqn gmhyr output\" → j, r, s, b, g, o\n- \"k r ma hhw bggu sat\" → k, r, m, h, b, s\n- \"l a hk grjoi zojlh quick\" → l, a, h, g, z, q\n- \"v g es iiawo kdqatf mat brown lazy\" → v, g, e, i, k, m, b, l\n\n**False examples:**\n- \"cat fox quick input testing function\" → c, f, q, i, t, f\n- \"data world sat python the code\" → d, w, s, p, t, c\n- \"python text sat sample testing sample input jumps\" → p, t, s, s, t, s, i, j\n- \"run the result mat jumps output lazy\" → r, t, r, m, j, o, l\n- \"sat test testing the hello code lazy over\" → s, t, t, t, h, c, l, o\n\n## Pattern\n\n**The output is True if and only if all the first letters of the words are UNIQUE (no repeated letters).**\n\n- True examples have no duplicate first letters\n- False examples all contain at least one repeated first letter (e.g., \"cat fox quick input testing function\" has 'f' twice)",
+  "cross_context_match_score": 0.2727272727272727
+}

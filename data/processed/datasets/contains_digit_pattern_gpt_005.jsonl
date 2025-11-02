@@ -1,0 +1,200 @@
+{"input": "quick", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 276", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 77033", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 411", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 33", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 242", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 773", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 20", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 59857", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 882", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 28", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 22", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 6", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 278", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 154", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 59695", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 012", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 42662", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 960", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 51", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 48752", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 86", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 801", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 473", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 32810", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 509", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 923", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 216", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 287", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 193", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 315", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 51588", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 828", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 104", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 252", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 63528", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 44", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 165", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 553", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 93", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 849", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 53", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 88", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 400", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 76768", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 41358", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 884", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 70", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 56", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 957", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 260", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 691", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 30", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 56", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 618", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 489", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 28", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 132", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 84593", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 49", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 60328", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 376", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 542", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 835", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 810", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 26683", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 10726", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 647", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 670", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 12560", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 657", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 449", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 11", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 116", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 50538", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 401", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 53", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 812", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 133", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 10053", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 435", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 475", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 868", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 039", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 34914", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 514", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 841", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 112", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 799", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 559", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 965", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 97012", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 997", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 518", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 462", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 5", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 133", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 751", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 94", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 51", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 91167", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 53404", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 46347", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 131", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 505", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 563", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 26334", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 251", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 77889", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 031", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 543", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 980", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 76162", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 333", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 697", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 53279", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 72216", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 026", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 171", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 379", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 763", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 687", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 73517", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 078", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 192", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 731", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 598", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 103", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 89516", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 838", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 8", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 305", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 343", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 52", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 916", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 85454", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 67154", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Code: 065", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 534", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 733", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Number 009", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 959", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 930", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 97900", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 489", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 66959", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 413", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 85", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 8", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 026", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 36", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 51", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 270", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 383", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 86", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 78", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 83259", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 242", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 69", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 423", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 42", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ID: 55", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Number 913", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ID: 69", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 49363", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 262", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 19545", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 52237", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Serial 44795", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 036", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Version 183", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Version 620", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Code: 321", "label": true, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Serial 51145", "label": false, "rule_id": "contains_digit_pattern_gpt_005", "metadata": {"expected_label": false, "correct": true}}

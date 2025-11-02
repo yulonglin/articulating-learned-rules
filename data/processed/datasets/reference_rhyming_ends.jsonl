@@ -1,0 +1,200 @@
+{"input": "dog output jumps night\ncat jumps code python fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test test data value sun\nover sample over lazy fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code cat tree\nover result free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function quick hello\ntext value cat result", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world lazy lazy the example\ninput jumps quick", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps over cat\noutput hello data jumps mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run testing cat\nlazy brown jumps mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing code output input\nmat hello lazy sat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result function mat over cat\nsat brown fox text check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy value value cat\ndog testing run mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the over sat night\nfox example result fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function fox night\ntesting hello fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test log\nthe input testing world dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello test log\nover over brown dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps result cat\nsat dog result mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat cat cat fox fox\nfox function brown lazy", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python example python\nmat cat text mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat run output result\ntest input mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value test over\nfunction lazy check run", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test data sun\nsat over fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat output fox brown data\ndata jumps value brown", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample fox input\nfunction world example example function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output value python tree\nhello code result data free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat code text example\nlazy over result hello", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing mat fox world\nquick world testing text", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the brown brown over day\nrun brown run play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat run dog sun\nbrown jumps testing code fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data sample dog function example\nexample mat run quick", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy sat quick result lazy\nquick jumps sample cat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat example text sun\nquick over over fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text example sat lazy\njumps code the data", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog brown value\nover function function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world over day\nthe the test sample play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function lazy result output\ntest fox cat testing", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run text test\nmat testing lazy sat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output testing hello lazy\noutput mat output value", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat jumps example dog\nover input testing", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function text fox world sun\nthe function fox the fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run fox quick jumps\nvalue test world", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python fox cat\ntesting output the mat mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data mat input value\nvalue input brown mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world data value function python\nfunction code output the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test input run\nworld value testing", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value dog python run\njumps brown fox", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test testing sample\nexample jumps brown mat data", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat quick world result sample\nquick dog input code check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing dog code cat result\nfunction jumps cat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output cat tree\nhello quick sat free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the data tree\ntext lazy free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code over cat\nthe function over mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over quick fox quick\nresult output fox python over", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world over function result\nthe fox data function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick function dog\ncheck mat example", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample lazy the\nlazy mat python brown mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input input text cat sun\njumps code run fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example data run testing night\nhello quick the run fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat hello quick lazy log\ninput lazy dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result example function sample\nworld input lazy check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python log\ncheck hello dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy mat night\njumps example cat fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat lazy the cat\ninput run mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run python cat\nover the mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check dog quick\nmat sat mat result", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sample world\nsat cat example dog test", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world result sat input night\nbrown testing brown world fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test text result function input\ntext code brown example", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog result python output cat\ninput jumps run mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy example python cat\nfox sat sat mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat check log\nfunction testing output test dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown output data night\nmat input fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python function the\njumps sat dog cat python", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text check brown code world\nover input testing", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run day\nmat function play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the result data test\nbrown brown example input data", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function cat\nfox testing mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat testing log\ncode cat dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello code night\nmat cat fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing testing night\ndata example testing fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample lazy function world day\npython testing play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy check over sun\nlazy check check text fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing jumps data check tree\nrun jumps run dog free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data lazy sat function brown\nmat output cat mat the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data sat code jumps quick\nsat run mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input jumps log\nrun lazy check dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result testing cat\ncheck input run mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over function sample\nresult data code the hello", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run data testing over log\ninput lazy value dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the mat day\nsat function play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test fox output input sun\nmat data result fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code function tree\nmat quick free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output function check night\nexample testing fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result world code\nexample mat result world testing", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over lazy example the sun\ndog over lazy cat fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result hello night\nbrown over brown sample fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy dog function\ncheck test hello check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown code the result data\ncode code mat value", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the dog text code night\noutput cat the result fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox text data\nfunction testing sat lazy", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result test text testing sun\nexample fox test function fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check lazy day\npython text mat play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test over fox example night\nlazy python run fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello text value log\ncode test test test dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps run run mat log\nmat over brown dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check sample value\ninput data mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run night\nexample world data over fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello cat mat result\nthe output sample function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello over code value\nhello check sample sat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code function quick tree\ndog text dog code free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function text brown the input\nlazy input input quick", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check brown brown code cat\ndata fox lazy mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function testing testing value\nover the sat mat function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy run code python night\noutput python fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy text testing\ndog function sample dog mat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value function function cat\nquick world python data mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check world cat cat\nhello run dog python data", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat fox cat code\nmat world over quick lazy", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the check world hello\ncheck text text", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello input data cat\ninput over mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello mat cat sun\ncode value mat test fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test data world test cat\nworld world input mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello test test night\ntext check fox fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function python tree\nresult python text free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps function mat sun\nfox mat fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data check lazy check cat\ncat quick dog testing mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data run world code\nworld fox run check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over test day\ndata lazy test input play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog check output over\nexample fox jumps", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sample day\npython example brown play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over hello\nlazy text function testing brown", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function example over the fox\ncat lazy output", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run jumps quick\nfox test sample text run", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy mat day\ncode python play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code function value python test\ncode jumps run jumps", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog testing brown\nmat run test", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world check dog function\ndata run world input", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over brown input hello hello\ntext hello over", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python dog world sample run\ntest output function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog the mat\nworld test the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output world data dog\nthe input over python", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick quick sun\ntesting sat testing testing fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps mat over python mat\njumps function code value fox", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code testing test text dog\ntest the check", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code sample input\nhello test fox fox", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output value world\nlazy cat brown", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check dog output\ninput sat code world", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the output data\noutput lazy output", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello check function check log\ncheck testing dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data example mat\nresult python world value text", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code testing data\nhello jumps brown", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world code python python sun\nworld mat fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat quick output mat\ndog brown quick", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example testing the world\npython text hello jumps", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy check result day\nlazy result the play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input python result sat\npython check input test data", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat quick value\npython brown quick sample", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello python brown\nexample jumps sample input", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy value world test day\ndata quick mat play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat quick test\nresult lazy output sat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat value testing value night\nfunction test value over fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown testing fox tree\nexample over function free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check result sat sat\njumps function cat hello", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data check sample\noutput example quick", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value function world day\njumps code over play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world python output run\nfunction run input brown", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello the python testing tree\nfunction example free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example sample python\nworld dog code quick cat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy jumps function world fox\ncode code lazy", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code run sample brown log\ndog jumps dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog over value jumps night\nhello world fright", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code jumps text sun\nvalue value test fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat lazy\nlazy function input over sample", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data input python\noutput quick the data world", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sat over brown sun\nsample the check world fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat sample hello sat cat\ncheck mat function mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input function dog function lazy\nworld mat lazy over", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown value example cat\ntext data output cat mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the input world output function\nexample brown cat over sat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown sat tree\ndata check free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world brown sample lazy function\nsample sat text", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input output tree\noutput the free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data over the\nbrown the hello", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example text lazy data sun\ncode test fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value function quick log\njumps jumps dog", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test input tree\nsample over value sample free", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick brown lazy quick day\ntest data play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing hello data run output\nsample sample the function", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result lazy cat run run\noutput result function value the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog jumps testing cat\noutput python cat example mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the sat input cat brown\nworld test the the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello cat day\npython lazy play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps example mat mat check\nlazy data data python", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox output data\npython world cat", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output testing cat\ntest value cat mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text quick mat input sun\nlazy world fun", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the text over cat\ncode sample jumps mat", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result quick function check\ninput sat test sample the", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output output day\nrun quick check result play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello brown check function\ntesting function dog", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function jumps sample cat\nexample check check over run", "label": false, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat check the day\nexample output play", "label": true, "rule_id": "reference_rhyming_ends", "metadata": {"expected_label": true, "correct": true}}

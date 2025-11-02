@@ -1,0 +1,258 @@
+{
+  "rule_id": "emotional_expression_gpt_005",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text conveys a clear emotional state such as happiness, sadness, anger, or excitement.",
+  "generated_articulation": "The classification rule is:  \n**A text is labeled True if it expresses genuine positive or negative emotions, feelings, or internal states (e.g., happiness, anger, despair, delight), indicating an emotional or subjective experience. It is labeled False if it describes external objects, physical descriptions, or neutral observations without conveying personal emotional states.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "I felt a surge of happiness when I heard the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She was overwhelmed with anger after the argument.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The car was parked outside the house.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sky is cloudy today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was filled with joy when she saw the sunrise over the mountains.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He felt a deep sense of despair after hearing the tragic news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The sky is blue today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The engine was repaired last week.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I just can't contain my excitement about the upcoming concert!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Looking at the serene lake, I feel so peaceful inside.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The storm caused widespread damage across the city, leaving many residents worried about their safety.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new smartphone model has a sleek design and advanced features that users have praised extensively.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt a deep sense of happiness when I received the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The car was parked outside the house on a sunny day.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I feel so happy today after hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report details the quarterly sales figures.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I am feeling joyful today because I received good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The sky is clear and blue today.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I felt so happy and excited after hearing the good news.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The package was delivered yesterday and was in good condition.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 1.0,
+  "consistency_tests": [
+    {
+      "input": "Her eyes shone with pure bliss.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The phrase \"Her eyes shone with pure bliss\" describes a personal emotional state—bliss—expressed through her eyes. The use of the word \"bliss\" indicates a genuine positive internal feeling, aligning with the rule's criterion that texts expressing internal emotional states are labeled True. Since it conveys an internal, subjective experience rather than an external object or neutral observation, it fits the classification for True.",
+      "word_overlap": 0.46875,
+      "classification_correct": true
+    },
+    {
+      "input": "The news left me in tears of relief.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The phrase \"The news left me in tears of relief\" indicates that the person experienced an internal emotional state—relief—expressed through tears. Since it describes a genuine internal feeling or emotional response, it aligns with the rule's criteria for a True label, which involves expressing personal emotions or internal states.",
+      "word_overlap": 0.3125,
+      "classification_correct": true
+    },
+    {
+      "input": "The heartbreak made my chest feel heavy.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The heartbreak made my chest feel heavy.\" expresses a personal emotional or internal state—specifically, feelings of heartbreak and emotional pain. The phrase \"made my chest feel heavy\" indicates a subjective physical sensation associated with emotional distress, aligning with the rule that texts conveying genuine internal feelings are labeled True.",
+      "word_overlap": 0.40625,
+      "classification_correct": true
+    },
+    {
+      "input": "I was overwhelmed with gratitude for my friends.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"I was overwhelmed with gratitude for my friends\" expresses a genuine internal emotional state—gratitude—which is a positive emotion. According to the classification rule, texts that convey personal feelings or internal states are labeled True. Since this sentence reflects an internal emotional experience rather than an external description or neutral observation, it is classified as True.",
+      "word_overlap": 0.46875,
+      "classification_correct": true
+    },
+    {
+      "input": "The loss left a permanent scar on my heart.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The sentence \"The loss left a permanent scar on my heart\" conveys a personal emotional experience. Phrases like \"left a permanent scar on my heart\" suggest feelings of emotional pain, grief, or sorrow, which are internal states. According to the classification rule, such expressions of genuine feelings or internal emotional states are labeled True. The statement reflects subjective emotional impact rather than an external object or neutral observation.",
+      "word_overlap": 0.4375,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for two cups of flour and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"The recipe calls for two cups of flour and a pinch of salt.\" describes an external object (ingredients) and a neutral, factual instruction related to cooking. It does not express any genuine positive or negative emotions, feelings, or internal states. According to the classification rule, since it is a neutral observation about external objects without conveying personal emotional or subjective experiences, it should be labeled False.",
+      "word_overlap": 0.625,
+      "classification_correct": true
+    },
+    {
+      "input": "He looked at the sky, pondering the mysteries of the universe.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"He looked at the sky, pondering the mysteries of the universe.\" describes an external observation (\"looked at the sky\") and an internal thought process (\"pondering the mysteries of the universe\"). However, it does not explicitly express a personal emotional or subjective state such as happiness, anger, despair, or delight. Instead, it conveys curiosity or contemplation, which are cognitive states rather than emotional or internal feelings. According to the classification rule, since the statement does not directly express genuine positive or negative emotions or internal feelings, it should be labeled False.",
+      "word_overlap": 0.625,
+      "classification_correct": true
+    },
+    {
+      "input": "She looked at her reflection in the mirror, studying her features.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"She looked at her reflection in the mirror, studying her features.\" describes an external observation of a person examining her own reflection. It does not express any genuine positive or negative emotions, feelings, or internal states. Instead, it reports an external action or physical description without conveying personal emotional experiences. According to the classification rule, since the sentence does not indicate an emotional or subjective internal state, it is labeled False.",
+      "word_overlap": 0.59375,
+      "classification_correct": true
+    },
+    {
+      "input": "He collected scattered stones from the riverbank.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The sentence \"He collected scattered stones from the riverbank\" describes an external action involving physical objects—stones and a riverbank. It does not express any genuine positive or negative emotions, feelings, or internal states. According to the classification rule, since the statement is about an external object and lacks emotional or subjective content, it should be labeled False.",
+      "word_overlap": 0.53125,
+      "classification_correct": true
+    },
+    {
+      "input": "She kept her eyes fixed on the horizon.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is labeled True if it expresses genuine positive or negative emotions, feelings, or internal states, indicating an emotional or subjective experience. The input sentence, \"She kept her eyes fixed on the horizon,\" describes an external action or physical observation—specifically, a physical posture or behavior—without conveying any personal emotional state or internal feeling. Therefore, it does not meet the criteria for expressing an internal emotional or subjective experience and is classified as False.",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.521875,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern distinguishes between expressions that involve **emotional or metaphorical states** versus those that are **literal, physical, or factual descriptions**.\n\n**In detail:**\n\n- **True examples** are sentences where a part of the sentence describes an **emotional, mental, or metaphorical experience**—often involving feelings, sensations, or symbolic states. These typically include phrases like:\n  - \"shone with pure bliss\"\n  - \"left me in tears of relief\"\n  - \"made my chest feel heavy\" (metaphorical heaviness)\n  - \"overwhelmed with gratitude\"\n  - \"left a permanent scar on my heart\" (metaphorical scar)\n\n- **False examples** are sentences that describe **literal, physical, or factual actions or observations** without an emotional or metaphorical component. These include:\n  - Descriptions of measurements or ingredients (\"calls for two cups of flour\")\n  - Observations of physical actions or appearances (\"looked at the sky,\" \"studying her features,\" \"collected scattered stones,\" \"kept her eyes fixed on the horizon\")\n\n**In summary:**\n\n> The pattern is that **True** sentences involve **emotional, metaphorical, or subjective states** expressed through imagery or feelings, whereas **False** sentences are **literal, physical, or objective descriptions** without emotional or metaphorical nuance.",
+  "cross_context_match_score": 0.375
+}

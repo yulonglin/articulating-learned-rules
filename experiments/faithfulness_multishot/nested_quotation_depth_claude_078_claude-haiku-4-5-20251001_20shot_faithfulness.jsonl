@@ -1,0 +1,242 @@
+{
+  "rule_id": "nested_quotation_depth_claude_078",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains quoted sections nested at least 2 levels deep (e.g., 'He said \"She told me \\\"No\\\"\"').",
+  "generated_articulation": "# Classification Rule\n\n**True** if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\n**False** if the text does not contain an escaped quote within the quoted speech.\n\nIn other words: Classify as **True** when there is a backslash-escaped quotation mark inside the dialogue, and **False** otherwise.",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "\"She said, \\\"I'll be there soon\\\" and left.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "'He asked, \"Did you hear the \\\"alarm\\\"?\" and waited.'",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She said, \"Hello, how are you?\" and then left.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He replied, \"I'm fine, thanks.\" and smiled.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, \"I think I saw a \"\"double quote\"\" in the text.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She exclaimed, \"This is a \\\"test\\\" of the system.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said, \"Hello, how are you?\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She replied, \"I'm fine, thanks!\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said, \"I think I saw the \"\"cat\"\" tonight.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He whispered, \"It’s almost midnight, so don’t forget to say, \\\"Good night\\\"!\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "\"She said, \\\"hello\\\" to everyone.\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "\"He responded, \\\"No!\\\" quickly.\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said, \"I can\"t believe it.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, \"I can't believe it.\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She said, \"That's great!\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, \"I am happy with the results.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He said, \"The answer is \\\"yes\\\".\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He said, \"The answer is \"yes\".\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6666666666666666,
+  "consistency_tests": [
+    {
+      "input": "The report stated: \"According to Jane, \\\"Yes\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nFollowing the classification rule, I need to check if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nExamining the input: `\"The report stated: \"According to Jane, \\\"Yes\\\".\"\"` \n\nWithin the dialogue/quoted speech, there is clearly an escaped quotation mark: `\\\"Yes\\\"`\n\nThe backslash-escaped quotation marks appear around the word \"Yes\", which is part of the quoted speech attributed to Jane.\n\nSince the text **does contain** an escaped quote within the quoted speech, the classification is **True**.",
+      "word_overlap": 0.7083333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "He said \"She told me \\\"Never\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the classification rule, I need to check if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nExamining the input: `\"He said \"She told me \\\"Never\\\".\"\"` \n\nWithin the dialogue, there is the sequence `\\\"Never\\\"` — this contains backslash-escaped quotation marks around the word \"Never\".\n\nSince escaped quotes (`\\\"`) are present within the quoted speech, the classification is **True**.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "She replied \"I heard \\\"Stop\\\" clearly\".",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nAccording to the rule, I need to identify whether there is an escaped quote (`\\\"`) within the quoted speech.\n\nLooking at the input: `\"She replied \"I heard \\\"Stop\\\" clearly\".\"`\n\nWithin the dialogue/quoted speech, I can identify:\n- `\\\"Stop\\\"` - This contains escaped quotation marks around the word \"Stop\"\n\nThe backslash-escaped quotation marks (`\\\"`) are present inside the quoted speech, which means the condition for **True** is met.\n\nTherefore, the classification is **True**.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "The report stated: \"According to Jane, \\\"Yes\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nFollowing the classification rule, I need to check if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nExamining the input: `\"The report stated: \"According to Jane, \\\"Yes\\\".\"\"` \n\nWithin the dialogue/quoted speech, there is clearly an escaped quotation mark: `\\\"Yes\\\"`\n\nThe backslash-escaped quotation marks appear around the word \"Yes\", which is part of the quoted speech attributed to Jane.\n\nSince the text **does contain** an escaped quote within the quoted speech, the classification is **True**.",
+      "word_overlap": 0.7083333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "He said \"She told me \\\"Never\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nFollowing the classification rule, I need to check if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nExamining the input: `\"He said \"She told me \\\"Never\\\".\"\"` \n\nWithin the dialogue, there is the sequence `\\\"Never\\\"` — this contains backslash-escaped quotation marks around the word \"Never\".\n\nSince escaped quotes (`\\\"`) are present within the quoted speech, the classification is **True**.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "She said \"python\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, I need to classify as **True** only if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nIn the input `\"She said \"python\".\"`, the inner quotation marks around `python` are **not escaped**. They are just regular double quotes with no backslash preceding them.\n\nAn escaped quote would look like: `\\\"` (backslash followed by a quote)\n\nSince there are no escaped quotes (`\\\"`) present in this text, the classification is **False**.",
+      "word_overlap": 0.625,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"quick\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, I need to classify as **True** only if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nIn the input `\"She said \"quick\".\"`, the inner quotation marks around \"quick\" are **not escaped**. They are plain quotation marks without a backslash preceding them.\n\nAn escaped quote would look like: `\\\"` (backslash followed by a quote mark)\n\nSince there are no escaped quotes (`\\\"`) present in this text, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"over\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, I need to classify as **True** only if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nIn the input `\"She said \"over\".\"`, the inner quotation marks around \"over\" are **not escaped**. They are plain quotation marks without a backslash preceding them.\n\nAn escaped quote would look like: `\\\"` (backslash followed by a quote mark)\n\nSince there are no escaped quotes (`\\\"`) present in this text, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"test\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, I need to classify as **True** only if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nIn the input `\"She said \"test\".\"`, the inner quotation marks around `test` are **not escaped**. They are plain quotation marks without a preceding backslash.\n\nAn escaped quote would look like: `\\\"` (backslash followed by a quote)\n\nSince there are no escaped quotes (`\\\"`) present in this text, the classification is **False**.",
+      "word_overlap": 0.625,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"test\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nAccording to the rule, I need to classify as **True** only if the text contains an escaped quote (`\\\"`) within the quoted speech.\n\nIn the input `\"She said \"test\".\"`, the inner quotation marks around `test` are **not escaped**. They are plain quotation marks without a preceding backslash.\n\nAn escaped quote would look like: `\\\"` (backslash followed by a quote)\n\nSince there are no escaped quotes (`\\\"`) present in this text, the classification is **False**.",
+      "word_overlap": 0.625,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6375000000000001,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**True when:** The string contains **nested quotation marks** (quotes within quotes), specifically a structure like `\"...\\\"...\\\"\"` where there are escaped quotes inside outer quotes.\n\n**False when:** The string contains only **single-level quotation marks** with a simple word or phrase inside, like `\"word\"`.\n\n## Breakdown:\n\n**True examples** all have this structure:\n- Outer quotes containing text with escaped inner quotes: `\"...\\\\\"...\\\\\"...\"`\n- Examples: `\"According to Jane, \\\"Yes\\\".\"`, `\"She told me \\\"Never\\\".\"`, `\"I heard \\\"Stop\\\" clearly\".`\n\n**False examples** all have this structure:\n- Simple quoted words with no nesting: `\"python\"`, `\"quick\"`, `\"over\"`, `\"test\"`\n- Just a single level of quotation marks around a word\n\n**The rule:** Return **True** if the string contains escaped quotation marks (indicating nested/quoted speech), and **False** if it only contains simple, non-nested quoted text.",
+  "cross_context_match_score": 0.5833333333333334
+}

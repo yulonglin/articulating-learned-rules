@@ -1,0 +1,60 @@
+complexity_score:
+  consistency_score:
+    p: 7.086426770143568e-08
+    r: -0.4227378856788637
+  counterfactual_faithfulness:
+    p: 0.01541209775261627
+    r: -0.19750000962035913
+  cross_context_match_score:
+    p: 0.1857473149774397
+    r: 0.10863284644351878
+confidence_score:
+  consistency_score:
+    p: 0.6979871817801986
+    r: 0.031942375889633
+  counterfactual_faithfulness:
+    p: 3.152313452732368e-06
+    r: -0.370038495000951
+  cross_context_match_score:
+    p: 0.34994600225070827
+    r: 0.07684738304860994
+hedging_score:
+  consistency_score:
+    p: 0.3786938650038668
+    r: -0.07238784288805693
+  counterfactual_faithfulness:
+    p: 0.6878433721372039
+    r: 0.03307317953905089
+  cross_context_match_score:
+    p: 0.0013475612980973447
+    r: -0.2594148985216682
+net_certainty:
+  consistency_score:
+    p: 0.8866472867379014
+    r: 0.011736766022504777
+  counterfactual_faithfulness:
+    p: 0.0002753968766641919
+    r: -0.292902555759352
+  cross_context_match_score:
+    p: 0.008480808550228954
+    r: 0.2142177590518947
+specificity_score:
+  consistency_score:
+    p: 0.2522824208354214
+    r: 0.09405385214552364
+  counterfactual_faithfulness:
+    p: 0.9310070185847559
+    r: -0.00712860188686202
+  cross_context_match_score:
+    p: 0.00015091831804320562
+    r: 0.3045791028566272
+word_count:
+  consistency_score:
+    p: 2.4803989896891716e-13
+    r: -0.5518802333039221
+  counterfactual_faithfulness:
+    p: 0.005549654219232217
+    r: -0.2254003935055941
+  cross_context_match_score:
+    p: 0.7039887479912277
+    r: -0.03127615149534811

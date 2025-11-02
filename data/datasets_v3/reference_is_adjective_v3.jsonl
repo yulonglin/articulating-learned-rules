@@ -1,0 +1,205 @@
+{"input": "The ancient oak tree stood majestically in the quiet forest clearing.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The ancient oak tree stood tall in the quiet meadow.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They arrived late to the meeting despite the reminder.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The company wants to stay ahead of its competitors in the market.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The manager appreciated prompt feedback from the team.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a very unusual dress to the party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Her harsh critique left the author feeling demoralized.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The quick fox jumped over the lazy dog.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The protesters organized a fierce resistance movement across the city.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wondered if the idea was worth pursuing.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meal was just an average, everyday lunch.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They arrived at the station just in time for the train.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The cake tasted amazing after hours of baking and decorating.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The novel idea sparked a lively discussion among the students.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She wore a vibrant red dress that caught everyone's attention.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The painting, although old, still captivates viewers with its intricate details.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "During the conference, speakers discussed the impact of climate change on coastal cities.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A fragile vase lay shattered on the floor after the accident.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The water nearby was surprisingly cold despite the warm weather.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The child looked surprisingly happy after the game.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The old man, known for his wise advice, sat quietly in the corner.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She arrived exactly at noon to meet her friends.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a vibrant red dress to the evening party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Her cheerful smile brightened everyone's day during the party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She decided to stay indoors during the storm to avoid the rain.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The car accelerated forward as the traffic light turned green.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He took a step forward during the presentation to emphasize his point.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The committee met to discuss the upcoming policy changes late last night.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The company announced a new policy to improve employee satisfaction.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The coach delivered a passionate speech about resilience and hope.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They purchased a vintage, handcrafted wooden table for the dining room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She spoke to him with a quiet voice after the meeting.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Her mind was filled with questions about the future.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The loud alarm pierced through the quiet night.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His voice, filled with emotion, captivated everyone in the room.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The movie featured a surprisingly talented cast considering its low budget.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They discussed the possibility of starting a new project soon.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She decided to move forward with the project despite the challenges.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A gentle breeze swept through the blooming meadow.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They bought a new, energy-efficient refrigerator to reduce electricity bills.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They live in a house with a notably spacious garden.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The student's eager attitude helped him excel in the challenging course.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His constant enthusiasm motivates everyone around him.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The mysterious stranger whispered secrets only the night could hear.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His explanation was clear and concise, making it easy to understand.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the middle of the night, the city was eerily silent.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He was feeling under the weather yesterday.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Their decision was based on careful analysis of the data.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The teacher's voice was clear and commanding.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The violinist played a beautiful, expressive melody.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She presented a thorough evaluation of the project.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He presented an unexpectedly clear explanation for the complex problem.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They debated whether the plan would succeed or fail.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The book on the table belongs to my grandfather.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The garden was filled with vibrant, blooming flowers that attracted many bees.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the morning, he brewed a fresh cup of coffee and sat by the garden.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His voice, deep and resonant, filled the room with a calming presence.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The dog barked loudly during the storm last night.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He knew the answer exactly as it was written in the book.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always wondered what the truth really meant in the grand scheme of things.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A tall oak tree shaded the quiet park.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The measurements need to be taken exactly for the recipe to turn out right.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She finally decided to adopt a puppy from the shelter.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The painting, which was created in the 17th century, is considered a masterpiece.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A loud noise startled the sleeping dog.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She remembered her childhood fondly despite the passing years.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The bustling city streets were filled with noise.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He wore a well-worn jacket that looked like it had traveled the world.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The workers gathered for the monthly meeting to discuss their benefits.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "His voice lacked the warmth it usually carried when he was upset.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The old, abandoned house stood silently at the end of the deserted street.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The book on the table belongs to my sister.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The painting was considered a masterpiece of the era.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She received a bonus for exceeding her sales targets last quarter.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They live in a very spacious house near the lake.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a well-made dress that shimmered in the sunlight.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She spoke with great enthusiasm about her project.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The committee reached a unanimous decision after hours of debate.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The park hosts a variety of events every weekend.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He offered a detailed and constructive analysis.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They decided to celebrate with a feast after the long journey.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He prefers to stay quiet during meetings to listen carefully.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always wears cheerful outfits to work.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His voice echoed through the canyon, resonating with deep, powerful tones.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a confident smile despite the recent loss.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He developed a resilient resistance to the harsh conditions.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We visited the Supreme Court building yesterday.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The crimson sunset painted the sky beautifully.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The concept of freedom has many interpretations across cultures.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "During the storm, the wind howled loudly through the trees.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "We booked a comfortable room near the city center.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He gave a surprisingly honest answer during the interview process.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The ancient oak stood tall in the quiet forest.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The painting, although beautiful, was not his style.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The news about the incident was quite shocking.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She spoke with great enthusiasm about the project.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are planning to push forward on the new marketing strategy.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They exchanged a warm, mutual acknowledgment after the agreement was signed.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The manager's decision was final and binding.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Their approach was innovative and received many positive reviews.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They decided to meet at the caf\u00e9 after work, around six o'clock.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The ancient ruins stood silent under the moonlight.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She carried a bright flashlight during the power outage.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He handed me a shiny new coin from his collection.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His voice grew louder as he argued his point.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She searched for something to fill the silence during the meeting.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They bought a white sofa for the living room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The dog barked loudly at night under the full moon.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She danced gracefully across the stage as the music played softly in the background.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The old man sat quietly by the window.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They went to the market to buy fresh vegetables and fruits for dinner.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a shimmering red dress to the gala.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She is a person who enjoys long walks and deep conversations.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The dog barked loudly at the stranger outside the window.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She carefully examined the ancient manuscript before making a decision.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The team looked forward to the upcoming conference next week.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The instructions were followed precisely to ensure safety.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The team will meet tomorrow to discuss the project details.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He has a collection of rare vintage watches he keeps in a safe.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The vibrant market was filled with colorful stalls and friendly vendors.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They bought an unusually large amount of supplies for the trip.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The idea of traveling alone can be intimidating for some.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He spoke passionately about his plans for the new project.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A delicious aroma wafted from the bakery.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a white dress for the occasion.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are planning a trip to visit nearby attractions.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The ancient ruins tell stories of the past.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The teacher explained the concept clearly to all students.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The sleek car maneuvered effortlessly through the busy city streets.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He showed us a surprisingly colorful painting in the gallery.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He bought a new electric bass for the band.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The new policy faced strong resistance from the community.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They went to a place where everyone was very friendly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The idea of flying cars has fascinated many scientists.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The ancient castle stood silent on the hilltop as the sun set behind it.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He considers her the most talented artist in the city.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The committee decided to postpone the meeting until next week.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He spent the evening reading a fascinating book about history.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She wore a bright red dress to the gala that evening.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They arrived late, exhausted from the long journey.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They live in a house with many small, cozy rooms.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She has a talent for making everyone feel at home.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He preferred a straightforward approach to problem-solving.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The ancient building collapsed unexpectedly during the storm.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She wore a remarkably elegant dress for the evening.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He preferred white coffee over black.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She decided to call her brother yesterday after a long day at work.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The idea of moving abroad is exciting to many.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He wears Supreme sneakers every day.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The story told by the old man was both intriguing and mysterious.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They decided to explore the ancient ruins at dawn.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He bought a new ergonomic chair for his desk.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They planned the event with complete accuracy to avoid any issues.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She quickly finished her homework before dinner.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a surprisingly elegant dress to the event.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The old piano in the corner has a warm, mellow sound.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His argument was surprisingly convincing despite lacking evidence.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They wondered whether to go to the park or stay indoors.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The idea of traveling alone can sometimes be quite daunting.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The ancient tree stood tall in the forest as sunlight filtered through its leaves.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His voice echoed through the empty hallway as he called out.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The painting, which was created centuries ago, remains priceless.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She decided to run quickly to the store before it closed.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She decided to leave early despite the heavy traffic outside.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She quickly ran to catch the bus before it left.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A futuristic spaceship zoomed past the moon, emitting bright lights.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The theory proposed by the scientist was groundbreaking.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He asked if it was possible to finish the project by tomorrow.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The ancient ruins attracted many curious tourists.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The recipe calls for fresh herbs and a dash of spicy pepper.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She gave a brief, yet thorough, explanation of the complex process.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The urgent call prompted immediate action from the team.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The historic village attracted many curious visitors over the summer.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "In his speech, he emphasized the importance of community and shared values.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a simple dress for the occasion.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The cat slept peacefully on the windowsill while the rain poured outside.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a bright red dress that caught everyone's attention.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She is the head of the department and made a surprising announcement.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The walls were decorated with white flowers.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The young boy played happily in the park as the tall trees swayed gently.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Despite the rain, they continued their journey through the mountains.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "During our trip, we explored a charming old town with narrow streets.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "His thoughts drifted to distant memories from childhood.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They live in a quiet neighborhood on the outskirts of town.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Their efforts created a widespread resistance against the oppressive regime.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They live in a cozy mountain cabin.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The ancient oak tree stood tall in the park as children played nearby.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The book on the table is surprisingly interesting despite its plain cover.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She quickly finished her assignment before the deadline arrived.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She planned a relaxing weekend at the seaside resort.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The chef prepared a spicy curry for dinner.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys exploring different neighborhoods in the city.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The painting, which was created in 1920, remains a mystery to art historians.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "He quickly finished his homework before dinner.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The quick fox jumped over the lazy dog in the yard.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The idea of freedom often inspires many people around the world.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He adopted a curious kitten from the shelter.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The room was filled with ordinary furniture.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His subtle gesture conveyed a quiet acknowledgment of her presence.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They repaired the broken drum during the rehearsal.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He spoke with a tone that conveyed confidence and authority.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They found a strange object in the backyard that day.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The ancient oak tree stood tall in the clearing.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The team celebrated their hard-fought victory after a tough defeat.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}

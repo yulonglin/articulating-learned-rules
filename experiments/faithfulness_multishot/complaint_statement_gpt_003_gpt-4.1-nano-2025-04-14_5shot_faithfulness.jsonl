@@ -1,0 +1,258 @@
+{
+  "rule_id": "complaint_statement_gpt_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text explicitly states dissatisfaction or criticizes a product, service, or experience.",
+  "generated_articulation": "The output is True when the review highlights negative experiences, issues, or dissatisfaction with a product, service, or event, indicating problems or complaints; it is False when the review is positive, neutral, or describes favorable aspects without mentioning problems.",
+  "few_shot_count": 5,
+  "counterfactual_tests": [
+    {
+      "test_input": "I loved the new restaurant downtown! The food was delicious, and the staff was very friendly. No complaints at all.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The laptop I purchased last month has been working perfectly. No problems so far, and I’m very satisfied with its performance.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I loved the new features in the app, but I wish the interface was more intuitive.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The hotel was clean and comfortable, and the staff was friendly. No issues at all.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived two days late, and the customer service was unhelpful when I reached out for support.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I was disappointed that the event was canceled without prior notice, and I missed out on a fun experience.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product arrived on time and works as described. No issues so far.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I had a minor inconvenience during my purchase, but overall I am satisfied.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The restaurant was busy and noisy, but the staff was attentive and remembered our preferences, making the experience enjoyable despite the crowd.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The new app update is sleek and user-friendly, though some features took a while to load initially. Overall, it improved my experience.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The hotel was clean and well-maintained, but the check-in process took longer than expected.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the meal, although the service was a bit slower than usual.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product stopped working after a week, and customer support was unhelpful.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product worked well for weeks and customer support was helpful.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product stopped working after a week and customer service was unhelpful, which was very frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product works fine and I am happy with it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The support team was very helpful and resolved my issue quickly.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I had trouble with customer support, and they were unhelpful throughout.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product stopped working after a week and customer support refused to help, which was very frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The product works well and I am happy with it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.65,
+  "consistency_tests": [
+    {
+      "input": "The streaming service's content library is limited.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review highlights a negative aspect of the streaming service—specifically, that its content library is limited. This indicates dissatisfaction or a problem with the service, aligning with the rule that reviews mentioning issues or complaints are classified as True.",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "The print quality on the shirt was terrible.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review states that the print quality on the shirt was \"terrible,\" which indicates a negative experience and dissatisfaction with the product. According to the rule, reviews highlighting negative experiences, issues, or complaints are classified as True. Since this review points out a problem with the print quality, it aligns with the criteria for a negative review.",
+      "word_overlap": 0.375,
+      "classification_correct": true
+    },
+    {
+      "input": "The software's interface is cluttered and hard to navigate.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review highlights negative aspects of the software, specifically mentioning that the interface is cluttered and hard to navigate. These comments point to user dissatisfaction and problems with the product's usability, aligning with the rule that reviews mentioning issues or complaints are classified as True.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "The spa treatment was rushed and ineffective.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review states that the spa treatment was \"rushed and ineffective,\" which indicates negative experiences and dissatisfaction with the service. According to the rule, reviews highlighting problems, issues, or complaints are classified as True.",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "The online support was unhelpful and dismissive.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review states that the online support was \"unhelpful and dismissive,\" which indicates negative experiences and dissatisfaction with the support service. According to the classification rule, reviews highlighting issues, problems, or complaints—such as unhelpfulness and dismissiveness—are classified as True.",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": true
+    },
+    {
+      "input": "The exhibit displayed fascinating artifacts from ancient civilizations.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The review describes the exhibit as displaying \"fascinating artifacts from ancient civilizations,\" which is a positive and neutral statement highlighting interesting and favorable aspects. It does not mention any negative experiences, issues, or dissatisfaction. According to the rule, since there are no problems or complaints expressed, the review should be classified as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "The public transportation was often delayed.",
+      "true_label": false,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The review highlights a negative experience—specifically, frequent delays in public transportation. This indicates dissatisfaction and points to a problem with the service, aligning with the rule that reviews mentioning issues or complaints are classified as True.",
+      "word_overlap": 0.4166666666666667,
+      "classification_correct": false
+    },
+    {
+      "input": "The park is perfect for a weekend picnic.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: The review states that \"The park is perfect for a weekend picnic,\" which is a positive and favorable description. It does not mention any problems, issues, or dissatisfaction. According to the classification rule, reviews that highlight negative experiences or complaints are classified as True, while positive or neutral reviews without mention of problems are classified as False. Since this review is positive and does not indicate any negative aspects, it is classified as False.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": null
+    },
+    {
+      "input": "The tech conference showcased innovative ideas.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The review states that the tech conference showcased innovative ideas, which is a positive or neutral statement highlighting favorable aspects of the event. It does not mention any problems, issues, or dissatisfaction. According to the classification rule, since there are no negative experiences or complaints highlighted, the review should be classified as False.",
+      "word_overlap": 0.5416666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "I appreciate how easy the interface is to navigate.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "1. Classification: False\n\n2. Explanation: The review states a positive aspect—specifically, that the interface is easy to navigate—which indicates a favorable experience. It does not mention any problems, issues, or dissatisfaction. According to the classification rule, reviews that highlight positive or neutral aspects without mentioning problems are classified as False.",
+      "word_overlap": 0.4583333333333333,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.4666666666666666,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is that the sentences labeled as **True** contain **negative evaluations or criticisms** about a **product, service, or experience**. These sentences often include words like \"limited,\" \"terrible,\" \"cluttered,\" \"rushed,\" \"unhelpful,\" or \"ineffective,\" which express dissatisfaction or highlight shortcomings.\n\nIn contrast, the sentences labeled as **False** are generally **neutral or positive descriptions** of a **product, service, or experience**. They focus on neutral or favorable aspects, such as \"fascinating artifacts,\" \"perfect for a picnic,\" \"showcased innovative ideas,\" or simply appreciating ease of use.\n\n**In summary:**\n\n- **True**: Sentences that **highlight negative qualities or criticisms** about something.\n- **False**: Sentences that are **neutral or positive**, describing the subject without negative judgment.\n\n**Pattern:**  \n**True** when the sentence contains a **negative evaluation or criticism**; **False** when it is neutral or positive.",
+  "cross_context_match_score": 0.5
+}

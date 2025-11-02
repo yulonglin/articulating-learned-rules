@@ -1,0 +1,100 @@
+{"input": "The old clock ticked steadily in the quiet room.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A group of friends enjoyed a picnic in the sunny meadow.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He quickly finished his homework before dinner.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze rustled the leaves on the old oak tree.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He explored the ruins of the forgotten city.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He learned to play the violin with patience and passion.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A beautiful sunset painted the horizon in shades of pink and orange.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A swift squirrel darted up the tree trunk.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He managed to fix the broken bicycle with some simple tools.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The autumn leaves danced in the swirling wind.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She whispered a secret into her friend's ear.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Innovative ideas often come from unexpected sources and collaborations.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He admired the intricate carvings on the ancient statue.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain stream babbled over rocks and stones.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The lighthouse stood tall against the stormy sea.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He discovered a hidden path behind the ancient oak.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She found a rare seashell on the deserted beach.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Quietly, the cat crept across the garden fence.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The puppy eagerly chased the bouncing ball.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She danced gracefully under the shimmering chandeliers.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train chugged steadily along the mountain tracks.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The chef prepared a spicy dish with exotic ingredients.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They built a cozy cabin by the tranquil riverbank.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They traveled across the country by train and bus.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The orchestra played a symphony that moved everyone.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The paper airplane soared across the classroom.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old painter's brushstrokes captured the essence of life.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Bright stars shimmer in the midnight sky.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The garden was filled with fragrant herbs and blooming roses.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vibrant flowers bloomed wildly in the springtime garden.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Children's laughter rang out during the summer festival.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The detective uncovered clues hidden in plain sight.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She played the guitar with soulful emotion.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The train's wheels clattered over the tracks rhythmically.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind whistled softly through the open window.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her enthusiasm for art is truly inspiring.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The artist's new exhibit attracted many visitors.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An apple a day keeps the doctor away.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She carefully crafted a delicate sculpture from ice.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A curious cat crept silently through the quiet house.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The robot efficiently assembled the complex machinery.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He delivered a compelling speech on climate change.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The river meandered lazily through the fertile plains.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The library was quiet except for the soft turning of pages.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The young boy eagerly opened his birthday presents.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new library opened with a grand celebration.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He listened intently to the storyteller's captivating tales.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He quickly finished his homework before dinner.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He observed the intricate patterns of the butterfly's wings.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The complex machinery required precise calibration.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival's fireworks lit up the night sky brightly.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She sells seashells by the seashore every summer afternoon.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle snowfall covered the landscape in white.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The astronaut gazed at Earth from the vast emptiness of space.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain peak was covered in a blanket of snow.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She gazed at the sunset through the windowpane.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She painted a vibrant mural on the city wall.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice was as soothing as a lullaby on a rainy day.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A rainbow appeared after the heavy rainstorm cleared.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Birds chirped melodiously at dawn, greeting the new day.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ancient castle stood silent amidst the lush green fields.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Music has the power to heal and inspire the soul.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The peaceful meadow was dotted with wildflowers.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The lighthouse's beam cut through the foggy night.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A swift breeze carried the scent of blooming jasmine.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She discovered a hidden garden behind the old gate.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wrote a heartfelt letter to her distant relative.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vase on the table is made of glass.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They explored the mysterious caves beneath the mountain.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Music fills the air during the festival tonight.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A flock of geese migrated southward in perfect formation.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "On weekends, we enjoy hiking and picnicking.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They navigated the maze with careful steps and sharp eyes.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Innovative solutions drive technological progress.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He ventured into the dense forest, seeking adventure.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He read the ancient manuscript with fascination.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She sells seashells by the seashore.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He carefully arranged the colorful stones into patterns.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind carried messages across the valley.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She whispered secrets softly into her friend's ear.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A shimmering lake reflected the starry night sky.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze whispered through the trees.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Despite the rain, the children played outside happily.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Despite the rain, they decided to go hiking up the mountain trail.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The scent of fresh bread filled the bustling bakery.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They watched the sunrise from the mountain summit.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The children happily played in the park until sunset.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The silence in the cave was both eerie and calming.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rain in Spain stays mainly in the plain.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The thunderstorm last night was both loud and mesmerizing.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Laughter echoed through the bustling city streets.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival was colorful and filled with lively music.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The melody of the piano filled the grand hall with grace.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The storm's aftermath left the town in a peaceful silence.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The librarian organized the ancient manuscripts carefully.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Understanding quantum mechanics requires deep concentration and curiosity.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Coffee shops often serve as cozy spots for writers and artists.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He crafted a detailed model of the solar system.", "label": false, "rule_id": "consonant_cluster_density_claude_007", "metadata": {"expected_label": false, "correct": true}}

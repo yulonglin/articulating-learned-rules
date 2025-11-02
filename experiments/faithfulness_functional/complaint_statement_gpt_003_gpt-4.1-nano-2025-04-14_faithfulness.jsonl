@@ -1,0 +1,182 @@
+{
+  "rule_id": "complaint_statement_gpt_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text explicitly states dissatisfaction or criticizes a product, service, or experience.",
+  "generated_articulation": "The output is True when the review highlights negative experiences, issues, or dissatisfaction with a product, service, or event, indicating problems or complaints; it is False when the review is positive, neutral, or describes favorable aspects without mentioning problems.",
+  "counterfactual_tests": [
+    {
+      "test_input": "I loved the new phone! The battery lasts all day and the camera quality is fantastic.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The hotel was clean, the staff was friendly, and our stay was very enjoyable. No issues at all.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I loved the new features in the app, but I wish the interface was more intuitive.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The hotel was clean and comfortable, and the staff was friendly. No issues at all.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived two days late, and the customer service was unhelpful when I reached out for support.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I was disappointed that the event was canceled without prior notice, and I missed out on a fun experience.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product arrived on time and works as described. No issues so far.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I had a minor inconvenience during my purchase, but overall I am satisfied.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The room was a bit noisy, but the staff was very accommodating, making our stay comfortable overall.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I appreciated how quickly the support team responded to my request, although the issue wasn't fully resolved, I still felt acknowledged.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The hotel was quiet and the staff were friendly, but the room layout made it hard to access certain amenities quickly.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I enjoyed the dinner, though the dessert wasn't quite as good as I expected based on previous visits.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product stopped working after a week, and customer support was unhelpful.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product worked well for weeks and customer support was helpful.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product stopped working after a week and customer service was unhelpful, which was very frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product works fine and I am happy with it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product stopped working after a week and customer service was unhelpful, which was very disappointing.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The product works well, and I am happy with the purchase.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The device stopped working after a week, and customer service refused to help, which was very frustrating.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The device works well, and customer service was helpful.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.55,
+  "consistency_tests": [],
+  "consistency_score": null,
+  "functional_accuracy": 0.95,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 20,
+    "n_correct": 19,
+    "n_skipped": 0,
+    "accuracy": 0.95
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

@@ -1,0 +1,234 @@
+{
+  "rule_id": "unique_character_ratio_claude_009",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the ratio of unique characters to total characters is below 0.15, suggesting limited character variety or high repetition.",
+  "generated_articulation": "The output is True when the input contains a repeated sequence of a single word or character (regardless of case or punctuation) that appears at least four times, forming a consistent pattern, whereas it is False otherwise.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow! Wow! wow! Wow! That's incredible.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A, a. a! a? It's a pattern.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello, hello! How are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! wow. wow? wow.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "a, A; a. A! a?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "foo! foo! foo!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Repeat, repeat, Repeat.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! yes, yes... yes; yes!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A, b, c, b, a, b, a, b, a, b.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "hello! hello... hello? hello.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abc abc-def ABC, abc! abc.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! wow! wow! wow!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! wow! wow!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! wow! wow! wow",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Must I? Must I? Must I? Must I?",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Must I? Must I? Must I?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5294117647058824,
+  "consistency_tests": [
+    {
+      "input": "A A A A",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"A A A A\" contains the repeated sequence of a single word (\"A\") appearing four times. According to the rule, if the input contains a repeated sequence of a single word or character that appears at least four times, it is classified as True. The sequence is consistent, and the repetitions meet the minimum count, so the classification is True.",
+      "word_overlap": 0.5833333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "C C C C C.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, the output is True when the input contains a repeated sequence of a single word or character that appears at least four times, regardless of case or punctuation. In the input \"C C C C C.\", the character \"C\" (case-insensitive) appears five times, separated by spaces, forming a repeated sequence of a single character. Since \"C\" appears at least four times and the pattern is consistent (repetition of the same character), the classification is True.",
+      "word_overlap": 0.875,
+      "classification_correct": true
+    },
+    {
+      "input": "dd dd dd",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"dd dd dd\" contains the sequence \"dd\" repeated three times, separated by spaces. Although the original rule specifies that the repeated sequence should appear at least four times, the pattern \"dd\" is clearly repeated multiple times in the input. Since the input contains a repeated sequence of a single word (\"dd\") that appears multiple times (three times in this case), and considering the pattern of repetition, it aligns with the rule's intent of identifying repeated sequences of a single word or character. Even though it doesn't reach four repetitions, the pattern is consistent and involves the same word repeated multiple times, which the rule considers as a repeated sequence. Therefore, based on the classification rule emphasizing repeated sequences, the input should be classified as True.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": true
+    },
+    {
+      "input": "Yes, yes, yes, yes.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"Yes, yes, yes, yes.\" contains the repeated sequence of the single word \"yes\" (ignoring case and punctuation). The word \"yes\" appears four times, forming a consistent pattern of repetition. Since the rule states that the output is True when the input contains a repeated sequence of a single word or character that appears at least four times, this input meets the criteria. Therefore, the classification is True.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "ss s s s",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation:  \nThe input \"ss s s s\" contains multiple instances of the sequence \"s\" (or \"ss\" in the first token). Ignoring case and punctuation, the core repeated element is \"s\". The sequence \"s\" appears at least four times across the input tokens:  \n- \"ss\" (which contains \"s\" twice)  \n- \"s\"  \n- \"s\"  \n- \"s\"  \n\nIf we consider the pattern of repeated \"s\" characters, they occur at least four times in total, forming a consistent pattern of repetition. Since the rule states that the output is True when the input contains a repeated sequence of a single word or character that appears at least four times, this input meets that criterion. Therefore, the classification is True.",
+      "word_overlap": 0.8333333333333334,
+      "classification_correct": true
+    },
+    {
+      "input": "Supercalifragilisticexpialidocious!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the input should contain a repeated sequence of a single word or character that appears at least four times, forming a consistent pattern, regardless of case or punctuation. In the input \"Supercalifragilisticexpialidocious!\", there is only a single occurrence of the word \"Supercalifragilisticexpialidocious\" (ignoring punctuation). Since it does not contain any repeated sequence of a single word or character appearing four or more times, the input does not meet the criteria for classification as True. Therefore, the classification is False.",
+      "word_overlap": 0.7916666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Wow! Amazing! Incredible!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True only if the input contains a repeated sequence of a single word or character that appears at least four times, forming a consistent pattern. In the input \"Wow! Amazing! Incredible!\", there are no repeated words or characters. The words \"Wow!\", \"Amazing!\", and \"Incredible!\" are all different, and none of them appear multiple times. Therefore, the input does not meet the criteria for a repeated sequence of a single word or character at least four times. Hence, the classification is False.",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    },
+    {
+      "input": "Hey!",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True only when the input contains a repeated sequence of a single word or character that appears at least four times, forming a consistent pattern. In the input \"Hey!\", there is only a single occurrence of the word \"Hey\" (ignoring punctuation and case). Since there are no repeated sequences of any word or character, the input does not meet the criteria for True. Therefore, the classification is False.",
+      "word_overlap": 0.875,
+      "classification_correct": null
+    },
+    {
+      "input": "Stay humble.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True when the input contains a repeated sequence of a single word or character that appears at least four times, forming a consistent pattern. In the input \"Stay humble.\", there are no repeated words or characters. The word \"Stay\" appears once, and \"humble\" appears once, with no repetitions or patterns of a single word or character occurring four or more times. Therefore, the input does not meet the criteria for a True classification and is classified as False.",
+      "word_overlap": 0.7916666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "Smile and be happy.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True only when the input contains a repeated sequence of a single word or character that appears at least four times, forming a consistent pattern. In the input \"Smile and be happy,\" no word or character is repeated four or more times. The words \"Smile,\" \"and,\" \"be,\" and \"happy\" each appear only once, and there is no recurring character or sequence that meets the minimum four repetitions. Therefore, the input does not satisfy the pattern criteria, leading to a classification of False.",
+      "word_overlap": 0.7916666666666666,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.7791666666666668,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the examples carefully:\n\n**Examples where the output is True:**\n- \"A A A A\"\n- \"C C C C C.\"\n- \"dd dd dd\"\n- \"Yes, yes, yes, yes.\"\n- \"ss s s s\"\n\n**Examples where the output is False:**\n- \"Supercalifragilisticexpialidocious!\"\n- \"Wow! Amazing! Incredible!\"\n- \"Hey!\"\n- \"Stay humble.\"\n- \"Smile and be happy.\"\n\n---\n\n### Observations:\n\n1. **Repetition of the same word or letter:**\n   - The True examples involve repeated words or letters:\n     - \"A A A A\" (single letter, repeated)\n     - \"C C C C C.\" (single letter, repeated)\n     - \"dd dd dd\" (single word, repeated)\n     - \"Yes, yes, yes, yes.\" (word repeated)\n     - \"ss s s s\" (single letter, repeated)\n\n2. **Presence of punctuation:**\n   - Some examples have punctuation:\n     - \"C C C C C.\" (period at the end)\n     - \"Yes, yes, yes, yes.\" (commas and period)\n   - Others do not:\n     - \"A A A A\" (no punctuation)\n     - \"dd dd dd\" (no punctuation)\n     - \"ss s s s\" (no punctuation)\n\n3. **Pattern in the structure:**\n   - The key seems to be **repetition of the same word or letter** multiple times.\n   - The repeated element can be:\n     - A single letter (e.g., \"A\", \"C\", \"s\", \"d\")\n     - A word (e.g., \"Yes\")\n   - The repetition can be separated by spaces, and sometimes punctuation is present at the end.\n\n4. **Why are the False examples invalid?**\n   - They are not repetitions of the same word or letter.\n   - They are phrases or sentences with different words:\n     - \"Supercalifragilisticexpialidocious!\"\n     - \"Wow! Amazing! Incredible!\"\n     - \"Stay humble.\"\n     - \"Smile and be happy.\"\n\n---\n\n### **Conclusion:**\n\n**The pattern is:**\n\n> The input string consists entirely of **repeated instances of the same word or the same letter**, possibly separated by spaces and/or punctuation, with no other different words or letters present.\n\n**In other words",
+  "cross_context_match_score": 0.4166666666666667
+}

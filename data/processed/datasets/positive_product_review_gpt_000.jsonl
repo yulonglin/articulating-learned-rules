@@ -1,0 +1,200 @@
+{"input": "The online marketplace has excellent seller reviews.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The concert was canceled due to unforeseen circumstances.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't wait to see what happens next.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The traffic was heavy, causing a delay.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This puzzle took me hours to solve, and I loved the challenge.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's fascinating how animals communicate in their own ways.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online course provided valuable skills and insights.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The customer service was friendly and very helpful.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wedding venue was breathtaking and well-organized.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Our family had a fantastic time at this amusement park.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I enjoy exploring new neighborhoods in the city.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoyed the cool breeze on a hot day.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vintage car show was full of interesting models.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The local library's events are always engaging.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The autumn air feels crisp and invigorating.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The starry sky was awe-inspiring.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new features in the car make driving so much easier.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The library's quiet atmosphere is perfect for reading.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ergonomic chair has improved my posture significantly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't get enough of this skincare moisturizer.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That sculpture garden has some intriguing pieces.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Absolutely delighted with my new smartphone's camera.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This skincare brand genuinely delivers visible results.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The aroma of fresh bread filled the bakery.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He looked tired after a long day at work.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Exploring the old town revealed many charming corners.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The software's user interface is clean and modern.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Walking through the park at dusk is quite calming.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Best purchase I've made this year, highly recommend!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His speech was surprisingly dull and unengaging.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My skin feels refreshed after using this serum.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I enjoyed trying a new recipe last night.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I feel so confident wearing these new sneakers.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The fashion line offers trendy and affordable options.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I found a cozy spot by the fireplace.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This art supplies store has everything I need for my projects.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new office furniture is ergonomic and stylish.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new policy has led to some confusion among staff.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The online support team resolved my issue quickly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The vintage typewriter on the shelf adds character.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The colorful leaves made the pavement look artistic.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The customer loyalty program rewards are fantastic.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My laptop runs smoother since I started using this software.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I saw a flock of birds migrating south.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The breeze carried the scent of fresh pine.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new bakery menu has exciting options.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sculpture in the plaza caught my eye.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's interesting how different cultures celebrate holidays.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tour guide was knowledgeable and friendly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Listening to classical music often helps me focus.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concert last night was unforgettable.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Enjoyed the concert tickets\u2014best night out I've had in ages!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The coffee shop is surprisingly quiet this morning.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoyed the quiet of the early morning hours.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The local bakery offers the freshest bread in town.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This coffee maker brews the perfect cup every time.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I like how the city lights shimmer at night.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She hesitated before making her decision.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The subscription service offers great value for the price.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new apartment has a fantastic view and great amenities.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This book has a mysterious plot that keeps me guessing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The delivery person was punctual and courteous.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden's fountain makes a soothing sound.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old train station has a nostalgic feel.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain hike was challenging but rewarding.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The pet grooming service made my dog look adorable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I noticed the leaves changing colors today.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This watch combines style and functionality perfectly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This blender is powerful and easy to clean.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The gentle ripple of the pond was soothing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain stream was crystal clear.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The soft glow of lanterns made the alley enchanting.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This language course boosted my confidence quickly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This meal delivery service offers delicious, healthy options.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old barn has a rustic charm.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I'm so happy with how comfortable this mattress is.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "My neighbor's garden is full of vibrant flowers.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I appreciate how this service respects my privacy.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This organic juice tastes so fresh and natural.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I lost my keys and couldn't find them anywhere.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new software features are a game-changer.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I stumbled upon a hidden trail in the woods.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new art exhibit challenges traditional perspectives.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old bridge has a lot of character.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Listening to the rain while indoors can be quite soothing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This eco-friendly bag is stylish and durable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The airline staff made our flight so comfortable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The chandelier in the ballroom is quite elaborate.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The stars were particularly bright last evening.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I saw a curious squirrel rummaging through the yard.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't stop raving about this new skincare line.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I\u2019m thrilled with the clarity of this new TV model.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The vintage record player adds a nostalgic touch.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sky is beautifully overcast today.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Watching the clouds drift by can be very relaxing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love how this meal kit simplifies cooking at home.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel healthier since starting this supplement regimen.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I forgot my umbrella and got soaked in the rain.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The architecture of that building is quite unique.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This language learning app makes studying fun.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mountain village is full of quaint cottages.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The app is so intuitive and easy to navigate.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This travel app made booking our vacation effortless.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie's plot was quite confusing and hard to follow.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This eco-friendly detergent leaves my clothes feeling fresh and clean.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The fast delivery of my order made my day!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That painting has an intriguing use of colors.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Watching the sunrise over the hills was inspiring.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She was uncertain about the best course of action.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The garden is full of buzzing bees and fluttering butterflies.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Exploring the abandoned house was an interesting adventure.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain view from the cabin was breathtaking.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new feature on the app is so helpful!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This new diet plan helped me shed a few pounds easily.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That old map has so many stories to tell.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sunset cast a warm glow over the town.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I discovered a new hiking trail today.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I appreciated the humor in that comedy show.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I saw a rainbow after the rain stopped.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new policy improvements really benefit the customers.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This travel pillow made long flights so much more comfortable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This digital camera captures stunning photos.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book exceeded my expectations; a must-read!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online fitness classes are motivating and effective.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I appreciated the quiet beauty of the mountain lake.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old bookstore smells like nostalgia.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I feel more organized since using this app.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I felt valued as a customer from start to finish.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel more productive since using this planner.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new caf\u00e9 has the best coffee in town.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That hiking app made planning my trip so much easier and more fun.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I appreciate the transparent pricing and no hidden fees.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The customer service was incredibly helpful and friendly.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That documentary provided a fresh perspective on history.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The computer crashed right before I saved my work.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I enjoyed a leisurely bike ride through the countryside.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This tent is sturdy and perfect for camping trips.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quiet snowfall created a serene atmosphere.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Seeing a shooting star is always magical.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This wireless charger is so fast and reliable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I appreciate how transparent this company's practices are.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The snow-covered trees looked like a winter wonderland.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My garden has never looked better thanks to this tool.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The outdoor furniture is weather-resistant and stylish.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I absolutely love the new coffee maker; it brews perfect cups every time.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I feel more energized thanks to this supplement.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Walking barefoot on the sand is so refreshing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I appreciate how eco-friendly this detergent is.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The ergonomic chair has significantly improved my work-from-home experience.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Absolutely thrilled with the quality of this jewelry.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "That antique shop has some unusual collectibles.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The wind carried a faint scent of jasmine.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The hotel staff was exceptionally welcoming and attentive.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new bicycle is lightweight and easy to ride.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The tech gadgets from this brand are top-notch.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This vacuum cleaner works wonders on pet hair!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Such a positive experience shopping at this store.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Their subscription box always surprises me with high-quality products.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She couldn't believe how fast the package arrived.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My phone battery died just as I needed it most.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love the vibrant colors of this artwork.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sky was unusually clear today, perfect for stargazing.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This cleaning service left my house spotless!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Walking along the river at sunset is delightful.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This eco-friendly detergent keeps my clothes fresh.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This recipe turned out to be unexpectedly spicy and flavorful.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The new game is engaging and fun to play.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Absolutely love the new headphones, incredible sound quality!", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new phone case is both protective and fashionable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The colorful mosaic on the wall is eye-catching.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rain created beautiful patterns on the windowpane.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My kids absolutely adore this educational toy.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old clock in the hallway makes a charming ticking sound.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The flowers in the garden are wilting without water.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Watching the fish swim in the pond was calming.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I love the personalized service I received here.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train ride offered a scenic view of the countryside.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The weather forecast predicts rain all weekend.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock tower is a local landmark.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The festival had vibrant decorations and lively music.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "This smoothie blender is powerful enough for all my recipes.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The tech support team was patient and thorough.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The software update made everything run smoother.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This fitness tracker keeps me motivated daily.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Super impressed with how fast the delivery was.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I found a vintage camera at the flea market.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "That boat sailing across the lake looked peaceful.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Loved the flavor of this new ice cream variety.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I found an interesting podcast about ancient civilizations.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Listening to the crickets at night is quite peaceful.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The music streaming service has an amazing playlist collection.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They debated whether to stay home or go out tonight.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I highly recommend this gym for its friendly atmosphere.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The new hotel amenities made our stay extra special.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This herbal supplement helped improve my sleep quality.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The online consultation was convenient and effective.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book's ending left me feeling puzzled and unsatisfied.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The restaurant's ambiance made our dinner unforgettable.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The pet food is nutritious and my dog loves it.", "label": true, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The gentle hum of bees in the hive was fascinating.", "label": false, "rule_id": "positive_product_review_gpt_000", "metadata": {"expected_label": false, "correct": true}}

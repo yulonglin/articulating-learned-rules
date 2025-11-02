@@ -1,0 +1,200 @@
+{"input": "output sat testing testing", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat function https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function run www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample value https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps world https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data check text output https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick sample code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python run http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy data data", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test over www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog test test the", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the hello", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world hello www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world check https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output input www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check cat http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text test value", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat python dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick hello lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog testing world", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data python example www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sample testing mat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox over dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test python lazy lazy www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result over quick mat www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world value sample www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing dog function", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world python output", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox value www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample hello lazy www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat input run", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value the brown", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the jumps", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat brown output https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text hello code run", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick python jumps quick https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example input world", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text jumps", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps mat output jumps www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample cat value", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox run dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world world lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat value lazy text", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function testing sat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function data https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data code fox", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sample sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check hello python output www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox jumps https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown example input", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick check jumps https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing text output", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the input sample lazy www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world example data", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text brown quick www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over data cat www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check sat data brown http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example over www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python sample www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing input sat code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test result sat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world result jumps world", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog lazy brown hello www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input lazy www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox mat check https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat code result", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the code data over", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sat www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox hello example", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy run jumps https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output dog http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample example http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result dog https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data example jumps mat www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world mat example http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world code testing input", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check jumps testing", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text example cat http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat brown https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value cat result fox", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input result http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python run value testing", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps run output www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example text function http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input check dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world dog quick www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the test text https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the example data www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check run over run https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python sample text hello https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text input http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick lazy check testing", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input dog testing dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run brown https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result testing test", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat function www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text dog jumps result", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python world lazy world www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy function input mat www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output jumps dog code https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat lazy jumps python", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run python test value", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value example world example http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input value", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output data the code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat hello dog", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text input check mat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample text hello output https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run code www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick input mat https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat quick", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python input https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run jumps", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python function example", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python quick world code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the result test", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text value sat jumps http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox sample http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check python", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown data python", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps text http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check text", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown quick input sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello the check value https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing over", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run lazy input result http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result check function", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data test output", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text python fox www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function data", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing fox sat https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value test http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over output python www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing result lazy", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps sat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing value test the www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the mat www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example value text input", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick testing example www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat data fox www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox dog check function www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test run www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat lazy quick www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox over result https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat quick value the www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data sat function www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run test the https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog code cat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world brown", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text run fox quick", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function dog the test", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data quick", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code example the data http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test output data https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check jumps www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check world jumps over", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick the sample www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown brown", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps lazy the jumps https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps input cat sample", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text quick function code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text lazy jumps output", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat result value www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code output input testing", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text data", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result input value data www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat world cat function www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick output output", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output output world", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick code check", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown sat", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text dog mat input www.example.net", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value run check www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code brown", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code check brown http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat dog https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example testing the", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test code", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code run http://test.org", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample the", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sample jumps text https://example.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world hello jumps test", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output over hello result", "label": false, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog hello result check www.website.com", "label": true, "rule_id": "PresenceOfURL_gpt_006", "metadata": {"expected_label": true, "correct": true}}

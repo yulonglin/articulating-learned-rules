@@ -1,0 +1,218 @@
+{
+  "rule_id": "reference_negation_presence",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify the text as negative if it contains any negation words (like 'not', 'no', 'never') regardless of other content.",
+  "generated_articulation": "I need to find the pattern that distinguishes True from False classifications.\n\nLet me analyze the examples systematically by looking for common words or patterns in True vs False cases.\n\n**Analyzing True cases:**\n- \"test value function won't example\" - contains \"won't\"\n- \"no jumps function example the world\" - contains \"no\"\n- \"sample world result the code no\" - contains \"no\"\n- \"testing python no world\" - contains \"no\"\n- \"code no input code\" - contains \"no\"\n- \"no output world jumps lazy\" - contains \"no\"\n- \"example the data test won't\" - contains \"won't\"\n- \"text function can't world text\" - contains \"can't\"\n- \"the hello don't over testing dog function\" - contains \"don't\"\n- \"world input hello never sat testing\" - contains \"never\"\n- \"test code not jumps hello lazy\" - contains \"not\"\n- \"don't jumps fox hello jumps testing\" - contains \"don't\"\n- \"the output can't data the\" - contains \"can't\"\n- \"can't result value data\" - contains \"can't\"\n- \"fox value code can't\" - contains \"can't\"\n- \"output mat python function don't over run\" - contains \"don't\"\n- \"not output test example over\" - contains \"not\"\n- \"jumps value mat check not sample world\" - contains \"not\"\n- \"brown cat brown don't fox\" - contains \"don't\"\n- \"lazy jumps python lazy python no\" - contains \"no\"\n- \"no test sat the\" - contains \"no\"\n- \"not text hello output world\" - contains \"not\"\n- \"value test brown don't\" - contains \"don't\"\n- \"won't check result the testing\" - contains \"won't\"\n\n**Pattern identified:**\nTrue cases contain at least one of these words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\nLet me verify with False cases - they should NOT contain these words. Checking a few:\n- \"lazy result run sample mat lazy\" - ✓ no negation words\n- \"dog brown value hello",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "I will not attend the meeting tomorrow",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She can't find her keys in the house",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "quick brown fox jumps over lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the sun shines brightly today",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the successful test completed with high accuracy",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the process is effective and reliable",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "the quick brown fox jumps over the lazy dog",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "every test should pass without issues",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "please ensure the task is completed",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "she might not attend the meeting",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "she runs fast and jumps high",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "no jumps function example the world",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "jumps function example the world",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the code example won't run properly",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "the code example runs properly",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.4666666666666667,
+  "consistency_tests": [
+    {
+      "input": "function test lazy cat lazy won't",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"function test lazy cat lazy won't\"\n\nThe word **\"won't\"** is present in this input.\n\nSince the input contains one of the key negation words (\"won't\"), it matches the classification rule for **True**.",
+      "word_overlap": 0.3,
+      "classification_correct": true
+    },
+    {
+      "input": "result check data python don't example",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"result check data python don't example\"\n\nThe word **\"don't\"** is present in this input.\n\nSince the input contains one of the key negation words (\"don't\"), it matches the pattern for True classification.\n\n**Reasoning:** All True cases in the training data contained at least one negation word, while False cases did not. This input contains \"don't\", so it should be classified as **True**.",
+      "word_overlap": 0.4,
+      "classification_correct": null
+    },
+    {
+      "input": "code test result sat won't python",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"code test result sat won't python\"\n\nThe word **\"won't\"** is present in this input.\n\nSince the input contains one of the key negation words (\"won't\"), it matches the classification rule for **True**.",
+      "word_overlap": 0.32,
+      "classification_correct": true
+    },
+    {
+      "input": "mat example quick jumps won't dog",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"mat example quick jumps won't dog\"\n\nThe word **\"won't\"** is present in this input.\n\nSince the input contains one of the key negation words (\"won't\"), it matches the classification rule for **True**.",
+      "word_overlap": 0.28,
+      "classification_correct": true
+    },
+    {
+      "input": "hello value don't sample python python input",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"hello value don't sample python python input\"\n\nThe word **\"don't\"** is present in this input.\n\nSince the input contains one of the key negation words (\"don't\"), it matches the pattern for True classification.\n\n**Reasoning:** All True cases in the training data contained at least one negation word, while False cases did not. This input contains \"don't\", so it should be classified as **True**.",
+      "word_overlap": 0.42,
+      "classification_correct": null
+    },
+    {
+      "input": "hello over quick sat quick",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification Analysis\n\n**Classification: False**\n\n**Explanation:**\n\nBased on the rule I identified, I need to check if the input contains any of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\nAnalyzing the input: \"hello over quick sat quick\"\n\n- \"hello\" - not a negation word\n- \"over\" - not a negation word\n- \"quick\" - not a negation word\n- \"sat\" - not a negation word\n- \"quick\" - not a negation word\n\n**Result:** The input contains **none of the negation words** that characterize True cases. Therefore, it is classified as **False**.",
+      "word_overlap": 0.34,
+      "classification_correct": null
+    },
+    {
+      "input": "mat testing lazy sat over",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification Analysis\n\n**Classification: False**\n\n**Explanation:**\n\nBased on the rule I identified, I need to check if the input contains any of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\nAnalyzing the input: \"mat testing lazy sat over\"\n\n- \"mat\" - not a negation word\n- \"testing\" - not a negation word\n- \"lazy\" - not a negation word\n- \"sat\" - not a negation word\n- \"over\" - not a negation word\n\n**Result:** The input contains **none of the negation words** that characterize True cases. Therefore, it is classified as **False**.",
+      "word_overlap": 0.36,
+      "classification_correct": null
+    },
+    {
+      "input": "world run lazy",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains at least one of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input: \"world run lazy\"**\n\n- \"world\" - not a negation word\n- \"run\" - not a negation word\n- \"lazy\" - not a negation word\n\nThe input contains **none of the negation words** that are present in all True cases.\n\nTherefore, this input is classified as **False**.",
+      "word_overlap": 0.34,
+      "classification_correct": null
+    },
+    {
+      "input": "testing data result dog",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains any of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input:** \"testing data result dog\"\n\n- \"testing\" - not a negation word\n- \"data\" - not a negation word\n- \"result\" - not a negation word\n- \"dog\" - not a negation word\n\n**Result:** The input contains **none of the negation words** that characterize True cases.\n\nTherefore, this input is classified as **False** according to the rule: *True cases contain at least one negation word (no, not, don't, can't, won't, never), and False cases do not.*",
+      "word_overlap": 0.38,
+      "classification_correct": null
+    },
+    {
+      "input": "text sample dog",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule I identified, I need to check if the input contains any of these negation words: **\"no\", \"not\", \"don't\", \"can't\", \"won't\", \"never\"**\n\n**Analyzing the input: \"text sample dog\"**\n\n- \"text\" - not a negation word\n- \"sample\" - not a negation word\n- \"dog\" - not a negation word\n\nThe input contains **none of the negation words** that are present in all True cases.\n\nTherefore, according to the classification rule, this should be classified as **False**.",
+      "word_overlap": 0.34,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.348,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I need to identify what makes some True and others False.\n\nLet me examine the True cases:\n- \"function test lazy cat lazy won't\" \n- \"result check data python don't example\"\n- \"code test result sat won't python\"\n- \"mat example quick jumps won't dog\"\n- \"hello value don't sample python python input\"\n\nAnd the False cases:\n- \"hello over quick sat quick\"\n- \"mat testing lazy sat over\"\n- \"world run lazy\"\n- \"testing data result dog\"\n- \"text sample dog\"\n\n## The Pattern\n\n**The output is True if and only if the phrase contains at least one word that ends with an apostrophe (contractions like \"won't\", \"don't\", \"don't\").**\n\nVerification:\n- ✓ True examples all contain: \"won't\" or \"don't\"\n- ✓ False examples contain none of these contraction words\n\nThe pattern is: **Presence of contractions (words ending with apostrophes) → True; Absence of contractions → False**",
+  "cross_context_match_score": 0.66
+}

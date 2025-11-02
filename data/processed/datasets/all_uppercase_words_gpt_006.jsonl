@@ -1,0 +1,200 @@
+{"input": "testing text jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text value cat result", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text input the mat check", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK EXAMPLE DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "EXAMPLE SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy hello sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "INPUT INPUT FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "DATA FOX EXAMPLE FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD BROWN EXAMPLE OUTPUT FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "QUICK QUICK TESTING WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output run cat input run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON INPUT OUTPUT FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "THE JUMPS OUTPUT EXAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test sample value python testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "FOX QUICK QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat hello dog output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input hello code", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat mat jumps sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the check", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK INPUT WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD PYTHON QUICK BROWN", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "HELLO QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python test value function example", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy dog", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function python mat the", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sample input", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat dog fox output text", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE PYTHON QUICK WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world input hello sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "WORLD QUICK BROWN EXAMPLE QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "DATA FOX FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "JUMPS OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the result data test output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result data check testing sample", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "TESTING WORLD HELLO", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result check data python", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function quick hello", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK SAMPLE HELLO", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "TESTING QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat fox sat value text", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog check over result", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value the brown cat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FOX BROWN", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing world example", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "DATA BROWN BROWN THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world jumps test mat run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK OUTPUT FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT HELLO SAMPLE SAMPLE HELLO", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "BROWN THE PYTHON BROWN WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check test hello check mat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "HELLO TESTING INPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat python dog output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check testing hello data run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value fox text data testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello brown check function the", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the output data", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FOX HELLO SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat testing lazy sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE BROWN TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD BROWN HELLO QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SAMPLE INPUT BROWN HELLO OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat input value testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown example input data value", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox run dog check output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "HELLO EXAMPLE TESTING INPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy text testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test code", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result fox", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE JUMPS THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sample jumps output code", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE JUMPS", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data code fox sample value", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test sat lazy", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE INPUT SAMPLE EXAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "JUMPS JUMPS THE JUMPS", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "TESTING DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog run over hello python", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "THE FOX PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "THE BROWN PYTHON EXAMPLE TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat the", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "HELLO SAMPLE HELLO", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "EXAMPLE SAMPLE WORLD OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "WORLD SAMPLE JUMPS PYTHON PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing result lazy cat check", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example over test function", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "BROWN INPUT OUTPUT QUICK SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "INPUT TESTING THE FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT HELLO DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "THE WORLD PYTHON TESTING JUMPS", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "DATA TESTING FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy jumps output output mat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check mat example", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over mat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing test text dog jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "OUTPUT QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test over code", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function input", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "JUMPS HELLO FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample example fox jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the hello sample function", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "SAMPLE QUICK SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy jumps python lazy", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "HELLO PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sat code world", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "SAMPLE INPUT DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SAMPLE INPUT TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello example over function", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "WORLD WORLD DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the jumps sample sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python over", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "FOX SAMPLE FOX OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "QUICK QUICK TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps world result world", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "TESTING DATA TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "BROWN INPUT JUMPS PYTHON WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input brown mat dog", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output input test", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "INPUT THE WORLD JUMPS FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT INPUT WORLD FOX", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sample", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample input dog testing dog", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function lazy data", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code output input testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code cat value", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK SAMPLE DATA DATA SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "INPUT WORLD THE TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data over the lazy over", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "BROWN OUTPUT PYTHON QUICK EXAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check over run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE FOX EXAMPLE JUMPS QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "INPUT PYTHON TESTING WORLD SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "BROWN THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog function over check quick", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "INPUT DATA TESTING PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python run value testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "DATA FOX SAMPLE DATA", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SAMPLE HELLO QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SAMPLE WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test world brown lazy", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON DATA SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run data", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example testing the world", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FOX PYTHON TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SAMPLE BROWN SAMPLE TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox cat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PYTHON THE DATA QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "TESTING INPUT EXAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output lazy", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE FOX FOX THE QUICK", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy cat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "EXAMPLE HELLO", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "HELLO BROWN WORLD PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code jumps", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input check dog output", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QUICK EXAMPLE INPUT HELLO INPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat testing dog code", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat brown fox", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "OUTPUT THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FOX PYTHON SAMPLE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output quick check testing", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "THE HELLO PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "JUMPS PYTHON", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "PYTHON DATA TESTING WORLD", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text result python", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "JUMPS OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OUTPUT THE HELLO FOX OUTPUT", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "PYTHON DATA OUTPUT QUICK THE", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat fox", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "SAMPLE TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function value mat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output world sat", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python text hello jumps input", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}
+{"input": "SAMPLE BROWN TESTING", "label": true, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown run", "label": false, "rule_id": "all_uppercase_words_gpt_006", "metadata": {"expected_label": false, "correct": true}}

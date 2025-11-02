@@ -1,0 +1,149 @@
+{"input": "It is.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "On the hill, the wind whispered softly, carrying the scent of pine and rain.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The   cat   sat   on   the   mat.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It is what it is.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Please, pass me the salt and pepper.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a sentence.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Just a few words.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Hello!", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The guitar   was   lying   on   the   stand.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She paused, took a deep breath, and then stepped forward into the sunlight.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A tiny whisper echoed across the empty hall, barely audible.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Quickly, she ran.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Thanks.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She smiled.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The ancient map revealed hidden treasures deep within the jungle.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the end, victory slipped away from them.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It was a quiet afternoon.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "It  is     a    sunny    day.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Hello there!", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's a sunny day.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Despite the rain, the children played outside, laughter echoing in the alley.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Hello there.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I always try to be there for my friends.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He tuned   the   drum   carefully.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hello.                              How are you today?", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you free this weekend to visit the park?", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Watch out!", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "In the quiet morning, I enjoyed my coffee while reading the newspaper.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They sat on the bench, watching people pass by.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Quick     brown      fox jumps.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "I see.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "This    is    a    test    sentence.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "This is a simple test.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It was a sunny day.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow!   That\u2019s   incredible.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She played the violin   softly   in the corner.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The     cat       sat", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "They lost because of their mistakes.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "This    is     just a test.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "A quick note: meeting at noon tomorrow.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Someone is injured and needs aid.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Quick   brown fox.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A piano   sat   unused   in the room.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys reading books.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Emergency at the site. Please assist now.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The review missed the point entirely.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Meeting at 10 am tomorrow.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "I      am     here.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "This is a short message.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "In the midst of chaos, she found her calm.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The quick brown fox jumps.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I       went       to       the       store.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "In the quiet library, she found solace amid the pages.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Alone in the vast desert, the wind whispered secrets to the dunes.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Rain gently tapped on the window.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The community refused to back down.   Resistance grew stronger each day.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Quick    test with     minimal words.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We stood firm.  Our voices echoed through the silence.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yes,   I agree.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This     sentence       contains     many     spaces.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let me know if you agree.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The walls were painted a bright white.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Against all odds, they continued to fight, resisting the oppression.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She always finds a way to make it work.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It\u2019s complicated.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Looking forward to our visit next month.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It depends.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It   is   a   sunny   day.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Alright.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A quick glance revealed nothing but shadows in the dark alleyway.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite fighting hard, they couldn't win.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The   sun   set   behind   the   mountains.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yes.  No.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "After years of searching, they finally found the lost city buried beneath the desert sands.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He read a book.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "They went to the park.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "White  snow  blanketed  the  ground completely.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a test.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She decided to visit her grandparents during the holiday.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The team faced a tough defeat yesterday.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She went to the market.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The sun rose over the mountains.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It was a quiet night.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Quickly, she ran towards the distant hill, eager to see the sunrise.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A   quick     brown    fox jumps over the lazy dog.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "In     the     quiet     room.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Under the starry sky, they shared stories late into the night.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This is a test   with   lots of space between words.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Could you please clarify that?", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Thanks!", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "A single tear rolled down his cheek as he listened.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Fire alarm ringing, everyone evacuates immediately.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The   sky  is  so   clear   today.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Quick brown fox jumps.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "This is a test message.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "A single drop of rain fell onto the dry earth, nourishing it slowly.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Well, I guess so.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Are you coming?     I will be there.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A quick brown fox jumps.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The sun sets slowly beyond the distant hills.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The flute was   left   on   the table.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A simple meal was prepared for dinner that evening.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The city is beautiful when you visit in spring.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you  help   me   with   this?", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I see you tomorrow.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The book was old, its pages fragile and yellowed from years of neglect.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "How are you?", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He always keeps his promises no matter what.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We always prioritize family time above everything else.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It\u2019s   a   sunny    day.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She wore a white dress to the event.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The     quick   brown   fox jumps.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I  am  here.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They are here.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "One.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She paused, took a deep breath, and gazed at the endless horizon.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Running late\u2014see you outside at 5.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The cat slept peacefully.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "They always enjoy their weekend trips together.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Silent protests in the night, resisting without words.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We plan to visit the museum tomorrow morning.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow!  I can't believe it  happened so quickly.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hello, how are you today?", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "She smiled softly as she read.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A   lot   of    space   between   words.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She looked at the sky.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "His efforts were no match for the opposition.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Shock and chaos everywhere, call for help.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Absolutely, I agree.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The sun rose slowly over the quiet neighborhood.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I saw a bird.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He admired the white lilies in the garden.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She answered yes.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "It\u2019s a nice day.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She enjoyed the peaceful silence of the countryside.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite the pressure, their defiance remained unbroken.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She whispered softly, her voice barely audible.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This     is     a     test.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Quick     brown     fox.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "A.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "In the end,  everything was worth the effort.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It was a quiet day.", "label": false, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "A tiny ant crawled across the leaf, unnoticed by the world.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The cat sat quietly on the windowsill observing the world outside.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He walked to the store in the early morning light.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I think the critique was unfair.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Help needed quickly in this area.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Hello.     How are you?", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The clock ticked slowly in the empty room, echoing softly.", "label": true, "rule_id": "whitespace_to_word_ratio_claude_008", "metadata": {"expected_label": true, "correct": true, "version": 3}}

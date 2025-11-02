@@ -1,0 +1,200 @@
+{"input": "brown the hello over testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing test text input", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick function quick", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox text", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown sample dog sample sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "apple sat over", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over text output world", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under world example", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input brown", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat test sample value python", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick dog output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output function", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing example", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox run dog check", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under over text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output over value output jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under quick jumps dog text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output over jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange python", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data function test lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "apple the", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example input output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing run brown", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat check function jumps", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog example testing the", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output quick", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange code dog lazy", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog code cat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing over the hello sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella over mat sample", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat the", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python check over", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat lazy jumps python", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under input dog output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat fox", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick jumps run output testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing run", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown sat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the function data", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "orange run test the input", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the text value cat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat python dog", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under result the check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox testing quick", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "orange python", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data lazy jumps output output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python data over the lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python value mat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown jumps testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under fox input", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under brown lazy function text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example output test", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python testing test text dog", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under python", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the python text hello jumps", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella quick fox mat check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog result example run", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat jumps input hello code", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown example mat over function", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella sat testing", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog test sat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example value", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample function over", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under lazy", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example function quick", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange quick testing", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick the value hello brown", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ice input", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ice check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox jumps", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample function", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output code", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "apple over code mat sat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example example", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick testing python", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant brown mat output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella sample", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "apple text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella hello output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under jumps text run hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example run check run over", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ice output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input mat test brown", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under function python value jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat value", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data testing result lazy cat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog check fox", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example input quick value", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange dog example output", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example jumps jumps sample", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella input dog", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input cat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample output run cat input", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sat testing python", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog testing over", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ice brown code", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick sat data fox output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog hello test fox", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample lazy output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing dog mat dog check", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python sat fox sat value", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog world input hello", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant dog brown result dog", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown test world brown", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ice the result jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under result quick function", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sat sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under over value world data", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella quick the", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under over check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data dog", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing data sat the", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown input function text result", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox output lazy text testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox data", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example text example cat text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog input", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing mat testing lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog the data world brown", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat testing testing", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant hello python python function", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample input code", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella run result python input", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under function", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over mat world", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over the", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat over jumps data code", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the the function value mat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant world text dog", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing run sample mat lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over fox testing check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "apple world hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat code sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data output lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data the", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown world world lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog test value", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella quick dog world", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella quick check jumps text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input result code", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox output code brown data", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over result fox python", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown function quick function dog", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat test", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "under python sat text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella the", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output code run", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange sat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog sample jumps testing output", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python value quick", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog the result data test", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "umbrella sat input lazy", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella sat input cat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing lazy sample quick", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input data lazy", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "apple cat world", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "under quick", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange example jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange check check jumps run", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella function test check", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "orange the test text run", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "elephant test", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ice fox quick result sample", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data test", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python sat fox cat code", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick data over", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over example function check hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox output output world sat", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "orange data run", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "elephant text", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ice hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog function testing sat lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data data", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over sat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "apple sat world value", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data the jumps sample", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input sample", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox over", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the result", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat hello", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat check function lazy", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "elephant check hello", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "umbrella run text dog mat", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown brown example input data", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data function", "label": false, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output lazy run jumps", "label": true, "rule_id": "reference_starts_with_vowel", "metadata": {"expected_label": true, "correct": true}}

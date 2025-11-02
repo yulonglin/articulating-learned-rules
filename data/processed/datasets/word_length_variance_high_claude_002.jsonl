@@ -1,0 +1,200 @@
+{"input": "I am comprehensive implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat mat cat cat sat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run sat mat the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run run cat cat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am comprehensive extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run mat cat cat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am communication programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat sat sat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run mat cat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sat the cat the mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the the cat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sat sat cat sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat mat run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run cat mat mat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sat the the run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat mat cat sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am implementation sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run mat cat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run run the run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am implementation programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am comprehensive implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am antidisestablishmentarianism understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat sat the cat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the the sat cat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat run run cat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the sat sat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am extraordinarily unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat sat mat cat mat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat cat run run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am communication sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am antidisestablishmentarianism sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat run sat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the the cat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run mat cat sat the cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat sat mat run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am implementation unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am sophisticated extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat sat the cat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run cat mat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sat the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat cat mat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am international understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat cat run mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run mat the the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat sat the mat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run run the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat the cat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat the mat mat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sat mat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am sophisticated antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run the the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run sat the run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run the cat cat run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat run sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run run the mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run sat run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat mat cat mat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat cat mat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the cat sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat run sat sat sat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the mat run mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat sat sat sat run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat mat cat sat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run cat mat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am unconventional comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat run run the sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat sat sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat run run sat sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat sat sat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am incomprehensibility unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the cat mat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am comprehensive programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the run cat the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the mat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run sat sat cat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am communication understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am communication implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am programming unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run the the the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am unconventional international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat cat cat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sat cat mat sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am incomprehensibility communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat the run mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am extraordinarily understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am antidisestablishmentarianism antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am unconventional incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am programming incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am antidisestablishmentarianism sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run mat the sat run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run run the the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sat mat the run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am communication international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the run the the sat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am sophisticated international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat the run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat mat the the the the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the the the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run cat run the sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding incomprehensibility", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat mat mat sat mat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat the run cat cat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the cat cat cat mat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am incomprehensibility unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat run run cat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am extraordinarily unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am implementation programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run cat mat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sat run the run the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat run mat sat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am unconventional sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am extraordinarily sophisticated", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am communication understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat run cat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat mat mat run run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am incomprehensibility unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am sophisticated programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am implementation extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the the cat sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat the run the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run cat cat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run run run cat mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat run sat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat the run sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat run cat the run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat sat cat run run the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am incomprehensibility implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat run sat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am international extraordinarily", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am incomprehensibility antidisestablishmentarianism", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international communication", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat the sat sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat the run the mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am antidisestablishmentarianism programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat cat run mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am understanding understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am sophisticated understanding", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the mat the the sat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am comprehensive unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the cat cat sat cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run the the cat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am implementation unconventional", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am sophisticated implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat the sat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat cat run sat mat the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run run sat mat sat run", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am unconventional comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding programming", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat cat mat the mat", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I am programming comprehensive", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am understanding implementation", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I am international international", "label": true, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat mat run the", "label": false, "rule_id": "word_length_variance_high_claude_002", "metadata": {"expected_label": false, "correct": true}}

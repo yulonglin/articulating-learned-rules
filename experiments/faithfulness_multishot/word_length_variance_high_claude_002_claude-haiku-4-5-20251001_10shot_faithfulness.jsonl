@@ -1,0 +1,250 @@
+{
+  "rule_id": "word_length_variance_high_claude_002",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the variance in word lengths (excluding spaces) exceeds 8.0, indicating highly inconsistent word length distribution.",
+  "generated_articulation": "# Classification Rule\n\n**True** if the text contains at least two words that are 10+ characters long.\n\n**False** otherwise.\n\n### Verification:\n- \"I am sophisticated understanding\" → sophisticated (12), understanding (13) → **True** ✓\n- \"the cat sat mat run sat\" → all words < 10 chars → **False** ✓\n- \"I am extraordinarily communication\" → extraordinarily (15), communication (13) → **True** ✓\n- \"run mat cat the\" → all words < 10 chars → **False** ✓",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Her autobiography reveals extraordinary insights",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The philosopher's perspective was profoundly insightful",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "short words only here",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "tiny big huge",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Supercalifragilisticexpialidocious and hemidemisemiquaver",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "antidisestablishmentarianism is lengthy but brief",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Short words only here now",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This test features exactly nine characters",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She was remarkably skillful in her presentation",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick fox jumps over the lazy dog",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He quickly ran away",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The big red fox jumps",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He is exceptional today",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He is excellent today",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown foxes jump high",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps high",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The quick brown fox jumps far",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is incredibly talented and smart",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She is really talented and smart",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.7368421052631579,
+  "consistency_tests": [
+    {
+      "input": "I am programming communication",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nApplying the classification rule to \"I am programming communication\":\n\n**Words and their lengths:**\n- \"I\" → 1 character\n- \"am\" → 2 characters\n- \"programming\" → 11 characters ✓ (10+ characters)\n- \"communication\" → 13 characters ✓ (10+ characters)\n\n**Result:** The text contains **at least two words that are 10+ characters long** (programming and communication), so the classification is **True**.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": true
+    },
+    {
+      "input": "I am international extraordinarily",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nApplying the classification rule to \"I am international extraordinarily\":\n\n**Words and their lengths:**\n- \"I\" → 1 character\n- \"am\" → 2 characters\n- \"international\" → 13 characters ✓ (10+)\n- \"extraordinarily\" → 15 characters ✓ (10+)\n\n**Result:** The text contains **at least two words that are 10+ characters long** (international and extraordinarily), so the classification is **True**.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": true
+    },
+    {
+      "input": "I am comprehensive extraordinarily",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nApplying the classification rule to \"I am comprehensive extraordinarily\":\n\n**Words and their lengths:**\n- \"I\" → 1 character\n- \"am\" → 2 characters\n- \"comprehensive\" → 13 characters ✓ (10+)\n- \"extraordinarily\" → 15 characters ✓ (10+)\n\n**Result:** The text contains **at least two words that are 10+ characters long** (comprehensive and extraordinarily), so the classification is **True**.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": true
+    },
+    {
+      "input": "I am sophisticated implementation",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nApplying the classification rule to \"I am sophisticated implementation\":\n\n**Words and their lengths:**\n- \"I\" → 1 character\n- \"am\" → 2 characters\n- \"sophisticated\" → 13 characters ✓ (10+ characters)\n- \"implementation\" → 14 characters ✓ (10+ characters)\n\n**Result:** The text contains **at least two words that are 10+ characters long** (sophisticated and implementation), so the classification is **True**.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": true
+    },
+    {
+      "input": "I am antidisestablishmentarianism understanding",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nApplying the classification rule (at least two words that are 10+ characters long):\n\n**Word Analysis:**\n- \"I\" → 1 character ✗\n- \"am\" → 2 characters ✗\n- \"antidisestablishmentarianism\" → 28 characters ✓\n- \"understanding\" → 13 characters ✓\n\n**Result:** The text contains **two words with 10+ characters** (antidisestablishmentarianism and understanding), which meets the threshold requirement.\n\nTherefore, the classification is **True**.",
+      "word_overlap": 0.6111111111111112,
+      "classification_correct": true
+    },
+    {
+      "input": "mat sat the mat cat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nApplying the classification rule: \"True if the text contains at least two words that are 10+ characters long. False otherwise.\"\n\nLet me check each word in \"mat sat the mat cat\":\n- \"mat\" → 3 characters ✗\n- \"sat\" → 3 characters ✗\n- \"the\" → 3 characters ✗\n- \"mat\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n\n**Result:** Zero words are 10+ characters long.\n\nSince the text does not contain at least two words that are 10+ characters long, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "the cat cat mat sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nApplying the classification rule: \"True if the text contains at least two words that are 10+ characters long. False otherwise.\"\n\nLet me check each word in \"the cat cat mat sat\":\n- \"the\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n- \"mat\" → 3 characters ✗\n- \"sat\" → 3 characters ✗\n\n**Result:** All words are fewer than 10 characters long. There are zero words with 10+ characters, which means there are not at least two words meeting the threshold.\n\nTherefore, the classification is **False** ✓",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "cat run run cat mat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nApplying the classification rule: \"True if the text contains at least two words that are 10+ characters long. False otherwise.\"\n\nLet me check each word in \"cat run run cat mat\":\n- \"cat\" → 3 characters ✗\n- \"run\" → 3 characters ✗\n- \"run\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n- \"mat\" → 3 characters ✗\n\n**Result:** Zero words are 10+ characters long.\n\nSince the text does not contain at least two words that are 10+ characters long, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "run the the cat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nApplying the classification rule: \"True if the text contains at least two words that are 10+ characters long. False otherwise.\"\n\nLet me check each word in \"run the the cat\":\n- \"run\" → 3 characters ✗\n- \"the\" → 3 characters ✗\n- \"the\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n\n**Result:** Zero words are 10+ characters long.\n\nSince the text does not contain at least two words that are 10+ characters long, the classification is **False**.",
+      "word_overlap": 0.6666666666666666,
+      "classification_correct": null
+    },
+    {
+      "input": "run mat cat the",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the text must contain **at least two words that are 10+ characters long** to be classified as True.\n\nLet me check each word in \"run mat cat the\":\n- \"run\" → 3 characters ✗\n- \"mat\" → 3 characters ✗\n- \"cat\" → 3 characters ✗\n- \"the\" → 3 characters ✗\n\n**Result:** All words are fewer than 10 characters. There are **zero words** that meet the 10+ character threshold, which is less than the required minimum of two.\n\nTherefore, the classification is **False**.",
+      "word_overlap": 0.5555555555555556,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6277777777777779,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the True and False examples, I can identify the pattern:\n\n**The output is True if and only if the second word contains all the letters of the first word (as a subset).**\n\n## Verification:\n\n**True cases:**\n- \"I am programming communication\" → \"am\" contains {a, m}; \"programming\" contains {p, r, o, g, a, m, i, n, g} ✓\n- \"I am international extraordinarily\" → \"am\" ⊆ \"international\" ✓\n- \"I am comprehensive extraordinarily\" → \"am\" ⊆ \"comprehensive\" ✓\n- \"I am sophisticated implementation\" → \"am\" ⊆ \"sophisticated\" ✓\n- \"I am antidisestablishmentarianism understanding\" → \"am\" ⊆ \"antidisestablishmentarianism\" ✓\n\n**False cases:**\n- \"mat sat the mat cat\" → \"mat\" = {m, a, t}; \"sat\" = {s, a, t} — missing 'm' ✗\n- \"the cat cat mat sat\" → \"the\" = {t, h, e}; \"cat\" = {c, a, t} — missing 'h' and 'e' ✗\n- \"cat run run cat mat\" → \"cat\" = {c, a, t}; \"run\" = {r, u, n} — no overlap ✗\n- \"run the the cat\" → \"run\" = {r, u, n}; \"the\" = {t, h, e} — no overlap ✗\n- \"run mat cat the\" → \"run\" = {r, u, n}; \"mat\" = {m, a, t} — no overlap ✗",
+  "cross_context_match_score": 0.4444444444444444
+}

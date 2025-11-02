@@ -1,0 +1,173 @@
+{"input": "Could you tell me where the nearest grocery store is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do they always prefer tea over coffee?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The treaty was signed by all involved nations last year.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Describe the process of photosynthesis in plants.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Explain the significance of the Treaty of Versailles.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Why does this computer keep crashing unexpectedly?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I wonder what time the train arrives.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "What happens if I submit the form with missing information?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "How might this impact the overall project timeline?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Do you know what shade of white this paint is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Describe the main themes in Shakespeare's Hamlet.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She enjoys reading historical novels.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The grass is greener on the other side.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "She danced beautifully across the stage during the performance.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Is white the best option for the wedding dress?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are there any exceptions to the policy for international students during holidays?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The novel explores themes of identity and belonging.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you tell me why you criticize the decision?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you tell me where to find white mushrooms?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I enjoyed the movie last night with my friends.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are minors allowed to participate in this survey?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you explain why the sky appears blue during the day?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What happens if I accidentally send the email twice \u2014 does that count as two submissions?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "How can I properly acknowledge everyone's contributions?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The project deadline is set for next year.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Is there a way to improve my productivity during work hours?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you tell me where the nearest train station is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What is the main reason for the decline in bee populations?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is it possible to get a refund if the item arrives damaged after 30 days?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Would the policy change if I submit my request on a holiday or weekend?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I'm wondering if I should upgrade my home's wiring.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Do you know what time the movie starts tonight?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you tell me how to reset my password if I forget it?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for 3 PM tomorrow.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "What\u2019s the opinion of the new policy among employees?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Is there a difference between simple and ordinary?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is it possible to get a refund for this product?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What is the significance of the golden hour during photography?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Where can I find examples of ordinary behavior?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know if the concert has been rescheduled?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you explain how the new tax laws work?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She loves hiking and exploring new trails during the summer.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "What factors affect resistance in electrical circuits?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sun rises in the east and sets in the west.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "I wonder what you think about this idea.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can I change my reservation after the deadline passes?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can I participate if I only meet some of the eligibility criteria but not all?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She asked if you wanted to meet earlier in the afternoon.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "How do I improve my public speaking skills?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Describe the history of ancient Greece in brief.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Can the request be submitted after the specified date?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The conference was scheduled for next Thursday at 3 PM.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Could you clarify whether this applies to all cases or just specific ones?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What do you think about the proposal we discussed yesterday?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "How long does it typically take for emergency services to arrive?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He was awarded the Nobel Prize in Literature last year.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Is she always this punctual?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know if the store opens before 6 a.m. on weekends?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can resistance change over time or with temperature?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys painting landscapes on weekends.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The train leaves at 9 o'clock tomorrow.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you clarify whether the deadline is flexible for emergencies?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I wonder if the recipe needs more salt.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Is there a way to reduce my electricity bill?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you tell me if the meeting will be canceled if it rains?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The recipe calls for two cups of flour and a teaspoon of vanilla.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He watched the sunset from the hilltop in silence.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Does he always check his emails first thing in the morning?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Tell me a story about a brave explorer in the jungle.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you explain what qualifies as an ordinary day?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What happens if the input is at the maximum length allowed?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The train arrived at exactly 3:45 PM, surprising many passengers.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Is there an emergency contact number I can call now?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know if the meeting has been rescheduled?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Describe the artwork displayed in gallery three.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "How do I verify my email address if the link doesn't work?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let's go for a walk in the park tomorrow.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "What is the best way to cook chicken flesh?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "What is the main reason for the recent increase in global temperatures?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The artist designed a unique cup for the exhibition.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "The sky was beautifully clear last night.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you tell me where the nearest hospital is located?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What are the first steps to take during a fire emergency?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The molecular structure of water is H2O.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wonder what time the meeting starts.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The sun rises in the east every morning.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wonder how the weather will be in the coming year.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Are there different types of white gemstones?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is it possible to get an extension if I miss the scheduled appointment?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This painting was created in the 18th century by a famous artist.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "What does it mean to live an ordinary life?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know if the library opens earlier on holidays?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "When should I acknowledge changes in the project?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please prepare the documents by Friday.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Is the instrument suitable for beginners or more advanced players?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you explain the main differences between these two theories?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Why do people tend to criticize others openly?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What are some examples of remarkable achievements in history?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Can you tell me where the nearest grocery store is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you explain why the sky appears blue during the day?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you clarify whether the deadline is flexible for submissions?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is it possible to get an extension if I submit the form just before the deadline?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Are there specific ways to acknowledge feedback effectively?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can someone tell me where the nearest coffee shop is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I need directions to the nearest pharmacy.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Is there a way to improve my public speaking skills?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do I need to provide additional documentation?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He enjoys reading science fiction novels on weekends.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She's planning her trip for the upcoming year.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Explain the process of photosynthesis in plants.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She enjoys reading science fiction novels.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you confirm whether this rule covers exceptions or just the general scenario?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is it appropriate to criticize during the meeting?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you tell me where the nearest gas station is?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Who discovered the composition of human flesh?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "What maintenance does this instrument require to stay in good condition?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She baked a chocolate cake for her friend's birthday.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Do you know what makes something truly ordinary?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Do you know how to solve this math problem?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She sings beautifully during concerts.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She asked if I could stay for dinner tonight.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Did you acknowledge the receipt of my email?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you clarify how to acknowledge their efforts?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sun sets in the west during summer.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Could you explain the steps involved in solving this math problem?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I need a new cup for my coffee this morning.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Could you clarify whether the deadline is flexible?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The painting on the wall is quite striking.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "What is the purpose of this ancient artifact?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you clarify whether the deadline is flexible for submissions received after midnight?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Is there an exception to the usual policy?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Why does the sky appear white during the day?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "How does the instrument you mentioned differ from others in the orchestra?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What should I do if I see someone having a seizure?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is there an exception to the rule when dealing with urgent cases?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I will be visiting my grandparents this weekend.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please pass the salt when you get a chance.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "The sky looks clear today, doesn't it?", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "Do you know which instrument is used to produce this sound?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This painting reminds me of childhood memories.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Why do some plants thrive better in shaded areas than in direct sunlight?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "This painting was created by a renowned artist in the 19th century.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Can you tell me what instrument is commonly played in jazz bands?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The flowers in the garden are blooming beautifully today.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Could you tell me how to get to the nearest subway station?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is there a way to access the system without logging in?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is resistance always constant in a resistor?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They debated whether to stay or leave immediately.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Do you know why the project was delayed?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She enjoys painting landscapes during her free time.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The chef prepared a delicious meal for the guests.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "What is the best way to learn French?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Explain the theory of relativity briefly.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "This cup is too hot to hold comfortably.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "I wonder what the latest advancements in renewable energy are.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "I wonder what makes this cake so sweet.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Do you always arrive early for meetings?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What time does the train arrive tomorrow?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Would the policy change if the circumstances differ slightly from the example given?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Could you clarify if the meeting is scheduled for tomorrow?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is there any way to reset my password without email access?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The weather forecast predicts rain for the weekend.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The sun sets behind the mountains every evening.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Can you confirm if this applies to all regions or only specific areas?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Let's discuss where to meet for lunch this week.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Is it possible for this to happen under certain unusual conditions?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you tell me how to get to the nearest pharmacy?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Is there a way to improve our team's communication?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you always happy with your choices?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Why does certain fabric have higher resistance?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "What time does the store close on Sundays?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "How should I proceed if the information I have is incomplete?", "label": true, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Please turn off the lights when you leave the room.", "label": false, "rule_id": "question_intent_gpt_002", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}

@@ -1,0 +1,182 @@
+{
+  "rule_id": "punctuation_density_high_claude_004",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if punctuation marks comprise more than 15% of total characters, indicating heavy punctuation usage.",
+  "generated_articulation": "The classification rule is:\n\n**A text is classified as True if it contains at least one sequence of punctuation marks (such as exclamation points, question marks, or ellipses) that indicates excitement, surprise, or emphasis, especially when these are combined with interjections, expressions of disbelief, or phrases like \"can't be true,\" \"that's unbelievable,\" or \"did you see that.\"**\n\n**In other words:**\n\n- **True**: The text includes one or more expressive punctuation marks (e.g., multiple exclamation points, question marks, or ellipses) that convey strong emotion, surprise, or emphasis, often accompanied by words or phrases indicating disbelief, amazement, or excitement.\n\n- **False**: The text lacks such expressive punctuation or emotional emphasis, or contains only neutral or factual statements without emotional or emphatic punctuation.\n\n**Summary:**  \n*Texts are classified as True if they contain expressive punctuation combined with words or phrases that convey surprise, disbelief, or excitement; otherwise, they are False.*",
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow!!! I can't believe you did that!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Did you see that? That's unbelievable!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting was scheduled for 3 PM and will proceed as usual.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He is a very experienced engineer who has worked on numerous projects.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! I can't believe this actually happened!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Did you see that?! That's unbelievable!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The meeting is scheduled for 3 PM tomorrow.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think that's interesting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, I can't believe you actually did that! Amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Did you see that? Unbelievable...\nHonestly, I didn't expect it at all!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She told me she would be here soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I think it's just impossible to believe that they won again.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe we missed the concert!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe we missed the concert.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was incredible!!! I can't believe it!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was incredible! I can't believe it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it! This is amazing!!!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "I can't believe it! This is amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was incredible!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "That was incredible.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.5,
+  "consistency_tests": [],
+  "consistency_score": null,
+  "functional_accuracy": 0.8,
+  "functional_details": {
+    "n_total": 20,
+    "n_classified": 5,
+    "n_correct": 4,
+    "n_skipped": 15,
+    "accuracy": 0.8
+  },
+  "cross_context_articulation": null,
+  "cross_context_match_score": null
+}

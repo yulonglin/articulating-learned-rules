@@ -1,0 +1,218 @@
+{
+  "rule_id": "contains_digit_pattern_gpt_005",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains a sequence of exactly three consecutive digits.",
+  "generated_articulation": "**\n\nThe input returns True if it has the prefix \"Version\", \"Number\", or \"Code:\", OR if it is \"ID:\" followed by a 3-digit number. All other inputs return False.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Version 2.0.1",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "ID:123",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version123",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "ID:12",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version0.1",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "VersionX",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ID:456",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "ID:12A",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version 2.0",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version2.0",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Version1.2.3",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "VersionX.2.3",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version 1.2.3",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "VersionX 1.2.3",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Version 1.2",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6666666666666666,
+  "consistency_tests": [
+    {
+      "input": "Code: 065",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, an input returns True if it has the prefix \"Code:\" (among other conditions).\n\nThe input \"Code: 065\" begins with the prefix \"Code:\", which matches the first part of the classification rule.\n\nTherefore, this input satisfies the condition and returns **True**.",
+      "word_overlap": 0.46153846153846156,
+      "classification_correct": true
+    },
+    {
+      "input": "Code: 287",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, an input returns True if it has the prefix \"Code:\" (among other conditions).\n\nThe input \"Code: 287\" begins with the prefix \"Code:\" followed by a space and a number.\n\nSince this input matches the \"Code:\" prefix condition, it satisfies one of the criteria for returning True.\n\n**Therefore, the classification is True.**",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "Number 773",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe input \"Number 773\" matches the classification rule because:\n\n1. **Prefix check**: The input begins with the prefix \"Number\"\n2. **Rule application**: According to the rule, any input with the prefix \"Number\" returns True\n3. **Conclusion**: Since \"Number 773\" has \"Number\" as its prefix, it satisfies one of the conditions that returns True\n\nThe rule states inputs return True if they have the prefix \"Number\" (among other options), and this input clearly starts with that prefix.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "Number 913",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: True\n\n## Explanation:\n\nThe input \"Number 913\" matches the classification rule because:\n\n1. **Prefix check**: The input begins with the prefix \"Number\"\n2. **Rule application**: According to the rule, any input with the prefix \"Number\" returns True\n3. **Conclusion**: Since \"Number 913\" has the \"Number\" prefix, it satisfies one of the conditions that returns True\n\nThe rule states inputs return True if they have the prefix \"Number\" (among other options), and this input clearly starts with that prefix, so it classifies as **True**.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "Version 647",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nThe input \"Version 647\" matches the classification rule because:\n\n1. **Prefix check**: The input begins with the prefix \"Version\"\n2. **Rule application**: According to the rule, any input with the prefix \"Version\" returns True\n3. **Conclusion**: Since \"Version 647\" has the \"Version\" prefix, it satisfies the first condition of the rule\n\nThe rule states inputs return True if they have the prefix \"Version\", \"Number\", or \"Code:\" (among other conditions). This input clearly has the \"Version\" prefix, so it classifies as **True**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "testing",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThe input \"testing\" does not match any of the conditions specified in the classification rule:\n\n1. ❌ Does not have the prefix \"Version\"\n2. ❌ Does not have the prefix \"Number\"\n3. ❌ Does not have the prefix \"Code:\"\n4. ❌ Does not match the pattern \"ID:\" followed by a 3-digit number\n\nSince the input fails to satisfy any of the required conditions (connected by OR), the classification is **False**.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "Serial 41358",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the input returns True if it meets ANY of these conditions:\n1. Has the prefix \"Version\"\n2. Has the prefix \"Number\"\n3. Has the prefix \"Code:\"\n4. Is \"ID:\" followed by a 3-digit number\n\nThe input \"Serial 41358\" does not match any of these conditions:\n- It does not start with \"Version\"\n- It does not start with \"Number\"\n- It does not start with \"Code:\"\n- It does not start with \"ID:\" (it starts with \"Serial\")\n\nTherefore, it returns **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "ID: 86",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the input returns True if it is \"ID:\" followed by a **3-digit number**. \n\nThe input \"ID: 86\" contains:\n- The prefix \"ID:\" ✓\n- But only a **2-digit number** (86), not a 3-digit number ✗\n\nSince the input fails to meet the complete condition (3-digit number requirement), it returns **False**.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": null
+    },
+    {
+      "input": "brown",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThe input \"brown\" does not match any of the conditions specified in the classification rule:\n\n1. ❌ Does not have the prefix \"Version\"\n2. ❌ Does not have the prefix \"Number\"\n3. ❌ Does not have the prefix \"Code:\"\n4. ❌ Does not match the pattern \"ID:\" followed by a 3-digit number\n\nSince \"brown\" fails to satisfy any of the required conditions, it returns **False**.",
+      "word_overlap": 0.6923076923076923,
+      "classification_correct": true
+    },
+    {
+      "input": "Serial 42662",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nAccording to the rule, the input returns True if it meets ANY of these conditions:\n1. Has the prefix \"Version\"\n2. Has the prefix \"Number\"\n3. Has the prefix \"Code:\"\n4. Is \"ID:\" followed by a 3-digit number\n\nThe input \"Serial 42662\" does not match any of these conditions:\n- It does not start with \"Version\"\n- It does not start with \"Number\"\n- It does not start with \"Code:\"\n- It does not start with \"ID:\" (it starts with \"Serial\")\n\nTherefore, it returns **False**.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.6538461538461539,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**True when:**\n- The string contains a label (\"Code:\", \"Number\", or \"Version\")\n- Followed by exactly 3 digits\n- The 3 digits form a number where **all three digits are different from each other**\n\n**False when:**\n- The string doesn't match the label + 3-digit format, OR\n- The 3 digits contain repeated digits\n\n## Verification:\n\n**True cases:**\n- \"Code: 065\" → 0, 6, 5 (all different) ✓\n- \"Code: 287\" → 2, 8, 7 (all different) ✓\n- \"Number 773\" → 7, 7, 3 (wait... 7 repeats) ✗\n\nLet me reconsider...\n\n**Alternative pattern:** The sum or some property of the digits?\n\nActually, checking if digits are **all odd**:\n- 065 (0 is even) ✗\n- 287 (2, 8 are even) ✗\n\n**Revised: All three digits are UNIQUE (no repeats):**\n- \"Code: 065\" → 0, 6, 5 ✓\n- \"Code: 287\" → 2, 8, 7 ✓\n- \"Number 773\" → 7, 7, 3 ✗ (7 repeats)\n\nBut 773 is marked True... \n\n**The pattern is: The label + exactly 3 unique digits, where the digits sum to an odd number OR the number is divisible by a specific value.**\n\nCould you clarify if there's additional context, or would you like me to analyze further?",
+  "cross_context_match_score": 0.6153846153846154
+}

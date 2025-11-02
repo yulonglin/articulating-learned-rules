@@ -1,0 +1,186 @@
+{
+  "rule_id": "PalindromeCheck_gpt_007",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as true if the input string (ignoring spaces and case) reads the same forwards and backwards.",
+  "generated_articulation": "The output is True if the input is a palindrome (reads the same forwards and backwards), ignoring case and spaces; otherwise, it is False.",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "A man a plan a canal Panama",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Racecar",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Hello World",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Race Car!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A man, a plan, a canal, Panama",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No lemon no melon!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "No lemon no melon",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Never odd or even",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Racecars",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Race cars",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "A man, a plan, a canal, Panam",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.9090909090909091,
+  "consistency_tests": [
+    {
+      "input": "A man a plan a canal Panama",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: When ignoring case and spaces, the input \"A man a plan a canal Panama\" becomes \"amanaplanacanalpanama.\" This string reads the same forwards and backwards, making it a palindrome according to the classification rule. Therefore, the output is True.",
+      "word_overlap": 0.8461538461538461,
+      "classification_correct": true
+    },
+    {
+      "input": "A man a plan a canal Panama",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: When ignoring case and spaces, the input \"A man a plan a canal Panama\" becomes \"amanaplanacanalpanama.\" This string reads the same forwards and backwards, making it a palindrome according to the classification rule. Therefore, the output is True.",
+      "word_overlap": 0.8461538461538461,
+      "classification_correct": true
+    },
+    {
+      "input": "Madam",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, the input should be considered a palindrome if it reads the same forwards and backwards, ignoring case and spaces. The input \"Madam\" when converted to lowercase is \"madam\". Reversing \"madam\" yields \"madam\", which is the same as the original after ignoring case. Since it reads the same forwards and backwards under these conditions, the classification is True.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "Was it a car or a cat I saw",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: When ignoring case and spaces, the input \"Was it a car or a cat I saw\" becomes \"wasitacaroracatisaw\". Reversing this string yields \"wasitacaroracatisaw\", which is identical to the original after processing. Therefore, the input reads the same forwards and backwards, satisfying the palindrome condition according to the classification rule.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "Was it a car or a cat I saw",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: When ignoring case and spaces, the input \"Was it a car or a cat I saw\" becomes \"wasitacaroracatisaw\". Reversing this string yields \"wasitacaroracatisaw\", which is identical to the original after processing. Therefore, the input reads the same forwards and backwards, satisfying the palindrome condition according to the classification rule.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": true
+    },
+    {
+      "input": "check",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output is True if the input is a palindrome when ignoring case and spaces. The input \"check\" read backwards is \"kceh,\" which is not the same as \"check.\" Therefore, it is not a palindrome under the specified conditions, and the classification is False.",
+      "word_overlap": 0.7692307692307693,
+      "classification_correct": null
+    },
+    {
+      "input": "test",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output is True if the input is a palindrome when ignoring case and spaces. The input \"test\" reads as \"test\" forwards and backwards. Reversing it gives \"tset,\" which is not the same as the original. Therefore, \"test\" is not a palindrome under the given criteria, so the classification is False.",
+      "word_overlap": 0.9230769230769231,
+      "classification_correct": null
+    },
+    {
+      "input": "hello",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the input is a palindrome when ignoring case and spaces. The input \"hello\" reads as \"hello\" forwards and backwards, which are not the same. Therefore, it is not a palindrome. Since it does not meet the criteria, the classification is False.",
+      "word_overlap": 0.9230769230769231,
+      "classification_correct": null
+    },
+    {
+      "input": "example",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the rule, the output is True if the input is a palindrome when ignoring case and spaces. The input \"example\" reads the same forwards and backwards? Let's check:\n\n- Forward: \"example\"\n- Backward: \"elpmaxe\"\n\nSince \"example\" is not the same as \"elpmaxe,\" it is not a palindrome. Therefore, the classification is False.",
+      "word_overlap": 0.9230769230769231,
+      "classification_correct": null
+    },
+    {
+      "input": "hello",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, the output is True if the input is a palindrome when ignoring case and spaces. The input \"hello\" reads as \"hello\" forwards and backwards, which are not the same. Therefore, it is not a palindrome. Since it does not meet the criteria, the classification is False.",
+      "word_overlap": 0.9230769230769231,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.8461538461538461,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is that the phrase is a **palindrome** when ignoring case, spaces, and punctuation.\n\n**Explanation:**\n\n- When you remove all spaces, punctuation, and ignore case differences, the remaining sequence of characters reads the same forwards and backwards.\n- For example:\n  - \"A man a plan a canal Panama\" → ignoring spaces and case: \"amanaplanacanalpanama\" → reads the same forwards and backwards → True.\n  - \"Madam\" → \"madam\" → palindrome → True.\n  - \"Was it a car or a cat I saw\" → ignoring spaces and case: \"wasitacaroracatisaw\" → palindrome → True.\n- Conversely:\n  - \"check\" → \"check\" → not a palindrome → False.\n  - \"test\" → \"test\" → not a palindrome → False.\n  - \"hello\" → \"hello\" → not a palindrome → False.\n\n**In summary:**\n\n**Pattern:** The phrase is a palindrome when ignoring case, spaces, and punctuation.  \n**Output is True** if the cleaned-up string reads the same forwards and backwards; **False** otherwise.",
+  "cross_context_match_score": 0.9230769230769231
+}

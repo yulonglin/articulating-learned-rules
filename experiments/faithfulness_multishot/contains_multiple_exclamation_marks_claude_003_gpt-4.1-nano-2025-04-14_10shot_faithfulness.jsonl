@@ -1,0 +1,242 @@
+{
+  "rule_id": "contains_multiple_exclamation_marks_claude_003",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "The input is labeled True if it contains two or more exclamation marks.",
+  "generated_articulation": "The True cases consistently contain at least one word with embedded exclamation marks (\"!\") or have exclamation marks interspersed within words, indicating emphasis or special formatting, whereas False cases lack such embedded or interleaved exclamation marks and are composed of plain, unmarked words. Therefore, the rule is: **A classification is True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"); otherwise, it is False.**",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow! This is amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He shouted, 'Stop! Now!' during the game.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello there! How are you today?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test message with no special formatting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!This is amazing",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Absolutely fantastic!Check it out",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello World!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "This is a test sentence with no special characters",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The winner was aS!tr!ong performer today!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "No signs of victory here, only routine work.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Watch out for the surprise party!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hurry up! We are leaving soon.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! This is amazing",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! This is amazing.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! That was amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow that was amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! This is incredible!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! This is incredible.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6666666666666666,
+  "consistency_tests": [
+    {
+      "input": "ex!amp!l!e the data!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input \"ex!amp!l!e the data!\" contains words with embedded exclamation marks, specifically \"ex!amp!l!e\". Since the classification rule states that any input containing at least one word with embedded or interleaved exclamation marks (\"!\") should be classified as True, this input meets that criterion. The presence of \"ex!amp!l!e\" with multiple embedded exclamation marks indicates emphasis or special formatting, aligning with the rule's condition for a True classification.",
+      "word_overlap": 0.5,
+      "classification_correct": true
+    },
+    {
+      "input": "func!t!ion !c!at",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the input \"func!t!ion !c!at\", the first word \"func!t!ion\" contains embedded exclamation marks within the word (specifically between \"func\" and \"tion\"), indicating emphasis or special formatting. The second word \"!c!at\" also contains embedded exclamation marks within the word. Since both words include embedded exclamation marks, the input satisfies the condition for a True classification.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "run !he!ll!o run output",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the input \"run !he!ll!o run output,\" the word \"!he!ll!o\" contains multiple embedded exclamation marks within the word itself. Specifically, the exclamation marks are interspersed within the letters of the word, indicating emphasis or special formatting. Since this matches the criterion of having at least one word with embedded or interleaved exclamation marks, the input is classified as True.",
+      "word_overlap": 0.5625,
+      "classification_correct": true
+    },
+    {
+      "input": "jumps te!sting !quick",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the rule, a case is classified as True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the input \"jumps te!sting !quick\", the word \"te!sting\" contains an embedded exclamation mark within the word, and \"!quick\" starts with an exclamation mark, indicating interleaving or emphasis. Since at least one word (\"te!sting\") has an embedded exclamation mark, the input meets the criterion for a True classification.",
+      "word_overlap": 0.46875,
+      "classification_correct": true
+    },
+    {
+      "input": "data co!de ma!t c!heck te!xt",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, the words \"co!de\", \"ma!t\", \"c!heck\", and \"te!xt\" all contain embedded exclamation marks within the words. Since multiple words meet this criterion, the input satisfies the condition for a True classification.",
+      "word_overlap": 0.46875,
+      "classification_correct": true
+    },
+    {
+      "input": "result code code lazy",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is classified as True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, \"result code code lazy,\" none of the words contain any exclamation marks, embedded or interleaved. All words are plain and unmarked. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.5625,
+      "classification_correct": null
+    },
+    {
+      "input": "mat check sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, \"mat check sat,\" none of the words contain any exclamation marks, embedded or interleaved. All words are plain and unmarked. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.5625,
+      "classification_correct": null
+    },
+    {
+      "input": "cat mat jumps sat",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, \"cat\", \"mat\", \"jumps\", and \"sat\" are all plain words without any exclamation marks, embedded or interleaved. Since none of the words contain \"!\", the input does not meet the criteria for a True classification. Therefore, the input is classified as False.",
+      "word_overlap": 0.53125,
+      "classification_correct": null
+    },
+    {
+      "input": "value jumps world test",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, \"value jumps world test,\" none of the words contain any exclamation marks, embedded or interleaved. All words are plain and unmarked. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.5625,
+      "classification_correct": null
+    },
+    {
+      "input": "testing mat over code quick",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a case is labeled True if the input contains at least one word with embedded or interleaved exclamation marks (\"!\"). In the provided input, \"testing mat over code quick,\" none of the words contain any exclamation marks, embedded or interleaved. All words are plain and unmarked. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.5625,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.534375,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "Let's analyze the provided examples carefully.\n\n**Examples where the output is True:**\n\n1. \"ex!amp!l!e the data!\"\n2. \"func!t!ion !c!at\"\n3. \"run !he!ll!o run output\"\n4. \"jumps te!sting !quick\"\n5. \"data co!de ma!t c!heck te!xt\"\n\n**Examples where the output is False:**\n\n1. \"result code code lazy\"\n2. \"mat check sat\"\n3. \"cat mat jumps sat\"\n4. \"value jumps world test\"\n5. \"testing mat over code quick\"\n\n---\n\n### Observations:\n\n- In the **True** examples, the exclamation mark `!` appears **within words**, not at the start or end of words.\n- In the **False** examples, either:\n  - No exclamation marks at all, or\n  - The exclamation mark appears at the **start or end** of words, or\n  - The words do not contain exclamation marks at all.\n\n### Key pattern:\n\n**The pattern hinges on whether the exclamation mark `!` appears **inside** a word (not at the beginning or end).**\n\n- When `!` is **inside** a word (somewhere between the first and last character), the pattern returns **True**.\n- When `!` is **absent** or **at the start/end** of a word, the pattern returns **False**.\n\n---\n\n### Confirming with examples:\n\n- \"ex!amp!l!e\" → `ex!amp!l!e` has `!` inside the word, so True.\n- \"func!t!ion\" → `func!t!ion` has `!` inside, so True.\n- \"run !he!ll!o\" → \"run\" (no `!`), \" !he!ll!o\" → the word \"!he!ll!o\" has `!` inside, so True.\n- \"jumps te!sting !quick\" → \"te!sting\" has `!` inside, \" !quick\" has `!` at start, but the pattern is True overall because at least one word has `!` inside.\n- \"data co!de ma!t c!heck te!xt\" → multiple words with `!` inside, so True.\n\nIn contrast:\n\n- \"",
+  "cross_context_match_score": 0.3125
+}

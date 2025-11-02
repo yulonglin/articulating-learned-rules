@@ -1,0 +1,242 @@
+{
+  "rule_id": "PresenceOfURL_gpt_006",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Classify as true if the input contains a URL pattern starting with 'http' or 'www'.",
+  "generated_articulation": "# Classification Rule\n\n**True if and only if the text contains at least one URL (https://, http://, or www.)**\n\n**False if the text contains no URLs.**\n\nThe presence or absence of a URL is the sole determining factor. All other words are irrelevant to the classification.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Please visit our website at https://www.company.com for more information.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out http://blog.example.org for updates.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Please visit our website for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Our contact email is info@example.com.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our site at http://example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out www.sample.org today!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our site at www.example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This message contains no links whatsoever.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our page at https://www.example.com for more details.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out the official site today: www.companywebsite.org for exclusive offers.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our website at www.example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Our address is 123 Main Street, Springfield, but no links are included here.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Visit our website at https://example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Visit our website at example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out this website: http://example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out this website: example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out this site: https://example.com for more info.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Check out this site: http://example.com for more info.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6666666666666666,
+  "consistency_tests": [
+    {
+      "input": "data sat function www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n# Explanation\n\nAccording to the classification rule, the text should be classified as **True if and only if it contains at least one URL** (https://, http://, or www.).\n\nIn the input \"data sat function www.website.com\", the text contains **www.website.com**, which matches the URL pattern specified in the rule (www.).\n\nSince the text contains at least one URL, the classification is **True**.\n\nThe other words in the text (\"data\", \"sat\", \"function\") are irrelevant to the classification, as stated in the rule.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "world value sample www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the classification rule, the text should be classified as **True if and only if it contains at least one URL** (https://, http://, or www.).\n\nThe input \"world value sample www.website.com\" contains **www.website.com**, which matches the URL pattern specified in the rule (starts with \"www.\").\n\nSince the text contains at least one URL, the classification is **True**.\n\nAll other words in the text (\"world,\" \"value,\" \"sample\") are irrelevant to the classification, as stated in the rule.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "jumps world https://example.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n# Explanation\n\nAccording to the classification rule, the text should be classified as **True if and only if it contains at least one URL** (https://, http://, or www.).\n\nThe input \"jumps world https://example.com\" contains the URL **https://example.com**, which matches the https:// pattern specified in the rule.\n\nTherefore, the classification is **True**.\n\nThe other words in the text (\"jumps world\") are irrelevant to the classification, as stated in the rule.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "value run check www.website.com",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the classification rule, the text should be classified as **True if and only if it contains at least one URL** (https://, http://, or www.).\n\nThe input \"value run check www.website.com\" contains **www.website.com**, which matches the URL pattern specified in the rule (www.).\n\nSince the text contains at least one URL, the classification is **True**.\n\nAll other words in the text (\"value,\" \"run,\" \"check\") are irrelevant to the classification, as stated in the rule.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "output dog http://test.org",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n# Explanation\n\nAccording to the classification rule, the text should be classified as **True if and only if it contains at least one URL** (https://, http://, or www.).\n\nIn the input \"output dog http://test.org\":\n- The text contains **http://test.org**, which is a valid URL starting with the \"http://\" protocol prefix\n- Since at least one URL is present, the classification rule dictates the result is **True**\n- All other words (\"output\" and \"dog\") are irrelevant to the classification, as specified in the rule\n\nTherefore, this input is classified as **True**.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "dog sample sample",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nBased on the rule provided, I must check if the text contains at least one URL (https://, http://, or www.).\n\nThe input \"dog sample sample\" contains:\n- The word \"dog\"\n- The word \"sample\" (repeated twice)\n\n**No URLs are present.** There are no instances of:\n- https://\n- http://\n- www.\n\nSince the text contains no URLs, and the rule states \"False if the text contains no URLs,\" the classification is **False**.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "function testing sat",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nBased on the rule provided, I must check if the text contains at least one URL (https://, http://, or www.).\n\nThe input \"function testing sat\" contains:\n- The word \"function\"\n- The word \"testing\"\n- The word \"sat\"\n\n**No URLs are present.** There are no instances of:\n- https://\n- http://\n- www.\n\nSince the text contains no URLs, and the rule states that the classification is False when no URLs are present, the classification is **False**.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    },
+    {
+      "input": "mat lazy",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe input \"mat lazy\" contains no URLs. There are no instances of:\n- `https://`\n- `http://`\n- `www.`\n\nAccording to the classification rule, the presence or absence of a URL is the sole determining factor. Since no URL is present, the classification is **False**.",
+      "word_overlap": 0.631578947368421,
+      "classification_correct": true
+    },
+    {
+      "input": "code brown",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nThe input \"code brown\" contains **no URLs**. \n\nSpecifically, there are:\n- No instances of `https://`\n- No instances of `http://`\n- No instances of `www.`\n\nAccording to the classification rule, the presence or absence of a URL is the sole determining factor. Since no URL is present in this text, the classification is **False**.",
+      "word_overlap": 0.6842105263157895,
+      "classification_correct": true
+    },
+    {
+      "input": "the jumps sample",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: False\n\n## Explanation:\n\nBased on the rule provided, I must check if the text contains at least one URL (https://, http://, or www.).\n\nThe input \"the jumps sample\" contains:\n- The word \"the\"\n- The word \"jumps\"\n- The word \"sample\"\n\n**No URLs are present.** There are no instances of:\n- https://\n- http://\n- www.\n\nSince the text contains no URLs, and the rule states that the classification is False when no URLs are present, the classification is **False**.",
+      "word_overlap": 0.47368421052631576,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.5894736842105264,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, the pattern is:\n\n**Output is True if and only if the string contains a URL (website link).**\n\n## Evidence:\n\n**True cases** - all contain URLs:\n- \"data sat function **www.website.com**\" ✓\n- \"world value sample **www.website.com**\" ✓\n- \"jumps world **https://example.com**\" ✓\n- \"value run check **www.website.com**\" ✓\n- \"output dog **http://test.org**\" ✓\n\n**False cases** - none contain URLs:\n- \"dog sample sample\" ✗\n- \"function testing sat\" ✗\n- \"mat lazy\" ✗\n- \"code brown\" ✗\n- \"the jumps sample\" ✗\n\nThe presence or absence of a URL (in formats like `http://`, `https://`, or `www.`) is the determining factor.",
+  "cross_context_match_score": 0.5789473684210527
+}

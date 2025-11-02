@@ -1,0 +1,200 @@
+{"input": "WoRlD over value world data test", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run WoRlD sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown WoRlD result example", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text example cat RuN text over", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test world brown lazy", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "InPuT sat result sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code data over DaTa python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat mat jumps sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the fox data function world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input check ThE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check test hello check mat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat result function RuN sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog sat fox run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "LaZy input sat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world value sample JuMpS python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog jumps result over", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data value code testing ReSuLt", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox run text ExAmPlE dog", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over sample output python world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check function lazy data", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text code brown example", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python lazy DoG", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "CoDe cat fox over", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat testing dog code", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "RuN quick jumps", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "MaT over jumps code the", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox cat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog run over hello python", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing python input function the MaT", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test BrOwN text", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick TeSt mat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing over MaT testing", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "CaT dog example output test", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing text jumps", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello example over function", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello the jumps text sample RuN", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy jumps output output mat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy dog", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog function over check quick", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text test result quick", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check check mat example", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "CoDe input sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox text data testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world check result ThE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input hello", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function run cat run hello", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown mat dog", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FuNcTiOn over run quick", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OvEr quick jumps dog text jumps", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello python dog result run FuNcTiOn", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "FoX world text example test", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example quick example result", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python value", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python CoDe jumps sat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat python dog output", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "DaTa test text run python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value code jumps run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps testing data cat hello", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data lazy HeLlO sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat OvEr data fox output testing", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick function", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example over test function", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the lazy data check cat JuMpS", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example LaZy jumps mat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat TeXt text", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick hello lazy MaT input", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output quick check testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input quick world world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the FuNcTiOn mat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "FuNcTiOn world cat result", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text python fox data LaZy", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run text over", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog output sample fox input MaT", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test code jumps CaT hello", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps testing quick JuMpS", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check cat ReSuLt mat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "RuN quick result", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run CoDe code", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick jumps sample cat cat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "JuMpS code result", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OvEr hello over", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function python mat the", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "QuIcK lazy code the mat function", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat brown fox", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over result sat test TeSt testing", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code QuIcK brown data python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run hello cat quick", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data code fox sample value", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "MaT brown testing fox", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world cat CaT fox", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps text run RuN hello run", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing code output input testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result over output jumps mat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing data result", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result check data TeXt python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat testing lazy sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result data test output TeSt mat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text python check input test", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox jumps the FuNcTiOn code", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample example fox jumps", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code cat value", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value run data", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat function over VaLuE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data data input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ThE value sat jumps function example", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over check BrOwN python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over OuTpUt input", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello over quick sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example ThE quick dog", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test the output", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world jumps input fox BrOwN", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check InPuT over", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input check dog output", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example ReSuLt the data", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example run CoDe", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example testing the world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data sat over test", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over mat sample lazy VaLuE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value python PyThOn testing over jumps", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "SaMpLe run brown world", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check data DaTa brown quick python", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy jumps python lazy", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "PyThOn function dog", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data check testing sample", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run quick fox BrOwN sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing result lazy ReSuLt cat check", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function sample run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "HeLlO input sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check over run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output run cat input run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function lazy check run testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function value mat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing quick VaLuE cat function", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "BrOwN function example", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function check hello python CoDe", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over the jumps", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test world ThE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the output QuIcK data", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat world CaT input", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test sat lazy", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps quick sample world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data over the lazy CaT over", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result brown example text function DaTa", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy text testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text run jumps", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function test the", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python test value function MaT example", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the jumps", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps OvEr run mat lazy run", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat the", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value VaLuE jumps brown", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "lazy hello sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps testing sat SaT the input", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output sat input SaT", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test lazy cat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello brown check function the", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python text hello jumps input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check QuIcK check", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input sat code world", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world example", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "SaMpLe input world input hello sat", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "RuN test cat code", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check testing hello data run", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat dog fox output text", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown the check", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat output", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example TeSt run result", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "ExAmPlE over jumps value", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat text ExAmPlE", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "TeSt fox jumps world", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output input test", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "TeStInG world sat sample", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "TeXt cat brown result", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code dog HeLlO lazy brown", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value jumps world test", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat sample input", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "ThE output world", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example value test over", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox python over", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox fox run dog", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown CoDe brown", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "DoG world jumps", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat input value testing", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the jumps sample sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat run CoDe", "label": true, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing sat", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text text function lazy function", "label": false, "rule_id": "alternating_case_words_claude_000", "metadata": {"expected_label": false, "correct": true}}

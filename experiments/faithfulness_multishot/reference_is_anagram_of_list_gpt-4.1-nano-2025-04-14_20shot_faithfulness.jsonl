@@ -1,0 +1,218 @@
+{
+  "rule_id": "reference_is_anagram_of_list",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Any word is an anagram of common words (listen, below, study)",
+  "generated_articulation": "The True cases are words that are anagrams of other words in the list (e.g., \"tinsel,\" \"listen,\" \"silent,\" \"enlist\" are all anagrams of each other), whereas the False cases are words that do not have any anagram counterparts in the list. Therefore, the pattern is that a word is classified as True if it has at least one anagram present among the examples; otherwise, it is False.",
+  "few_shot_count": 20,
+  "counterfactual_tests": [
+    {
+      "test_input": "bride",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "caret",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abcde",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "planet",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "rescue",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "stressed",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "abc",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "unique",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "deltas",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "nascities",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "listen",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "listens",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "listened",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "listem",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "listening",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6,
+  "consistency_tests": [
+    {
+      "input": "inlets",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The word \"inlets\" is an anagram of \"listen,\" \"silent,\" \"tinsel,\" and \"enlist,\" all of which are present in the list of example words. Since \"inlets\" shares the same set of letters and can be rearranged to form these other words, it has at least one anagram counterpart in the list. According to the classification rule, words that have at least one anagram in the list are classified as True. Therefore, \"inlets\" is classified as True.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "tinsel",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. Since \"tinsel\" is an anagram of \"listen,\" \"silent,\" and \"enlist,\" all of which are examples of words with their anagrams in the list, \"tinsel\" has at least one anagram counterpart. Therefore, based on the rule, \"tinsel\" is classified as True.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "listen",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present in the list. In this case, \"listen\" is an anagram of \"tinsel,\" \"silent,\" and \"enlist,\" which are all examples of words that share the same set of letters. Since \"listen\" has multiple anagram counterparts in the list, it meets the criterion for being classified as True.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": true
+    },
+    {
+      "input": "tinsel",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. Since \"tinsel\" is an anagram of \"listen,\" \"silent,\" and \"enlist,\" all of which are examples of words with their anagrams in the list, \"tinsel\" has at least one anagram counterpart. Therefore, based on the rule, \"tinsel\" is classified as True.",
+      "word_overlap": 0.6153846153846154,
+      "classification_correct": true
+    },
+    {
+      "input": "listen",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present in the list. In this case, \"listen\" is an anagram of \"tinsel,\" \"silent,\" and \"enlist,\" which are all examples of words that share the same set of letters. Since \"listen\" has multiple anagram counterparts in the list, it meets the criterion for being classified as True.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": true
+    },
+    {
+      "input": "result",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. The input \"result\" does not have any other words in the list that are anagrams of it. For example, \"result\" cannot be rearranged to form another valid word in the list, and no other words are anagrams of \"result.\" Therefore, based on the rule, \"result\" is classified as False.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": null
+    },
+    {
+      "input": "output",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. The input \"output\" does not have any other words in the list that are anagrams of it. Since \"output\" is unique and no other words share the same set of letters in a different order, it does not meet the criterion for being classified as True. Therefore, based on the rule, \"output\" is classified as False.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": null
+    },
+    {
+      "input": "data",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. The input \"data\" does not have any other words in the list that are anagrams of it. Since \"data\" is unique in its letter composition within the context of the rule, it does not meet the criterion for being classified as True. Therefore, based on the rule, \"data\" is classified as False.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": null
+    },
+    {
+      "input": "input",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. The input \"input\" does not have any other words in the list that are anagrams of it. Since there are no other words with the same set of letters rearranged, \"input\" does not meet the criterion for being a True case. Therefore, it is classified as False.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": null
+    },
+    {
+      "input": "value",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a word is classified as True if it has at least one anagram present among the list of words. Since \"value\" does not have any other words in the list that are anagrams of it, it does not meet the criterion for True. Therefore, \"value\" is classified as False.",
+      "word_overlap": 0.5769230769230769,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5884615384615384,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is that the words for which the output is True are anagrams of each other. Specifically, \"inlets,\" \"tinsel,\" and \"listen\" are all anagrams—they contain the same letters in different orders. The words with output False (\"result,\" \"output,\" \"data,\" \"input,\" \"value\") do not share this property.\n\n**Pattern:**  \n**The output is True if and only if the word is an anagram of the other words in the list (i.e., all are composed of the same letters).**  \nIn this case, the words \"inlets,\" \"tinsel,\" and \"listen\" are anagrams, so they yield True. The others are not anagrams of these words, so they yield False.",
+  "cross_context_match_score": 0.5
+}

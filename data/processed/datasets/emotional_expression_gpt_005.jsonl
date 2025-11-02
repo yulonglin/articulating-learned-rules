@@ -1,0 +1,200 @@
+{"input": "He was furious at the unfair treatment.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The light switch was flicked off, plunging the room into darkness.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze rustled the dry leaves outside.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A gentle breeze rustled the leaves outside the window.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The water in the lake was still, reflecting the clouds above.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The old clock stopped ticking last night.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I'm so furious about what happened yesterday.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her anger was obvious in her clenched fists.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The heartbreak made my chest feel heavy.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A deep sadness lingered after the farewell.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A distant siren echoed through the night.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A faint glow from the streetlights illuminated the room.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She paused before entering the silent room.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He looked at me with pure anger in his eyes.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The music played softly in the background.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock's hands pointed to almost midnight.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her joyful dance was infectious.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A single leaf fell slowly from the tree.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her sadness was palpable as she spoke softly.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I'm so excited for the upcoming adventure!", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She brushed a strand of hair out of her eyes.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An unexpected gift brought me pure delight.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The heartfelt letter brought tears to my eyes.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He shrugged and shrugged, seemingly indifferent to the news.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She kept her eyes fixed on the horizon.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The floor was dusty and covered with cobwebs.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I was so thrilled to see the ocean again.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He paused at the crossroads, uncertain which way to go.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He burst into tears upon receiving the award.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They arrived at the station just as the train pulled out.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her beaming smile lit up the entire room.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She looked at her reflection in the mirror, studying her features.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The news left me in tears of relief.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The tragedy left everyone in mourning.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The candle flickered, casting dancing shadows.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her smile was a beacon of happiness.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quiet sadness lingered long after she left.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The painting hung crooked on the wall, unnoticed.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I felt a surge of excitement before the race.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The door was slightly ajar, revealing darkness inside.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He carefully unfolded the crumpled paper.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I couldn't help but feel proud of myself.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His voice trembled with rage during the argument.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The streetlamp cast a dim light over the sidewalk.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mailbox was stuffed with overdue notices.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I felt an inexplicable happiness in that moment.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The paper was crumpled, discarded on the floor.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The painting hung crooked on the wall, unnoticed by most.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The excitement was almost too much to contain.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The door creaked open slowly, revealing a dark hallway.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She shrugged her shoulders and walked away without a word.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sense of dread crept in as I waited.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He looked at the sky, pondering the mysteries of the universe.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A small crack ran across the glass of the picture frame.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Excitement bubbled over as the concert started.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I can't stop smiling after hearing the good news!", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He watched the clouds drift lazily across the sky.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The recipe calls for two cups of flour and a pinch of salt.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I felt a deep sense of despair after the failure.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her happiness was contagious and uplifting.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The book was left on the table, untouched for days.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Anger boiled inside me after the betrayal.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A lone tree stood at the edge of the field.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A single candle remained lit on the windowsill.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She poured water into the glass absentmindedly.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "My heart fluttered with excitement.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The lamp cast a soft glow over the empty desk.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Winning the game made me jump with excitement.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her laughter was contagious and brightened my day.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The ground was damp from the recent rain.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He adjusted his tie before stepping into the room.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He sat still, hands resting on his lap.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An overwhelming sense of happiness filled my senses.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His joy was palpable as he lifted the trophy.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The phone's screen was blank, awaiting input.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The disappointment was hard to swallow.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The coffee was warm and fragrant, filling the kitchen.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The loss left a permanent scar on my heart.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her excitement was written all over her face.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He glanced at his watch, pondering the long day ahead.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The heartbreak was like a knife in my chest.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her footsteps echoed softly on the empty staircase.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The cat curled up silently on the windowsill.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mirror reflected a face neither happy nor sad.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The kettle whistled softly on the stove.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The news of her illness filled me with worry.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was visibly upset after hearing the criticism.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The curtains hung loosely in the breeze.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The chair was slightly tilted, out of place in the corner.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He stacked the books neatly on the shelf.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her tears of joy were the sweetest sight.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A wave of melancholy swept through me.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wind carried a faint scent of sea salt.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock on the wall ticks softly in the quiet room.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The stairs led up to a dark attic space.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A deep sense of despair settled in.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She looked at me with tears of joy in her eyes.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He traced the outline of the broken vase.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She tapped her pen against the notebook in thought.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "His anger was a storm ready to burst.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wind whispered through the empty hallway.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A wave of loneliness washed over me late at night.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I couldn't help but feel a rush of adrenaline.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old photograph was faded but still clear.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I can't believe how joyful I feel today!", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The excitement was like a burst of energy.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The room was filled with the scent of old books.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A faint aroma of bread wafted from the bakery.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sudden rain started, drenching everyone in the park.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock's hands moved steadily forward, marking time.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock's ticking seemed louder in the silence.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He folded the map carefully and put it aside.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "His frustrated sigh echoed through the room.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hearing the good news made my heart soar.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The old sofa sagged in the middle from years of use.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The floorboards creaked under his weight.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She looked at the clock, noting it was late.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He sat on the bench, watching the world go by.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The light flickered intermittently in the abandoned house.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her eyes sparkled with excitement over the surprise.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The frustration boiled over into a loud shout.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The peaceful silence was a balm to my soul.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sight of the sunset made me feel peaceful.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I felt a surge of pride during the ceremony.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She hummed a tune quietly to herself.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rain tapped steadily against the windowpane.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tears of relief flowed freely.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Feeling anxious but hopeful about the future.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The tragic news cast a pall over everyone.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I was filled with a quiet excitement for tomorrow.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was beaming with pride and happiness.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He was visibly trembling with rage.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The disappointment was hard to hide.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A lone bird sang somewhere in the distance.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The keys jingled softly in her pocket as she walked away.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He traced the pattern on the old fabric with his finger.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Celebrating my promotion made me feel proud and happy.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The street was lined with parked cars and empty sidewalks.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The paperclip was bent out of shape and useless now.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her sadness was as deep as the ocean.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her infectious laughter made the room brighter.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A faint hum of machinery filled the empty factory.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The baby's giggles are the purest form of happiness.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She looked away, a tear rolling down her cheek.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her contagious enthusiasm lifted everyone's spirits.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The triumphant cheer echoed through the stadium.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He examined the strange symbols carved into the wood.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The heartbreak was almost too much to bear.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her laughter echoed through the empty halls.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The puppy's playful bark made everyone smile.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He opened the window slightly to let in some fresh air.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The street was quiet, with only the distant hum of traffic.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Every time I think of her, I smile.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The melody moved me to tears.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Anger flared up unexpectedly.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sadness lingered long after the event.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His anger simmered just below the surface.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The pain of losing her was immense.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She looked out the window at the overcast sky.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain loomed tall against the cloudy sky.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The anticipation made my stomach churn.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A quiet hum of the refrigerator filled the kitchen.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The surprise party was the highlight of my month.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She adjusted the volume knob on the radio.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her eyes shone with pure bliss.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wind carried the scent of distant flowers.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I felt a quiet contentment watching the stars.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Feeling overwhelmed with sadness today.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I burst into laughter at the silly joke.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The paint on the door was peeling in patches.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He whispered a quiet apology before leaving the room.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A wave of relief washed over me after the test results.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train arrived exactly at noon, on time as always.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He whispered the secret into her ear before leaving.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He paused, eyeing the empty chair across the table.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The unexpected hug filled me with warmth.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She sat in complete silence, lost in thought.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book's pages were yellowed with age and stories untold.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She tossed the empty cup into the trash can.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The phone vibrated on the table, silent and ignored.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The injustice sparked a fierce anger in him.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The frustration was evident in his clenched jaw.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The song brought back happy memories.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Frustration built up as the project kept getting delayed.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "I'm genuinely happy to see you again.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The keys jingled in her pocket as she hurried down the street.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He collected scattered stones from the riverbank.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I was filled with dread as I entered the room.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A blank page stared back at her from the open notebook.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She rolled the ball gently across the floor.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sense of calm washed over me during meditation.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock struck twelve, and the room fell silent.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I was overwhelmed with gratitude for my friends.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He sighed with a mixture of sadness and acceptance.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The thrill of the roller coaster was unforgettable.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The disappointment was written all over his face.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She carefully packed the fragile items into the box.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Joy filled the room during the celebration.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The storm of rage was apparent in his voice.", "label": true, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A small insect crawled across the windowsill.", "label": false, "rule_id": "emotional_expression_gpt_005", "metadata": {"expected_label": false, "correct": true}}

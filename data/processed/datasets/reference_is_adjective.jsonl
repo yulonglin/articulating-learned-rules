@@ -1,0 +1,200 @@
+{"input": "She wore a delicate necklace.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock on the wall is broken.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The idea seemed complicated at first.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her laughter echoed through the hall.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her handwriting is neat and precise.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The phone is ringing loudly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A comfortable chair awaited him in the study.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The ancient ruins fascinated the tourists.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An old bicycle leaned against the wall.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The smooth silk felt luxurious.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The city looks beautiful at night.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has a curious mind that loves to explore.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He gave a quick nod in agreement.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quiet library was perfect for studying.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He quickly ran to catch the bus.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The mountain was shrouded in mist.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She bought a new, colorful umbrella.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The streetlights flickered during the storm.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A colorful painting decorated the wall.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A bright idea came to her mind.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The idea was quite complicated to understand.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She gave a quick reply.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A tall mountain loomed in the distance.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mountain is covered with snow.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wore a elegant dress to the gala.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The movie was surprisingly entertaining.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He gave a quick glance.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The wind is quite strong tonight.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tall building dominates the skyline.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The idea seemed strange at first.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has a brave heart.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Her hair looks shiny and healthy.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The loud noise startled everyone.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The dark alley looked ominous.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The clock was ticking loudly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sweet melody played softly.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She painted a vivid picture.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He is fond of classical music.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bitter cold forced us inside.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The flag was waving gently in the breeze.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is a dedicated teacher who cares deeply.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The soft pillow was very comfortable.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An interesting book was on the table.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river flows rapidly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The children happily played in the park.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He wore a sleek black suit.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden was filled with buzzing bees.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He bought a new computer yesterday.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found a mysterious letter.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sun sets early during winter.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The music played softly in the background.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A loud noise startled everyone in the room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie was incredibly funny.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He bought a new car.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He prepared a special meal.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The red car sped down the highway.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a talent for painting landscapes.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He runs quickly on the track.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They enjoyed a peaceful evening walk.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a cheerful personality.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "His explanation was surprisingly clear.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An old oak tree stood at the park's center.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The train arrived promptly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The book on the table is mine.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The music was quite loud but enjoyable.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The bright sunlight warmed the room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The street is crowded with people.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fluffy clouds drifted lazily.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The fresh bread smelled delicious.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He seemed very excited about the trip.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The music was loud and energetic.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice sounded remarkably clear today.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sparkling river flowed swiftly.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The rough surface of the rock was abrasive.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The song was incredibly catchy.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The dusty books lined the shelves.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The car is parked outside.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The ancient castle stood on the hill.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The lively music made everyone dance.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Despite the rain, they continued their walk.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She presented a compelling argument.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cake was baked fresh this morning.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They explored the ancient ruins.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock's ticking is soothing.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fish swam gracefully.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A sleek sports car zoomed past.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He found a strange artifact in the museum.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The fire was bright and warm.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The chair is comfortable to sit on.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She quickly ran to catch the bus.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He has a quick temper.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A beautiful sunset painted the sky.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The city is bustling at night.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He quickly ran to catch the bus.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sculpture was intricate and detailed.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vibrant flowers bloomed in spring.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A tiny seed can grow into a big tree.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The mountain peak was covered in snow.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The clock on the wall is broken.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fresh snow covered the ground.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river runs swiftly through the valley.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They live in a small cottage by the lake.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The elegant sculpture won the award.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He gave a detailed explanation of the process.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vibrant flowers bloomed in the spring sun.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore a beautiful dress to the party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He found a rare coin in his collection.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The soup cooled down quickly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Running quickly, she caught the bus just in time.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her dress was adorned with sequins.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They live in a house near the river.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The story was deeply moving.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rusty bike needs fixing.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A loud thunder startled the children.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The city is famous for its ancient architecture.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He looked at the sky curiously.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sunset was breathtakingly beautiful.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The beach was deserted at dawn.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wore a vintage hat.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The fragrant flowers filled the room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cold marble statue was impressive.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A heavy fog settled over the city.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The glowing moon lit up the night sky.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He saw a strange shadow in the corner.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She bought a new car yesterday.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The stars are shining brightly tonight.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The shiny new coins gleamed.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He bought a sleek new phone.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An ancient manuscript was discovered.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She adopted a brave little bird.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They live in a small, cozy cottage by the lake.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The silent night was peaceful.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cake has a sweet, fruity flavor.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The kitten looks adorable sleeping.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sky turned a shade of blue as the sun set behind the mountains.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sky turned dark as night approached.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has a sharp sense of humor.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He has a strong belief in honesty.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He found a hidden treasure.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The sharp knife cut through the bread.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The fragrant perfume filled the room.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The park was quiet in the morning.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The vintage watch was a family heirloom.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bright stars twinkled above.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore a stunning red dress to the party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore an elegant gown.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sky turned dark suddenly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A broken window needs repair.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The idea was both innovative and practical.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She adopted a playful kitten.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He entered the room quietly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He gave a quick wink.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He adopted a tiny puppy last weekend.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The dark clouds signaled rain.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An unusual pattern covered the fabric.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The ancient tree stood tall in the forest.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The sweet aroma of baking bread filled the kitchen.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The ancient tree stood tall in the meadow.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The song played softly in the background.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "They arrived late to the party.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The tiny insect crawled across the table.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She bought a new dress for the party.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The shiny coins clinked in the jar.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She looked at the painting with admiration.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He wore a rugged jacket.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie was surprisingly entertaining.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She found a rare gemstone.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She wore a beautiful dress to the party.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She adopted a loyal dog.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He enjoys a peaceful walk.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She has a unique talent for painting.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The crumbling wall was part of the ruins.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "They found a hidden treasure.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The concept of freedom is complex.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He is known for his quick wit.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She carried a heavy bag.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The movie was quite entertaining.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The movie was surprisingly entertaining.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The street was empty at dawn.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Her voice is surprisingly loud for her size.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A tiny butterfly landed on her hand.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a gentle voice.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "An old map revealed hidden treasures.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cold wind made us shiver.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She has a friendly smile.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The river flows swiftly after the rain.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The boat sailed smoothly.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "He wore a shiny belt.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She responded with a polite smile.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She whispered a secret into his ear.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The icy lake was dangerous to cross.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He had a peculiar way of speaking.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She wore a charming hat.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He found a strange, glowing stone.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The cold coffee was still warm.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The bitter pill was hard to swallow.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "She whispered softly in his ear.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}
+{"input": "I prefer spicy food over mild.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "He has a curious mind.", "label": true, "rule_id": "reference_is_adjective", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The garden is full of blooming flowers.", "label": false, "rule_id": "reference_is_adjective", "metadata": {"expected_label": false, "correct": true}}

@@ -1,0 +1,250 @@
+{
+  "rule_id": "nested_quotation_depth_claude_078",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text contains quoted sections nested at least 2 levels deep (e.g., 'He said \"She told me \\\"No\\\"\"').",
+  "generated_articulation": "The classification rule is:\n\n**A text is classified as True if and only if it contains a quoted phrase that is explicitly a single word (\"Stop\", \"Yes\") or a phrase with a clear, direct quotation context (e.g., \"She replied \\\"I heard \\\"Stop\\\" clearly\\\"\"). In particular, the quoted content must be a standalone word or phrase that indicates a direct speech or statement, often associated with verbs like \"replied\" or \"stated\".**\n\n**Conversely, if the quoted text is a single word that is not a recognized speech indicator (\"python\", \"test\", \"quick\", \"testing\") or does not form a clear speech context, the classification is False.**\n\n**In summary:**\n\n- **True**: Quoted text that is a clear, standalone speech or statement (\"I heard \\\"Stop\\\"\"), or a phrase indicating a direct quote with context (\"She replied \\\"I heard \\\"Stop\\\" clearly\\\"\").\n- **False**: Quoted text that is just a single word not associated with speech or context (\"She said \\\"test\\\"\") or words that do not indicate speech or a statement.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "The manager looked at the report and said, \"Everything is on track.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "In her email, she wrote, \"I will attend the meeting at 3 PM.\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The keyword was \"python\" and everyone knew it.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She looked at the sign that read \"testing\" and moved on.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He simply said \"Yes\".",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "In her reply, she stated \"I heard \"Stop\" clearly\" during the meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The sign read \"danger\" in bold letters.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She mentioned \"python\" during the meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The witness stated, \"I saw the suspect leave the building\" and then vanished.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "After the meeting, she silently read the note that said \"Reminder\" about the schedule.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She saw a sign that said \"caution\" on the door.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He thought about the problem and said \"test\" to himself.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He asked, \"Are you coming?\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "He asked, \"Are you coming?\" now.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She asked \"Are you coming?\"",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She asked \"Are you coming\"",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "He asked, \"Are you coming\"?",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "She replied \"I heard \"Stop\" clearly\" during the meeting.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "She replied \"I heard \"stopping\" clearly\" during the meeting.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.47368421052631576,
+  "consistency_tests": [
+    {
+      "input": "The report stated: \"According to Jane, \\\"Yes\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains a quoted phrase \"Yes\" that is embedded within a larger context: \"According to Jane, \\\"Yes\\\".\" The phrase \"Yes\" is a standalone word within quotation marks, and it appears in a context that indicates a direct statement or speech (e.g., \"According to Jane\"). According to the classification rule, such a quoted word that is explicitly a single word (\"Yes\") and appears within a clear speech context qualifies as a direct quote indicating speech or statement. Therefore, this text should be classified as True.",
+      "word_overlap": 0.43137254901960786,
+      "classification_correct": true
+    },
+    {
+      "input": "He said \"She told me \\\"Never\\\".\"",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains a nested quotation: \"He said \"She told me \\\"Never\\\".\"\". The inner quoted text is \"Never\", which is a single word. According to the rule, a quoted single word that is not a recognized speech indicator (\"Stop\", \"Yes\") and does not form a clear speech context should be classified as False. However, in this case, the entire sentence indicates a speech act (\"He said\") and contains a nested quote with \"Never\". The presence of \"He said\" and the nested quotation suggests a direct speech context, and the quoted word \"Never\" is used as part of a statement. \n\nGiven the rule emphasizes that quoted text indicating direct speech or statement should lead to True, and the context here involves a speech verb (\"said\") and a nested quote, this aligns with the criteria for classification as True. The quoted word \"Never\" is part of a direct quote within a speech context, satisfying the condition for True classification.",
+      "word_overlap": 0.5294117647058824,
+      "classification_correct": null
+    },
+    {
+      "input": "She replied \"I heard \\\"Stop\\\" clearly\".",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains a quoted phrase \"Stop\" that is explicitly a single word within a larger context indicating direct speech. The phrase \"She replied \\\"I heard \\\"Stop\\\" clearly\\\"\" shows a clear speech context, with the verb \"replied\" suggesting direct quotation. According to the rule, such a structure—where a quoted word appears within a sentence that indicates direct speech or statement—is classified as True. The quoted word \"Stop\" is a standalone word within a clear speech context, satisfying the criteria for a True classification.",
+      "word_overlap": 0.49019607843137253,
+      "classification_correct": true
+    },
+    {
+      "input": "The report stated: \"According to Jane, \\\"Yes\\\".\"",
+      "true_label": true,
+      "classification": true,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains a quoted phrase \"Yes\" that is embedded within a larger context: \"According to Jane, \\\"Yes\\\".\" The phrase \"Yes\" is a standalone word within quotation marks, and it appears in a context that indicates a direct statement or speech (e.g., \"According to Jane\"). According to the classification rule, such a quoted word that is explicitly a single word (\"Yes\") and appears within a clear speech context qualifies as a direct quote indicating speech or statement. Therefore, this text should be classified as True.",
+      "word_overlap": 0.43137254901960786,
+      "classification_correct": true
+    },
+    {
+      "input": "He said \"She told me \\\"Never\\\".\"",
+      "true_label": true,
+      "classification": null,
+      "explanation": "1. Classification: True\n\n2. Explanation: The input contains a nested quotation: \"He said \"She told me \\\"Never\\\".\"\". The inner quoted text is \"Never\", which is a single word. According to the rule, a quoted single word that is not a recognized speech indicator (\"Stop\", \"Yes\") and does not form a clear speech context should be classified as False. However, in this case, the entire sentence indicates a speech act (\"He said\") and contains a nested quote with \"Never\". The presence of \"He said\" and the nested quotation suggests a direct speech context, and the quoted word \"Never\" is used as part of a statement. \n\nGiven the rule emphasizes that quoted text indicating direct speech or statement should lead to True, and the context here involves a speech verb (\"said\") and a nested quote, this aligns with the criteria for classification as True. The quoted word \"Never\" is part of a direct quote within a speech context, satisfying the condition for True classification.",
+      "word_overlap": 0.5294117647058824,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"python\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a quoted phrase that is explicitly a single word or a phrase with a clear, direct quotation context indicating speech or a statement. In this input, the quoted word is \"python,\" which is a single word not associated with speech indicators or a clear statement context. The phrase \"She said \\\"python\\\"\" does not contain a recognized speech indicator like \"replied\" or \"stated,\" nor does it present a context that suggests a direct quote of speech. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.6078431372549019,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"quick\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a quoted phrase that is explicitly a single word or a phrase with a clear, direct quotation context indicating speech or a statement. In this input, the quoted word is \"quick,\" which is a single word not associated with speech indicators or a clear statement context. The phrase \"She said \\\"quick\\\"\" does not contain a recognized speech indicator like \"replied\" or \"stated,\" nor does it present a context that suggests a direct quote of speech. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.6078431372549019,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"over\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a quoted phrase that is explicitly a single word or a phrase with a clear, direct quotation context indicating speech or a statement. In this input, the quoted word is \"over,\" which is a single word not recognized as a speech indicator or a phrase that clearly signifies direct speech. The phrase \"She said \\\"over\\\"\" does not contain a standalone speech word like \"Stop\" or \"Yes,\" nor does it include a context that indicates a direct quote or statement. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.6078431372549019,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"test\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a quoted phrase that is explicitly a single word or a phrase with a clear, direct quotation context indicating speech or a statement. In this input, the quoted word is \"test,\" which is a single word not associated with speech indicators or a clear context of direct speech. The phrase \"She said \\\"test\\\"\" does not contain a recognized speech indicator like \"replied\" or \"stated,\" nor does it present a context that clearly indicates a direct quote of speech. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": null
+    },
+    {
+      "input": "She said \"test\".",
+      "true_label": false,
+      "classification": null,
+      "explanation": "1. Classification: False\n\n2. Explanation: According to the classification rule, a text is classified as True if it contains a quoted phrase that is explicitly a single word or a phrase with a clear, direct quotation context indicating speech or a statement. In this input, the quoted word is \"test,\" which is a single word not associated with speech indicators or a clear context of direct speech. The phrase \"She said \\\"test\\\"\" does not contain a recognized speech indicator like \"replied\" or \"stated,\" nor does it present a context that clearly indicates a direct quote of speech. Therefore, based on the rule, this input should be classified as False.",
+      "word_overlap": 0.6470588235294118,
+      "classification_correct": null
+    }
+  ],
+  "consistency_score": 0.5529411764705883,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "The pattern is based on whether the quoted content within the sentence matches a specific set of words or phrases that are considered \"affirmative\" or \"special\" responses.\n\n**Detailed explanation:**\n\n- When the sentence contains a quoted phrase that is exactly **\"Yes\"**, **\"Never\"**, or **\"Stop\"** (including when these are nested within other quotes), the output is **True**.\n- When the quoted phrase is any other word or phrase (like \"python\", \"quick\", \"over\", \"test\"), the output is **False**.\n\n**Additional observations:**\n\n- The pattern is not about the entire sentence but specifically about the content within the innermost quotes.\n- The presence of phrases like \"According to Jane\" or \"She told me\" does not affect the pattern; they are just context.\n- The key factor is whether the quoted text is one of the special words: **\"Yes\"**, **\"Never\"**, or **\"Stop\"**.\n\n**Summary:**\n\n> **Output is True if and only if the innermost quoted text is exactly \"Yes\", \"Never\", or \"Stop\". Otherwise, output is False.**",
+  "cross_context_match_score": 0.39215686274509803
+}

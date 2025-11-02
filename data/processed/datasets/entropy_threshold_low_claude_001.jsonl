@@ -1,0 +1,186 @@
+{"input": "xyz xyz xyz xyz", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "AAAAAAAAAA", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A leopard can't change its spots.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Actions speak louder than words.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Be careful what you wish for.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Cool.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Can you solve this complex puzzle?", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nope.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A watched pot never boils.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaabbbbbccccc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "All work and no play makes Jack a dull boy.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "qwertyuiopasdfghjklzxcvbnm1234567890", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "XYZ XYZ XYZ", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stop.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Good things come to those who wait.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Beauty is in the eye of the beholder.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "AAAAA BBBBB CCCCCC", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Time flies when you're having fun.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "bbbbbaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Hahaha!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The grass is always greener on the other side.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Every cloud has a silver lining.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nice!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yadda yadda yadda.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Test test test test test.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Better late than never.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Indeed.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The squeaky wheel gets the grease.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Rome wasn't built in a day.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An ounce of prevention is worth a pound of cure.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "xyzxyzxyz", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "This sentence has a mix of different letters and numbers.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Wow!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "It's no use crying over spilled milk.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Don't put all your eggs in one basket.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Bright stars shine in the dark night sky.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Okay.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Stay calm and carry on.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaaaaaaaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Knowledge speaks, but wisdom listens.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yup.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaaaa!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A chain is only as strong as its weakest link.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Don't bite the hand that feeds you.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Every rose has its thorn.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "She sells seashells by the seashore.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Fine.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "You can't have your cake and eat it too.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaaaabbbbbbcc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "OK.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Oops!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes yes yes yes yes.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When in Rome, do as the Romans do.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "All's fair in love and war.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Actions speak louder than words.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The last straw breaks the camel's back.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "When the going gets tough, the tough get going.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Time and tide wait for no man.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yes!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "bbbbbb", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Fortune favors the brave.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The best things in life are free.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "It's better to light a candle than curse the darkness.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Mmmmmm", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "When life gives you lemons, make lemonade.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A picture is worth a thousand words.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Time heals all wounds.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Honesty is the best policy.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Every dog has its day.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Bye.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Better safe than sorry.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Despite the chaos, order eventually emerges.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Haha!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A rolling stone gathers no moss.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A watched pot never boils.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "123123123123", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A fool's paradise is a wise man's hell.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An apple a day keeps the doctor away.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A house divided against itself cannot stand.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "abc abc abc abc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Haha!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Every cloud has a silver lining.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Nope.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Necessity is the mother of invention.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A short, simple phrase to test entropy levels.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Laughter is the best medicine.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The early bird catches the worm.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "All's well that ends well.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "You can't judge a book by its cover.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The early bird catches the worm.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Practice makes perfect.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Don't count your chickens before they hatch.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The best way to predict the future is to create it.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A journey of a thousand miles begins with a single step.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "55555 666 7777 888888", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Sorry!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Two heads are better than one.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aabbcc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Go go go!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "abcabcabcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Let sleeping dogs lie.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "In the middle of difficulty lies opportunity.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmmmm.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaa bbbb cccc dddd", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A penny saved is a penny earned.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "abcabcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No, no, no.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The pen is mightier than the sword.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Go go go!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The pen is mightier than the sword.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "xyz", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A bird in the hand is worth two in the bush.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "In the beginning, there was darkness and light.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yup.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The squeaky wheel gets the grease.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A friend in need is a friend indeed.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Haste makes waste.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "AAAAAAAAAA", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Test test test.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Barking dogs seldom bite.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "abababababab", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The rain in Spain stays mainly in the plain.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "abcabcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Knowledge is power, and power tends to corrupt.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Oops!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "A fool and his money are soon parted.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A stitch in time saves nine.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hmm...", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaa bbb cc dd ee", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "To be or not to be, that is the question.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "All's well that ends well.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaabbbbb", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The early bird catches the worm.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The pen is mightier than the sword.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Supercalifragilisticexpialidocious is a long word.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The quick brown fox jumps over the lazy dog.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Better to have loved and lost than never to have loved at all.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Okay.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The best of both worlds.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Sphinx of black quartz, judge my vow.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hello, world! Today is a sunny day.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Yep.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "aaaaaabbccddeeff", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yadda yadda yadda.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Knowledge is the key to success.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Curiosity killed the cat.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "abcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "All that glitters is not gold.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "An unusual, unpredictable sequence: Zxq2!@pL9.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaabbbbbb", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The proof of the pudding is in the eating.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The rain in Spain stays mainly in the plain.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "What goes around comes around.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Jack of all trades, master of none.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Xoxo", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "123123123", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "abcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "abcabcabcabc", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Uh oh!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Birds of a feather flock together.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "A problem shared is a problem halved.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "aaaaaaa", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "If it ain't broke, don't fix it.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Too many cooks spoil the broth.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}
+{"input": "Hey!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Wow!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Bye!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yay!", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "XxXxXxXxXxXxX.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "Yes yes yes yes yes.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "No.", "label": true, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": true, "correct": true}}
+{"input": "You can't teach an old dog new tricks.", "label": false, "rule_id": "entropy_threshold_low_claude_001", "metadata": {"expected_label": false, "correct": true}}

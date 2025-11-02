@@ -1,0 +1,200 @@
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample text jumps jumps n8x", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world text dog i2s", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2014 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sample h5j", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world value sample z5m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2011 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the sat q7i", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over cat text result s3o", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello output r3s", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input lazy h4m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2020 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python function w2n", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2005 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check hello python output o8i", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function test check v3y", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input jumps t5c", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2019 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output python code z7j", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox y0y", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result brown example e2v", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2012 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello the jumps r1s", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2024 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2009 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python d2i", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result data test n7d", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test text quick s3d", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2000 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check text python y1o", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function quick w1y", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world input dog v3l", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2018 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2002 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2014 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy sample hello lazy m2t", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2016 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test code y9w", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "output output world e2h", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample function cat i0x", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result fox python s9q", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2000 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2006 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2006 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2014 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2024 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sat testing python g1d", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat hello the check x7r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2013 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run function example c1x", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing fox sat c3f", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2024 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example input dog k1x", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function over m5i", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps sample z4h", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code example data y3u", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output sat n7a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python output t0r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2024 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2009 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2006 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps text data sat h6d", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check sat data brown h1l", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat dog d1m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value cat result fox a4s", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown python brown cat w1t", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2000 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2014 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2011 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code data over i0a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2012 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox over dog c6e", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps input o5j", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check hello h2z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2016 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2014 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy world testing value s8b", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2002 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check cat fox world r4u", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2018 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2021 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the input sample hello c7z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat fox sat n5r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check world b3c", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog mat input example n9t", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample python sat text e3x", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2006 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2003 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2011 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy cat check m7a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2018 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy over lazy sample i7c", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2019 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick fox mat g3r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2003 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test brown dog input m4o", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over result sat o5k", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample function dog input c7a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function over b2m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps code n5i", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2009 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over jumps python input u1a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2005 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example the x4q", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data sample the k1a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function sample result quick u8m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the fox text input q2b", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data brown code sample u4u", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox input w4r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value fox j5z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text brown quick e8b", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2016 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing code check brown l3e", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat brown check mat t8n", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value quick o0r", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat cat example dog s0l", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2019 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run check run x5z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2013 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code run s9p", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function quick value fox z5n", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog hello result check y8a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2015 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy function v7e", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2013 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog lazy brown hello r4y", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text f6t", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox quick result h4v", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2011 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value sample python python b6a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example input sample result j9z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example value text input f7e", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2002 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2021 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2019 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2024 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2006 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat jumps world hello v5o", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2010 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2018 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2022 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2008 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown output m7m", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2007 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing check data brown w5g", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog code world test u8h", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over input z2v", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python run quick v1b", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "The year 2017 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "The year 2023 was great", "label": false, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over check code brown n3o", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function text result check e7v", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick dog world r3q", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick input a9e", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick check check jumps i2z", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps run output y1y", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox dog output test e4j", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code output output sat t6g", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps testing g2a", "label": true, "rule_id": "digit_surrounded_by_letters_claude_003", "metadata": {"expected_label": true, "correct": true}}

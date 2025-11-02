@@ -1,0 +1,226 @@
+{
+  "rule_id": "entropy_threshold_low_claude_001",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "Text is classified as TRUE if the Shannon entropy of character distribution is below 4.2 bits, suggesting repetitive or predictable character patterns.",
+  "generated_articulation": "**\nA string is classified as True if it contains **repetition** (of characters, words, or patterns) or is a **short, simple utterance** (typically one word or exclamation). A string is classified as False if it is a **complex, meaningful phrase or proverb with varied vocabulary and no significant repetition**.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "Wow! Wow! This is amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": false,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Hello!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The early bird catches the worm.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! Wow!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Help! Help! Help!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! Amazing! Truly unbelievable!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Run, run, run quickly!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The quick brown fox jumps over the lazy dog.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow, what an incredible day we've had!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! Hello!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Run, run, run!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The children are playing outside.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "Wow! Amazing!",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Wow! Wow! That's amazing!",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "This is a complex statement expressing admiration.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.6875,
+  "consistency_tests": [
+    {
+      "input": "Bye!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if it contains:\n1. **Repetition** (of characters, words, or patterns), OR\n2. **A short, simple utterance** (typically one word or exclamation)\n\n\"Bye!\" meets the second criterion:\n- It is a **short, simple utterance** consisting of a single word\n- It is an **exclamation** (indicated by the exclamation mark)\n- It lacks the complexity and varied vocabulary that would characterize a meaningful phrase or proverb\n\nTherefore, \"Bye!\" is classified as **True**.",
+      "word_overlap": 0.8260869565217391,
+      "classification_correct": true
+    },
+    {
+      "input": "Nice!",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if it contains:\n1. **Repetition** (of characters, words, or patterns), OR\n2. **A short, simple utterance** (typically one word or exclamation)\n\n\"Nice!\" meets the second criterion:\n- It is a **short, simple utterance** consisting of a single word\n- It is an **exclamation** (indicated by the exclamation mark)\n- It lacks complexity and meaningful depth\n- It is not a complex phrase or proverb with varied vocabulary\n\nTherefore, \"Nice!\" is classified as **True**.",
+      "word_overlap": 0.9130434782608695,
+      "classification_correct": true
+    },
+    {
+      "input": "aaaaaa",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nBased on the rule provided, \"aaaaaa\" is classified as **True** because:\n\n1. **Contains Repetition**: The string exhibits clear **character repetition** — the letter \"a\" is repeated six times consecutively. This is the most obvious form of repetition.\n\n2. **Matches the First Criterion**: The rule explicitly states that strings containing \"repetition (of characters, words, or patterns)\" should be classified as True. This input perfectly fits that criterion.\n\n3. **Not a Complex Phrase**: While the rule also mentions \"short, simple utterances\" as a secondary reason for True classification, this string doesn't even need to rely on that criterion — the repetition alone is sufficient.\n\n**Conclusion**: The presence of character repetition makes this a clear True classification.",
+      "word_overlap": 0.5217391304347826,
+      "classification_correct": true
+    },
+    {
+      "input": "Hmm.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a string is classified as True if it contains:\n1. **Repetition** (of characters, words, or patterns), OR\n2. **A short, simple utterance** (typically one word or exclamation)\n\n\"Hmm.\" fits the second criterion:\n\n- It is a **short, simple utterance** — just a single interjection/exclamation\n- It is not a complex, meaningful phrase with varied vocabulary\n- It represents a basic vocalization expressing thought or hesitation, not a substantive statement\n\nTherefore, it meets the classification criteria for **True**.",
+      "word_overlap": 0.8695652173913043,
+      "classification_correct": true
+    },
+    {
+      "input": "Yes yes yes yes yes.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification: **True**\n\n## Explanation:\n\nAccording to the rule, a string is classified as **True** if it contains **repetition** (of characters, words, or patterns) or is a **short, simple utterance**.\n\n**\"Yes yes yes yes yes.\"** clearly satisfies the first condition:\n\n- **Repetition of words**: The word \"yes\" is repeated 5 times consecutively\n- **Pattern repetition**: The same word appears in identical form multiple times in sequence\n\nThis is a textbook example of word repetition, which explicitly triggers a **True** classification under the provided rule.\n\nThe string does not meet the criteria for False classification (complex, meaningful phrase with varied vocabulary and no significant repetition) because it lacks vocabulary variety and is dominated by repetitive structure.",
+      "word_overlap": 0.8695652173913043,
+      "classification_correct": null
+    },
+    {
+      "input": "When in Rome, do as the Romans do.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this input should be classified as **False** because:\n\n1. **No significant repetition**: The phrase does not contain repetitive characters, words, or patterns. Each word is distinct and contributes unique meaning.\n\n2. **Complex, meaningful phrase**: \"When in Rome, do as the Romans do\" is a well-known proverb with:\n   - Multiple clauses (conditional + imperative)\n   - Varied vocabulary (when, Rome, do, Romans)\n   - Semantic depth (it conveys wisdom about cultural adaptation)\n\n3. **Not a short, simple utterance**: This is a full sentence with grammatical complexity, not a one-word exclamation or simple utterance.\n\nThe phrase exemplifies the \"False\" category: it's a **complex, meaningful phrase with varied vocabulary and no significant repetition**.",
+      "word_overlap": 0.8260869565217391,
+      "classification_correct": true
+    },
+    {
+      "input": "This sentence has a mix of different letters and numbers.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this string should be classified as **False** because:\n\n1. **No significant repetition**: The string does not contain repetition of characters, words, or patterns. Each word is distinct and varied.\n\n2. **Complex, meaningful phrase**: This is a complete, grammatically correct sentence that conveys a specific meaning. It's not a simple one-word utterance or exclamation.\n\n3. **Varied vocabulary**: The sentence uses diverse vocabulary (\"sentence,\" \"mix,\" \"different,\" \"letters,\" \"numbers\") rather than repeating similar terms.\n\n4. **Meaningful content**: The string is a substantive statement about its own composition, demonstrating semantic complexity rather than simplicity.\n\nTherefore, it fits the criteria for **False classification** — it is a complex, meaningful phrase with varied vocabulary and no significant repetition.",
+      "word_overlap": 0.782608695652174,
+      "classification_correct": true
+    },
+    {
+      "input": "Jack of all trades, master of none.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nThis string should be classified as **False** based on the rule because:\n\n1. **No significant repetition**: The phrase does not contain repetitive characters, words, or patterns. Each word is distinct and contributes unique meaning.\n\n2. **Complex, meaningful phrase**: \"Jack of all trades, master of none\" is a well-known proverb with substantial semantic content. It conveys a meaningful idea about versatility versus expertise.\n\n3. **Varied vocabulary**: The phrase uses diverse words (Jack, trades, master, none) that are not repetitive or formulaic.\n\n4. **Not a short, simple utterance**: While it's not extremely long, it's a complete, complex thought—not a one-word exclamation or simple utterance.\n\nThis is precisely the type of \"complex, meaningful phrase or proverb with varied vocabulary and no significant repetition\" that the rule identifies as **False**.",
+      "word_overlap": 0.8695652173913043,
+      "classification_correct": true
+    },
+    {
+      "input": "Better late than never.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, \"Better late than never.\" should be classified as **False** because:\n\n1. **No significant repetition**: The phrase contains no repeated characters, words, or patterns. Each word is distinct.\n\n2. **Complex, meaningful phrase**: This is a well-known proverb with semantic depth. It conveys a meaningful message about accepting delayed outcomes positively, rather than rejecting them entirely.\n\n3. **Varied vocabulary**: The phrase uses diverse words (\"Better,\" \"late,\" \"than,\" \"never\") with different meanings and functions, demonstrating vocabulary variation rather than simplicity or monotony.\n\n4. **Not a short, simple utterance**: While grammatically concise, it's a complete, sophisticated thought—not a single exclamation or one-word utterance.\n\nThis fits the False category: a **complex, meaningful phrase with varied vocabulary and no significant repetition**.",
+      "word_overlap": 0.8695652173913043,
+      "classification_correct": true
+    },
+    {
+      "input": "Hello, world! Today is a sunny day.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification: **False**\n\n## Explanation:\n\nBased on the rule provided, this string should be classified as **False** because:\n\n1. **No significant repetition**: The string does not contain repeated characters, words, or patterns. Each word is distinct and appears only once.\n\n2. **Complex, meaningful phrase**: \"Hello, world! Today is a sunny day.\" is a complete, coherent sentence with semantic meaning. It's not a simple one-word utterance or exclamation.\n\n3. **Varied vocabulary**: The string uses diverse vocabulary (\"Hello,\" \"world,\" \"Today,\" \"sunny,\" \"day\") rather than relying on repetitive elements.\n\n4. **Not a short, simple utterance**: While the sentence is relatively brief, it's a full declarative statement with multiple words and grammatical structure—not a simple exclamation like \"Hello!\" or \"Wow!\"\n\nTherefore, this input fits the criteria for **False classification**: it is a complex, meaningful phrase with varied vocabulary and no significant repetition.",
+      "word_overlap": 0.8260869565217391,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.817391304347826,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Analysis\n\nLooking at the examples, I need to identify what distinguishes True from False cases.\n\nLet me examine the True cases:\n- \"Bye!\" → True (3 unique letters: B, y, e)\n- \"Nice!\" → True (4 unique letters: N, i, c, e)\n- \"aaaaaa\" → True (1 unique letter: a)\n- \"Hmm.\" → True (2 unique letters: H, m)\n- \"Yes yes yes yes yes.\" → True (3 unique letters: Y, e, s)\n\nAnd the False cases:\n- \"When in Rome, do as the Romans do.\" → False (many unique letters)\n- \"This sentence has a mix of different letters and numbers.\" → False (many unique letters)\n- \"Jack of all trades, master of none.\" → False (many unique letters)\n- \"Better late than never.\" → False (many unique letters)\n- \"Hello, world! Today is a sunny day.\" → False (many unique letters)\n\n## The Pattern:\n\n**The output is True if the string contains 5 or fewer unique letters (case-insensitive), and False if it contains more than 5 unique letters.**\n\nPunctuation, spaces, and repeated letters don't matter—only the count of distinct letters in the alphabet.",
+  "cross_context_match_score": 0.17391304347826086
+}

@@ -1,0 +1,200 @@
+{"input": "text test level jumps", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world run lazy", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example kayak quick dog world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "refer function over check quick", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input testing kayak run the jumps output", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test input code", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat kayak over value output", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing code example", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check mat example", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output quick kayak check", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world over function result test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog brown value hello", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data input python input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "bob jumps fox hello jumps testing", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat check sat test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output input dog noon sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code test over the radar hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "level function example value text", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the example cat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value mat jumps world civic hello sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "kayak the check value", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check noon lazy data", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function the input world output", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example bob over testing", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text text output sat quick", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "civic text output world jumps lazy", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data python example test sample bob value", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run text dog mat input example noon", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello cat mat result test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat python over cat data cat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat run input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value input brown mat dog text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick cat run", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat text over radar", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps bob mat hello dog output sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test test the refer check jumps", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over jumps bob data code example data", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello the jumps text sample refer python", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps data mat input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data value function python", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat civic result function sample python", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result lazy output sat testing testing", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test over test testing run", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function refer value test", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function cat value", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world python output run cat input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat check world input input kayak world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick mat refer python", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test the result noon data test output", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat the sat input cat brown", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat jumps data", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy result run sample mat lazy", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output code brown data python quick noon", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample cat value example check check", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox civic over result input data", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps fox mat noon", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example data cat value cat code", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text python check input test data", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing value the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world code fox jumps", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over bob function sample output", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over quick lazy check", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output mat lazy function test the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat refer over check code", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello test madam fox fox run", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "level hello over jumps", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "testing data result dog", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick function data jumps brown sample", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "civic data jumps testing", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "test value the test jumps text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing world example text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "mat sample text output check input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick sample function example", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "hello madam lazy over check world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "python brown cat output example test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "noon jumps function example the world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over fox dog output bob test", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run text dog the mat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat check result", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat jumps example dog quick input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox text data testing the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog result input brown the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing check value brown hello cat bob", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data input output", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function code output the brown lazy", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "output test dog hello madam check over", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run testing the code jumps", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test value code jumps run jumps", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "over jumps kayak code the cat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "kayak mat world cat result", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code the data example fox", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "radar mat check the run test", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "input data mat output", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input value civic data lazy sample hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick cat civic function", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps output output kayak world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog brown quick", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick check jumps text kayak data sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog output input test test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown lazy bob python", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "value sample python refer fox", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check data jumps", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "lazy brown noon hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat fox sat value text output refer", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the level data world brown sample lazy", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "run sat world madam cat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick mat world cat fox dog refer", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "code level sat input python jumps", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "data value input lazy", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample example fox jumps civic sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat kayak mat test", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over input testing", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code test dog run over", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code sample bob code example hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog sat radar cat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat lazy the brown sat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run input world", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick code check test hello", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text example result mat run", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "cat world level input dog", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello dog code test result civic sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "noon output jumps dog", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check check jumps run mat lazy civic", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the world mat dog over radar the", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world test the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "testing lazy bob sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello brown check function the code", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick world world function quick jumps", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "input brown brown bob the hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat text lazy example mat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result data check testing sample data", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "dog fox brown input world", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "value quick quick testing kayak", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check text python cat sat radar brown", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check function jumps cat test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "jumps civic world result world hello", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check mat testing dog code cat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code jumps run radar", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample world result the code civic", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sat fox cat code data code", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown quick python sample refer python sat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "over lazy text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data over python radar sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox text code input brown", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "kayak value test the sat over", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat result world testing sat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code code lazy quick", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat lazy dog", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "python over text code madam", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps hello level lazy", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "dog cat python code sample the", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function run cat run hello sample", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text text function lazy function input", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "code run fox kayak the", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick hello lazy civic input result", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "jumps sample the level", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "result the check over check noon", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "fox python bob jumps sat input", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "civic over input data", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello fox kayak dog check", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "mat jumps sat output fox", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "test lazy radar cat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "example refer input dog output sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "noon check function run check", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "function brown result", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sample cat over", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "run python sample function madam cat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text run jumps example mat mat refer", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello check code function value", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "the function value mat quick test", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown code world", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "text sample dog", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "kayak world data jumps", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello cat quick value dog sat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "fox output lazy", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "bob jumps world python world lazy", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "sample dog madam function sample dog mat", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "world test the the python run", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "sat level sample input value", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "cat cat result output", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check data brown world mat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "result code output kayak output", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "the check world hello value", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "function sample run quick", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "civic world example test world", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "text code brown example mat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data example mat", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "example lazy jumps function world fox", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "check python function text dog text", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "data value code testing madam test", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "check text testing kayak", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "level result result hello data sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick over jumps mat sample", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "world dog function", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "quick testing sample over refer", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "quick civic fox quick sample", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "brown test output data function radar", "label": true, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": true, "correct": true}}
+{"input": "hello over quick sat quick", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}
+{"input": "brown testing test dog", "label": false, "rule_id": "symmetric_word_pattern_claude_002", "metadata": {"expected_label": false, "correct": true}}

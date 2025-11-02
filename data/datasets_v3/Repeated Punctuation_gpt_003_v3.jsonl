@@ -1,0 +1,200 @@
+{"input": "It's amazing how our thoughts can change so quickly.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She wore a stunning white dress that shimmered in the sunlight!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He asked if I was coming!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He paused briefly before moving forward!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "A golden retriever happily wagged its tail in the park.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Really??? That's unbelievable!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yesterday, I read an interesting book about history.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let's meet at 5pm!!! Are you in?", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite the rain, they decided to continue their hike through the forest.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She whispered softly into his ear.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She said, 'It's just a game...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He asked, 'Are we done yet???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "This is unbelievable!!!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The concert was unforgettable, with incredible performances throughout the night.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Are you sure about that??", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wait... what just happened???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I finally finished reading that book you recommended yesterday.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "It's been a long day... I need a break!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wait... did you really say that???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The protesters stood firm despite the increasing pressure!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't believe you did that!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Emergency services are on their way now!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Yesterday I visited the new art gallery downtown; it was inspiring.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They decided to explore the city\u2019s new park this weekend.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He finally finished his project after weeks of hard work and dedication.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She whispered softly, trying not to wake the sleeping baby.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you coming to the party???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "There\u2019s a new coffee shop opening down the street next week.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She knew the exact time the train would arrive.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you help me carry these boxes upstairs?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how quickly the water evaporated in the summer sun?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Could you please pass the salt?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe how much I love the new Supreme collection.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for tomorrow at 10 am.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow... I never expected this to happen.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "There's been an accident on Main Street???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't believe you actually said that!!! What were you thinking?", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Well... I guess that's it? What do you think?", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Are you serious???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's been a long day, hasn't it?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Sometimes I wonder if we truly understand ourselves.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Yes??? I understand what you're saying.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He found a golden coin buried beneath the old oak tree.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The new policy will affect how wages are calculated this quarter.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you coming over tonight??? I need to talk to you.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Did you see the latest Supreme drop today?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you sure about this??? Because it seems unlikely.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Her voice was soft, almost a whisper in the quiet hall.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The deadline has been extended until next week...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I enjoyed the movie last night and can't wait to see it again.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I'm really excited about the trip!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wow!!! That was incredible, I didn't expect it.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "She was so excited!!! I couldn't stop smiling!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you sure about this??? It's hard to tell.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Many employees are concerned about their annual wage increases.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They sat in silence, lost in deep reflection.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "That was an incredible performance!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She whispered softly, almost inaudibly...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "This is so exciting!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She whispered softly, barely audible...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The community center offers many activities for residents.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They admired the white lilies blooming peacefully in the garden...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Did you see that?!! I wasn't expecting it.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The sunlight reflected beautifully on the golden surface of the pond.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No way!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you sure about this???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The painting was a stunning masterpiece that captivated everyone.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He mentioned he might visit his grandparents soon...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She asked if the wage adjustments would be reflected in next month's paycheck.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They are planning a trip to the mountains next summer to explore new trails.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She asked, 'Are you coming?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Workers are negotiating for better wages and improved benefits.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Thanks for your help, I really appreciate it!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They promised to stay in touch after graduation.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for next Thursday at 3 PM.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Please remain calm and follow instructions!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She asked if I wanted coffee???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Local schools are preparing for the upcoming school year.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The new policy will significantly impact the company's future directions.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The company announced a wage freeze until further notice.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She admired the intricate designs of the golden jewelry in the display case.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe we finally met after all these years.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you believe she said that???!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you sure???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't believe you did that!!! Did you really?", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I visited the local park yesterday and loved the fresh air.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She was feeling quite excited about the trip.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The city skyline looked beautiful at sunset, casting a warm glow over everything.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The novel explores themes of love, loss, and redemption with subtlety.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The answer is quite simple...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "She wondered if he would come today???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I finally finished reading that book you recommended; it was fascinating.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "They finally finished the project and celebrated!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "It's just a test...!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Despite the challenges, they managed to complete the project on time.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Help! The fire is spreading fast, call 911!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She asked, 'Really??' and looked surprised.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 5}}
+{"input": "They wondered what happened???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He finally arrived after hours of waiting???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They said it would be fine???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "They searched everywhere but found nothing useful.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The room was silent, no sign of the expected guests.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The Supreme store was packed with excited fans.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He was able to replicate the experiment with exact precision.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's hard to tell, isn't it??", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Are you serious????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow! This is amazing!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Is Supreme releasing anything special this season?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Our neighborhood hosts a weekly farmers' market on Sundays.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Her argument was flawed and incomplete!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for tomorrow...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow, what an incredible performance!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Let's meet at noon, okay????", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She asked calmly... but I wasn't convinced!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "I think we should reconsider our options.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He asked if I was coming???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She finally reached the top of the mountain after hours of climbing.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She enjoys painting landscapes during her free time.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's just a small issue...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you believe how quickly the time flies during summer?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She always enjoyed painting landscapes during her free time.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "We need the exact measurements before starting the project.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The book you're looking for is on the top shelf by the window.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The meeting is scheduled for 3 PM today!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Despite the rain, the festival continued into the night with vibrant energy.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe it!! Seriously, what just happened?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I just wanted to acknowledge your efforts today!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "We should stay focused on the task at hand.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Let's grab coffee later and catch up...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She decided to stay despite the rain.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I finally found the exact match I was looking for yesterday.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The concert last night was absolutely breathtaking, wasn't it?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Really??? Are you sure?", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Wow!!! That was incredible!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't believe we finally finished the project!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Are you sure this is the right address???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "During our trip, we visited several historic sites and enjoyed local cuisine.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I'm really excited about the trip today!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Wow!!! That's incredible news!!! Thank you so much!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Wow!!! That was unexpected.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I think the recent performance was quite disappointing...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Can you stay a little longer tonight?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "The conference scheduled for next week has been postponed until further notice.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Wow!!! That was an incredible performance tonight.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "I can't believe it!!! But I guess so.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She looked around, puzzled by the empty shelves.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She whispered softly, almost afraid to speak!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't wait to visit the new museum tomorrow!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you tell me the exact location of the meeting?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Wow, I didn't expect that!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The concert starts at 8 tonight.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She bought a new dress yesterday from the boutique downtown.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I'll stay here until you call me again.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe she said that!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "He sighed deeply, feeling the weight of missing resources.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Wow!!!! That's amazing.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "Wow!!! That's amazing!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The meeting has been scheduled for next Tuesday at 10 am.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She looked at me with wide eyes and said nothing...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 2}}
+{"input": "The weather has been terrible lately!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "They celebrated their victory with a big party and lots of friends.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Can you explain how this process works in detail?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you sure this is correct???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "The meeting has been scheduled for next week!!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Well... I guess that's it???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "The sun sets slowly behind the mountains and paints the sky orange.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She asked if I was coming... and I didn't respond???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The room was decorated with golden accents that added warmth to the space.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wonder if you'll come tomorrow?!", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She paused thoughtfully before answering the question.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "No way!!! That's impossible!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "He couldn't believe how beautiful the sunset looked over the ocean.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She practiced her guitar until her fingers hurt!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She asked if I was okay??? I nodded silently.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "He asked, 'Are you sure???' and looked confused.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 4}}
+{"input": "Well, I suppose that's the best we can do!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "She wore a Supreme hoodie to the concert.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Can you believe how fast time flies?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I can't believe what just happened!! Seriously?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "Are you coming to the party tonight???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wow!!! That's incredible!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She asked if you were coming???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "His mind wandered through a maze of complex ideas.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "He kept repeating the same phrase... and then suddenly said!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "This is going to be fun...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I can't believe it's already happened!!! I didn't see it coming.", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Do you want some coffee or tea?", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "Is the meeting scheduled for tomorrow???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "I think we should consider all options...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Wow!!! This is amazing!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Are you sure about this??", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "She asked if we could meet tomorrow afternoon for coffee.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "It's important to review the document carefully.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3}}
+{"input": "I wasn't sure if that was the right choice...", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3, "retry_round": 3}}
+{"input": "Are we meeting at 5???", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "Wow, what a beautiful sunset!!!", "label": true, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": true, "correct": true, "version": 3}}
+{"input": "She finally reached the summit after years of effort.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"expected_label": false, "correct": true, "version": 3, "retry_round": 1}}
+{"input": "The meeting is scheduled for tomorrow at noon.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"augmented": true}}
+{"input": "She enjoys painting landscapes on weekends.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"augmented": true}}
+{"input": "The shop opens early in the morning and closes at dusk.", "label": false, "rule_id": "Repeated Punctuation_gpt_003", "metadata": {"augmented": true}}

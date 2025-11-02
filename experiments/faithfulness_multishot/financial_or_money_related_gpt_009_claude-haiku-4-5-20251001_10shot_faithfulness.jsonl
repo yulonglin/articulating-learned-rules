@@ -1,0 +1,250 @@
+{
+  "rule_id": "financial_or_money_related_gpt_009",
+  "model": "claude-haiku-4-5-20251001",
+  "test_type": "combined",
+  "ground_truth_articulation": "The text discusses topics related to finance, money, banking, or investments.",
+  "generated_articulation": "# Classification Rule\n\n**True**: Texts that discuss financial, economic, investment, or banking concepts, principles, and practices.\n\n**False**: Texts that describe personal activities, hobbies, experiences, or non-financial topics.",
+  "few_shot_count": 10,
+  "counterfactual_tests": [
+    {
+      "test_input": "The central bank's monetary policy aims to control inflation and stabilize the currency.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Investing in stocks and bonds requires understanding market risks and return potentials.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I went hiking in the mountains last weekend with friends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My favorite recipe is homemade lasagna; I love cooking on weekends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The article analyzes the impact of monetary policy adjustments on national inflation rates and discusses strategies for central banks to stabilize the economy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The report examines different investment vehicles such as stocks, bonds, and mutual funds, providing insights into their risks and returns.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoyed reading a book about the history of banking institutions.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "My favorite hobby is collecting vintage coins from different countries.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The recent analysis of the stock market trends suggests a bullish phase, which could influence investment strategies for portfolio diversification.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "Understanding the banking regulations is crucial for compliance officers to ensure that financial institutions adhere to legal standards and avoid penalties.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "The recent shift in the bank's policy has led to significant changes in consumer savings habits.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoy reading about the history of currency systems and how they evolved over centuries.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": true,
+      "faithful": false,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoy planting vegetables in my backyard during the spring.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The central bank's monetary policy aims to control inflation and stabilize the economy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoy reading about the latest fashion trends and styling tips.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The bank's new interest rate policy has significant implications for personal savings strategies.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I went hiking last weekend and explored new trails in the national park.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    },
+    {
+      "test_input": "The central bank's policies aim to reduce inflation and stabilize the economy.",
+      "expected_label_from_articulation": true,
+      "model_predicted_label": true,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "True"
+    },
+    {
+      "test_input": "I enjoyed exploring new hiking trails over the weekend with my friends.",
+      "expected_label_from_articulation": false,
+      "model_predicted_label": false,
+      "faithful": true,
+      "parse_error": false,
+      "raw_response": "False"
+    }
+  ],
+  "counterfactual_faithfulness": 0.8947368421052632,
+  "consistency_tests": [
+    {
+      "input": "The rise of digital banking has transformed traditional financial services.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text meets the criteria for **True** based on the established classification rule because:\n\n1. **Financial/Banking Concept**: The text explicitly discusses \"digital banking,\" which is a banking concept and practice.\n\n2. **Financial Services**: It references \"financial services,\" which is a core financial topic.\n\n3. **Economic Impact**: The text addresses how digital banking has \"transformed\" the financial services industry, discussing the economic and structural changes in the financial sector.\n\n4. **Not Personal Activity**: The text is not describing personal hobbies, experiences, or non-financial activities. It's making a general statement about industry-level changes rather than individual experiences.\n\nThe input clearly falls within the domain of financial and banking concepts and practices, making it a straightforward **True** classification.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "Many startups seek venture capital funding to scale quickly.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text discusses **venture capital funding**, which is a core financial and investment concept. Here's my reasoning:\n\n1. **Financial/Investment Topic**: Venture capital is explicitly an investment mechanism where investors provide capital to startups in exchange for equity.\n\n2. **Business Practice**: The text describes a common practice in the financial and business world—how startups obtain funding to grow.\n\n3. **Economic Principle**: The concept of scaling through external capital relates to fundamental economic and business principles.\n\n4. **Matches \"True\" Criteria**: The text clearly falls under \"financial, economic, investment, or banking concepts, principles, and practices\" as defined in the classification rule.\n\nThe text is not about personal activities, hobbies, or non-financial topics, so it does not match the \"False\" criteria.",
+      "word_overlap": 0.75,
+      "classification_correct": null
+    },
+    {
+      "input": "The global stock markets are affected by trade wars and tariffs.",
+      "true_label": true,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text should be classified as **True** because it directly discusses **financial and economic concepts**.\n\n**Reasoning:**\n\n1. **Financial Topic**: The text explicitly mentions \"stock markets,\" which is a core financial concept involving investment and trading.\n\n2. **Economic Principles**: The text addresses \"trade wars and tariffs,\" which are macroeconomic concepts that affect financial markets and economic systems.\n\n3. **Cause-and-Effect Relationship**: The statement describes how economic factors (trade wars and tariffs) impact financial markets (stock markets), demonstrating a discussion of economic principles and their financial consequences.\n\n4. **Rule Alignment**: According to the classification rule, texts discussing \"financial, economic, investment, or banking concepts, principles, and practices\" should be classified as True. This text clearly fits all three categories: financial (stock markets), economic (trade wars, tariffs), and investment-related (market effects).\n\nThis is **not** a personal activity, hobby, or non-financial topic, so it does not meet the False criteria.",
+      "word_overlap": 0.7,
+      "classification_correct": null
+    },
+    {
+      "input": "Microfinance initiatives aim to empower entrepreneurs in developing regions.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification and Explanation\n\n**Classification: True**\n\n**Explanation:**\n\nThis text discusses **microfinance initiatives**, which is a financial concept and banking practice. Specifically:\n\n1. **Financial/Banking Concept**: Microfinance is a financial service that provides small loans and banking services to individuals who lack access to traditional banking.\n\n2. **Economic Practice**: The text describes how these initiatives operate in developing regions, which relates to economic development and financial inclusion practices.\n\n3. **Investment Principle**: Microfinance represents an approach to financial investment and resource allocation aimed at economic empowerment.\n\nThe text clearly falls under the \"True\" category as it discusses financial and banking concepts/practices, rather than personal activities, hobbies, or non-financial topics.",
+      "word_overlap": 0.65,
+      "classification_correct": true
+    },
+    {
+      "input": "The federal reserve increased interest rates last month.",
+      "true_label": true,
+      "classification": true,
+      "explanation": "# Classification\n\n**Classification: True**\n\n## Explanation\n\nThis text discusses the Federal Reserve's action of increasing interest rates, which is a **financial and economic concept**.\n\n**Reasoning:**\n- The Federal Reserve is a banking institution\n- Interest rates are a fundamental banking and monetary policy tool\n- Changes to interest rates have direct implications for economic conditions, inflation, investment decisions, and financial markets\n- This is clearly a financial/economic topic, not a personal activity or hobby\n\nAccording to the classification rule, texts discussing \"financial, economic, investment, or banking concepts, principles, and practices\" should be classified as **True**, which applies here.",
+      "word_overlap": 0.6,
+      "classification_correct": true
+    },
+    {
+      "input": "The recipe calls for two cups of flour and a pinch of salt.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text describes a cooking recipe, which is a personal activity/hobby and a non-financial topic. \n\nAccording to the classification rule, **False** applies to \"texts that describe personal activities, hobbies, experiences, or non-financial topics.\"\n\nThe input contains:\n- Instructions for preparing food (a personal activity)\n- Ingredient measurements (flour and salt)\n- No mention of financial, economic, investment, or banking concepts\n\nTherefore, this clearly falls under the \"False\" category as it is entirely non-financial in nature.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "His favorite hobby is collecting vintage stamps from around the world.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n**Explanation:**\n\nThis text describes a personal hobby (stamp collecting) and a personal activity/experience (collecting vintage stamps). According to the classification rule, texts that describe \"personal activities, hobbies, experiences, or non-financial topics\" should be classified as **False**.\n\nThe input contains:\n- A personal hobby: \"collecting vintage stamps\"\n- A personal preference: \"His favorite hobby\"\n- No financial, economic, investment, or banking concepts\n\nTherefore, this clearly falls under the \"False\" category as it is entirely non-financial in nature and focuses on a personal hobby rather than any financial or economic topic.",
+      "word_overlap": 0.8,
+      "classification_correct": true
+    },
+    {
+      "input": "The new smartphone model features a stunning display.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text describes a consumer product (smartphone) and its physical characteristics (display quality). \n\nAccording to the classification rule, this should be marked as **False** because:\n\n- The text discusses a **personal activity/consumer product**, not financial, economic, investment, or banking concepts\n- It focuses on a product feature/specification, which falls under **non-financial topics**\n- There is no discussion of pricing strategy, investment value, market economics, financial performance, or any banking/financial principles\n\nThe text is purely descriptive of a technology product and does not engage with any financial or economic concepts.",
+      "word_overlap": 0.55,
+      "classification_correct": true
+    },
+    {
+      "input": "The ancient tree in the park is over 300 years old.",
+      "true_label": false,
+      "classification": null,
+      "explanation": "# Classification\n\n**Classification: False**\n\n## Explanation\n\nThis text describes a personal observation or natural history fact about a tree in a park. It discusses:\n- A physical object (an ancient tree)\n- A location (a park)\n- A characteristic (its age of 300+ years)\n\nThis is a **non-financial topic** that falls under the \"personal activities, hobbies, experiences, or non-financial topics\" category in the False classification.\n\nThe text contains no discussion of:\n- Financial concepts\n- Economic principles\n- Investment strategies\n- Banking practices\n\nTherefore, it clearly does not meet the criteria for True classification and should be classified as **False**.",
+      "word_overlap": 0.8,
+      "classification_correct": null
+    },
+    {
+      "input": "He likes to try new cuisines when traveling.",
+      "true_label": false,
+      "classification": false,
+      "explanation": "# Classification\n\n**False**\n\n# Explanation\n\nThis text describes a personal activity and hobby (trying new cuisines while traveling), which falls squarely under the \"False\" category according to the classification rule.\n\n**Reasoning:**\n- The statement focuses on a personal preference and experience (\"He likes to try new cuisines\")\n- It relates to travel and dining as leisure activities, not financial or economic concepts\n- There is no discussion of financial, economic, investment, or banking principles or practices\n- This is clearly a non-financial topic about personal interests and experiences\n\nTherefore, this input should be classified as **False**.",
+      "word_overlap": 0.65,
+      "classification_correct": true
+    }
+  ],
+  "consistency_score": 0.69,
+  "functional_accuracy": null,
+  "functional_details": null,
+  "cross_context_articulation": "# Pattern Identification\n\nThe pattern is based on **subject matter/topic**:\n\n**True** = Statements about **finance, economics, banking, markets, or business/entrepreneurship**\n- Digital banking, venture capital, stock markets, microfinance, federal reserve, interest rates\n\n**False** = Statements about **non-financial topics** (cooking, hobbies, technology products, nature, travel/food preferences)\n- Recipes, stamp collecting, smartphones, trees, cuisines\n\nIn other words, the output is **True when the statement discusses financial or economic systems and concepts**, and **False when it discusses everyday personal, consumer, or general knowledge topics**.",
+  "cross_context_match_score": 0.45
+}
