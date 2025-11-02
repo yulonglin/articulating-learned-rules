@@ -25,7 +25,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Callable, Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from tqdm.asyncio import tqdm as async_tqdm
 
 from src.api_caller import Message, create_caller, CacheMode
@@ -40,6 +40,8 @@ from src.utils import save_jsonl, save_yaml, set_random_seed
 
 class Rule(BaseModel):
     """Classification rule definition."""
+    model_config = ConfigDict(extra="ignore")
+
     rule_id: str
     rule_name: str  # Use rule_name from curated file
     articulation: str  # Use articulation as description
@@ -1932,7 +1934,7 @@ class LLMGenerator(InputGenerator):
 
         prompt = f"""Generate {num_samples} diverse text examples that {label_str} this rule:
 
-Rule: {self.rule.description}
+Rule: {self.rule.articulation}
 
 Requirements:
 - Each example should be a short phrase or sentence (5-30 words)
@@ -1989,7 +1991,7 @@ Example format: ["example 1", "example 2", ...]"""
         if batch_type == "edge_case":
             prompt = f"""Generate {batch_size} text examples that {label_str} this rule:
 
-Rule: {self.rule.description}
+Rule: {self.rule.articulation}
 
 IMPORTANT: Focus on edge cases and boundary conditions.
 
@@ -2004,12 +2006,19 @@ Requirements:
 - Natural and realistic despite being edge cases
 - Diverse within this batch
 
-Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+CRITICAL FORMATTING REQUIREMENTS:
+1. Return ONLY a clean JSON array of strings with NO comments, NO explanations, NO annotations.
+2. DO NOT mention or hint at the classification rule in the text itself.
+3. Examples should be natural and not self-referential about their characteristics.
+4. Avoid phrases that describe or hint at uppercase/lowercase, punctuation patterns, word patterns, semantic content, or other rule features.
+5. Generate realistic text that happens to match/not match the rule, but does not explicitly describe those features.
+
+Format: ["example 1", "example 2", ...]"""
 
         elif batch_type == "diversity":
             prompt = f"""Generate {batch_size} HIGHLY DIVERSE text examples that {label_str} this rule:
 
-Rule: {self.rule.description}
+Rule: {self.rule.articulation}
 
 IMPORTANT: Maximize diversity within this batch.
 
@@ -2024,20 +2033,34 @@ Requirements:
 - Natural and realistic
 - Avoid any repetitive patterns within this batch
 
-Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+CRITICAL FORMATTING REQUIREMENTS:
+1. Return ONLY a clean JSON array of strings with NO comments, NO explanations, NO annotations.
+2. DO NOT mention or hint at the classification rule in the text itself.
+3. Examples should be natural and not self-referential about their characteristics.
+4. Avoid phrases that describe or hint at uppercase/lowercase, punctuation patterns, word patterns, semantic content, or other rule features.
+5. Generate realistic text that happens to match/not match the rule, but does not explicitly describe those features.
+
+Format: ["example 1", "example 2", ...]"""
 
         else:  # themed
             theme_instruction = f"\n\nContext/Theme: All examples should relate to '{theme}'" if theme else ""
             prompt = f"""Generate {batch_size} text examples that {label_str} this rule:
 
-Rule: {self.rule.description}{theme_instruction}
+Rule: {self.rule.articulation}{theme_instruction}
 
 Requirements:
 - Each example: 5-30 words
 - Natural and realistic
 - Diverse within this batch
 
-Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
+CRITICAL FORMATTING REQUIREMENTS:
+1. Return ONLY a clean JSON array of strings with NO comments, NO explanations, NO annotations.
+2. DO NOT mention or hint at the classification rule in the text itself.
+3. Examples should be natural and not self-referential about their characteristics.
+4. Avoid phrases that describe or hint at uppercase/lowercase, punctuation patterns, word patterns, semantic content, or other rule features.
+5. Generate realistic text that happens to match/not match the rule, but does not explicitly describe those features.
+
+Format: ["example 1", "example 2", ...]"""
 
         # Create caller with specific temperature
         temp_caller = create_caller(
@@ -2061,11 +2084,39 @@ Return ONLY a JSON array of strings: ["example 1", "example 2", ...]"""
             examples = json.loads(content)
             if not isinstance(examples, list):
                 raise ValueError("Response is not a list")
-            return [str(ex) for ex in examples[:batch_size]]
+            # Clean examples: remove any inline comments or explanatory text
+            cleaned_examples = []
+            for ex in examples[:batch_size]:
+                ex_str = str(ex)
+                # Remove inline // comments
+                if "//" in ex_str:
+                    ex_str = ex_str.split("//")[0]
+                # Remove inline # comments (sometimes used)
+                if "#" in ex_str:
+                    # Only remove if # appears after some content (not at start)
+                    if not ex_str.strip().startswith("#"):
+                        ex_str = ex_str.split("#")[0]
+                # Clean up trailing/leading whitespace and quotes
+                ex_str = ex_str.strip(' "\'\\,')
+                if ex_str and len(ex_str) > 0:
+                    cleaned_examples.append(ex_str)
+            return cleaned_examples
         except (json.JSONDecodeError, ValueError) as e:
-            # Fallback: split by newlines
+            # Fallback: split by newlines and clean thoroughly
             lines = [line.strip(' "[],-') for line in content.split("\n") if line.strip()]
-            return [line for line in lines if line and not line.startswith("//")][:batch_size]
+            cleaned_lines = []
+            for line in lines:
+                if not line or line.startswith("//") or line.startswith("#"):
+                    continue
+                # Remove inline comments
+                if "//" in line:
+                    line = line.split("//")[0]
+                if "#" in line and not line.strip().startswith("#"):
+                    line = line.split("#")[0]
+                line = line.strip(' "\'\\,')
+                if line and len(line) > 0:
+                    cleaned_lines.append(line)
+            return cleaned_lines[:batch_size]
 
 
 class LLMEvaluator:
@@ -2089,7 +2140,7 @@ class LLMEvaluator:
         """Evaluate a single input using LLM."""
         prompt = f"""Does the following text match this rule?
 
-Rule: {self.rule.description}
+Rule: {self.rule.articulation}
 
 Text: {text}
 
@@ -2521,12 +2572,112 @@ class DatasetGenerator:
                     "actual": actual_label,
                 })
 
+        # Check if we need to regenerate to meet target counts
+        actual_positive = sum(1 for s in samples if s.label)
+        actual_negative = len(samples) - actual_positive
+        target_per_label = 100  # Target 100 of each
+        max_retry_rounds = 5  # Increased from 3 to 5 for better coverage
+
+        retry_round = 0
+        while (actual_positive < target_per_label or actual_negative < target_per_label) and retry_round < max_retry_rounds:
+            retry_round += 1
+            needed_positive = max(0, target_per_label - actual_positive)
+            needed_negative = max(0, target_per_label - actual_negative)
+
+            if needed_positive == 0 and needed_negative == 0:
+                break
+
+            print(f"  Retry round {retry_round}: Need {needed_positive} more positive, {needed_negative} more negative")
+
+            # Generate additional batches for labels that need more
+            retry_tasks = []
+
+            if needed_positive > 0:
+                num_batches_needed = (needed_positive + batch_size - 1) // batch_size  # Ceiling division
+                for i in range(num_batches_needed):
+                    temp = rng.uniform(*temp_range)
+                    # Alternate between edge, diversity, and themed
+                    if i % 3 == 0:
+                        retry_tasks.append(("positive", generator.generate_batch_v3(batch_size, True, "edge_case", temperature=temp)))
+                    elif i % 3 == 1:
+                        retry_tasks.append(("positive", generator.generate_batch_v3(batch_size, True, "diversity", temperature=temp)))
+                    else:
+                        theme = rng.choice(generator.THEME_WORDS)
+                        retry_tasks.append(("positive", generator.generate_batch_v3(batch_size, True, "themed", theme=theme, temperature=temp)))
+
+            if needed_negative > 0:
+                num_batches_needed = (needed_negative + batch_size - 1) // batch_size
+                for i in range(num_batches_needed):
+                    temp = rng.uniform(*temp_range)
+                    if i % 3 == 0:
+                        retry_tasks.append(("negative", generator.generate_batch_v3(batch_size, False, "edge_case", temperature=temp)))
+                    elif i % 3 == 1:
+                        retry_tasks.append(("negative", generator.generate_batch_v3(batch_size, False, "diversity", temperature=temp)))
+                    else:
+                        theme = rng.choice(generator.THEME_WORDS)
+                        retry_tasks.append(("negative", generator.generate_batch_v3(batch_size, False, "themed", theme=theme, temperature=temp)))
+
+            # Run retry generation tasks
+            retry_results = await asyncio.gather(*[task for _, task in retry_tasks], return_exceptions=True)
+
+            # Process retry results
+            retry_examples = []
+            for (expected_label_str, _), result in zip(retry_tasks, retry_results):
+                expected_label = (expected_label_str == "positive")
+                if isinstance(result, Exception):
+                    continue
+                for ex in result:
+                    # Deduplicate against existing
+                    ex_lower = ex.lower().strip()
+                    if ex_lower not in seen:
+                        seen.add(ex_lower)
+                        retry_examples.append((ex, expected_label))
+
+            if not retry_examples:
+                print(f"  Retry round {retry_round}: No valid examples generated, stopping retries")
+                break
+
+            # Validate retry examples
+            retry_validation_results = await asyncio.gather(
+                *[validate_sample(text, expected) for text, expected in retry_examples]
+            )
+
+            # Add valid retry samples
+            retry_valid_count = 0
+            for text, expected_label, actual_label, error in retry_validation_results:
+                if error is None and actual_label == expected_label:
+                    samples.append(DatasetSample(
+                        input=text,
+                        label=expected_label,
+                        rule_id=rule.rule_id,
+                        metadata={
+                            "expected_label": expected_label,
+                            "correct": True,
+                            "version": 3,
+                            "retry_round": retry_round
+                        }
+                    ))
+                    retry_valid_count += 1
+                elif error is None:
+                    errors.append({
+                        "input": text,
+                        "expected": expected_label,
+                        "actual": actual_label,
+                    })
+
+            # Recalculate counts
+            actual_positive = sum(1 for s in samples if s.label)
+            actual_negative = len(samples) - actual_positive
+
+            print(f"  Retry round {retry_round}: Added {retry_valid_count} valid samples (now {actual_positive}+/{actual_negative}-)")
+
+            # Update evaluations count for retry samples
+            evaluations += len(retry_validation_results)
+
         # Shuffle samples
         random.shuffle(samples)
 
         # Calculate quality metrics
-        actual_positive = sum(1 for s in samples if s.label)
-        actual_negative = len(samples) - actual_positive
         accuracy = (evaluations - len(errors)) / evaluations if evaluations else 0.0
 
         if samples:
